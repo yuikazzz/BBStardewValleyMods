@@ -1,0 +1,25 @@
+{
+	"Format": "1.27",
+	"Changes": [
+  
+		{
+			"LogName": "scythe1",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/weapons",
+			"FromFile": "weapons.png",
+			"FromArea": {"X":112, "Y":80, "Width":16, "Height":16},
+			"ToArea": {"X":112, "Y":80, "Width":16, "Height":16}
+
+  },
+		{
+			"LogName": "scythe2",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/weapons",
+			"FromFile": "weapons.png",
+			"FromArea": {"X":80, "Y":96, "Width":16, "Height":16},
+			"ToArea": {"X":80, "Y":96, "Width":16, "Height":16},
+			 },
+]
+}

@@ -1,0 +1,63 @@
+{
+	"Format":"1.28",
+	"ConfigSchema":{
+		"WoodPanelsColour":{
+			"AllowValues":"Vanilla,Dark,Light",
+			"Default":"Vanilla"
+		},
+		"EnableCellar":{
+			"AllowValues":"true,false",
+			"Default":"true"
+		},
+		"UnlockCellarWithHouseUpgrade":{
+			"AllowValues":"true,false",
+			"Default":"false"
+		}
+	},
+	"CustomLocations":[
+		{
+			"Name":"Custom_GreenhouseCellar",
+			"FromMapFile":"assets/Greenhouse_Cellar.tmx"
+		}
+	],
+	"Changes":[
+		//load files
+		{
+			"Action":"Load",
+			"Target":"Maps/GlassPanels",
+			"FromFile":"assets/GlassPanels_{{WoodPanelsColour}}.png"
+		},
+		{
+			"Action":"Load",
+			"Target":"Maps/Greenhouse",
+			"FromFile":"assets/Greenhouse.tmx"
+		},
+		//switch background
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Greenhouse",
+			"FromFile":"assets/Background_{{season}}.tmx",
+			"PatchMode":"Overlay",
+			"ToArea":{"X":0,"Y":0,"Width":28,"Height":7}
+		},
+		//remove cellar entrance
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Greenhouse",
+			"FromFile":"assets/RemoveCellar.tmx",
+			"PatchMode":"Overlay",
+			"When":{"EnableCellar":"false"}
+		},
+		//remove cellar entrance until house upgraded
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Greenhouse",
+			"FromFile":"assets/RemoveCellar.tmx",
+			"PatchMode":"Overlay",
+			"When":{
+				"UnlockCellarWithHouseUpgrade":"true",
+				"FarmHouseUpgrade":"0,1,2"
+			}
+		}
+	]
+}

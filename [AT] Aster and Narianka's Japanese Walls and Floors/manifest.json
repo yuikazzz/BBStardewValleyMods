@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Aster and Narianka's Japanese Walls and Floors",
+  "Author": "Asterisk555 and Narianka",
+  "Version": "1.0",
+  "Description": "Alternative Textures content pack for walls and floors",
+  "UniqueID": "Asterisk.Narianka.AT.Japanese",
+  "UpdateKeys": [ "Nexus:12993@AT" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

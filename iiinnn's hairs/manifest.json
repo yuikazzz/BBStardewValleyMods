@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS]iiinnn's hairs",
+  "Author": "iiinnn",
+  "Version": "5.5.0",
+  "Description": "使用愉快.",
+  "UniqueID": "ExampleAuthor.ExampleFashionSensePack",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "5.5.0"
+  }
+}

@@ -1,0 +1,823 @@
+{
+  "Format": "1.29.0",
+  "ConfigSchema": {
+    "Scaling": {
+      "AllowValues": "24px, 32px",
+      "Default": "24px"
+    },
+    "Food": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Crops": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Scaling": "24px",
+		"Food": "true"
+      },
+      "Fields": { //Food Items
+        "194": { //Fried Egg
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "195": { //Omelet
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "196": { //Salad
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "197": { //Cheese Cauliflower
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "198": { //Baked Fish
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "199": { //Parsnip Soup
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "200": { //Vegetable Medley
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "201": { //Complete Breakfast
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "202": { //Fried Calamari
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "203": { //Strange Bun
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "204": { //Lucky Lunch
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "205": { //Fried Mushroom
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "206": { //Pizza
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "207": { //Bean Hotpot
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "208": { //Glazed Yams
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "209": { //Carp Surprise
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "210": { //Hashbrowns
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "211": { //Pancakes
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "212": { //Salmon Dinner
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "213": { //Fish Taco
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "214": { //Crispy Bass
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "215": { //Pepper Poppers
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "216": { //Bread
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "218": { //Tom Kha Soup
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "219": { //Trout Soup
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "220": { //Chocolate Cake
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "221": { //Pink Cake
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "222": { //Rhubarb Pie
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "223": { //Cookie
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "224": { //Spaghetti
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "225": { //Fried Eel
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "226": { //Spicy Eel
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "227": { //Sashimi
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "228": { //Maki Roll
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "229": { //Tortilla
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "230": { //Red Plate
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "231": { //Eggplant Parmesan
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "232": { //Rice Pudding
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "233": { //Ice Cream
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "234": { //Blueberry Tart
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "235": { //Autumn's Bounty
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "236": { //Pumpkin Soup
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "237": { //Super Meal
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "238": { //Cranberry Sauce
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "239": { //Stuffing
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "240": { //Farmer's Lunch
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "241": { //Survival Burger
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "242": { //Dish O' The Sea
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "243": { //Miner's Treat
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "244": { //Roots Platter
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "253": { //Triple Shot Espresso
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "265": { //Seafoam Pudding
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "456": { //Algae Soup
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "457": { //Pale Broth
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "604": { //Plum Pudding
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "605": { //Artichoke Dip
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "606": { //Stir Fry
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "607": { //Roasted Hazelnuts
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "608": { //Pumpkin Pie
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "609": { //Radish Salad
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "610": { //Fruit Salad
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "611": { //Blackberry Cobbler
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "612": { //Cranberry Candy
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "618": { //Bruschetta
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "648": { //Coleslaw
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "649": { //Fiddlehead Risotto
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "651": { //Poppyseed Muffin
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "727": { //Chowder
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "728": { //Fish Stew
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "729": { //Escargot
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "730": { //Lobster Bisque
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "731": { //Maple Bar
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "732": { //Crab Cakes
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "733": { //Shrimp Cocktail
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "903": { //Ginger Ale
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "904": { //Banana Pudding
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "905": { //Mango Sticky Rice
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "906": { //Poi
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "907": { //Tropical Curry
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "921": { //Squid Ink Ravioli
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        }
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Scaling": "24px",
+		"Crops": "true"
+      },
+      "Fields": { //Crops
+        "24": { //Parsnip
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "90": { //Cactus Fruit
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "188": { //Green Bean
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "190": { //Cauliflower
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "192": { //Potato
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "248": { //Garlic
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "250": { //Kale
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "252": { //Rhubarb
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "254": { //Melon
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "256": { //Tomato
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "258": { //Blueberry
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "260": { //Hot Pepper
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "262": { //Wheat
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "264": { //Radish
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "266": { //Red Cabbage
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "268": { //Starfruit
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "270": { //Corn
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "271": { //Unmilled Rice
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "272": { //Eggplant
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "274": { //Artichoke
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "276": { //Pumpkin
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "278": { //Bok Choy
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "280": { //Yam
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "282": { //Cranberries
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "284": { //Beet
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "300": { //Amaranth
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "304": { //Hops
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "376": { //Poppy
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "398": { //Grape
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "400": { //Strawberry
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "417": { //Sweet Gem Berry
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+		"421": { //Sunflower
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "433": { //Coffee Bean
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "454": { //Ancient Fruit
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "591": { //Tulip
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "593": { //Summer Spangle
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "595": { //Fairy Rose
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "597": { //Blue Jazz
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "815": { //Tea Leaves
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "830": { //Taro Root
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+		"832": { //Pineapple
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        },
+        "889": { //Qi Fruit
+          "Texture": "Mods/Lux.LSM/Objects24px"
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Scaling": "32px",
+	"Food": "true"
+      },
+      "Fields": { //Food Items
+        "194": { //Fried Egg
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "195": { //Omelet
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "196": { //Salad
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "197": { //Cheese Cauliflower
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "198": { //Baked Fish
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "199": { //Parsnip Soup
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "200": { //Vegetable Medley
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "201": { //Complete Breakfast
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "202": { //Fried Calamari
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "203": { //Strange Bun
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "204": { //Lucky Lunch
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "205": { //Fried Mushroom
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "206": { //Pizza
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "207": { //Bean Hotpot
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "208": { //Glazed Yams
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "209": { //Carp Surprise
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "210": { //Hashbrowns
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "211": { //Pancakes
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "212": { //Salmon Dinner
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "213": { //Fish Taco
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "214": { //Crispy Bass
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "215": { //Pepper Poppers
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "216": { //Bread
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "218": { //Tom Kha Soup
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "219": { //Trout Soup
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "220": { //Chocolate Cake
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "221": { //Pink Cake
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "222": { //Rhubarb Pie
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "223": { //Cookie
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "224": { //Spaghetti
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "225": { //Fried Eel
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "226": { //Spicy Eel
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "227": { //Sashimi
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "228": { //Maki Roll
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "229": { //Tortilla
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "230": { //Red Plate
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "231": { //Eggplant Parmesan
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "232": { //Rice Pudding
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "233": { //Ice Cream
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "234": { //Blueberry Tart
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "235": { //Autumn's Bounty
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "236": { //Pumpkin Soup
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "237": { //Super Meal
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "238": { //Cranberry Sauce
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "239": { //Stuffing
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "240": { //Farmer's Lunch
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "241": { //Survival Burger
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "242": { //Dish O' The Sea
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "243": { //Miner's Treat
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "244": { //Roots Platter
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "253": { //Triple Shot Espresso
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "265": { //Seafoam Pudding
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "456": { //Algae Soup
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "457": { //Pale Broth
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "604": { //Plum Pudding
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "605": { //Artichoke Dip
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "606": { //Stir Fry
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "607": { //Roasted Hazelnuts
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "608": { //Pumpkin Pie
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "609": { //Radish Salad
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "610": { //Fruit Salad
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "611": { //Blackberry Cobbler
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "612": { //Cranberry Candy
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "618": { //Bruschetta
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "648": { //Coleslaw
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "649": { //Fiddlehead Risotto
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "651": { //Poppyseed Muffin
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "727": { //Chowder
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "728": { //Fish Stew
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "729": { //Escargot
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "730": { //Lobster Bisque
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "731": { //Maple Bar
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "732": { //Crab Cakes
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "733": { //Shrimp Cocktail
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "903": { //Ginger Ale
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "904": { //Banana Pudding
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "905": { //Mango Sticky Rice
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "906": { //Poi
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "907": { //Tropical Curry
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "921": { //Squid Ink Ravioli
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        }
+      }
+    },
+	{
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "Scaling": "32px",
+	"Crops": "true"
+      },
+      "Fields": { //Crops
+        "24": { //Parsnip
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "90": { //Cactus Fruit
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "188": { //Green Bean
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "190": { //Cauliflower
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "192": { //Potato
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "248": { //Garlic
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "250": { //Kale
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "252": { //Rhubarb
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "254": { //Melon
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "256": { //Tomato
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "258": { //Blueberry
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "260": { //Hot Pepper
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "262": { //Wheat
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "264": { //Radish
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "266": { //Red Cabbage
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "268": { //Starfruit
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "270": { //Corn
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "271": { //Unmilled Rice
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "272": { //Eggplant
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "274": { //Artichoke
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "276": { //Pumpkin
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "278": { //Bok Choy
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "280": { //Yam
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "282": { //Cranberries
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "284": { //Beet
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "300": { //Amaranth
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "304": { //Hops
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "376": { //Poppy
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "398": { //Grape
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "400": { //Strawberry
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "417": { //Sweet Gem Berry
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+		"421": { //Sunflower
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "433": { //Coffee Bean
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "454": { //Ancient Fruit
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "591": { //Tulip
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "593": { //Summer Spangle
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "595": { //Fairy Rose
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "597": { //Blue Jazz
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "815": { //Tea Leaves
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "830": { //Taro Root
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+		"832": { //Pineapple
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        },
+        "889": { //Qi Fruit
+          "Texture": "Mods/Lux.LSM/Objects32px"
+        }
+      }
+    },
+
+    {
+      "Action": "Load",
+      "Target": "Mods/Lux.LSM/Objects{{Scaling}}",
+      "FromFile": "assets/{{TargetWithoutPath}}.png"
+    },
+    {
+      "Action": "EditData",
+      "Target": "{{Platonymous.ScaleUp/Assets}}",
+      "When": {
+        "Scaling": "24px"
+      },
+      "Entries": {
+        "Lux.LSM_Object": {
+          "Asset": "Mods/Lux.LSM/Objects24px",
+          "Scale": 1.5
+        }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "{{Platonymous.ScaleUp/Assets}}",
+      "When": {
+        "Scaling": "32px"
+      },
+      "Entries": {
+        "Lux.LSM_Object": {
+          "Asset": "Mods/Lux.LSM/Objects32px",
+          "Scale": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "Color": {
+            "AllowValues": "Light, Dark",
+            "Default": "Light"
+        },
+        "TileColor": {
+            "AllowValues": "bg_light, bg_medium, bg_dark",
+            "Default": "bg_light"
+        }
+    },
+    "DynamicTokens": [
+        {
+            "Name": "tile",
+            "Value": "I",
+            "When": {
+                "TileColor": "bg_light"
+            }
+        },
+        {
+            "Name": "tile",
+            "Value": "II",
+            "When": {
+                "TileColor": "bg_medium"
+            }
+        },
+        {
+            "Name": "tile",
+            "Value": "III",
+            "When": {
+                "TileColor": "bg_dark"
+            }
+        }
+    ],
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tiles_{{color}}{{tile}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tiles_{{color}}{{tile}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Content/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tiles_{{color}}{{tile}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tiles_{{color}}{{tile}}.png",
+            "FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tiles_{{color}}{{tile}}.png",
+            "FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 128 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/farmhouse_tiles",
+            "FromFile": "assets/farmhouse_tiles_{{color}}{{tile}}.png",
+            "FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        },
+	    {
+            "Action": "EditImage",
+            "FromFile": "assets/OpenFridge.png",
+            "Target": "LooseSprites/Cursors2",
+            "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+            "When": {
+                "LocationName": "FarmHouse, Cabin"
+            },
+		"Update": "OnLocationChange"
+        }
+    ]
+}

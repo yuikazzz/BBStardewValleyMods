@@ -1,0 +1,22 @@
+{
+"Format": "1.11.0",
+"Changes": 
+[
+
+	//Flame
+	{
+		"Action":"EditImage", 
+		"Target":"LooseSprites/Cursors", 
+		"FromFile":"assets/flame.png",
+		"ToArea": { "X": 276, "Y": 1965, "Width": 56,"Height": 8 }
+	},
+
+	//Torch
+	{
+		"Action":"EditImage", 
+		"Target":"Maps/springobjects", 
+		"FromFile":"assets/torch.png",
+		"ToArea": { "X": 336, "Y": 48, "Width": 16,"Height": 16 }
+	},
+]
+}

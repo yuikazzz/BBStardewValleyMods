@@ -1,0 +1,12 @@
+{
+   "Name": "Arkneru's Cutie Hats",
+   "Author": "Arkneru",
+   "Version": "1.0",
+   "Description": "Made by.Arkneru",
+   "UniqueID": "Arkneru.cutie.hats",
+	"ContentPackFor":
+	{
+		"UniqueID": "PeacefulEnd.FashionSense",
+		"MinimumVersion": "5.0.0"
+	}
+}

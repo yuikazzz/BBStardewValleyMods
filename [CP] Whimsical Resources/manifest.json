@@ -1,0 +1,11 @@
+{
+   "Name": "Wildflour's Whimsical Resources",
+   "Author": "wildflourmods",
+   "Version": "1.0",
+   "Description": "Cute pastel resources and rocks and stuff.",
+   "UniqueID": "wildflour.resources",
+   "UpdateKeys": ["nexus:15186s"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

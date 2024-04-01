@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Too Many Swatches - a Furniture Recolor",
+  "Author": "orangeblossom",
+  "Version": "1.1",
+  "Description": "...there's too many swatches...",
+  "UniqueID": "orangeblossom7.TooManySwatchesFurnitureRecolor",
+  "UpdateKeys": ["Nexus:17031"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "1.0.0"
+  }
+}

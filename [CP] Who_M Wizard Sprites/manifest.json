@@ -1,0 +1,19 @@
+{
+  "Name": "Who's Wizard Sprites CP",
+  "Author": "Who_M",
+  "Version": "1.0.2",
+  "Description": "smile",
+  "UniqueID": "WizardSprites.Who_M",
+  "UpdateKeys": [ "Nexus:5069" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+		   
+  { "UniqueID": "FlashShifter.StardewValleyExpandedCP" ,
+           "IsRequired": false},
+		   
+  { "UniqueID": "foggy.LfL" ,
+           "IsRequired": false},
+  ]
+}

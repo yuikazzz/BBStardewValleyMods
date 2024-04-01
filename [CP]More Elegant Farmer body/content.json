@@ -1,0 +1,81 @@
+{
+	"Format": "2.0.0",
+	"ConfigSchema": {
+		"Available": {"AllowValues": "true,false",
+                "Default": "true"},
+                                "Female": {"AllowValues": "true,false",
+                "Default": "true"},
+                                "Male": {"AllowValues": "true,false",
+                "Default": "true"},
+                                "F-sleeve":{"AllowValues": "normal,long,none,big",
+                "Default": "normal"},
+                                "F-body":{"AllowValues": "shoe1,shoe2,shoe3",
+                "Default": "shoe1"},
+                                "M-sleeve":{"AllowValues": "normal,long,none,big",
+                "Default": "normal"},
+                                "M-body":{"AllowValues": "shoe1,shoe2,shoe3",
+                "Default": "shoe1"},
+				                "F-bathrobe":{"AllowValues": "1,2,3",
+                "Default": "3"},
+				                "M-bathrobe":{"AllowValues": "1,2,3",
+                "Default": "3"}
+                        },
+"Changes": [
+	     {
+	      "Action": "EditImage",
+	      "Target": "Characters/Farmer/farmer_girl_base",
+	      "FromFile": "assets/Female/body/{{F-body}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+	      "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+	      "When":{"Available":"true",
+                  "Female":"true" }
+             }, 
+	     {
+          "Action": "EditImage",
+	      "Target": "Characters/Farmer/farmer_girl_base",
+	      "FromFile": "assets/Female/sleeve/{{F-sleeve}}.png",
+	      "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 672 },
+	      "ToArea": { "X": 96, "Y": 0, "Width": 192, "Height": 672 },
+	      "When":{"Available":"true",
+                  "Female":"true" }
+             },
+          {
+	      "Action": "EditImage",
+	      "PatchMode": "Overlay",
+		  "Target": "Characters/Farmer/farmer_girl_base",
+	      "FromFile": "assets/Female/bathrobe/{{F-bathrobe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 },
+	      "ToArea": { "X": 0, "Y": 576, "Width": 48, "Height": 96 },
+	      "When":{"Available":"true",
+                  "Female":"true" }
+             }, 
+		  {
+	      "Action": "EditImage",
+	      "Target": "Characters/Farmer/farmer_base",
+	      "FromFile": "assets/Male/body/{{M-body}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+	      "ToArea": { "X": 0, "Y": 0, "Width": 96, "Height": 672 },
+	      "When":{"Available":"true",
+                  "Male":"true" }
+             }, 
+		  {
+          "Action": "EditImage",
+	      "Target": "Characters/Farmer/farmer_base",
+	      "FromFile": "assets/Male/sleeve/{{M-sleeve}}.png",
+	      "FromArea": { "X": 0, "Y": 0, "Width": 192, "Height": 672 },
+	      "ToArea": { "X": 96, "Y": 0, "Width": 192, "Height": 672 },
+	      "When":{"Available":"true",
+                  "Male":"true" }
+             },
+	      {
+		  "Action": "EditImage",
+	      "PatchMode": "Overlay",
+		  "Target": "Characters/Farmer/farmer_base",
+	      "FromFile": "assets/Male/bathrobe/{{M-bathrobe}}.png",
+          "FromArea": { "X": 0, "Y": 0, "Width": 48, "Height": 96 },
+	      "ToArea": { "X": 0, "Y": 576, "Width": 48, "Height": 96 },
+	      "When":{"Available":"true",
+                  "Male":"true" }
+             }
+	    ]
+}

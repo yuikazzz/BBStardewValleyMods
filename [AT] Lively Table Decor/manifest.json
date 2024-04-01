@@ -1,0 +1,14 @@
+{
+    "Name": "[AT] Lively Table Decor",
+    "Author": "KatyDTK",
+    "Version": "1.0.0",
+    "Description": "Cute table decors",
+    "UniqueID": "KatyDTK.ATLivelyTableDecor",
+    "UpdateKeys": [],
+    "Dependencies": [],
+    "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+      "MinimumVersion": "3.3.2"
+    }
+  }
+  

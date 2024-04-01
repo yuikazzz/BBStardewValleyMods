@@ -1,0 +1,10 @@
+{
+    "Name": "Elegant Craftables",
+    "Author": "Colling",
+    "Version": "1.0.3",
+    "MinimumApiVersion": "1.0.0",
+    "Description": "Elegant craftables",
+    "UpdateKeys":["Nexus:11693"],
+    "UniqueID": "Colling.Craftables",
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

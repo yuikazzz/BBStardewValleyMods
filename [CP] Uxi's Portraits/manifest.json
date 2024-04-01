@@ -1,0 +1,11 @@
+{
+   "Name": "UXI's Cute Anime Style Portraits",
+   "Author": "Uxi9876",
+   "Version": "1.1.0",
+   "Description": "Replaces Portraits",
+   "UniqueID": "UXI.Portraits",
+   "UpdateKeys": [ "Nexus:21106" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	   }
+}

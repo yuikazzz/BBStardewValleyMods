@@ -1,0 +1,179 @@
+{
+  "ItemName": "Floor",
+  "Type": "Decoration",
+  "Seasons": ["Spring", "Fall", "Winter", "Summer"],
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "1" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "2" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "3" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "4" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "5" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "6" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "7" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "8" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "9" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "10" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "11" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "12" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "13" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "14" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "15" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "16" ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "17" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "18" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "19" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "20" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "21" ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "22" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "23" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "24" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "25" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "26" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "27" ]
+    },
+	{
+      "Id": 27,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "28" ]
+    },
+	{
+      "Id": 28,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "29" ]
+    },
+	{
+      "Id": 29,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "30" ]
+    },
+	{
+      "Id": 30,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "31" ]
+    },
+	{
+      "Id": 31,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "32" ]
+    },
+	{
+      "Id": 32,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "33" ]
+    },
+	{
+      "Id": 33,
+      "ChanceWeight": 0.1,
+	  "Keywords": [ "34" ]
+    }
+	]
+}

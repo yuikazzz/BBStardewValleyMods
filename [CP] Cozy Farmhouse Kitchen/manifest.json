@@ -1,0 +1,31 @@
+{
+   "Name": "Cozy Farmhouse Kitchen",
+   "Author": "Alvadea",
+   "Version": "2.0.0",
+   "Description": "A cozy new kitchen",
+   "UniqueID": "Alvadea.CozyFarmhouseKitchen",
+   "MinimumApiVersion": "4.0.0",
+   "UpdateKeys": [ "Nexus:10473" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0" 
+   },
+   "Dependencies": [
+      {
+          "UniqueID": "DaisyNiko.EarthyInteriors",
+          "IsRequired": false
+      },
+      {
+         "UniqueID": "Lita.StarblueValley",
+         "IsRequired": false
+     },
+     {
+         "UniqueID": "grapeponta.VibrantPastoralRecolor",
+         "IsRequired": false
+     },
+     {
+         "UniqueID": "vamoosi.RosierColoredGlasses",
+         "IsRequired": false
+     }
+   ]
+}

@@ -1,0 +1,54 @@
+{
+  "Format": "1.13",
+ "Changes": [
+            {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 64, "Y": 0, "Width": 16, "Height": 16 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 80, "Y": 112, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 80, "Y": 112, "Width": 16, "Height": 16 }
+       },
+       {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 96, "Y": 112, "Width": 16, "Height": 16 }
+       },
+        {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16 }
+       },
+        {
+          "Action": "EditImage",
+          "Target": "TileSheets/weapons",
+          "FromFile": "assets/weapons.png",
+          "FromArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 },
+          "ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 }
+       },
+    ] 
+}

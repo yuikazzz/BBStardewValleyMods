@@ -1,0 +1,15 @@
+{
+  "Name": "Who's Wizard Portrait P",
+  "Author": "Who_M",
+  "Version": "1.3",
+  "Description": "smile",
+  "UniqueID": "WizardPortrait.Who_M",
+  "ContentPackFor": {
+    "UniqueID": "Platonymous.Portraiture"
+  },
+  "Dependencies": [
+		   
+    { "UniqueID": "Platonymous.Portraiture" ,
+           "IsRequired": true},
+  ]
+}

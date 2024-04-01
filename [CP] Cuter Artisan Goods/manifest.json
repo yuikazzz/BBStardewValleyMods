@@ -1,0 +1,10 @@
+{
+   "Name": "Cuter Artisan Goods",
+   "Author": "wildflourmods",
+   "Version": "3.0",
+   "Description": "cuter artisan goods and animal products",
+   "UniqueID": "wildflour.CuterArtisanGoods",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS]Yomi's Cute Princess Dress",
+  "Author": "Yomi",
+  "Version": "1.0.0",
+  "Description": "Converts Yomi skirts to FS.",
+  "UniqueID": "Yomi.Cute.Princess.Dress",
+  "UpdateKeys": [ "" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}
