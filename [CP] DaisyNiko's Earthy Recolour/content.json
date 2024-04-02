@@ -1,5 +1,5 @@
 {
-    "Format": "1.8",
+    "Format": "2.0.0",
     "ConfigSchema": {
         "enableGrass": {
             "AllowValues": "true, false",
@@ -9,9 +9,21 @@
             "AllowValues": "true, false",
             "Default": "true"
         },
+        "enableFruitTrees":{
+            "AllowValues":"true,false",
+            "Default":"true"
+        },
         "enableMiniMap":{
             "AllowValues":"true, false",
             "Default":"true"
+        },
+        "enableTownBuildings":{
+            "AllowValues":"true, false",
+            "Default":"true"
+        },
+        "treesVersion":{
+            "AllowValues":"vanilla,new",
+            "Default":"new"
         },
         "winterTilledSoil":{
             "AllowValues":"brown,blue",
@@ -42,6 +54,13 @@
             "Target": "TileSheets/bushes",
             "FromFile": "assets/{{Target}}.png"
         },
+        //chair tiles
+        {
+            "Action":"EditImage",
+            "Target":"Tilesheets/ChairTiles",
+            "FromFile":"assets/{{Target}}.png",
+            "PatchMode":"Overlay"
+        },
         //cursors overlay
         {
             "Action": "EditImage",
@@ -65,6 +84,13 @@
             "ToArea": {"X": 0,"Y": 2000,"Width": 640,"Height": 256},
             "PatchMode": "Replace"
         },
+        //cursors 1.6
+        {
+            "Action":"EditImage",
+            "Target":"LooseSprites/cursors_1_6",
+            "FromFile":"assets/{{Target}}.png",
+            "PatchMode":"Overlay"
+        },
         // debris overlay
         {
             "Action":"EditImage",
@@ -85,7 +111,6 @@
             "Action": "EditImage",
             "Target": "Maps/DesertTiles",
             "FromFile": "assets/{{Target}}_tree.png",
-            "PatchMode": "Replace",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -97,13 +122,13 @@
                 "Y": 112,
                 "Width": 48,
                 "Height": 48
-            }
+            },
+            "When":{"treesVersion":"new"}
         },
         {
             "Action": "EditImage",
             "Target": "Maps/DesertTiles",
             "FromFile": "assets/{{Target}}_tree.png",
-            "PatchMode": "Replace",
             "FromArea": {
                 "X": 16,
                 "Y": 48,
@@ -115,7 +140,8 @@
                 "Y": 160,
                 "Width": 16,
                 "Height": 32
-            }
+            },
+            "When":{"treesVersion":"new"}
         },
         //desert caravan shop
         {
@@ -123,6 +149,51 @@
             "Target": "LooseSprites/temporary_sprites_1",
             "FromFile": "assets/{{Target}}.png",
             "PatchMode": "Overlay"
+        },
+        //desert festival
+        {
+            "Action":"EditImage",
+            "Target":"Maps/desert_festival_tilesheet",
+            "FromFile":"assets/{{Target}}.png",
+            "PatchMode":"Overlay"
+        },
+        //desert festival palm tree
+        {
+            "Action":"EditImage",
+            "Target":"Maps/desert_festival_tilesheet",
+            "FromFile":"assets/Maps/DesertTiles_tree.png",
+            "FromArea":{
+                "X":0,
+                "Y":0,
+                "Width":48,
+                "Height":64
+            },
+            "ToArea":{
+                "X":96,
+                "Y":112,
+                "Width":48,
+                "Height":64
+            },
+            "When":{"treesVersion":"new"}
+        },
+        {
+            "Action":"EditImage",
+            "Target":"Maps/desert_festival_tilesheet",
+            "FromFile":"assets/Maps/DesertTiles_tree.png",
+            "ToArea":{
+                "X":112,
+                "Y":176,
+                "Width":16,
+                "Height":16
+
+            },
+            "FromArea":{
+                "X":16,
+                "Y":64,
+                "Width":16,
+                "Height":16
+            },
+            "When":{"treesVersion":"new"}
         },
         //dig spot
         {
@@ -157,6 +228,12 @@
                 "Season": "winter"
             }
         },
+        //extra
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_outdoorTileSheet_extra, summer_outdoorTileSheet_extra, fall_outdoorTileSheet_extra, winter_outdoorTileSheet_extra",
+            "FromFile":"assets/{{Target}}.png"
+        },
         //fence (buildable)
         {
             "Action":"EditImage",
@@ -169,6 +246,13 @@
             "Target": "Maps/Festivals",
             "FromFile": "assets/{{Target}}.png",
             "PatchMode": "Overlay"
+        },
+        //fishing derby tiles
+        {
+            "Action":"EditImage",
+            "Target":"Maps/FishingDerbyTiles",
+            "FromFile":"assets/{{Target}}.png",
+            "PatchMode":"Overlay"
         },
         //grass
         {
@@ -204,44 +288,11 @@
         //minimap
         {
             "Action": "EditImage",
-            "Target": "LooseSprites/map",
-            "FromFile": "assets/LooseSprites/{{season}}_map.png",
+            "Target": "LooseSprites/map, LooseSprites/map_summer, LooseSprites/map_fall, LooseSprites/map_winter, LooseSprites/Farm_ranching_map, LooseSprites/Farm_ranching_map_summer, LooseSprites/Farm_ranching_map_fall, LooseSprites/Farm_ranching_map_winter",
+            "FromFile": "assets/{{Target}}.png",
+            "PatchMode":"Overlay",
             "When": {
                 "enableMiniMap":"true"
-            }
-        },
-        {
-            "Action": "EditImage",
-            "Target": "LooseSprites/map",
-            "FromFile": "assets/LooseSprites/{{season}}_map_sve.png",
-            "When":{                
-                "enableMiniMap":"true",
-                "HasMod": "FlashShifter.StardewValleyExpandedCP"
-            }
-        },
-        //minimap grandpa's farm edit
-        {
-            "Action":"EditImage",
-            "Target":"LooseSprites/map",
-            "FromFile":"assets/LooseSprites/{{season}}_map_grandpasfarm.png",
-            "PatchMode":"Overlay",
-            "ToArea":{"X": 58, "Y": 51, "Width": 91, "Height": 59},
-            "When":{
-                "enableMiniMap":"true",
-                "FarmType":"Standard",
-                "HasMod":"flashshifter.GrandpasFarm"
-            }
-        },
-        //minimap boarding house edit
-        {
-            "Action":"EditImage",
-            "Target":"LooseSprites/map",
-            "PathMode":"Overlay",
-            "FromFile":"assets/LooseSprites/{{season}}_map_boardinghouse.png",
-            "ToArea": { "X": 99, "Y": 16, "Width": 53, "Height": 37 },
-            "When":{
-                "enableMiniMap":"true",
-                "HasMod":"CPBoardingHouse"
             }
         },
         //marnie luau edit
@@ -263,17 +314,61 @@
             "Target":"Maps/night_market_tilesheet_objects",
             "FromFile":"assets/{{Target}}.png"
         },
-        //outdoors replace
+        //outdoors overlay
         {
             "Action": "EditImage",
             "Target": "Maps/spring_outdoorsTileSheet, Maps/summer_outdoorsTileSheet, Maps/fall_outdoorsTileSheet, Maps/winter_outdoorsTileSheet",
-            "FromFile": "assets/{{Target}}.png"
+            "FromFile": "assets/{{Target}}.png",
+            "PatchMode":"Overlay"
+        },
+        //outdoors bathhouse glass replace
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_outdoorsTileSheet, Maps/summer_outdoorsTileSheet, Maps/fall_outdoorsTileSheet, Maps/winter_outdoorsTileSheet",
+            "FromFile":"assets/{{Target}}_bathhouseGlass.png",
+            "ToArea":{
+                "X":0,
+                "Y":860,
+                "Width":256,
+                "Height":37
+            }
+        },
+        //outdoors trees replace
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_outdoorsTileSheet, Maps/summer_outdoorsTileSheet, Maps/fall_outdoorsTileSheet",
+            "FromFile":"assets/{{Target}}_trees.png",
+            "ToArea":{
+                "X":0,
+                "Y":0,
+                "Width":208,
+                "Height":96
+            },
+            "FromArea":{
+                "X":0,
+                "Y":0,
+                "Width":208,
+                "Height":96
+            },
+            "When":{"treesVersion":"new"}
         },
         //outdoors2 replace
         {
             "Action": "EditImage",
             "Target": "Maps/spring_outdoorsTileSheet2, Maps/summer_outdoorsTileSheet2, Maps/fall_outdoorsTileSheet2, Maps/winter_outdoorsTileSheet2",
             "FromFile": "assets/{{Target}}.png"
+        },
+        //outdoors extra
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_outdoorTileSheet_extra, Maps/summer_outdoorTileSheet_extra, Maps/fall_outdoorTileSheet_extra, Maps/winter_outdoorTileSheet_extra",
+            "FromFile":"assets/{{Target}}.png"
+        },
+        //pet bowls
+        {
+            "Action":"EditImage",
+            "Target":"Buildings/Pet Bowl, Buildings/Hay Pet Bowl, Buildings/Stone Pet Bowl",
+            "FromFile":"assets/{{Target}}.png"
         },
         // shipping bin
         {
@@ -288,36 +383,67 @@
             "FromFile": "assets/{{Target}}.png",
             "PatchMode": "Overlay"
         },
+        //town buildings
         {
-            "Action":"EditImage",
-            "Target":"Tilesheets/ChairTiles",
-            "FromFile":"assets/{{Target}}.png",
-            "PatchMode":"Overlay"
+            "Action": "EditImage",
+            "Target": "Maps/spring_town, Maps/summer_town, Maps/fall_town, Maps/winter_town",
+            "FromFile": "assets/{{Target}}_buildings.png",
+            "PatchMode": "Overlay",
+            "When":{"enableTownBuildings":"true"}
         },
         //trees
         {
-            "Action": "EditImage",
-            "Target": "TerrainFeatures/tree1_spring, TerrainFeatures/tree1_summer, TerrainFeatures/tree1_fall, TerrainFeatures/tree1_winter",
-            "FromFile": "assets/{{Target}}.png"
+            "Action":"EditImage",
+            "Target":"TileSheets/fruitTrees",
+            "FromFile":"assets/{{Target}}.png",
+            "When":{"enableFruitTrees":"true"}
         },
+            //tree1 (oak)
         {
             "Action": "EditImage",
-            "Target": "TerrainFeatures/tree2_spring, TerrainFeatures/tree2_summer, TerrainFeatures/tree2_fall, TerrainFeatures/tree2_winter",
-            "FromFile": "assets/{{Target}}.png"
+            "Target": "TerrainFeatures/tree1_spring, TerrainFeatures/tree1_summer, TerrainFeatures/tree1_fall, TerrainFeatures/tree1_winter, TerrainFeatures/tree1_greenRain, TerrainFeatures/tree1_greenRain_fall, TerrainFeatures/tree1_greenRain_winter",
+            "FromFile": "assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
         },
+            //tree2 (maple)
         {
             "Action": "EditImage",
-            "Target": "TerrainFeatures/tree3_spring, TerrainFeatures/tree3_fall, TerrainFeatures/tree3_winter",
-            "FromFile": "assets/{{Target}}.png"
+            "Target": "TerrainFeatures/tree2_spring, TerrainFeatures/tree2_summer, TerrainFeatures/tree2_fall, TerrainFeatures/tree2_winter, TerrainFeatures/tree2_greenRain, TerrainFeatures/tree2_greenRain_fall, TerrainFeatures/tree2_greenRain_winter",
+            "FromFile": "assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
         },
+            //tree3 (pine)
         {
             "Action": "EditImage",
-            "Target": "TerrainFeatures/tree_palm, TerrainFeatures/tree_palm2",
-            "FromFile": "assets/{{Target}}.png"
+            "Target": "TerrainFeatures/tree3_spring, TerrainFeatures/tree3_fall, TerrainFeatures/tree3_winter, TerrainFeatures/tree3_greenRain, TerrainFeatures/tree3_greenRain_fall, TerrainFeatures/tree3_greenRain_winter",
+            "FromFile": "assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
         },
+            //tree8 (mahogany)
         {
             "Action":"EditImage",
             "Target":"TerrainFeatures/tree8_spring,TerrainFeatures/tree8_summer,TerrainFeatures/tree8_fall,TerrainFeatures/tree8_winter",
+            "FromFile":"assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
+        },
+            //tree_palm
+        {
+            "Action": "EditImage",
+            "Target": "TerrainFeatures/tree_palm, TerrainFeatures/tree_palm2",
+            "FromFile": "assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
+        },
+            // mystic tree
+        {
+            "Action":"EditImage",
+            "Target":"TerrainFeatures/mystic_tree",
+            "FromFile":"assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
+        },
+            // mushroom tree
+        {
+            "Action":"EditImage",
+            "Target":"TerrainFeatures/mushroom_tree",
+            "FromFile":"assets/TerrainFeatures/{{treesVersion}}/{{TargetWithoutPath}}.png"
+        },
+        //waterfalls
+        {
+            "Action":"EditImage",
+            "Target":"Maps/spring_Waterfalls, Maps/summer_Waterfalls, Maps/fall_Waterfalls, Maps/winter_Waterfalls",
             "FromFile":"assets/{{Target}}.png"
         }
     ]

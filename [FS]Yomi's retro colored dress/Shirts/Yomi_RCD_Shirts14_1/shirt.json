@@ -1,0 +1,79 @@
+{
+  "Name": "Yomi_RCD_Shirts14_1",
+  "FrontShirt": {
+    "SleeveColors": [
+      [ 41, 41, 41 ],
+	  [ 66, 66, 66 ],
+	  [ 79, 79, 79 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  },
+  "RightShirt": {
+    "SleeveColors": [
+      [ 41, 41, 41 ],
+	  [ 66, 66, 66 ],
+	  [ 79, 79, 79 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 8
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  },
+  "LeftShirt": {
+    "SleeveColors": [
+      [ 41, 41, 41 ],
+	  [ 66, 66, 66 ],
+	  [ 79, 79, 79 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 16
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  },
+  "BackShirt": {
+    "SleeveColors": [
+      [ 41, 41, 41 ],
+	  [ 66, 66, 66 ],
+	  [ 79, 79, 79 ]
+    ],
+    "StartingPosition": {
+      "X": 0,
+      "Y": 24
+    },
+    "BodyPosition": {
+      "X": 0,
+      "Y": 0
+    },
+    "ShirtSize": {
+      "Width": 8,
+      "Length": 8
+    }
+  }
+}
