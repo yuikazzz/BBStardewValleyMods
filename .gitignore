@@ -1,6 +1,6 @@
 **/config.json
 .DS_Store
-config/
+**/config/
 ConsoleCommands/
 SaveBackup/
 _MACOSX
