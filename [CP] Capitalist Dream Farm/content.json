@@ -1,0 +1,49 @@
+{
+    "Format": "2.0.0",
+    "ConfigSchema": {
+        "version": {
+            "AllowValues": "decorated, clean",
+            "Default": "decorated"
+        },
+        "gameplay": {
+            "AllowValues": "singleplayer, multiplayer",
+            "Default": "singleplayer"
+        }
+    },
+    "Changes": [
+        //farm
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/cdf_{{version}}_{{gameplay}}.tbin",
+            "When": {
+                "FarmType": "Standard"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Farm_Greenhouse_Dirt",
+            "FromFile": "assets/Farm_Greenhouse_Dirt.tbin",
+            "When": {
+                "FarmType": "Standard"
+            }
+        },
+        
+        //strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                "cdf.1": "> Main Street^> Bus Stop",
+                "cdf.2": "@ Farm^> Bus Stop",
+                "cdf.3": "` Backwoods",
+                "cdf.4": "` Farmhouse^@ Orchard^> Fields^",
+                "cdf.5": "@ To Main Street",
+                "cdf.6": "To Greenhouse",
+                "cdf.7": "1 Main Street",
+                "cdf.8": "2 Main Street",
+                "cdf.9": "3 Main Street"
+            }
+        }
+    ]
+}

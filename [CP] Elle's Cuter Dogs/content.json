@@ -9,9 +9,9 @@
   
   "ConfigSchema": {
 	  "Dog Breeds": {
-		  "AllowValues": "Australian, AustralianFawn, AustralianBrown, AustralianRed, AustralianBlack, AustralianTricolor, AustralianVoid, Beagle, BeagleVoid, Beau, BeauHarlequin, BeauVoid, BernardFawn, BernardBrown, BernardVoid, Bernese, BerneseVoid, BorderBlonde, BorderFawn, BorderBrown, BorderRed, BorderMidnight, BorderBlack, BorderGrey, BorderSilver, BorderWhite, BorderVoid, BostonBlonde, BostonFawn, BostonBrown, BostonRed, BostonMidnight, BostonBlack, BostonGrey, BostonSilver, BostonWhite, BostonVoid, BoxerBlonde, BoxerFawn, BoxerBrown, BoxerRed, BoxerMidnight, BoxerBlack, BoxerGrey, BoxerSilver, BoxerWhite, BoxerVoid, BulldogBlonde, BulldogFawn, BulldogBrown, BulldogRed, BulldogMidnight, BulldogBlack, BulldogGrey, BulldogSilver, BulldogWhite, BulldogVoid, BullyBicolorBlonde, BullyBicolorFawn, BullyBicolorBrown, BullyBicolorRed, BullyBicolorMidnight, BullyBicolorBlack, BullyBicolorGrey, BullyBicolorSilver, BullySolidCream, BullySolidBlonde, BullySolidFawn, BullySolidBrown, BullySolidRed, BullySolidMidnight, BullySolidBlack, BullySolidGrey, BullySolidSilver, BullySolidWhite, BullySpot, BullyTricolor, BullyVoid, CharlesBicolorBlonde, CharlesBicolorFawn, CharlesBicolorBrown, CharlesBicolorRed, CharlesBicolorMidnight, CharlesBicolorBlack, CharlesBicolorGrey, CharlesBicolorSilver, CharlesSolidCream, CharlesSolidBlonde, CharlesSolidFawn, CharlesSolidBrown, CharlesSolidRed, CharlesSolidMidnight, CharlesSolidBlack, CharlesSolidGrey, CharlesSolidSilver, CharlesSolidWhite, CharlesVoid, Cocker, CockerVanilla, CockerVoid, CorgiBlonde, CorgiFawn, CorgiBrown, CorgiRed, CorgiMidnight, CorgiBlack, CorgiGrey, CorgiSilver, CorgiWhite, CorgiVoid, Dachshund, DachshundDapple, DachshundVoid, DalmatianBlonde, DalmatianFawn, DalmatianBrown, DalmatianRed, DalmatianMidnight, DalmatianBlack, DalmatianGrey, DalmatianSilver, DalmatianVoid, DaneCream, DaneBlonde, DaneFawn, DaneBrown, DaneRed, DaneMidnight, DaneBlack, DaneGrey, DaneSilver, DaneWhite, DaneVoid, Doberman, DobermanHarlequin, DobermanVoid, Foxhound, FoxhoundVoid, FrenchBlonde, FrenchFawn, FrenchBrown, FrenchRed, FrenchMidnight, FrenchBlack, FrenchGrey, FrenchSilver, FrenchWhite, FrenchVoid, GermanFawn, GermanBrown, GermanVanilla, GermanVoid, Golden, GoldenVoid, GreyhoundBicolorBlonde, GreyhoundBicolorFawn, GreyhoundBicolorBrown, GreyhoundBicolorRed, GreyhoundBicolorMidnight, GreyhoundBicolorBlack, GreyhoundBicolorGrey, GreyhoundBicolorSilver, GreyhoundSolidCream, GreyhoundSolidBlonde, GreyhoundSolidFawn, GreyhoundSolidBrown, GreyhoundSolidRed, GreyhoundSolidMidnight, GreyhoundSolidBlack, GreyhoundSolidGrey, GreyhoundSolidSilver, GreyhoundSolidWhite, GreyhoundVoid, HuskyBlonde, HuskyFawn, HuskyBrown, HuskyRed, HuskyMidnight, HuskyBlack, HuskyGrey, HuskySilver, HuskyVoid, Lab, LabVanilla, LabVoid, MalamuteBlonde, MalamuteFawn, MalamuteBrown, MalamuteRed, MalamuteMidnight, MalamuteBlack, MalamuteGrey, MalamuteSilver, MalamuteVoid, NewfyRed, NewfyMidnight, NewfyBlack, NewfyGrey, NewfyLandseer, NewfyVoid, PitBlonde, PitFawn, PitBrown, PitRed, PitMidnight, PitBlack, PitGrey, PitSilver, PitWhite, PitVoid, PoodleCream, PoodleBlonde, PoodleFawn, PoodleBrown, PoodleRed, PoodleMidnight, PoodleBlack, PoodleGrey, PoodleSilver, PoodleWhite, PoodleVoid, Pug, PugVoid, PyreneesBlonde, PyreneesCream, PyreneesWhite, PyreneesVoid, Rott, RottVoid, Samoyed, SamoyedVoid, ShibaBlonde, ShibaFawn, ShibaBrown, ShibaRed, ShibaMidnight, ShibaBlack, ShibaGrey, ShibaSilver, ShibaWhite, ShibaVoid, ShihTzuBicolorBlonde, ShihTzuBicolorFawn,ShihTzuBicolorBrown, ShihTzuBicolorRed, ShihTzuBicolorMidnight, ShihTzuBicolorBlack, ShihTzuBicolorGrey, ShihTzuBicolorSilver, ShihTzuSolidCream, ShihTzuSolidBlonde, ShihTzuSolidFawn, ShihTzuSolidBrown, ShihTzuSolidRed, ShihTzuSolidMidnight, ShihTzuSolidBlack, ShihTzuSolidGrey, ShihTzuSolidSilver, ShihTzuSolidWhite, ShihTzuVoid, SmoothBicolorBlonde, SmoothBicolorFawn, SmoothBicolorBrown, SmoothBicolorRed, SmoothBicolorMidnight, SmoothBicolorBlack, SmoothBicolorGrey, SmoothBicolorSilver, SmoothSolidCream, SmoothSolidBlonde, SmoothSolidFawn, SmoothSolidBrown, SmoothSolidRed, SmoothSolidMidnight, SmoothSolidBlack, SmoothSolidGrey, SmoothSolidSilver, SmoothSolidWhite, SmoothVoid, SpringerBicolorBlonde, SpringerBicolorFawn, SpringerBicolorBrown, SpringerBicolorRed, SpringerBicolorMidnight, SpringerBicolorBlack, SpringerBicolorGrey, SpringerBicolorSilver, SpringerSolidCream, SpringerSolidBlonde, SpringerSolidFawn, SpringerSolidBrown, SpringerSolidRed, SpringerSolidMidnight, SpringerSolidBlack, SpringerSolidGrey, SpringerSolidSilver, SpringerSolidWhite, SpringerVoid, WeimaranerBlue, WeimaranerGrey, WeimaranerSilver, WeimaranerTaupe, WeimaranerVoid",
+		  "AllowValues": "Australian, AustralianFawn, AustralianBrown, AustralianRed, AustralianBlack, AustralianTricolor, AustralianVoid, Beagle, BeagleVoid, Beau, BeauHarlequin, BeauVoid, BernardFawn, BernardBrown, BernardVoid, Bernese, BerneseVoid, BorderBlonde, BorderFawn, BorderBrown, BorderRed, BorderMidnight, BorderBlack, BorderGrey, BorderSilver, BorderWhite, BorderVoid, BostonBlonde, BostonFawn, BostonBrown, BostonRed, BostonMidnight, BostonBlack, BostonGrey, BostonSilver, BostonWhite, BostonVoid, BoxerBlonde, BoxerFawn, BoxerBrown, BoxerRed, BoxerMidnight, BoxerBlack, BoxerGrey, BoxerSilver, BoxerWhite, BoxerVoid, BulldogBlonde, BulldogFawn, BulldogBrown, BulldogRed, BulldogMidnight, BulldogBlack, BulldogGrey, BulldogSilver, BulldogWhite, BulldogVoid, BullyBicolorBlonde, BullyBicolorFawn, BullyBicolorBrown, BullyBicolorRed, BullyBicolorMidnight, BullyBicolorBlack, BullyBicolorGrey, BullyBicolorSilver, BullySolidCream, BullySolidBlonde, BullySolidFawn, BullySolidBrown, BullySolidRed, BullySolidMidnight, BullySolidBlack, BullySolidGrey, BullySolidSilver, BullySolidWhite, BullySpot, BullyTricolor, BullyVoid, CharlesBicolorBlonde, CharlesBicolorFawn, CharlesBicolorBrown, CharlesBicolorRed, CharlesBicolorMidnight, CharlesBicolorBlack, CharlesBicolorGrey, CharlesBicolorSilver, CharlesSolidCream, CharlesSolidBlonde, CharlesSolidFawn, CharlesSolidBrown, CharlesSolidRed, CharlesSolidMidnight, CharlesSolidBlack, CharlesSolidGrey, CharlesSolidSilver, CharlesSolidWhite, CharlesVoid, Cocker, CockerVanilla, CockerVoid, CorgiBlonde, CorgiFawn, CorgiBrown, CorgiRed, CorgiMidnight, CorgiBlack, CorgiGrey, CorgiSilver, CorgiWhite, CorgiVoid, Dachshund, DachshundDapple, DachshundVoid, DalmatianBlonde, DalmatianFawn, DalmatianBrown, DalmatianRed, DalmatianMidnight, DalmatianBlack, DalmatianGrey, DalmatianSilver, DalmatianVoid, DaneCream, DaneBlonde, DaneFawn, DaneBrown, DaneRed, DaneMidnight, DaneBlack, DaneGrey, DaneSilver, DaneWhite, DaneVoid, Doberman, DobermanHarlequin, DobermanVoid, Foxhound, FoxhoundVoid, FrenchBlonde, FrenchFawn, FrenchBrown, FrenchRed, FrenchMidnight, FrenchBlack, FrenchGrey, FrenchSilver, FrenchWhite, FrenchVoid, GermanFawn, GermanBrown, GermanVanilla, GermanVoid, Golden, GoldenVoid, GreyhoundBicolorBlonde, GreyhoundBicolorFawn, GreyhoundBicolorBrown, GreyhoundBicolorRed, GreyhoundBicolorMidnight, GreyhoundBicolorBlack, GreyhoundBicolorGrey, GreyhoundBicolorSilver, GreyhoundSolidCream, GreyhoundSolidBlonde, GreyhoundSolidFawn, GreyhoundSolidBrown, GreyhoundSolidRed, GreyhoundSolidMidnight, GreyhoundSolidBlack, GreyhoundSolidGrey, GreyhoundSolidSilver, GreyhoundSolidWhite, GreyhoundVoid, HuskyBlonde, HuskyFawn, HuskyBrown, HuskyRed, HuskyMidnight, HuskyBlack, HuskyGrey, HuskySilver, HuskyVoid, Lab, LabVanilla, LabVoid, MalamuteBlonde, MalamuteFawn, MalamuteBrown, MalamuteRed, MalamuteMidnight, MalamuteBlack, MalamuteGrey, MalamuteSilver, MalamuteVoid, NewfyRed, NewfyMidnight, NewfyBlack, NewfyGrey, NewfyLandseer, NewfyVoid, PitBlonde, PitFawn, PitBrown, PitRed, PitMidnight, PitBlack, PitGrey, PitSilver, PitWhite, PitVoid, PoodleCream, PoodleBlonde, PoodleFawn, PoodleBrown, PoodleRed, PoodleMidnight, PoodleBlack, PoodleGrey, PoodleSilver, PoodleWhite, PoodleVoid, Pug, PugVoid, PyreneesBlonde, PyreneesCream, PyreneesWhite, PyreneesVoid, Rott, RottVoid, Samoyed, SamoyedVoid, ShibaBlonde, ShibaFawn, ShibaBrown, ShibaRed, ShibaMidnight, ShibaBlack, ShibaGrey, ShibaSilver, ShibaWhite, ShibaVoid, ShihTzuBicolorBlonde, ShihTzuBicolorFawn,ShihTzuBicolorBrown, ShihTzuBicolorRed, ShihTzuBicolorMidnight, ShihTzuBicolorBlack, ShihTzuBicolorGrey, ShihTzuBicolorSilver, ShihTzuSolidCream, ShihTzuSolidBlonde, ShihTzuSolidFawn, ShihTzuSolidBrown, ShihTzuSolidRed, ShihTzuSolidMidnight, ShihTzuSolidBlack, ShihTzuSolidGrey, ShihTzuSolidSilver, ShihTzuSolidWhite, ShihTzuVoid, SmoothBicolorBlonde, SmoothBicolorFawn, SmoothBicolorBrown, SmoothBicolorRed, SmoothBicolorMidnight, SmoothBicolorBlack, SmoothBicolorGrey, SmoothBicolorSilver, SmoothSolidCream, SmoothSolidBlonde, SmoothSolidFawn, SmoothSolidBrown, SmoothSolidRed, SmoothSolidMidnight, SmoothSolidBlack, SmoothSolidGrey, SmoothSolidSilver, SmoothSolidWhite, SmoothVoid, SpringerBicolorBlonde, SpringerBicolorFawn, SpringerBicolorBrown, SpringerBicolorRed, SpringerBicolorMidnight, SpringerBicolorBlack, SpringerBicolorGrey, SpringerBicolorSilver, SpringerSolidCream, SpringerSolidBlonde, SpringerSolidFawn, SpringerSolidBrown, SpringerSolidRed, SpringerSolidMidnight, SpringerSolidBlack, SpringerSolidGrey, SpringerSolidSilver, SpringerSolidWhite, SpringerVoid, WeimaranerBlue, WeimaranerGrey, WeimaranerSilver, WeimaranerTaupe, WeimaranerVoid, CharlesTricolor, CorgiMerle, CorgiTricolor, CorgiTricolor2, ChowCream, ChowBlonde, ChowFawn, ChowBrown, ChowRed, ChowMidnight, ChowBlack, ChowGrey, ChowSilver, ChowWhite, ChowVoid, GermanSolidCream, GermanSolidBlonde, GermanSolidFawn, GermanSolidBrown, GermanSolidRed, GermanSolidMidnight, GermanSolidBlack, GermanSolidGrey, GermanSolidSilver, GermanSolidWhite, GermanPanda, Westie, WestieVoid, DaneMantle, SchnauzerSilver, SchnauzerGrey, SchnauzerBlack, SchnauzerBlackSolid, SchnauzerVoid, KeeshondSilver, KeeshondGrey, KeeshondBlack, KeeshondVoid, LabBlack",
 		  "AllowMultiple": true,
-		  "Default": "Australian, BernardBrown, Bernese, BorderBlack, BullySpot, Dachshund, CorgiFawn, DalmatianBlack, GermanFawn, GreyhoundBicolorSilver, HuskyGrey, MalamuteGrey, NewfyLandseer, PitBrown, PoodleMidnight, Rott, Samoyed, WeimaranerSilver, ShihTzuBicolorBrown, SmoothBicolorFawn, SpringerBicolorBlack"},
+		  "Default": "Australian, BernardBrown, Bernese, BorderBlack, BullySpot, Dachshund, CorgiFawn, DalmatianBlack, GermanFawn, GreyhoundBicolorSilver, HuskyGrey, MalamuteGrey, NewfyLandseer, PitBrown, PoodleMidnight, Rott, Samoyed, WeimaranerSilver, ShihTzuBicolorBrown, SmoothBicolorFawn, SpringerBicolorBlack, Westie, KeeshondSilver, SchnauzerSilver, ChowFawn"},
     },
 	
 	
@@ -238,6 +238,28 @@
 			},
 		},
       "When": { "Dog Breeds": "LabVoid" },
+	},
+    {
+      "LogName": "LabBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.LabBlack": {
+		"Id": "Elle.CuterDogs.LabBlack",
+			"Texture": "Mods\\Elle.CuterDogs\\LabBlack",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 16,
+				"Y": 544,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "LabBlack" },
 	},
 	
     //Beagle
@@ -2241,6 +2263,30 @@
       "When": { "Dog Breeds": "CharlesVoid" },
 	},
 	
+    //New Charles
+    {
+      "LogName": "CharlesTricolor",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.CharlesTricolor": {
+		"Id": "Elle.CuterDogs.CharlesTricolor",
+			"Texture": "Mods\\Elle.CuterDogs\\CharlesTricolor",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 144,
+				"Y": 160,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "CharlesTricolor" },
+	},
+	
     //Cocker Spaniel
     {
       "LogName": "Cocker",
@@ -2665,6 +2711,74 @@
 			},
 		},
       "When": { "Dog Breeds": "CorgiVoid" },
+	},
+	
+    //New Corgis
+    {
+      "LogName": "CorgiMerle",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.CorgiMerle": {
+		"Id": "Elle.CuterDogs.CorgiMerle",
+			"Texture": "Mods\\Elle.CuterDogs\\CorgiMerle",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 304,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "CorgiMerle" },
+	},
+    {
+      "LogName": "CorgiTricolor",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.CorgiTricolor": {
+		"Id": "Elle.CuterDogs.CorgiTricolor",
+			"Texture": "Mods\\Elle.CuterDogs\\CorgiTricolor",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 192,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "CorgiTricolor" },
+	},
+    {
+      "LogName": "CorgiTricolor2",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.CorgiTricolor2": {
+		"Id": "Elle.CuterDogs.CorgiTricolor2",
+			"Texture": "Mods\\Elle.CuterDogs\\CorgiTricolor2",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 128,
+				"Y": 224,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "CorgiTricolor2" },
 	},
 	
 	
@@ -3112,6 +3226,30 @@
       "When": { "Dog Breeds": "DaneVoid" },
 	},
 	
+    //New Dane
+    {
+      "LogName": "DaneMantle",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.DaneMantle": {
+		"Id": "Elle.CuterDogs.DaneMantle",
+			"Texture": "Mods\\Elle.CuterDogs\\DaneMantle",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 544,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "DaneMantle" },
+	},
+	
     //Foxhound
     {
       "LogName": "Foxhound",
@@ -3246,6 +3384,250 @@
 			},
 		},
       "When": { "Dog Breeds": "GermanVoid" },
+	},
+	
+    //New Germans
+    {
+      "LogName": "GermanPanda",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanPanda": {
+		"Id": "Elle.CuterDogs.GermanPanda",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanPanda",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 480,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanPanda" },
+	},
+    {
+      "LogName": "GermanSolidCream",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidCream": {
+		"Id": "Elle.CuterDogs.GermanSolidCream",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidCream",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidCream" },
+	},
+    {
+      "LogName": "GermanSolidBlonde",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidBlonde": {
+		"Id": "Elle.CuterDogs.GermanSolidBlonde",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidBlonde",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 16,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidBlonde" },
+	},
+    {
+      "LogName": "GermanSolidFawn",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidFawn": {
+		"Id": "Elle.CuterDogs.GermanSolidFawn",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidFawn",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 32,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidFawn" },
+	},
+    {
+      "LogName": "GermanSolidBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidBrown": {
+		"Id": "Elle.CuterDogs.GermanSolidBrown",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidBrown",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 48,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidBrown" },
+	},
+    {
+      "LogName": "GermanSolidRed",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidRed": {
+		"Id": "Elle.CuterDogs.GermanSolidRed",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidRed",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 64,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidRed" },
+	},
+    {
+      "LogName": "GermanSolidMidnight",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidMidnight": {
+		"Id": "Elle.CuterDogs.GermanSolidMidnight",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidMidnight",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 80,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidMidnight" },
+	},
+    {
+      "LogName": "GermanSolidBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidBlack": {
+		"Id": "Elle.CuterDogs.GermanSolidBlack",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidBlack",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 96,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidBlack" },
+	},
+    {
+      "LogName": "GermanSolidGrey",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidGrey": {
+		"Id": "Elle.CuterDogs.GermanSolidGrey",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidGrey",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 112,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidGrey" },
+	},
+    {
+      "LogName": "GermanSolidSilver",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidSilver": {
+		"Id": "Elle.CuterDogs.GermanSolidSilver",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidSilver",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 128,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidSilver" },
+	},
+    {
+      "LogName": "GermanSolidWhite",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.GermanSolidWhite": {
+		"Id": "Elle.CuterDogs.GermanSolidWhite",
+			"Texture": "Mods\\Elle.CuterDogs\\GermanSolidWhite",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 144,
+				"Y": 496,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "GermanSolidWhite" },
 	},
 	
     //Golden Retriever
@@ -5885,7 +6267,7 @@
       "When": { "Dog Breeds": "ShihTzuVoid" },
 	},
 	
-    //Shih Tzu
+    //Smooth Collie
     {
       "LogName": "SmoothSolidCream",
       "Action": "EditData",
@@ -6725,12 +7107,550 @@
       "When": { "Dog Breeds": "SpringerVoid" },
 	},
 	
+    //Pug
+    {
+      "LogName": "Pug",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.Pug": {
+		"Id": "Elle.CuterDogs.Pug",
+			"Texture": "Mods\\Elle.CuterDogs\\Pug",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 272,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "Pug" },
+	},
+    {
+      "LogName": "PugVoid",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.PugVoid": {
+		"Id": "Elle.CuterDogs.PugVoid",
+			"Texture": "Mods\\Elle.CuterDogs\\PugVoid",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 288,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "PugVoid" },
+	},
+	
+    //Chow
+    {
+      "LogName": "ChowCream",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowCream": {
+		"Id": "Elle.CuterDogs.ChowCream",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowCream",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowCream" },
+	},
+    {
+      "LogName": "ChowBlonde",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowBlonde": {
+		"Id": "Elle.CuterDogs.ChowBlonde",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowBlonde",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 16,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowBlonde" },
+	},
+    {
+      "LogName": "ChowFawn",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowFawn": {
+		"Id": "Elle.CuterDogs.ChowFawn",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowFawn",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 32,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowFawn" },
+	},
+    {
+      "LogName": "ChowBrown",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowBrown": {
+		"Id": "Elle.CuterDogs.ChowBrown",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowBrown",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 48,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowBrown" },
+	},
+    {
+      "LogName": "ChowRed",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowRed": {
+		"Id": "Elle.CuterDogs.ChowRed",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowRed",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 64,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowRed" },
+	},
+    {
+      "LogName": "ChowMidnight",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowMidnight": {
+		"Id": "Elle.CuterDogs.ChowMidnight",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowMidnight",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 80,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowMidnight" },
+	},
+    {
+      "LogName": "ChowBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowBlack": {
+		"Id": "Elle.CuterDogs.ChowBlack",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowBlack",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 96,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowBlack" },
+	},
+    {
+      "LogName": "ChowGrey",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowGrey": {
+		"Id": "Elle.CuterDogs.ChowGrey",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowGrey",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 112,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowGrey" },
+	},
+    {
+      "LogName": "ChowSilver",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowSilver": {
+		"Id": "Elle.CuterDogs.ChowSilver",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowSilver",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 128,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowSilver" },
+	},
+    {
+      "LogName": "ChowWhite",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowWhite": {
+		"Id": "Elle.CuterDogs.ChowWhite",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowWhite",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 144,
+				"Y": 512,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowWhite" },
+	},
+    {
+      "LogName": "ChowVoid",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.ChowVoid": {
+		"Id": "Elle.CuterDogs.ChowVoid",
+			"Texture": "Mods\\Elle.CuterDogs\\ChowVoid",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 144,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "ChowVoid" },
+	},
+	
+    //Westie
+    {
+      "LogName": "Westie",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.Westie": {
+		"Id": "Elle.CuterDogs.Westie",
+			"Texture": "Mods\\Elle.CuterDogs\\Westie",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 416,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "Westie" },
+	},
+    {
+      "LogName": "WestieVoid",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.WestieVoid": {
+		"Id": "Elle.CuterDogs.WestieVoid",
+			"Texture": "Mods\\Elle.CuterDogs\\WestieVoid",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 448,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "WestieVoid" },
+	},
+	
+    //Schnauzer
+    {
+      "LogName": "SchnauzerSilver",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.SchnauzerSilver": {
+		"Id": "Elle.CuterDogs.SchnauzerSilver",
+			"Texture": "Mods\\Elle.CuterDogs\\SchnauzerSilver",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 0,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "SchnauzerSilver" },
+	},
+    {
+      "LogName": "SchnauzerGrey",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.SchnauzerGrey": {
+		"Id": "Elle.CuterDogs.SchnauzerGrey",
+			"Texture": "Mods\\Elle.CuterDogs\\SchnauzerGrey",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 16,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "SchnauzerGrey" },
+	},
+    {
+      "LogName": "SchnauzerBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.SchnauzerBlack": {
+		"Id": "Elle.CuterDogs.SchnauzerBlack",
+			"Texture": "Mods\\Elle.CuterDogs\\SchnauzerBlack",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 32,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "SchnauzerBlack" },
+	},
+    {
+      "LogName": "SchnauzerBlackSolid",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.SchnauzerBlackSolid": {
+		"Id": "Elle.CuterDogs.SchnauzerBlackSolid",
+			"Texture": "Mods\\Elle.CuterDogs\\SchnauzerBlackSolid",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 48,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "SchnauzerBlackSolid" },
+	},
+    {
+      "LogName": "SchnauzerVoid",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.SchnauzerVoid": {
+		"Id": "Elle.CuterDogs.SchnauzerVoid",
+			"Texture": "Mods\\Elle.CuterDogs\\SchnauzerVoid",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 64,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "SchnauzerVoid" },
+	},
+	
+    //Keeshond
+    {
+      "LogName": "KeeshondSilver",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.KeeshondSilver": {
+		"Id": "Elle.CuterDogs.KeeshondSilver",
+			"Texture": "Mods\\Elle.CuterDogs\\KeeshondSilver",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 80,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "KeeshondSilver" },
+	},
+    {
+      "LogName": "KeeshondGrey",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.KeeshondGrey": {
+		"Id": "Elle.CuterDogs.KeeshondGrey",
+			"Texture": "Mods\\Elle.CuterDogs\\KeeshondGrey",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 96,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "KeeshondGrey" },
+	},
+    {
+      "LogName": "KeeshondBlack",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.KeeshondBlack": {
+		"Id": "Elle.CuterDogs.KeeshondBlack",
+			"Texture": "Mods\\Elle.CuterDogs\\KeeshondBlack",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 112,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "KeeshondBlack" },
+	},
+    {
+      "LogName": "KeeshondVoid",
+      "Action": "EditData",
+      "Target": "Data/Pets",
+	  "TargetField": [ "Dog", "Breeds" ],
+      "Entries": {
+      "Elle.CuterDogs.KeeshondVoid": {
+		"Id": "Elle.CuterDogs.KeeshondVoid",
+			"Texture": "Mods\\Elle.CuterDogs\\KeeshondVoid",
+			"IconTexture": "Mods\\Elle.CuterDogs\\icons",
+			"IconSourceRect": {
+				"X": 128,
+				"Y": 528,
+				"Width": 16,
+				"Height": 16
+				},
+			"BarkOverride": null,
+			"VoicePitch": 1.0
+			},
+		},
+      "When": { "Dog Breeds": "KeeshondVoid" },
+	},
+	
 	
     //Load Images
     {
       "LogName": "Load images",
       "Action": "Load",
-      "Target": "Mods\\Elle.CuterDogs\\Australian, Mods\\Elle.CuterDogs\\AustralianFawn, Mods\\Elle.CuterDogs\\AustralianBrown, Mods\\Elle.CuterDogs\\AustralianRed, Mods\\Elle.CuterDogs\\AustralianBlack, Mods\\Elle.CuterDogs\\AustralianTricolor, Mods\\Elle.CuterDogs\\AustralianVoid, Mods\\Elle.CuterDogs\\Beagle, Mods\\Elle.CuterDogs\\BeagleVoid, Mods\\Elle.CuterDogs\\Beau, Mods\\Elle.CuterDogs\\BeauHarlequin, Mods\\Elle.CuterDogs\\BeauVoid, Mods\\Elle.CuterDogs\\BernardFawn, Mods\\Elle.CuterDogs\\BernardBrown, Mods\\Elle.CuterDogs\\BernardVoid, Mods\\Elle.CuterDogs\\Bernese, Mods\\Elle.CuterDogs\\BerneseVoid, Mods\\Elle.CuterDogs\\BorderBlonde, Mods\\Elle.CuterDogs\\BorderFawn, Mods\\Elle.CuterDogs\\BorderBrown, Mods\\Elle.CuterDogs\\BorderRed, Mods\\Elle.CuterDogs\\BorderMidnight, Mods\\Elle.CuterDogs\\BorderBlack, Mods\\Elle.CuterDogs\\BorderGrey, Mods\\Elle.CuterDogs\\BorderSilver, Mods\\Elle.CuterDogs\\BorderWhite, Mods\\Elle.CuterDogs\\BorderVoid, Mods\\Elle.CuterDogs\\BostonBlonde, Mods\\Elle.CuterDogs\\BostonFawn, Mods\\Elle.CuterDogs\\BostonBrown, Mods\\Elle.CuterDogs\\BostonRed, Mods\\Elle.CuterDogs\\BostonMidnight, Mods\\Elle.CuterDogs\\BostonBlack, Mods\\Elle.CuterDogs\\BostonGrey, Mods\\Elle.CuterDogs\\BostonSilver, Mods\\Elle.CuterDogs\\BostonWhite, Mods\\Elle.CuterDogs\\BostonVoid, Mods\\Elle.CuterDogs\\BoxerBlonde, Mods\\Elle.CuterDogs\\BoxerFawn, Mods\\Elle.CuterDogs\\BoxerBrown, Mods\\Elle.CuterDogs\\BoxerRed, Mods\\Elle.CuterDogs\\BoxerMidnight, Mods\\Elle.CuterDogs\\BoxerBlack, Mods\\Elle.CuterDogs\\BoxerGrey, Mods\\Elle.CuterDogs\\BoxerSilver, Mods\\Elle.CuterDogs\\BoxerWhite, Mods\\Elle.CuterDogs\\BoxerVoid, Mods\\Elle.CuterDogs\\BulldogBlonde, Mods\\Elle.CuterDogs\\BulldogFawn, Mods\\Elle.CuterDogs\\BulldogBrown, Mods\\Elle.CuterDogs\\BulldogRed, Mods\\Elle.CuterDogs\\BulldogMidnight, Mods\\Elle.CuterDogs\\BulldogBlack, Mods\\Elle.CuterDogs\\BulldogGrey, Mods\\Elle.CuterDogs\\BulldogSilver, Mods\\Elle.CuterDogs\\BulldogWhite, Mods\\Elle.CuterDogs\\BulldogVoid, Mods\\Elle.CuterDogs\\BullyBicolorBlonde, Mods\\Elle.CuterDogs\\BullyBicolorFawn, Mods\\Elle.CuterDogs\\BullyBicolorBrown, Mods\\Elle.CuterDogs\\BullyBicolorRed, Mods\\Elle.CuterDogs\\BullyBicolorMidnight, Mods\\Elle.CuterDogs\\BullyBicolorBlack, Mods\\Elle.CuterDogs\\BullyBicolorGrey, Mods\\Elle.CuterDogs\\BullyBicolorSilver, Mods\\Elle.CuterDogs\\BullySolidCream, Mods\\Elle.CuterDogs\\BullySolidBlonde, Mods\\Elle.CuterDogs\\BullySolidFawn, Mods\\Elle.CuterDogs\\BullySolidBrown, Mods\\Elle.CuterDogs\\BullySolidRed, Mods\\Elle.CuterDogs\\BullySolidMidnight, Mods\\Elle.CuterDogs\\BullySolidBlack, Mods\\Elle.CuterDogs\\BullySolidGrey, Mods\\Elle.CuterDogs\\BullySolidSilver, Mods\\Elle.CuterDogs\\BullySolidWhite, Mods\\Elle.CuterDogs\\BullySpot, Mods\\Elle.CuterDogs\\BullyTricolor, Mods\\Elle.CuterDogs\\BullyVoid, Mods\\Elle.CuterDogs\\CharlesBicolorBlonde, Mods\\Elle.CuterDogs\\CharlesBicolorFawn, Mods\\Elle.CuterDogs\\CharlesBicolorBrown, Mods\\Elle.CuterDogs\\CharlesBicolorRed, Mods\\Elle.CuterDogs\\CharlesBicolorMidnight, Mods\\Elle.CuterDogs\\CharlesBicolorBlack, Mods\\Elle.CuterDogs\\CharlesBicolorGrey, Mods\\Elle.CuterDogs\\CharlesBicolorSilver, Mods\\Elle.CuterDogs\\CharlesSolidCream, Mods\\Elle.CuterDogs\\CharlesSolidBlonde, Mods\\Elle.CuterDogs\\CharlesSolidFawn, Mods\\Elle.CuterDogs\\CharlesSolidBrown, Mods\\Elle.CuterDogs\\CharlesSolidRed, Mods\\Elle.CuterDogs\\CharlesSolidMidnight, Mods\\Elle.CuterDogs\\CharlesSolidBlack, Mods\\Elle.CuterDogs\\CharlesSolidGrey, Mods\\Elle.CuterDogs\\CharlesSolidSilver, Mods\\Elle.CuterDogs\\CharlesSolidWhite, Mods\\Elle.CuterDogs\\CharlesVoid, Mods\\Elle.CuterDogs\\Cocker, Mods\\Elle.CuterDogs\\CockerVanilla, Mods\\Elle.CuterDogs\\CockerVoid, Mods\\Elle.CuterDogs\\CorgiBlonde, Mods\\Elle.CuterDogs\\CorgiFawn, Mods\\Elle.CuterDogs\\CorgiBrown, Mods\\Elle.CuterDogs\\CorgiRed, Mods\\Elle.CuterDogs\\CorgiMidnight, Mods\\Elle.CuterDogs\\CorgiBlack, Mods\\Elle.CuterDogs\\CorgiGrey, Mods\\Elle.CuterDogs\\CorgiSilver, Mods\\Elle.CuterDogs\\CorgiWhite, Mods\\Elle.CuterDogs\\CorgiVoid, Mods\\Elle.CuterDogs\\Dachshund, Mods\\Elle.CuterDogs\\DachshundDapple, Mods\\Elle.CuterDogs\\DachshundVoid, Mods\\Elle.CuterDogs\\DalmatianBlonde, Mods\\Elle.CuterDogs\\DalmatianFawn, Mods\\Elle.CuterDogs\\DalmatianBrown, Mods\\Elle.CuterDogs\\DalmatianRed, Mods\\Elle.CuterDogs\\DalmatianMidnight, Mods\\Elle.CuterDogs\\DalmatianBlack, Mods\\Elle.CuterDogs\\DalmatianGrey, Mods\\Elle.CuterDogs\\DalmatianSilver, Mods\\Elle.CuterDogs\\DalmatianVoid, Mods\\Elle.CuterDogs\\DaneCream, Mods\\Elle.CuterDogs\\DaneBlonde, Mods\\Elle.CuterDogs\\DaneFawn, Mods\\Elle.CuterDogs\\DaneBrown, Mods\\Elle.CuterDogs\\DaneRed, Mods\\Elle.CuterDogs\\DaneMidnight, Mods\\Elle.CuterDogs\\DaneBlack, Mods\\Elle.CuterDogs\\DaneGrey, Mods\\Elle.CuterDogs\\DaneSilver, Mods\\Elle.CuterDogs\\DaneWhite, Mods\\Elle.CuterDogs\\DaneVoid, Mods\\Elle.CuterDogs\\Doberman, Mods\\Elle.CuterDogs\\DobermanHarlequin, Mods\\Elle.CuterDogs\\DobermanVoid, Mods\\Elle.CuterDogs\\Foxhound, Mods\\Elle.CuterDogs\\FoxhoundVoid, Mods\\Elle.CuterDogs\\FrenchBlonde, Mods\\Elle.CuterDogs\\FrenchFawn, Mods\\Elle.CuterDogs\\FrenchBrown, Mods\\Elle.CuterDogs\\FrenchRed, Mods\\Elle.CuterDogs\\FrenchMidnight, Mods\\Elle.CuterDogs\\FrenchBlack, Mods\\Elle.CuterDogs\\FrenchGrey, Mods\\Elle.CuterDogs\\FrenchSilver, Mods\\Elle.CuterDogs\\FrenchWhite, Mods\\Elle.CuterDogs\\FrenchVoid, Mods\\Elle.CuterDogs\\GermanFawn, Mods\\Elle.CuterDogs\\GermanBrown, Mods\\Elle.CuterDogs\\GermanVanilla, Mods\\Elle.CuterDogs\\GermanVoid, Mods\\Elle.CuterDogs\\Golden, Mods\\Elle.CuterDogs\\GoldenVoid, Mods\\Elle.CuterDogs\\GreyhoundBicolorBlonde, Mods\\Elle.CuterDogs\\GreyhoundBicolorFawn, Mods\\Elle.CuterDogs\\GreyhoundBicolorBrown, Mods\\Elle.CuterDogs\\GreyhoundBicolorRed, Mods\\Elle.CuterDogs\\GreyhoundBicolorMidnight, Mods\\Elle.CuterDogs\\GreyhoundBicolorBlack, Mods\\Elle.CuterDogs\\GreyhoundBicolorGrey, Mods\\Elle.CuterDogs\\GreyhoundBicolorSilver, Mods\\Elle.CuterDogs\\GreyhoundSolidCream, Mods\\Elle.CuterDogs\\GreyhoundSolidBlonde, Mods\\Elle.CuterDogs\\GreyhoundSolidFawn, Mods\\Elle.CuterDogs\\GreyhoundSolidBrown, Mods\\Elle.CuterDogs\\GreyhoundSolidRed, Mods\\Elle.CuterDogs\\GreyhoundSolidMidnight, Mods\\Elle.CuterDogs\\GreyhoundSolidBlack, Mods\\Elle.CuterDogs\\GreyhoundSolidGrey, Mods\\Elle.CuterDogs\\GreyhoundSolidSilver, Mods\\Elle.CuterDogs\\GreyhoundSolidWhite, Mods\\Elle.CuterDogs\\GreyhoundVoid, Mods\\Elle.CuterDogs\\HuskyBlonde, Mods\\Elle.CuterDogs\\HuskyFawn, Mods\\Elle.CuterDogs\\HuskyBrown, Mods\\Elle.CuterDogs\\HuskyRed, Mods\\Elle.CuterDogs\\HuskyMidnight, Mods\\Elle.CuterDogs\\HuskyBlack, Mods\\Elle.CuterDogs\\HuskyGrey, Mods\\Elle.CuterDogs\\HuskySilver, Mods\\Elle.CuterDogs\\HuskyVoid, Mods\\Elle.CuterDogs\\Lab, Mods\\Elle.CuterDogs\\LabVanilla, Mods\\Elle.CuterDogs\\LabVoid, Mods\\Elle.CuterDogs\\MalamuteBlonde, Mods\\Elle.CuterDogs\\MalamuteFawn, Mods\\Elle.CuterDogs\\MalamuteBrown, Mods\\Elle.CuterDogs\\MalamuteRed, Mods\\Elle.CuterDogs\\MalamuteMidnight, Mods\\Elle.CuterDogs\\MalamuteBlack, Mods\\Elle.CuterDogs\\MalamuteGrey, Mods\\Elle.CuterDogs\\MalamuteSilver, Mods\\Elle.CuterDogs\\MalamuteVoid, Mods\\Elle.CuterDogs\\NewfyRed, Mods\\Elle.CuterDogs\\NewfyMidnight, Mods\\Elle.CuterDogs\\NewfyBlack, Mods\\Elle.CuterDogs\\NewfyGrey, Mods\\Elle.CuterDogs\\NewfyLandseer, Mods\\Elle.CuterDogs\\NewfyVoid, Mods\\Elle.CuterDogs\\PitBlonde, Mods\\Elle.CuterDogs\\PitFawn, Mods\\Elle.CuterDogs\\PitBrown, Mods\\Elle.CuterDogs\\PitRed, Mods\\Elle.CuterDogs\\PitMidnight, Mods\\Elle.CuterDogs\\PitBlack, Mods\\Elle.CuterDogs\\PitGrey, Mods\\Elle.CuterDogs\\PitSilver, Mods\\Elle.CuterDogs\\PitWhite, Mods\\Elle.CuterDogs\\PitVoid, Mods\\Elle.CuterDogs\\PoodleCream, Mods\\Elle.CuterDogs\\PoodleBlonde, Mods\\Elle.CuterDogs\\PoodleFawn, Mods\\Elle.CuterDogs\\PoodleBrown, Mods\\Elle.CuterDogs\\PoodleRed, Mods\\Elle.CuterDogs\\PoodleMidnight, Mods\\Elle.CuterDogs\\PoodleBlack, Mods\\Elle.CuterDogs\\PoodleGrey, Mods\\Elle.CuterDogs\\PoodleSilver, Mods\\Elle.CuterDogs\\PoodleWhite, Mods\\Elle.CuterDogs\\PoodleVoid, Mods\\Elle.CuterDogs\\Pug, Mods\\Elle.CuterDogs\\PugVoid, Mods\\Elle.CuterDogs\\PyreneesBlonde, Mods\\Elle.CuterDogs\\PyreneesCream, Mods\\Elle.CuterDogs\\PyreneesWhite, Mods\\Elle.CuterDogs\\PyreneesVoid, Mods\\Elle.CuterDogs\\Rott, Mods\\Elle.CuterDogs\\RottVoid, Mods\\Elle.CuterDogs\\Samoyed, Mods\\Elle.CuterDogs\\SamoyedVoid, Mods\\Elle.CuterDogs\\ShibaBlonde, Mods\\Elle.CuterDogs\\ShibaFawn, Mods\\Elle.CuterDogs\\ShibaBrown, Mods\\Elle.CuterDogs\\ShibaRed, Mods\\Elle.CuterDogs\\ShibaMidnight, Mods\\Elle.CuterDogs\\ShibaBlack, Mods\\Elle.CuterDogs\\ShibaGrey, Mods\\Elle.CuterDogs\\ShibaSilver, Mods\\Elle.CuterDogs\\ShibaWhite, Mods\\Elle.CuterDogs\\ShibaVoid, Mods\\Elle.CuterDogs\\ShihTzuBicolorBlonde, Mods\\Elle.CuterDogs\\ShihTzuBicolorFawn,ShihTzuBicolorBrown, Mods\\Elle.CuterDogs\\ShihTzuBicolorRed, Mods\\Elle.CuterDogs\\ShihTzuBicolorMidnight, Mods\\Elle.CuterDogs\\ShihTzuBicolorBlack, Mods\\Elle.CuterDogs\\ShihTzuBicolorGrey, Mods\\Elle.CuterDogs\\ShihTzuBicolorSilver, Mods\\Elle.CuterDogs\\ShihTzuSolidCream, Mods\\Elle.CuterDogs\\ShihTzuSolidBlonde, Mods\\Elle.CuterDogs\\ShihTzuSolidFawn, Mods\\Elle.CuterDogs\\ShihTzuSolidBrown, Mods\\Elle.CuterDogs\\ShihTzuSolidRed, Mods\\Elle.CuterDogs\\ShihTzuSolidMidnight, Mods\\Elle.CuterDogs\\ShihTzuSolidBlack, Mods\\Elle.CuterDogs\\ShihTzuSolidGrey, Mods\\Elle.CuterDogs\\ShihTzuSolidSilver, Mods\\Elle.CuterDogs\\ShihTzuSolidWhite, Mods\\Elle.CuterDogs\\ShihTzuVoid, Mods\\Elle.CuterDogs\\SmoothBicolorBlonde, Mods\\Elle.CuterDogs\\SmoothBicolorFawn, Mods\\Elle.CuterDogs\\SmoothBicolorBrown, Mods\\Elle.CuterDogs\\SmoothBicolorRed, Mods\\Elle.CuterDogs\\SmoothBicolorMidnight, Mods\\Elle.CuterDogs\\SmoothBicolorBlack, Mods\\Elle.CuterDogs\\SmoothBicolorGrey, Mods\\Elle.CuterDogs\\SmoothBicolorSilver, Mods\\Elle.CuterDogs\\SmoothSolidCream, Mods\\Elle.CuterDogs\\SmoothSolidBlonde, Mods\\Elle.CuterDogs\\SmoothSolidFawn, Mods\\Elle.CuterDogs\\SmoothSolidBrown, Mods\\Elle.CuterDogs\\SmoothSolidRed, Mods\\Elle.CuterDogs\\SmoothSolidMidnight, Mods\\Elle.CuterDogs\\SmoothSolidBlack, Mods\\Elle.CuterDogs\\SmoothSolidGrey, Mods\\Elle.CuterDogs\\SmoothSolidSilver, Mods\\Elle.CuterDogs\\SmoothSolidWhite, Mods\\Elle.CuterDogs\\SmoothVoid, Mods\\Elle.CuterDogs\\SpringerBicolorBlonde, Mods\\Elle.CuterDogs\\SpringerBicolorFawn, Mods\\Elle.CuterDogs\\SpringerBicolorBrown, Mods\\Elle.CuterDogs\\SpringerBicolorRed, Mods\\Elle.CuterDogs\\SpringerBicolorMidnight, Mods\\Elle.CuterDogs\\SpringerBicolorBlack, Mods\\Elle.CuterDogs\\SpringerBicolorGrey, Mods\\Elle.CuterDogs\\SpringerBicolorSilver, Mods\\Elle.CuterDogs\\SpringerSolidCream, Mods\\Elle.CuterDogs\\SpringerSolidBlonde, Mods\\Elle.CuterDogs\\SpringerSolidFawn, Mods\\Elle.CuterDogs\\SpringerSolidBrown, Mods\\Elle.CuterDogs\\SpringerSolidRed, Mods\\Elle.CuterDogs\\SpringerSolidMidnight, Mods\\Elle.CuterDogs\\SpringerSolidBlack, Mods\\Elle.CuterDogs\\SpringerSolidGrey, Mods\\Elle.CuterDogs\\SpringerSolidSilver, Mods\\Elle.CuterDogs\\SpringerSolidWhite, Mods\\Elle.CuterDogs\\SpringerVoid, Mods\\Elle.CuterDogs\\WeimaranerBlue, Mods\\Elle.CuterDogs\\WeimaranerGrey, Mods\\Elle.CuterDogs\\WeimaranerSilver, Mods\\Elle.CuterDogs\\WeimaranerTaupe, Mods\\Elle.CuterDogs\\WeimaranerVoid, Mods\\Elle.CuterDogs\\icons",
+      "Target": "Mods\\Elle.CuterDogs\\Australian, Mods\\Elle.CuterDogs\\AustralianFawn, Mods\\Elle.CuterDogs\\AustralianBrown, Mods\\Elle.CuterDogs\\AustralianRed, Mods\\Elle.CuterDogs\\AustralianBlack, Mods\\Elle.CuterDogs\\AustralianTricolor, Mods\\Elle.CuterDogs\\AustralianVoid, Mods\\Elle.CuterDogs\\Beagle, Mods\\Elle.CuterDogs\\BeagleVoid, Mods\\Elle.CuterDogs\\Beau, Mods\\Elle.CuterDogs\\BeauHarlequin, Mods\\Elle.CuterDogs\\BeauVoid, Mods\\Elle.CuterDogs\\BernardFawn, Mods\\Elle.CuterDogs\\BernardBrown, Mods\\Elle.CuterDogs\\BernardVoid, Mods\\Elle.CuterDogs\\Bernese, Mods\\Elle.CuterDogs\\BerneseVoid, Mods\\Elle.CuterDogs\\BorderBlonde, Mods\\Elle.CuterDogs\\BorderFawn, Mods\\Elle.CuterDogs\\BorderBrown, Mods\\Elle.CuterDogs\\BorderRed, Mods\\Elle.CuterDogs\\BorderMidnight, Mods\\Elle.CuterDogs\\BorderBlack, Mods\\Elle.CuterDogs\\BorderGrey, Mods\\Elle.CuterDogs\\BorderSilver, Mods\\Elle.CuterDogs\\BorderWhite, Mods\\Elle.CuterDogs\\BorderVoid, Mods\\Elle.CuterDogs\\BostonBlonde, Mods\\Elle.CuterDogs\\BostonFawn, Mods\\Elle.CuterDogs\\BostonBrown, Mods\\Elle.CuterDogs\\BostonRed, Mods\\Elle.CuterDogs\\BostonMidnight, Mods\\Elle.CuterDogs\\BostonBlack, Mods\\Elle.CuterDogs\\BostonGrey, Mods\\Elle.CuterDogs\\BostonSilver, Mods\\Elle.CuterDogs\\BostonWhite, Mods\\Elle.CuterDogs\\BostonVoid, Mods\\Elle.CuterDogs\\BoxerBlonde, Mods\\Elle.CuterDogs\\BoxerFawn, Mods\\Elle.CuterDogs\\BoxerBrown, Mods\\Elle.CuterDogs\\BoxerRed, Mods\\Elle.CuterDogs\\BoxerMidnight, Mods\\Elle.CuterDogs\\BoxerBlack, Mods\\Elle.CuterDogs\\BoxerGrey, Mods\\Elle.CuterDogs\\BoxerSilver, Mods\\Elle.CuterDogs\\BoxerWhite, Mods\\Elle.CuterDogs\\BoxerVoid, Mods\\Elle.CuterDogs\\BulldogBlonde, Mods\\Elle.CuterDogs\\BulldogFawn, Mods\\Elle.CuterDogs\\BulldogBrown, Mods\\Elle.CuterDogs\\BulldogRed, Mods\\Elle.CuterDogs\\BulldogMidnight, Mods\\Elle.CuterDogs\\BulldogBlack, Mods\\Elle.CuterDogs\\BulldogGrey, Mods\\Elle.CuterDogs\\BulldogSilver, Mods\\Elle.CuterDogs\\BulldogWhite, Mods\\Elle.CuterDogs\\BulldogVoid, Mods\\Elle.CuterDogs\\BullyBicolorBlonde, Mods\\Elle.CuterDogs\\BullyBicolorFawn, Mods\\Elle.CuterDogs\\BullyBicolorBrown, Mods\\Elle.CuterDogs\\BullyBicolorRed, Mods\\Elle.CuterDogs\\BullyBicolorMidnight, Mods\\Elle.CuterDogs\\BullyBicolorBlack, Mods\\Elle.CuterDogs\\BullyBicolorGrey, Mods\\Elle.CuterDogs\\BullyBicolorSilver, Mods\\Elle.CuterDogs\\BullySolidCream, Mods\\Elle.CuterDogs\\BullySolidBlonde, Mods\\Elle.CuterDogs\\BullySolidFawn, Mods\\Elle.CuterDogs\\BullySolidBrown, Mods\\Elle.CuterDogs\\BullySolidRed, Mods\\Elle.CuterDogs\\BullySolidMidnight, Mods\\Elle.CuterDogs\\BullySolidBlack, Mods\\Elle.CuterDogs\\BullySolidGrey, Mods\\Elle.CuterDogs\\BullySolidSilver, Mods\\Elle.CuterDogs\\BullySolidWhite, Mods\\Elle.CuterDogs\\BullySpot, Mods\\Elle.CuterDogs\\BullyTricolor, Mods\\Elle.CuterDogs\\BullyVoid, Mods\\Elle.CuterDogs\\CharlesBicolorBlonde, Mods\\Elle.CuterDogs\\CharlesBicolorFawn, Mods\\Elle.CuterDogs\\CharlesBicolorBrown, Mods\\Elle.CuterDogs\\CharlesBicolorRed, Mods\\Elle.CuterDogs\\CharlesBicolorMidnight, Mods\\Elle.CuterDogs\\CharlesBicolorBlack, Mods\\Elle.CuterDogs\\CharlesBicolorGrey, Mods\\Elle.CuterDogs\\CharlesBicolorSilver, Mods\\Elle.CuterDogs\\CharlesSolidCream, Mods\\Elle.CuterDogs\\CharlesSolidBlonde, Mods\\Elle.CuterDogs\\CharlesSolidFawn, Mods\\Elle.CuterDogs\\CharlesSolidBrown, Mods\\Elle.CuterDogs\\CharlesSolidRed, Mods\\Elle.CuterDogs\\CharlesSolidMidnight, Mods\\Elle.CuterDogs\\CharlesSolidBlack, Mods\\Elle.CuterDogs\\CharlesSolidGrey, Mods\\Elle.CuterDogs\\CharlesSolidSilver, Mods\\Elle.CuterDogs\\CharlesSolidWhite, Mods\\Elle.CuterDogs\\CharlesVoid, Mods\\Elle.CuterDogs\\CharlesTricolor, Mods\\Elle.CuterDogs\\ChowCream, Mods\\Elle.CuterDogs\\ChowBlonde, Mods\\Elle.CuterDogs\\ChowFawn, Mods\\Elle.CuterDogs\\ChowBrown, Mods\\Elle.CuterDogs\\ChowRed, Mods\\Elle.CuterDogs\\ChowMidnight, Mods\\Elle.CuterDogs\\ChowBlack, Mods\\Elle.CuterDogs\\ChowGrey, Mods\\Elle.CuterDogs\\ChowSilver, Mods\\Elle.CuterDogs\\ChowWhite, Mods\\Elle.CuterDogs\\ChowVoid, Mods\\Elle.CuterDogs\\Cocker, Mods\\Elle.CuterDogs\\CockerVanilla, Mods\\Elle.CuterDogs\\CockerVoid, Mods\\Elle.CuterDogs\\CorgiBlonde, Mods\\Elle.CuterDogs\\CorgiFawn, Mods\\Elle.CuterDogs\\CorgiBrown, Mods\\Elle.CuterDogs\\CorgiRed, Mods\\Elle.CuterDogs\\CorgiMidnight, Mods\\Elle.CuterDogs\\CorgiBlack, Mods\\Elle.CuterDogs\\CorgiGrey, Mods\\Elle.CuterDogs\\CorgiSilver, Mods\\Elle.CuterDogs\\CorgiWhite, Mods\\Elle.CuterDogs\\CorgiVoid, Mods\\Elle.CuterDogs\\CorgiMerle, Mods\\Elle.CuterDogs\\CorgiTricolor, Mods\\Elle.CuterDogs\\CorgiTricolor2,  Mods\\Elle.CuterDogs\\Dachshund, Mods\\Elle.CuterDogs\\DachshundDapple, Mods\\Elle.CuterDogs\\DachshundVoid, Mods\\Elle.CuterDogs\\DalmatianBlonde, Mods\\Elle.CuterDogs\\DalmatianFawn, Mods\\Elle.CuterDogs\\DalmatianBrown, Mods\\Elle.CuterDogs\\DalmatianRed, Mods\\Elle.CuterDogs\\DalmatianMidnight, Mods\\Elle.CuterDogs\\DalmatianBlack, Mods\\Elle.CuterDogs\\DalmatianGrey, Mods\\Elle.CuterDogs\\DalmatianSilver, Mods\\Elle.CuterDogs\\DalmatianVoid, Mods\\Elle.CuterDogs\\DaneCream, Mods\\Elle.CuterDogs\\DaneBlonde, Mods\\Elle.CuterDogs\\DaneFawn, Mods\\Elle.CuterDogs\\DaneBrown, Mods\\Elle.CuterDogs\\DaneRed, Mods\\Elle.CuterDogs\\DaneMidnight, Mods\\Elle.CuterDogs\\DaneBlack, Mods\\Elle.CuterDogs\\DaneGrey, Mods\\Elle.CuterDogs\\DaneSilver, Mods\\Elle.CuterDogs\\DaneWhite, Mods\\Elle.CuterDogs\\DaneVoid, Mods\\Elle.CuterDogs\\DaneMantle, Mods\\Elle.CuterDogs\\Doberman, Mods\\Elle.CuterDogs\\DobermanHarlequin, Mods\\Elle.CuterDogs\\DobermanVoid, Mods\\Elle.CuterDogs\\Foxhound, Mods\\Elle.CuterDogs\\FoxhoundVoid, Mods\\Elle.CuterDogs\\FrenchBlonde, Mods\\Elle.CuterDogs\\FrenchFawn, Mods\\Elle.CuterDogs\\FrenchBrown, Mods\\Elle.CuterDogs\\FrenchRed, Mods\\Elle.CuterDogs\\FrenchMidnight, Mods\\Elle.CuterDogs\\FrenchBlack, Mods\\Elle.CuterDogs\\FrenchGrey, Mods\\Elle.CuterDogs\\FrenchSilver, Mods\\Elle.CuterDogs\\FrenchWhite, Mods\\Elle.CuterDogs\\FrenchVoid, Mods\\Elle.CuterDogs\\GermanFawn, Mods\\Elle.CuterDogs\\GermanBrown, Mods\\Elle.CuterDogs\\GermanVanilla, Mods\\Elle.CuterDogs\\GermanVoid, Mods\\Elle.CuterDogs\\GermanSolidCream, Mods\\Elle.CuterDogs\\GermanSolidBlonde, Mods\\Elle.CuterDogs\\GermanSolidFawn, Mods\\Elle.CuterDogs\\GermanSolidBrown, Mods\\Elle.CuterDogs\\GermanSolidRed, Mods\\Elle.CuterDogs\\GermanSolidMidnight, Mods\\Elle.CuterDogs\\GermanSolidBlack, Mods\\Elle.CuterDogs\\GermanSolidGrey, Mods\\Elle.CuterDogs\\GermanSolidSilver, Mods\\Elle.CuterDogs\\GermanSolidWhite,  Mods\\Elle.CuterDogs\\GermanPanda, Mods\\Elle.CuterDogs\\Golden, Mods\\Elle.CuterDogs\\GoldenVoid, Mods\\Elle.CuterDogs\\GreyhoundBicolorBlonde, Mods\\Elle.CuterDogs\\GreyhoundBicolorFawn, Mods\\Elle.CuterDogs\\GreyhoundBicolorBrown, Mods\\Elle.CuterDogs\\GreyhoundBicolorRed, Mods\\Elle.CuterDogs\\GreyhoundBicolorMidnight, Mods\\Elle.CuterDogs\\GreyhoundBicolorBlack, Mods\\Elle.CuterDogs\\GreyhoundBicolorGrey, Mods\\Elle.CuterDogs\\GreyhoundBicolorSilver, Mods\\Elle.CuterDogs\\GreyhoundSolidCream, Mods\\Elle.CuterDogs\\GreyhoundSolidBlonde, Mods\\Elle.CuterDogs\\GreyhoundSolidFawn, Mods\\Elle.CuterDogs\\GreyhoundSolidBrown, Mods\\Elle.CuterDogs\\GreyhoundSolidRed, Mods\\Elle.CuterDogs\\GreyhoundSolidMidnight, Mods\\Elle.CuterDogs\\GreyhoundSolidBlack, Mods\\Elle.CuterDogs\\GreyhoundSolidGrey, Mods\\Elle.CuterDogs\\GreyhoundSolidSilver, Mods\\Elle.CuterDogs\\GreyhoundSolidWhite, Mods\\Elle.CuterDogs\\GreyhoundVoid, Mods\\Elle.CuterDogs\\HuskyBlonde, Mods\\Elle.CuterDogs\\HuskyFawn, Mods\\Elle.CuterDogs\\HuskyBrown, Mods\\Elle.CuterDogs\\HuskyRed, Mods\\Elle.CuterDogs\\HuskyMidnight, Mods\\Elle.CuterDogs\\HuskyBlack, Mods\\Elle.CuterDogs\\HuskyGrey, Mods\\Elle.CuterDogs\\HuskySilver, Mods\\Elle.CuterDogs\\HuskyVoid, Mods\\Elle.CuterDogs\\KeeshondBlack, Mods\\Elle.CuterDogs\\KeeshondGrey, Mods\\Elle.CuterDogs\\KeeshondSilver, Mods\\Elle.CuterDogs\\KeeshondVoid, Mods\\Elle.CuterDogs\\Lab, Mods\\Elle.CuterDogs\\LabVanilla, Mods\\Elle.CuterDogs\\LabVoid, Mods\\Elle.CuterDogs\\LabBlack, Mods\\Elle.CuterDogs\\MalamuteBlonde, Mods\\Elle.CuterDogs\\MalamuteFawn, Mods\\Elle.CuterDogs\\MalamuteBrown, Mods\\Elle.CuterDogs\\MalamuteRed, Mods\\Elle.CuterDogs\\MalamuteMidnight, Mods\\Elle.CuterDogs\\MalamuteBlack, Mods\\Elle.CuterDogs\\MalamuteGrey, Mods\\Elle.CuterDogs\\MalamuteSilver, Mods\\Elle.CuterDogs\\MalamuteVoid, Mods\\Elle.CuterDogs\\NewfyRed, Mods\\Elle.CuterDogs\\NewfyMidnight, Mods\\Elle.CuterDogs\\NewfyBlack, Mods\\Elle.CuterDogs\\NewfyGrey, Mods\\Elle.CuterDogs\\NewfyLandseer, Mods\\Elle.CuterDogs\\NewfyVoid, Mods\\Elle.CuterDogs\\PitBlonde, Mods\\Elle.CuterDogs\\PitFawn, Mods\\Elle.CuterDogs\\PitBrown, Mods\\Elle.CuterDogs\\PitRed, Mods\\Elle.CuterDogs\\PitMidnight, Mods\\Elle.CuterDogs\\PitBlack, Mods\\Elle.CuterDogs\\PitGrey, Mods\\Elle.CuterDogs\\PitSilver, Mods\\Elle.CuterDogs\\PitWhite, Mods\\Elle.CuterDogs\\PitVoid, Mods\\Elle.CuterDogs\\PoodleCream, Mods\\Elle.CuterDogs\\PoodleBlonde, Mods\\Elle.CuterDogs\\PoodleFawn, Mods\\Elle.CuterDogs\\PoodleBrown, Mods\\Elle.CuterDogs\\PoodleRed, Mods\\Elle.CuterDogs\\PoodleMidnight, Mods\\Elle.CuterDogs\\PoodleBlack, Mods\\Elle.CuterDogs\\PoodleGrey, Mods\\Elle.CuterDogs\\PoodleSilver, Mods\\Elle.CuterDogs\\PoodleWhite, Mods\\Elle.CuterDogs\\PoodleVoid, Mods\\Elle.CuterDogs\\Pug, Mods\\Elle.CuterDogs\\PugVoid, Mods\\Elle.CuterDogs\\PyreneesBlonde, Mods\\Elle.CuterDogs\\PyreneesCream, Mods\\Elle.CuterDogs\\PyreneesWhite, Mods\\Elle.CuterDogs\\PyreneesVoid, Mods\\Elle.CuterDogs\\Rott, Mods\\Elle.CuterDogs\\RottVoid, Mods\\Elle.CuterDogs\\Samoyed, Mods\\Elle.CuterDogs\\SamoyedVoid, Mods\\Elle.CuterDogs\\SchnauzerBlack, Mods\\Elle.CuterDogs\\SchnauzerBlackSolid, Mods\\Elle.CuterDogs\\SchnauzerGrey, Mods\\Elle.CuterDogs\\SchnauzerSilver, Mods\\Elle.CuterDogs\\SchnauzerVoid, Mods\\Elle.CuterDogs\\ShibaBlonde, Mods\\Elle.CuterDogs\\ShibaFawn, Mods\\Elle.CuterDogs\\ShibaBrown, Mods\\Elle.CuterDogs\\ShibaRed, Mods\\Elle.CuterDogs\\ShibaMidnight, Mods\\Elle.CuterDogs\\ShibaBlack, Mods\\Elle.CuterDogs\\ShibaGrey, Mods\\Elle.CuterDogs\\ShibaSilver, Mods\\Elle.CuterDogs\\ShibaWhite, Mods\\Elle.CuterDogs\\ShibaVoid, Mods\\Elle.CuterDogs\\ShihTzuBicolorBlonde, Mods\\Elle.CuterDogs\\ShihTzuBicolorFawn, Mods\\Elle.CuterDogs\\ShihTzuBicolorBrown, Mods\\Elle.CuterDogs\\ShihTzuBicolorRed, Mods\\Elle.CuterDogs\\ShihTzuBicolorMidnight, Mods\\Elle.CuterDogs\\ShihTzuBicolorBlack, Mods\\Elle.CuterDogs\\ShihTzuBicolorGrey, Mods\\Elle.CuterDogs\\ShihTzuBicolorSilver, Mods\\Elle.CuterDogs\\ShihTzuSolidCream, Mods\\Elle.CuterDogs\\ShihTzuSolidBlonde, Mods\\Elle.CuterDogs\\ShihTzuSolidFawn, Mods\\Elle.CuterDogs\\ShihTzuSolidBrown, Mods\\Elle.CuterDogs\\ShihTzuSolidRed, Mods\\Elle.CuterDogs\\ShihTzuSolidMidnight, Mods\\Elle.CuterDogs\\ShihTzuSolidBlack, Mods\\Elle.CuterDogs\\ShihTzuSolidGrey, Mods\\Elle.CuterDogs\\ShihTzuSolidSilver, Mods\\Elle.CuterDogs\\ShihTzuSolidWhite, Mods\\Elle.CuterDogs\\ShihTzuVoid, Mods\\Elle.CuterDogs\\SmoothBicolorBlonde, Mods\\Elle.CuterDogs\\SmoothBicolorFawn, Mods\\Elle.CuterDogs\\SmoothBicolorBrown, Mods\\Elle.CuterDogs\\SmoothBicolorRed, Mods\\Elle.CuterDogs\\SmoothBicolorMidnight, Mods\\Elle.CuterDogs\\SmoothBicolorBlack, Mods\\Elle.CuterDogs\\SmoothBicolorGrey, Mods\\Elle.CuterDogs\\SmoothBicolorSilver, Mods\\Elle.CuterDogs\\SmoothSolidCream, Mods\\Elle.CuterDogs\\SmoothSolidBlonde, Mods\\Elle.CuterDogs\\SmoothSolidFawn, Mods\\Elle.CuterDogs\\SmoothSolidBrown, Mods\\Elle.CuterDogs\\SmoothSolidRed, Mods\\Elle.CuterDogs\\SmoothSolidMidnight, Mods\\Elle.CuterDogs\\SmoothSolidBlack, Mods\\Elle.CuterDogs\\SmoothSolidGrey, Mods\\Elle.CuterDogs\\SmoothSolidSilver, Mods\\Elle.CuterDogs\\SmoothSolidWhite, Mods\\Elle.CuterDogs\\SmoothVoid, Mods\\Elle.CuterDogs\\SpringerBicolorBlonde, Mods\\Elle.CuterDogs\\SpringerBicolorFawn, Mods\\Elle.CuterDogs\\SpringerBicolorBrown, Mods\\Elle.CuterDogs\\SpringerBicolorRed, Mods\\Elle.CuterDogs\\SpringerBicolorMidnight, Mods\\Elle.CuterDogs\\SpringerBicolorBlack, Mods\\Elle.CuterDogs\\SpringerBicolorGrey, Mods\\Elle.CuterDogs\\SpringerBicolorSilver, Mods\\Elle.CuterDogs\\SpringerSolidCream, Mods\\Elle.CuterDogs\\SpringerSolidBlonde, Mods\\Elle.CuterDogs\\SpringerSolidFawn, Mods\\Elle.CuterDogs\\SpringerSolidBrown, Mods\\Elle.CuterDogs\\SpringerSolidRed, Mods\\Elle.CuterDogs\\SpringerSolidMidnight, Mods\\Elle.CuterDogs\\SpringerSolidBlack, Mods\\Elle.CuterDogs\\SpringerSolidGrey, Mods\\Elle.CuterDogs\\SpringerSolidSilver, Mods\\Elle.CuterDogs\\SpringerSolidWhite, Mods\\Elle.CuterDogs\\SpringerVoid, Mods\\Elle.CuterDogs\\WeimaranerBlue, Mods\\Elle.CuterDogs\\WeimaranerGrey, Mods\\Elle.CuterDogs\\WeimaranerSilver, Mods\\Elle.CuterDogs\\WeimaranerTaupe, Mods\\Elle.CuterDogs\\WeimaranerVoid, Mods\\Elle.CuterDogs\\Westie, Mods\\Elle.CuterDogs\\WestieVoid,  Mods\\Elle.CuterDogs\\icons",
       "FromFile": "assets/{{TargetWithoutPath}}.png"
     },
 	

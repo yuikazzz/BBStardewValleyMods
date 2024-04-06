@@ -303,6 +303,22 @@
 	},
 	
     {
+      "LogName": "White Chicken BrahmaVoid",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "White Chicken", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_BWhiteChicken_BrahmaVoid": {
+		"Id": "Elle.CuterBarnAnimals_WhiteChicken_BrahmaVoid",
+			"Texture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BrahmaVoid",
+			"BabyTexture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BrahmaVoidBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "White Chicken Skins": "BrahmaVoid" },
+	},
+	
+    {
       "LogName": "White Chicken SilkieCream",
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
@@ -463,6 +479,22 @@
 	},
 	
     {
+      "LogName": "White Chicken SilkieVoid",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "White Chicken", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_WhiteChicken_SilkieVoid": {
+		"Id": "Elle.CuterBarnAnimals_WhiteChicken_SilkieVoid",
+			"Texture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\SilkieVoid",
+			"BabyTexture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\SilkieVoidBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "White Chicken Skins": "SilkieVoid" },
+	},
+	
+    {
       "LogName": "White Chicken BantamCream",
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
@@ -620,6 +652,22 @@
 			},
 		},
       "When": { "White Chicken Skins": "BantamWhite" },
+	},
+	
+    {
+      "LogName": "White Chicken BantamVoid",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "White Chicken", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_WhiteChicken_BantamVoid": {
+		"Id": "Elle.CuterBarnAnimals_WhiteChicken_BantamVoid",
+			"Texture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BantamVoid",
+			"BabyTexture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BantamVoidBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "White Chicken Skins": "BantamVoid" },
 	},
 	
     //Brown Chickens
@@ -800,6 +848,22 @@
 	},
 	
     {
+      "LogName": "Brown Chicken BrahmaVoid",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Brown Chicken", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_BrownChicken_BrahmaVoid": {
+		"Id": "Elle.CuterBarnAnimals_BrownChicken_BrahmaVoid",
+			"Texture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BrahmaVoid",
+			"BabyTexture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BrahmaVoidBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "Brown Chicken Skins": "BrahmaVoid" },
+	},
+	
+    {
       "LogName": "Brown Chicken SilkieCream",
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
@@ -960,6 +1024,22 @@
 	},
 	
     {
+      "LogName": "Brown Chicken SilkieVoid",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Brown Chicken", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_BrownChicken_SilkieVoid": {
+		"Id": "Elle.CuterBarnAnimals_BrownChicken_SilkieVoid",
+			"Texture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\SilkieVoid",
+			"BabyTexture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\SilkieVoidBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "Brown Chicken Skins": "SilkieVoid" },
+	},
+	
+    {
       "LogName": "Brown Chicken BantamCream",
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
@@ -1117,6 +1197,22 @@
 			},
 		},
       "When": { "Brown Chicken Skins": "BantamWhite" },
+	},
+	
+    {
+      "LogName": "Brown Chicken BantamVoid",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Brown Chicken", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_BrownChicken_BantamVoid": {
+		"Id": "Elle.CuterBarnAnimals_BrownChicken_BantamVoid",
+			"Texture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BantamVoid",
+			"BabyTexture": "Mods\\Elle.CuterCoopAnimals\\Chicken\\BantamVoidBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "Brown Chicken Skins": "BantamVoid" },
 	},
 	
     //Void Chickens

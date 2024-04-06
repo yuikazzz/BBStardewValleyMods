@@ -657,12 +657,28 @@
 	},
 	
     {
+      "LogName": "White Cow HighlandCream",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "White Cow", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_WhiteCow_HighlandCream": {
+		"Id": "Elle.CuterBarnAnimals_WhiteCow_HighlandCream",
+			"Texture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandCream",
+			"BabyTexture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandCreamBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "White Cow Skins": "HighlandCream" },
+	},
+	
+    {
       "LogName": "White Cow HighlandBlonde",
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
 	  "TargetField": [ "White Cow", "Skins" ],
       "Entries": {
-      "Elle.CuterBarnAnimals_WhiteCow_Highland": {
+      "Elle.CuterBarnAnimals_WhiteCow_HighlandBlonde": {
 		"Id": "Elle.CuterBarnAnimals_WhiteCow_HighlandBlonde",
 			"Texture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandBlonde",
 			"BabyTexture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandBlondeBaby",
@@ -782,6 +798,22 @@
 			},
 		},
       "When": { "White Cow Skins": "HighlandSilver" },
+	},
+	
+    {
+      "LogName": "White Cow HighlandWhite",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "White Cow", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_WhiteCow_HighlandWhite": {
+		"Id": "Elle.CuterBarnAnimals_WhiteCow_HighlandWhite",
+			"Texture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandWhite",
+			"BabyTexture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandWhiteBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "White Cow Skins": "HighlandWhite" },
 	},
 	
     {
@@ -1411,12 +1443,28 @@
 	},
 	
     {
+      "LogName": "Brown Cow HighlandCream",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Brown Cow", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_BrownCow_HighlandCream": {
+		"Id": "Elle.CuterBarnAnimals_BrownCow_HighlandCream",
+			"Texture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandCream",
+			"BabyTexture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandCreamBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "Brown Cow Skins": "HighlandCream" },
+	},
+	
+    {
       "LogName": "Brown Cow HighlandBlonde",
       "Action": "EditData",
       "Target": "Data/FarmAnimals",
 	  "TargetField": [ "Brown Cow", "Skins" ],
       "Entries": {
-      "Elle.CuterBarnAnimals_BrownCow_Highland": {
+      "Elle.CuterBarnAnimals_BrownCow_HighlandBlonde": {
 		"Id": "Elle.CuterBarnAnimals_BrownCow_HighlandBlonde",
 			"Texture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandBlonde",
 			"BabyTexture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandBlondeBaby",
@@ -1536,6 +1584,22 @@
 			},
 		},
       "When": { "Brown Cow Skins": "HighlandSilver" },
+	},
+	
+    {
+      "LogName": "Brown Cow HighlandWhite",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Brown Cow", "Skins" ],
+      "Entries": {
+      "Elle.CuterBarnAnimals_BrownCow_HighlandWhite": {
+		"Id": "Elle.CuterBarnAnimals_BrownCow_HighlandWhite",
+			"Texture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandWhite",
+			"BabyTexture": "Mods\\Elle.CuterBarnAnimals\\Cow\\HighlandWhiteBaby",
+			"Weight": "1.0",
+			},
+		},
+      "When": { "Brown Cow Skins": "HighlandWhite" },
 	},
 	
     {
@@ -4822,6 +4886,81 @@
 			},
 		},
       "When": { "Ostrich Skins": "Void" },
+	},
+	
+	// Shadow Removal
+	
+    {
+      "LogName": "White Cow Shadow",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "White Cow" ],
+      "Entries": {
+	  "ShadowWhenBabySwims": {"Visible": false,},
+	  "ShadowWhenBaby": {"Visible": false,},
+	  "ShadowWhenAdultSwims": {"Visible": false,},
+	  "ShadowWhenAdult": {"Visible": false,},
+		},
+	},
+    {
+      "LogName": "Brown Cow Shadow",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Brown Cow" ],
+      "Entries": {
+	  "ShadowWhenBabySwims": {"Visible": false,},
+	  "ShadowWhenBaby": {"Visible": false,},
+	  "ShadowWhenAdultSwims": {"Visible": false,},
+	  "ShadowWhenAdult": {"Visible": false,},
+		},
+	},
+    {
+      "LogName": "Goat Shadow",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Goat" ],
+      "Entries": {
+	  "ShadowWhenBabySwims": {"Visible": false,},
+	  "ShadowWhenBaby": {"Visible": false,},
+	  "ShadowWhenAdultSwims": {"Visible": false,},
+	  "ShadowWhenAdult": {"Visible": false,},
+		},
+	},
+    {
+      "LogName": "Sheep Shadow",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Sheep" ],
+      "Entries": {
+	  "ShadowWhenBabySwims": {"Visible": false,},
+	  "ShadowWhenBaby": {"Visible": false,},
+	  "ShadowWhenAdultSwims": {"Visible": false,},
+	  "ShadowWhenAdult": {"Visible": false,},
+		},
+	},
+    {
+      "LogName": "Pig Shadow",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Pig" ],
+      "Entries": {
+	  "ShadowWhenBabySwims": {"Visible": false,},
+	  "ShadowWhenBaby": {"Visible": false,},
+	  "ShadowWhenAdultSwims": {"Visible": false,},
+	  "ShadowWhenAdult": {"Visible": false,},
+		},
+	},
+    {
+      "LogName": "Ostrich Shadow",
+      "Action": "EditData",
+      "Target": "Data/FarmAnimals",
+	  "TargetField": [ "Ostrich" ],
+      "Entries": {
+	  "ShadowWhenBabySwims": {"Visible": false,},
+	  "ShadowWhenBaby": {"Visible": false,},
+	  "ShadowWhenAdultSwims": {"Visible": false,},
+	  "ShadowWhenAdult": {"Visible": false,},
+		},
 	},
 	
     // Shop Icons
