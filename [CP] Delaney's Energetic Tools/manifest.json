@@ -1,0 +1,11 @@
+{
+    "Name": "Delaney's Energetic Tools",
+    "Author": "Delaney",
+    "Version": "1.0.0",
+    "Description": "The recoloring tools make them look more vibrant.",
+    "UniqueID": "Delaney1035.EnergeticTools",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
