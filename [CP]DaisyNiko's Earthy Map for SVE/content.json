@@ -11,16 +11,16 @@
 				"HasMod": "FlashShifter.SVECode",
 			},
 		},
-//Crimson Badlands ( Not Activate it´s Buggy and not Fixed von Flashshifter )
-		//{
-            //"Action": "EditImage",
-            //"Target": "Maps/WorldMaps/CrimsonBadlands",
-            //"FromFile": "assets/CrimsonBadlands.png",
-            //"PatchMode": "Overlay",
-			//"When": {
-				//"HasMod": "FlashShifter.SVECode",
-			//},
-		//},
+//Crimson Badlands
+		{
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/CrimsonBadlands",
+            "FromFile": "assets/CrimsonBadlands.png",
+            "PatchMode": "Overlay",
+			"When": {
+				"HasMod": "FlashShifter.SVECode",
+			},
+		},
 //Meadowlands Farm
 		{
             "Action": "EditImage",
@@ -42,10 +42,10 @@
 				"HasMod": "flashshifter.GrandpasFarm",
 			},
 		},
-//Grampleton Fields ( Not Activate it´s Buggy and not Fixed von Flashshifter )
+//Grampleton Fields 
 		//{
 			//"Action": "EditImage",
-			//"Target": "Mods/flashshifter.GrampletonFields/GrampletonFields",
+			//"Target": "Mods/FlashShifter.StardewValleyExpandedCP/{{Season}}_Grampletonfields",
 			//"FromFile": "assets/{{Season}}_GrampletonFields.png",
 			//"Patchmode": "Overlay",
 			//"When": {
@@ -66,26 +66,26 @@
 				"HasMod |contains=flashshifter.GrandpasFarm": false
 			},
 		},
-//Highlands ( Not Activate it´s Buggy and not Fixed von Flashshifter )
-		//{
-            //"Action": "EditImage",
-            //"Target": "Mods/FlashShifter.StardewValleyExpandedCP/Maps/WorldMaps/Highlands",
-            //"FromFile": "assets/{{Season}}_Highlands_WorldMap.png",
-            //"PatchMode": "Overlay",
-			//"When": {
-				//"HasMod": "FlashShifter.SVECode",
-			//},
-		//},
-//Grumpleton Suburbs ( Not Activate it´s Buggy and not Fixed von Flashshifter )
-		//{
-            //"Action": "EditImage",
-           // "Target": "Mod/FlashShifter.StardewValleyExpandedCP/Maps/WorldMaps/GrampletonSuburbs",
-            //"FromFile": "assets/{{Season}}_GrampletonSuburbs_WorldMap.png",
-            //"PatchMode": "Overlay",
-			//"When": {
-				//"HasMod": "FlashShifter.SVECode",
-			//},
-		//},
+//Highlands
+		{
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/{{Season}}_Highlands",
+            "FromFile": "assets/{{Season}}_Highlands_WorldMap.png",
+            "PatchMode": "Overlay",
+			"When": {
+				"HasMod": "FlashShifter.SVECode",
+			},
+		},
+//Grumpleton Suburbs
+		{
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/{{Season}}_GrampletonSuburbs",
+            "FromFile": "assets/{{Season}}_GrampletonSuburbs_WorldMap.png",
+            "PatchMode": "Overlay",
+			"When": {
+				"HasMod": "FlashShifter.SVECode",
+			},
+		},
 //Joja
 		{
             "Action": "EditImage",
@@ -95,7 +95,30 @@
             "PatchMode": "Overlay",
 			"When": {
 				"HasMod": "FlashShifter.SVECode",
-				"HasSeenEvent |contains=5553210": true
+				"HasSeenEvent": "5553210"
+			},
+		},
+//Fablereef
+		{
+            "Action": "EditImage",
+            "Target": "Mods/FlashShifter.StardewValleyExpandedCP/FableReef",
+            "FromFile": "assets/FableReef.png",
+            "PatchMode": "Overlay",
+			"When": {
+				"HasMod": "FlashShifter.SVECode",
+			},
+		},
+//Maplayer
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/map, LooseSprites/map_summer, LooseSprites/map_fall, LooseSprites/map_winter",
+            "FromFile": "assets/maplayer.png",
+			"FromArea": { "X": 208, "Y": 363, "Width": 40, "Height": 30 },
+			"ToArea": { "X": 208, "Y": 363, "Width": 40, "Height": 30 },
+            "PatchMode": "Overlay",
+			"When": {
+				"HasMod": "FlashShifter.SVECode",
+				"HasMod": "DaisyNiko.EarthyRecolour"
 			},
 		},
     ]

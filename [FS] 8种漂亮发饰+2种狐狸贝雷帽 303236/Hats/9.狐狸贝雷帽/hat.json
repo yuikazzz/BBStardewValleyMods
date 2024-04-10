@@ -1,0 +1,69 @@
+{
+  // See the wiki for all hat properties: https://github.com/Floogen/FashionSense/wiki/Hat-Model-Properties
+
+  "Name": "狐狸贝雷帽",
+  "FrontHat": {
+
+
+    "StartingPosition": {
+      "X": 2,
+      "Y": 0
+    },
+    "HeadPosition": {
+      "X": -3,
+      "Y": -1
+    },
+    "HatSize": {
+      "Width": 100,
+      "Length": 11
+    }
+  },
+
+
+
+  "RightHat": {
+      
+    "StartingPosition": {
+      "X": 0,
+      "Y": 20
+    },
+    "HeadPosition": {
+      "X": -1,
+      "Y": -1
+    },
+    "HatSize": {
+      "Width": 15,
+      "Length": 14
+    }
+  },
+  "LeftHat": {
+       
+    "StartingPosition": {
+      "X": 3,
+      "Y": 40
+    },
+    "HeadPosition": {
+      "X": -4,
+      "Y": -1
+    },
+    "HatSize": {
+      "Width": 15,
+      "Length": 14
+    } 
+  },
+  "BackHat": {
+       
+    "StartingPosition": {
+      "X": 2,
+      "Y": 60
+    },
+    "HeadPosition": {
+      "X": -3,
+      "Y": -2
+    },
+    "HatSize": {
+      "Width": 16,
+      "Length": 13
+    }
+  }
+}
