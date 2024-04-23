@@ -1,5 +1,5 @@
   {
-	"Format": "1.9",
+	"Format": "1.30.4",
 
 	"ConfigSchema": 
 		{
@@ -452,7 +452,67 @@
 				{
 				"AllowValues": "true, false",
 				"Default": "true"
-				}
+				},
+			"Text Sign":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Mushroom Log":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Bait Maker":
+				{
+				"AllowValues": "animated, true, false",
+				"Default": "animated"
+				},
+			"Dehydrator":
+				{
+				"AllowValues": "animated, true, false",
+				"Default": "animated"
+				},
+			"Heavy Furnace":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Statue Of Blessings":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Statue Of The Dwarf King":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Anvil":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Fish Smoker":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"Deluxe Bait":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"big chest":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
+			"big stone chest":
+				{
+				"AllowValues": "true, false",
+				"Default": "true"
+				},
 			},
 			
 	"Changes": [
@@ -1589,11 +1649,168 @@
 			"Statue of True Perfection": "animated, true"
 			}
 		}, 
+		{	
+			"LogName": "Text Sign",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":16, "Y":1120, "Width":32, "Height":32},
+			"ToArea": {"X":16, "Y":1120, "Width":32, "Height":32},
+			"When":
+			{
+			"Text Sign": "true"
+			}
+		}, 
+		{	
+			"LogName": "Mushroom Log",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":48, "Y":1120, "Width":32, "Height":32},
+			"ToArea": {"X":48, "Y":1120, "Width":32, "Height":32},
+			"When":
+			{
+			"Mushroom Log": "true"
+			}
+		}, 
+		{	
+			"LogName": "Bait Maker",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":80, "Y":1120, "Width":16, "Height":32},
+			"ToArea": {"X":80, "Y":1120, "Width":16, "Height":32},
+			"When":
+			{
+			"Bait Maker": "true, animated"
+			}
+		},
+		{	
+			"LogName": "Dehydrator",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":96, "Y":1120, "Width":16, "Height":32},
+			"ToArea": {"X":96, "Y":1120, "Width":16, "Height":32},
+			"When":
+			{
+			"Dehydrator": "true, animated"
+			}
+		},
+		{	
+			"LogName": "Heavy Furnace",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":0, "Y":1152, "Width":32, "Height":32},
+			"ToArea": {"X":0, "Y":1152, "Width":32, "Height":32},
+			"When":
+			{
+			"Heavy Furnace": "true"
+			}
+		},
+		{	
+			"LogName": "Statue Of Blessings",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":32, "Y":1152, "Width":32, "Height":32},
+			"ToArea": {"X":32, "Y":1152, "Width":32, "Height":32},
+			"When":
+			{
+			"Statue Of Blessings": "true"
+			}
+		},
+		{	
+			"LogName": "Statue Of The Dwarf King",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":64, "Y":1152, "Width":16, "Height":32},
+			"ToArea": {"X":64, "Y":1152, "Width":16, "Height":32},
+			"When":
+			{
+			"Statue Of The Dwarf King": "true"
+			}
+		},
+		{	
+			"LogName": "Anvil",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":80, "Y":1152, "Width":16, "Height":32},
+			"ToArea": {"X":80, "Y":1152, "Width":16, "Height":32},
+			"When":
+			{
+			"Anvil": "true"
+			}
+		},
+		{	
+			"LogName": "Fish Smoker",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":0, "Y":1184, "Width":32, "Height":32},
+			"ToArea": {"X":0, "Y":1184, "Width":32, "Height":32},
+			"When":
+			{
+			"Fish Smoker": "true"
+			}
+		},
+		{	
+			"LogName": "Deluxe Bait",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":32, "Y":1184, "Width":16, "Height":32},
+			"ToArea": {"X":32, "Y":1184, "Width":16, "Height":32},
+			"When":
+			{
+			"Deluxe Bait": "true"
+			}
+		}, 
+		{	
+			"LogName": "big chest",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":0, "Y":1216, "Width":96, "Height":96},
+			"ToArea": {"X":0, "Y":1216, "Width":96, "Height":96},
+			"When":
+			{
+			"big chest": "true"
+			}
+		}, 
+		{	
+			"LogName": "big stone chest",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/craftables.png",
+			"FromArea": {"X":0, "Y":1312, "Width":96, "Height":64},
+			"ToArea": {"X":0, "Y":1312, "Width":96, "Height":64},
+			"When":
+			{
+			"big stone chest": "true"
+			}
+		}, 
 
 
 
 
-		
+
+	//Spring object
 		{ 
 			"LogName": "loom rotate",
 			"Action": "EditImage",
@@ -1916,7 +2133,37 @@
 			{
 			"Statue of True Perfection": "animated"
 			}
-		}
+		},
+		{	
+			"LogName": "Bait Maker move",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/bait.png",
+			"FromArea": {"X":0, "Y":0, "Width":16, "Height":32},
+			"ToArea": {"X":80, "Y":1120, "Width":16, "Height":32},
+			"AnimationFrameTime": 20,
+			"AnimationFrameCount": 26,
+			"When":
+			{
+			"Bait Maker": "animated"
+			}
+		},
+		{	
+			"LogName": "Dehydrator move",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/craftables",
+			"FromFile": "assets/dehydrator.png",
+			"FromArea": {"X":0, "Y":0, "Width":16, "Height":32},
+			"ToArea": {"X":96, "Y":1120, "Width":16, "Height":32},
+			"AnimationFrameTime": 10,
+			"AnimationFrameCount": 12,
+			"When":
+			{
+			"Dehydrator": "animated"
+			}
+		}, 
 		
 ]
 }
