@@ -1,0 +1,12 @@
+{
+	"Name": "WorldMap for only Stardew Valley Expanded",
+	"Author": "N3cro_92",
+	"Description": "DaisyNiko's Earthy Worldmap for only SVE",
+	"Version": "1.0.9",
+	"UniqueID": "N3cro_92.WorldMapONLYSVE",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:21788" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+    },
+}
