@@ -1,0 +1,13 @@
+{
+  "Name": "Orangeblossom's Basic Bedroom Furniture - Wood Recolor",
+  "Author": "orangeblossom",
+  "Version": "1.0.3",
+  "Description": "...",
+  "UniqueID": "ob7.bbf.wood.rc",
+  "UpdateKeys": ["Nexus:23194"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.10.0"
+  }
+}

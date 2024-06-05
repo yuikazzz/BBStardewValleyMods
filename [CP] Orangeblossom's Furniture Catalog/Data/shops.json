@@ -29,7 +29,7 @@
 "Action": "EditData",
 "Target": "Data/Furniture",
 "Entries": 
-{"OB7Furni_Catalogue":"OB7Furni_Catalogue/other/2 3/2 1/1/20000/2/Orangeblossom's Furniture Catalogue/0/Tilesheets\\OB7Furni_Catalogue/true"}},
+{"OB7Furni_Catalogue":"OB7Furni_Catalogue/other/2 3/2 1/1/20000/2/{{i18n:ob7_furnicata}}/0/Tilesheets\\OB7Furni_Catalogue/true"}},
 
 {"LogName": "Add Furniture Catalogue Tile Actions",
 "Action": "EditData",

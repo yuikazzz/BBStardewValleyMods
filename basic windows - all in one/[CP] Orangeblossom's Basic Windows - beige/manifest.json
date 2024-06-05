@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Orangeblossom's Basic Furniture Windows - beige",
+    "Author": "orangeblossom",
+    "Version": "1.0.1",
+  "Description": "Cozy windows.",
+  "UniqueID": "OB7.BF.Windows.beige",
+"Dependencies": [{"UniqueID": "OB7.FurniCatalogue","IsRequired": true}],
+  "UpdateKeys": ["Nexus:23329"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}
