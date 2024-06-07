@@ -1,0 +1,90 @@
+{"Format": "2.0.0",
+"Changes":[{
+"Action": "EditData",
+"Target": "Data/Furniture",
+"Entries":{
+
+"OB7.WallSconce": "ob7.WallSconce/sconce/-1/-1/1/000/-1/{{i18n:ob7_WallSconce}}/14/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.DoubleBed": "ob7.BedDouble/bed double/3 4/3 3/1/5000/-1/{{i18n:ob7_DoubleBed}}/0/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.DoubleBed2": "ob7.BedDouble2/bed double/3 4/3 3/1/5000/-1/{{i18n:ob7_DoubleBed2}}/384/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.BedSingle": "ob7.BedSingle/bed/2 4/2 3/1/5000/-1/{{i18n:ob7_BedSingle}}/266/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.BedSingle2": "ob7.BedSingle2/bed/2 4/2 3/1/5000/-1/{{i18n:ob7_BedSingle2}}/390/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.EndTable1": "ob7.EndTable1/table/1 2/1 1/2/500/-1/{{i18n:ob7_EndTable1}}/6/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.EndTable1A": "ob7.EndTable1A/table/1 2/1 1/4/500/-1/{{i18n:ob7_EndTable1A}}/112/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.EndTable1C": "ob7.EndTable1C/table/1 2/1 1/2/500/-1/{{i18n:ob7_EndTable1C}}/144/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.EndTable2": "ob7.EndTable2/table/1 2/1 1/2/500/-1/{{i18n:ob7_EndTable2}}/38/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.EndTable2A": "ob7.EndTable2A/table/1 2/1 1/4/500/-1/{{i18n:ob7_EndTable2A}}/116/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.EndTable2C": "ob7.EndTable2C/table/1 2/1 1/2/500/-1/{{i18n:ob7_EndTable2C}}/146/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.EndTable3": "ob7.EndTable3/table/1 2/1 1/2/500/-1/{{i18n:ob7_EndTable3}}/394/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.HousePlant1": "ob7.HousePlant1/decor/1 2/1 1/1/250/-1/{{i18n:ob7_HousePlant1}}/8/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.HousePlant2": "ob7.HousePlant2/decor/1 2/1 1/1/250/-1/{{i18n:ob7_HousePlant2}}/40/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.WallDeco1": "ob7.WallDeco1/painting/3 2/3 2/1/1750/-1/{{i18n:ob7_WallDeco1}}/9/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.WallDeco2": "ob7.WallDeco2/painting/3 2/3 2/1/1750/-1/{{i18n:ob7_WallDeco2}}/41/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.WallDeco3": "ob7.WallDeco3/painting/1 2/1 2/1/1750/-1/{{i18n:ob7_WallDeco3}}/236/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.Lamp1": "ob7.Lamp1/lamp/-1/-1/1/750/-1/{{i18n:ob7_Lamp1}}/12/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Lamp2": "ob7.Lamp2/lamp/-1/-1/1/750/-1/{{i18n:ob7_Lamp2}}/140/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Lamp3": "ob7.Lamp3/lamp/-1/-1/1/750/-1/{{i18n:ob7_Lamp3}}/142/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Lamp6": "ob7.Lamp6/lamp/-1/-1/1/750/-1/{{i18n:ob7_Lamp6}}/188/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.Wardrobe1A": "ob7.Wardrobe1A/dresser/1 3/1 1/2/750/-1/{{i18n:ob7_Wardrobe1A}}/64/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1B": "ob7.Wardrobe1B/dresser/1 3/1 1/2/750/-1/{{i18n:ob7_Wardrobe1B}}/66/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1C": "ob7.Wardrobe1C/dresser/1 3/1 1/2/750/-1/{{i18n:ob7_Wardrobe1C}}/68/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1D": "ob7.Wardrobe1D/dresser/2 3/2 1/1/750/-1/{{i18n:ob7_Wardrobe1D}}/70/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1E": "ob7.Wardrobe1E/dresser/2 3/2 1/1/750/-1/{{i18n:ob7_Wardrobe1E}}/72/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1F": "ob7.Wardrobe1F/decor/1 4/1 2/1/750/-1/{{i18n:ob7_Wardrobe1F}}/74/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1G": "ob7.Wardrobe1G/decor/1 4/1 2/1/750/-1/{{i18n:ob7_Wardrobe1G}}/75/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1H": "ob7.Wardrobe1H/decor/1 4/1 1/1/750/-1/{{i18n:ob7_Wardrobe1H}}/76/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Wardrobe1I": "ob7.Wardrobe1I/decor/1 4/1 1/1/750/-1/{{i18n:ob7_Wardrobe1I}}/77/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.Mirror": "ob7.Mirror/decor/1 3/1 1/1/750/-1/{{i18n:ob7_Mirror}}/78/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.Divider": "ob7.Divider/decor/1 3/1 1/2/750/-1/{{i18n:ob7_Divider}}/120/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.MakeupClutter1": "ob7.MakeupClutter1/decor/1 1/1 1/4/750/-1/{{i18n:ob7_MakeupClutter1}}/176/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.BagClutter": "ob7.BagClutter/decor/1 1/1 1/2/750/-1/{{i18n:ob7_BagClutter}}/180/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.Hamper": "ob7.Hamper/decor/1 2/1 1/1/750/-1/{{i18n:ob7_Hamper}}/95/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.StoolCushion": "ob7.StoolCushionA/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolCushion}}/320/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.StoolCushion2": "ob7.StoolCushionB/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolCushion2}}/272/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.StoolCushion3": "ob7.StoolCushionC/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolCushion3}}/276/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.StoolWood": "ob7.StoolWoodA/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolWood}}/324/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.StoolWood2": "ob7.StoolWoodB/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolWood2}}/224/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.StoolWood2A": "ob7.StoolWoodB1/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolWood2A}}/328/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+"OB7.StoolWood3": "ob7.StoolWoodC/chair/-1/-1/4/350/-1/{{i18n:ob7_StoolWood3}}/228/Tilesheets\\OBedF_bedroomFurniture/false/collection_ob7Furniture",
+
+"OB7.Rug1A": "ob7.rug1A/rug/3 3/3 3/1/1250/-1/{{i18n:ob7_Rug1A}}/0/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug1B": "ob7.rug1B/rug/4 3/4 3/1/1750/-1/{{i18n:ob7_Rug1B}}/48/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug1C": "ob7.rug1C/rug/5 4/5 4/1/2000/-1/{{i18n:ob7_Rug1C}}/96/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug1D": "ob7.rug1D/rug/5 4/5 4/1/2500/-1/{{i18n:ob7_Rug1D}}/165/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+
+"OB7.Rug2A": "ob7.rug2A/rug/3 3/3 3/1/1250/-1/{{i18n:ob7_Rug2A}}/3/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug2B": "ob7.rug2B/rug/4 3/4 3/1/1750/-1/{{i18n:ob7_Rug2B}}/52/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug2C": "ob7.rug2C/rug/5 4/5 4/1/2000/-1/{{i18n:ob7_Rug2C}}/101/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug2D": "ob7.rug2D/rug/5 4/5 4/1/2500/-1/{{i18n:ob7_Rug2D}}/170/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+
+"OB7.Rug3A": "ob7.rug3A/rug/3 3/3 3/1/1250/-1/{{i18n:ob7_Rug3A}}/6/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug3B": "ob7.rug3B/rug/4 3/4 3/1/1750/-1/{{i18n:ob7_Rug3B}}/56/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug3C": "ob7.rug3C/rug/5 4/5 4/1/2000/-1/{{i18n:ob7_Rug3C}}/106/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug3D": "ob7.rug3D/rug/5 4/5 4/1/2500/-1/{{i18n:ob7_Rug3D}}/224/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+
+"OB7.Rug4A": "ob7.rug4A/rug/3 3/3 3/1/1250/-1/{{i18n:ob7_Rug4A}}/9/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug4B": "ob7.rug4B/rug/4 3/4 3/1/1750/-1/{{i18n:ob7_Rug4B}}/60/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug4C": "ob7.rug4C/rug/5 4/5 4/1/2000/-1/{{i18n:ob7_Rug4C}}/160/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+"OB7.Rug4D": "ob7.rug4D/rug/5 4/5 4/1/2500/-1/{{i18n:ob7_Rug4D}}/229/Tilesheets\\OBedF_bedroomRugs/false/collection_ob7Furniture",
+}
+},
+
+{"Action": "Load","Target": "Tilesheets/OBedF_bedroomFurniture","FromFile": "assets/OBedF_bedroomFurniture.png"},
+{"Action": "Load","Target": "Tilesheets/OBedF_bedroomFurnitureFront","FromFile": "assets/OBedF_bedroomFurnitureFront.png"},
+{"Action": "Load","Target": "Tilesheets/OBedF_bedroomRugs","FromFile": "assets/OBedF_bedroomRugs.png"}
+
+]}
