@@ -1,10 +1,19 @@
 {
    "Format": "2.0.0",
    "Changes": [
-        {
+    {
 	"Action": "EditImage",
 	"Target": "TileSheets/Tools",
 	"FromFile": "assets/Energetic_Tools.png",
 	},
+	{
+    "LogName": "TrashCans",
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "LooseSprites/Cursors",
+    "FromFile": "assets/Trashcans.png",
+    "FromArea": {"X": 0, "Y": 0, "Width": 96, "Height": 48},
+    "ToArea": {"X": 560, "Y": 96, "Width": 96, "Height": 48}
+  },
    ]
 }

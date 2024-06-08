@@ -1,11 +1,12 @@
 {
    "Name": "Coii's Girls Sets Pack",
    "Author": "Coii",
-   "Version": "1.4",
+   "Version": "1.4.1",
    "Description": "Replaces to farmer girl's hairstyles, shirts and skirt.",
    "UniqueID": "Coii.Girls",
    "MinimumApiVersion": "2.5",
+   "UpdateKeys": ["Nexus:2872"],
    "ContentPackFor": {
-     "UniqueID": "Pathoschild.ContentPatcher",
+     "UniqueID": "Pathoschild.ContentPatcher"
   }
 }

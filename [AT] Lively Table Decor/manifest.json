@@ -4,7 +4,7 @@
     "Version": "1.0.0",
     "Description": "Cute table decors",
     "UniqueID": "KatyDTK.ATLivelyTableDecor",
-    "UpdateKeys": [],
+    "UpdateKeys":[ "Nexus:17004" ],
     "Dependencies": [],
     "ContentPackFor": {
       "UniqueID": "PeacefulEnd.AlternativeTextures",
