@@ -15,7 +15,7 @@
   "DisableSVEJojaMartShop": "false",
   "BalancedCrafting": "false",
   "HarderBuildingConstruction": "false",
-  "StrongerMonsters": "false",
+  "StrongerMonsters": "true",
   "OlderSophiaPortraits": "false",
   "VanillaSandyPortraits": "false",
   "MatureEvents": "false",
