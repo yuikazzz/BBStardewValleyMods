@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] Luoli Happy Skirt Set9",
+  "Author": "luoli",
+  "Version": "1.0.0",
+  "Description": "除本人QQ群以及N网以外上传的地方均为倒卖和二传，请认准洛离.",
+  "UniqueID": "luoli.FSLuoliHappySkirtSet9",
+  "UpdateKeys": ["Nexus:24327"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

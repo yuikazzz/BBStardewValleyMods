@@ -1,0 +1,105 @@
+FISHING MADE EASY SUITE INSTRUCTIONS AND INFORMATION
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+INSTALLATION AND ENABLING SETTINGS
+
+1. Download and Install the Latest Version of SMAPI: https://www.nexusmods.com/stardewvalley/mods/2400
+
+2. Download and Extract the Content Patcher mod into your Stardew Valley/Mods folder: https://www.nexusmods.com/stardewvalley/mods/1915
+
+3. Download and Extract the Generic Mod Config Menu mod into your Stardew Valley/Mods folder:﻿ https://www.nexusmods.com/stardewvalley/mods/5098
+
+4. Extract the Fishing Made Easy Suite mod into your Stardew Valley/Mods folder.
+
+5. Launch Stardew Valley. To enable your settings, click the cog wheel on the bottom left corner of the Stardew Valley title screen.﻿﻿
+
+IMPORTANT: If you do not want the fishing minigame but want all the features that come with Fishing Made Easy Suite, this mod is also fully compatible with the SKIP FISHING MINIGAME MOD﻿: https://www.nexusmods.com/stardewvalley/mods/2697
+
+If you're using Steam: you can easily find your mods folder by going into your Steam Library, right click on Stardew Valley, click 'Manage', then 'Browse local files'. This will take you to your Stardew Valley directory that will have the mods folder there. That is where you will extract the contents of your mods.
+
+Like Fishing Made Easy Suite? Endorse the mod on Nexus! It counts as a 'Like' button and helps mod creators get exposure for their work :)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Using the Fishing Difficulty option: "100% Easier + Max Fishing Bar" will ensure that treasure chests will also be caught and grand full fishing xp.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you are using the "Dynamic Weather" settings from the "Fishing Difficulty" category:
+
+ > Easy Setting: Wind = 15% Harder, Rain = 10% Easier, Snow = 15% Easier, Storm = 20% Easier
+
+ > Easier Setting: Wind = 5% Harder, Rain = 20% Easier, Snow = 25% Easier, Storm = 30% Easier
+
+ > Easiest Setting: Wind = 5% Easier, Rain = 30% Easier, Snow = 35% Easier, Storm = 40% Easier
+
+Fish that only come out in certain weather conditions will not be affected if it's the appropriate weather.
+
+(Example: Eel is a rain only fish and the difficulty will not change when it is raining.)
+
+Rain and Sun fish with have opposite effects if using the All Seasons setting or the item ingame that makes fish appear in all seasons.
+
+(Example: Pufferfish is a sun only fish and the difficulty will become harder during rainy weather.)
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+FOR STARDEW VALLEY EXPANDED (MOD) USERS!!!
+
+You can download a compatible expansion of Fishing Made Easy Suite that works with Stardew Valley Expanded here:
+
+https://www.nexusmods.com/stardewvalley/mods/9485
+
+FOR STARDEW VALLEY RIDGESIDE VILLAGE (MOD) USERS!!!
+
+You can download a compatible expansion of Fishing Made Easy Suite that works with Ridgeside Village here:
+
+https://www.nexusmods.com/stardewvalley/mods/12190
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Like Fishing Made Easy Suite? Check out my other mods!! :D
+
+Farming Made Easy Suite
+https://www.nexusmods.com/stardewvalley/mods/4130
+
+This mod has an array of options to enhance your farming life! You can make crops grow faster, crops grow in all seasons, make your crops regrow after harvesting (like Strawberries!) make your farm animals mature and/or produce products faster, an option to find Prismatic Seeds to grow them into Prismatic Shards, and much more!
+
+Combat Made Easy Suite
+https://www.nexusmods.com/stardewvalley/mods/4227
+
+This mod has an array of options to enhance your combat life! You can decrease or increase the health, damage done, and speed of monsters, you can decrease or increase the monster's detection of players, increase your combat experience points from killing monsters, increase loot drops from monsters, make all monsters drop Prismatic Shards, and much more!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Q: I came from the Easy Fishing v2.0 mod to this one and I'm getting errors in SMAPI saying I'm missing data...?
+
+A: If this happens you need to revalidate your Stardew Valley installation files. To do so, right click on Stardew Valley on Steam. Click on Properties. Then on the left side on the new window, click on Local Files. Then click on the option Verify Integrity of Game Files. This will restore the xnb file that was used by the Easy Fishing v2.0 mod back to the original. Then Fishing Made Easy Suite will work properly.
+
+Q: I'm getting less fishing xp with the mod enabled...why's that?
+
+A: This may seem worrisome, but don't worry! Fishing xp is awarded based on the difficulty of the fish, you'll still get a good amount of xp in a good amount of time with the 100% setting. It could be a little slower or a little faster than not having the mod installed.
+
+(Example: At 100% easy fishing, most fish will grant 14 to 21+ xp per perfect catch.)
+
+If you want max xp while using 100% easy fishing, switch to the "100% Easier + Max Fishing Bar" setting instead. This will guarantee fishing chests and full xp.
+
+Q: Is there a way to completely skip the fishing mini game and still use the Fishing Made Easy Suite settings like recatching legendary fish?
+
+A: Yes! The mod Skip Fishing Minigame and FishMe are compatible! CJB Cheats Menu's fishing options also work well!.
+
+Q: Is this mod compatible or not compatible with other fishing mods?
+
+A: As of Stardew Valley v1.6, most fishing mods should be compatible with Fishing Made Easy Suite! Check the mod compatibility section for more information on mods that are not compatible.
+
+Q: Does this mod work on Android devices?
+
+A: Yes! But the app needs to be on the latest release for the mod to work.
+
+Q: Does this mod work in multiplayer?
+
+A: Yes! It will work for those that have the mod installed. BUT settings that make fish appear at in all seasons or make legendary fish recatchable will not work unless the host has the mod and enables it. This is because those settings affect the game's location data. But any other setting that affects Easy Fishing, Time, and Weather will work for just those people that have them enabled.
+
+Q: Will Fishing Made Easy Suite work with other languages (German, French, Spanish, etc) of the game?
+
+A: Yes it will! The Content Patcher mod that is required to make Fishing Made Easy work makes this possible. :)
