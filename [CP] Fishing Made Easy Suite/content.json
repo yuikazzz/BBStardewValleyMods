@@ -4,8 +4,8 @@
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Fishing! =",
-			"AllowValues": "Version 6.0.12",
-			"Default": "Version 6.0.12"
+			"AllowValues": "Version 6.0.13",
+			"Default": "Version 6.0.13"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -45,6 +45,12 @@
 		},
 		    "Same Spawn Rates": {
 			"Description": "All fish, except legendary fish, now share the same spawn rates.",
+			"Section": "Fishing Minigame",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Night Market Fish Availability": {
+			"Description": "The Night Market Fish (Midnight Squid, Spook Fish, and Blobfish) will now be fishable anywhere on the Beach during Winter after 5pm. The All Times Of Day and All Seasons settings will also have an effect on these fish.",
 			"Section": "Fishing Minigame",
             "AllowValues": "true, false",
             "Default": "false"
@@ -859,8 +865,8 @@
 			"AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Pufferfish Exclusion": {
-			"Description": "Pufferfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Albacore Exclusion": {
+			"Description": "Albacore are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -871,14 +877,14 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Tuna Exclusion": {
-			"Description": "Tuna are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Blobfish Exclusion": {
+			"Description": "Blobfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-	        "Sardine Exclusion": {
-			"Description": "Sardine are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Blue Discus Exclusion": {
+			"Description": "Blue Discus are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -889,38 +895,8 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Largemouth Bass Exclusion": {
-			"Description": "Largemouth Bass are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Smallmouth Bass Exclusion": {
-			"Description": "Smallmouth Bass are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Rainbow Trout Exclusion": {
-			"Description": "Rainbow Trout are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Salmon Exclusion": {
-			"Description": "Salmon are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Walleye Exclusion": {
-			"Description": "Walleye are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Perch Exclusion": {
-			"Description": "Perch are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Bullhead Exclusion": {
+			"Description": "Bullhead are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -937,138 +913,6 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Pike Exclusion": {
-			"Description": "Pike are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Sunfish Exclusion": {
-			"Description": "Sunfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Red Mullet Exclusion": {
-			"Description": "Red Mullet are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Herring Exclusion": {
-			"Description": "Herring are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Eel Exclusion": {
-			"Description": "Eel are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Octopus Exclusion": {
-			"Description": "Octopus are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Red Snapper Exclusion": {
-			"Description": "Red Snapper are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Squid Exclusion": {
-			"Description": "Squid are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Sea Cucumber Exclusion": {
-			"Description": "Sea Cucumber are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Super Cucumber Exclusion": {
-			"Description": "Super Cucumber are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Ghostfish Exclusion": {
-			"Description": "Ghostfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Stonefish Exclusion": {
-			"Description": "Stonefish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Ice Pip Exclusion": {
-			"Description": "Ice Pip are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Lava Eel Exclusion": {
-			"Description": "Lava Eel are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Sandfish Exclusion": {
-			"Description": "Sandfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Scorpion Carp Exclusion": {
-			"Description": "Scorpion Carp are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Flounder Exclusion": {
-			"Description": "Flounder are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Midnight Carp Exclusion": {
-			"Description": "Midnight Carp are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Sturgeon Exclusion": {
-			"Description": "Sturgeon are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Tiger Trout Exclusion": {
-			"Description": "Tiger Trout are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Bullhead Exclusion": {
-			"Description": "Bullhead are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Tilapia Exclusion": {
-			"Description": "Tilapia are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
-			"Section": "Fishing Minigame Exclusions",
-            "AllowValues": "true, false",
-            "Default": "false"
-		},
 		    "Chub Exclusion": {
 			"Description": "Chub are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
@@ -1081,20 +925,26 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Albacore Exclusion": {
-			"Description": "Albacore are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Eel Exclusion": {
+			"Description": "Eel are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Shad Exclusion": {
-			"Description": "Shad are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Flounder Exclusion": {
+			"Description": "Flounder are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Lingcod Exclusion": {
-			"Description": "Lingcod are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Ghostfish Exclusion": {
+			"Description": "Ghostfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Goby Exclusion": {
+			"Description": "Goby fish are now excluded from the fishing minigame. As a result, you will be limited to catching just one. This setting for Goby will only apply if using the Specialty Fish On Farm setting.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -1105,26 +955,32 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Woodskip Exclusion": {
-			"Description": "Woodskip are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Herring Exclusion": {
+			"Description": "Herring are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Void Salmon Exclusion": {
-			"Description": "Void Salmon are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Ice Pip Exclusion": {
+			"Description": "Ice Pip are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Slimejack Exclusion": {
-			"Description": "Slimejack are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Largemouth Bass Exclusion": {
+			"Description": "Largemouth Bass are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Stingray Exclusion": {
-			"Description": "Stingray are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Lava Eel Exclusion": {
+			"Description": "Lava Eel are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Lingcod Exclusion": {
+			"Description": "Lingcod are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -1135,8 +991,8 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Blue Discus Exclusion": {
-			"Description": "Blue Discus are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Midnight Carp Exclusion": {
+			"Description": "Midnight Carp are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -1147,20 +1003,170 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
+		    "Octopus Exclusion": {
+			"Description": "Octopus are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Perch Exclusion": {
+			"Description": "Perch are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Pike Exclusion": {
+			"Description": "Pike are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Pufferfish Exclusion": {
+			"Description": "Pufferfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Rainbow Trout Exclusion": {
+			"Description": "Rainbow Trout are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Red Mullet Exclusion": {
+			"Description": "Red Mullet are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Red Snapper Exclusion": {
+			"Description": "Red Snapper are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Salmon Exclusion": {
+			"Description": "Salmon are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Sandfish Exclusion": {
+			"Description": "Sandfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Sardine Exclusion": {
+			"Description": "Sardine are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Scorpion Carp Exclusion": {
+			"Description": "Scorpion Carp are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Sea Cucumber Exclusion": {
+			"Description": "Sea Cucumber are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Shad Exclusion": {
+			"Description": "Shad are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Slimejack Exclusion": {
+			"Description": "Slimejack are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Smallmouth Bass Exclusion": {
+			"Description": "Smallmouth Bass are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
 		    "Spook Fish Exclusion": {
 			"Description": "Spook Fish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Blobfish Exclusion": {
-			"Description": "Blobfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+		    "Squid Exclusion": {
+			"Description": "Squid are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Goby Exclusion": {
-			"Description": "Goby fish are now excluded from the fishing minigame. As a result, you will be limited to catching just one. This setting for Goby will only apply if using the Specialty Fish On Farm setting.",
+		    "Stingray Exclusion": {
+			"Description": "Stingray are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Stonefish Exclusion": {
+			"Description": "Stonefish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Sturgeon Exclusion": {
+			"Description": "Sturgeon are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Sunfish Exclusion": {
+			"Description": "Sunfish are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Super Cucumber Exclusion": {
+			"Description": "Super Cucumber are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Tiger Trout Exclusion": {
+			"Description": "Tiger Trout are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Tilapia Exclusion": {
+			"Description": "Tilapia are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Tuna Exclusion": {
+			"Description": "Tuna are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Void Salmon Exclusion": {
+			"Description": "Void Salmon are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Walleye Exclusion": {
+			"Description": "Walleye are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
+			"Section": "Fishing Minigame Exclusions",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Woodskip Exclusion": {
+			"Description": "Woodskip are now excluded from the fishing minigame. As a result, you will be limited to catching just one.",
 			"Section": "Fishing Minigame Exclusions",
             "AllowValues": "true, false",
             "Default": "false"
@@ -5728,8 +5734,6 @@
 			"Fields": {
 				"(O)132": {"Season": null, "Condition": null},
 				"(O)137": {"Season": null, "Condition": null},
-				"(O)138": {"Season": null, "Condition": null},
-				"(O)139": {"Season": null, "Condition": null},
 				"(O)140": {"Season": null, "Condition": null},
 				"(O)141": {"Season": null, "Condition": null},
 				"(O)143": {"Season": null, "Condition": null},
@@ -5741,6 +5745,36 @@
 				"(O)704": {"Season": null, "Condition": null},
 				"(O)706": {"Season": null, "Condition": null},
 				"(O)707": {"Season": null, "Condition": null},	
+				      },
+			    "When": {"All Seasons": true},
+	    },
+		{
+			"LogName": "All Seasons Forest Rainbow Trout",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish", "#13" ],
+			"Entries": {
+				"Season": null, "Condition": null,	
+				      },
+			    "When": {"All Seasons": true},
+	    },
+		{
+			"LogName": "All Seasons Forest Salmon",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish", "#17" ],
+			"Entries": {
+				"Season": null, "Condition": null,	
+				      },
+			    "When": {"All Seasons": true},
+	    },
+		{
+			"LogName": "All Seasons Forest Salmon Waterfall",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish", "#4" ],
+			"Entries": {
+				"Season": null, "Condition": null,	
 				      },
 			    "When": {"All Seasons": true},
 	    },
@@ -5817,7 +5851,6 @@
 				"(O)148": {"Season": null, "Condition": null},
 				"(O)149": {"Season": null, "Condition": null},
 				"(O)150": {"Season": null, "Condition": null},
-				"(O)151": {"Season": null, "Condition": null},
 				"(O)152": {"Season": null, "Condition": null},
 				"(O)154": {"Season": null, "Condition": null},
 				"(O)155": {"Season": null, "Condition": null},
@@ -5825,6 +5858,16 @@
 				"(O)701": {"Season": null, "Condition": null},
 				"(O)705": {"Season": null, "Condition": null},
 				"(O)708": {"Season": null, "Condition": null},
+				      },
+			    "When": {"All Seasons": true},
+	    },
+		{
+			"LogName": "All Seasons Beach Squid",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish", "#19" ],
+			"Entries": {
+				"Season": null, "Condition": null,	
 				      },
 			    "When": {"All Seasons": true},
 	    },
@@ -5882,6 +5925,222 @@
 					},
 				"When": {"Same Spawn Rates": true},
 		},
+		{
+			"LogName": "Night Market Fish All Winter Midnight Squid",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Entries": { 
+				"(O)798": {
+					"Chance": 0.1,
+					"Season": "Winter",
+					"FishAreaId": null,
+					"BobberPosition": null,
+					"PlayerPosition": null,
+					"MinFishingLevel": 5,
+					"MinDistanceFromShore": 3,
+					"MaxDistanceFromShore": -1,
+					"ApplyDailyLuck": false,
+					"CuriosityLureBuff": 0.205,
+					"SpecificBaitBuff": 0.0,
+					"SpecificBaitMultiplier": 1.66,
+					"CatchLimit": -1,
+					"CanUseTrainingRod": null,
+					"IsBossFish": false,
+					"SetFlagOnCatch": null,
+					"Precedence": -10,
+					"IgnoreFishDataRequirements": true,
+					"CanBeInherited": false,
+					"ChanceModifiers": null,
+					"ChanceModifierMode": "Stack",
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false,
+					"Condition": "TIME 1700 2600",
+					"Id": "(O)798",
+					"ItemId": "(O)798",
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+					},
+				},
+				"When": {"Night Market Fish Availability": true},
+		},
+		{
+			"LogName": "All Times Of Day Night Market Fish Midnight Squid",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)798": {"Condition": null},
+				      },
+			    "When": {"All Times Of Day": true, "Night Market Fish Availability": true},
+	    },
+		{
+			"LogName": "All Seasons Night Market Fish Midnight Squid",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)798": {"Season": null},
+				      },
+			    "When": {"All Seasons": true, "Night Market Fish Availability": true},
+	    },
+		{
+			"LogName": "Night Market Fish All Winter Spook Fish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Entries": { 
+				"(O)799": {
+					"Chance": 0.1,
+					"Season": "Winter",
+					"FishAreaId": null,
+					"BobberPosition": null,
+					"PlayerPosition": null,
+					"MinFishingLevel": 5,
+					"MinDistanceFromShore": 3,
+					"MaxDistanceFromShore": -1,
+					"ApplyDailyLuck": false,
+					"CuriosityLureBuff": 0.205,
+					"SpecificBaitBuff": 0.0,
+					"SpecificBaitMultiplier": 1.66,
+					"CatchLimit": -1,
+					"CanUseTrainingRod": null,
+					"IsBossFish": false,
+					"SetFlagOnCatch": null,
+					"Precedence": -11,
+					"IgnoreFishDataRequirements": true,
+					"CanBeInherited": false,
+					"ChanceModifiers": null,
+					"ChanceModifierMode": "Stack",
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false,
+					"Condition": "TIME 1700 2600",
+					"Id": "(O)799",
+					"ItemId": "(O)799",
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+					},
+				},
+				"When": {"Night Market Fish Availability": true},
+		},
+		{
+			"LogName": "All Times Of Day Night Market Fish Spook Fish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)799": {"Condition": null},
+				      },
+			    "When": {"All Times Of Day": true, "Night Market Fish Availability": true},
+	    },
+		{
+			"LogName": "All Seasons Night Market Fish Spook Fish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)799": {"Season": null},
+				      },
+			    "When": {"All Seasons": true, "Night Market Fish Availability": true},
+	    },
+		{
+			"LogName": "Night Market Fish All Winter Blobfish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Entries": { 
+				"(O)800": {
+					"Chance": 0.1,
+					"Season": "Winter",
+					"FishAreaId": null,
+					"BobberPosition": null,
+					"PlayerPosition": null,
+					"MinFishingLevel": 5,
+					"MinDistanceFromShore": 3,
+					"MaxDistanceFromShore": -1,
+					"ApplyDailyLuck": false,
+					"CuriosityLureBuff": 0.205,
+					"SpecificBaitBuff": 0.0,
+					"SpecificBaitMultiplier": 1.66,
+					"CatchLimit": -12,
+					"CanUseTrainingRod": null,
+					"IsBossFish": false,
+					"SetFlagOnCatch": null,
+					"Precedence": -10,
+					"IgnoreFishDataRequirements": true,
+					"CanBeInherited": false,
+					"ChanceModifiers": null,
+					"ChanceModifierMode": "Stack",
+					"ChanceBoostPerLuckLevel": 0.0,
+					"UseFishCaughtSeededRandom": false,
+					"Condition": "TIME 1700 2600",
+					"Id": "(O)800",
+					"ItemId": "(O)800",
+					"RandomItemId": null,
+					"MaxItems": null,
+					"MinStack": -1,
+					"MaxStack": -1,
+					"Quality": -1,
+					"ObjectInternalName": null,
+					"ObjectDisplayName": null,
+					"ToolUpgradeLevel": -1,
+					"IsRecipe": false,
+					"StackModifiers": null,
+					"StackModifierMode": "Stack",
+					"QualityModifiers": null,
+					"QualityModifierMode": "Stack",
+					"ModData": null,
+					"PerItemCondition": null
+					},
+				},
+				"When": {"Night Market Fish Availability": true},
+		},
+		{
+			"LogName": "All Times Of Day Night Market Fish Blobfish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)800": {"Condition": null},
+				      },
+			    "When": {"All Times Of Day": true, "Night Market Fish Availability": true},
+	    },
+		{
+			"LogName": "All Seasons Night Market Fish Blobfish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)800": {"Season": null},
+				      },
+			    "When": {"All Seasons": true, "Night Market Fish Availability": true},
+	    },
 		{
 			"LogName": "Clean Waters/No Trash",
 			"Action": "EditData",
@@ -44933,7 +45192,7 @@
 			"LogName": "Rainbow Trout Exclusion Forest",
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [ "Forest", "Fish", "#12" ],
+			"TargetField": [ "Forest", "Fish", "#13" ],
 			"Entries": {
 				"CatchLimit": 1,
 			    },
@@ -45051,9 +45310,19 @@
 			"LogName": "Salmon Exclusion Forest",
 			"Action": "EditData",
 			"Target": "Data/Locations",
-			"TargetField": [ "Forest", "Fish" ],
-			"Fields": {
-				"(O)139": {"CatchLimit": 1},
+			"TargetField": [ "Forest", "Fish", "#4" ],
+			"Entries": {
+				"CatchLimit": 1,
+			    },
+			"When": {"Salmon Exclusion": true},
+		},
+		{
+			"LogName": "Salmon Exclusion Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish", "#17" ],
+			"Entries": {
+				"CatchLimit": 1,
 			    },
 			"When": {"Salmon Exclusion": true},
 		},
@@ -49281,6 +49550,16 @@
 			"When": {"Midnight Squid Exclusion": true},
 		},
 		{
+			"LogName": "Midnight Squid Exclusion Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)798": {"CatchLimit": 1},
+			    },
+			"When": {"Midnight Squid Exclusion": true, "Night Market Fish Availability": true},
+		},
+		{
 			"LogName": "Midnight Squid Exclusion Farm Standard",
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -49379,6 +49658,16 @@
 			"When": {"Spook Fish Exclusion": true},
 		},
 		{
+			"LogName": "Spook Fish Exclusion Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)799": {"CatchLimit": 1},
+			    },
+			"When": {"Spook Fish Exclusion": true, "Night Market Fish Availability": true},
+		},
+		{
 			"LogName": "Spook Fish Exclusion Farm Standard",
 			"Action": "EditData",
 			"Target": "Data/Locations",
@@ -49475,6 +49764,16 @@
 				"(O)800": {"CatchLimit": 1},
 			    },
 			"When": {"Blobfish Exclusion": true},
+		},
+		{
+			"LogName": "Blobfish Exclusion Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)800": {"CatchLimit": 1},
+			    },
+			"When": {"Blobfish Exclusion": true, "Night Market Fish Availability": true},
 		},
 		{
 			"LogName": "Blobfish Exclusion Farm Standard",

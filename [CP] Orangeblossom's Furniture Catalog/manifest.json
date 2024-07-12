@@ -1,7 +1,7 @@
 {
 "Name": "[CP] Orangeblossom's Furniture Catalogue",
 "Author": "orangeblossom",
-"Version": "1.0.1",
+"Version": "1.0.2",
 "Description": "Bedroom furniture.",
 "UniqueID": "OB7.FurniCatalogue",
 "Dependencies": [{"UniqueID": "sophie.Calcifer","IsRequired": true}],

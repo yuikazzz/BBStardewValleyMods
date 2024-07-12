@@ -1,7 +1,7 @@
 {
   "Name": "[CP] Orangeblossom's Basic Furniture Windows - brown",
     "Author": "orangeblossom",
-    "Version": "1.0.1",
+    "Version": "1.0.2",
   "Description": "Cozy windows.",
   "UniqueID": "OB7.BF.Windows.brown",
 "Dependencies": [{"UniqueID": "OB7.FurniCatalogue","IsRequired": true}],
