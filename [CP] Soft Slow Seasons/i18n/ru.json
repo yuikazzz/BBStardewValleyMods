@@ -1,0 +1,11 @@
+{
+"FallColor_Description": "меняет оранжевый осенний цвет на зеленый",
+"RecolorMode_Description": "меняет насыщенность, vibrant режим более совместим с другими модами, rustic темнее обоих",
+"DarkerPaths_Description": "делает цвет городских дорожек темнее",
+"StaticFoliage_Description": "заменяет ванильные статичные деревья и кусты",
+"TreesandBushes_Description": "заменяет ванильные деревья и кусты",
+"Grass_Description": "заменяет ванильную траву",
+"Desert_Description": "заменяет текстуры пустыни и ее растительности",
+"Beach_Description": "заменяет текстуры пляжа",
+"DancingFlowers_Mushrooms_Description": "заменяет некоторые анимации тайлсетов на милые глупости"
+}

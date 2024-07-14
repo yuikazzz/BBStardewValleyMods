@@ -3,7 +3,7 @@
   "Author": "akira",
   "Version": "1.0.0",
   "Description": "Replaces the default baby, toddler and child to a cuter one",
-  "UniqueID": "babies",
+  "UniqueID": "akiras_babies",
   "UpdateKeys": [""],
      "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher"

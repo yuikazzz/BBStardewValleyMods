@@ -1,0 +1,11 @@
+{
+"FallColor_Description": "changes the orange fall to green",
+"RecolorMode_Description": "changes the saturation, vibrant is more compatible with other mods, rustic is darker than both",
+"DarkerPaths_Description": "changes the white town path color to be darker",
+"StaticFoliage_Description": "replaces vanilla static trees and bushes",
+"TreesandBushes_Description": "replaces vanilla trees and bushes",
+"Grass_Description": "replaces vanilla grass",
+"Desert_Description": "replaces the desert terrain and foliage",
+"Beach_Description": "replaces beach tiles",
+"DancingFlowers_Mushrooms_Description": "replaces some tilesheet animations with dumb cute things"
+}

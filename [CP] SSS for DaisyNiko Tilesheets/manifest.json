@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] SSS for DaisyNiko TileSheets",
+    "Author": "nuupon, daisyniko",
+    "Version": "1.0.0",
+    "Description": "Changes the Tilesheets provided by DaisyNiko to match SSS.",
+    "UniqueID": "sss.daisyniko",
+    "MinimumApiVersion": "1.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+{
+        "UniqueID": "nuupon.sss",
+	"IsRequired": true, 
+}
+]
+}
