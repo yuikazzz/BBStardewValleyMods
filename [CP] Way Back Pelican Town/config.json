@@ -1,8 +1,8 @@
 {
   "FallColor": "1",
-  "RecolorOverwrite": "",
+  "RecolorOverwrite": "FoliageRedone",
   "PlaygroudOption": "playground",
-  "FencesOption": "stone",
+  "FencesOption": "wood",
   "LuauMusicPlayer": "1",
   "WeddingArchOption": "1",
   "GrangeDisplayDecor": "true",

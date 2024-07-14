@@ -2,7 +2,7 @@
   "Name": "[CP] Cuter Babies",
   "Author": "akira",
   "Version": "1.0.0",
-  "Description": "Replaces the default baby, toddler and child to a cuter one",
+  "Description": "Replaces the default baby",
   "UniqueID": "akiras_babies",
   "UpdateKeys": [""],
      "ContentPackFor": {
