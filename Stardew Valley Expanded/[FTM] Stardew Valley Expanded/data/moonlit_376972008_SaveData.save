@@ -1,5 +1,5 @@
 {
-  "WeatherForYesterday": "Wind",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {
     "Beach forage area 3": 1,
     "JunimoWoods forage area 1": 1,
@@ -280,7 +280,7 @@
       "Tile": "142, 83",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Ornate_Treasure_Chest",
-      "DaysUntilExpire": 8883,
+      "DaysUntilExpire": 8882,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -324,7 +324,7 @@
       "Tile": "28, 25",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -335,7 +335,7 @@
       "Tile": "4, 8",
       "Type": "Container",
       "ID": null,
-      "DaysUntilExpire": 8982,
+      "DaysUntilExpire": 8981,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "Chest",
@@ -349,557 +349,7 @@
       "Tile": "28, 27",
       "Type": "Forage",
       "ID": "FlashShifter.StardewValleyExpandedCP_Dewdrop_Berry",
-      "DaysUntilExpire": 21,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpring2",
-      "Name": "597",
-      "Tile": "46, 23",
-      "Type": "Forage",
-      "ID": "597",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpring2",
-      "Name": "597",
-      "Tile": "57, 20",
-      "Type": "Forage",
-      "ID": "597",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpring2",
-      "Name": "591",
-      "Tile": "46, 22",
-      "Type": "Forage",
-      "ID": "591",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpring2",
-      "Name": "591",
-      "Tile": "53, 27",
-      "Type": "Forage",
-      "ID": "591",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "83, 22",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "31, 62",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "44, 41",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "75, 38",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "78, 27",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Stone",
-      "Tile": "71, 40",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "22, 82",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "43, 32",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "67, 34",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "44, 111",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "54, 137",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "56, 121",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "20, 87",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "68, 14",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Gold",
-      "Tile": "82, 49",
-      "Type": "Ore",
-      "ID": 764,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "89, 52",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "127, 42",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "33, 105",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "106, 80",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "34, 106",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "83, 34",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "65, 34",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "34, 104",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "40, 37",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "133, 97",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "121, 55",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "61, 30",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "81, 20",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "116, 50",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "56, 19",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Iron",
-      "Tile": "38, 95",
-      "Type": "Ore",
-      "ID": 290,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "48, 48",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "66, 31",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "51, 31",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "54, 15",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "85, 74",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "62, 24",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "63, 44",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "81, 34",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "62, 76",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "57, 17",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "38, 32",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "70, 92",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "138, 143",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "128, 122",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Copper",
-      "Tile": "82, 69",
-      "Type": "Ore",
-      "ID": 751,
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 20,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -910,7 +360,7 @@
       "Tile": "56, 19",
       "Type": "Forage",
       "ID": "591",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -921,7 +371,7 @@
       "Tile": "86, 46",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -932,7 +382,7 @@
       "Tile": "84, 104",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -943,7 +393,7 @@
       "Tile": "67, 146",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -954,7 +404,7 @@
       "Tile": "70, 103",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -965,7 +415,7 @@
       "Tile": "11, 78",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -976,7 +426,7 @@
       "Tile": "46, 33",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -987,7 +437,7 @@
       "Tile": "53, 30",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -998,7 +448,7 @@
       "Tile": "50, 119",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1009,7 +459,7 @@
       "Tile": "64, 103",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1020,7 +470,7 @@
       "Tile": "56, 136",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1031,7 +481,7 @@
       "Tile": "72, 121",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1042,7 +492,7 @@
       "Tile": "83, 111",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1053,7 +503,7 @@
       "Tile": "97, 104",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1064,7 +514,7 @@
       "Tile": "59, 145",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1075,7 +525,7 @@
       "Tile": "25, 71",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1086,7 +536,7 @@
       "Tile": "75, 96",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1097,7 +547,7 @@
       "Tile": "60, 25",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1108,7 +558,7 @@
       "Tile": "67, 38",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1119,7 +569,7 @@
       "Tile": "63, 25",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1130,7 +580,7 @@
       "Tile": "48, 37",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1141,7 +591,7 @@
       "Tile": "39, 104",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1152,7 +602,7 @@
       "Tile": "37, 31",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1163,7 +613,7 @@
       "Tile": "70, 15",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1174,7 +624,7 @@
       "Tile": "35, 124",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1185,7 +635,7 @@
       "Tile": "89, 48",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1196,7 +646,7 @@
       "Tile": "50, 98",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1207,7 +657,7 @@
       "Tile": "12, 126",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1218,7 +668,7 @@
       "Tile": "65, 37",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1229,7 +679,7 @@
       "Tile": "126, 59",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1240,7 +690,7 @@
       "Tile": "42, 132",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1251,7 +701,7 @@
       "Tile": "16, 114",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1262,7 +712,7 @@
       "Tile": "49, 33",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1273,7 +723,7 @@
       "Tile": "77, 35",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1284,7 +734,7 @@
       "Tile": "59, 71",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1295,7 +745,7 @@
       "Tile": "60, 27",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1306,7 +756,7 @@
       "Tile": "126, 143",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1317,7 +767,7 @@
       "Tile": "135, 111",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1328,7 +778,7 @@
       "Tile": "71, 37",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1339,7 +789,7 @@
       "Tile": "90, 75",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1350,7 +800,7 @@
       "Tile": "118, 115",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1361,7 +811,7 @@
       "Tile": "127, 121",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1372,7 +822,7 @@
       "Tile": "70, 35",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1383,7 +833,7 @@
       "Tile": "96, 76",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1394,7 +844,7 @@
       "Tile": "57, 28",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1405,7 +855,7 @@
       "Tile": "64, 29",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1416,7 +866,7 @@
       "Tile": "133, 118",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1427,7 +877,7 @@
       "Tile": "55, 25",
       "Type": "Forage",
       "ID": "597",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1438,7 +888,7 @@
       "Tile": "50, 110",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1449,7 +899,7 @@
       "Tile": "34, 87",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1460,7 +910,7 @@
       "Tile": "69, 99",
       "Type": "Ore",
       "ID": 670,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1471,7 +921,7 @@
       "Tile": "45, 33",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1482,7 +932,7 @@
       "Tile": "92, 120",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1493,7 +943,7 @@
       "Tile": "66, 108",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1504,7 +954,7 @@
       "Tile": "27, 75",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1515,7 +965,7 @@
       "Tile": "79, 47",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1526,7 +976,7 @@
       "Tile": "54, 43",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1537,7 +987,7 @@
       "Tile": "55, 141",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1548,7 +998,7 @@
       "Tile": "76, 97",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1559,7 +1009,7 @@
       "Tile": "92, 109",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1570,7 +1020,7 @@
       "Tile": "77, 96",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1581,7 +1031,7 @@
       "Tile": "57, 113",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1592,7 +1042,7 @@
       "Tile": "44, 35",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1603,7 +1053,7 @@
       "Tile": "59, 18",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1614,7 +1064,7 @@
       "Tile": "36, 98",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1625,7 +1075,7 @@
       "Tile": "85, 22",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1636,7 +1086,7 @@
       "Tile": "24, 100",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1647,7 +1097,7 @@
       "Tile": "14, 108",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1658,7 +1108,7 @@
       "Tile": "129, 46",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1669,7 +1119,7 @@
       "Tile": "114, 49",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1680,7 +1130,7 @@
       "Tile": "113, 67",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1691,7 +1141,7 @@
       "Tile": "50, 112",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1702,7 +1152,7 @@
       "Tile": "56, 26",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1713,7 +1163,7 @@
       "Tile": "53, 18",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1724,7 +1174,7 @@
       "Tile": "82, 43",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1735,7 +1185,7 @@
       "Tile": "129, 101",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1746,7 +1196,7 @@
       "Tile": "126, 43",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1757,7 +1207,7 @@
       "Tile": "46, 96",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1768,7 +1218,7 @@
       "Tile": "125, 66",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1779,7 +1229,7 @@
       "Tile": "58, 74",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1790,7 +1240,7 @@
       "Tile": "58, 48",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1801,7 +1251,7 @@
       "Tile": "60, 41",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1812,7 +1262,7 @@
       "Tile": "49, 23",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1823,7 +1273,7 @@
       "Tile": "74, 41",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1834,7 +1284,7 @@
       "Tile": "45, 45",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1845,7 +1295,7 @@
       "Tile": "66, 40",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1856,7 +1306,7 @@
       "Tile": "88, 15",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1867,7 +1317,7 @@
       "Tile": "102, 118",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1878,7 +1328,7 @@
       "Tile": "118, 116",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1889,7 +1339,7 @@
       "Tile": "72, 95",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1900,7 +1350,7 @@
       "Tile": "82, 48",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1911,7 +1361,7 @@
       "Tile": "129, 119",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1922,7 +1372,7 @@
       "Tile": "126, 117",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1933,7 +1383,7 @@
       "Tile": "115, 120",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1944,29 +1394,7 @@
       "Tile": "42, 27",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 3,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpringCave",
-      "Name": "454",
-      "Tile": "6, 6",
-      "Type": "Forage",
-      "ID": "454",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_SpriteSpringCave",
-      "Name": "281",
-      "Tile": "9, 5",
-      "Type": "Forage",
-      "ID": "281",
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1977,7 +1405,7 @@
       "Tile": "48, 22",
       "Type": "Forage",
       "ID": "591",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1988,7 +1416,7 @@
       "Tile": "47, 29",
       "Type": "Forage",
       "ID": "597",
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -1999,7 +1427,7 @@
       "Tile": "49, 28",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2010,7 +1438,7 @@
       "Tile": "85, 116",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2021,7 +1449,7 @@
       "Tile": "24, 90",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2032,7 +1460,7 @@
       "Tile": "56, 23",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2043,7 +1471,7 @@
       "Tile": "41, 61",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2054,7 +1482,7 @@
       "Tile": "83, 16",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2065,7 +1493,7 @@
       "Tile": "22, 80",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2076,7 +1504,7 @@
       "Tile": "63, 112",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2087,7 +1515,7 @@
       "Tile": "56, 122",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2098,7 +1526,7 @@
       "Tile": "53, 109",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2109,7 +1537,7 @@
       "Tile": "20, 68",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2120,7 +1548,7 @@
       "Tile": "47, 134",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2131,7 +1559,7 @@
       "Tile": "12, 76",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2142,7 +1570,7 @@
       "Tile": "75, 102",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2153,7 +1581,7 @@
       "Tile": "87, 120",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2164,7 +1592,7 @@
       "Tile": "86, 116",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2175,7 +1603,7 @@
       "Tile": "48, 110",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2186,7 +1614,7 @@
       "Tile": "122, 59",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2197,7 +1625,7 @@
       "Tile": "72, 45",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2208,7 +1636,7 @@
       "Tile": "47, 135",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2219,7 +1647,7 @@
       "Tile": "37, 37",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2230,7 +1658,7 @@
       "Tile": "126, 53",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2241,7 +1669,7 @@
       "Tile": "69, 44",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2252,7 +1680,7 @@
       "Tile": "50, 25",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2263,7 +1691,7 @@
       "Tile": "66, 13",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2274,7 +1702,7 @@
       "Tile": "118, 52",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2285,7 +1713,7 @@
       "Tile": "109, 77",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2296,7 +1724,7 @@
       "Tile": "134, 51",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2307,7 +1735,7 @@
       "Tile": "122, 40",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2318,7 +1746,7 @@
       "Tile": "128, 52",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2329,7 +1757,7 @@
       "Tile": "116, 78",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2340,7 +1768,7 @@
       "Tile": "56, 42",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2351,7 +1779,7 @@
       "Tile": "81, 96",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2362,7 +1790,7 @@
       "Tile": "58, 14",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2373,7 +1801,7 @@
       "Tile": "66, 95",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2384,7 +1812,7 @@
       "Tile": "122, 130",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2395,7 +1823,7 @@
       "Tile": "84, 49",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2406,7 +1834,7 @@
       "Tile": "89, 31",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2417,7 +1845,7 @@
       "Tile": "86, 85",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2428,7 +1856,7 @@
       "Tile": "142, 139",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2439,7 +1867,7 @@
       "Tile": "66, 68",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2450,7 +1878,7 @@
       "Tile": "83, 18",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2461,7 +1889,7 @@
       "Tile": "122, 141",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2472,7 +1900,7 @@
       "Tile": "61, 41",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2483,7 +1911,7 @@
       "Tile": "41, 27",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2494,7 +1922,7 @@
       "Tile": "132, 116",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2505,7 +1933,7 @@
       "Tile": "86, 76",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 4,
+      "DaysUntilExpire": 3,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2516,7 +1944,7 @@
       "Tile": "15, 7",
       "Type": "Forage",
       "ID": "454",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2527,7 +1955,7 @@
       "Tile": "7, 5",
       "Type": "Forage",
       "ID": "281",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2538,7 +1966,7 @@
       "Tile": "14, 7",
       "Type": "Forage",
       "ID": "420",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2549,7 +1977,7 @@
       "Tile": "7, 7",
       "Type": "Forage",
       "ID": "281",
-      "DaysUntilExpire": 2,
+      "DaysUntilExpire": 1,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2560,7 +1988,7 @@
       "Tile": "49, 28",
       "Type": "Forage",
       "ID": "597",
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2571,7 +1999,7 @@
       "Tile": "53, 26",
       "Type": "Forage",
       "ID": "597",
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2582,18 +2010,7 @@
       "Tile": "57, 22",
       "Type": "Forage",
       "ID": "597",
-      "DaysUntilExpire": 5,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_HighlandsCavern",
-      "Name": "Mystic",
-      "Tile": "18, 32",
-      "Type": "Ore",
-      "ID": 46,
-      "DaysUntilExpire": 1,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2604,7 +2021,7 @@
       "Tile": "81, 126",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2615,7 +2032,7 @@
       "Tile": "77, 125",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2626,7 +2043,7 @@
       "Tile": "83, 117",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2637,7 +2054,7 @@
       "Tile": "97, 106",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2648,7 +2065,7 @@
       "Tile": "89, 33",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2659,7 +2076,7 @@
       "Tile": "82, 101",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2670,7 +2087,7 @@
       "Tile": "63, 34",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2681,7 +2098,7 @@
       "Tile": "79, 38",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2692,7 +2109,7 @@
       "Tile": "88, 31",
       "Type": "Ore",
       "ID": 668,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2703,7 +2120,7 @@
       "Tile": "70, 104",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2714,7 +2131,7 @@
       "Tile": "78, 37",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2725,7 +2142,7 @@
       "Tile": "70, 44",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2736,7 +2153,7 @@
       "Tile": "85, 136",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2747,7 +2164,7 @@
       "Tile": "10, 78",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2758,7 +2175,7 @@
       "Tile": "72, 119",
       "Type": "Ore",
       "ID": 764,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2769,7 +2186,7 @@
       "Tile": "67, 41",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2780,7 +2197,7 @@
       "Tile": "67, 40",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2791,7 +2208,7 @@
       "Tile": "137, 87",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2802,7 +2219,7 @@
       "Tile": "110, 73",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2813,7 +2230,7 @@
       "Tile": "51, 104",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2824,7 +2241,7 @@
       "Tile": "118, 44",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2835,7 +2252,7 @@
       "Tile": "130, 59",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2846,7 +2263,7 @@
       "Tile": "135, 95",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2857,7 +2274,7 @@
       "Tile": "25, 134",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2868,7 +2285,7 @@
       "Tile": "135, 97",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2879,7 +2296,7 @@
       "Tile": "31, 98",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2890,7 +2307,7 @@
       "Tile": "100, 77",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2901,7 +2318,7 @@
       "Tile": "123, 65",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2912,7 +2329,7 @@
       "Tile": "63, 14",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2923,7 +2340,7 @@
       "Tile": "114, 50",
       "Type": "Ore",
       "ID": 290,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2934,7 +2351,7 @@
       "Tile": "40, 31",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2945,7 +2362,7 @@
       "Tile": "77, 65",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2956,7 +2373,7 @@
       "Tile": "66, 33",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2967,7 +2384,7 @@
       "Tile": "91, 41",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2978,7 +2395,7 @@
       "Tile": "47, 29",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -2989,7 +2406,7 @@
       "Tile": "84, 76",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3000,7 +2417,7 @@
       "Tile": "51, 39",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3011,7 +2428,7 @@
       "Tile": "123, 124",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3022,7 +2439,7 @@
       "Tile": "90, 32",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3033,7 +2450,7 @@
       "Tile": "134, 126",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3044,7 +2461,7 @@
       "Tile": "112, 141",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3055,7 +2472,7 @@
       "Tile": "114, 136",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3066,7 +2483,7 @@
       "Tile": "42, 34",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3077,7 +2494,7 @@
       "Tile": "70, 39",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3088,7 +2505,7 @@
       "Tile": "127, 129",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3099,7 +2516,7 @@
       "Tile": "84, 18",
       "Type": "Ore",
       "ID": 751,
-      "DaysUntilExpire": 5,
+      "DaysUntilExpire": 4,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3110,7 +2527,7 @@
       "Tile": "15, 6",
       "Type": "Forage",
       "ID": "454",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3121,7 +2538,7 @@
       "Tile": "7, 6",
       "Type": "Forage",
       "ID": "422",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3132,7 +2549,7 @@
       "Tile": "13, 5",
       "Type": "Forage",
       "ID": "420",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3143,7 +2560,7 @@
       "Tile": "12, 5",
       "Type": "Forage",
       "ID": "420",
-      "DaysUntilExpire": 3,
+      "DaysUntilExpire": 2,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3154,7 +2571,7 @@
       "Tile": "52, 22",
       "Type": "Forage",
       "ID": "591",
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3165,7 +2582,7 @@
       "Tile": "50, 29",
       "Type": "Forage",
       "ID": "591",
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3176,7 +2593,7 @@
       "Tile": "57, 23",
       "Type": "Forage",
       "ID": "597",
-      "DaysUntilExpire": 6,
+      "DaysUntilExpire": 5,
       "SpawnTime": 600,
       "ConfigItem": null,
       "MonType": null
@@ -3185,6 +2602,589 @@
       "MapName": "Custom_SpriteSpring2",
       "Name": "591",
       "Tile": "48, 25",
+      "Type": "Forage",
+      "ID": "591",
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Stone",
+      "Tile": "21, 31",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "70, 110",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "61, 106",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "81, 132",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "57, 125",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "62, 21",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "51, 48",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "74, 118",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "97, 103",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "53, 128",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "65, 115",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "61, 34",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "94, 102",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "69, 105",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "51, 135",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "68, 38",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Gold",
+      "Tile": "62, 118",
+      "Type": "Ore",
+      "ID": 764,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "19, 133",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "30, 136",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "21, 124",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "49, 21",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "85, 48",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "132, 49",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "23, 117",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "30, 108",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "21, 135",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "16, 130",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "74, 36",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "97, 42",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "87, 45",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "52, 115",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Iron",
+      "Tile": "59, 47",
+      "Type": "Ore",
+      "ID": 290,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "74, 93",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "135, 124",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "120, 128",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "74, 94",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "45, 35",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "38, 29",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "59, 84",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "145, 140",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "91, 75",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "40, 36",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "72, 93",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "143, 136",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "128, 138",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "78, 24",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_HighlandsCavern",
+      "Name": "Copper",
+      "Tile": "110, 133",
+      "Type": "Ore",
+      "ID": 751,
+      "DaysUntilExpire": 5,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "454",
+      "Tile": "13, 6",
+      "Type": "Forage",
+      "ID": "454",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "422",
+      "Tile": "5, 8",
+      "Type": "Forage",
+      "ID": "422",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpringCave",
+      "Name": "420",
+      "Tile": "8, 6",
+      "Type": "Forage",
+      "ID": "420",
+      "DaysUntilExpire": 3,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "597",
+      "Tile": "55, 20",
+      "Type": "Forage",
+      "ID": "597",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "591",
+      "Tile": "55, 22",
+      "Type": "Forage",
+      "ID": "591",
+      "DaysUntilExpire": 6,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_SpriteSpring2",
+      "Name": "591",
+      "Tile": "49, 24",
       "Type": "Forage",
       "ID": "591",
       "DaysUntilExpire": 6,

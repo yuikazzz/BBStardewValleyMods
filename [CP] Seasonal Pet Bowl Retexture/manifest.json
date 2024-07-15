@@ -1,0 +1,11 @@
+{
+    "Name": "SeasonalPetBowlRetexture",
+    "Author": "Lucie",
+    "Version": "1.0.0",
+    "Description": "Changes color and texture of the pet bowl.",
+    "UniqueID": "Lucie.SeasonalPetBowlRetexture",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+ "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

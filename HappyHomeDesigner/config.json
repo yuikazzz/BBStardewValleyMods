@@ -1,0 +1,21 @@
+{
+  "CloseWithKey": true,
+  "GiveModifier": "LeftShift",
+  "FavoriteModifier": "LeftControl",
+  "ExtendedCategories": true,
+  "FurnitureTooltips": true,
+  "PauseTime": true,
+  "ReplaceFurnitureCatalog": true,
+  "ReplaceWallpaperCatalog": true,
+  "ReplaceRareCatalogs": true,
+  "ToggleShortcut": "None",
+  "AlwaysLockScroll": false,
+  "ClientMode": false,
+  "EarlyDeluxe": true,
+  "LargeVariants": false,
+  "OpenMenu": "None",
+  "UiSkin": "Maraluna.OvergrownFloweryInterface",
+  "EasierTrashCatalogue": true,
+  "Magnify": true,
+  "MagnifyScale": 3.0
+}

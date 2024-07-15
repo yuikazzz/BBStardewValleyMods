@@ -1,0 +1,12 @@
+﻿{
+   "Name": "[AT] 아르헨 러브바닐라 벽지세트",
+   "Author": "Arhen",
+   "Version": "1.0.0",
+   "Description": "벽지와 바닥재를 추가합니다.",
+   "UniqueID": "Arhen.LoveVanillaWallsAT",
+   "MinimumApiVersion": "",
+   "ContentPackFor": {
+      "UniqueID": "PeacefulEnd.AlternativeTextures",
+      "MinimumVersion": "5.0.0"
+   }
+}
