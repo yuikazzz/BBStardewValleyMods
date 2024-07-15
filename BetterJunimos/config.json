@@ -11,7 +11,7 @@
   },
   "JunimoHuts": {
     "MaxJunimos": 3,
-    "MaxRadius": 8,
+    "MaxRadius": 40,
     "AvailableAfterCommunityCenterComplete": true,
     "AvailableImmediately": false,
     "ReducedCostToConstruct": true,
@@ -38,7 +38,7 @@
       "Fruit": 0,
       "Wine": 0
     },
-    "GiveExperience": false
+    "GiveExperience": true
   },
   "FunChanges": {
     "RainyJunimoSpiritFactor": 0.7,

@@ -7,11 +7,11 @@
 		},
 		"RecolourFarmHouseFurniture":{
 			"AllowValues":"true,false",
-			"Default":"true"
+			"Default":"false"
 		},
 		"RecolourWallsAndFloors":{
 			"AllowValues":"true,false",
-			"Default":"true"
+			"Default":"false"
 		},
 		"RecolourCoopAndBarnTiles":{
 			"AllowValues":"true,false",
@@ -83,8 +83,8 @@
 		},
 		{
 			"Action":"EditImage",
-			"Target":"Maps/farmhouse_tiles",
-			"FromFile":"assets/farmhouse_tiles_withoutFurniture.png",
+			"Target":"Maps/farmhouse_tiles_withoutFurniture,"
+			"FromFile":"assets/{{TargetWithoutPath}}.png",
 			"PatchMode":"Overlay",
 			"When":{"RecolourFarmHouseFurniture":"false"}
 		},

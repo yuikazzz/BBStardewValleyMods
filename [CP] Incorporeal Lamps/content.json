@@ -1,0 +1,91 @@
+﻿{
+	"Format": "1.19",
+	"ConfigSchema":{
+		"BoxLampIncorporeal":{"AllowValues": "true, false", "Default": "false"},
+		"CandleLampIncorporeal":{"AllowValues": "true, false", "Default": "true"},
+		"ClassicLampIncorporeal":{"AllowValues": "true, false", "Default": "false"},
+		"CountryLampIncorporeal":{"AllowValues": "true, false", "Default": "false"},
+		"ModernLampIncorporeal":{"AllowValues": "true, false", "Default": "false"},
+		"OrnateLampIncorporeal":{"AllowValues": "true, false", "Default": "false"},
+					},
+	"Changes": [
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{"1445": "Incorporeal Lamp/lamp/-1/0 0/1/750"},
+			"When": {"BoxLampIncorporeal": true},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/furniture",
+		"FromFile": "assets/Incorporeal_Lamp.png",
+		"ToArea": { "X": 80, "Y": 720, "Width": 32, "Height": 48 },
+			"When": {"BoxLampIncorporeal": true},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{"1751": "Incorporeal Lamp/lamp/-1/0 0/1/750"},
+			"When": {"CandleLampIncorporeal": true},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/furniture",
+		"FromFile": "assets/Incorporeal_Lamp.png",
+		"ToArea": { "X": 368, "Y": 864, "Width": 32, "Height": 48 },
+			"When": {"CandleLampIncorporeal": true},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{"1449": "Incorporeal Lamp/lamp/-1/0 0/1/750"},
+			"When": {"ClassicLampIncorporeal": true},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/furniture",
+		"FromFile": "assets/Incorporeal_Lamp.png",
+		"ToArea": { "X": 144, "Y": 720, "Width": 32, "Height": 48 },
+			"When": {"ClassicLampIncorporeal": true},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{"1443": "Incorporeal Lamp/lamp/-1/0 0/1/750"},
+			"When": {"CountryLampIncorporeal": true},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/furniture",
+		"FromFile": "assets/Incorporeal_Lamp.png",
+		"ToArea": { "X": 48, "Y": 720, "Width": 32, "Height": 48 },
+			"When": {"CountryLampIncorporeal": true},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{"1447": "Incorporeal Lamp/lamp/-1/0 0/1/750"},
+			"When": {"ModernLampIncorporeal": true},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/furniture",
+		"FromFile": "assets/Incorporeal_Lamp.png",
+		"ToArea": { "X": 112, "Y": 720, "Width": 32, "Height": 48 },
+			"When": {"ModernLampIncorporeal": true},
+	},
+	{
+		"Action": "EditData",
+		"Target": "Data/Furniture",
+		"Entries":{"1758": "Incorporeal Lamp/lamp/-1/0 0/1/750"},
+			"When": {"OrnateLampIncorporeal": true},
+	},
+	{
+		"Action": "EditImage",
+		"Target": "TileSheets/furniture",
+		"FromFile": "assets/Incorporeal_Lamp.png",
+		"ToArea": { "X": 480, "Y": 864, "Width": 32, "Height": 48 },
+			"When": {"OrnateLampIncorporeal": true},
+	},	
+	]
+}

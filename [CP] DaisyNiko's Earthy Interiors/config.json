@@ -1,7 +1,7 @@
 {
   "ChangeInteriorLighting": "true",
-  "RecolourFarmHouseFurniture": "true",
-  "RecolourWallsAndFloors": "true",
+  "RecolourFarmHouseFurniture": "false",
+  "RecolourWallsAndFloors": "false",
   "RecolourCoopAndBarnTiles": "true",
   "RecolourBathHouseTiles": "true"
 }
