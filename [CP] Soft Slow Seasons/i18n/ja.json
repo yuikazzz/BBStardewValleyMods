@@ -1,0 +1,11 @@
+{
+"FallColor_Description": "オレンジ色の秋を緑色に変更する",
+"RecolorMode_Description": "彩度を変更する。vibrantは他の MOD との互換性が高く、rusticは両方よりも暗い",
+"DarkerPaths_Description": "明るい街路の色を暗い色に変更する",
+"StaticFoliage_Description": "バニラの静的な木と低木を置き換える",
+"TreesandBushes_Description": "バニラの木と低木を置き換える",
+"Grass_Description": "芝生を置き換える",
+"Desert_Description": "砂漠の地形と葉を置き換える",
+"Beach_Description": "ビーチのシーンを置き換える",
+"DancingFlowers_Mushrooms_Description": "シーン要素をばかばかしてかわいいものに置き換えます"
+}

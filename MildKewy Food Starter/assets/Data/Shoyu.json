@@ -1,0 +1,53 @@
+{
+    "Changes": [
+        // add item
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_Shoyu": {
+                    "Name": "mildkewy.foodstarter_Shoyu",
+                    "DisplayName": "酱油",
+                    "Description": "有独特酱香，滋味鲜美，能促进食欲。",
+                    "Type": "Basic",
+                    "Category": -17,
+                    "Price": 20,
+                    "ExcludeFromShippingCollection": true,
+                    "Texture": "Mods/mildkewy.foodstarter/Shoyu",
+                    "SpriteIndex": 0
+                },
+                
+                
+               
+            }
+        },
+
+         //Seed Shop
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_Shoyu": {
+                    "Price": 50,
+                    "Id": "mildkewy.foodstarter_Shoyu",
+                    "ItemId": "mildkewy.foodstarter_Shoyu",
+                    "IgnoreShopPriceModifiers": true,
+					"Currency": 0,
+                },
+            }
+        },
+
+        //Pic load
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/Shoyu",
+            "FromFile": "assets/Items/Objects/Shoyu.png"
+        },
+
+    ]
+}

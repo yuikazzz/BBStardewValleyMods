@@ -1,0 +1,90 @@
+{
+    "Changes": [
+        // add fruit + sapling items
+        // note: sapling must have an edibility under 0 (usually -300) to be plantable
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_StarLemon": {
+                    "Name": "mildkewy.foodstarter_StarLemon", // best practice to match the ID, since it's sometimes used as an alternate ID
+                    "DisplayName":"星柠檬",
+                    "Description": "具有生津、止渴、祛暑等功能。——水果猎人MildKewy",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Edibility": 25,
+                    "Price": 200,
+                    "Texture": "Mods/mildkewy.foodstarter/StarLemon",
+                    "SpriteIndex": 0
+                },
+                "mildkewy.foodstarter_LemonSapling": {
+                    "Name": "mildkewy.foodstarter_LemonSapling",
+                    "DisplayName": "柠檬树树苗",
+                    "Description": "性喜温暖，不耐寒，对土壤要求不严，但以土层深厚、疏松、含有机质丰富、保湿保肥力强、排水良好、地下水位低的微酸性土壤为最好。",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1200,
+
+                    "Texture": "Mods/mildkewy.foodstarter/LemonSapling",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+
+        // add fruit tree
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "mildkewy.foodstarter_LemonSapling": {
+                    "DisplayName": "Lemon Tree",
+                    "Seasons": [ "spring","summer" ],
+                    "Fruit": [
+                        {
+                            "Id": "Emildkewy.foodstarter_LemonTree",
+                            "ItemId": "mildkewy.foodstarter_StarLemon"
+                        }
+                    ],
+                    "Texture": "Mods/mildkewy.foodstarter/LemonTree",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+
+        //Seed Shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_LemonSapling": {
+                    "Price": 1000,
+                    "Id": "mildkewy.foodstarter_LemonSapling",
+                    "ItemId": "mildkewy.foodstarter_LemonSapling",
+					"Currency": 0,
+                },
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/LemonTree",
+            "FromFile": "assets/Items/Objects/LemonTree.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/LemonSapling",
+            "FromFile": "assets/Items/Objects/LemonSapling.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/StarLemon",
+            "FromFile": "assets/Items/Objects/StarLemon.png"
+        },
+    ]
+}

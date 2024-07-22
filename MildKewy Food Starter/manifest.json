@@ -1,0 +1,11 @@
+{
+    "Name": "MildKewy Food Starter",
+    "Author": "MildKewy",
+    "Version": "1.0.0",
+    "Description": "Food base that include something not in main game.",
+    "UniqueID": "mildkewy.foodstarter",
+    "UpdateKeys": [ "Nexus:22942" ]
+    ,"ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "Changes": [
+
+		//Classy Breakfast
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+			{
+            	"{{ModId}}_ClassyBreakfast": 
+				{
+					"Name": "{{ModId}}_ClassyBreakfast",
+					"Displayname": "优雅早餐",
+					"Description": "最经典的西式早餐，配有煎蛋卷、贝果和橙汁",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 1200,
+					"Texture": "Mods/{{ModId}}/Classy Breakfast",
+					"SpriteIndex": 0,
+					"Edibility": 35,
+					"IsDrink": false,
+					"Buffs": [
+						{
+						"Id": "Food",
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 600,
+						"IsDebuff": false,
+						"GlowColor": null,
+						"CustomAttributes": {
+							"FarmingLevel": 0.0,
+							"FishingLevel": 0.0,
+							"MiningLevel": 0.0,
+							"LuckLevel": 1.0,
+							"ForagingLevel": 0.0,
+							"MaxStamina": 0.0,
+							"MagneticRadius": 0.0,
+							"Speed": 1.0,
+							"Defense": 0.0,
+							"Attack": 1.0
+							},
+						}
+					]
+            	}
+    		},
+
+		},
+
+        //Classy Breakfast
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Classy Breakfast",
+            "FromFile": "assets/Items/Objects/Classy Breakfast.png"
+        },
+		
+		///////////////////////////////////////////////////////////
+
+    ]
+}

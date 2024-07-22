@@ -1,0 +1,51 @@
+{
+    "Changes": [
+
+		///////////////////////////////////////////////////////////
+
+		//BlossomCupcake
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+			{
+            	"{{ModId}}_BlossomCupcake": 
+				{
+					"Name": "{{ModId}}_BlossomCupcake",
+					"Displayname": "兔兔纸杯蛋糕",
+					"Description": "太可爱了，舍不得吃。——水果猎人MildKewy",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 400,
+					"Texture": "Mods/{{ModId}}/Blossom Cupcake",
+					"SpriteIndex": 0,
+					"Edibility": 25,
+					"IsDrink": false,
+					"Buffs": [
+						{
+						"Id": "Food",
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 0,
+						"IsDebuff": false,
+						"GlowColor": null,
+						},
+					]
+            	}
+    		},
+
+		},
+
+        //BlossomCupcake
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Blossom Cupcake",
+            "FromFile": "assets/Items/Objects/Blossom Cupcake.png"
+        },
+
+		///////////////////////////////////////////////////////////
+
+		
+    ]
+}

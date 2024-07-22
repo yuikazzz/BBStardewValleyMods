@@ -1,0 +1,10 @@
+{
+	"Name": "[FTM] Wildflour's Atelier Crops and Forage",
+	"Author": "wildflourmods",
+	"Description": "adds new foreagables to Stardew Valley via Farm Type Manager",
+	"Version": "0.1",
+	"UniqueID": "wildflour.ateliercropsFTM",
+	"UpdateKeys": ["Nexus:22728"], 
+	"ContentPackFor": {"UniqueID": "Esca.FarmTypeManager"},
+	"Dependencies": [{"UniqueID": "wildflour.ateliercrops", "IsRequired": true}]
+}

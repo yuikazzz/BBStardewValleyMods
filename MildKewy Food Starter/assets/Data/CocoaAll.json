@@ -1,0 +1,91 @@
+{
+    "Changes": [
+        // add fruit + sapling items
+        // note: sapling must have an edibility under 0 (usually -300) to be plantable
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_CocoaFlower": {
+                    "Name": "mildkewy.foodstarter_CocoaFlower", // best practice to match the ID, since it's sometimes used as an alternate ID
+                    "DisplayName":"可可豆",
+                    "Description": "可可豆可以制作可可粉。",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Edibility": 25,
+                    "Price": 200,
+
+                    "Texture": "Mods/mildkewy.foodstarter/CocoaFlower",
+                    "SpriteIndex": 0
+                },
+                "mildkewy.foodstarter_CocoaSapling": {
+                    "Name": "mildkewy.foodstarter_CocoaSapling",
+                    "DisplayName": "可可树树苗",
+                    "Description": "常绿树种，硕大光滑的叶子在幼年时是红色，成熟之后则变成绿色。",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 1200,
+
+                    "Texture": "Mods/mildkewy.foodstarter/CocoaSapling",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+
+        // add fruit tree
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "mildkewy.foodstarter_CocoaSapling": {
+                    "DisplayName": "Cocoa Tree",
+                    "Seasons": [ "spring","summer" ],
+                    "Fruit": [
+                        {
+                            "Id": "Emildkewy.foodstarter_CocoaTree",
+                            "ItemId": "mildkewy.foodstarter_CocoaFlower"
+                        }
+                    ],
+                    "Texture": "Mods/mildkewy.foodstarter/CocoaTree",
+                    "TextureSpriteRow": 0
+                }
+            }
+        },
+
+        //Seed Shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_CocoaSapling": {
+                    "Price": 1000,
+                    "Id": "mildkewy.foodstarter_CocoaSapling",
+                    "ItemId": "mildkewy.foodstarter_CocoaSapling",
+					"Currency": 0,
+                },
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/CocoaTree",
+            "FromFile": "assets/Items/Objects/CocoaTree.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/CocoaSapling",
+            "FromFile": "assets/Items/Objects/CocoaSapling.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/CocoaFlower",
+            "FromFile": "assets/Items/Objects/CocoaFlower.png"
+        },
+    ]
+}

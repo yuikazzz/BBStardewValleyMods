@@ -1,0 +1,63 @@
+{
+    "Changes": [
+        // add item
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_MatchaPowder": {
+                    "Name": "mildkewy.foodstarter_MatchaPowder",
+                    "DisplayName": "抹茶粉",
+                    "Description": "碧云引风吹不断，白花浮光凝碗面。——食神天王炖蘑菇",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 75,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "Texture": "Mods/mildkewy.foodstarter/MatchaPowder",
+                    "SpriteIndex": 0
+                },
+               
+            }
+        },
+
+         //Seed Shop
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_MatchaPowder": {
+                    "Price": 150,
+                    "Id": "mildkewy.foodstarter_MatchaPowder",
+                    "ItemId": "mildkewy.foodstarter_MatchaPowder",
+                    "IgnoreShopPriceModifiers": true,
+					"Currency": 0,
+                },
+            }
+        },
+
+        //Pic load
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/MatchaPowder",
+            "FromFile": "assets/Items/Objects/MatchaPowder.png"
+        },
+
+        //Recipes
+        {
+            "LogName": "MildKewy Food Starter",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": 
+            {
+                "mildkewy.foodstarter_MatchaPowder": "815 3/9999 9999/mildkewy.foodstarter_MatchaPowder 3/default",
+            }
+        },
+
+    ]
+}

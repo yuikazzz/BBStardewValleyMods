@@ -1,0 +1,51 @@
+{
+    "Changes": [
+        // add item
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_Pepper": {
+                    "Name": "mildkewy.foodstarter_Pepper",
+                    "DisplayName": "辣椒",
+                    "Description": "味辛，性热，具有温中散寒、下气消食等功效，可用于治疗胃寒气滞、呕吐等病症。",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 20,
+                    "ExcludeFromShippingCollection": true,
+                    "Texture": "Mods/mildkewy.foodstarter/Pepper",
+                    "SpriteIndex": 0
+                },
+               
+            }
+        },
+
+         //Seed Shop
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_Pepper": {
+                    "Price": 50,
+                    "Id": "mildkewy.foodstarter_Pepper",
+                    "ItemId": "mildkewy.foodstarter_Pepper",
+                    "IgnoreShopPriceModifiers": true,
+					"Currency": 0,
+                },
+            }
+        },
+
+        //Pic load
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/Pepper",
+            "FromFile": "assets/Items/Objects/Pepper.png"
+        },
+
+    ]
+}

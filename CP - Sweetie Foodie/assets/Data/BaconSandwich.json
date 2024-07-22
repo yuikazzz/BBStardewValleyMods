@@ -1,0 +1,59 @@
+{
+    "Changes": [
+
+        //BaconSandwich
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+			{
+            	"{{ModId}}_BaconSandwich": 
+				{
+					"Name": "{{ModId}}_BaconSandwich",
+					"Displayname": "培根三明治",
+					"Description": "精选培根搭配香软面包！北琨为您呈现独特风味的培根三明治！让您品味东西方的完美融合。",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 600,
+					"Texture": "Mods/{{ModId}}/Bacon Sandwich",
+					"SpriteIndex": 0,
+					"Edibility": 45,
+					"IsDrink": false,
+					"Buffs": [
+						{
+						"Id": "Food",
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 600,
+						"IsDebuff": false,
+						"GlowColor": null,
+						"CustomAttributes": {
+							"FarmingLevel": 0.0,
+							"FishingLevel": 0.0,
+							"MiningLevel": 0.0,
+							"LuckLevel": 0.0,
+							"ForagingLevel": 0.0,
+							"MaxStamina": 0.0,
+							"MagneticRadius": 0.0,
+							"Speed": 1.0,
+							"Defense": 0.0,
+							"Attack": 0.0
+							},
+						}
+					]
+            	}
+    		},
+
+		},
+
+        //BaconSandwich
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Bacon Sandwich",
+            "FromFile": "assets/Items/Objects/Bacon Sandwich.png"
+        },
+
+		
+    ]
+}

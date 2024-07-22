@@ -1,0 +1,71 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/BaconSandwich.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/BeefyBento.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/BlossomCupcake.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/BunnehPretzel.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/ChocoCoCo.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Classy Breakfast.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/HeartPack.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Jumpy Latte.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/MilkyCone.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/StrawberryMilk.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/WarmTreat.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/Wrap-it-up.json",
+    },
+
+    {
+        "Action": "Include",
+        "FromFile": "assets/Data/CookingRecipes.json",
+    },
+    
+    ]
+}
+

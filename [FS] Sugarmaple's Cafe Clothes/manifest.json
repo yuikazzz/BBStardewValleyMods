@@ -4,7 +4,7 @@
   "Version": "1.0.0",
   "Description": "Cute cafe item themed clothes for Fashion Sense!",
   "UniqueID": "sugarmaples.FScafeClothes",
-  "UpdateKeys": [],
+  "UpdateKeys": [ "Nexus:23340" ],
   "Dependencies": [],
   "ContentPackFor": {
     "UniqueID": "PeacefulEnd.FashionSense",

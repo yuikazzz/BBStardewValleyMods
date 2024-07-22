@@ -1,0 +1,62 @@
+{
+    "Changes": [
+		
+		///////////////////////////////////////////////////////////
+
+		//Jumpy Latte
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+			{
+            	"{{ModId}}_JumpyLatte": 
+				{
+					"Name": "{{ModId}}_JumpyLatte",
+					"Displayname": "悦动拿铁",
+					"Description": "跃动心灵，从一杯悦动拿铁开始，让活力与你同行！",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 850,
+					"Texture": "Mods/{{ModId}}/Jumpy Latte",
+					"SpriteIndex": 0,
+					"Edibility": 3,
+					"IsDrink": true,
+					"Buffs": [
+						{
+						"Id": "Food",
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 550,
+						"IsDebuff": false,
+						"GlowColor": null,
+						"CustomAttributes": {
+							"FarmingLevel": 0.0,
+							"FishingLevel": 0.0,
+							"MiningLevel": 0.0,
+							"LuckLevel": 0.0,
+							"ForagingLevel": 0.0,
+							"MaxStamina": 0.0,
+							"MagneticRadius": 0.0,
+							"Speed": 1.0,
+							"Defense": 0.0,
+							"Attack": 0.0
+							},
+						}
+					]
+            	}
+    		},
+
+		},
+
+        //Jumpy Latte
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Jumpy Latte",
+            "FromFile": "assets/Items/Objects/Jumpy Latte.png"
+        },
+
+		///////////////////////////////////////////////////////////
+
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "Changes": [
+		
+		///////////////////////////////////////////////////////////
+
+		//Hearty pack
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": 
+			{
+            	"{{ModId}}_Heartypack": 
+				{
+					"Name": "{{ModId}}_Heartypack",
+					"Displayname": "悦享双食套餐",
+					"Description": "鲑鱼寿司和甘蓝饭团会治愈你的心!",
+					"Type": "Cooking",
+					"Category": -7,
+					"Price": 1800,
+					"Texture": "Mods/{{ModId}}/Hearty pack",
+					"SpriteIndex": 0,
+					"Edibility": 65,
+					"IsDrink": false,
+					"Buffs": [
+						{
+						"Id": "Food",
+						"BuffId": null,
+						"IconTexture": null,
+						"IconSpriteIndex": 0,
+						"Duration": 600,
+						"IsDebuff": false,
+						"GlowColor": null,
+						"CustomAttributes": {
+							"FarmingLevel": 0.0,
+							"FishingLevel": 2.0,
+							"MiningLevel": 0.0,
+							"LuckLevel": 0.0,
+							"ForagingLevel": 0.0,
+							"MaxStamina": 40.0,
+							"MagneticRadius": 0.0,
+							"Speed": 0.0,
+							"Defense": 0.0,
+							"Attack": 0.0
+							},
+						}
+					]
+            	}
+    		},
+
+		},
+
+        //Hearty pack
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModId}}/Hearty pack",
+            "FromFile": "assets/Items/Objects/Hearty pack.png"
+        },
+
+	
+    ]
+}

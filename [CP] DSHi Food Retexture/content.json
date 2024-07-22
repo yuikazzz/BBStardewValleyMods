@@ -1,0 +1,2331 @@
+{
+  "Format": "2.0.1",
+  "ConfigSchema": {
+    "Dish (dummy image)": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fried Egg": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Omelet": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Salad": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Cheese Cauliflower": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Baked Fish": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Parsnip Soup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Vegetable Medley": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Complete Breakfast": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fried Calamari": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Strange Bun": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Lucky Lunch": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fried Mushroom": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pizza": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Bean Hotpot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Glazed Yams": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Carp Surprise": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Hashbrowns": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pancakes": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Salmon Dinner": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fish Taco": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Crispy Bass": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pepper Poppers": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Bread": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Tom Kha Soup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Trout Soup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Chocolate Cake": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pink Cake": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Rhubarb Pie": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Cookie": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Spaghetti": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fried Eel": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Spicy Eel": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Sashimi": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Maki Roll": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Tortilla": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Red Plate": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Eggplant Parmesan": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Rice Pudding": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Ice Cream": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Blueberry Tart": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Autumn's Bounty": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pumpkin Soup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Super Meal": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Cranberry Sauce": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Stuffing": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Farmer's Lunch": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Survival Burger": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Dish O' The Sea": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Miner's Treat": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Roots Platter": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Triple Shot Espresso": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Seafoam Pudding": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Algae Soup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pale Broth": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Plum Pudding": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Artichoke Dip": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Stir Fry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Roasted Hazelnuts": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Pumpkin Pie": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Radish Salad": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fruit Salad": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Blackberry Cobbler": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Cranberry Candy": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Bruschetta": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Coleslaw": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fiddlehead Risotto": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Poppyseed Muffin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Chowder": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Fish Stew": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Escargot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Lobster Bisque": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Maple Bar": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Crab Cakes": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Shrimp Cocktail": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Ginger Ale": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Banana Pudding": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Mango Sticky Rice": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Poi": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Tropical Curry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Squid Ink Ravioli": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Moss Soup": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Cooking"
+    },
+    "Field Snack": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Edible Crafting Items"
+    },
+    "Oil of Garlic": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Edible Crafting Items"
+    },
+    "Life Elixir": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Edible Crafting Items"
+    },
+    "Bug Steak": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Edible Crafting Items"
+    }
+  },
+
+  "Changes": [
+
+    // Dish (dummy image)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dish (dummy image)": "true"
+      }
+    },
+
+    // Fried Egg
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Egg": "true"
+      }
+    },
+
+    // Omelet
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 48,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Omelet": "true"
+      }
+    },
+
+    // Salad
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Salad": "true"
+      }
+    },
+
+    // Cheese Cauliflower
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cheese Cauliflower": "true"
+      }
+    },
+
+    // Baked Fish
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Baked Fish": "true"
+      }
+    },
+
+    // Parsnip Soup
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 112,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Parsnip Soup": "true"
+      }
+    },
+
+    // Vegetable Medley
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Vegetable Medley": "true"
+      }
+    },
+
+    // Complete Breakfast
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Complete Breakfast": "true"
+      }
+    },
+
+    // Fried Calamari
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Calamari": "true"
+      }
+    },
+
+    // Strange Bun
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 176,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Strange Bun": "true"
+      }
+    },
+
+    // Lucky Lunch
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lucky Lunch": "true"
+      }
+    },
+
+    // Fried Mushroom
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 208,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Mushroom": "true"
+      }
+    },
+
+    // Pizza
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 224,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pizza": "true"
+      }
+    },
+
+    // Bean Hotpot
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 240,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 240,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bean Hotpot": "true"
+      }
+    },
+
+    // Glazed Yams
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 256,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Glazed Yams": "true"
+      }
+    },
+
+    // Carp Surprise
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 272,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Carp Surprise": "true"
+      }
+    },
+
+    // Hashbrowns
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hashbrowns": "true"
+      }
+    },
+
+    // Pancakes
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 304,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pancakes": "true"
+      }
+    },
+
+    // Salmon Dinner
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 320,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Salmon Dinner": "true"
+      }
+    },
+
+    // Fish Taco
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 336,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fish Taco": "true"
+      }
+    },
+
+    // Crispy Bass
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 352,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crispy Bass": "true"
+      }
+    },
+
+    // Pepper Poppers
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 368,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 128,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pepper Poppers": "true"
+      }
+    },
+
+    // Bread
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bread": "true"
+      }
+    },
+
+    // Tom Kha Soup
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 32,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tom Kha Soup": "true"
+      }
+    },
+
+    // Trout Soup
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 48,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Trout Soup": "true"
+      }
+    },
+
+    // Chocolate Cake
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Chocolate Cake": "true"
+      }
+    },
+
+    // Pink Cake
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pink Cake": "true"
+      }
+    },
+
+    // Rhubarb Pie
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rhubarb Pie": "true"
+      }
+    },
+
+    // Cookie
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 112,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cookie": "true"
+      }
+    },
+
+    // Spaghetti
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Spaghetti": "true"
+      }
+    },
+
+    // Fried Eel
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fried Eel": "true"
+      }
+    },
+
+    // Spicy Eel
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Spicy Eel": "true"
+      }
+    },
+
+    // Sashimi
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 176,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sashimi": "true"
+      }
+    },
+
+    // Maki Roll
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Maki Roll": "true"
+      }
+    },
+
+    // Tortilla
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 208,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tortilla": "true"
+      }
+    },
+
+    // Red Plate
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 224,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Red Plate": "true"
+      }
+    },
+
+    // Eggplant Parmesan
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 240,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 240,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Eggplant Parmesan": "true"
+      }
+    },
+
+    // Rice Pudding
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 256,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Rice Pudding": "true"
+      }
+    },
+
+    // Ice Cream
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ice Cream": "true"
+      }
+    },
+
+    // Blueberry Tart
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Blueberry Tart": "true"
+      }
+    },
+
+    // Autumn's Bounty
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 304,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Autumn's Bounty": "true"
+      }
+    },
+
+    // Pumpkin Soup
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 320,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pumpkin Soup": "true"
+      }
+    },
+
+    // Super Meal
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 336,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Super Meal": "true"
+      }
+    },
+
+    // Cranberry Sauce
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 352,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cranberry Sauce": "true"
+      }
+    },
+
+    // Stuffing
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 368,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 144,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Stuffing": "true"
+      }
+    },
+
+    // Farmer's Lunch
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Farmer's Lunch": "true"
+      }
+    },
+
+    // Survival Burger
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Survival Burger": "true"
+      }
+    },
+
+    // Dish O' The Sea
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 32,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dish O' The Sea": "true"
+      }
+    },
+
+    // Miner's Treat
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 48,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Miner's Treat": "true"
+      }
+    },
+
+    // Roots Platter
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Roots Platter": "true"
+      }
+    },
+
+    // Triple Shot Espresso
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 208,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 160,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Triple Shot Espresso": "true"
+      }
+    },
+
+    // Seafoam Pudding
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 176,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Seafoam Pudding": "true"
+      }
+    },
+
+    // Algae Soup
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Algae Soup": "true"
+      }
+    },
+
+    // Pale Broth
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 304,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pale Broth": "true"
+      }
+    },
+
+    // Plum Pudding
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Plum Pudding": "true"
+      }
+    },
+
+    // Artichoke Dip
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Artichoke Dip": "true"
+      }
+    },
+
+    // Stir Fry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Stir Fry": "true"
+      }
+    },
+
+    // Roasted Hazelnuts
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 112,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Roasted Hazelnuts": "true"
+      }
+    },
+
+    // Pumpkin Pie
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pumpkin Pie": "true"
+      }
+    },
+
+    // Radish Salad
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Radish Salad": "true"
+      }
+    },
+
+    // Fruit Salad
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fruit Salad": "true"
+      }
+    },
+
+    // Blackberry Cobbler
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 176,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Blackberry Cobbler": "true"
+      }
+    },
+
+    // Cranberry Candy
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Cranberry Candy": "true"
+      }
+    },
+
+    // Bruschetta
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 400,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bruschetta": "true"
+      }
+    },
+
+    // Coleslaw
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Coleslaw": "true"
+      }
+    },
+
+    // Fiddlehead Risotto
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fiddlehead Risotto": "true"
+      }
+    },
+
+    // Poppyseed Muffin
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 48,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 432,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Poppyseed Muffin": "true"
+      }
+    },
+
+    // Chowder
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 112,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Chowder": "true"
+      }
+    },
+
+    // Fish Stew
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fish Stew": "true"
+      }
+    },
+
+    // Escargot
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Escargot": "true"
+      }
+    },
+
+    // Lobster Bisque
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lobster Bisque": "true"
+      }
+    },
+
+    // Maple Bar
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 176,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Maple Bar": "true"
+      }
+    },
+
+    // Crab Cakes
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Crab Cakes": "true"
+      }
+    },
+
+    // Shrimp Cocktail
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 208,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 480,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Shrimp Cocktail": "true"
+      }
+    },
+
+    // Ginger Ale
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 240,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 240,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ginger Ale": "true"
+      }
+    },
+
+    // Banana Pudding
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 256,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Banana Pudding": "true"
+      }
+    },
+
+    // Mango Sticky Rice
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 272,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mango Sticky Rice": "true"
+      }
+    },
+
+    // Poi
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Poi": "true"
+      }
+    },
+
+    // Tropical Curry
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 304,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 592,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tropical Curry": "true"
+      }
+    },
+
+    // Squid Ink Ravioli
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 608,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Squid Ink Ravioli": "true"
+      }
+    },
+
+    // Moss Soup
+    {
+      "Action": "EditImage",
+      "Target": "TileSheets/Objects_2",
+      "FromFile": "assets/Objects_2.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 288,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Moss Soup": "true"
+      }
+    },
+
+    // Field Snack
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 304,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 256,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Field Snack": "true"
+      }
+    },
+
+    // Oil of Garlic
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Oil of Garlic": "true"
+      }
+    },
+
+    // Life Elixir
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 512,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Life Elixir": "true"
+      }
+    },
+
+    // Bug Steak
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 576,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bug Steak": "true"
+      }
+    }
+
+  ]
+}

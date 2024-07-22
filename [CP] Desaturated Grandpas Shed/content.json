@@ -1,0 +1,44 @@
+{
+    "Format": "2.1.0",
+    "ConfigSchema": {
+     "Grandpa's Shed Variations":{
+             "AllowValues": "Brown, White, Brown Green Fall, White Green Fall",
+             "Default": "Brown",
+             "Description": "Enables recolour of Grandpa's Shed" 
+         }
+     },
+     "Changes": [
+ {
+         "LogName": "Grandpas Shed Replacement",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/BrownRed/{{season}}_z_brownR.png",
+             "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+         "When": {"Grandpa's Shed Variations": "Brown"}
+         },
+    {
+         "LogName": "Grandpas Shed Replacement",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+          "FromFile": "assets/BrownGreen/{{season}}_z_brownG.png",
+             "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+         "When": {"Grandpa's Shed Variations": "Brown Green Fall"}
+        },
+    {
+         "LogName": "Grandpas Shed Replacement",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/WhiteRed/{{season}}_z_whiteR.png",
+              "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+        "When": {"Grandpa's Shed Variations": "White"}
+        },
+    {
+         "LogName": "Grandpas Shed Replacement",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/WhiteGreen/{{season}}_z_whiteG.png",
+             "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+          "When": {"Grandpa's Shed Variations": "White Green Fall"}
+        }
+ ]
+ }

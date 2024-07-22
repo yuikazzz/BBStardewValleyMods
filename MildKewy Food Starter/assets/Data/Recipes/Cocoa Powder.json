@@ -1,0 +1,63 @@
+{
+    "Changes": [
+        // add item
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_CocoaPowder": {
+                    "Name": "mildkewy.foodstarter_CocoaPowder",
+                    "DisplayName": "可可粉",
+                    "Description": "含有多酚类抗氧化物, 包括类黄酮及儿茶酚, 可防止心血管老化, 并能降低心血管疾病的风险。",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 100,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "Texture": "Mods/mildkewy.foodstarter/CocoaPowder",
+                    "SpriteIndex": 0
+                },
+               
+            }
+        },
+
+         //Seed Shop
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_CocoaPowder": {
+                    "Price": 150,
+                    "Id": "mildkewy.foodstarter_CocoaPowder",
+                    "ItemId": "mildkewy.foodstarter_CocoaPowder",
+                    "IgnoreShopPriceModifiers": true,
+					"Currency": 0,
+                },
+            }
+        },
+
+        //Pic load
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/CocoaPowder",
+            "FromFile": "assets/Items/Objects/CocoaPowder.png"
+        },
+
+        //Recipes
+        {
+            "LogName": "MildKewy Food Starter",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": 
+            {
+                "mildkewy.foodstarter_CocoaPowder": "mildkewy.foodstarter_CocoaFlower 1/9999 9999/mildkewy.foodstarter_CocoaPowder 3/default",
+            }
+        },
+
+    ]
+}

@@ -1,0 +1,22 @@
+{
+   "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "{{ModId}}_BaconSandwich": "216 1 256 1 mildkewy.foodstarter_Bacon 1 Carrot 1/9999 9999/{{ModId}}_BaconSandwich/default",
+                "{{ModId}}_BeefyBento": "mildkewy.foodstarter_BeefMeat 1 -5 1 423 1 Carrot 1/9999 9999/{{ModId}}_BeefyBento/default",
+                "{{ModId}}_BlossomCupcake": "246 1 245 1 -5 1 591 1/9999 9999/{{ModId}}_BlossomCupcake/default",
+                "{{ModId}}_BunnehPretzle": "246 1 245 1 -5 1 mildkewy.foodstarter_CocoaPowder 1/9999 9999/{{ModId}}_BunnehPretzle/default",
+                "{{ModId}}_Chocococo": "mildkewy.foodstarter_CocoaFlower 1 mildkewy.foodstarter_CocoaPowder 1/9999 9999/{{ModId}}_Chocococo/default",
+                "{{ModId}}_ClassyBreakfast": "-5 1 mildkewy.foodstarter_Bacon 1 635 1 216 1 278 1/9999 9999/{{ModId}}_ClassyBreakfast/default",
+                "{{ModId}}_Heartypack": "139 1 423 1 mildkewy.foodstarter_Shoyu 1 -5 1 250 1/9999 9999/{{ModId}}_Heartypack/default",
+                "{{ModId}}_JumpyLatte": "433 5 -6 1/9999 9999/{{ModId}}_JumpyLatte/default",
+                "{{ModId}}_MilkyCone": "-6 1 245 1/9999 9999/{{ModId}}_MilkyCone/default",
+                "{{ModId}}_StrawberryMilk": "-6 1 400 1/9999 9999/{{ModId}}_StrawberryMilk/default",
+                "{{ModId}}_WarmTreat": "223 1 mildkewy.foodstarter_CocoaPowder 1/9999 9999/{{ModId}}_WarmTreat/default",
+                "{{ModId}}_Wrap-it-up": "229 1 306 1 mildkewy.foodstarter_Ketchup 1 mildkewy.foodstarter_ChickenMeat 1/9999 9999/{{ModId}}_Wrap-it-up/default",
+              }
+        }
+    ]
+}

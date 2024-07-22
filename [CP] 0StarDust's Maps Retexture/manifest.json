@@ -4,6 +4,7 @@
     "Version": "1.4.0",
     "Description": "Replace some textures appearing in the Festivals.",
     "UniqueID": "stardust.spritesretexture",
+	"UpdateKeys": ["Nexus:16275"], 
     "ContentPackFor": {
         "UniqueID": "Pathoschild.ContentPatcher"
     },

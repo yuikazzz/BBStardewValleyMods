@@ -1,0 +1,92 @@
+{
+    "Changes": [
+        // add fruit + sapling items
+        // note: sapling must have an edibility under 0 (usually -300) to be plantable
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_ChickenMeat": {
+                    "Name": "mildkewy.foodstarter_ChickenMeat", // best practice to match the ID, since it's sometimes used as an alternate ID
+                    "DisplayName": "鸡肉",  
+                    "Description": "味甘，性微温。能温中补脾，益气养血，补肾益精。",
+                    "Type": "Basic",
+                    "Category": -14,
+                    "Price": 120,
+                    "Edibility": 13,
+                    "IsDrink": false,
+
+                    "Texture": "Mods/mildkewy.foodstarter/ChickenMeat",
+                    "SpriteIndex": 0
+                },
+                "mildkewy.foodstarter_ChickenSeed": {
+                    "Name": "mildkewy.foodstarter_ChickenSeed",
+                    "DisplayName": "鸡肉种子",  
+                    "Description": "神农科研所特制，降低鸡肉成本！技术所限：冬季不可种植！",
+                    "Type": "Basic",
+                    "Category": -74,
+                    "Price": 160,
+                    "Texture": "Mods/mildkewy.foodstarter/ChickenSeed",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+
+        // add fruit tree
+        {
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "mildkewy.foodstarter_ChickenSeed": {
+                    "Seasons": [ "spring", "summer", "fall" ],
+                    "DaysInPhase": [ 1, 2, 2 ],
+                    "HarvestItemId": "mildkewy.foodstarter_ChickenMeat",
+                    "HarvestMinStack": 5,
+                    "HarvestMaxStack": 8,
+                    "HarvestMaxIncreasePerFarmingLevel": .03,
+                    "ExtraHarvestChance":0.3,
+
+                    "Texture": "Mods/mildkewy.foodstarter/ChickenCrop",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+
+        //Seed Shop
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_ChickenSeed": {
+                    "Price": 400,
+                    "Id": "mildkewy.foodstarter_ChickenSeed",
+                    "ItemId": "mildkewy.foodstarter_ChickenSeed",
+                    "IgnoreShopPriceModifiers": true,
+					"Currency": 0,
+                },
+            }
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/ChickenCrop",
+            "FromFile": "assets/Items/Objects/ChickenCrop.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/ChickenMeat",
+            "FromFile": "assets/Items/Objects/ChickenMeat.png"
+        },
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/ChickenSeed",
+            "FromFile": "assets/Items/Objects/ChickenSeed.png"
+        },
+    ]
+}

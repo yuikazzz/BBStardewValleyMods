@@ -1,0 +1,64 @@
+{
+    "Changes": [
+        // add item
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "mildkewy.foodstarter_Ketchup": {
+                    "Name": "mildkewy.foodstarter_Ketchup",
+                    "DisplayName": "番茄酱",
+                    "Description": "拜托，你看清楚一点，这不是意大利肉酱!——水果猎人MildKewy",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 90,
+                    "Edibility": 6,
+                    "IsDrink": true,
+                    "Texture": "Mods/mildkewy.foodstarter/Ketchup",
+                    "SpriteIndex": 0
+                },
+               
+            }
+        },
+
+         //Seed Shop
+         {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SeedShop",
+                "Items"
+            ],
+			"Entries": {
+				"mildkewy.foodstarter_Ketchup": {
+                    "Price": 150,
+                    "Id": "mildkewy.foodstarter_Ketchup",
+                    "ItemId": "mildkewy.foodstarter_Ketchup",
+                    "IgnoreShopPriceModifiers": true,
+					"Currency": 0,
+                },
+            }
+        },
+
+        //Pic load
+
+        {
+            "Action": "Load",
+            "Target": "Mods/mildkewy.foodstarter/Ketchup",
+            "FromFile": "assets/Items/Objects/Ketchup.png"
+        },
+
+        //Recipes
+        {
+            "LogName": "MildKewy Food Starter",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": 
+            {
+                "mildkewy.foodstarter_Ketchup": "256 2 mildkewy.foodstarter_Salt 1 mildkewy.foodstarter_Pepper 1/9999 9999/mildkewy.foodstarter_Ketchup 3/default",
+            }
+        },
+
+
+    ]
+}
