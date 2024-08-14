@@ -1,0 +1,235 @@
+
+{
+  "Changes": [
+
+    {
+	"Action": "EditData",
+	"Target": "Data/Shops",
+	"TargetField": [ "Furniture Catalogue", "Items" ],
+	"Entries": {
+
+	    "{{ModId}}_SeasonalPlant1": {
+		"Id": "(BC)184",
+		"ItemId": "(BC)184",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SeasonalPlant2": {
+		"Id": "(BC)188",
+		"ItemId": "(BC)188",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SeasonalPlant3": {
+		"Id": "(BC)192",
+		"ItemId": "(BC)192",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SeasonalPlant4": {
+		"Id": "(BC)196",
+		"ItemId": "(BC)196",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SeasonalPlant5": {
+		"Id": "(BC)200",
+		"ItemId": "(BC)200",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SeasonalPlant6": {
+		"Id": "(BC)204",
+		"ItemId": "(BC)204",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SeasonalDecor": {
+		"Id": "(BC)48",
+		"ItemId": "(BC)48",
+		"Price": "0"
+	    },
+	    "{{ModId}}_TubOFlowers": {
+		"Id": "(BC)108",
+		"ItemId": "(BC)108",
+		"Price": "0"
+	    },
+	    "{{ModId}}_LawnFlamingo": {
+		"Id": "(BC)36",
+		"ItemId": "(BC)36",
+		"Price": "0"
+	    },
+	    "{{ModId}}_PlushBunny": {
+		"Id": "(BC)107",
+		"ItemId": "(BC)107",
+		"Price": "0"
+	    },
+	    "{{ModId}}_BigGreenCane": {
+		"Id": "(BC)40",
+		"ItemId": "(BC)40",
+		"Price": "0"
+	    },
+	    "{{ModId}}_GreenCanes": {
+		"Id": "(BC)41",
+		"ItemId": "(BC)41",
+		"Price": "0"
+	    },
+	    "{{ModId}}_MixedCane": {
+		"Id": "(BC)42",
+		"ItemId": "(BC)42",
+		"Price": "0"
+	    },
+	    "{{ModId}}_RedCanes": {
+		"Id": "(BC)43",
+		"ItemId": "(BC)43",
+		"Price": "0"
+	    },
+	    "{{ModId}}_BigRedCane": {
+		"Id": "(BC)44",
+		"ItemId": "(BC)44",
+		"Price": "0"
+	    },
+	    "{{ModId}}_JackOLantern": {	// Object, not BC
+		"Id": "(O)746",
+		"ItemId": "(O)746",
+		"Price": "0"
+	    },
+	    "{{ModId}}_GraveStone": {
+		"Id": "(BC)47",
+		"ItemId": "(BC)47",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StoneFrog": {
+		"Id": "(BC)52",
+		"ItemId": "(BC)52",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StoneParrot": {
+		"Id": "(BC)53",
+		"ItemId": "(BC)53",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StoneOwl1": {
+		"Id": "(BC)54",
+		"ItemId": "(BC)54",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StoneOwl2": {
+		"Id": "(BC)95",
+		"ItemId": "(BC)95",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StoneJunimo": {
+		"Id": "(BC)55",
+		"ItemId": "(BC)55",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SolidGoldLewis": {
+		"Id": "(BC)164",
+		"ItemId": "(BC)164",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SuitOfArmor": {
+		"Id": "(BC)33",
+		"ItemId": "(BC)33",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SingingStone": {
+		"Id": "(BC)94",
+		"ItemId": "(BC)94",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StoneCairn": {
+		"Id": "(BC)32",
+		"ItemId": "(BC)32",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SignOfTheVessel": {
+		"Id": "(BC)34",
+		"ItemId": "(BC)34",
+		"Price": "0"
+	    },
+	    "{{ModId}}_OrnamentalHayBale": {
+		"Id": "(BC)45",
+		"ItemId": "(BC)45",
+		"Price": "0"
+	    },
+	    "{{ModId}}_BasicLog": {
+		"Id": "(BC)35",
+		"ItemId": "(BC)35",
+		"Price": "0"
+	    },
+	    "{{ModId}}_LogSection": {
+		"Id": "(BC)46",
+		"ItemId": "(BC)46",
+		"Price": "0"
+	    },
+	    "{{ModId}}_HMTGF": {
+		"Id": "(BC)155",
+		"ItemId": "(BC)155",
+		"Price": "0"
+	    },
+	    "{{ModId}}_PinkyLemon": {
+		"Id": "(BC)161",
+		"ItemId": "(BC)161",
+		"Price": "0"
+	    },
+	    "{{ModId}}_Foroguemon": {
+		"Id": "(BC)162",
+		"ItemId": "(BC)162",
+		"Price": "0"
+	    },
+	    "{{ModId}}_StardewHeroTrophy": {
+		"Id": "(BC)116",
+		"ItemId": "(BC)116",
+		"Price": "0"
+	    },
+	    "{{ModId}}_SodaMachine": {
+		"Id": "(BC)117",
+		"ItemId": "(BC)117",
+		"Price": "0"
+	    },
+	    "{{ModId}}_JunimoKartArcadeSystem": {
+		"Id": "(BC)159",
+		"ItemId": "(BC)159",
+		"Price": "0"
+	    },
+	    "{{ModId}}_PrairieKingArcadeSystem": {
+		"Id": "(BC)141",
+		"ItemId": "(BC)141",
+		"Price": "0"
+	    },
+	    "{{ModId}}_MiniJukebox": {
+		"Id": "(BC)209",
+		"ItemId": "(BC)209",
+		"Price": "0"
+	    },
+	    "{{ModId}}_MiniFridge": {
+		"Id": "(BC)216",
+		"ItemId": "(BC)216",
+		"Price": "0"
+	    },
+	    "{{ModId}}_Telephone": {
+		"Id": "(BC)214",
+		"ItemId": "(BC)214",
+		"Price": "0"
+	    },
+	    "{{ModId}}_Workbench": {
+		"Id": "(BC)208",
+		"ItemId": "(BC)208",
+		"Price": "0"
+	    },
+	    "{{ModId}}_TeaSet": {		// Object, not BC
+		"Id": "(O)341",
+		"ItemId": "(O)341",
+		"Price": "0"
+	    },
+	    "{{ModId}}_MannequinMale": {		// Not BC
+		"Id": "(M)MannequinMale",
+		"ItemId": "(M)MannequinMale",
+		"Price": "0"
+	    },
+	    "{{ModId}}_MannequinFemale": {	// Not BC
+		"Id": "(M)MannequinFemale",
+		"ItemId": "(M)MannequinFemale",
+		"Price": "0"
+	    }
+
+	}
+    }
+  ]
+}

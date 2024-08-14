@@ -1,0 +1,131 @@
+
+{
+  "$schema": "https://smapi.io/schemas/content-patcher.json",
+  "Format": "2.0.0",
+
+  "ConfigSchema": {
+
+    "Furniture Catalogue": {
+	"AllowValues": "Default, Extended, Complete, Off",
+	"Default": "Default",
+	"Description": "DEFAULT option adds all missing items from 1.5, including festival shop inventory, museum rewards, movie theater prizes, and rare/secret items. It also adds a small number of new 1.6 items that are available at regular shops. EXTENDED option adds all furniture & decor items that are missing from the new themed catalogues. COMPLETE option adds all furniture & decor items in the game, including those found in the new themed catalogues. Do not choose EXTENDED or COMPLETE if you're trying to avoid 1.6 spoilers!"
+    },
+    "Resize Furniture Catalogue": {
+	"AllowValues": "true, false",
+	"Default": "false",
+	"Description": "Changes the Furniture Catalogue to a 1-tile footprint like the other catalogues."
+    },
+    "Recolor": {
+	"AllowValues": "Vanilla, Earthy, VPR",
+	"Default": "Vanilla",
+	"Description": "(For the Resize Furniture Catalogue option) Choose Earthy if using DaisyNiko's Earthy Interiors. Choose VPR if using Vibrant Pastoral Recolor. For other furniture/interior recolors, choose whichever option looks best. (Vanilla is the default oak color, VPR is a medium brown, and Earthy is a darker brown.)"
+    },
+    "Wallpaper & Floor Catalogue": {
+	"AllowValues": "true, false",
+	"Default": "true",
+	"Description": "Adds the new 1.6 wallpapers & floors to the Catalogue sold at Pierre's shop."
+    }
+
+  },
+
+  "Changes": [
+
+// RESIZE FURNITURE CATALOGUE
+
+    {
+	"Action": "EditData",
+	"Target": "Data/Furniture",
+	"Fields": {
+	    "1226": { 2: "1 2", 3: "1 1" }	// Tilesheet size & bounding box size
+	},
+	"When": {
+		"Resize Furniture Catalogue": true
+	}
+    },
+
+    {
+	"Action": "EditImage",
+	"Target": "TileSheets/furniture",
+	"FromFile": "assets/furniturecatalogue_{{Recolor}}.png",
+	"FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+	"ToArea": { "X": 160, "Y": 608, "Width": 32, "Height": 32 },
+	"When": {
+		"Resize Furniture Catalogue": true
+	}
+    },
+
+// SINGING STONE FIX (Big Craftable version is used in game)
+
+    {
+	"Action": "EditData",
+	"Target": "Data/Furniture",
+	"Entries": {
+		"1300": null
+	}
+    },
+
+// COMPLETE FURNITURE CATALOGUE
+
+    {
+	"Action": "EditData",
+	"Target": "Data/Shops",
+	"TargetField": [ "Furniture Catalogue", "Items" ],
+	"When": {
+		"Furniture Catalogue": "Complete"
+	},
+	"Entries": {
+	    "#0": {
+		"Id": "Default",
+		"ItemId": "ALL_ITEMS (F)",
+		"Price": "0"
+	    },
+	    "#1": null,
+	    "#2": null,
+	    "#3": null,
+	    "#4": null,
+	}
+    },
+
+// ADD ITEMS TO DEFAULT + EXTENDED CATALOGUES
+
+    {
+	"Action": "Include",
+	"FromFile": "data/default.json",
+	"When": {
+		"Furniture Catalogue": "Default, Extended"
+	}
+    },
+
+// ADD ITEMS TO EXTENDED CATALOGUE
+
+    {
+	"Action": "Include",
+	"FromFile": "data/extended.json",
+	"When": {
+		"Furniture Catalogue": "Extended"
+	}
+    },
+
+// ADD DECOR ITEMS FROM OTHER CATEGORIES
+
+    {
+	"Action": "Include",
+	"FromFile": "data/craftables.json",
+	"When": {
+		"Furniture Catalogue": "Default, Extended, Complete"
+	}
+    },
+
+// WALLPAPER & FLOORS
+
+    {
+	"Action": "Include",
+	"FromFile": "data/walls_floors.json",
+	"When": {
+		"Wallpaper & Floor Catalogue": true
+	}
+    }
+
+
+  ]
+}

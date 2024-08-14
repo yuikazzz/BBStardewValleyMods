@@ -1,0 +1,22 @@
+{
+    "$schema": "https://smapi.io/schemas/i18n.json",
+
+    "config.Furniture Catalogue.name": "Catalogue de fourniture (type)",
+    "config.Furniture Catalogue.description": "L'option PAR DÉFAUT ajoute tous les éléments manquants de la version 1.5, y compris l'inventaire de la boutique de festival, les récompenses du musée, les prix du cinéma et les objets rares/secrets. Elle ajoute également un petit nombre de nouveaux objets de la version 1.6 disponibles dans les boutiques classiques. L'option ÉTENDU ajoute tous les meubles et décorations manquants des nouveaux catalogues thématiques. L'option COMPLÈTE ajoute tous les meubles et décorations du jeu, y compris ceux trouvés dans les nouveaux catalogues thématiques. Ne choisissez pas ÉTENDUE ou COMPLÈTE si vous essayez d'éviter les spoilers de la version 1.6 !",
+    "config.Furniture Catalogue.values.Default": "Par défaut",
+    "config.Furniture Catalogue.values.Extended": "Étendu",
+    "config.Furniture Catalogue.values.Complete": "Complet",
+    "config.Furniture Catalogue.values.Off": "Désactivé",
+
+    "config.Resize Furniture Catalogue.name": "Redimensionner le catalogue",
+    "config.Resize Furniture Catalogue.description": "Change le catalogue de meubles pour occuper la place d'une case - comme les autres catalogues.",
+
+    "config.Recolor.name": "Recolorer",
+    "config.Recolor.description": "(Pour l'option précédente de redimensionnement du catalogue de meubles) Choisissez Terreux si vous utilisez [DaisyNiko's Earthy Interiors]. Choisissez VPR si vous utilisez [Vibrant Pastoral Recolor]. Pour d'autres recolorations de meubles/intérieurs, choisissez l'option qui vous semble la meilleure. (Classique est la couleur de chêne par défaut, VPR est un brun moyen et Terreux est un brun plus foncé.)",
+    "config.Recolor.values.Vanilla": "Classique",
+    "config.Recolor.values.Earthy": "Terreux",
+    "config.Recolor.values.VPR": "VPR",
+
+    "config.Wallpaper & Floor Catalogue.name": "Catalogue papiers peints & sols",
+    "config.Wallpaper & Floor Catalogue.description": "Ajoute les nouveaux papiers peints et sols de la version 1.6 au catalogue vendu chez Pierre."
+}
