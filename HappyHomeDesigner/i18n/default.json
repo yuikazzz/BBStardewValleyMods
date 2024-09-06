@@ -57,10 +57,17 @@
 	"skin.Default": "Stardew Default",
 	"skin.Maraluna.OvergrownFloweryInterface": "Overgrown Flowery",
 	"skin.ManaKirel.VintageInterface2": "Vintage V2",
+	"skin.DaisyNiko.EarthyRecolour": "DaisyNiko's Earthy",
+	"skin.ManaKirel.VMI": "Vintage V1",
 	"config.EasierTrashCatalogue.name": "Easier Trash Catalogue",
 	"config.EasierTrashCatalogue.desc": "Makes the trash catalogue less difficult to obtain.",
 	"config.Magnify.name": "Magnify",
 	"config.Magnify.desc": "Shows a larger preview tooltip, to make detail on large items more visible.",
 	"config.MagnifyScale.name": "Magnify Scale",
-	"config.MagnifyScale.desc": "Size multiplier for the preview tooltip. Does nothing if Magnify is disabled."
+	"config.MagnifyScale.desc": "Size multiplier for the preview tooltip. Does nothing if Magnify is disabled.",
+	"config.GMCMButton.name": "GMCM Button",
+	"config.GMCMButton.desc": "Whether or not to display the config button in the catalogue menu.",
+	"ui.EmptyCatalogue.text": "This catalogue contains no items!",
+	"config.QuickDelete.name": "Delete Held Item",
+	"config.QuickDelete.desc": "While the catalogue is open, pressing this key will delete the held item if possible."
 }

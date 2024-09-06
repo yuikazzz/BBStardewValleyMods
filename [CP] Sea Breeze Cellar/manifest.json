@@ -1,0 +1,10 @@
+{
+    "Name": "Sea Breeze Cellar",
+    "Author": "colling",
+    "Version": "1.0.1",
+    "Description": "new layout for cellar to give an underwater aesthetic.",
+    "UniqueID": "colling.seacellar",
+    "UpdateKeys":["Nexus:26340"],
+    "MinimumApiVersion": "3.15.1",
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

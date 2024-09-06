@@ -15,6 +15,8 @@ Provided functionality for players:
     * By default this only includes chatting (and gifting if you are holding something), but mods can add new entries.
     * Content pack authors can let you ask an NPC questions by editing an asset from Content Patcher (see "NPC Questions" in the content pack authors). You can ask one question per day.
     * You can set this menu to always show up when interacting with an NPC in the config, in case you want to (for example) prevent accidentally gifting an item to somebody.
+* If any mods add equipment slots through SpaceCore, a "+" button will show to the left of your boots slot. This can access the new equipment slots.
+    * The image can be edited by content pack authors for recolors. The asset path to this texture is: `spacechase0.SpaceCore/ExtraEquipmentIcon`
 
 Provided functionality for content pack authors:
 * Fixes NPCs taking the longer path when there are circular routes. Note that the "length" of the path is determined by amount of warps, not by amount of tiles travelled, so if there are two paths to a location with the same amount of warps but one map is much larger, they might still take the larger map path.
@@ -24,6 +26,7 @@ Provided functionality for content pack authors:
         * `type` - same as vanilla `Light` property light types, or you can use the path to a custom light texture (must be loaded with Action: Load)
         * `radiusMultiplier` - Make the light bigger or smaller
         * `colorR`, `colorG`, `colorB` - Make the lights a specific color, using RGB values. Each value should be in the range of [0, 255].
+    * A few dungeon-specific ones, listed in the Dungeons section.
 * New GameStateQuery queries:
     * Every custom skill registered through the C# API automatically registers a `PLAYER_<SKILLID_IN_CAPS>_LEVEL` query matching the vanilla ones (such as PLAYER_FARMING_LEVEL).
     * `NEARBY_CROPS radius cropId` - Only usable in CropExtensionData YieldOverrides PerItemCondition entries. Checks for fully grown crops of a particular type in a certain radius.
@@ -31,6 +34,7 @@ Provided functionality for content pack authors:
 * New tile actions
     * `spacechase0.SpaceCore_TriggerAction triggerActionId` - for running a trigger action, set the Trigger to "Manual"
     * `spacechase0.SpaceCore_OpenGlobalInventory inventoryId` - open a global inventory with the given ID
+    * A few dungeon-specific ones, listed in Dungeons section.
 * New touch actions
     * `spacechase0.SpaceCore_TriggerAction triggerActionId` - for running a trigger action, set the Trigger to "Manual"
 * New trigger actions
@@ -42,6 +46,13 @@ Provided functionality for content pack authors:
     * `spacechase0.SpaceCore_PlayEvent eventid ifNotSeen` - `ifNotSeen` is optional (defaults to false) - if true, the event won't play if it has been seen before
     * `spacechase0.SpaceCore_DamageCurrentFarmer amount`
     * `spacechase0.SpaceCore_ApplyBuff buffId "Source to show on the buff"` - Applies the buff `buffId` (from the vanilla file `Data/Buffs`), with the source in the tooltip being shown as what you provide.
+    * `spacechase0.SpaceCore_TriggerSpawnGroup spawnGroupId location includeRegions excludeRegions` - Trigger a spawn group (see spawnables documentation).
+        * `location` can be a static location name, or `Target` for triggering inside the current dungeon level (see the dungeons documentation).
+        * `includeRegions` and `excludeRegions` are a slash separated list of rectangles, with each component of the rectangle separated by commas.
+            * Ex. `2,2,10,10/25,30,15,10` would be two rectangles:
+                * One at X=2 Y=2 with a width of 10 and a height of 10
+                * One at X=25 Y=30 with a width of 15 and a height of 10
+    * `spacechase0.SpaceCore_ClearSetPiecesFromSpawnable spawnDefinitionId location` - Clear all set pieces spawned from a particular spawn definition in the specified location (see the spawnables documentation for what a spawn definition is).
 * Custom event commands
     * `damageFarmer amount`
     * `setDating npc [true/false]` - default true
@@ -128,6 +139,109 @@ Provided functionality for content pack authors:
     * Trigger Actions - Stored in `spacechase0.SpaceCore/TriggerActionExtensionData`, a dictionary with the key being the trigger action ID and the value being an object with the following fields.
         * `Times` - An list of the times the trigger action should be triggered. Example: `"Times": [ 630 ]`
             * The `Trigger` for this trigger action must be set to "Manual" for it to work.
+* Spawnables - Spawn things on a trigger action. The trigger action actions to use are listed in the trigger action section further above.
+    * First, an example with everything: https://gist.github.com/spacechase0/35453e1e7a0593d8d4f00246c1dd3990
+    * Spawnables consist of spawnable definitions (the spawns themselves) and spawning groups (a group of spawn definitions that are spawned together, specified with a trigger action).
+    * Spawnable definitions live in `spacechase0.SpaceCore/SpawnableDefinitions`. It's a dictionary with the key being the ID (referred to in spawn groups), and the value consisting of a `Type` field, with more fields depending on the type. (There is also a `Condition` GSQ on each one.) The types (with their additional fields listed in sub bullet points) are:
+        * `SetPiece` - Place a set piece (randomized map patch). Set pieces are random sections from a map file that are then applied onto an existing location. They persist until cleared with the relevant trigger action. If applied to the location you are in, they won't show up until you leave and re-enter the location. (The vanilla volcano dungeon uses something similar to set pieces - it's even called set pieces internally).
+            * `SetPiecesMap` - The map file to pull set pieces from. Use the `{{InternalAssetKey}}` token when specifying your custom maps.
+            * `SetPieceSizeX` - The width of each set piece in the map file.
+            * `SetPieceSizeY` - The height of each set piece in the map file.
+            * `SetPieceCount` - The amount of set pieces in the map file.
+            * Additionally, set pieces can use tile properties to trigger another spawn group. Place a tile on the `Paths` layer, and spsecify a tile property named `spacechase0.SpaceCore/TriggerSpawnGroup`. The value should be the spawn group to trigger at this tile.
+        * `Forageable` - Spawn a forageable (either pick-up or artifact spot)
+            * `ForageableItemData` - A list of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields). A random one will be chosen according to the weights. (See the example from before for how to format weighted item spawn fields.) These must be objects (unless `ForageableIsTillSpot` is true).
+            * `ForageableExpiresWeekly` - If the forageable should disappear at the end of Saturday like vanila forageables do. Default true.
+            * `ForageableIsTillSpot` - If it should make an artifact spot and have to be dug with a hoe instead of picked up normally. Default false.
+        * `Minable` - Spawn a minable, to be broken with a pickaxe or axe.
+            * `MinableTool` - Either `Pickaxe` or `Axe`.
+            * `MinableObjectId` - The object ID of the object this minable should look like.
+            * `MinableHealth` - The amount of health the minable has. Each hit takes away an amount of health equal to the tool tier.
+            * `MinableDrops` - A list of lists of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields). How this works is it will pick one weighted item spawn from each list in the outer list. (See the example from before for how to format these.)
+            * `MinableExperienceGranted` - How much skill experience to grant upon being broken. This will be mining experience for pickaxe minables, and foraging experience for axe minables.
+        * `LargeMinable` - Spawn a larger-than-one-tile minable, to be broken with a pickaxe or axe.
+            * `LargeMinableTool` - Either `Pickaxe` or `Axe`.
+            * `LargeMinableRequiredToolTier` - The required tool tier to be able to break this large minable.
+            * `LargeMinableHealth` - The amount of health the minable has.
+            * `LargeMinableSizeX` - How many tiles wide this minable should be.
+            * `LargeMinableSizeY` - How many tiles tall this minable should be.
+            * `LargeMinableTexture` - The texture to use for the minable, or null for the vanilla springobjects tilesheet.
+            * `LargeMinableSpriteIndex` - The inedx of the sprite in the texture. The indices are counted by 16x16 tiles, not by the size of the minable.
+            * `LargeMinableDrops` - A list of lists of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields). How this works is it will pick one weighted item spawn from each list in the outer list. (See the example from before for how to format these.)
+            * `LargeMinableShavingDrops` - A list of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields) to use if someone hits the minable with a tool with the Shaving enchantment. A random one will be chosen according to the weights. (See the example from before for how to format weighted item spawn fields.)
+            * `LargeMinableExperienceGranted` - How much skill experience to grant upon being broken. This will be mining experience for pickaxe minables, and foraging experience for axe minables.
+        * `Breakable` - A breakable container, like the barrels or crates in the mines.
+            * `BreakableBigCraftableId` - The ID of the big craftable this breakable should look like.
+            * `BreakableHealth` - How much health this breakable should have.
+            * `BreakbleHitSound` - The sound to make when hit. Default `woodWhack`.
+            * `BreakbleBrokenSound` - The sound to make when broken. Default `barrelBreak`.
+            * `BreakableDrops` - A list of lists of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields). How this works is it will pick one weighted item spawn from each list in the outer list. (See the example from before for how to format these.)
+        * `LootChest` - A chest that will drop items when opened, similar to the chests in the volcano dungeon.
+            * `LootChestBigCraftableId` - The ID of the big craftable this loot chest should look like. Note that the sprite indices after the chest are used for the lid - check a vanilla chest for an example.
+            * `LootChestDrops` - A list of lists of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields). How this works is it will pick one weighted item spawn from each list in the outer list. (See the example from before for how to format these.)
+        * `Furniture` - A furniture item, placed into the world.
+            * `FurnitureQualifiedId` - The qualified item ID of the furniture to spawn.
+            * `FurnitureRotation` - The amount of times it should be "rotated" (as if a player were placing it).
+            * `FurnitureIsOn` - For lamps, if they should be on.
+            * `FurnitureHeldObject` - A list of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields) to use for a single item to be sitting on the furniture (if it's a table). A random one will be chosen according to the weights. (See the example from before for how to format weighted item spawn fields.)
+            * `FurnitureCanPickUp` - If the furniture should be able to be picked up or not. Default true. (Note that any held object WILL be able to be taken regardless of this field.)
+        * `Monster` - A monster. This can be a vanilla type, or  a custom one if registered through the SpaceCore API.
+            * `MonsterType` - The type of monster to spawn. Valid types are any of the following: `Bat`, `BigSlime`, `BlueSquid`, `Bug`, `DinoMonster`, `Duggy`, `DustSpirit`, `DwarvishSentry`, `Fly`, `Ghost`, `GreenSlime`, `Grub`, `HotHead`, `LavaLurk`, `Leaper`, `MetalHead`, `Mummy`, `RockCrab`, `RockGolem`, `Serpent`, `ShadowBrute`, `ShadowGirl`, `ShadowGuy`, `ShadowShaman`, `Shooter`, `Skeleton`, `Spiker`, `SquidKid` (C# mods can register additional types with the SpaceCore API.)
+            * `MonsterName` - If specified, will reload the monster with stats from specified entry in `Data/Monsters`.
+            * `MonsterTextureOverride` - If specified, override the spritesheet of the monster.
+            * `MonsterDropOverride` - If specified, will replace the monster's drops with these. A list of lists of weighted [item spawn fields](https://stardewvalleywiki.com/Modding:Item_queries#Item_spawn_fields). How this works is it will pick one weighted item spawn from each list in the outer list. (See the example from before for how to format these.)
+            * `MonsterAdditionalData` - Some monsters can have additional data to configure them:
+                * `BigSlime`
+                    * `Color` - The color of the slime, specified with `{ "R": 255, "G": 255, "B": 255 }`
+                    * `HeldItemQualifiedId` - Qualified item ID of the item inside the slime
+                * `Bug` - `IsArmored` can be set to true
+                * `Ghost` - `IsPutrid` can be set to true
+                * `GreenSlime` - `Color` can be set just like with BigSlime
+                * `RockCrab` - `IsStickBug` can be set to true (preventing the armor from breaking)
+                * `Serpent` - `SegmentCount` can be set to an integer
+                * `Skeleton` - `IsMage` can be set to true
+                * `Spiker` - `Direction` must be specified - it determines the direction it will move when a player approaches
+        * `WildTree` - Spawn a fully grown wild tree.
+            * `WildTreeType` - the ID of the wild tree, as specified in `Data/WildTrees`.
+        * `FruitTree` - Spawn a fully grown fruit tree (with fruit if the season is correct in the location). This fruit tree will not drop a sapling when cut down.
+            * `FruitTreeType` - the ID of the fruit tree, as specified in `Data/fruitTrees`.
+    * Spawn groups live in `spacechase0.SpaceCore/SpawningGroups`. This is a dictionary with the key being the ID (referred to from trigger actions), and the value being an object containing the following fields:
+        * `SpawnablesToSpawn` - A list of objects with the following fields:
+            * `SpawnableIds` - A weighted list of IDs of spawnable definitions to chose from spawning.
+            * `Minimum` - The minimum amount to spawn. (Each attempt will have 10 tries - if there's no room, that attempt is skipped.)
+            * `Maximum` - The maximum amount to spawn.
+* Dungeons - You can define custom dungeons like the mines or skull caverns.
+    * There is an example [here](https://gist.github.com/spacechase0/8502b78aed4c5d84a41881e3b2e1b42b).
+    * You can control entering and exiting the dungeon via tile actions and map properties.
+        * Tile actions
+            * `spacechase0.SpaceCore_DungeonEntrance dungeonId` - Has you enter the first floor of the dungeon. Works anywhere.
+            * `spacechase0.SpaceCore_DungeonElevatorMenu dungeonId` - Opens the elevator for the dungeon dungeonId. The floors available are based on how deep you go, and defined in the dungeon data. Works anywhere.
+            * `spacechase0.SpaceCore_DungeonLadderExit` - A normal exit for the dungeon - you will be taken to where is defined in the dungeon data. Works in a dungeon.
+            * `spacechase0.SpaceCore_DungeonLadder` - Acts like a ladder in the mines, descending one floor. Works in a dungeon.
+            * `spacechase0.SpaceCore_DungeonMineshaft` - Acts like a mineshaft in the skull cavern, descending a random amount of floors. Works in a dungeon.
+        * Map properties
+            * `spacechase0.SpaceCore_DungeonLadderEntrance x y` - Where the palyer is placed when entering the location via ladder or entering the dungeon.
+            * `spacechase0.SpaceCore_DungeonElevatorEntrance x y` - Where the player is placed when entering the location via an elevator.
+    * The dungeon data itself lives in `spacechase0.SpaceCore/Dungeons`, which is a dictionary with the dungeon ID being the key, and a model containing the following values:
+        * `LadderExitLocation` - The location name of the place to be taken to when exiting through `spacechase0.SpaceCore_DungeonLadderExit`.
+        * `LadderExitTile` - The position in the location above to to be taken to.
+        * `ElevatorExitLocation` - The location name of the place to be taken to when exiting through floor 0 of `spacechase0.SpaceCore_DungeonElevatorMenu dungeonId`.
+        * `ElevatorExitTile` - The position in the location above to be taken to.
+        * `FloorsWithElevators` - A list of floors that the elevator will list as choices (if someone on that farm has been that deep before).
+        * `SpawnLadders` - If this dungeon should spawn ladders when rocks are broken. Default true.
+        * `SpawnMineshafts` - If this dungeon should spawn mineshafts when rocks are broken. Default false.
+        * `LadderTileSheet` - The tilesheet dungeon ladders should show from. Default `"Maps/Mines/mine_desert"`.
+        * `LadderTileIndex` - The tile index dungeon ladders should show. Default 173.
+        * `MineshaftTileSheet` - The tilesheet dungeon mineshafts should show from. Default `"Maps/Mines/mine_desert"`.
+        * `MineshaftTileIndex` - The tile index dungeon mineshafts should show. Default 174.
+        * `AdditionalTimeMilliseconds` - How much time should slow, in milliseconds per ten minutes of in-game time, when in this dungeon in singleplayer. Default 2000.
+        * `Regions` - Also a dictionary, with the string being the region ID (unique to this dungeon), and the values being a model containing the following:
+            * `LevelRange` - An object with a `Begin` and `End` for which levels this region defines.
+            * `MapPool` - A list of weighted strings containing map paths to choose from. Choices with higher weight are more likely to be chosen, proportionate to the weight of other choices.
+                * For how to format these, check out the example.
+            * `TriggerActionsOnEntry` - A list of trigger actions to run when entering the location.
+                * If using SpaceCore's Spawnables system to populate the level, make sure to mark those trigger actions as `"HostOnly": true` (to prevent levels from getting repopulated when a new player enters) and `"MarkActionApplied": false` (to make sure it works more than once per save).
+            * `LocationDataEntry` - What location to emulate from the `Data/Locations` asset. This defines things like location context, music, how fish get chosen, etc.
 * Animations - You can animate textures by editing `"spacechase0.SpaceCore/TextureOverrides"`, which is a dictionary with the key being the ID of your animation, and the following information:
     * `TargetTexture` - The path to the file you want to animate.
     * `TargetRect` - The rectangle in the target file you want to animate. Example: `{ "X": 32, "Y": 48, "Width": 16, "Height": 16 }`
@@ -172,6 +286,20 @@ The rest of the features assume you understand C# and the game code a little bit
         * `getter` is a `MethodInfo` pointing to your static function acting as a getter. It take an instance of the type corresponding to `declaringType`, and return a value of the type corresponding to `propType`.
         * `setter` is a `MethodInfo` pointing to your static function acting as a setter. It take an instance of the type corresponding to `declaringType` and a value of the type corresponding to `propType`.
     * An event: `AdvancedInteractionStarted`, which passes the NPC as the `object sender` and an `Action<string, Action>` as the event argument, which you call with a string for what string to show for you choice, and an Action for what to happen when it is chosen. (See [Backstory Questions Framework](https://www.nexusmods.com/stardewvalley/mods/14451), a mod now integrated into SpaceCore, for an example on usage).
+    * `void RegisterSpawnableMonster(string id, Func<Vector2, Dictionary<string, object>, Monster> monsterSpawner)` - Register a spawnable monster with the spawnables system.
+    * `List<int> SpaceCore.GetLocalIndexForMethod(MethodBase meth, string local)` - gets the indices of all variables in a method using a given name. Used for transpilers.
+    * Custom equipment slot functions:
+        * Note: The IDs are global, across all mods. Please include your mod unique ID in your slot ID.
+        * `void RegisterEquipmentSlot(IManifest modManifest, string globalId, Func<Item, bool> slotValidator, Func<string> slotDisplayName, Texture2D bgTex, Rectangle? bgRect = null)` - Register an equipment slot to show on the additional equipment menu. (See player features section.)
+            * `IManifest modManifest` - Your mod's `ModManifest` field from your ModEntry class. Currently unused, might be used at some point to show what mod a slot comes from.
+            * `string globalId` - The id of the slot, must be unique across all mods.
+            * `Func<Item, bool> slotValidator` - The function to validate if an item will be accepted in the slot. Make sure it accepts `null`.
+            * `Func<string> slotDisplayName` - The display name of the slot, shown on the extra equipment menu.
+            * `Texture2D bgTex` - The texture containing the background iamge of the slot.
+            * `Rectangle? bgRect` - The rectangle of the texture for the slot, or null to use the whole texture.
+        * `Item GetItemInEquipmentSlot(Farmer farmer, string globalId)` - Get the item in the specified equipment slot for the specified farmer.
+        * `void SetItemInEquipmentSlot(Farmer farmer, string globalId, Item item)` - Set the item in the specified equipment slot for the specified farmer. Note: This only works for your local farmer or offline ones, not other online players.
+        * `bool CanItemGoInEquipmentSlot(string globalId, Item item)` - If the item can go in the requested slot.
 * Events, located in SpaceCore.Events.SpaceEvents:
     * `OnBlankSave` - Occurs before loading starts. Custom locations can be added here so that they retain player data.
     * `ShowNightEndMenus` - Right before the shipping menu, level up menus, etc. pop up so you can add your own.
@@ -284,7 +412,6 @@ The rest of the features assume you understand C# and the game code a little bit
             * `UserData` - an `object` field for you to store whatever you want in
 * Content Engine
     * Also hard to document, go read the source ([here](https://github.com/spacechase0/StardewValleyMods/tree/develop/SpaceShared/Content)) or look at Moon Misadventures Redux for an example.
-* `List<int> SpaceCore.GetLocalIndexForMethod(MethodBase meth, string local)` - gets the indices of all variables in a method using a given name. Used for transpilers.
 * Some other things that will remain undocumented because they will be removed soon.
 
 ## Compatibility

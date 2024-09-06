@@ -1,6 +1,194 @@
 {
-  "WeatherForYesterday": "Sunny",
+  "WeatherForYesterday": "Sun",
   "LNOSCounter": {},
   "ExistingObjectLocations": {},
-  "SavedObjects": []
+  "SavedObjects": [
+    {
+      "MapName": "WitchSwamp",
+      "Name": "wildflour.ateliercrops_amanita_cluster",
+      "Tile": "22, 37",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_amanita_cluster",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Railroad",
+      "Name": "wildflour.ateliercrops_dawn_trumpet",
+      "Tile": "13, 21",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_dawn_trumpet",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "wildflour.ateliercrops_mallow",
+      "Tile": "14, 18",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_mallow",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": "wildflour.ateliercrops_meringueshroom",
+      "Tile": "29, 14",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_meringueshroom",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "wildflour.ateliercrops_fire_dragon_scale",
+      "Tile": "60, 73",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_fire_dragon_scale",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "wildflour.ateliercrops_fire_dragon_scale",
+      "Tile": "54, 37",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_fire_dragon_scale",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "wildflour.ateliercrops_mallow",
+      "Tile": "38, 29",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_mallow",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "wildflour.ateliercrops_lovebird_feather",
+      "Tile": "122, 13",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_lovebird_feather",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "wildflour.ateliercrops_valerian",
+      "Tile": "81, 13",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_valerian",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "wildflour.ateliercrops_thistle",
+      "Tile": "66, 49",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_thistle",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "wildflour.ateliercrops_chamomile",
+      "Tile": "96, 38",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_chamomile",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "wildflour.ateliercrops_shooting_star",
+      "Tile": "107, 21",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_shooting_star",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "wildflour.ateliercrops_olive",
+      "Tile": "96, 57",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_olive",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "wildflour.ateliercrops_yarrow",
+      "Tile": "41, 24",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_yarrow",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_vanilla",
+      "Tile": "18, 27",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_vanilla",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "wildflour.ateliercrops_vanilla",
+      "Tile": "53, 142",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_vanilla",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "wildflour.ateliercrops_thyme",
+      "Tile": "67, 34",
+      "Type": "Forage",
+      "ID": "wildflour.ateliercrops_thyme",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    }
+  ]
 }

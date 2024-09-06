@@ -1,0 +1,11 @@
+﻿{
+	"Name": "[CP]Blight's funiture pack1",
+	"Author": "blight",
+	"Version": "1.0",
+	"Description": "some furniture",
+	"UniqueID": "blight.furniture",
+	"UpdateKeys": [ "Nexus:" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+	}
+}

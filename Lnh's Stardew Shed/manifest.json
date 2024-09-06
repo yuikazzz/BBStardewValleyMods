@@ -1,0 +1,11 @@
+{
+    "Name": "Lnh's Stardew Shed",
+    "Author": "Lnh",
+    "Version": "1.1.2",
+    "Description": "",
+    "UniqueID": "Lnh.StardewShed",
+    "UpdateKeys": [ "Nexus:17883" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -1,11 +1,11 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.3.0",
     "ConfigSchema": {
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Farming! =",
-			"AllowValues": "Version 6.0.9",
-			"Default": "Version 6.0.9"
+			"AllowValues": "Version 6.0.12",
+			"Default": "Version 6.0.12"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -62,15 +62,15 @@
             "Default": "Default"
         },
 		    "Crops Minimum Quality": {
-			"Description": "Select the minimum quality level for crop harvests. By default, this setting yields crops with no quality, indicated by the absence of stars.",
+			"Description": "Select the minimum quality level for crop harvests. By default, this setting yields crops with no quality, indicated by the absence of stars. Setting the quality higher than the Maximum will guarantee the quality chosen by the Minimum. Example: If setting the Minimum to Gold and the Maximum to Silver, the quality of the crops will always be Gold.",
             "Section": "Crop Farming",
 			"AllowValues": "Default (No Quality), Silver, Gold, Iridium",
             "Default": "Default (No Quality)"
         },
 		    "Crops Maximum Quality": {
-			"Description": "Select the highest quality level achievable for crop harvests.",
+			"Description": "Select the highest quality level achievable for crop harvests. Please note; there is no Iridium quality as the game only looks at Gold as the highest for the quality of crops if you're not using the Deluxe Fertilizer. The 'Default' setting will be Gold for crops not using Deluxe Fertlizer and Iridium for crops using Deluxe Fertilizer.",
             "Section": "Crop Farming",
-			"AllowValues": "Default, No Quality, Silver, Gold, Iridium",
+			"AllowValues": "Default, No Quality, Silver, Gold",
             "Default": "Default"
         },
 		    "Tea Sapling Sell Value": {
@@ -7219,64 +7219,6 @@
 				"PowdermelonSeeds": {"HarvestMaxQuality": 2}, //Powdermelon
                     },		
 			"When": {"Crops Maximum Quality": "Gold"},
-		},
-		{
-			"LogName": "Crops Maximum Quality Iridium",
-			"Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-			    "273": {"HarvestMaxQuality": 4}, //Rice
-				"299": {"HarvestMaxQuality": 4}, //Amaranth
-				"301": {"HarvestMaxQuality": 4}, //Grape
-				"302": {"HarvestMaxQuality": 4}, //Hops
-				"347": {"HarvestMaxQuality": 4}, //Sweet Gem Berry
-				"425": {"HarvestMaxQuality": 4}, //Fairy Rose
-				"427": {"HarvestMaxQuality": 4}, //Tulip
-				"429": {"HarvestMaxQuality": 4}, //Blue Jazz
-				"431": {"HarvestMaxQuality": 4}, //Sunflower
-				"433": {"HarvestMaxQuality": 4}, //Coffee Bean
-				"453": {"HarvestMaxQuality": 4}, //Poppy
-				"455": {"HarvestMaxQuality": 4}, //Summer Spangle
-				"472": {"HarvestMaxQuality": 4}, //Parsnip
-				"473": {"HarvestMaxQuality": 4}, //Green Bean
-				"474": {"HarvestMaxQuality": 4}, //Cauliflower
-				"475": {"HarvestMaxQuality": 4}, //Potato
-				"476": {"HarvestMaxQuality": 4}, //Garlic
-				"477": {"HarvestMaxQuality": 4}, //Kale
-				"478": {"HarvestMaxQuality": 4}, //Rhubarb
-				"479": {"HarvestMaxQuality": 4}, //Melon
-				"480": {"HarvestMaxQuality": 4}, //Tomato
-				"481": {"HarvestMaxQuality": 4}, //Blueberry
-				"482": {"HarvestMaxQuality": 4}, //Hot Pepper
-				"483": {"HarvestMaxQuality": 4}, //Wheat
-				"484": {"HarvestMaxQuality": 4}, //Radish
-				"485": {"HarvestMaxQuality": 4}, //Red Cabbage
-				"486": {"HarvestMaxQuality": 4}, //Starfruit
-				"487": {"HarvestMaxQuality": 4}, //Corn
-				"488": {"HarvestMaxQuality": 4}, //Eggplant
-				"489": {"HarvestMaxQuality": 4}, //Artichoke
-				"490": {"HarvestMaxQuality": 4}, //Pumpkin
-				"491": {"HarvestMaxQuality": 4}, //Bok Choy
-				"492": {"HarvestMaxQuality": 4}, //Yam
-				"493": {"HarvestMaxQuality": 4}, //Cranberries
-				"494": {"HarvestMaxQuality": 4}, //Beet
-				"495": {"HarvestMaxQuality": 4}, //Spring Seeds
-				"496": {"HarvestMaxQuality": 4}, //Summer Seeds
-				"497": {"HarvestMaxQuality": 4}, //Fall Seeds
-				"498": {"HarvestMaxQuality": 4}, //Winter Seeds
-				"499": {"HarvestMaxQuality": 4}, //Ancient Fruit
-				"745": {"HarvestMaxQuality": 4}, //Strawberry
-				"802": {"HarvestMaxQuality": 4}, //Cactus Fruit
-				"831": {"HarvestMaxQuality": 4}, //Taro Root
-				"833": {"HarvestMaxQuality": 4}, //Pineapple
-				"885": {"HarvestMaxQuality": 4}, //Fiber
-				"890": {"HarvestMaxQuality": 4}, //Qi Fruit
-				"CarrotSeeds": {"HarvestMaxQuality": 4}, //Carrot
-				"SummerSquashSeeds": {"HarvestMaxQuality": 4}, //Summer Squash
-				"BroccoliSeeds": {"HarvestMaxQuality": 4}, //Broccoli
-				"PowdermelonSeeds": {"HarvestMaxQuality": 4}, //Powdermelon
-                    },		
-			"When": {"Crops Maximum Quality": "Iridium"},
 		},
 		{
 			"LogName": "Tea Sapling Sell Value 500g",
@@ -24167,40 +24109,40 @@
 			"When": {"Cask Required Mats.": "2"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 2",
+			"LogName": "Cask Required Mats. Wine 2",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 2},
 				},
 			"When": {"Cask Required Mats.": "2"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 2",
+			"LogName": "Cask Required Mats. Mead 2",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 2},
 				},
 			"When": {"Cask Required Mats.": "2"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 2",
+			"LogName": "Cask Required Mats. Pale Ale 2",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 2},
 				},
 			"When": {"Cask Required Mats.": "2"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 2",
+			"LogName": "Cask Required Mats. Beer 2",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 2},
 				},
@@ -24227,40 +24169,40 @@
 			"When": {"Cask Required Mats.": "3"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 3",
+			"LogName": "Cask Required Mats. Wine 3",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 3},
 				},
 			"When": {"Cask Required Mats.": "3"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 3",
+			"LogName": "Cask Required Mats. Mead 3",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 3},
 				},
 			"When": {"Cask Required Mats.": "3"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 3",
+			"LogName": "Cask Required Mats. Pale Ale 3",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 3},
 				},
 			"When": {"Cask Required Mats.": "3"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 3",
+			"LogName": "Cask Required Mats. Beer 3",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 3},
 				},
@@ -24287,40 +24229,40 @@
 			"When": {"Cask Required Mats.": "4"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 4",
+			"LogName": "Cask Required Mats. Wine 4",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 4},
 				},
 			"When": {"Cask Required Mats.": "4"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 4",
+			"LogName": "Cask Required Mats. Mead 4",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 4},
 				},
 			"When": {"Cask Required Mats.": "4"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 4",
+			"LogName": "Cask Required Mats. Pale Ale 4",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 4},
 				},
 			"When": {"Cask Required Mats.": "4"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 4",
+			"LogName": "Cask Required Mats. Beer 4",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 4},
 				},
@@ -24347,40 +24289,40 @@
 			"When": {"Cask Required Mats.": "5"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 5",
+			"LogName": "Cask Required Mats. Wine 5",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 5},
 				},
 			"When": {"Cask Required Mats.": "5"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 5",
+			"LogName": "Cask Required Mats. Mead 5",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 5},
 				},
 			"When": {"Cask Required Mats.": "5"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 5",
+			"LogName": "Cask Required Mats. Pale Ale 5",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 5},
 				},
 			"When": {"Cask Required Mats.": "5"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 5",
+			"LogName": "Cask Required Mats. Beer 5",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 5},
 				},
@@ -24407,40 +24349,40 @@
 			"When": {"Cask Required Mats.": "6"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 6",
+			"LogName": "Cask Required Mats. Wine 6",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 6},
 				},
 			"When": {"Cask Required Mats.": "6"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 6",
+			"LogName": "Cask Required Mats. Mead 6",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 6},
 				},
 			"When": {"Cask Required Mats.": "6"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 6",
+			"LogName": "Cask Required Mats. Pale Ale 6",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 6},
 				},
 			"When": {"Cask Required Mats.": "6"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 6",
+			"LogName": "Cask Required Mats. Beer 6",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 6},
 				},
@@ -24467,40 +24409,40 @@
 			"When": {"Cask Required Mats.": "7"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 7",
+			"LogName": "Cask Required Mats. Wine 7",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 7},
 				},
 			"When": {"Cask Required Mats.": "7"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 7",
+			"LogName": "Cask Required Mats. Mead 7",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 7},
 				},
 			"When": {"Cask Required Mats.": "7"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 7",
+			"LogName": "Cask Required Mats. Pale Ale 7",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 7},
 				},
 			"When": {"Cask Required Mats.": "7"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 7",
+			"LogName": "Cask Required Mats. Beer 7",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 7},
 				},
@@ -24527,40 +24469,40 @@
 			"When": {"Cask Required Mats.": "8"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 8",
+			"LogName": "Cask Required Mats. Wine 8",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 8},
 				},
 			"When": {"Cask Required Mats.": "8"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 8",
+			"LogName": "Cask Required Mats. Mead 8",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 8},
 				},
 			"When": {"Cask Required Mats.": "8"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 8",
+			"LogName": "Cask Required Mats. Pale Ale 8",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 8},
 				},
 			"When": {"Cask Required Mats.": "8"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 8",
+			"LogName": "Cask Required Mats. Beer 8",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 8},
 				},
@@ -24587,40 +24529,40 @@
 			"When": {"Cask Required Mats.": "9"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 9",
+			"LogName": "Cask Required Mats. Wine 9",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 9},
 				},
 			"When": {"Cask Required Mats.": "9"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 9",
+			"LogName": "Cask Required Mats. Mead 9",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 9},
 				},
 			"When": {"Cask Required Mats.": "9"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 9",
+			"LogName": "Cask Required Mats. Pale Ale 9",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 9},
 				},
 			"When": {"Cask Required Mats.": "9"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 9",
+			"LogName": "Cask Required Mats. Beer 9",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 9},
 				},
@@ -24647,40 +24589,40 @@
 			"When": {"Cask Required Mats.": "10"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 10",
+			"LogName": "Cask Required Mats. Wine 10",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 10},
 				},
 			"When": {"Cask Required Mats.": "10"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 10",
+			"LogName": "Cask Required Mats. Mead 10",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 10},
 				},
 			"When": {"Cask Required Mats.": "10"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 10",
+			"LogName": "Cask Required Mats. Pale Ale 10",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 10},
 				},
 			"When": {"Cask Required Mats.": "10"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 10",
+			"LogName": "Cask Required Mats. Beer 10",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 10},
 				},
@@ -24707,40 +24649,40 @@
 			"When": {"Cask Required Mats.": "15"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 15",
+			"LogName": "Cask Required Mats. Wine 15",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 15},
 				},
 			"When": {"Cask Required Mats.": "15"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 15",
+			"LogName": "Cask Required Mats. Mead 15",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 15},
 				},
 			"When": {"Cask Required Mats.": "15"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 15",
+			"LogName": "Cask Required Mats. Pale Ale 15",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 15},
 				},
 			"When": {"Cask Required Mats.": "15"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 15",
+			"LogName": "Cask Required Mats. Beer 15",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 15},
 				},
@@ -24767,40 +24709,40 @@
 			"When": {"Cask Required Mats.": "20"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 20",
+			"LogName": "Cask Required Mats. Wine 20",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 20},
 				},
 			"When": {"Cask Required Mats.": "20"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 20",
+			"LogName": "Cask Required Mats. Mead 20",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 20},
 				},
 			"When": {"Cask Required Mats.": "20"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 20",
+			"LogName": "Cask Required Mats. Pale Ale 20",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 20},
 				},
 			"When": {"Cask Required Mats.": "20"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 20",
+			"LogName": "Cask Required Mats. Beer 20",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 20},
 				},
@@ -24827,40 +24769,40 @@
 			"When": {"Cask Required Mats.": "25"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 25",
+			"LogName": "Cask Required Mats. Wine 25",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 25},
 				},
 			"When": {"Cask Required Mats.": "25"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 25",
+			"LogName": "Cask Required Mats. Mead 25",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 25},
 				},
 			"When": {"Cask Required Mats.": "25"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 25",
+			"LogName": "Cask Required Mats. Pale Ale 25",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 25},
 				},
 			"When": {"Cask Required Mats.": "25"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 25",
+			"LogName": "Cask Required Mats. Beer 25",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 25},
 				},
@@ -24887,40 +24829,40 @@
 			"When": {"Cask Required Mats.": "30"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 30",
+			"LogName": "Cask Required Mats. Wine 30",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 30},
 				},
 			"When": {"Cask Required Mats.": "30"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 30",
+			"LogName": "Cask Required Mats. Mead 30",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 30},
 				},
 			"When": {"Cask Required Mats.": "30"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 30",
+			"LogName": "Cask Required Mats. Pale Ale 30",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 30},
 				},
 			"When": {"Cask Required Mats.": "30"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 30",
+			"LogName": "Cask Required Mats. Beer 30",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 30},
 				},
@@ -24947,40 +24889,40 @@
 			"When": {"Cask Required Mats.": "35"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 35",
+			"LogName": "Cask Required Mats. Wine 35",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 35},
 				},
 			"When": {"Cask Required Mats.": "35"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 35",
+			"LogName": "Cask Required Mats. Mead 35",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 35},
 				},
 			"When": {"Cask Required Mats.": "35"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 35",
+			"LogName": "Cask Required Mats. Pale Ale 35",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 35},
 				},
 			"When": {"Cask Required Mats.": "35"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 35",
+			"LogName": "Cask Required Mats. Beer 35",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 35},
 				},
@@ -25007,40 +24949,40 @@
 			"When": {"Cask Required Mats.": "40"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 40",
+			"LogName": "Cask Required Mats. Wine 40",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 40},
 				},
 			"When": {"Cask Required Mats.": "40"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 40",
+			"LogName": "Cask Required Mats. Mead 40",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 40},
 				},
 			"When": {"Cask Required Mats.": "40"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 40",
+			"LogName": "Cask Required Mats. Pale Ale 40",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 40},
 				},
 			"When": {"Cask Required Mats.": "40"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 40",
+			"LogName": "Cask Required Mats. Beer 40",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 40},
 				},
@@ -25067,40 +25009,40 @@
 			"When": {"Cask Required Mats.": "45"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 45",
+			"LogName": "Cask Required Mats. Wine 45",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 45},
 				},
 			"When": {"Cask Required Mats.": "45"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 45",
+			"LogName": "Cask Required Mats. Mead 45",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 45},
 				},
 			"When": {"Cask Required Mats.": "45"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 45",
+			"LogName": "Cask Required Mats. Pale Ale 45",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 45},
 				},
 			"When": {"Cask Required Mats.": "45"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 45",
+			"LogName": "Cask Required Mats. Beer 45",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 45},
 				},
@@ -25127,40 +25069,40 @@
 			"When": {"Cask Required Mats.": "50"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 50",
+			"LogName": "Cask Required Mats. Wine 50",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 50},
 				},
 			"When": {"Cask Required Mats.": "50"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 50",
+			"LogName": "Cask Required Mats. Mead 50",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 50},
 				},
 			"When": {"Cask Required Mats.": "50"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 50",
+			"LogName": "Cask Required Mats. Pale Ale 50",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 50},
 				},
 			"When": {"Cask Required Mats.": "50"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 50",
+			"LogName": "Cask Required Mats. Beer 50",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 50},
 				},
@@ -25187,40 +25129,40 @@
 			"When": {"Cask Required Mats.": "100"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 100",
+			"LogName": "Cask Required Mats. Wine 100",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Wine", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 100},
 				},
 			"When": {"Cask Required Mats.": "100"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 100",
+			"LogName": "Cask Required Mats. Mead 100",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Mead", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 100},
 				},
 			"When": {"Cask Required Mats.": "100"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 100",
+			"LogName": "Cask Required Mats. Pale Ale 100",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "PaleAle", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 100},
 				},
 			"When": {"Cask Required Mats.": "100"}
 		},
 		{
-			"LogName": "Cask Required Mats. Cheese 100",
+			"LogName": "Cask Required Mats. Beer 100",
 			"Action": "EditData",
 			"Target": "Data/Machines",
-			"TargetField": [ "(BC)163", "OutputRules", "Cheese", "Triggers" ],
+			"TargetField": [ "(BC)163", "OutputRules", "Beer", "Triggers" ],
 			"Fields": {
 				"ItemPlacedInMachine": {"RequiredCount": 100},
 				},
@@ -33677,6 +33619,16 @@
 			"When": {"Mayo Machine Quality": "Retain Quality"}
 		},
 		{
+			"LogName": "Mayo Machine Quality Golden Egg Retain",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)24", "OutputRules", "Default_GoldenEgg", "OutputItem" ],
+			"Fields": {
+					"(O)306": {"CopyQuality": true},
+					  },
+			"When": {"Mayo Machine Quality": "Retain Quality"}
+		},
+		{
 			"LogName": "Mayo Machine Quality Large Egg Retain",
 			"Action": "EditData",
 			"Target": "Data/Machines",
@@ -33733,6 +33685,16 @@
 			"TargetField": [ "(BC)24", "OutputRules", "Default_DinosaurEgg", "OutputItem" ],
 			"Fields": {
 					"(O)807": {"Quality": 2},
+					  },
+			"When": {"Mayo Machine Quality": "Gold Quality"}
+		},
+		{
+			"LogName": "Mayo Machine Quality Golden Egg Gold",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [ "(BC)24", "OutputRules", "Default_GoldenEgg", "OutputItem" ],
+			"Fields": {
+					"(O)306": {"Quality": 2},
 					  },
 			"When": {"Mayo Machine Quality": "Gold Quality"}
 		},

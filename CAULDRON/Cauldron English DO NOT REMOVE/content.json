@@ -10,7 +10,7 @@
                                 {
                                 
                                 "GMCM.PageTitle.0": "Global Options",
-                                "GMCM.PageTitle.1": "Compatibility",
+                                "GMCM.PageTitle.1": "Mod Compatibility",
                                 "GMCM.PageTitle.2": "Special Orders",
                                 "GMCM.PageTitle.3": "Shipping Options",
                                 "GMCM.PageTitle.4": "Secret Forage Locations Options",
@@ -64,70 +64,70 @@
                                 
                                 "GMCM.Title.QLCompatEnable.Name": "Quaint Living",
                                 "GMCM.Options.QL.Name": "Enable Compatibility",
-                                "GMCM.Options.QL.ToolTip": "Set to true to enable machine rules to accept Quaint Living's flowers and add new items. True by default.",
+                                "GMCM.Options.QL.ToolTip": "Set to true to enable machine rules to accept Quaint Living's flowers and add new items. False by default.",
                         
                                 "GMCM.Title.SMCompatEnable.Name": "Serene Meadow",
                                 "GMCM.Options.SM.Name": "Enable Compatibility",
-                                "GMCM.Options.SM.ToolTip": "Set to true to enable machine rules to accept Serene Meadow's flowers and add new items. True by default.",
+                                "GMCM.Options.SM.ToolTip": "Set to true to enable machine rules to accept Serene Meadow's flowers and add new items. False by default.",
                         
                                 "GMCM.Title.VMVCompatEnable.Name": "Visit Mt Vapius",
                                 "GMCM.Options.VMV.Name": "Enable Compatibility",
-                                "GMCM.Options.VMV.ToolTip": "Set to true to enable machine rules to accept Visit Mt. Vapius's flowers and add new items. True by default.",
+                                "GMCM.Options.VMV.ToolTip": "Set to true to enable machine rules to accept Visit Mt. Vapius's flowers and add new items. False by default.",
                                 
                                 "GMCM.Title.CMCCompatEnable.Name": "Cornucopia More Crops",
                                 "GMCM.Options.CMC.Name": "Enable Compatibility",
-                                "GMCM.Options.CMC.ToolTip": "Set to true to enable machine rules to accept Cornucopia More Crops's crops and add new items. True by default.",
+                                "GMCM.Options.CMC.ToolTip": "Set to true to enable machine rules to accept Cornucopia More Crops's crops and add new items. False by default.",
                         
                                 "GMCM.Title.CMFCompatEnable.Name": "Cornucopia More Flowers",
                                 "GMCM.Options.CMF.Name": "Enable Compatibility",
-                                "GMCM.Options.CMF.ToolTip": "Set to true to enable machine rules to accept Cornucopia More Flowers's flowers and add new items. True by default.",
+                                "GMCM.Options.CMF.ToolTip": "Set to true to enable machine rules to accept Cornucopia More Flowers's flowers and add new items. False by default.",
                              
                                 "GMCM.Title.AlesMeadsShip.Name": "Brewer",
                                 "GMCM.Options.AlesMeadsShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOAlesMeadsEnable.Name":"Brewer",
-                                "GMCM.Options.SOAlesMeads.Name": "Enable Special Orders",
+                                "GMCM.Options.SOAlesMeads.Name": "Set to True to Enable Special Orders - False by default",
                                 
                                 "GMCM.Title.BeveragesShip.Name": "Barista: Cold",
                                 "GMCM.Options.BeveragesShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOBeveragesEnable.Name":"Barista: Cold",
-                                "GMCM.Options.SOBeverages.Name": "Enable Special Orders",
+                                "GMCM.Options.SOBeverages.Name": "Set to True to Enable Special Orders - False by default",
                                 
                                 "GMCM.Title.CandyShip.Name": "Confectioner: Sweet",
                                 "GMCM.Options.CandyShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOCandyEnable.Name":"Confectioner: Sweet",
-                                "GMCM.Options.SOCandy.Name": "Enable Special Orders",
+                                "GMCM.Options.SOCandy.Name": "Set to True to Enable Special Orders - False by default",
                                 
                                 "GMCM.Title.BaristaShip.Name": "Barista: Hot",
                                 "GMCM.Options.BaristaShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOBaristaEnable.Name":"Barista: Hot",
-                                "GMCM.Options.SOBarista.Name": "Enable Special Orders",
+                                "GMCM.Options.SOBarista.Name": "Set to True to Enable Special Orders - False by default",
         
                                 "GMCM.Title.FloralShip.Name": "Florist",
                                 "GMCM.Options.FloralShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOFloralEnable.Name":"Florist",
-                                "GMCM.Options.SOFloral.Name": "Enable Special Orders",
+                                "GMCM.Options.SOFloral.Name": "Set to True to Enable Special Orders - False by default",
                                 
                                 "GMCM.Title.FrozenShip.Name": "Confectioner: Frozen",
                                 "GMCM.Options.FrozenShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOFrozenEnable.Name":"Confectioner: Frozen",
-                                "GMCM.Options.SOFrozen.Name": "Enable Special Orders",
+                                "GMCM.Options.SOFrozen.Name": "Set to True to Enable Special Orders - False by default",
                                 
                                 "GMCM.Title.MakeupShip.Name": "Cosmetologist",
                                 "GMCM.Options.MakeupShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOMakeupEnable.Name":"Cosmetologist",
-                                "GMCM.Options.SOMakeup.Name": "Enable Special Orders",
+                                "GMCM.Options.SOMakeup.Name": "Set to True to Enable Special Orders - False by default",
                                 
-                                "GMCM.Options.SOJams.Name": "Enable Special Orders",
+                                "GMCM.Options.SOJams.Name": "Set to True to Enable Special Orders - False by default",
                                 "GMCM.Title.SOJamsEnable.Name":"Canner",
                                 "GMCM.Options.SOPickles.Name": "Enable",
                                 
                                 "GMCM.Title.PantryShip.Name": "Gourmand",
                                 "GMCM.Options.PantryShipment.Name": "Enable Shipping Collection",
                                 "GMCM.Title.SOPantryEnable.Name":"Gourmand",
-                                "GMCM.Options.SOPantry.Name": "Enable Special Orders",
+                                "GMCM.Options.SOPantry.Name": "Set to True to Enable Special Orders - False by default",
                                 
                                 "GMCM.Title.ShippingCollection.Name": "Add Items to Shipping Collection",
-                                "GMCM.Title.SpecialOrders.Name": "Enable Special Orders",
+                                "GMCM.Title.SpecialOrders.Name": "Set to True to Enable Special Orders - False by default",
                         
                                 "GMCM.Title.PresentLocations.Name": "Make All Locations Available",
                                 "GMCM.Options.PresentLocationsConfig.Name": "Enable",

@@ -17,5 +17,7 @@
   "UiSkin": "Maraluna.OvergrownFloweryInterface",
   "EasierTrashCatalogue": true,
   "Magnify": true,
-  "MagnifyScale": 3.0
+  "MagnifyScale": 3.0,
+  "GMCMButton": true,
+  "QuickDelete": "Delete"
 }
