@@ -1,0 +1,46 @@
+{
+  "Changes": [
+    {
+      "_Comment": "Fostoria Section",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "{{ModId}}_Fostoria": {
+          "Id": "{{ModId}}_Fostoria",
+          "DisplayName": "{{i18n: warp-sections.Fostoria}}"
+        }
+      }
+    },
+    {
+      "_Comment": "Fostoria Location Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "{{ModId}}_Fostoria_Pori's House": {
+          "_Comment": "波丽的家",
+          "Id": "{{ModId}}_Fostoria_Pori's House",
+          "DisplayName": "{{i18n: warp.Fostoria.Pori'sHouse}}",
+          "Location": "Fostoria.Stoffton_Fostoria",
+          "Tile": "40, 12",
+          "SectionId": "{{ModId}}_Fostoria"
+        },
+        "{{ModId}}_Fostoria_Iris's Magic Shop": {
+          "_Comment": "爱丽丝的魔法商店",
+          "Id": "{{ModId}}_Fostoria_Iris's Magic Shop",
+          "DisplayName": "{{i18n: warp.Fostoria.Iris's Magic Shop}}",
+          "Location": "Fostoria.Stoffton_Fostoria",
+          "Tile": "95, 13",
+          "SectionId": "{{ModId}}_Fostoria"
+        },
+        "{{ModId}}_Fostoria_RuinedShopAndGreenhouse": {
+          "_Comment": "废弃的商店和温室",
+          "Id": "{{ModId}}_Fostoria_RuinedShopAndGreenhouse",
+          "DisplayName": "{{i18n: warp.Fostoria.RuinedShopAndGreenhouse}}",
+          "Location": "Fostoria.Stoffton_Fostoria",
+          "Tile": "110, 12",
+          "SectionId": "{{ModId}}_Fostoria"
+        }
+      }
+    }
+  ]
+}

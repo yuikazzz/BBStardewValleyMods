@@ -1,0 +1,54 @@
+{
+  "Name": "[CP] CJB Cheats Menu Warps - Chinese",
+  "Author": "Lihang233",
+  "Version": "1.0.7",
+  "Description": "Translation CJB Cheats Menu Wraps",
+  "UniqueID": "Lihang233.CJBWrapsCP",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [ "Nexus:23460" ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "CJBok.CheatsMenu",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Rafseazz.RSVCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "LemurKat.EastScarpe.CP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "dreamy.kickitspot",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "DTZ.DowntownZuzuCP",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Lumisteria.MtVapius",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Fostoria.Stoffton",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "Lizzie.Stoffton",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "ricehit.SevenDeadlySinsCP",
+      "IsRequired": false
+    }
+  ]
+}

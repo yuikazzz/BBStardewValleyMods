@@ -1,0 +1,17 @@
+{
+    "Name": "Calm Colors Ridgeside Village",
+    "Author": "Ellie",
+    "Version": "2.0.2",
+    "Description": "The buildings and some interiors of Ridgeside Village will be changed to calmer colors.",
+    "UniqueID": "Ellie.CCRSV",
+    "UpdateKeys": [ "Nexus:19885" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+        {
+            "UniqueID": "Rafseazz.RSVCP",
+            "IsRequired": true
+        }
+    ]
+}

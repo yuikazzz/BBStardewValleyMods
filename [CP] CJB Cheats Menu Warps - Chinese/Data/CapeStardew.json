@@ -1,0 +1,54 @@
+{
+  "Changes": [
+    {
+      "_Comment": "Cape Section",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "{{ModId}}_Cape_Stardew": {
+          "Id": "{{ModId}}_Cape_Stardew",
+          "DisplayName": "{{i18n: warp-sections.CapeStardew}}"
+        }
+      }
+    },
+    {
+      "_Comment": "Cape Stardew Location Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "{{ModId}}_Cape_Stardew_Annetta": {
+          "_Comment": "安妮塔的家",
+          "Id": "{{ModId}}_Cape_Stardew_Annetta",
+          "DisplayName": "{{i18n: warp.CapeStardew.Annetta}}",
+          "Location": "Custom_CapeStardew",
+          "Tile": "36, 14",
+          "SectionId": "{{ModId}}_Cape_Stardew"
+        },
+        "{{ModId}}_Cape_Stardew_SeaCave": {
+          "_Comment": "海洞入口",
+          "Id": "{{ModId}}_Cape_Stardew_SeaCave",
+          "DisplayName": "{{i18n: warp.CapeStardew.SeaCave}}",
+          "Location": "Custom_Cape",
+          "Tile": "6, 9",
+          "SectionId": "{{ModId}}_Cape_Stardew"
+        },
+        "{{ModId}}_Cape_Stardew_SwimmingPoint": {
+          "_Comment": "游泳点",
+          "Id": "{{ModId}}_Cape_Stardew_SwimmingPoint",
+          "DisplayName": "{{i18n: warp.CapeStardew.SwimmingPoint}}",
+          "Location": "Custom_CapeStardew",
+          "Tile": "67, 80",
+          "SectionId": "{{ModId}}_Cape_Stardew"
+        },
+        "{{ModId}}_Cape_Stardew_BusStop": {
+          "_Comment": "巴士站",
+          "Id": "{{ModId}}_Cape_Stardew_BusStop",
+          "DisplayName": "{{i18n: warp.CapeStardew.BusStop}}",
+          "Location": "Custom_CapeBusStop",
+          "Tile": "28, 26",
+          "SectionId": "{{ModId}}_Cape_Stardew"
+        }
+      }
+    }
+  ]
+}

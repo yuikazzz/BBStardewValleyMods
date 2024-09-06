@@ -1,0 +1,21 @@
+{
+  "name": "Zuzu Block Party",
+  "locationDisplayName": "祖祖市公交车站区域",
+  "conditions": "Custom_DTZ_ZuzuCity1/1100 1900",
+  "set-up": "zuzuClubFunky/-1000 -1000/farmer 1 47 1/changeToTemporaryMap Custom_DTZ_ZuzuBlockParty/loadActors Set-Up/playerControl fair",
+  "mainEvent": "null",
+  "Set-Up_additionalCharacters": "Gwen 28 49 0/David 29 31 0/Callum 27 31 0/Kristoff 29 24 2/Sadie 22 48 1/Buddy 32 29 3/Selena 31 28 2",
+  "David": "嘿，@！最近怎么样？$h#$b#那些汉堡的香味不是很诱人吗？$l",
+  "Gwen": "嗨，@！有什么事吗？$b#乐队是不是很棒？$h",
+  "Gwen_spouse": "亲爱的，@，你好吗？$l#$b#那个乐队真是太棒了！$h",
+  "Haley": "哦，@。$b#我每年都喜欢来祖祖市街区派对。$h#$b#我总能拍到很棒的照片！$l",
+  "Haley_spouse": "嘿，@！$h#$b#我每年都很喜欢来祖祖市街区派对。$h#$b#我总能拍到很棒的照片！$l",
+  "Emily": "嘿，@。$h#$b#这个节日的气氛真是太棒了。$h#$b#我每年都和Sandy一起来，她喜欢逛祖祖市。",
+  "Emily_spouse": "你好，@！$h#$b#这个节日的气氛真是太棒了，但有你在身边更美好！$h#$b#我每年都和珊迪一起来，她喜欢逛祖祖市。",
+  "Sandy": "哦，@！$h#$b#这真是个惊喜！$h#$b#我喜欢在店不忙的时候来祖祖市。这个派对让一切变得更美好！$h",
+  "Kristoff": "哦，@，你好！$h#$b#希望你在派对上玩得开心。$h#$b#我也是其中的一位资助者。",
+  "Kristoff_spouse": "你好，我的爱人！$l#$b#希望你在派对上玩得开心！$h#$b#我也是其中的一位资助者。",
+  "Sadie": "嘿，@。$h#$b#最近怎么样？我休了一天假来这里！$h#$b#你知道吗，游客从世界各地都会来参加这个派对。",
+  "Sadie_spouse": "嘿，宝贝。$h#$b#最近怎么样？我很高兴我们还能一起来这个城市的节日。$l#$b#你知道吗，游客从世界各地都会来参加这个派对。",
+  "Buddy": "下午好，@。#$b#今天真是个举办节日的好日子。$h"
+}

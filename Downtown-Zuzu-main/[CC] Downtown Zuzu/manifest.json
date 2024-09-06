@@ -1,0 +1,18 @@
+{
+	"Name": "[CC] Downtown Zuzu",
+	"Author": "Zuzu Development Team",
+	"Version": "0.9.2",
+	"Description": "新增一个中等规模的地点，位于祖祖市郊区。它通过公交车站和CP运行。",
+	"UniqueID": "DTZ.DowntownZuzuCC",
+	"MinimumApiVersion": "3.5.0",
+	"UpdateKeys": [ "Nexus:8587" ],
+	"Dependencies": [
+		{
+			"UniqueID": "DTZ.DowntownZuzuDLL",
+			"IsRequired":  true
+		}
+	],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.CustomCompanions"
+	}
+}

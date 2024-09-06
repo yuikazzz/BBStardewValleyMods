@@ -1,0 +1,12 @@
+{
+	"Name": "WorldMap for Downtown Zuzu",
+	"Author": "N3cro_92",
+	"Description": "DaisyNiko's Earthy Worldmap for Downtown Zuzu",
+	"Version": "1.0.3",
+	"UniqueID": "N3cro_92.WorldMapDowntownZuzu",
+	"MinimumApiVersion": "3.0.0",
+	"UpdateKeys": [ "Nexus:21991" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+    },
+}

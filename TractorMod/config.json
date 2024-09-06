@@ -46,17 +46,17 @@
       "Enable": true
     },
     "MeleeBlunt": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "BreakMineContainers": true
     },
     "MeleeDagger": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "ClearDeadCrops": true,
       "BreakMineContainers": true,
       "HarvestGrass": false
     },
     "MeleeSword": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "ClearDeadCrops": true,
       "BreakMineContainers": true,
       "HarvestGrass": false

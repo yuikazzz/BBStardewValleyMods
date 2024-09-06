@@ -1,0 +1,980 @@
+{
+  "Format": "2.0.2",
+
+  "ConfigSchema": {
+
+// Fish  
+
+    "Bladetail Sturgeon":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Caped Tree Frog":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Cardia Septal Jellyfish":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Crimson Spiked Clam":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Cutthroat Trout":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Fairytale Lionfish":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Fixer Eel":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Golden Rose Fin":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Harvester Trout":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Lullaby Carp":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Mountain Redbelly Dace":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Mountain Whitefish":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Pebble Back Crab":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Ridge Bluegill":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Ridgeside Bass":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Skulpin Fish":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Deep Ridge Angler":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Sockeye Salmon":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+    "Waterfall Snakehead":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fish"
+    },
+
+// Fruit
+
+    "Cherry Pluot":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Mountain Plumcot":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Desert Tangelo":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Paradise Rangpur":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Tropi Ugli Fruit":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Ember Blood Lime":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Highland Jostaberry":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+    "Northern Limequat":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Fruit"
+    },
+// Foraging
+    "Mountain Mistbloom":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Foxbloom":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Ridge Cherry":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Mountain Arugula":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Ridge Azorean Flower":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Ridgeside Monkshood":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Mountain Chico":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Ridge Wild Apple":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Forest Amancay":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Mountain Hokkaido":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Violet Devil's Claw":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Autumn Drop Berry":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Highland Chard":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Lava Lily":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Summit Snowbell":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Highland Butterwort":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Frost Clump Berry":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Ridgeside Clementine":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+    "Aurorean Iris":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    },
+   "Sierra Wintergreen":
+    {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Section": "Foraging"
+    }
+  },
+
+  "Changes": [
+
+// Fruit 
+     
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "176", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "176", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Cherry Pluot": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "288", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "288", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Plumcot": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "288", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "288", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Desert Tangelo": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "32", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "32", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Paradise Rangpur": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "176", "Y": "64", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "176", "Y": "64", "Width": 16, "Height": 16 },
+        "When": {
+          "Tropi Ugli Fruit": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "320", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "320", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Ember Blood Lime": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "320", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "320", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Highland Jostaberry": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "352", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "352", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Northern Limequat": "true"
+        }
+      },
+
+// Foraging
+
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "272", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "272", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Mistbloom": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "80", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "80", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Foxbloom": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "192", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "192", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridge Cherry": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "224", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "224", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Arugula": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "160", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "160", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridge Azorean Flower": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "288", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "288", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridgeside Monkshood": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "240", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "240", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Chico": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "240", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "240", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridge Wild Apple": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "48", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "48", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Forest Amancay": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "256", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "256", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Hokkaido": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "224", "Y": "64", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "224", "Y": "64", "Width": 16, "Height": 16 },
+        "When": {
+          "Violet Devil's Claw": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "80", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "80", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Autumn Drop Berry": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "288", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "288", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Highland Chard": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "128", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "128", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Lava Lily": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "144", "Y": "64", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "144", "Y": "64", "Width": 16, "Height": 16 },
+        "When": {
+          "Summit Snowbell": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "272", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "272", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Highland Butterwort": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "144", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "144", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Frost Clump Berry": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "272", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "272", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridgeside Clementine": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "48", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "48", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Aurorean Iris": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "352", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "352", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Sierra Wintergreen": "true"
+        }
+      },
+
+// Fish 
+     
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "112", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "112", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Bladetail Sturgeon": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "128", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "128", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Caped Tree Frog": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "144", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "144", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Cardia Septal Jellyfish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "224", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "224", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Crimson Spiked Clam": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "256", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "256", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Cutthroat Trout": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "368", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "368", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Fairytale Lionfish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "0", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "0", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Fixer Eel": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "208", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "208", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Golden Rose Fin": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "240", "Y": "16", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "240", "Y": "16", "Width": 16, "Height": 16 },
+        "When": {
+          "Harvester Trout": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "160", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "160", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Lullaby Carp": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "304", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "304", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Redbelly Dace": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "320", "Y": "32", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "320", "Y": "32", "Width": 16, "Height": 16 },
+        "When": {
+          "Mountain Whitefish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "48", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "48", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Pebble Back Crab": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "176", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "176", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridge Bluegill": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "256", "Y": "48", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "256", "Y": "48", "Width": 16, "Height": 16 },
+        "When": {
+          "Ridgeside Bass": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "0", "Y": "64", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "0", "Y": "64", "Width": 16, "Height": 16 },
+        "When": {
+          "Skulpin Fish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "272", "Y": "0", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "272", "Y": "0", "Width": 16, "Height": 16 },
+        "When": {
+          "Deep Ridge Angler": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "48", "Y": "64", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "48", "Y": "64", "Width": 16, "Height": 16 },
+        "When": {
+          "Sockeye Salmon": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "Mods\\Rafseazz.RSVCP\\Objects\\Objects",
+        "FromFile": "Assets/Objects.png",
+	"FromArea": { "X": "256", "Y": "64", "Width": 16, "Height": 16 },
+	"ToArea": { "X": "256", "Y": "64", "Width": 16, "Height": 16 },
+        "When": {
+          "Waterfall Snakehead": "true"
+        }
+      },
+
+// FishesAquarium   
+
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "0", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "0", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Bladetail Sturgeon": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+        "FromArea": { "X": 24, "Y": 0, "Width": 24, "Height": 48 },
+	"ToArea": { "X": "24", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Caped Tree Frog": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "48", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "48", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Cardia Septal Jellyfish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "72", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "72", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Crimson Spiked Clam": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "96", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "96", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Fairytale Lionfish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "120", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "120", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Fixer Eel": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "144", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "144", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Golden Rose Fin": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "168", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "168", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Harvester Trout": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "192", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "192", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Lullaby Carp": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "216", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "216", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Pebble Back Crab": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "240", "Y": "0", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "240", "Y": "0", "Width": 24, "Height": 48 },
+        "When": {
+          "Ridgeside Bass": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "0", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "0", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Ridge Bluegill": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "24", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "24", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Cutthroat Trout": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "48", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "48", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Deep Ridge Angler": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "72", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "72", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Mountain Redbelly Dace": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "96", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "96", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Mountain Whitefish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "120", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "120", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Skulpin Fish": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "144", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "144", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Waterfall Snakehead": "true"
+        }
+      },
+      {
+        "Action": "EditImage",
+        "Target": "LooseSprites\\RSVAquariumFish",
+        "FromFile": "Assets/RSVFishesAquarium.png",
+	"FromArea": { "X": "168", "Y": "48", "Width": 24, "Height": 48 },
+	"ToArea": { "X": "168", "Y": "48", "Width": 24, "Height": 48 },
+        "When": {
+          "Sockeye Salmon": "true"
+        }
+      },
+      {
+        "Action": "EditData",
+        "Target": "Data/AquariumFish",
+        "Entries": {
+        "Rafseazz.RSVCP_Fixer_Eel": "5/eel/////LooseSprites\\RSVAquariumFish",
+      },
+        "When": {
+          "Fixer Eel": "true"
+        }
+      },
+  ]
+}
