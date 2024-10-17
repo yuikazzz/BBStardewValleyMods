@@ -52,7 +52,7 @@
                 "X": 3,
                 "Y": 3
               },
-              "Direction": "left"
+              "Direction": "down"
             }
           ],
           "TextureName": null,
@@ -412,7 +412,7 @@
       "Action": "EditData",
       "Target": "data/events/Custom_AuroraVineyard",
       "Entries": {
-        "7776007/e 7776006": "junimoStarSong/-500 -500/Apples 8 6 1 farmer -1000 -1000 1/addTemporaryActor Peaches 16 32 10 6 3 true character/changeLocation Custom_ApplesRoom/pause 600/viewport 9 7 true/skippable/pause 1000/jump Peaches/playSound junimoMeep1/pause 800/jump Apples/playSound junimoMeep1/pause 800/jump Peaches/playSound junimoMeep1/pause 900/jump Apples/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Peaches \"{{i18n:Apples.8hearts.01}}\"/pause 400/playSound junimoMeep1/pause 500/playSound junimoMeep1/jump Apples/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Apples \"{{i18n:Apples.8hearts.02}}\"/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/faceDirection Apples 2 true/pause 400/playSound junimoMeep1/pause 500/playSound junimoMeep1/animate Apples false true 200 20 21 20 23/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 600/playSound junimoMeep1/jump Peaches/pause 700/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 500/faceDirection Peaches 2 true/pause 500/playSound junimoMeep1/pause 500/animate Peaches false true 200 24 25 26 27/pause 600/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 800/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 500/end dialogue Apples \"{{i18n:Apples.8hearts.03}}\"",
+        "7776007/e 7776006": "junimoStarSong/-500 -500/Apples 8 6 1 farmer -300 -300 1/addTemporaryActor Peaches 16 32 10 6 3 true character/changeLocation Custom_ApplesRoom/pause 600/viewport 9 7 true/skippable/pause 1000/jump Peaches/playSound junimoMeep1/pause 800/jump Apples/playSound junimoMeep1/pause 800/jump Peaches/playSound junimoMeep1/pause 900/jump Apples/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Peaches \"{{i18n:Apples.8hearts.01}}\"/pause 400/playSound junimoMeep1/pause 500/playSound junimoMeep1/jump Apples/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/speak Apples \"{{i18n:Apples.8hearts.02}}\"/pause 500/playSound junimoMeep1/pause 400/playSound junimoMeep1/faceDirection Apples 2 true/pause 400/playSound junimoMeep1/pause 500/playSound junimoMeep1/animate Apples false true 200 20 21 20 23/pause 600/playSound junimoMeep1/pause 400/playSound junimoMeep1/pause 600/playSound junimoMeep1/jump Peaches/pause 700/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 500/faceDirection Peaches 2 true/pause 500/playSound junimoMeep1/pause 500/animate Peaches false true 200 24 25 26 27/pause 600/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 800/playSound junimoMeep1/pause 500/playSound junimoMeep1/pause 300/playSound junimoMeep1/pause 700/playSound junimoMeep1/pause 600/playSound junimoMeep1/globalFade/viewport -1000 -1000/pause 500/end dialogue Apples \"{{i18n:Apples.8hearts.03}}\"",
       },
     },
     { //Apples 10 heart event Part 1 - 'The Junimos'
@@ -645,7 +645,7 @@
         "Height": 16
       },
       "When": {
-        "HasSeenEvent": "7776012"
+        "HasSeenEvent: anyPlayer| contains=7776012": true
       },
       "Update": "OnLocationChange"
     },

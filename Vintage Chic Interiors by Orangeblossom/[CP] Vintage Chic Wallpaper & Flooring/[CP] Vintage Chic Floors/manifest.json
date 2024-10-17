@@ -1,0 +1,10 @@
+{
+   "Name": "Vintage Chic Floors",
+   "Author": "orangeblossom",
+   "Version": "1.1",
+  "Description": "floors",
+  "UniqueID": "ob7.vcfloors",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

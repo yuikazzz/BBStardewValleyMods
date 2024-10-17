@@ -59,6 +59,7 @@
         "FlashShifter.StardewValleyExpandedCP_Crimson Badlands": null,
         "FlashShifter.StardewValleyExpandedCP_Iridium Quarry": null,
         "FlashShifter.StardewValleyExpandedCP_Crimson Badlands Treasure Cave": null,
+        "FlashShifter.StardewValleyExpandedCP_Treasure Cave": null,
         "FlashShifter.StardewValleyExpandedCP_FableReef": null
       }
     },
@@ -122,7 +123,7 @@
           "Tile": "9, 21"
         },
         "secret-woods": {
-          "Tile": "69, 29"
+          "Tile": "80, 29"
         }
       },
       "Entries": {
@@ -131,7 +132,7 @@
           "Id": "{{ModId}}_Grandpa's Shed",
           "DisplayName": "{{i18n: warp.Grandpa'sShed}}",
           "Location": "Custom_GrandpasShedOutside",
-          "Tile": "23, 17",
+          "Tile": "22, 19",
           "SectionId": "Main"
         },
         "{{ModId}}_Enchanted Grove": {
@@ -147,7 +148,7 @@
           "Id": "{{ModId}}_Grampleton Suburbs",
           "DisplayName": "{{i18n: warp.GrampletonSuburbs}}",
           "Location": "Custom_GrampletonSuburbs",
-          "Tile": "3, 26",
+          "Tile": "25, 25",
           "SectionId": "{{ModId}}_SVELocations"
         },
         "{{ModId}}_Clinic": {
@@ -474,11 +475,46 @@
       ]
     },
     {
+      "_Comment": "SVE Frontier Farm Warps",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "When": {
+        "HasMod": "flashshifter.FrontierFarm",
+        "FarmType": "FrontierFarm"
+      },
+      "Fields": {
+        "{{ModId}}_Grandpa's Shed": {
+          "_Comment": "爷爷的小屋(边境农场) ",
+          "Location": "Farm",
+          "Tile": "18, 22"
+        }
+      },
+      "Entries": {
+        "{{ModId}}_Frontier": {
+          "_Comment": "芬吉尔共和国边境",
+          "Id": "{{ModId}}_Frontier",
+          "DisplayName": "{{i18n: warp.Frontier}}",
+          "Location": "Custom_FerngillRepublicFrontier",
+          "Tile": "144, 32",
+          "SectionId": "Main"
+        },
+        "{{ModId}}_Hotspring": {
+          "_Comment": "农场温泉",
+          "Id": "{{ModId}}_Hotspring",
+          "DisplayName": "{{i18n: warp.Hotspring}}",
+          "Location": "Custom_FerngillRepublicFrontier_HotSpring",
+          "Tile": "32, 35",
+          "SectionId": "Main"
+        }
+      }
+    },
+    {
       "_Comment": "SVE Grandpa's Farm Warps",
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "When": {
-        "HasMod": "flashshifter.GrandpasFarm"
+        "HasMod": "flashshifter.GrandpasFarm",
+        "FarmType": "Standard"
       },
       "Fields": {
         "{{ModId}}_Grandpa's Shed": {
@@ -493,7 +529,8 @@
       "Action": "EditData",
       "Target": "Mods/CJBok.CheatsMenu/Warps",
       "When": {
-        "HasMod": "flashshifter.immersivefarm2remastered"
+        "HasMod": "flashshifter.immersivefarm2remastered",
+        "FarmType": "Standard"
       },
       "Fields":{
         "{{ModId}}_Grandpa's Shed": {

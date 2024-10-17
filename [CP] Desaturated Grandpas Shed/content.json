@@ -1,11 +1,16 @@
 {
-    "Format": "2.1.0",
+    "Format": "2.3.0",
     "ConfigSchema": {
      "Grandpa's Shed Variations":{
              "AllowValues": "Brown, White, Brown Green Fall, White Green Fall",
              "Default": "Brown",
              "Description": "Enables recolour of Grandpa's Shed" 
-         }
+         },
+    "Snowy Roof":{
+            "AllowValues": "Off, Vanilla, Earthy",
+            "Default": "Off",
+            "Description": "Changes the winter roof to have snow in either the vanilla or earthy style" 
+        }
      },
      "Changes": [
  {
@@ -39,6 +44,109 @@
          "FromFile": "assets/WhiteGreen/{{season}}_z_whiteG.png",
              "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
           "When": {"Grandpa's Shed Variations": "White Green Fall"}
+        },
+//Version 1.1.0 Snowy Roof
+
+//Vanilla White
+     {
+         "LogName": "Vanilla Snowy Roof White Red Fall",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/AlternativeWinter/{{season}}_z_white_VanillaSnow.png",
+              "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+        "When": {
+            "Grandpa's Shed Variations": "White",
+            "Snowy Roof": "Vanilla",
+            "season": "winter"
         }
+        },
+        {
+         "LogName": "Vanilla Snowy Roof White Green Fall",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/AlternativeWinter/{{season}}_z_white_VanillaSnow.png",
+              "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+        "When": {
+            "Grandpa's Shed Variations": "White Green Fall",
+             "Snowy Roof": "Vanilla",
+            "season": "winter"
+           }
+           },
+//Earthy White
+        {
+         "LogName": "Earthy Snowy Roof White",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/AlternativeWinter/{{season}}_z_white_EarthySnow.png",
+              "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+        "When": {
+            "Grandpa's Shed Variations": "White",
+             "Snowy Roof": "Earthy",
+            "season": "winter"
+           }
+           },
+        {
+         "LogName": "Earthy Snowy Roof White",
+         "Action": "EditImage",
+         "Target": "Maps/{{season}}_z_extras",
+         "FromFile": "assets/AlternativeWinter/{{season}}_z_white_EarthySnow.png",
+              "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+        "When": {
+            "Grandpa's Shed Variations": "White Green Fall",
+             "Snowy Roof": "Earthy",
+            "season": "winter"
+           }
+           },
+//Vanilla Brown
+    {
+    "LogName": "Vanilla Snowy Roof Brown",
+    "Action": "EditImage",
+    "Target": "Maps/{{season}}_z_extras",
+    "FromFile": "assets/AlternativeWinter/{{season}}_z_brown_VanillaSnow.png",
+         "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+   "When": {
+       "Grandpa's Shed Variations": "Brown",
+        "Snowy Roof": "Vanilla",
+       "season": "winter"
+      }
+      },
+      {
+        "LogName": "Vanilla Snowy Roof Brown",
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_z_extras",
+        "FromFile": "assets/AlternativeWinter/{{season}}_z_brown_VanillaSnow.png",
+             "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+       "When": {
+           "Grandpa's Shed Variations": "Brown Green Fall",
+            "Snowy Roof": "Vanilla",
+           "season": "winter"
+          }
+          },
+//Earthy Brown
+{
+    "LogName": "Earthy Snowy Roof Brown",
+    "Action": "EditImage",
+    "Target": "Maps/{{season}}_z_extras",
+    "FromFile": "assets/AlternativeWinter/{{season}}_z_brown_EarthySnow.png",
+         "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+   "When": {
+       "Grandpa's Shed Variations": "Brown",
+        "Snowy Roof": "Earthy",
+       "season": "winter"
+      }
+      },
+      {
+        "LogName": "Earthy Snowy Roof Brown",
+        "Action": "EditImage",
+        "Target": "Maps/{{season}}_z_extras",
+        "FromFile": "assets/AlternativeWinter/{{season}}_z_brown_EarthySnow.png",
+             "ToArea": { "X": 0, "Y": 1346, "Width": 160, "Height": 350 },
+       "When": {
+           "Grandpa's Shed Variations": "Brown Green Fall",
+            "Snowy Roof": "Earthy",
+           "season": "winter"
+          }
+          }
+
  ]
  }

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="23" height="16" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="210">
+ <properties>
+  <property name="AmbientLight" value="110 110 110"/>
+  <property name="DayTiles_asdf" value="Buildings 3 1 24 Buildings 10 1 24 Buildings 14 1 24 Buildings 19 1 24 Back 3 3 25 Back 19 3 25"/>
+  <property name="Feed" value="5 2"/>
+  <property name="Light_asdf" value="11 14 6 3 2 6 10 2 6 14 2 6 1 5 4 6 5 4 6 10 4 11 7 4 15 11 4 1 12 4 19 2 6 16 9 4 20 13 4 20 6 4"/>
+  <property name="NightTiles_asdf" value="Buildings 3 1 26 Buildings 10 1 26 Buildings 14 1 26 Buildings 19 1 26 Back 3 3 12 Back 19 3 12"/>
+  <property name="ProduceArea" value="6 4 12 7"/>
+  <property name="Warp" value="11 15 Farm 14 11"/>
+ </properties>
+ <tileset firstgid="1" name="barn" tilewidth="16" tileheight="16" tilecount="84" columns="4">
+  <image source="coopTiles.png" width="64" height="336"/>
+  <tile id="12">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Passable" type="int" value="0"/>
+    <property name="Trough" value="T"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="85" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <layer id="1" name="Back" width="23" height="16">
+  <data encoding="base64" compression="zlib">
+   eJytktEKwyAMRf0BO9varexxP1D2Utlr9///NIUIl5AQJwYOmpJ7U43eOecHgLHROg/yRmboMdobPa/MqfAy0HS835Oo+YfqDuJUctQmwZd/k2p6NFPmlgmQB0OThFruU1gyayayPAievNci6KKi++fc2r6Hnhl4Ossq7C3fWhvZnt93YYd8N+7lrugkb5xJ6zysWZb+D+qdKJf+WboXrEUfrJHeG3/nLXOcIG8N9KjxZdR40/oDKKAcVQ==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="8" name="TileData" x="16" y="176" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="80" y="176" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="256" y="176" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="304" y="176" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="256" y="96" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="185" name="TileData" x="48" y="144" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="186" name="TileData" x="112" y="144" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="187" name="TileData" x="288" y="144" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="188" name="TileData" x="336" y="144" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="192" name="TileData" x="320" y="96" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="201" name="TileData" x="32" y="160" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="202" name="TileData" x="80" y="160" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="203" name="TileData" x="304" y="160" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="204" name="TileData" x="256" y="160" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="206" name="TileData" x="288" y="48" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+  <object id="207" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="WaterSource" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="12" name="Back2" width="23" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFZghYNNK32jYGgBANP/AOk=
+  </data>
+ </layer>
+ <objectgroup id="11" name="Back2"/>
+ <layer id="3" name="Buildings" width="23" height="16">
+  <data encoding="base64" compression="zlib">
+   eJzVkr0OQEAQhAdBhEahUKBQCY3HwPu/jxW3cdncj+aKm+TLbTY709wkANIAZEROtIpe0Qrk3nQnd6XK7iwMxOhhsng5+8Cnk7jUvMCvWXhYnB1CMWdXgbJrIoG9o43HXzi8er8fcX+Ar6cu6TfSq/d7JTa8feS5g1suX8w9iTV7/0lu8PDf8Ss9N9IIDT4=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="23" height="16">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAtcKSh2a5IbDcgdidRPzY97BS5CD8YNRu32Vw4MAsB/Rx49NIasEJpdSDWYICkdRibGIBLHzuS2dQGQ9lsWgGQ2ZwMuNMRtvSIL90hY24gNiQSc2LRgw6QxUE0AMJtCA4=
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="23" height="16" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwVioZiQODZ1uPQOZ4AtDAipGQUDB4ZrXAwmfwEACIAEug==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

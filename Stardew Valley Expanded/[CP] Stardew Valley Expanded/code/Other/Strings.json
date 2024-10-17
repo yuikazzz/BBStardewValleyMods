@@ -1044,6 +1044,8 @@
 				"HanksGarage.11": "{{i18n:String.1041}}",
 				"SecretWoods.1": "{{i18n:String.1042}}",
 				"GrandpasFarm.1": "{{i18n:String.1043}}",
+				"ForbiddenMaze.1": "{{i18n:String.1044}}",
+				"ForbiddenMaze.2": "{{i18n:String.1045}}",
 			}
 		},
 		{

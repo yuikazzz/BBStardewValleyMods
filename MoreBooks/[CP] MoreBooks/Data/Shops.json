@@ -151,7 +151,7 @@
 					"AvailableStockLimit": "Player",
 					"Id": "(O){{ModId}}_Book_God",
 					"ItemId": "(O){{ModId}}_Book_God",
-                    "Condition": "PLAYER_VISITED_LOCATION Current Summit"
+                    "Condition": 'ANY "PLAYER_VISITED_LOCATION Current Summit" "PLAYER_VISITED_LOCATION Current Custom_SVESummit"'
 				}
 			},
 			"When": {

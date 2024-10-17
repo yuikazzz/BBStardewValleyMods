@@ -1,12 +1,13 @@
 {
-  "Enable Extended Crops Pack": "false",
-  "Enable Extended Trees Pack": "false",
-  "Enable Herbs Pack": "false",
+  "Enable Extended Crops Pack": "true",
+  "Enable Extended Trees Pack": "true",
+  "Enable Herbs Pack": "true",
   "Category Overrides": "true",
   "Vanilla Category Overrides": "true",
-  "Disable Grape Bushes": "true",
-  "Enhanced Mixed Seeds": "false",
+  "Disable Grape Bushes": "false",
+  "Enhanced Mixed Seeds": "true",
   "Rename Cheese Press": "false",
   "Retexture Cheese Press": "false",
-  "Map Edits": "true"
+  "Map Edits": "true",
+  "SVE Compat Patch": "true"
 }

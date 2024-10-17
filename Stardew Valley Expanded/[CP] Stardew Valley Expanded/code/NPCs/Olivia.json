@@ -194,7 +194,7 @@
                 "X": 18,
                 "Y": 5
               },
-              "Direction": "left"
+              "Direction": "down"
             }
           ],
           "Appearance": [
@@ -225,7 +225,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Olivia": "{{i18n:Olivia.Gifts.Loved}}/348 124 125 220 221 FlashShifter.StardewValleyExpandedCP_Goldenrod FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Olivia.Gifts.Liked}}/336 432 276 608 421 FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:Olivia.Gifts.Disliked}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink/{{i18n:Olivia.Gifts.Hated}}/330 284 149 151 459 346 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Frog FlashShifter.StardewValleyExpandedCP_Daggerfish/{{i18n:Olivia.Gifts.Neutral}}/446 402 418/"
+        "Olivia": "{{i18n:Olivia.Gifts.Loved}}/348 124 125 220 221 FlashShifter.StardewValleyExpandedCP_Fish_Dumpling FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Goldenrod FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Olivia.Gifts.Liked}}/336 432 276 608 421 FlashShifter.StardewValleyExpandedCP_Amber FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Butterfish/{{i18n:Olivia.Gifts.Disliked}}/18 16 20 22 24 408 80 416 414 412 296 398 410 152 396 397 399 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink/{{i18n:Olivia.Gifts.Hated}}/330 284 149 151 459 346 304 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Frog FlashShifter.StardewValleyExpandedCP_Daggerfish/{{i18n:Olivia.Gifts.Neutral}}/446 402 418/"
       }
     },
     {

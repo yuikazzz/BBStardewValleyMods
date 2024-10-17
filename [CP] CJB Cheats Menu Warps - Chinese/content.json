@@ -72,6 +72,14 @@
       "When": {
         "HasMod": "ricehit.SevenDeadlySinsCP"
       }
+    },
+    {
+      "_Comment": "Include Passerby Cemetery Warps",
+      "Action": "Include",
+      "FromFile": "data/PasserbyCemetery.json",
+      "When": {
+        "HasMod": "Fellowclown.PC"
+      }
     }
   ]
 }

@@ -8,6 +8,7 @@
   "warp.FarmQuarry": "Farm Quarry",
   "warp.HardwoodGlade": "Hardwood Glade",
   "warp.FarmCave": "Farm Cave",
+  "warp.Frontier": "Ferngill Republic Frontier",
   "warp.GrampletonFields.Entrance": "Entrance",
   "warp.GrampletonFields.TrainStation": "Train Station",
   "warp.GrampletonFields.BeachDock": "Beach Dock",
@@ -89,7 +90,6 @@
   "warp.Tort'sPond": "Tort's Pond",
 
   "warp-sections.EastScarp": "EastScarp",
-  "warp-sections.EastScarp.Villagers": "EastScarp Villagers",
   "warp-sections.EastScarp.OptionalVillagers": "EastScarp Optional Villagers",
   "warp.EastScarp.Town": "EastScarp",
   "warp.EastScarp.MeadowFarm": "Mountain Meadow Farm",
@@ -174,5 +174,16 @@
   "warp.SevenDeadlySins.Sea": "sea",
   "warp.SevenDeadlySins.PeletteAndPeipei": "Pelette And Peipei",
   "warp.SevenDeadlySins.Cavebase": "Cavebase",
-  "warp.SevenDeadlySins.SecretWoods": "Secret Woods2"
+  "warp.SevenDeadlySins.SecretWoods": "Secret Woods2",
+
+  "warp-sections.PC": "Passerby Cemetery",
+  "warp.PC.BoatHouse": "Boat House",
+  "warp.PC.LeslaHouse": "Lesla House",
+  "warp.PC.StoneHouse": "Stone House",
+  "warp.PC.MavericksHouse": "Maverick's House",
+  "warp.PC.LyellsProperty": "Lyell's Property",
+  "warp.PC.BeeNursery": "BeeNursery",
+  "warp.PC.Exhibit": "Exhibit",
+  "warp.PC.SecretCave": "Secret Cave",
+  "warp.PC.CottonsHome": "Cotton's Home"
 }

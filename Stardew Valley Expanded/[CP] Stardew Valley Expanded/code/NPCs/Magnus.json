@@ -13,7 +13,7 @@
             "Wizard",
             1
           ],
-          "Value": "IceRod BasiliskPaw MagicHairGel FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Ancient_Fiber FlashShifter.StardewValleyExpandedCP_Aegis_Elixir",
+          "Value": "FlashShifter.StardewValleyExpandedCP_Supernatural_Goo FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop IceRod BasiliskPaw MagicHairGel FlashShifter.StardewValleyExpandedCP_Void_Soul FlashShifter.StardewValleyExpandedCP_Void_Shard FlashShifter.StardewValleyExpandedCP_Void_Salmon_Sushi FlashShifter.StardewValleyExpandedCP_Void_Root FlashShifter.StardewValleyExpandedCP_Void_Pebble FlashShifter.StardewValleyExpandedCP_Void_Delight FlashShifter.StardewValleyExpandedCP_Swirl_Stone FlashShifter.StardewValleyExpandedCP_Shiny_Lunaloo FlashShifter.StardewValleyExpandedCP_Lightning_Elixir FlashShifter.StardewValleyExpandedCP_Hero_Elixir FlashShifter.StardewValleyExpandedCP_Haste_Elixir FlashShifter.StardewValleyExpandedCP_Gravity_Elixir FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Barbarian_Elixir FlashShifter.StardewValleyExpandedCP_Armor_Elixir FlashShifter.StardewValleyExpandedCP_Ancient_Fiber FlashShifter.StardewValleyExpandedCP_Aegis_Elixir",
           "Delimiter": " "
         }
         /*Like*/ ,
@@ -24,7 +24,7 @@
             "Wizard",
             3
           ],
-          "Value": "FlashShifter.StardewValleyExpandedCP_Water_Grub FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Rusty_Blade FlashShifter.StardewValleyExpandedCP_Red_Baneberry FlashShifter.StardewValleyExpandedCP_Radioactive_Bass FlashShifter.StardewValleyExpandedCP_Poison_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Meteor_Carp FlashShifter.StardewValleyExpandedCP_Lunaloo FlashShifter.StardewValleyExpandedCP_Kittyfish FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo",
+          "Value": "FlashShifter.StardewValleyExpandedCP_Swamp_Essence FlashShifter.StardewValleyExpandedCP_Stone_of_Yoba FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Water_Grub FlashShifter.StardewValleyExpandedCP_Smelly_Rafflesia FlashShifter.StardewValleyExpandedCP_Slime_Berry FlashShifter.StardewValleyExpandedCP_Rusty_Blade FlashShifter.StardewValleyExpandedCP_Red_Baneberry FlashShifter.StardewValleyExpandedCP_Radioactive_Bass FlashShifter.StardewValleyExpandedCP_Poison_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Mushroom FlashShifter.StardewValleyExpandedCP_Monster_Fruit FlashShifter.StardewValleyExpandedCP_Meteor_Carp FlashShifter.StardewValleyExpandedCP_Lunaloo FlashShifter.StardewValleyExpandedCP_Kittyfish FlashShifter.StardewValleyExpandedCP_Goldenfish FlashShifter.StardewValleyExpandedCP_Golden_Ocean_Flower FlashShifter.StardewValleyExpandedCP_Gemfish FlashShifter.StardewValleyExpandedCP_Daggerfish FlashShifter.StardewValleyExpandedCP_Baby_Lunaloo",
           "Delimiter": " "
         }
         /*Dislike*/ ,
@@ -218,8 +218,9 @@
         "wizard_event4": "{{i18n:WizardDialogue.Event04}}",
         "GreenRainFinished": "{{i18n: Magnus.GreenRainFinished}}",
         "AcceptGift_(O)769": "{{i18n:Magnus.Gift769}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n: Magnus.GiftVoidShard}}",
-        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Pebble": "{{i18n: Magnus.GiftVoidPebble}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Shard": "{{i18n:Magnus.GiftVoidShard}}",
+        "AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Void_Pebble": "{{i18n:Magnus.GiftVoidPebble}}",
+		"AcceptGift_(O)FlashShifter.StardewValleyExpandedCP_Marsh_Tonic": "{{i18n:Magnus.Gift.MarshTonic}}",
         "AcceptGift_(O)422": "{{i18n: Magnus.Gift422}}",
         "AcceptBirthdayGift_Positive": "{{i18n:Magnus.GiftBDPos}}",
         "AcceptBirthdayGift_Negative": "{{i18n:Magnus.GiftBDneg}}",
@@ -271,6 +272,20 @@
       "Target": "Characters/schedules/Wizard",
       "FromFile": "Assets/Blank.json"
     },
+	
+	//Fixes wizard questline strings when married to be less rude to the player
+	{
+      "Action": "EditData",
+      "Target": "Strings/SpecialOrderStrings",
+      "When": {
+        "Relationship:Wizard": "Dating, Engaged, Married"
+      },
+      "Entries": {
+	    "Wizard_Objective_0_Message": "{{i18n:Wizard.SpecialOrder.01}}",
+        "Wizard2_Objective_1_Message": "{{i18n:Wizard.SpecialOrder.02}}"
+      },
+    },
+	
     /*{
       //Wizard's Schedule
       "Action": "EditData",

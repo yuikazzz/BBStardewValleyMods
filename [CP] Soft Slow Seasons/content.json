@@ -1,50 +1,55 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.3.0",
     "ConfigSchema": {
         "FallColor": {
             "AllowValues": "Orange, Green",
             "Default": "Orange",
-            "Description": "{{i18n:FallColor_Description}}"
+            "Description": "{{i18n:FallColor.Description}}"
         },
         "RecolorMode": {
             "AllowValues": "Vibrant, Pastel, Rustic",
             "Default": "Pastel",
-            "Description": "{{i18n:RecolorMode_Description}}"
+            "Description": "{{i18n:RecolorMode.Description}}"
         },
         "DarkerPaths": {
             "AllowValues": "True, False",
             "Default": "False",
-            "Description": "{{i18n:DarkerPaths_Description}}"
+            "Description": "{{i18n:DarkerPaths.Description}}"
         },
         "StaticFoliage": {
             "AllowValues": "True, False",
             "Default": "True",
-            "Description": "{{i18n:StaticFoliage_Description}}"
+            "Description": "{{i18n:StaticFoliage.Description}}"
         },
         "TreesandBushes": {
             "AllowValues": "True, False",
             "Default": "True",
-            "Description": "{{i18n:TreesandBushes_Description}}"
+            "Description": "{{i18n:TreesandBushes.Description}}"
         },
         "Grass": {
             "AllowValues": "True, False",
             "Default": "True",
-            "Description": "{{i18n:Grass_Description}}"
+            "Description": "{{i18n:Grass.Description}}"
         },
         "Desert": {
             "AllowValues": "True, False",
             "Default": "True",
-            "Description": "{{i18n:Desert_Description}}"
+            "Description": "{{i18n:Desert.Description}}"
         },
         "Beach": {
             "AllowValues": "True, False",
             "Default": "True",
-            "Description": "{{i18n:Beach_Description}}"
+            "Description": "{{i18n:Beach.Description}}"
+        },
+        "BeanstalkWildtree/FlowerTree": {
+            "AllowValues": "Beanstalk, FlowerTree",
+            "Default": "FlowerTree",
+            "Description": "{{i18n:BeanstalkWildTree/FlowerTree.Description}}"
         },
         "DancingFlowers/Mushrooms": {
             "AllowValues": "True, False",
             "Default": "True",
-            "Description": "{{i18n:DancingFlowers_Mushrooms_Description}}"
+            "Description": "{{i18n:DancingFlowers/Mushrooms.Description}}"
         }
     },
 
@@ -72,7 +77,7 @@
 		"Name": "SeasonStage",
 		"Value": "Early",
 		"When": { "day" : "1, 2, 3, 4, 5, 6, 7, 8, 9",
-		}
+          	},
 		},
 		{
 		"Name": "SeasonStage",
@@ -84,11 +89,38 @@
 		"Name": "SeasonStage",
 		"Value": "Late",
 		"When": { "day" : "20, 21, 22, 23, 24, 25, 26, 27, 28",
-		}
+            	}
 		},
 
-	],
+//LONGER SEASONS COMPAT
 
+		{ 
+		"Name": "SeasonStage",
+		"Value": "Late",
+		"When": 
+		{
+		"HasMod": "FlyingTNT.LongerSeasons"
+		},
+		},
+		{
+		"Name": "SeasonStage",
+		"Value": "Mid",
+		"When": 
+		{
+		"HasMod": "FlyingTNT.LongerSeasons",
+		"Query: ({{Day}} + (({{FlyingTNT.LongerSeasons/CurrentSeasonMonth}} - 1) * {{FlyingTNT.LongerSeasons/MonthsInCurrentSeason}})) <= ({{FlyingTNT.LongerSeasons/MonthsInCurrentSeason}} * {{FlyingTNT.LongerSeasons/DaysPerMonth}} * 2 / 3)": true
+		}
+		},
+		{
+		"Name": "SeasonStage",
+		"Value": "Early",
+		"When": 
+		{
+		"HasMod": "FlyingTNT.LongerSeasons",
+		"Query: ({{Day}} + (({{FlyingTNT.LongerSeasons/CurrentSeasonMonth}} - 1) * {{FlyingTNT.LongerSeasons/MonthsInCurrentSeason}})) <= ({{FlyingTNT.LongerSeasons/MonthsInCurrentSeason}} * {{FlyingTNT.LongerSeasons/DaysPerMonth}} / 3)": true
+		},
+		},
+	        ],
 
 
   "Changes": [  
@@ -228,6 +260,20 @@
 	"FromFile": "assets/{{recolor}}/{{SeasonStage}}/TreesBush/{{TargetWithoutPath}}.png",
 	"When": { 
         "TreesandBushes": "True",
+        "BeanstalkWildTree/FlowerTree": "FlowerTree",
+         
+	} 
+		},
+
+{
+
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "TerrainFeatures/tree3_greenRain, TerrainFeatures/tree3_greenRain_fall, TerrainFeatures/tree3_greenRain_winter,",
+	"FromFile": "assets/{{recolor}}/{{SeasonStage}}/TreesBush/Beanstalk/{{TargetWithoutPath}}.png",
+	"When": { 
+        "TreesandBushes": "True",
+        "BeanstalkWildTree/FlowerTree": "Beanstalk",
          
 	} 
 		},
@@ -342,6 +388,45 @@
 
 //STATIC FOLIAGE
 
+		{
+
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Maps/{{Season}}_Island_tilesheet_1, Summer_Island_tilesheet_1",
+	"FromFile": "assets/{{recolor}}/{{SeasonStage}}/StaticTreesBush/{{Season}}_Island_tilesheet_1.png",
+	"FromArea": {"X":316, "Y":384, "Width":196, "Height":128},
+	"ToArea": {"X":316, "Y":384, "Width":196, "Height":128},
+	"When": {
+        "StaticFoliage": "True",
+         
+	}  
+		},
+		{
+
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Maps/{{season}}_outdoorstilesheet2",
+	"FromFile": "assets/{{recolor}}/{{SeasonStage}}/StaticTreesBush/{{TargetWithoutPath}}.png",
+	"FromArea": {"X":130, "Y":431, "Width":126, "Height":82},
+	"ToArea": {"X":130, "Y":431, "Width":126, "Height":82},
+	"When": {
+        "StaticFoliage": "True",
+         
+	}  
+		},
+		{
+
+	"Action": "EditImage",
+	"PatchMode": "Replace",
+	"Target": "Maps/{{season}}_outdoorstilesheet2",
+	"FromFile": "assets/{{recolor}}/{{SeasonStage}}/StaticTreesBush/{{TargetWithoutPath}}.png",
+	"FromArea": {"X":0, "Y":249, "Width":228, "Height":100},
+	"ToArea": {"X":0, "Y":249, "Width":228, "Height":100},
+	"When": {
+        "StaticFoliage": "True",
+         
+	}  
+		},
 		{
 
 	"Action": "EditImage",
@@ -796,6 +881,17 @@
        
       }
 },
+  {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/island_tilesheet_2",
+      "FromFile": "assets/{{recolor}}/Mid/{{TargetWithoutPath}}.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
+       
+      }
+},
 
     {
       "Action": "EditImage",
@@ -832,10 +928,10 @@
       "Action": "EditImage",
       "PatchMode": "Overlay",
       "Target": "Maps/summer_outdoorsTileSheet,",
-      "FromFile": "assets/{{recolor}}/{{SeasonStage}}/summer_outdoorsTileSheet.png",
-      "Priority": "Early",
+      "FromFile": "assets/{{recolor}}/Mid/summer_outdoorsTileSheet.png",
       "When": { 
       "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
        
       }
     },
@@ -854,10 +950,21 @@
       "Action": "EditImage",
       "PatchMode": "Overlay",
       "Target": "Maps/summer_outdoorsTileSheet2,",
-      "FromFile": "assets/{{recolor}}/{{SeasonStage}}/summer_outdoorsTileSheet2.png",
-      "Priority": "Early",
+      "FromFile": "assets/{{recolor}}/Mid/summer_outdoorsTileSheet2.png",
       "When": {
       "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
+       
+       }
+      },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/{{season}}_outdoorsTileSheet2,",
+      "FromFile": "assets/{{recolor}}/Mid/{{season}}_outdoorsTileSheet2.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
        
        }
       },
@@ -883,6 +990,17 @@
        
       }
       },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/{{season}}_outdoorTileSheet_extra",
+      "FromFile": "assets/{{recolor}}/Mid/summer_outdoorTileSheet_extra.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
+       
+      }
+      },
     {
       "Action": "EditImage",
       "PatchMode": "Overlay",
@@ -892,6 +1010,17 @@
       "When": {
       "FallColor": "Orange, Green",
        
+      "Beach": "True"
+      }
+      },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/{{season}}_beach",
+      "FromFile": "assets/{{recolor}}/Mid/summer_beach.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest",       
       "Beach": "True"
       }
       },
@@ -909,12 +1038,44 @@
      {
       "Action": "EditImage",
       "PatchMode": "Overlay",
+      "Target": "Maps/summer_outdoorTileSheet_extra",
+      "FromFile": "assets/{{recolor}}/Mid/summer_outdoorTileSheet_extra.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
+       
+      }
+      },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/{{season}}_island_tilesheet_1, summer_island_tilesheet_1",
+      "FromFile": "assets/{{recolor}}/Mid/Summer_island_tilesheet_1.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
+       
+      }
+      },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
       "Target": "Maps/island_tilesheet_1",
       "FromFile": "assets/{{recolor}}/{{SeasonStage}}/{{TargetWithoutPath}}.png",
       "Priority": "Early",
       "When": {
       "FallColor": "Orange, Green",
        
+      }
+      },
+     {
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/island_tilesheet_1",
+      "FromFile": "assets/{{recolor}}/Mid/{{TargetWithoutPath}}.png",
+      "When": {
+      "FallColor": "Orange, Green",
+      "LocationName": "IslandEast, IslandNorth, IslandSouth, IslandSouthEast, IslandWest"
       }
       },
 
@@ -1039,7 +1200,7 @@
         "PatchMode": "Overlay",
         "Target": "LooseSprites/Cursors",
         "FromFile": "assets/{{recolor}}/{{SeasonStage}}/cursors.png",
-        "Priority": "late",
+        "Priority": "Late",
 
 },
 
@@ -1078,7 +1239,7 @@
 	"Action": "EditImage",
 	"PatchMode": "Overlay",
 	"Target": "LooseSprites/temporary_sprites_1",
-	"FromFile": "assets/temporary_sprites_1.png",
+	"FromFile": "assets/base/{{TargetWithoutPath}}.png",
         "When": { 
           "Desert": "True"
 		},

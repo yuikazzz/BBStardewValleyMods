@@ -129,7 +129,7 @@
                 "X": 23,
                 "Y": 6
               },
-              "Direction": "left"
+              "Direction": "down"
             }
           ],
           "Appearance": [
@@ -160,7 +160,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "Sophia": "{{i18n:Gifts.Sophia.Loved}}/577 595 FairyBox FlashShifter.StardewValleyExpandedCP_Puppyfish FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken FlashShifter.StardewValleyExpandedCP_Flower_Cookie/{{i18n:Gifts.Sophia.Liked}}/872 220 221 232 237 240 -80 428 376 446/{{i18n:Gifts.Sophia.Disliked}}/456 393 457 397 199 215 242 244 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Seaweed_Salad FlashShifter.StardewValleyExpandedCP_Mushroom_Colony FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Gifts.Sophia.Hated}}/346 303 459 149 798 151 155 -4 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Clownfish FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger/{{i18n:Gifts.Sophia.Neutral}}/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/"
+        "Sophia": "{{i18n:Gifts.Sophia.Loved}}/577 595 FairyBox FlashShifter.StardewValleyExpandedCP_Vegan_Cone FlashShifter.StardewValleyExpandedCP_Candy FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Puppyfish FlashShifter.StardewValleyExpandedCP_Mixed_Berry_Pie FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken FlashShifter.StardewValleyExpandedCP_Flower_Cookie/{{i18n:Gifts.Sophia.Liked}}/872 220 221 232 237 240 -80 428 376 446 FlashShifter.StardewValleyExpandedCP_Gold_Carrot/{{i18n:Gifts.Sophia.Disliked}}/456 393 457 397 199 215 242 244 FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola FlashShifter.StardewValleyExpandedCP_Seaweed_Salad FlashShifter.StardewValleyExpandedCP_Mushroom_Colony FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Gifts.Sophia.Hated}}/346 303 459 149 798 151 155 -4 FlashShifter.StardewValleyExpandedCP_Void_Eel FlashShifter.StardewValleyExpandedCP_Starfish FlashShifter.StardewValleyExpandedCP_Seahorse FlashShifter.StardewValleyExpandedCP_Sea_Sponge FlashShifter.StardewValleyExpandedCP_Minnow FlashShifter.StardewValleyExpandedCP_King_Salmon FlashShifter.StardewValleyExpandedCP_Frog_Legs FlashShifter.StardewValleyExpandedCP_Clownfish FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger/{{i18n:Gifts.Sophia.Neutral}}/-75 -81 18 -18 -79 -2 -7 -26 -75 -80 72 446 348 395 613 634 635 636 637 638 724 459 402 FlashShifter.StardewValleyExpandedCP_Stamina_Capsule FlashShifter.StardewValleyExpandedCP_Sports_Drink FlashShifter.StardewValleyExpandedCP_Green_Mushroom FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/"
       }
     },
     {

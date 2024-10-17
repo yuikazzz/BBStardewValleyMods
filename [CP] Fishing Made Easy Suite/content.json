@@ -4,8 +4,8 @@
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Fishing! =",
-			"AllowValues": "Version 6.0.15",
-			"Default": "Version 6.0.15"
+			"AllowValues": "Version 6.0.19",
+			"Default": "Version 6.0.19"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -14,7 +14,7 @@
             "Default": "false"
 		},
 		    "Fishing Difficulty": {
-			"Description": "Select a difficulty setting for the fishing minigame. Easy Settings: Decrease difficulty by 5% to 100%, and include a Super Easy Fishing option. Please note; The Super Easy; Max Fish Bar & Buff option will also increase the fishing level with a buff, this will also increase the chances certain fish can spawn. This enhancement will be particularly beneficial for players aiming to collect fishing treasure chests and grand full fishing xp. Easy Sunday Fishing: Decrease difficulty by 10% to 30% on Sundays only. Hard Settings: Increase difficulty by 5% to 100% with a NIGHTMARE option for those seeking the ultimate challenge! For details on the Dynamic Weather settings, highlight the 'Dynamic Weather Info' below for more information. Scroll down for additional options.",
+			"Description": "Select a difficulty setting for the fishing minigame. Easy Settings: Decrease difficulty by 5% to 100%, and include a Super Easy Fishing option. Please note; The Super Easy; Max Fish Bar & Buff option will also increase the fishing level with a buff, this will also increase the chances certain fish can spawn. This enhancement will be particularly beneficial for players aiming to collect fishing treasure chests and grant full fishing xp. Easy Sunday Fishing: Decrease difficulty by 10% to 50% on Sundays only. Hard Settings: Increase difficulty by 5% to 100% with a NIGHTMARE option for those seeking the ultimate challenge! For details on the Dynamic Weather settings, highlight the 'Dynamic Weather Info' below for more information. Scroll down for additional options.",
             "Section": "Fishing Minigame",
 			"AllowValues": "Default, 5% Easier, 10% Easier, 15% Easier, 20% Easier, 25% Easier, 30% Easier, 35% Easier, 40% Easier, 45% Easier, 50% Easier, 55% Easier, 60% Easier, 65% Easier, 70% Easier, 75% Easier, 80% Easier, 85% Easier, 90% Easier, 95% Easier, 100% Easier, Super Easy; Max Fish Bar & Buff, 10% Easy Sunday, 20% Easy Sunday, 30% Easy Sunday, 40% Easy Sunday, 50% Easy Sunday, 5% Harder, 10% Harder, 15% Harder, 20% Harder, 25% Harder, 30% Harder, 35% Harder, 40% Harder, 45% Harder, 50% Harder, 55% Harder, 60% Harder, 65% Harder, 70% Harder, 75% Harder, 80% Harder, 85% Harder, 90% Harder, 95% Harder, 100% Harder, NIGHTMARE, Dynamic Weather (Easy), Dynamic Weather (Easier), Dynamic Weather (Easiest)",
             "Default": "Default"
@@ -68,7 +68,7 @@
             "Default": "false"
 		},
 		    "Fishable Prize Tickets": {
-			"Description": "Prize Tickets are now a fishable item. Similar to Seaweed and Algae (No minigame). Chances of spawning will be based on daily luck. Options range from a 1% to 50% Chance. Scroll down to see more options.",
+			"Description": "Prize Tickets are now a fishable item. Similar to Seaweed and Algae (No minigame). Select a spawn rate ranging from a 1% to 50% chance. Scroll down to see more options.",
 			"Section": "Fish Availability",
             "AllowValues": "Default, 1% Chance, 2% Chance, 3% Chance, 4% Chance, 5% Chance, 6% Chance, 7% Chance, 8% Chance, 9% Chance, 10% Chance, 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance",
             "Default": "Default"
@@ -205,6 +205,18 @@
             "AllowValues": "true, false",
             "Default": "false"
 		},
+		    "Legendary Fish No Crown": {
+		    "Description": "Legendary fish will no longer have the crown (Boss Fish) icon during the minigame. This will also lower the xp to a standard fish rate.",
+			"Section": "Legendary Fishing",
+            "AllowValues": "true, false",
+            "Default": "false"
+		},
+		    "Qi's Legendary Fish Crown": {
+		    "Description": "The legendary fish that appear during Qi’s Special Order Request will now be distinguished by the crown (Boss Fish) icon in the fishing minigame. This will also increase the xp to a legendary fish rate.",
+			"Section": "Legendary Fishing",
+			"AllowValues": "true, false",
+            "Default": "false"
+		},
 		    "Legendary Fish 7am To 9am": {
 			"Description": "Legendary fish are now exclusively accessible from 7AM to 9AM, and this time frame can be combined with the other time settings.",
 			"Section": "Legendary Fishing",
@@ -219,12 +231,6 @@
 		},
 		    "Legendary Fish 11pm To 1am": {
 			"Description": "Legendary fish are now exclusively accessible from 11PM to 1AM, and this time frame can be combined with the other time settings.",
-			"Section": "Legendary Fishing",
-			"AllowValues": "true, false",
-            "Default": "false"
-		},
-		    "Qi's Legendary Fish Icon": {
-		    "Description": "The Legendary Fish that appear during Qi’s Special Order Request will now be distinguished by the ‘Boss Fish’ icon in the fishing minigame.",
 			"Section": "Legendary Fishing",
 			"AllowValues": "true, false",
             "Default": "false"
@@ -8248,7 +8254,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.01,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8262,7 +8267,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.02,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8276,7 +8280,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.03,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8290,7 +8293,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.04,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8304,7 +8306,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.05,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8318,7 +8319,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.06,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8332,7 +8332,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.07,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8346,7 +8345,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.08,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8360,7 +8358,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.09,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8374,7 +8371,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.10,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8388,7 +8384,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.15,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8402,7 +8397,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.20,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8416,7 +8410,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.25,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8430,7 +8423,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.30,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8444,7 +8436,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.35,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8458,7 +8449,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.40,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8472,7 +8462,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.45,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -8486,7 +8475,6 @@
 			"TargetField": [ "Default", "Fish" ],
 			"Entries": {
 			    "(O)PrizeTicket": {"Chance": 0.50,
-				                   "ApplyDailyLuck": true,
 				                   "Precedence": -500,
 								   "Id": "(O)PrizeTicket",
 				                   "ItemId": "(O)PrizeTicket"},
@@ -17854,6 +17842,218 @@
 		        "When": {"Legendary Fish Gifts": true},
         },
 		{
+			"LogName": "Legendary Fish No Crown Crimsonfish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Angler",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+				"(O)160": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Legend",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+				"(O)163": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Mutant Carp",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": {
+				"(O)682": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Glacierfish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Standard",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Standard", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Beach",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Beach", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Forest",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Forest", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm FourCorners",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_FourCorners", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Hilltop",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Hilltop", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Riverland",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Riverland", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Wilderness",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_Wilderness", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Legendary Fish No Crown Farm Meadowlands",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Farm_MeadowlandsFarm", "Fish" ],
+			"Fields": {
+				"(O)159": {"IsBossFish": false},
+				"(O)160": {"IsBossFish": false},
+				"(O)163": {"IsBossFish": false},
+				"(O)682": {"IsBossFish": false},
+				"(O)775": {"IsBossFish": false},
+			    },
+			"When": {"Legendary Fish No Crown": true, "Legendary Fish On Farm": true},
+		},
+		{
+			"LogName": "Qi's Legendary Fish Crown Son of Crimsonfish",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Fish" ],
+			"Fields": {
+			    "(O)898": {"IsBossFish": true},
+		               },
+			"When": {"Qi's Legendary Fish Crown": true},
+		},
+		{
+			"LogName": "Qi's Legendary Fish Crown Ms. Angler",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Fish" ],
+			"Fields": {
+			    "(O)899": {"IsBossFish": true},
+		               },
+			"When": {"Qi's Legendary Fish Crown": true},
+		},
+		{
+			"LogName": "Qi's Legendary Fish Crown Legend II",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Fish" ],
+			"Fields": {
+			    "(O)900": {"IsBossFish": true},
+		               },
+			"When": {"Qi's Legendary Fish Crown": true},
+		},
+		{
+			"LogName": "Qi's Legendary Fish Crown Radioactive Carp",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Sewer", "Fish" ],
+			"Fields": {
+			    "(O)901": {"IsBossFish": true},
+		               },
+			"When": {"Qi's Legendary Fish Crown": true},
+		},
+		{
+			"LogName": "Qi's Legendary Fish Crown Glacierfish Jr.",
+			"Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Fish" ],
+			"Fields": {
+			    "(O)902": {"IsBossFish": true},
+		               },
+			"When": {"Qi's Legendary Fish Crown": true},
+		},
+		{
 			"LogName": "Legendary Fish 7am to 9am",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -17886,10 +18086,10 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"Fields": {
-				"159": {5: "2300 1"},
-				"160": {5: "2300 1"},
-				"163": {5: "2300 1"},
-				"775": {5: "2300 1"},
+				"159": {5: "2300 2500"},
+				"160": {5: "2300 2500"},
+				"163": {5: "2300 2500"},
+				"775": {5: "2300 2500"},
 		           },
 				"When": {"Legendary Fish 11pm To 1am": true, 
 				         "Legendary Fish 7am To 9am": false, 
@@ -17914,10 +18114,10 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"Fields": {
-				"159": {5: "700 900 2300 1"},
-				"160": {5: "700 900 2300 1"},
-				"163": {5: "700 900 2300 1"},
-				"775": {5: "700 900 2300 1"},
+				"159": {5: "700 900 2300 2500"},
+				"160": {5: "700 900 2300 2500"},
+				"163": {5: "700 900 2300 2500"},
+				"775": {5: "700 900 2300 2500"},
 		           },
 				"When": {"Legendary Fish 7am To 9am": true, 
 				         "Legendary Fish 11pm To 1am": true, 
@@ -17928,10 +18128,10 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"Fields": {
-				"159": {5: "1200 1400 2300 1"},
-				"160": {5: "1200 1400 2300 1"},
-				"163": {5: "1200 1400 2300 1"},
-				"775": {5: "1200 1400 2300 1"},
+				"159": {5: "1200 1400 2300 2500"},
+				"160": {5: "1200 1400 2300 2500"},
+				"163": {5: "1200 1400 2300 2500"},
+				"775": {5: "1200 1400 2300 2500"},
 		           },
 				"When": {"Legendary Fish 12pm To 2pm": true,
 					     "Legendary Fish 11pm To 1am": true, 						 
@@ -17942,65 +18142,15 @@
 			"Action": "EditData",
 			"Target": "Data/Fish",
 			"Fields": {
-				"159": {5: "700 1"},
-				"160": {5: "700 1"},
-				"163": {5: "700 1"},
-				"775": {5: "700 1"},
+				"159": {5: "700 2500"},
+				"160": {5: "700 2500"},
+				"163": {5: "700 2500"},
+				"775": {5: "700 2500"},
 		           },
 				"When": {"Legendary Fish 7am To 9am": true,
 					     "Legendary Fish 12pm To 2pm": true,
 					     "Legendary Fish 11pm To 1am": true}
 	    },
-		{
-			"LogName": "Qi's Legendary Fish Icon Son of Crimsonfish",
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Beach", "Fish" ],
-			"Fields": {
-			    "(O)898": {"IsBossFish": true},
-		               },
-			"When": {"Qi's Legendary Fish Icon": true},
-		},
-		{
-			"LogName": "Qi's Legendary Fish Icon Ms. Angler",
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Town", "Fish" ],
-			"Fields": {
-			    "(O)899": {"IsBossFish": true},
-		               },
-			"When": {"Qi's Legendary Fish Icon": true},
-		},
-		{
-			"LogName": "Qi's Legendary Fish Icon Legend II",
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Mountain", "Fish" ],
-			"Fields": {
-			    "(O)900": {"IsBossFish": true},
-		               },
-			"When": {"Qi's Legendary Fish Icon": true},
-		},
-		{
-			"LogName": "Qi's Legendary Fish Icon Radioactive Carp",
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Sewer", "Fish" ],
-			"Fields": {
-			    "(O)901": {"IsBossFish": true},
-		               },
-			"When": {"Qi's Legendary Fish Icon": true},
-		},
-		{
-			"LogName": "Qi's Legendary Fish Icon Glacierfish Jr.",
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Forest", "Fish" ],
-			"Fields": {
-			    "(O)902": {"IsBossFish": true},
-		               },
-			"When": {"Qi's Legendary Fish Icon": true},
-		},
 		{
 			"LogName": "Fish Pond Loot Chance 2X",
 			"Action": "EditData",
@@ -32942,6 +33092,476 @@
 			"When": {"Fish Pond Legendary Fish (REQ)": true},
 		},
 		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+               "SonofCrimsonfish": {
+		    "ID": "SonofCrimsonfish",
+            "RequiredTags": [
+              "item_son_of_crimsonfish"
+              ],
+            "Precedence": 0,
+            "SpawnTime": 7,
+            "ProducedItems": [
+			 {
+            "RequiredPopulation": 10,
+            "Chance": 0.05,
+            "ItemId": "(O)811",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 9,
+            "Chance": 0.10,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 7,
+            "Chance": 0.02,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+			{
+            "RequiredPopulation": 6,
+            "Chance": 0.1,
+            "ItemId": "(O)347",
+            "MinQuantity": 1,
+            "MaxQuantity": 5
+            },
+			{
+			"RequiredPopulation": 5,
+            "Chance": 0.15,
+            "ItemId": "(O)733",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            {
+            "RequiredPopulation": 4,
+            "Chance": 0.18,
+            "ItemId": "(O)64",
+            "MinQuantity": 1,
+            "MaxQuantity": 3
+            },
+            {
+            "RequiredPopulation": 1,
+            "Chance": 1.0,
+            "ItemId": "(O)812",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            ],
+            "PopulationGates": {
+            "2": [
+              "(O)64 8"
+                 ],
+			"4": [
+              "(O)400 125"
+                 ],
+			"6": [
+              "(O)308 10"
+                 ],
+            "8": [
+              "(O)74 3"
+                 ],
+			"10": [
+              "(O)279 3"
+                 ],
+             },
+		  },
+        },
+			"When": {"Fish Pond Legendary Fish (REQ)": true},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish ContextTag",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"898": {"ContextTags": [
+                          "color_red", "fish_legendary", "fish_legendary_family"]},
+				},
+			"When": {"Fish Pond Legendary Fish (REQ)": true}
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+               "MsAngler": {
+		    "ID": "MsAngler",
+            "RequiredTags": [
+              "item_ms_angler"
+              ],
+            "Precedence": 0,
+            "SpawnTime": 7,
+            "ProducedItems": [
+			 {
+            "RequiredPopulation": 10,
+            "Chance": 0.05,
+            "ItemId": "(O)859",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 9,
+            "Chance": 0.15,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 7,
+            "Chance": 0.02,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+			{
+            "RequiredPopulation": 6,
+            "Chance": 0.05,
+            "ItemId": "(O)486",
+            "MinQuantity": 1,
+            "MaxQuantity": 5
+            },
+			{
+            "RequiredPopulation": 5,
+            "Chance": 0.15,
+            "ItemId": "(O)904",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            {
+            "RequiredPopulation": 4,
+            "Chance": 0.18,
+            "ItemId": "(O)68",
+            "MinQuantity": 1,
+            "MaxQuantity": 3
+            },
+            {
+            "RequiredPopulation": 1,
+            "Chance": 1.0,
+            "ItemId": "(O)812",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            ],
+            "PopulationGates": {
+            "2": [
+              "(O)68 8"
+                 ],
+			"4": [
+              "(O)276 100"
+                 ],
+			"6": [
+              "(O)724 10"
+                 ],
+            "8": [
+              "(O)74 3"
+                 ],
+			"10": [
+              "(O)279 3"
+                 ],
+             },
+		  },
+        },
+			"When": {"Fish Pond Legendary Fish (REQ)": true},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler ContextTag",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"899": {"ContextTags": [
+                          "color_pink", "fish_legendary", "fish_legendary_family", "fish_upright"]},
+				},
+			"When": {"Fish Pond Legendary Fish (REQ)": true}
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+               "LegendII": {
+		    "ID": "LegendII",
+            "RequiredTags": [
+              "item_legend_II"
+              ],
+            "Precedence": 0,
+            "SpawnTime": 7,
+            "ProducedItems": [
+			 {
+            "RequiredPopulation": 10,
+            "Chance": 0.05,
+            "ItemId": "(O)526",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 9,
+            "Chance": 0.15,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 7,
+            "Chance": 0.02,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+			{
+            "RequiredPopulation": 6,
+            "Chance": 0.1,
+            "ItemId": "(O)499",
+            "MinQuantity": 1,
+            "MaxQuantity": 5
+            },
+			{
+            "RequiredPopulation": 5,
+            "Chance": 0.15,
+            "ItemId": "(O)204",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            {
+            "RequiredPopulation": 4,
+            "Chance": 0.18,
+            "ItemId": "(O)60",
+            "MinQuantity": 1,
+            "MaxQuantity": 3
+            },
+            {
+            "RequiredPopulation": 1,
+            "Chance": 1.0,
+            "ItemId": "(O)812",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            ],
+            "PopulationGates": {
+            "2": [
+              "(O)60 8"
+                 ],
+		    "4": [
+              "(O)268 100"
+                 ],
+		    "6": [
+              "(O)807 10"
+                 ],
+            "8": [
+              "(O)74 3"
+                 ],
+			"10": [
+              "(O)279 3"
+                 ],
+             },
+		  },
+        },
+			"When": {"Fish Pond Legendary Fish (REQ)": true},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II ContextTag",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"900": {"ContextTags": [
+                          "color_green", "fish_legendary", "fish_legendary_family"]},
+				},
+			"When": {"Fish Pond Legendary Fish (REQ)": true}
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+               "RadioactiveCarp": {
+		    "ID": "RadioactiveCarp",
+            "RequiredTags": [
+              "item_radioactive_carp"
+              ],
+            "Precedence": 0,
+            "SpawnTime": 7,
+            "ProducedItems": [
+			 {
+            "RequiredPopulation": 10,
+            "Chance": 0.05,
+            "ItemId": "(O)862",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 9,
+            "Chance": 0.15,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 7,
+            "Chance": 0.02,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+			{
+            "RequiredPopulation": 6,
+            "Chance": 0.1,
+            "ItemId": "(O)489",
+            "MinQuantity": 1,
+            "MaxQuantity": 5
+            },
+			{
+            "RequiredPopulation": 5,
+            "Chance": 0.1,
+            "ItemId": "(O)226",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            {
+            "RequiredPopulation": 4,
+            "Chance": 0.18,
+            "ItemId": "(O)70",
+            "MinQuantity": 1,
+            "MaxQuantity": 3
+            },
+            {
+            "RequiredPopulation": 1,
+            "Chance": 1.0,
+            "ItemId": "(O)812",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            ],
+            "PopulationGates": {
+            "2": [
+              "(O)70 8"
+                 ],
+			"4": [
+              "(O)266 100"
+                 ],
+			"6": [
+              "(O)432 10"
+                 ],
+            "8": [
+              "(O)74 3"
+                 ],
+			"10": [
+              "(O)279 3"
+                 ],
+             },
+		  },
+        },
+			"When": {"Fish Pond Legendary Fish (REQ)": true},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp ContextTag",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"901": {"ContextTags": [
+                          "color_green", "fish_legendary", "fish_legendary_family"]},
+				},
+			"When": {"Fish Pond Legendary Fish (REQ)": true}
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr.",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Entries": {
+               "GlacierfishJr": {
+		    "ID": "GlacierfishJr",
+            "RequiredTags": [
+              "item_glacierfish_jr"
+              ],
+            "Precedence": 0,
+            "SpawnTime": 7,
+            "ProducedItems": [
+			 {
+            "RequiredPopulation": 10,
+            "Chance": 0.05,
+            "ItemId": "(O)522",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 9,
+            "Chance": 0.15,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+            {
+            "RequiredPopulation": 7,
+            "Chance": 0.02,
+            "ItemId": "(O)74",
+            "MinQuantity": 1,
+            "MaxQuantity": 1
+            },
+			{
+            "RequiredPopulation": 6,
+            "Chance": 0.1,
+            "ItemId": "(O)833",
+            "MinQuantity": 1,
+            "MaxQuantity": 5
+            },
+			{
+            "RequiredPopulation": 5,
+            "Chance": 0.1,
+            "ItemId": "(O)265",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            {
+            "RequiredPopulation": 4,
+            "Chance": 0.18,
+            "ItemId": "(O)62",
+            "MinQuantity": 1,
+            "MaxQuantity": 3
+            },
+            {
+            "RequiredPopulation": 1,
+            "Chance": 1.0,
+            "ItemId": "(O)812",
+            "MinQuantity": 1,
+            "MaxQuantity": 2
+            },
+            ],
+            "PopulationGates": {
+            "2": [
+              "(O)62 8"
+                 ],
+		    "4": [
+              "(O)454 100"
+                 ],
+			"6": [
+              "(O)426 10"
+                 ],
+            "8": [
+              "(O)74 3"
+                 ],
+			"10": [
+              "(O)279 3"
+                 ],
+             },
+		  },
+        },
+			"When": {"Fish Pond Legendary Fish (REQ)": true},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. ContextTag",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"902": {"ContextTags": [
+                          "color_blue", "fish_legendary", "fish_legendary_family"]},
+				},
+			"When": {"Fish Pond Legendary Fish (REQ)": true},
+		},
+		{
 			"LogName": "Fish Pond Legendary Fish Crimsonfish Loot 2X",
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
@@ -34772,6 +35392,1836 @@
 			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Less Rare More Roe"},
 		},
 		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish Loot 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "SonofCrimsonfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.10,
+					"ItemId": "(O)811",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.20,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.04,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.20,
+					"ItemId": "(O)347",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.30,
+					"ItemId": "(O)733",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.36,
+					"ItemId": "(O)64",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 2X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish Loot 3X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "SonofCrimsonfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.15,
+					"ItemId": "(O)811",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.30,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.30,
+					"ItemId": "(O)347",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.45,
+					"ItemId": "(O)733",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.54,
+					"ItemId": "(O)64",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 3X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish Loot 4X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "SonofCrimsonfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.20,
+					"ItemId": "(O)811",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.40,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.08,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.40,
+					"ItemId": "(O)347",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.60,
+					"ItemId": "(O)733",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.72,
+					"ItemId": "(O)64",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 4X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish Loot 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "SonofCrimsonfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.25,
+					"ItemId": "(O)811",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.10,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)347",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.75,
+					"ItemId": "(O)733",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.90,
+					"ItemId": "(O)64",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 5X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish Loot 50%",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "SonofCrimsonfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.50,
+					"ItemId": "(O)811",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)347",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.50,
+					"ItemId": "(O)733",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.50,
+					"ItemId": "(O)64",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance All 50%"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Son of Crimsonfish Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "SonofCrimsonfish": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.03,
+					"ItemId": "(O)811",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.03,
+					"ItemId": "(O)347",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.03,
+					"ItemId": "(O)733",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.03,
+					"ItemId": "(O)64",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Less Rare More Roe"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler Loot 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "MsAngler": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.10,
+					"ItemId": "(O)859",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.20,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.04,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.20,
+					"ItemId": "(O)486",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.30,
+					"ItemId": "(O)904",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.36,
+					"ItemId": "(O)68",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 2X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler Loot 3X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "MsAngler": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.15,
+					"ItemId": "(O)859",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.30,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.30,
+					"ItemId": "(O)486",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.45,
+					"ItemId": "(O)904",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.54,
+					"ItemId": "(O)68",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 3X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler Loot 4X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "MsAngler": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.20,
+					"ItemId": "(O)859",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.40,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.08,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.40,
+					"ItemId": "(O)486",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.60,
+					"ItemId": "(O)904",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.72,
+					"ItemId": "(O)68",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 4X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler Loot 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "MsAngler": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.25,
+					"ItemId": "(O)859",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.10,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)486",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.75,
+					"ItemId": "(O)904",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.90,
+					"ItemId": "(O)68",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 5X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler Loot 50%",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "MsAngler": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.50,
+					"ItemId": "(O)859",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)486",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.50,
+					"ItemId": "(O)904",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.50,
+					"ItemId": "(O)68",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance All 50%"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Ms. Angler Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "MsAngler": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.03,
+					"ItemId": "(O)859",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.03,
+					"ItemId": "(O)486",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.03,
+					"ItemId": "(O)904",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.03,
+					"ItemId": "(O)68",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Less Rare More Roe"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II Loot 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "LegendII": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.10,
+					"ItemId": "(O)526",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.20,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.04,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.20,
+					"ItemId": "(O)499",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.30,
+					"ItemId": "(O)204",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.36,
+					"ItemId": "(O)60",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 2X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II Loot 3X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "LegendII": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.15,
+					"ItemId": "(O)526",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.30,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.30,
+					"ItemId": "(O)499",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.45,
+					"ItemId": "(O)204",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.54,
+					"ItemId": "(O)60",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 3X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II Loot 4X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "LegendII": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.20,
+					"ItemId": "(O)526",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.40,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.08,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.40,
+					"ItemId": "(O)499",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.60,
+					"ItemId": "(O)204",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.72,
+					"ItemId": "(O)60",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 4X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II Loot 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "LegendII": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.25,
+					"ItemId": "(O)526",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.10,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)499",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.75,
+					"ItemId": "(O)204",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.90,
+					"ItemId": "(O)60",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 5X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II Loot 50%",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "LegendII": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.50,
+					"ItemId": "(O)526",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)499",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.50,
+					"ItemId": "(O)204",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.50,
+					"ItemId": "(O)60",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance All 50%"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Legend II Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "LegendII": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.03,
+					"ItemId": "(O)526",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.03,
+					"ItemId": "(O)499",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.03,
+					"ItemId": "(O)204",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.03,
+					"ItemId": "(O)60",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Less Rare More Roe"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp Loot 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "RadioactiveCarp": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.10,
+					"ItemId": "(O)862",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.20,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.04,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.20,
+					"ItemId": "(O)489",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.30,
+					"ItemId": "(O)226",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.36,
+					"ItemId": "(O)70",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 2X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp Loot 3X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "RadioactiveCarp": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.15,
+					"ItemId": "(O)862",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.30,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.30,
+					"ItemId": "(O)489",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.45,
+					"ItemId": "(O)226",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.54,
+					"ItemId": "(O)70",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 3X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp Loot 4X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "RadioactiveCarp": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.20,
+					"ItemId": "(O)862",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.40,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.08,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.40,
+					"ItemId": "(O)489",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.60,
+					"ItemId": "(O)226",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.72,
+					"ItemId": "(O)70",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 4X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp Loot 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "RadioactiveCarp": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.25,
+					"ItemId": "(O)862",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.10,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)489",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.75,
+					"ItemId": "(O)226",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.90,
+					"ItemId": "(O)70",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 5X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp Loot 50%",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "RadioactiveCarp": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.50,
+					"ItemId": "(O)862",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)489",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.50,
+					"ItemId": "(O)226",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.50,
+					"ItemId": "(O)70",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance All 50%"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Radioactive Carp Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "RadioactiveCarp": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.03,
+					"ItemId": "(O)862",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.03,
+					"ItemId": "(O)489",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.03,
+					"ItemId": "(O)226",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.03,
+					"ItemId": "(O)70",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Less Rare More Roe"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. Loot 2X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "GlacierfishJr": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.10,
+					"ItemId": "(O)522",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.20,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.04,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.20,
+					"ItemId": "(O)833",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.30,
+					"ItemId": "(O)265",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.36,
+					"ItemId": "(O)62",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 2X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. Loot 3X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "GlacierfishJr": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.15,
+					"ItemId": "(O)522",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.30,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.06,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.30,
+					"ItemId": "(O)833",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.45,
+					"ItemId": "(O)265",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.54,
+					"ItemId": "(O)62",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 3X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. Loot 4X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "GlacierfishJr": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.20,
+					"ItemId": "(O)522",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.40,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.08,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.40,
+					"ItemId": "(O)833",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.60,
+					"ItemId": "(O)265",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.72,
+					"ItemId": "(O)62",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 4X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. Loot 5X",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "GlacierfishJr": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.25,
+					"ItemId": "(O)522",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.10,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)833",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.75,
+					"ItemId": "(O)265",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.90,
+					"ItemId": "(O)62",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance 5X"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. Loot 50%",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "GlacierfishJr": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.50,
+					"ItemId": "(O)522",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.50,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.50,
+					"ItemId": "(O)833",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.50,
+					"ItemId": "(O)265",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.50,
+					"ItemId": "(O)62",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Rare Loot Chance All 50%"},
+		},
+		{
+			"LogName": "Fish Pond Legendary Fish Glacierfish Jr. Less Rare More Roe",
+			"Action": "EditData",
+			"Target": "Data/FishPondData",
+			"Fields": {
+               "GlacierfishJr": {
+					"ProducedItems": [
+					{
+					"RequiredPopulation": 10,
+					"Chance": 0.03,
+					"ItemId": "(O)522",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 9,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 7,
+					"Chance": 0.03,
+					"ItemId": "(O)74",
+					"MinQuantity": 1,
+					"MaxQuantity": 1
+					},
+					{
+					"RequiredPopulation": 6,
+					"Chance": 0.03,
+					"ItemId": "(O)833",
+					"MinQuantity": 1,
+					"MaxQuantity": 5
+					},
+					{
+					"RequiredPopulation": 5,
+					"Chance": 0.03,
+					"ItemId": "(O)265",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					{
+					"RequiredPopulation": 4,
+					"Chance": 0.03,
+					"ItemId": "(O)62",
+					"MinQuantity": 1,
+					"MaxQuantity": 3
+					},
+					{
+					"RequiredPopulation": 1,
+					"Chance": 1.0,
+					"ItemId": "(O)812",
+					"MinQuantity": 1,
+					"MaxQuantity": 2
+					},
+					],
+					},
+					},
+			"When": {"Fish Pond Legendary Fish (REQ)": true, "Legendary Fish Pond Loot": "Less Rare More Roe"},
+		},
+		{
 			"LogName": "LG Fish/Quest Spawn Half The Time",
 			"Action": "EditData",
 			"Target": "Data/FishPondData",
@@ -34789,6 +37239,21 @@
 					"SpawnTime": 4,
 					},
 				"Glacierfish": {
+					"SpawnTime": 4,
+					},
+				"SonofCrimsonfish": {
+					"SpawnTime": 4,
+					},
+				"MsAngler": {
+					"SpawnTime": 4,
+					},
+				"LegendII": {
+					"SpawnTime": 4,
+					},
+				"RadioactiveCarp": {
+					"SpawnTime": 4,
+					},
+				"GlacierfishJr": {
 					"SpawnTime": 4,
 					},
 			        },
@@ -34812,6 +37277,21 @@
 					"SpawnTime": 1,
 					},
 				"Glacierfish": {
+					"SpawnTime": 1,
+					},
+				"SonofCrimsonfish": {
+					"SpawnTime": 1,
+					},
+				"MsAngler": {
+					"SpawnTime": 1,
+					},
+				"LegendII": {
+					"SpawnTime": 1,
+					},
+				"RadioactiveCarp": {
+					"SpawnTime": 1,
+					},
+				"GlacierfishJr": {
 					"SpawnTime": 1,
 					},
 			        },

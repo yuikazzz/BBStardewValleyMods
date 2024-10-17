@@ -1,0 +1,10 @@
+{
+   "Name": "Vintage Chic Wallpapers",
+   "Author": "orangeblossom",
+   "Version": "1.1",
+  "Description": "wallpaper",
+  "UniqueID": "ob7.vcwalls",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

@@ -1,0 +1,23 @@
+{
+	"Format": "1.4",
+	"Changes": [
+		{
+            "Action": "EditData",
+            "Target": "Data/AdditionalWallpaperFlooring",
+            "Entries": {
+                "VCI.Wallpapers": {
+                    "ID": "ob7.vcwalls",
+                    "Texture": "Mods/[CP] Vintage Chic Wallpapers",
+                    "IsFlooring": false,
+                    "Count": 72
+                }
+            }
+        },
+        // load wallpaper tilesheet
+        {
+            "Action": "Load",
+            "Target": "Mods/[CP] Vintage Chic Wallpapers",
+            "FromFile": "assets/walls.png"
+        }
+    ]
+}
