@@ -1,0 +1,210 @@
+{
+	"Format": "1.20.0",
+   "ConfigSchema": {
+      "BabySkinColor": {
+         "AllowValues": "Light, Dark, Brown, Gray, Void, Blue, Green",
+         "Default": "Light",
+		 "Description": "Skin color setting for baby.",
+      },
+      "BabyEyeColor": {
+         "AllowValues": "Black, Brown, Yellow,  Orange, Red, Pink, Purple, Violet, Blue, Skyblue, Green, YellowGreen, Emerald, MossGreen, Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah,  Maru, Penny, Sam, Sebastian, Shane",
+         "Default": "Brown",
+		 "Description": "Baby Eyes color setting.",
+      },
+      "BabyHairColor": {
+         "AllowValues": "White, Gray, Black, DarkBrown, Brown, Wheat, Honey, Platinum, Beige, Yellow, Orange, Red, RedBrown, Pink, BabyPink, AshPink, Lavender, Purple, Obsidian, Violet, BabyBlue, Blue, YellowGreen, Green, MossGreen, Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah,  Maru, Penny, Sam, Sebastian, Shane",
+         "Default": "Beige",
+		 "Description": "Hair color setting.",
+      },
+      "BoySkinColor": {
+         "AllowValues": "Light, Dark, Brown, Gray, Void, Blue, Green",
+         "Default": "Light",
+		 "Description": "Skin color setting for boy toddler.",
+      },
+      "BoyEyeColor": {
+         "AllowValues": "Black, Brown, Yellow,  Orange, Red, Pink, Purple, Violet, Blue, Skyblue, Green, YellowGreen, Emerald, MossGreen, Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah,  Maru, Penny, Sam, Sebastian, Shane",
+         "Default": "MossGreen",
+		 "Description": "Eyes color setting.",
+      },
+      "BoyWear": {
+         "AllowValues": "Pants, Skirt",
+         "Default": "Pants",
+		 "Description": "Boy toddler's clothes type to Pants or Skirt. Default is Pants.",
+      },
+      "BoySleeve": {
+         "AllowValues": "Weather, Half, Long",
+         "Default": "Weather",
+		 "Description": "﻿Sleeve length setting. Default is Weather(auto changed by weather)",
+      },
+      "BoySocks": {
+         "AllowValues": "Weather, true, false",
+         "Default": "Weather",
+		 "Description": "Wear socks setting. Default is Weather(auto changed by weather)",
+      },
+      "BoyShoesColor": {
+         "AllowValues": "Black, Red, Blue",
+         "Default": "Black",
+		 "Description": "Shoes Color settingwear in Outdoor(Festival) only.",
+      },
+      "BoyWearOverall": {
+         "AllowValues": "true, false",
+         "Default": "true",
+		 "Description": "Additional overall pants or skirts options.",
+      },
+      "BoyWearColor": {
+         "AllowValues": "Black, Brown, Yellow,  Orange, Red, Pink, Purple, Violet, Blue, Skyblue, Green, YellowGreen, Emerald, MossGreen",
+         "Default": "Purple",
+		 "Description": "﻿Set neck collar and overall pants/skirt color.",
+      },
+      "BoyHairStyle": {
+         "AllowValues": "Short, CherryTwin, PonyTail, TwinTail",
+         "Default": "Short",
+		 "Description": "﻿Hair style setting.",
+      },
+      "BoyHairColor": {
+         "AllowValues": "White, Gray, Black, DarkBrown, Brown, Wheat, Honey, Platinum, Beige, Yellow, Orange, Red, RedBrown, Pink, BabyPink, AshPink, Lavender, Purple, Obsidian, Violet, BabyBlue, Blue, YellowGreen, Green, MossGreen, Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah,  Maru, Penny, Sam, Sebastian, Shane",
+         "Default": "AshPink",
+		 "Description": "Hair color setting.",
+      },
+      "BoyHairDeco": {
+         "AllowValues": "true, false",
+         "Default": "false",
+		 "Description": "Usage status of hair decoration. ",
+      },
+      "BoyHairDecoColor": {
+         "AllowValues": "Yellow,  Orange, Red, RedBrown, BabyPink, Pink, Lavender, Purple, BabyBlue, Skyblue, Blue, White, Black",
+         "Default": "Yellow",
+		 "Description": "Setting color of hair decoration.",
+      },
+      "BoySleepWear": {
+         "AllowValues": "Frog, LesserPanda, Racoon, Shark, Sheep, WelshCorgi",
+         "Default": "Frog",
+		 "Description": "﻿Set pajama type.",
+      },
+      "BoySleepWearColor": {
+         "AllowValues": "White, Gray, Black, Pink, Blue, Yellow, Purple, Green, DarkGreen, Orange, Brown, Choco, Cream",
+         "Default": "Green",
+		 "Description": "Set pajama color. Available colors vary depending on type, so please refer to preview.",		
+      },
+      "GirlSkinColor": {
+         "AllowValues": "Light, Dark, Brown, Gray, Void, Blue, Green",
+         "Default": "Light",
+		 "Description": "Skin color setting for girl toddler.",
+      },
+      "GirlEyeColor": {
+         "AllowValues": "Black, Brown, Yellow,  Orange, Red, Pink, Purple, Violet, Blue, Skyblue, Green, YellowGreen, Emerald, MossGreen, Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah,  Maru, Penny, Sam, Sebastian, Shane",
+         "Default": "Pink",
+		 "Description": "﻿﻿Eyes color setting.",
+      },
+      "GirlWear": {
+         "AllowValues": "Pants, Skirt",
+         "Default": "Skirt",
+		 "Description": "Girl's clothes type to Pants or Skirt. Default is Skirt.",
+      },
+      "GirlSleeve": {
+         "AllowValues": "Weather, Half, Long",
+         "Default": "Weather",
+		 "Description": "Sleeve length setting. Default is Weather(auto changed by weather)",
+      },
+      "GirlSocks": {
+         "AllowValues": "Weather, true, false",
+         "Default": "Weather",
+		 "Description": "Wear socks setting. Default is Weather(auto changed by weather)",
+      },
+      "GirlShoesColor": {
+         "AllowValues": "Black, Red",
+         "Default": "Black",
+		 "Description": "﻿Shoes Color settingwear in Outdoor(Festival) only.",
+      },
+      "GirlWearOverall": {
+         "AllowValues": "true, false",
+         "Default": "true",
+		 "Description": "Additional overall pants or skirts options.",
+      },
+      "GirlWearColor": {
+         "AllowValues": "Black, Brown, Yellow,  Orange, Red, Pink, Purple, Violet, Blue, Skyblue, Green, YellowGreen, Emerald, MossGreen",
+         "Default": "Violet",
+		 "Description": "﻿Set neck collar and overall pants/skirt color.",
+      },
+      "GirlHairStyle": {
+         "AllowValues": "Short, CherryTwin, PonyTail, TwinTail",
+         "Default": "CherryTwin",
+		 "Description": "Hair style setting.",
+      },
+      "GirlHairColor": {
+         "AllowValues": "White, Gray, Black, DarkBrown, Brown, Wheat, Honey, Platinum, Beige, Yellow, Orange, Red, RedBrown, Pink, BabyPink, AshPink, Lavender, Purple, Obsidian, Violet, BabyBlue, Blue, YellowGreen, Green, MossGreen, Abigail, Alex, Elliott, Emily, Haley, Harvey, Leah,  Maru, Penny, Sam, Sebastian, Shane",
+         "Default": "BabyBlue",
+		 "Description": "﻿Hair color setting.",
+      },
+      "GirlHairDeco": {
+         "AllowValues": "true, false",
+         "Default": "true",
+		 "Description": "Usage status of hair decoration. ",
+      },
+      "GirlHairDecoColor": {
+         "AllowValues": "Yellow,  Orange, Red, RedBrown, BabyPink, Pink, Lavender, Purple, BabyBlue, Skyblue, Blue, White, Black",
+         "Default": "Yellow",
+		 "Description": "Setting color of hair decoration.",
+      },
+      "GirlSleepWear": {
+         "AllowValues": "Frog, LesserPanda, Racoon, Shark, Sheep, WelshCorgi",
+         "Default": "Racoon",
+		 "Description": "Set pajama type.",
+      },
+      "GirlSleepWearColor": {
+         "AllowValues": "White, Gray, Black, Pink, Blue, Yellow, Purple, Green, DarkGreen, Orange, Brown, Choco, Cream",
+         "Default": "Choco",
+		 "Description": "Set pajama color. Available colors vary depending on type, so please refer to preview.",		
+      },
+   },   
+   "DynamicTokens": [
+      {
+         "Name": "WeatherStyle",
+         "Value": "Dry"
+      },
+      {
+         "Name": "WeatherStyle",
+         "Value": "Wet",
+         "When": {
+            "Weather": "Rain, Storm",
+         }
+      },
+      {
+         "Name": "WeatherStyle",
+         "Value": "Hot",
+         "When": {
+            "Weather": "Sun, Wind",
+			"Season": "Summer"
+         }
+      },
+      {
+         "Name": "WeatherStyle",
+         "Value": "Cold",
+         "When": {
+			"Season": "Winter"
+         }
+      },
+   ],
+	"Changes": [
+	//Baby ==========================================================
+	{
+		"Action": "Include",
+		"FromFile": "assets/Baby/Baby.json",
+	},
+	//Day time ==========================================================
+	{
+		"Action": "Include",
+		"FromFile": "assets/Toddler/Body.json, assets/Toddler/Hair Deco.json, assets/Toddler/Socks.json,  assets/Toddler/Clothes.json",
+	},
+	//Festival ==========================================================
+	{
+		"Action": "Include",
+		"FromFile": "assets/Toddler/Festival.json",
+	},
+	//Night time ==========================================================	
+	{
+		"Action": "Include",
+		"FromFile": "assets/Toddler/SleepWear.json",
+	},
+  ]
+}

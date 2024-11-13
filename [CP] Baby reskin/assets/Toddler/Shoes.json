@@ -1,0 +1,17 @@
+{
+	"Changes": [
+	// Shoes ===============================================
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/Shoes/{{BoyShoesColor}}.png",
+		"PatchMode": "Overlay",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/Shoes/{{GirlShoesColor}}.png",
+		"PatchMode": "Overlay",
+	},	
+  ]
+}

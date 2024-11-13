@@ -1,0 +1,33 @@
+{
+	"Changes": [
+//Base Setting
+	{
+		"LogName": "Skin Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Skin/{{BoySkinColor}}.png",
+		"PatchMode": "Replace",
+	},	
+	{
+		"LogName": "Skin Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Skin/{{GirlSkinColor}}.png",
+		"PatchMode": "Replace",
+	},	
+	{
+		"LogName": "Eye Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Eye/{{BoyEyeColor}}.png",
+		"PatchMode": "Overlay",
+	},
+	{
+		"LogName": "Eye Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Eye/{{GirlEyeColor}}.png",
+		"PatchMode": "Overlay",
+	}
+  ]
+}

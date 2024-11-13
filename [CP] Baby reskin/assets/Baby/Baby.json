@@ -1,0 +1,33 @@
+{
+	"Changes": [
+//Base Setting
+	{
+		"LogName": "Baby Body setting",
+		"Action": "EditImage",
+		"Target": "Characters/Baby",
+		"FromFile": "assets/Baby/Body.png",
+		"PatchMode": "Replace",
+	},	
+	{
+		"LogName": "Baby Skin Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Baby",
+		"FromFile": "assets/Baby/Skin/{{BabySkinColor}}.png",
+		"PatchMode": "Overlay",
+	},	
+	{
+		"LogName": "Baby Eye Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Baby",
+		"FromFile": "assets/Baby/Eye/{{BabyEyeColor}}.png",
+		"PatchMode": "Overlay",
+	},
+	{
+		"LogName": "Baby Hair Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Baby",
+		"FromFile": "assets/Baby/Hair/{{BabyHairColor}}.png",
+		"PatchMode": "Overlay",
+	}
+  ]
+}

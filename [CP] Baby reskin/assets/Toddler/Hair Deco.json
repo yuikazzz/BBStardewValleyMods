@@ -1,0 +1,39 @@
+{
+	"Changes": [
+	{
+		"LogName": "Hair Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Hair/{{BoyHairStyle}}/{{BoyHairColor}}.png",
+		"PatchMode": "Overlay",
+	},	
+	{
+		"LogName": "Hair Color setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Hair/{{GirlHairStyle}}/{{GirlHairColor}}.png",
+		"PatchMode": "Overlay",
+	},
+	//Hair Deco ====================================================
+	{
+		"LogName": "Hair Deco setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Hair/{{BoyHairStyle}}/HairDeco/{{BoyHairDecoColor}}.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"BoyHairDeco": "true",
+		  }
+	},
+	{
+		"LogName": "Hair Deco setting",
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Hair/{{GirlHairStyle}}/HairDeco/{{GirlHairDecoColor}}.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"GirlHairDeco": "true",
+		  }
+	},	
+  ] 
+}

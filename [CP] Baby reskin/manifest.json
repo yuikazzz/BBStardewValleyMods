@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] Baby Reskin",
+   "Author": "KAYA",
+   "Version": "2.1.0",
+   "Description": "Toddler retexture mod convert. 쥬힛님 아기리텍+이브의 농장님 트윈테일+찬아람님 동물잠옷+핑크젤리님 양잠옷+아르헨님 아기리텍+ CP변환 및 옵션 추가",
+   "UniqueID": "KAYA.JHBabySkin",
+	"UpdateKeys": [ "Nexus:7693" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}
