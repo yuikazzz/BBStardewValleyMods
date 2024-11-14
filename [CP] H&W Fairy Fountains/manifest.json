@@ -1,7 +1,7 @@
 {
     "Name": "[CP] H&W Fairy Fountains",
     "Author": "HimeTarts and wildflourmods",
-    "Version": "2.0.0",
+    "Version": "2.0.1",
     "Description": "Adds fairy fountains as new buildings using Content Patcher",
     "UniqueID": "HXW.FairyFountains",
     "MinimumApiVersion": "4.0.0-alpha",

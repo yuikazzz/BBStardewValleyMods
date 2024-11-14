@@ -1,0 +1,9 @@
+{
+    "Name": "Nyapu Style Sprites",
+    "Author": "Eunoia",
+    "Version": "1.3.0",
+    "Description": "Replaces sprites to match Nyapu's portrait style.",
+    "UniqueID": "Eunoia.NyapuSprites",
+    "UpdateKeys": ["Nexus:23085"],
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

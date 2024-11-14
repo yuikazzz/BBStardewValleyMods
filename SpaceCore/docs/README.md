@@ -78,6 +78,7 @@ Provided functionality for content pack authors:
             * `Location` - string, the location to warp to - ex. `"CommunityCenter"`
             * `Position` - Vector2, the tile to warp to - ex. `"25, 15"`
             * `Color` - Color, the color the screen should flash - ex. `{ "R": 0, "G": 0, "B": 255, "A": 255 }`
+            * `ConsumedOnUse` - bool, default true
         * `UseForTriggerAction` - True to run a trigger action upon use, false otherwise. Default false.
         * `ConsumeForTriggerAction` - If the above field is true, this will control if the item is consumed on use. Default false for backwards compatibility.
         * `GiftableToNpcDisallowList` - A dictionary of NPC names to messages that should show when you try to gift the item to them, instead of them receiving the gift.
@@ -119,6 +120,7 @@ Provided functionality for content pack authors:
             * The event can reoccur if the item is given again.
                 * For Content Patcher users: If you don't want this behavior, make sure to add a `HasSeenEvent` event condition to your `"When"` block for the patch.
         * `IgnoreMarriageSchedule` - true/false, defaults to false
+        * `SeparateDatability` - If datability is tracked separately in multiplayer for this NPC. (ie. if the NPC can be datable for one player but not the other) - Default false.
     * Schedule Animations - Stored in the asset `spacechase0.SpaceCore/ScheduleAnimationExtensionData`, which is a dictionary with the key being the animation ID from `Data/animationDescriptions` and the value containing the data for the animation override.
         * You can make bigger animations and make the NPC emote or play a sound at certain points in the animation. Example [here](https://gist.github.com/spacechase0/55f5b8b75a47b5d4d6f790609f48d20c).
     * Crafting/Cooking Recipes - Stored in `spacechase0.SpaceCore/CraftingRecipeOverrides` and `spacechase0.SpaceCore/CookingRecipeOverrides`, these assets are both a dictionary, with the key being the ID of the corresponding recipe, and the value being an object with the following:
@@ -267,6 +269,60 @@ Provided functionality for content pack authors:
 * New dialogue keys:
     * `HitBySlingshot_(O)ItemId` for if they get hit with a slingshot shot of the `(O)ItemId` item.
     * `HitBySlingshot_context_tag` for if they get hit with a slingshot shot of an item with the context tag `context_tag`.
+* Guidebooks - You can add guidebooks with dynamic contents, openable via trigger action.
+    * The trigger action to open them is `spacechase0.SpaceCore_OpenGuidebook guidebookId optionalChpaterId optionalPageId`
+    * The guidebooks are stored in `spacechase0.SpaceCore/Guidebooks`. You can find example data [here](https://gist.github.com/spacechase0/18743e1ead1c33fadc807040fdb3626c).
+    * Each entry must have the following:
+        * `Title` - The title of the guidebook, shown at the top. You should use `{{i18n}}` here.
+        * `PageTexture` - Optional - if specified (use `{{InternalAssetKey}}`), use a specific texture for the background of your pages in the book. The size of the image will be the size of the entire page, without scaling.
+        * `PagePadding` - Optional, a vector2 that defaults to "28, 28" - The distance from the edges of the page texture the contents will show up.
+        * `PageSize` - Optional, defaults to "600, 500" - If there is no `PageTexture`, this size will be used for each page.
+        * `DefaultChapter` - The default chapter to open when one isn't specified in the trigger action.
+        * `Chapters` - A dictionary of chapter ID to object containing the following fields:
+            * `Name` - The chapter name, shown just below the book title, and when hovering over the tab icon. You should use `{{i18n}}` here.
+            * `TabIconTexture` - The texture to use for the tab icon (use `{{InternalAssetKey}}`) on the side of the book if the chapter is unlocked.
+            * `TabIconRect` - A rectangle for the part of the texture to use for the tab icon. If not specified, the whole texture is used.
+            * `TabIconScale` - Optional, default 4 - A scale factor for how big the tab icon should be.
+            * `Condition` - Optional, default `TRUE` - A GameStateQuery to use for if this chapter should be unlocked (and have a visible tab).
+            * `Pages` - A list of pages, which are objects containing the following values:
+                * `Id` - Optional, only needed if you want to link to a specific page. The ID to use for the `[link]` tag.
+                * `Contents` - The contents of the page (see further below for formatting). You should use `{{i18n}}` here.
+                * `Condition` - Optional, default `TRUE` - A GameStateQuery for if this page should be available.
+     * Page contents formatting - You should probably use newlines in this field. (In VSCode, set the format of your file to "JSON Lines" to hide errors from this - though this will cause comments to error). You can use the following tags inside the content, and you can nest these tags as well (formatted like BBCode - see the example gist's i18n for examples).
+        * `[center]centered text[/center]` - Puts the text `centered text` centered horizontally on the page. May not work when more than one line of text.
+        * `[center=width]centered text[/center]` - Puts the text `centered text` centered horizontally within the next `width` pixels (manually useful for when manually positioning things). May not work when more than one line of text.
+        * `[font=FontName]text[/font]` - Puts the text `text` on the page in the `FontName` font. Valid fonts are: `default`, `dialogue`, `tiny`
+        * `[color=Color]text[/color]` - Puts the text `text` on the page in the `Color` color. Valid color syntax can be found [on the Stardew wiki](https://stardewvalleywiki.com/Modding:Common_data_field_types#Color).
+        * `[image=PathToImageAsset:SourceRect:Scale]` - Adds a centered image to the page. There are three parameters, separated by `:` (though the second and third parameters are optional).
+            * `PathToImageAsset` - This is the asset path to the image you want to use. Normally you'd use `{{InternalAssetKey}}` here.
+                * If you're doing this in your i18n and don't have access to tokens, you can use the undocumented syntax SMAPI uses internally: `SMAPI/mod.id/path_in_mod` - `mod.id` being your mod ID, and `path_in_mod` should be the path to your image file. (Note that everything except the initial `SMAPI` should be lowercase, even if it isn't normally lowercase.)
+            * `SourceRect` - If specified, four values separated by commas indicating the X, Y, Width, and Height of the image to use. (You can also just put `null` to use the whole thing.)
+            * `Scale` - The scale of the image to use. Defaults to 4 times the normal size, like most game assets.
+        * `[icon=PathToImageAsset:SourceRect:Scale]` - Adds a inline image to the page. There are three parameters, separated by `:` (though the second and third parameters are optional).
+            * `PathToImageAsset` - This is the asset path to the image you want to use. Normally you'd use `{{InternalAssetKey}}` here.
+                * If you're doing this in your i18n and don't have access to tokens, you can use the undocumented syntax SMAPI uses internally: `SMAPI/mod.id/path_in_mod` - `mod.id` being your mod ID, and `path_in_mod` should be the path to your image file. (Note that everything except the initial `SMAPI` should be lowercase, even if it isn't normally lowercase.)
+            * `SourceRect` - If specified, four values separated by commas indicating the X, Y, Width, and Height of the image to use. (You can also just put `null` to use the whole thing.)
+            * `Scale` - The scale of the image to use. Defaults to 4 times the normal size, like most game assets.
+        * `[link=ChapterID/PageID]Click here[/link]` - Puts the text `Click here` that, when clicked, will link to the specified page in the specified chapter.
+            * You can also use this to put HTTP links in that will open in the default browser of the user when clicked (this will force a tooltip of the url the link will go to).
+        * `[action=TriggerActionActionHere]Click here[/action]` - Puts the text `Click here` that, when clicked, will run the specified trigger action when clicked.
+        * `[onceaction=TriggerActionActionHere]Click here[/action]` - Same as `[action]`, but will make the clicked elements disappear after they are used. (This will only affect the clicked element, not everything inside the `[onceaction]` block.)
+        * `[texttooltip=Title:Description]meow[/texttooltip]` - Make the specified elements have a tooltip when hovered over with the specified values. If you don't want a title for the tooltip, just make it empty, ie. `[texttooltip=:Description]`.
+        * `[itemtooltip=QualifiedItemId]meow[/itemtooltip]` - Make the specified elements have a tooltip when hovered, matching the tooltip of the specified item. `QualifiedItemId` needs to be a qualified item ID, such as `(O)74`.
+        * `[imagetooltip=Title:PathToImageAsset:SourceRect:Scale]` - Make the specified elements have a tooltip when hovered showing an image with a title.
+            * `Title` - If specified, the title above the image in the tooltip. If you don't want a title for the tooltip, just make it empty, ie. `[imagetooltip=:PathToImageAsset:SourceRect:Scale]`.
+            * `PathToImageAsset` - This is the asset path to the image you want to use. Normally you'd use `{{InternalAssetKey}}` here.
+                * If you're doing this in your i18n and don't have access to tokens, you can use the undocumented syntax SMAPI uses internally: `SMAPI/mod.id/path_in_mod` - `mod.id` being your mod ID, and `path_in_mod` should be the path to your image file. (Note that everything except the initial `SMAPI` should be lowercase, even if it isn't normally lowercase.)
+            * `SourceRect` - If specified, four values separated by commas indicating the X, Y, Width, and Height of the image to use. (You can also just put `null` to use the whole thing.)
+            * `Scale` - The scale of the image to use. Defaults to 4 times the normal size, like most game assets.
+        * `[if=Condition]meow[/if]` - Puts the text `meow` in the page, but only if the game state query `Condition` passes.
+        * `[else]meow2[/else]` - If the most recent `[if]` that ended failed, put the text `meow2` on the page.
+        * `[nospacing]...[/nospacing]` - Anything inside a `[nospacing]` will not move the "cursor" around when placing elements.
+            * This means `[image]`s will no longer be automatically centered.
+            * It also means any text and `[icon]` elements will not cause subsequent elements to be moved after it.
+            * This is useful for manually positioning things on a page (see next two tags).
+        * `[nextposition=X,Y]` - Will set the position of the next element placed to the specified value. If `X` or `Y` is set to `null`, then it won't override that coordinate (useful if you want to only override one coordinate but not the other).
+        * `[offset=X,Y]` - Moves the next element placed from where it normally would be by the specified amount.
 
 The rest of the features assume you understand C# and the game code a little bit (and are only accessible via C#):
 * In the API provided through SMAPI's mod registry (see mod source for interface you can copy):
@@ -288,6 +344,11 @@ The rest of the features assume you understand C# and the game code a little bit
     * An event: `AdvancedInteractionStarted`, which passes the NPC as the `object sender` and an `Action<string, Action>` as the event argument, which you call with a string for what string to show for you choice, and an Action for what to happen when it is chosen. (See [Backstory Questions Framework](https://www.nexusmods.com/stardewvalley/mods/14451), a mod now integrated into SpaceCore, for an example on usage).
     * `void RegisterSpawnableMonster(string id, Func<Vector2, Dictionary<string, object>, Monster> monsterSpawner)` - Register a spawnable monster with the spawnables system.
     * `List<int> SpaceCore.GetLocalIndexForMethod(MethodBase meth, string local)` - gets the indices of all variables in a method using a given name. Used for transpilers.
+    * Virtual currency manipulation functions (corresponding to the content pack feature):
+        * `List<string> GetVirtualCurrencyList()` - Get a list of virtual currency IDs that are currently active.
+        * `bool IsVirtualCurrencyTeamWide(string currency)` - Check if the virtual currency is a team-wide currency or not.
+        * `int GetVirtualCurrencyAmount(Farmer who, string currency)` - Get the current amount of virtual currency the player has. (You still need to pass in a player for team wide currencies.)
+        * `void AddToVirtualCurrency(Farmer who, string currency, int amount)` - Add an amount of virtual currency to the player. (You still need to pass in a player for team wide currencies.) You can pass in a negative value to consume some - the amount the player has will never be less than zero.
     * Custom equipment slot functions:
         * Note: The IDs are global, across all mods. Please include your mod unique ID in your slot ID.
         * `void RegisterEquipmentSlot(IManifest modManifest, string globalId, Func<Item, bool> slotValidator, Func<string> slotDisplayName, Texture2D bgTex, Rectangle? bgRect = null)` - Register an equipment slot to show on the additional equipment menu. (See player features section.)
@@ -387,6 +448,7 @@ The rest of the features assume you understand C# and the game code a little bit
     * `IngredientMatcher IngredientItem { get; }` - for the right slot
     * `int CinderShardCost { get; }` - for how many cinder shards the recipe costs
     * `Item CreateResult(Item baseItem, Item ingredItem)` - for creating the resulting item from the base and ingredient items
+* Custom tool class will work in the vanilla `Data/Tools` asset, if they are added to the SpaceCore serializer API.
 * UI Framework
     * This one is hard to document thoroughly, so your best bet is to look through the C# source code.
         * It's stored [here](https://github.com/spacechase0/StardewValleyMods/tree/develop/SpaceShared/UI).

@@ -1,7 +1,7 @@
 {
     "Name": "[CP] SSS for DaisyNiko TileSheets",
     "Author": "nuupon, daisyniko",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Description": "Changes the Tilesheets provided by DaisyNiko to match SSS.",
     "UniqueID": "sss.daisyniko",
     "MinimumApiVersion": "1.0",

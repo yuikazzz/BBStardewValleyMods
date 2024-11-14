@@ -268,10 +268,10 @@
                     "Defense": 8,
                     "CritChance":.012
                 },
-                "61": {
+                /*"61": {
                     "MinDamage": 40,
                     "MaxDamage": 70
-                },
+                },*/
                 "62": {
                     "MinDamage": 140,
                     "MaxDamage": 160,

@@ -10,9 +10,9 @@
   "UniqueID": "tlitookilakin.HappyHomeDesigner",
   "Name": "Happy Home Designer",
   "Author": "tlitookilakin",
-  "Version": "2.1.2",
+  "Version": "2.2.0",
   "Description": "A mod that enhances the decorating experience by overhauling the furniture & wallpaper catalogues.",
-  "MinimumApiVersion": "4.0",
+  "MinimumApiVersion": "4.1",
   "MinimumGameVersion": "1.6",
   "EntryDll": "HappyHomeDesigner.dll",
   "Dependencies": [

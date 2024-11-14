@@ -1,11 +1,11 @@
 {
-    "Format": "2.3.0",
+    "Format": "2.4.0",
     "ConfigSchema": {
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Farming! =",
-			"AllowValues": "Version 6.0.13",
-			"Default": "Version 6.0.13"
+			"AllowValues": "Version 6.0.14",
+			"Default": "Version 6.0.14"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -390,6 +390,168 @@
 			"Section": "Farm Animal Home Buildings",
             "AllowValues": "Default (Coop), Barn",
             "Default": "Default (Coop)"
+		},
+		    "Prismatic Seeds (REQ)": {
+			"Description": "Prismatic Seeds, a novel seed item, are now obtainable through foraging and can be sown to yield Prismatic Shards. This configuration serves as a prerequisite for all Prismatic Seeds options below!",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Craftable Prismatic Seeds": {
+			"Description": "Instead of a single seed, five seeds can be crafted into a bag of Prismatic Seeds item which can be planted for Prismatic Shards. Upon enabling this setting, you will automatically acquire the Prismatic Seeds crafting recipe at Farming Level 1. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Prismatic Shards Growth Speed": {
+			"Description": "Select the growth speed of Prismatic Shards, with a range spanning from 25% to 99% faster. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+            "Section": "Farmable Prismatic Shards",
+			"AllowValues": "Default, 25% Faster, 50% Faster, 75% Faster, 99% Faster",
+            "Default": "Default"
+        },
+		    "Regrow Prismatic Shards": {
+			"Description": "Prismatic Shards obtained from Prismatic Seeds will now regrow automatically, similar to Strawberries! To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Prismatic Shard Quality": {
+			"Description": "Prismatic Shards will now be assigned quality grades upon harvest, including silver, gold, and iridium, similar to regular crops.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Prismatic Shard Sell Value": {
+			"Description": "Select the sell value of Prismatic Shards, with the default set at 2000g. The range spans from 1750g to 1g. Please note, the sell values will only affect newly acquired Prismatic Shards after enabling the setting of your choosing. Scroll down for additional options.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "2000g (Default), 1750g, 1500g, 1250g, 1000g, 750g, 500g, 250g, 1g",
+			"Default": "2000g (Default)"
+		},
+		    "Rare Prismatic Seeds": {
+			"Description": "Prismatic Seeds obtained from foraging will now spawn less frequently. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Diggable Prismatic Seeds": {
+			"Description": "Prismatic Seeds will now have a chance to spawn from dig spots, with options for both 15% and 5% probabilities. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "Default, Normal (15% Chance), Rare (5% Chance)",
+			"Default": "Default"
+		},
+		    "Giant Prismatic Shards": {
+			"Description": "Prismatic Seeds now have the potential to develop into giant Prismatic Shards, similar to that of giant crops. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Giant Prismatic Spawn Rate": {
+			"Description": "Select the likelihood of Prismatic Shards developing into giant Prismatic Shards, with a range spanning from 5% to 100% chance. To activate this setting, ensure that both the Prismatic Seeds (REQ) and Giant Prismatic Shards settings are enabled. Scroll down for additional options.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "Default (1%), 5% Chance, 10% Chance, 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance, 55% Chance, 60% Chance, 65% Chance, 70% Chance, 75% Chance, 80% Chance, 85% Chance, 90% Chance, 95% Chance, 100% Chance",
+			"Default": "Default (1%)"
+		},
+		    "Fruit Trees Prismatic Seeds": {
+			"Description": "All fruit trees now have the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Wild Trees Prismatic Seeds": {
+			"Description": "Prismatic Seeds now have the potential to drop from all wild trees when cut down. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Krobus Prismatic Seeds": {
+			"Description": "Krobus will now offer a single Prismatic Seed for sale on the last day of each season. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "White Chicken Prismatic Seeds": {
+			"Description": "White Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Brown Chicken Prismatic Seeds": {
+			"Description": "Brown Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Blue Chicken Prismatic Seeds": {
+			"Description": "Blue Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Void Chicken Prismatic Seeds": {
+			"Description": "Void Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Golden Chicken Prismatic Seeds": {
+			"Description": "Golden Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Duck Prismatic Seeds": {
+			"Description": "Ducks now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Rabbit Prismatic Seeds": {
+			"Description": "Rabbits now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Dinosaur Prismatic Seeds": {
+			"Description": "Dinosaurs now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "White Cow Prismatic Seeds": {
+			"Description": "White Cows now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Brown Cow Prismatic Seeds": {
+			"Description": "Brown Cows now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Goat Prismatic Seeds": {
+			"Description": "Goats now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Pig Prismatic Seeds": {
+			"Description": "Pigs now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Sheep Prismatic Seeds": {
+			"Description": "Sheep now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
+		},
+		    "Ostrich Prismatic Seeds": {
+			"Description": "Ostriches now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
+			"Section": "Farmable Prismatic Shards",
+			"AllowValues": "true, false",
+			"Default": "false"
 		},
 		    "Bee House Materials": {
 			"Description": "Reduce the material requirements for crafting Bee Houses.",
@@ -1165,168 +1327,6 @@
 			"AllowValues": "Default, Decrease by 10%, Decrease by 20%, Decrease by 30%, Decrease by 40%, Decrease by 50%, Decrease by 60%, Decrease by 70%, Decrease by 80%, Decrease by 90%, Decrease by 99%",
 			"Default": "Default"
 	    },
-		    "Prismatic Seeds (REQ)": {
-			"Description": "Prismatic Seeds, a novel seed item, are now obtainable through foraging and can be sown to yield Prismatic Shards. This configuration serves as a prerequisite for all Prismatic Seeds options below!",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Craftable Prismatic Seeds": {
-			"Description": "Instead of a single seed, five seeds can be crafted into a bag of Prismatic Seeds item which can be planted for Prismatic Shards. Upon enabling this setting, you will automatically acquire the Prismatic Seeds crafting recipe at Farming Level 1. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Prismatic Shards Growth Speed": {
-			"Description": "Select the growth speed of Prismatic Shards, with a range spanning from 25% to 99% faster. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-            "Section": "Farmable Prismatic Shards",
-			"AllowValues": "Default, 25% Faster, 50% Faster, 75% Faster, 99% Faster",
-            "Default": "Default"
-        },
-		    "Regrow Prismatic Shards": {
-			"Description": "Prismatic Shards obtained from Prismatic Seeds will now regrow automatically, similar to Strawberries! To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Prismatic Shard Quality": {
-			"Description": "Prismatic Shards will now be assigned quality grades upon harvest, including silver, gold, and iridium, similar to regular crops.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Prismatic Shard Sell Value": {
-			"Description": "Select the sell value of Prismatic Shards, with the default set at 2000g. The range spans from 1750g to 1g. Please note, the sell values will only affect newly acquired Prismatic Shards after enabling the setting of your choosing. Scroll down for additional options.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "2000g (Default), 1750g, 1500g, 1250g, 1000g, 750g, 500g, 250g, 1g",
-			"Default": "2000g (Default)"
-		},
-		    "Rare Prismatic Seeds": {
-			"Description": "Prismatic Seeds obtained from foraging will now spawn less frequently. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Diggable Prismatic Seeds": {
-			"Description": "Prismatic Seeds will now have a chance to spawn from dig spots, with options for both 15% and 5% probabilities. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "Default, Normal (15% Chance), Rare (5% Chance)",
-			"Default": "Default"
-		},
-		    "Giant Prismatic Shards": {
-			"Description": "Prismatic Seeds now have the potential to develop into giant Prismatic Shards, similar to that of giant crops. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Giant Prismatic Spawn Rate": {
-			"Description": "Select the likelihood of Prismatic Shards developing into giant Prismatic Shards, with a range spanning from 5% to 100% chance. To activate this setting, ensure that both the Prismatic Seeds (REQ) and Giant Prismatic Shards settings are enabled. Scroll down for additional options.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "Default (1%), 5% Chance, 10% Chance, 15% Chance, 20% Chance, 25% Chance, 30% Chance, 35% Chance, 40% Chance, 45% Chance, 50% Chance, 55% Chance, 60% Chance, 65% Chance, 70% Chance, 75% Chance, 80% Chance, 85% Chance, 90% Chance, 95% Chance, 100% Chance",
-			"Default": "Default (1%)"
-		},
-		    "Fruit Trees Prismatic Seeds": {
-			"Description": "All fruit trees now have the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Wild Trees Prismatic Seeds": {
-			"Description": "Prismatic Seeds now have the potential to drop from all wild trees when cut down. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Krobus Prismatic Seeds": {
-			"Description": "Krobus will now offer a single Prismatic Seed for sale on the last day of each season. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "White Chicken Prismatic Seeds": {
-			"Description": "White Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Brown Chicken Prismatic Seeds": {
-			"Description": "Brown Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Blue Chicken Prismatic Seeds": {
-			"Description": "Blue Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Void Chicken Prismatic Seeds": {
-			"Description": "Void Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Golden Chicken Prismatic Seeds": {
-			"Description": "Golden Chickens now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Duck Prismatic Seeds": {
-			"Description": "Ducks now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Rabbit Prismatic Seeds": {
-			"Description": "Rabbits now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Dinosaur Prismatic Seeds": {
-			"Description": "Dinosaurs now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "White Cow Prismatic Seeds": {
-			"Description": "White Cows now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Brown Cow Prismatic Seeds": {
-			"Description": "Brown Cows now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Goat Prismatic Seeds": {
-			"Description": "Goats now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Pig Prismatic Seeds": {
-			"Description": "Pigs now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Sheep Prismatic Seeds": {
-			"Description": "Sheep now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
-		    "Ostrich Prismatic Seeds": {
-			"Description": "Ostriches now possess the potential to yield Prismatic Seeds. To activate this setting, ensure that the Prismatic Seeds (REQ) setting is enabled.",
-			"Section": "Farmable Prismatic Shards",
-			"AllowValues": "true, false",
-			"Default": "false"
-		},
 	},
 		"Changes": [
 		{
@@ -21107,6 +21107,1754 @@
 			    "Dinosaur": {"House": "Barn"},
 				    },
 			"When": {"Dinosaur Home Building": "Barn"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Crop",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+			    "4408": {
+                        "Seasons": [
+                          "Spring",
+						  "Summer",
+						  "Fall",
+						  "Winter"
+                       ],
+                        "DaysInPhase": [
+                          2,
+                          6,
+                          6,
+                          7,
+						  7
+                       ],
+                        "RegrowDays": -1,
+                        "IsRaised": false,
+                        "IsPaddyCrop": false,
+						"NeedsWatering": false,
+                        "PlantableLocationRules": null,
+                        "HarvestItemId": "74",
+                        "HarvestMinStack": 1,
+                        "HarvestMaxStack": 1,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                        "ExtraHarvestChance": 0.01,
+                        "HarvestMethod": "Grab",
+                        "HarvestMinQuality": 0,
+                        "HarvestMaxQuality": 0,
+                        "TintColors": [],
+                        "Texture": "TileSheets\\crops",
+                        "SpriteIndex": 188,
+                        "CustomFields": {}
+                       },
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Object",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+			    "4408": {
+                        "Name": "Prismatic Seed",
+                        "DisplayName": "Prismatic Seed",
+                        "Description": "Only thought to be found in the depths of the Skull Cavern and a mysterious volcanic region. You hear a faint whisper: '28...d.a..ys.to...e.vo..lve..wi.th..no...thi..rst.'",
+                        "Type": "Seeds",
+                        "Category": -74,
+                        "Price": 50,
+                        "Texture": null,
+                        "SpriteIndex": 4408,
+                        "Edibility": -300,
+                        "IsDrink": false,
+                        "Buff": null,
+                        "GeodeDropsDefaultItems": false,
+                        "GeodeDrops": null,
+                        "ArtifactSpotChances": null,
+                        "ContextTags": [
+							"seedmaker_banned"
+						],
+                        "CustomFields": {}
+                       },
+			           },
+			"When": {"Prismatic Seeds (REQ)": true},
+		},
+		{
+			"LogName": "Prismatic Seed Default Tilesheet",
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
+            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
+		       "When": {"Prismatic Seeds (REQ)": true,
+					    "Prismatic Shards Growth Speed": "Default"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Object",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"4408": {"Description": "Only thought to be found in the depths of the Skull Cavern and a mysterious volcanic region. You hear a faint whisper: 'Com..bin.e 5 t.o..ma..ke...on.e.'"},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Crop",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+			    "4409": {
+                        "Seasons": [
+                          "Spring",
+						  "Summer",
+						  "Fall",
+						  "Winter"
+                       ],
+                        "DaysInPhase": [
+                          2,
+                          6,
+                          6,
+                          7,
+						  7
+                       ],
+                        "RegrowDays": -1,
+                        "IsRaised": false,
+                        "IsPaddyCrop": false,
+						"NeedsWatering": false,
+                        "PlantableLocationRules": null,
+                        "HarvestItemId": "74",
+                        "HarvestMinStack": 1,
+                        "HarvestMaxStack": 1,
+                        "HarvestMaxIncreasePerFarmingLevel": 0.0,
+                        "ExtraHarvestChance": 0.01,
+                        "HarvestMethod": "Grab",
+                        "HarvestMinQuality": 0,
+                        "HarvestMaxQuality": 0,
+                        "TintColors": [],
+                        "Texture": "TileSheets\\crops",
+                        "SpriteIndex": 188,
+                        "CustomFields": {}
+                       },
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Seeds",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+			    "4409": {
+                        "Name": "Prismatic Seeds",
+                        "DisplayName": "Prismatic Seeds",
+                        "Description": "After combining five seeds together, you hear a faint whisper: '28...d.a..ys.to...e.vo..lve..wi.th..no...thi..rst.'",
+                        "Type": "Seeds",
+                        "Category": -74,
+                        "Price": 50,
+                        "Texture": null,
+                        "SpriteIndex": 4409,
+                        "Edibility": -300,
+                        "IsDrink": false,
+                        "Buff": null,
+                        "GeodeDropsDefaultItems": false,
+                        "GeodeDrops": null,
+                        "ArtifactSpotChances": null,
+                        "ContextTags": [
+							"seedmaker_banned"
+						],
+                        "CustomFields": {}
+                       },
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Craftable Prismatic Seeds",
+			"Action": "EditData",
+			"Target": "Data/CraftingRecipes",
+			"Entries": {
+				"Prismatic Seeds": "4408 5/false/4409/false/Farming 1",
+				},
+			"When": {"Craftable Prismatic Seeds": true}
+		},
+		{
+			"LogName": "Prismatic Seed Spring Objects",
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "Data/Prismatic Seed Icon.png",
+            "ToArea": { "X": 256, "Y": 2928, "Width": 16, "Height": 16 },
+		       "When": {"Prismatic Seeds (REQ)": true},
+		},
+		{
+			"LogName": "Prismatic Seeds Craftable Spring Objects",
+            "Action": "EditImage",
+            "Target": "Maps/springobjects",
+            "FromFile": "Data/Prismatic Seeds Icon.png",
+            "ToArea": { "X": 272, "Y": 2928, "Width": 16, "Height": 16 },
+		       "When": {"Prismatic Seeds (REQ)": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) 25% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"DaysInPhase": [ 2, 4, 5, 5, 5 ]},
+			          },      
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Prismatic Shards Growth Speed": "25% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable 25% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"DaysInPhase": [ 2, 4, 5, 5, 5 ]},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true, 
+					 "Prismatic Shards Growth Speed": "25% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seed 25% Faster Tilesheet",
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
+            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
+		       "When": {"Prismatic Seeds (REQ)": true,
+					    "Prismatic Shards Growth Speed": "25% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) 50% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"DaysInPhase": [ 2, 3, 3, 3, 3 ]},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false,
+					 "Prismatic Shards Growth Speed": "50% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable 50% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"DaysInPhase": [ 2, 3, 3, 3, 3 ]},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true, 
+					 "Prismatic Shards Growth Speed": "50% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seed 50% Faster Tilesheet",
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
+            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
+		       "When": {"Prismatic Seeds (REQ)": true,
+					    "Prismatic Shards Growth Speed": "50% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) 75% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"DaysInPhase": [ 1, 1, 1, 2, 2 ]},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Prismatic Shards Growth Speed": "75% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable 75% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"DaysInPhase": [ 1, 1, 1, 2, 2 ]},
+			          },
+			"When": {"Craftable Prismatic Seeds": true,
+       			     "Prismatic Seeds (REQ)": true, 
+					 "Prismatic Shards Growth Speed": "75% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seed 75% Faster Tilesheet",
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
+            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
+		       "When": {"Prismatic Seeds (REQ)": true,
+					    "Prismatic Shards Growth Speed": "75% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) 99% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"DaysInPhase": [ 1 ]},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Prismatic Shards Growth Speed": "99% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable 99% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"DaysInPhase": [ 1 ]},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "99% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seed 99% Faster Tilesheet",
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "Data/Prismatic Shard 99 Percent.png",
+            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
+		       "When": {"Prismatic Seeds (REQ)": true,
+					    "Prismatic Shards Growth Speed": "99% Faster"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 28},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Regrow Prismatic Shards": true, 
+					 "Prismatic Shards Growth Speed": "Default"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 28},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true, 
+					 "Regrow Prismatic Shards": true,
+					 "Prismatic Shards Growth Speed": "Default"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow 25% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 21},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Craftable Prismatic Seeds": false,
+					 "Prismatic Shards Growth Speed": "25% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 25% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 21},
+			          },
+			"When": {"Craftable Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "25% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow 50% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 14},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Prismatic Shards Growth Speed": "50% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 50% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 14},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "50% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow 75% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 7},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Prismatic Shards Growth Speed": "75% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 75% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 7},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "75% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow 99% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 1},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false, 
+					 "Prismatic Shards Growth Speed": "99% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 99% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 1},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true, 
+					 "Prismatic Shards Growth Speed": "99% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 25% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 21},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Craftable Prismatic Seeds": false,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "25% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 25% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 21},
+			          },
+			"When": {"Craftable Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "25% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 50% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 14},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "50% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 50% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 14},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "50% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 75% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 7},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "75% Faster", 
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 75% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 7},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "75% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 99% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4408": {"RegrowDays": 1},
+			          },
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Craftable Prismatic Seeds": false,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "99% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 99% Faster",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+				"4409": {"RegrowDays": 1},
+			          },
+			"When": {"Craftable Prismatic Seeds": true, 
+			         "Prismatic Seeds (REQ)": true,
+					 "Prismatic Shards Growth Speed": "Default",
+					 "Crops Regrowth Speed": "99% Faster",
+					 "Regrow Prismatic Shards": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Harvest With Scythe",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Fields": {
+                "4408": {"HarvestMethod": "Scythe"},
+				},
+	        "When": {"Prismatic Seeds (REQ)": true,
+					 "Harvest With Scythe": true,
+					 "Craftable Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Craftable Harvest With Scythe",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Fields": {
+                "4409": {"HarvestMethod": "Scythe"},
+				},
+	        "When": {"Craftable Prismatic Seeds": true,
+					 "Prismatic Seeds (REQ)": true,
+					 "Harvest With Scythe": true},
+		},
+		{
+			"LogName": "Prismatic Shard Quality",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+                "4408": {"HarvestMinQuality": 0, "HarvestMaxQuality": null},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Prismatic Shard Quality": true,
+					 "Craftable Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Craftable Prismatic Shard Quality",
+		    "Action": "EditData",
+			"Target": "Data/Crops",
+			"Fields": {
+                "4409": {"HarvestMinQuality": 0, "HarvestMaxQuality": null},
+				},
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Craftable Prismatic Seeds": true, 
+			         "Prismatic Shard Quality": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Desert",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) BusStop",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BusStop", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Forest",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Town",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Mountain",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Backwoods",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Backwoods", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Railroad",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Railroad", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Beach",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Woods",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) IslandNorthCave1",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorthCave1", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": false},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Desert",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Desert", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare BusStop",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "BusStop", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Forest",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Forest", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Town",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Town", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Mountain",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Mountain", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Backwoods",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Backwoods", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Railroad",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Railroad", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Beach",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Beach", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Woods",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Woods", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare IslandNorthCave1",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "IslandNorthCave1", "Forage" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
+				},
+			"When": {"Prismatic Seeds (REQ)": true, 
+			         "Rare Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Diggable",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "ArtifactSpots" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15},
+				},
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Diggable Prismatic Seeds": "Normal (15% Chance)"},
+			"MoveEntries": [
+                { "Id": "(O)4408", "BeforeId": "LOST_BOOK_OR_ITEM (O)770" }
+            ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rare Diggable",
+		    "Action": "EditData",
+			"Target": "Data/Locations",
+			"TargetField": [ "Default", "ArtifactSpots" ],
+			"Entries": {
+                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05},
+				},
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Diggable Prismatic Seeds": "Rare (5% Chance)"},
+			"MoveEntries": [
+                { "Id": "(O)4408", "BeforeId": "LOST_BOOK_OR_ITEM (O)770" }
+            ],
+		},
+		{
+			"LogName": "Prismatic Shard Price 1g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 250g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 250},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "250g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 500g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 500},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "500g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 750g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 750},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "750g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1000g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1000},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1000g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1250g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1250},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1250g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1500g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1500},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1500g"},
+		},
+		{
+			"LogName": "Prismatic Shard Price 1750g",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Fields": {
+				"74": {"Price": 1750},
+	    },
+		        "When": {"Prismatic Shard Sell Value": "1750g"},
+		},
+		{
+			"LogName": "Giant Prismatic Shards",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"Prismatic Shard": {
+					"FromItemId": "(O)74",
+					"HarvestItems": [
+					{
+						"Chance": 1.0,
+						"ForShavingEnchantment": null,
+						"ScaledMinStackWhenShaving": 2,
+						"ScaledMaxStackWhenShaving": 2,
+						"Condition": null,
+						"Id": "(O)74",
+						"ItemId": "(O)74",
+						"RandomItemId": null,
+						"MinStack": 12,
+						"MaxStack": 21,
+						"Quality": -1,
+						"ObjectInternalName": null,
+						"ObjectDisplayName": null,
+						"ToolUpgradeLevel": -1,
+						"IsRecipe": false,
+						"StackModifiers": null,
+						"StackModifierMode": "Stack",
+						"QualityModifiers": null,
+						"QualityModifierMode": "Stack"
+					}
+					],
+					"Texture": "TileSheets\\Crops",
+					"TexturePosition": {
+					"X": 0,
+					"Y": 3200
+					},
+					"TileSize": {
+					"X": 3,
+					"Y": 3
+					},
+					"Health": 10,
+					"Chance": 0.01,
+					"Condition": null,
+					"CustomFields": {}
+				},
+			    },
+		        "When": {"Prismatic Seeds (REQ)": true,
+					     "Giant Prismatic Shards": true},
+		},
+		{
+			"LogName": "Giant Prismatic Shards Tilesheet",
+            "Action": "EditImage",
+            "Target": "TileSheets/crops",
+            "FromFile": "Data/Giant Prismatic Shard.png",
+            "ToArea": { "X": 0, "Y": 3200, "Width": 48, "Height": 64 },
+		       "When": {"Prismatic Seeds (REQ)": true,
+					    "Giant Prismatic Shards": true},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 5% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.05}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "5% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 10% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.10}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "10% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 15% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.15}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "15% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 20% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.20}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "20% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 25% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.25}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "25% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 30% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.30}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "30% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 35% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.35}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "35% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 40% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.40}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "40% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 45% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.45}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "45% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 50% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.50}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "50% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 55% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.55}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "55% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 60% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.60}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "60% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 65% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.65}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "65% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 70% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.70}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "70% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 75% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.75}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "75% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 80% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.80}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "80% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 85% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.85}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "85% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 90% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.90}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "90% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 95% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 0.95}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "95% Chance"},
+		},
+		{
+			"LogName": "Giant Prismatic Spawn Rate 100% Chance",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Fields": {
+			    "Prismatic Shard": {"Chance": 1.0}
+				    },
+			"When": {"Prismatic Seeds (REQ)": true,
+			         "Giant Prismatic Shards": true,
+					 "Giant Prismatic Spawn Rate": "100% Chance"},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Cherry",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "628", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Apricot",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "629", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Orange",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "630", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Peach",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "631", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Pomegranate",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "632", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Apple",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "633", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Banana",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "69", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Fruit Trees Mango",
+			"Action": "EditData",
+			"Target": "Data/FruitTrees",
+			"TargetField": [ "835", "Fruit" ],
+			"Entries": {
+			    "4408": {"Season": null,
+                        "Chance": 0.05,
+                        "Condition": null,
+                        "Id": "4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
+			"MoveEntries": [
+                { "Id": "4408", "BeforeId": "Default" },
+				           ],
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Wild Trees",
+			"Action": "EditData",
+			"Target": "Data/WildTrees",
+			"TargetField": [ "1", "ChopItems" ],
+			"Entries": {
+			    "(O)4408": {"Id": "(O)4408", 
+				            "ItemId": "(O)4408",
+				            "Chance": 0.5,
+							"MinStack": 1,
+                            "MaxStack": -1},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Wild Trees Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Krobus",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "ShadowShop", "Items" ],
+			"Entries": {
+			    "4408": {"TradeItemId": null,
+                        "TradeItemAmount": 1,
+                        "Price": 2500,
+                        "ApplyProfitMargins": null,
+                        "AvailableStock": 2,
+                        "AvailableStockLimit": "Global",
+                        "AvoidRepeat": false,
+                        "IgnoreShopPriceModifiers": false,
+                        "PriceModifiers": null,
+                        "PriceModifierMode": "Stack",
+                        "AvailableStockModifiers": null,
+                        "AvailableStockModifierMode": "Stack",
+                        "Condition": "DAY_OF_MONTH 28",
+                        "Id": "(O)4408",
+                        "ItemId": "(O)4408",
+                        "RandomItemId": null,
+                        "MinStack": -1,
+                        "MaxStack": -1,
+                        "Quality": -1,
+                        "ObjectInternalName": null,
+                        "ObjectDisplayName": null,
+                        "ToolUpgradeLevel": -1,
+                        "IsRecipe": false,
+                        "StackModifiers": null,
+                        "StackModifierMode": "Stack",
+                        "QualityModifiers": null,
+                        "QualityModifierMode": "Stack"},
+			           },
+			"When": {"Prismatic Seeds (REQ)": true, "Krobus Prismatic Seeds": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) White Chicken",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "White Chicken": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"White Chicken Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Brown Chicken",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Brown Chicken": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Brown Chicken Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Blue Chicken",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Blue Chicken": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Blue Chicken Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Void Chicken",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Void Chicken": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Void Chicken Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Golden Chicken",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Golden Chicken": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Golden Chicken Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Duck",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Duck": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Duck Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Rabbit",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Rabbit": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Rabbit Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Dinosaur",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Dinosaur": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Dinosaur Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) White Cow",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "White Cow": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"White Cow Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Brown Cow",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Brown Cow": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Brown Cow Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Goat",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Goat": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Goat Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Pig",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Pig": {
+					"ProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Pig Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Wind",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Sheep",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Sheep": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Sheep Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
+		},
+		{
+			"LogName": "Prismatic Seeds (REQ) Ostrich",
+			"Action": "EditData",
+			"Target": "Data/FarmAnimals",
+			"Fields": {
+			    "Ostrich": {
+					"DeluxeProduceItemIds": [
+                       {
+                         "Id": "Default",
+                         "Condition": null,
+                         "MinimumFriendship": 0,
+                         "ItemId": "4408"
+					    },
+					  ],
+				    },
+				    },
+			"When": {"Ostrich Prismatic Seeds": true,
+			         "Prismatic Seeds (REQ)": true,
+			         "Weather": "Rain, Snow, Storm",
+					 "Query: {{DailyLuck}} > 0.07": true},
 		},
 		{
 			"LogName": "Bee House Materials Lessened",
@@ -55215,1754 +56963,6 @@
 			    "(O)347": {"Price": 1}, 
 					},
 			"When": {"Rare Seed Price": "Decrease by 99%"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Crop",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Entries": {
-			    "4408": {
-                        "Seasons": [
-                          "Spring",
-						  "Summer",
-						  "Fall",
-						  "Winter"
-                       ],
-                        "DaysInPhase": [
-                          2,
-                          6,
-                          6,
-                          7,
-						  7
-                       ],
-                        "RegrowDays": -1,
-                        "IsRaised": false,
-                        "IsPaddyCrop": false,
-						"NeedsWatering": false,
-                        "PlantableLocationRules": null,
-                        "HarvestItemId": "74",
-                        "HarvestMinStack": 1,
-                        "HarvestMaxStack": 1,
-                        "HarvestMaxIncreasePerFarmingLevel": 0.0,
-                        "ExtraHarvestChance": 0.01,
-                        "HarvestMethod": "Grab",
-                        "HarvestMinQuality": 0,
-                        "HarvestMaxQuality": 0,
-                        "TintColors": [],
-                        "Texture": "TileSheets\\crops",
-                        "SpriteIndex": 188,
-                        "CustomFields": {}
-                       },
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Object",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Entries": {
-			    "4408": {
-                        "Name": "Prismatic Seed",
-                        "DisplayName": "Prismatic Seed",
-                        "Description": "Only thought to be found in the depths of the Skull Cavern and a mysterious volcanic region. You hear a faint whisper: '28...d.a..ys.to...e.vo..lve..wi.th..no...thi..rst.'",
-                        "Type": "Seeds",
-                        "Category": -74,
-                        "Price": 50,
-                        "Texture": null,
-                        "SpriteIndex": 4408,
-                        "Edibility": -300,
-                        "IsDrink": false,
-                        "Buff": null,
-                        "GeodeDropsDefaultItems": false,
-                        "GeodeDrops": null,
-                        "ArtifactSpotChances": null,
-                        "ContextTags": [
-							"seedmaker_banned"
-						],
-                        "CustomFields": {}
-                       },
-			           },
-			"When": {"Prismatic Seeds (REQ)": true},
-		},
-		{
-			"LogName": "Prismatic Seed Default Tilesheet",
-            "Action": "EditImage",
-            "Target": "TileSheets/crops",
-            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
-            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
-		       "When": {"Prismatic Seeds (REQ)": true,
-					    "Prismatic Shards Growth Speed": "Default"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Object",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"4408": {"Description": "Only thought to be found in the depths of the Skull Cavern and a mysterious volcanic region. You hear a faint whisper: 'Com..bin.e 5 t.o..ma..ke...on.e.'"},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Crop",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Entries": {
-			    "4409": {
-                        "Seasons": [
-                          "Spring",
-						  "Summer",
-						  "Fall",
-						  "Winter"
-                       ],
-                        "DaysInPhase": [
-                          2,
-                          6,
-                          6,
-                          7,
-						  7
-                       ],
-                        "RegrowDays": -1,
-                        "IsRaised": false,
-                        "IsPaddyCrop": false,
-						"NeedsWatering": false,
-                        "PlantableLocationRules": null,
-                        "HarvestItemId": "74",
-                        "HarvestMinStack": 1,
-                        "HarvestMaxStack": 1,
-                        "HarvestMaxIncreasePerFarmingLevel": 0.0,
-                        "ExtraHarvestChance": 0.01,
-                        "HarvestMethod": "Grab",
-                        "HarvestMinQuality": 0,
-                        "HarvestMaxQuality": 0,
-                        "TintColors": [],
-                        "Texture": "TileSheets\\crops",
-                        "SpriteIndex": 188,
-                        "CustomFields": {}
-                       },
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Seeds",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Entries": {
-			    "4409": {
-                        "Name": "Prismatic Seeds",
-                        "DisplayName": "Prismatic Seeds",
-                        "Description": "After combining five seeds together, you hear a faint whisper: '28...d.a..ys.to...e.vo..lve..wi.th..no...thi..rst.'",
-                        "Type": "Seeds",
-                        "Category": -74,
-                        "Price": 50,
-                        "Texture": null,
-                        "SpriteIndex": 4409,
-                        "Edibility": -300,
-                        "IsDrink": false,
-                        "Buff": null,
-                        "GeodeDropsDefaultItems": false,
-                        "GeodeDrops": null,
-                        "ArtifactSpotChances": null,
-                        "ContextTags": [
-							"seedmaker_banned"
-						],
-                        "CustomFields": {}
-                       },
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Craftable Prismatic Seeds",
-			"Action": "EditData",
-			"Target": "Data/CraftingRecipes",
-			"Entries": {
-				"Prismatic Seeds": "4408 5/false/4409/false/Farming 1",
-				},
-			"When": {"Craftable Prismatic Seeds": true}
-		},
-		{
-			"LogName": "Prismatic Seed Spring Objects",
-            "Action": "EditImage",
-            "Target": "Maps/springobjects",
-            "FromFile": "Data/Prismatic Seed Icon.png",
-            "ToArea": { "X": 256, "Y": 2928, "Width": 16, "Height": 16 },
-		       "When": {"Prismatic Seeds (REQ)": true},
-		},
-		{
-			"LogName": "Prismatic Seeds Craftable Spring Objects",
-            "Action": "EditImage",
-            "Target": "Maps/springobjects",
-            "FromFile": "Data/Prismatic Seeds Icon.png",
-            "ToArea": { "X": 272, "Y": 2928, "Width": 16, "Height": 16 },
-		       "When": {"Prismatic Seeds (REQ)": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) 25% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"DaysInPhase": [ 2, 4, 5, 5, 5 ]},
-			          },      
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Prismatic Shards Growth Speed": "25% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable 25% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"DaysInPhase": [ 2, 4, 5, 5, 5 ]},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true, 
-					 "Prismatic Shards Growth Speed": "25% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seed 25% Faster Tilesheet",
-            "Action": "EditImage",
-            "Target": "TileSheets/crops",
-            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
-            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
-		       "When": {"Prismatic Seeds (REQ)": true,
-					    "Prismatic Shards Growth Speed": "25% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) 50% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"DaysInPhase": [ 2, 3, 3, 3, 3 ]},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false,
-					 "Prismatic Shards Growth Speed": "50% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable 50% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"DaysInPhase": [ 2, 3, 3, 3, 3 ]},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true, 
-					 "Prismatic Shards Growth Speed": "50% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seed 50% Faster Tilesheet",
-            "Action": "EditImage",
-            "Target": "TileSheets/crops",
-            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
-            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
-		       "When": {"Prismatic Seeds (REQ)": true,
-					    "Prismatic Shards Growth Speed": "50% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) 75% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"DaysInPhase": [ 1, 1, 1, 2, 2 ]},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Prismatic Shards Growth Speed": "75% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable 75% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"DaysInPhase": [ 1, 1, 1, 2, 2 ]},
-			          },
-			"When": {"Craftable Prismatic Seeds": true,
-       			     "Prismatic Seeds (REQ)": true, 
-					 "Prismatic Shards Growth Speed": "75% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seed 75% Faster Tilesheet",
-            "Action": "EditImage",
-            "Target": "TileSheets/crops",
-            "FromFile": "Data/Prismatic Shard Default-25-50-75 Percent.png",
-            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
-		       "When": {"Prismatic Seeds (REQ)": true,
-					    "Prismatic Shards Growth Speed": "75% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) 99% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"DaysInPhase": [ 1 ]},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Prismatic Shards Growth Speed": "99% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable 99% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"DaysInPhase": [ 1 ]},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "99% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seed 99% Faster Tilesheet",
-            "Action": "EditImage",
-            "Target": "TileSheets/crops",
-            "FromFile": "Data/Prismatic Shard 99 Percent.png",
-            "ToArea": { "X": 0, "Y": 3008, "Width": 128, "Height": 32 },
-		       "When": {"Prismatic Seeds (REQ)": true,
-					    "Prismatic Shards Growth Speed": "99% Faster"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 28},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Regrow Prismatic Shards": true, 
-					 "Prismatic Shards Growth Speed": "Default"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 28},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true, 
-					 "Regrow Prismatic Shards": true,
-					 "Prismatic Shards Growth Speed": "Default"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow 25% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 21},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Craftable Prismatic Seeds": false,
-					 "Prismatic Shards Growth Speed": "25% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 25% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 21},
-			          },
-			"When": {"Craftable Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "25% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow 50% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 14},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Prismatic Shards Growth Speed": "50% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 50% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 14},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "50% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow 75% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 7},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Prismatic Shards Growth Speed": "75% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 75% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 7},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "75% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow 99% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 1},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false, 
-					 "Prismatic Shards Growth Speed": "99% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow 99% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 1},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true, 
-					 "Prismatic Shards Growth Speed": "99% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 25% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 21},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Craftable Prismatic Seeds": false,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "25% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 25% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 21},
-			          },
-			"When": {"Craftable Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "25% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 50% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 14},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "50% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 50% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 14},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "50% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 75% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 7},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "75% Faster", 
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 75% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 7},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "75% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Auto Regrow Speed 99% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4408": {"RegrowDays": 1},
-			          },
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Craftable Prismatic Seeds": false,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "99% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Auto Regrow Speed 99% Faster",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-				"4409": {"RegrowDays": 1},
-			          },
-			"When": {"Craftable Prismatic Seeds": true, 
-			         "Prismatic Seeds (REQ)": true,
-					 "Prismatic Shards Growth Speed": "Default",
-					 "Crops Regrowth Speed": "99% Faster",
-					 "Regrow Prismatic Shards": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Harvest With Scythe",
-            "Action": "EditData",
-            "Target": "Data/Crops",
-            "Fields": {
-                "4408": {"HarvestMethod": "Scythe"},
-				},
-	        "When": {"Prismatic Seeds (REQ)": true,
-					 "Harvest With Scythe": true,
-					 "Craftable Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Craftable Harvest With Scythe",
-            "Action": "EditData",
-            "Target": "Data/Crops",
-            "Fields": {
-                "4409": {"HarvestMethod": "Scythe"},
-				},
-	        "When": {"Craftable Prismatic Seeds": true,
-					 "Prismatic Seeds (REQ)": true,
-					 "Harvest With Scythe": true},
-		},
-		{
-			"LogName": "Prismatic Shard Quality",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-                "4408": {"HarvestMinQuality": 0, "HarvestMaxQuality": null},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Prismatic Shard Quality": true,
-					 "Craftable Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Craftable Prismatic Shard Quality",
-		    "Action": "EditData",
-			"Target": "Data/Crops",
-			"Fields": {
-                "4409": {"HarvestMinQuality": 0, "HarvestMaxQuality": null},
-				},
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Craftable Prismatic Seeds": true, 
-			         "Prismatic Shard Quality": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Desert",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Desert", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) BusStop",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "BusStop", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Forest",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Forest", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Town",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Town", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Mountain",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Mountain", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Backwoods",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Backwoods", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Railroad",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Railroad", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Beach",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Beach", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Woods",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Woods", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) IslandNorthCave1",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "IslandNorthCave1", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": false},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Desert",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Desert", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare BusStop",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "BusStop", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Forest",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Forest", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Town",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Town", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Mountain",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Mountain", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Backwoods",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Backwoods", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Railroad",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Railroad", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Beach",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Beach", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Woods",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Woods", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare IslandNorthCave1",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "IslandNorthCave1", "Forage" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05, "Quality": 0, "MinStack": 1, "MaxStack": 1, "Condition": "LOCATION_SEASON Here Spring Summer Fall Winter"},
-				},
-			"When": {"Prismatic Seeds (REQ)": true, 
-			         "Rare Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Diggable",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Default", "ArtifactSpots" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.15},
-				},
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Diggable Prismatic Seeds": "Normal (15% Chance)"},
-			"MoveEntries": [
-                { "Id": "(O)4408", "BeforeId": "LOST_BOOK_OR_ITEM (O)770" }
-            ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rare Diggable",
-		    "Action": "EditData",
-			"Target": "Data/Locations",
-			"TargetField": [ "Default", "ArtifactSpots" ],
-			"Entries": {
-                "(O)4408": {"ItemID": "(O)4408", "Chance": 0.05},
-				},
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Diggable Prismatic Seeds": "Rare (5% Chance)"},
-			"MoveEntries": [
-                { "Id": "(O)4408", "BeforeId": "LOST_BOOK_OR_ITEM (O)770" }
-            ],
-		},
-		{
-			"LogName": "Prismatic Shard Price 1g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 1},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "1g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 250g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 250},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "250g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 500g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 500},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "500g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 750g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 750},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "750g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 1000g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 1000},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "1000g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 1250g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 1250},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "1250g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 1500g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 1500},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "1500g"},
-		},
-		{
-			"LogName": "Prismatic Shard Price 1750g",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Fields": {
-				"74": {"Price": 1750},
-	    },
-		        "When": {"Prismatic Shard Sell Value": "1750g"},
-		},
-		{
-			"LogName": "Giant Prismatic Shards",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Entries": {
-				"Prismatic Shard": {
-					"FromItemId": "(O)74",
-					"HarvestItems": [
-					{
-						"Chance": 1.0,
-						"ForShavingEnchantment": null,
-						"ScaledMinStackWhenShaving": 2,
-						"ScaledMaxStackWhenShaving": 2,
-						"Condition": null,
-						"Id": "(O)74",
-						"ItemId": "(O)74",
-						"RandomItemId": null,
-						"MinStack": 12,
-						"MaxStack": 21,
-						"Quality": -1,
-						"ObjectInternalName": null,
-						"ObjectDisplayName": null,
-						"ToolUpgradeLevel": -1,
-						"IsRecipe": false,
-						"StackModifiers": null,
-						"StackModifierMode": "Stack",
-						"QualityModifiers": null,
-						"QualityModifierMode": "Stack"
-					}
-					],
-					"Texture": "TileSheets\\Crops",
-					"TexturePosition": {
-					"X": 0,
-					"Y": 3200
-					},
-					"TileSize": {
-					"X": 3,
-					"Y": 3
-					},
-					"Health": 10,
-					"Chance": 0.01,
-					"Condition": null,
-					"CustomFields": {}
-				},
-			    },
-		        "When": {"Prismatic Seeds (REQ)": true,
-					     "Giant Prismatic Shards": true},
-		},
-		{
-			"LogName": "Giant Prismatic Shards Tilesheet",
-            "Action": "EditImage",
-            "Target": "TileSheets/crops",
-            "FromFile": "Data/Giant Prismatic Shard.png",
-            "ToArea": { "X": 0, "Y": 3200, "Width": 48, "Height": 64 },
-		       "When": {"Prismatic Seeds (REQ)": true,
-					    "Giant Prismatic Shards": true},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 5% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.05}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "5% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 10% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.10}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "10% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 15% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.15}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "15% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 20% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.20}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "20% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 25% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.25}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "25% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 30% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.30}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "30% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 35% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.35}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "35% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 40% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.40}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "40% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 45% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.45}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "45% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 50% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.50}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "50% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 55% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.55}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "55% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 60% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.60}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "60% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 65% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.65}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "65% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 70% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.70}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "70% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 75% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.75}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "75% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 80% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.80}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "80% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 85% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.85}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "85% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 90% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.90}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "90% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 95% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 0.95}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "95% Chance"},
-		},
-		{
-			"LogName": "Giant Prismatic Spawn Rate 100% Chance",
-			"Action": "EditData",
-			"Target": "Data/GiantCrops",
-			"Fields": {
-			    "Prismatic Shard": {"Chance": 1.0}
-				    },
-			"When": {"Prismatic Seeds (REQ)": true,
-			         "Giant Prismatic Shards": true,
-					 "Giant Prismatic Spawn Rate": "100% Chance"},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Cherry",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "628", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Apricot",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "629", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Orange",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "630", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Peach",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "631", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Pomegranate",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "632", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Apple",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "633", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Banana",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "69", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Fruit Trees Mango",
-			"Action": "EditData",
-			"Target": "Data/FruitTrees",
-			"TargetField": [ "835", "Fruit" ],
-			"Entries": {
-			    "4408": {"Season": null,
-                        "Chance": 0.05,
-                        "Condition": null,
-                        "Id": "4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Fruit Trees Prismatic Seeds": true},
-			"MoveEntries": [
-                { "Id": "4408", "BeforeId": "Default" },
-				           ],
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Wild Trees",
-			"Action": "EditData",
-			"Target": "Data/WildTrees",
-			"TargetField": [ "1", "ChopItems" ],
-			"Entries": {
-			    "(O)4408": {"Id": "(O)4408", 
-				            "ItemId": "(O)4408",
-				            "Chance": 0.5,
-							"MinStack": 1,
-                            "MaxStack": -1},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Wild Trees Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Krobus",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "ShadowShop", "Items" ],
-			"Entries": {
-			    "4408": {"TradeItemId": null,
-                        "TradeItemAmount": 1,
-                        "Price": 2500,
-                        "ApplyProfitMargins": null,
-                        "AvailableStock": 2,
-                        "AvailableStockLimit": "Global",
-                        "AvoidRepeat": false,
-                        "IgnoreShopPriceModifiers": false,
-                        "PriceModifiers": null,
-                        "PriceModifierMode": "Stack",
-                        "AvailableStockModifiers": null,
-                        "AvailableStockModifierMode": "Stack",
-                        "Condition": "DAY_OF_MONTH 28",
-                        "Id": "(O)4408",
-                        "ItemId": "(O)4408",
-                        "RandomItemId": null,
-                        "MinStack": -1,
-                        "MaxStack": -1,
-                        "Quality": -1,
-                        "ObjectInternalName": null,
-                        "ObjectDisplayName": null,
-                        "ToolUpgradeLevel": -1,
-                        "IsRecipe": false,
-                        "StackModifiers": null,
-                        "StackModifierMode": "Stack",
-                        "QualityModifiers": null,
-                        "QualityModifierMode": "Stack"},
-			           },
-			"When": {"Prismatic Seeds (REQ)": true, "Krobus Prismatic Seeds": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) White Chicken",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "White Chicken": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"White Chicken Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Brown Chicken",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Brown Chicken": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Brown Chicken Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Blue Chicken",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Blue Chicken": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Blue Chicken Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Void Chicken",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Void Chicken": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Void Chicken Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Golden Chicken",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Golden Chicken": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Golden Chicken Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Duck",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Duck": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Duck Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Rabbit",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Rabbit": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Rabbit Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Dinosaur",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Dinosaur": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Dinosaur Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) White Cow",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "White Cow": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"White Cow Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Brown Cow",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Brown Cow": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Brown Cow Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Goat",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Goat": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Goat Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Pig",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Pig": {
-					"ProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Pig Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Wind",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Sheep",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Sheep": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Sheep Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
-		},
-		{
-			"LogName": "Prismatic Seeds (REQ) Ostrich",
-			"Action": "EditData",
-			"Target": "Data/FarmAnimals",
-			"Fields": {
-			    "Ostrich": {
-					"DeluxeProduceItemIds": [
-                       {
-                         "Id": "Default",
-                         "Condition": null,
-                         "MinimumFriendship": 0,
-                         "ItemId": "4408"
-					    },
-					  ],
-				    },
-				    },
-			"When": {"Ostrich Prismatic Seeds": true,
-			         "Prismatic Seeds (REQ)": true,
-			         "Weather": "Rain, Snow, Storm",
-					 "Query: {{DailyLuck}} > 0.07": true},
 		},
 	]
 }

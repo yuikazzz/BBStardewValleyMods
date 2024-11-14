@@ -22,10 +22,13 @@
   "ChallengingMarshlands": "false",
   "ChallengingHighlandsCavern": "false",
   "ChallengingBadlands": "false",
+  "LowMemoryBadlands": "false",
+  "LowMemoryHighlands": "false",
   "OlderSophiaPortraits": "false",
   "VanillaSandyPortraits": "false",
   "MatureEvents": "false",
   "ShorterPathToBlueMoonVineyard": "false",
+  "GaldoranGemMuseumMoveable": "false",
   "UseGaldoranThemeAllTimes": "false",
   "DisableGaldoranTheme": "false"
 }

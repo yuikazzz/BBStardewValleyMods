@@ -64,8 +64,8 @@
         "HXW.PlantLoversFurni_LeafyDoubleBed": "HXW_LeafyDoubleBed/bed double/3 4/3 3/2/2500/2/{{i18n: PlantLoversFurni_LeafyBed}}/637/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_ScenicWindow": "HXW_ScenicWindow/painting/3 3/3 3/1/2500/-1/{{i18n: PlantLoversFurni_ScenicWindow}}/672/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_ScenicWindowWinter": "HXW_ScenicWindowWinter/painting/3 3/3 3/1/2500/-1/{{i18n: PlantLoversFurni_ScenicWindow}}/1214/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
-        "HXW.PlantLoversFurni_MeadowRug": "HXW_MeadowRug/Rug/3 3/3 1/2/2500/2/{{i18n: PlantLoversFurni_MeadowRug}}/678/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
-        "HXW.PlantLoversFurni_MeadowRug2": "HXW_MeadowRug2/Rug/3 3/3 1/2/2500/2/{{i18n: PlantLoversFurni_MeadowRug}}/683/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
+        "HXW.PlantLoversFurni_MeadowRug": "HXW_MeadowRug/Rug/3 3/3 3/1/2500/2/{{i18n: PlantLoversFurni_MeadowRug}}/678/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
+        "HXW.PlantLoversFurni_MeadowRug2": "HXW_MeadowRug2/Rug/3 3/3 3/1/2500/2/{{i18n: PlantLoversFurni_MeadowRug}}/683/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_PlantStands2x4": "HXW_PlantStands2x4/Decor/2 4/2 1/2/2500/2/{{i18n: PlantLoversFurni_PlantStands2x4}}/681/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_SmPlantClutter": "HXW_SmPlantClutter/Decor/2 1/2 1/2/2500/2/{{i18n: PlantLoversFurni_SmPlantClutter}}/248/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         
@@ -79,7 +79,7 @@
         "HXW.PlantLoversFurni_TVSide": "HXW_TVSide/Decor/2 4/2 1/2/2500/2/{{i18n: PlantLoversFurni_TVSide}}/756/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_ClutterPlantBench1": "HXW_ClutterPlantBench1/Bench/3 3/3 1/2/2500/2/{{i18n: PlantLoversFurni_ClutterPlantBench}}/989/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_ClutterPlantBench2": "HXW_ClutterPlantBench2/Bench/3 3/3 1/2/2500/2/{{i18n: PlantLoversFurni_ClutterPlantBench}}/998/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
-        "HXW.PlantLoversFurni_ClutterPlantBenchSide": "HXW_ClutterPlantBenchSide/Bench/1 3/1 1/2/2500/2/{{i18n: PlantLoversFurni_ClutterPlantBenchSide}}/558/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
+        "HXW.PlantLoversFurni_ClutterPlantBenchSide": "HXW_ClutterPlantBenchSide/Bench/1 3/1 1/2/2500/2/{{i18n: PlantLoversFurni_ClutterPlantBench}}/558/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_SmHorizontalBookshelf": "HXW_SmHorizontalBookshelf/decor/3 2/3 1/2/2500/2/{{i18n: PlantLoversFurni_SmHorizontalBookshelf}}/794/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         "HXW.PlantLoversFurni_SmallPillowPile": "HXW_SmallPillowPile/Decor/3 1/3 1/2/2500/2/{{i18n: PlantLoversFurni_SmallPillowPile}}/133/Mods\\HXW.PlantLoversFurni\\Furniture/true/collection_hwplantfurni",
         
