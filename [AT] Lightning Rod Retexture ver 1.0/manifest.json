@@ -1,0 +1,11 @@
+{
+   "Name": "[AT] Lightning Rod Retexture ver 1.0",
+   "Author": "Star-Hya",
+   "Version": "1.0.0",
+   "Description": "AT Mode for Lightning Rod Retexture",
+   "UniqueID": "SH.AT",
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "6.10.4"
+	},
+}

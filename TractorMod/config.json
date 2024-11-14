@@ -1,5 +1,5 @@
 {
-  "Distance": 1,
+  "Distance": 4,
   "TractorSpeed": -2,
   "SoundEffects": "Tractor",
   "ToolUseSoundLimit": "Default",
@@ -12,7 +12,7 @@
     "(O)337": 5,
     "(O)787": 5
   },
-  "CanSummonWithoutGarage": false,
+  "CanSummonWithoutGarage": true,
   "HighlightRadius": false,
   "StandardAttachments": {
     "Axe": {
@@ -20,7 +20,7 @@
       "ClearFruitTreeSaplings": false,
       "CutGrownFruitTrees": false,
       "CutTreeStumps": true,
-      "ClearTreeSeeds": false,
+      "ClearTreeSeeds": true,
       "ClearTreeSaplings": false,
       "CutGrownTrees": false,
       "CutTappedTrees": false,
@@ -47,17 +47,17 @@
       "Enable": true
     },
     "MeleeBlunt": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "BreakMineContainers": true
     },
     "MeleeDagger": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "ClearDeadCrops": true,
       "BreakMineContainers": true,
       "HarvestGrass": false
     },
     "MeleeSword": {
-      "AttackMonsters": false,
+      "AttackMonsters": true,
       "ClearDeadCrops": true,
       "BreakMineContainers": true,
       "HarvestGrass": false
@@ -81,7 +81,7 @@
       "HarvestGreenRainBushes": true,
       "HarvestTreeMoss": true,
       "HarvestTreeSeeds": true,
-      "HarvestMachines": false,
+      "HarvestMachines": true,
       "HarvestNonBlueGrass": true,
       "HarvestBlueGrass": true,
       "ClearDeadCrops": true,

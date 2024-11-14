@@ -1,0 +1,11 @@
+{
+   "Name": "Delloti's Hairstyles_80type",
+   "Author": "delloti",
+   "Version": "0.1.2",
+   "Description": "헤어 80종 리텍스쳐.",
+   "UniqueID": "delloti.Hair.80",
+   "MinimumApiVersion": "3.0.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}
