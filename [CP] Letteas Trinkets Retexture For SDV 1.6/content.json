@@ -1,0 +1,65 @@
+{
+	"Format": "2.0.0",
+    "Changes": 
+    [
+
+// Combat Trinkets
+
+        {
+			"LogName": "Basilisk Paw",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/BasiliskPaw.png",
+			"ToArea": { "X": 80, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Fairy Box",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/FairyBox.png",
+			"ToArea": { "X": 32, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Frog Egg",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/FrogEgg.png",
+			"ToArea": { "X": 96, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Golden Spur",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/GoldenSpur.png",
+			"ToArea": { "X": 64, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Ice Rod",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/IceRod.png",
+			"ToArea": { "X": 96, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Magic Hair Gel",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/HairGel.png",
+			"ToArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Magic Quiver",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/MagicQuiver.png",
+			"ToArea": { "X": 16, "Y": 144, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Parrot Egg",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/ParrotEgg.png",
+			"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 }
+		}
+	]
+}

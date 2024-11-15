@@ -1,5 +1,5 @@
 {
-  "ToggleKey": "OemPlus",
+  "ToggleKey": "Subtract",
   "ShowEnabledMessage": true,
-  "ShowDisabledMessage": false
+  "ShowDisabledMessage": true
 }
