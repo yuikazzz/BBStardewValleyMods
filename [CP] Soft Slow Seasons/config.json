@@ -1,7 +1,7 @@
 {
   "FallColor": "Orange",
   "RecolorMode": "Rustic",
-  "DarkerPaths": "false",
+  "DarkerPaths": "true",
   "StaticFoliage": "true",
   "TreesandBushes": "true",
   "Grass": "true",

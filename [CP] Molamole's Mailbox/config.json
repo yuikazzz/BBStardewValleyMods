@@ -1,0 +1,14 @@
+{
+  "Farm MailBox Style": "Wood01",
+  "Color": "Classic",
+  "TileColor": "Non",
+  "Island MailBox Style": "I.Wood01",
+  "Base": "I.NonClassic",
+  "Paint": "I.Non",
+  "Cabin MailBox Style": "II.Metal&Wood01",
+  "Base02": "II.Classic",
+  "Paint02": "II.Non",
+  "NoSeasonal": "false",
+  "Farm Randomness": "false",
+  "Island Randomness": "false"
+}

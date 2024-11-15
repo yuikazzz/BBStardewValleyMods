@@ -1,0 +1,59 @@
+{
+	"Format": "2.0.0",
+	"Changes": [
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/map",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_island",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_fall",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_summer",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/map_winter",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/Farm_ranching_map",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/Farm_ranching_map_summer",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/Farm_ranching_map_fall",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+		{
+            "Action": "EditImage",
+            "Target": "LooseSprites/Farm_ranching_map_winter",
+            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "PatchMode": "Overlay",
+		},
+	],
+}

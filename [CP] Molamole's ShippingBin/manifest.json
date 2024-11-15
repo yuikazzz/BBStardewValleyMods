@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Molamole's ShippingBin",
+  "Author": "Molamole",
+  "Version": "1.0.1",
+  "Description": "Some Shipping Bin Textures to match [AT x CP] Molamole's MailBox!",
+  "UniqueID": "Molamole.ShippingBinRetextures.CP",
+  "UpdateKeys": [ "Nexus:23117" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}
