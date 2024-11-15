@@ -1,0 +1,167 @@
+﻿{
+    "Format": "2.0.0",
+	"ConfigSchema": {
+		"Butterfly Toggle": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Section": "Toggle Butterflies",
+			"Description": "You can turn the butteflies on/off."
+		}
+	},
+	"DynamicTokens": [
+		{
+            "Name":"weath",
+            "Value":null,
+            "When":{"Weather":"sun,snow,wind"}
+        },
+        {
+            "Name":"weath",
+            "Value":"_rain",
+            "When":{"Weather":"rain,storm"}
+        },
+        {
+            "Name":"night",
+            "Value":"2000",
+            "When":{"Season":"spring,summer"}
+        },
+        {
+            "Name":"night",
+            "Value":"1900",
+            "When":{"Season":"fall"}
+        },
+        {
+            "Name":"night",
+            "Value":"1800",
+            "When":{"Season":"winter"}
+        }
+	],
+    "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "DLX.PIF/Farms",
+			"Entries": {
+				"birdb.Sunroom": {
+					"DisplayName": "{{i18n:birbsunroom.name}}",
+					"DefaultArrivalTile": { "X": 8, "Y": 13 },
+					"CanPlantHere": true,
+					"ExcludeFromNpcPathfinding": true,
+					"MaxDailyWeeds": 0,
+					
+					"ArrivalTile_T0": { "X": 8, "Y": 13 },
+					
+					"MapAsset_T0": "Maps/PIF/PersonalSunroom",
+					
+					"Preview": "birb.Sunroom_Preview"
+				}
+			}
+		},
+		{
+			"Action": "Load",
+			"Target": "Maps/PIF/PersonalSunroom",
+			"FromFile": "assets/{{TargetWithoutPath}}.tmx"
+		},
+
+		{
+			"Action": "Load",
+			"Target": "Maps/PersonalSunroomTiles, Maps/PersonalSunroomTiles_rain, Maps/butterflies",
+			"FromFile": "assets/tilesheets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Maps/PersonalSunroomTiles",
+			"FromFile": "assets/tilesheets/PersonalSunroomTiles{{weath}}.png",
+			"When": {
+				"Time": "{{Range: 0600, {{night}}}}"
+			},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "Override tiles for night",
+			"Action": "EditImage",
+			"Target": "Maps/PersonalSunroomTiles",
+			"FromFile": "assets/tilesheets/PersonalSunroomTiles_rain.png",
+			"When": {
+				"Time": "{{Range: {{night}}, 2600}}"
+			},
+			"Update": "OnTimeChange"
+		},
+		        //random butterflies
+				{
+					"Action": "EditImage",
+					"Target": "Maps/butterflies",
+					"FromFile": "assets/tilesheets/butterflies_{{Random:1, 2, 3}}.png",
+					"When": {"Butterfly Toggle": true},
+					"Update": "OnLocationChange"
+				},
+		{
+			"Action": "Load",
+			"Target": "birb.Sunroom_Preview",
+			"FromFile": "assets/Preview.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "DLX.PIF/Doors",
+			"Entries": {
+			  "pSunroomDoor": { "RoomId": "birdb.Sunroom" }
+			}
+		},
+		{
+			"LogName": "Load door tilesheet",
+			"Action": "Load",
+			"Target": "pSunroomDoor",
+			"FromFile": "assets/pSunroomDoor.png"
+		},
+		{
+			"LogName": "edit door tilesheet for day",
+			"Action": "EditImage",
+			"Target": "pSunroomDoor",
+			"FromFile": "assets/pSunroomDoor{{weath}}.png",
+			"When": {
+				"Time": "{{Range: 0600, {{night}}}}"
+			},
+			"Update": "OnTimeChange"
+		},
+		{
+			"LogName": "edit door tilesheet for night",
+			"Action": "EditImage",
+			"Target": "pSunroomDoor",
+			"FromFile": "assets/pSunroomDoor_rain.png",
+			"When": {
+				"Time": "{{Range: {{night}}, 2600}}"
+			},
+			"Update": "OnTimeChange"
+		},
+		  
+		{
+			"LogName": "Add door to furniture",
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				"pSunroomDoor": "pSunroomDoor/painting/1 3/1 3/1/20000/-1/{{i18n:birbsundoor.name}}/0/pSunroomDoor"
+			}
+		},
+		
+				{
+					"Action": "EditData",
+					"Target": "Data/Shops",
+					"TargetField": [
+						"Carpenter",
+						"Items"
+					],
+						"Entries": {
+							"pSunroomDoor": {
+							"Price": 10000,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"Id": "pSunroomDoor",
+							"ItemId": "pSunroomDoor",
+							"Currency": 0,
+							"IsRecipe": false
+						}
+					},
+					"When": {
+						"HasSeenEvent": "719926"
+					}
+				}
+			]
+		}

@@ -1,0 +1,10 @@
+{
+   "Name": "Eta's Junimo Furniture recolor",
+   "Author": "Eta",
+   "Version": "1.0.0",
+   "Description": "A simple recolouring of the Junimo Furniture.",
+   "UniqueID": "Eta.JunimoFurnitureRecolor",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+}

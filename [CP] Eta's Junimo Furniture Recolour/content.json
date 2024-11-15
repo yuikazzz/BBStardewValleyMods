@@ -1,0 +1,23 @@
+{
+	"Format": "2.0.0",
+
+	"Changes": [
+
+   {
+          "Action": "EditImage",
+          "Target": "TileSheets/junimo_furniture",
+          "FromFile": "assets/junimo_furniture.png",
+		  "FromArea": { "X": 0, "Y": 0, "Width": 208, "Height": 432 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 208, "Height": 432 },
+		  "PatchMode": "replace",
+       },
+   {
+          "Action": "EditImage",
+          "Target": "TileSheets/junimo_furnitureFront",
+          "FromFile": "assets/junimo_furnitureFront.png",
+		"FromArea": { "X": 0, "Y": 0, "Width": 208, "Height": 432 },
+		  "ToArea": { "X": 0, "Y": 0, "Width": 208, "Height": 432 },
+		  "PatchMode": "replace",
+       },
+],
+}
