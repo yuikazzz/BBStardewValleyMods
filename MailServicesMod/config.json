@@ -23,6 +23,22 @@
       "RecoverAllItems": false,
       "RecoverForFree": false,
       "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "9188069917727814104": {
+      "PlayerName": "豆豆",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-7901460464553189580": {
+      "PlayerName": "bebe",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
     }
   },
   "DisableRecoveryConfigInGameChanges": false,
