@@ -2,11 +2,11 @@
   "Format": "1.29.0",
   "ConfigSchema": {
     "Morning": {
-      "AllowValues": "GoldenHour, TonedDown, MoonShine, PinkSunset, Vanilla",
+      "AllowValues": "GoldenHour, TonedDown, MoonShine, PinkSunset, SunCatcher, BlueHour, Vanilla, GoldenHourVibrant",
       "Default": "GoldenHour"
     },
    "Afternoon": {
-      "AllowValues": "GoldenHour, TonedDown, MoonShine, PinkSunset, Vanilla",
+      "AllowValues": "GoldenHour, TonedDown, MoonShine, PinkSunset, SunCatcher, BlueHour, Vanilla, GoldenHourVibrant",
       "Default": "PinkSunset"
     }
   },
