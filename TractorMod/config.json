@@ -6,7 +6,7 @@
   "SoundEffectsVolume": 70,
   "MagneticRadius": 607,
   "BuildPrice": 5000,
-  "RequireBuildMaterials": true,
+  "RequireBuildMaterials": false,
   "BuildMaterials": {
     "(O)335": 20,
     "(O)337": 5,

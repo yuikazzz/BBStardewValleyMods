@@ -15,7 +15,7 @@
   "HideAnimalPetOnMaxFriendship": true,
   "ShowItemEffectRanges": true,
   "ButtonControlShow": false,
-  "ShowBombRange": false,
+  "ShowBombRange": true,
   "ShowItemsRequiredForBundles": true,
   "ShowHarvestPricesInShop": true,
   "DisplayCalendarAndBillboard": true,
@@ -27,6 +27,6 @@
   "ShowSeasonalBerry": true,
   "ShowSeasonalBerryHazelnut": false,
   "ShowTodaysGifts": true,
-  "HideBirthdayIfFullFriendShip": true,
+  "HideBirthdayIfFullFriendShip": false,
   "ShowLocationOfFriends": {}
 }
