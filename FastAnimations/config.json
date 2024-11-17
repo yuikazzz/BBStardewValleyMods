@@ -29,5 +29,5 @@
   "DialogueTypeSpeed": 4.0,
   "TitleMenuTransitionSpeed": 10.0,
   "LoadGameBlinkSpeed": 2.0,
-  "Experimental_EventSpeed": 1.0
+  "Experimental_EventSpeed": 3.0
 }
