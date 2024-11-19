@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Warm Cozy Fireplaces - 淘宝西西梦幻星露谷 独家整合",
+  "Author": "mioudew - 淘宝西西梦幻星露谷 独家整合",
+  "Version": "2.0.0",
+   "Description": "Fireplace Recolours for your Farmhouse",
+   "UniqueID": "Mi.Fireplaces.AT",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "2.3.0"
+  }
+}

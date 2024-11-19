@@ -1,0 +1,8 @@
+{
+  "ItemName": "Iridium Fireplace",
+  "Type": "Furniture",
+  "TextureWidth": 32,
+  "TextureHeight": 80,
+  "Keywords": [ "Iridium", "Fireplace" ],
+  "Variations": 6
+}

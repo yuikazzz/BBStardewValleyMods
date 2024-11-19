@@ -1,0 +1,118 @@
+﻿{
+  "Format": "1.16.0", // CP , 혹은 SMAPI의 버전을 적어둔다 ( 어느 버전 용으로 만든 모드인가)
+  "ConfigSchema": {
+    "Options_Fairy": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
+
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Characters/Monsters/Fly",
+      "FromFile": "assets/Fairy/Fly.png",
+      "When": {
+        "Options_Fairy": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Monsters/Fly_dangerous",
+      "FromFile": "assets/Fairy/Fly_dangerous.png",
+      "When": {
+        "Options_Fairy": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Monsters/Grub",
+      "FromFile": "assets/Fairy/Grub.png",
+      "When": {
+        "Options_Fairy": true
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/Monsters/Grub_dangerous",
+      "FromFile": "assets/Fairy/Grub_dangerous.png",
+      "When": {
+        "Options_Fairy": true
+      }
+    },
+
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine",
+      "FromFile": "assets/mine.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_dangerous",
+      "FromFile": "assets/mine_dangerous.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_frost",
+      "FromFile": "assets/mine_frost.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_frost_dangerous",
+      "FromFile": "assets/mine_frost_dangerous.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_frost_dark",
+      "FromFile": "assets/mine_frost_dark.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_frost_dark_dangerous",
+      "FromFile": "assets/mine_frost_dark_dangerous.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_lava",
+      "FromFile": "assets/mine_lava.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_lava_dangerous",
+      "FromFile": "assets/mine_lava_dangerous.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_lava_dark",
+      "FromFile": "assets/mine_lava_dark.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_lava_dark_dangerous",
+      "FromFile": "assets/mine_lava_dark_dangerous.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_slime",
+      "FromFile": "assets/mine_slime.png"
+    }, // Overlay
+    { // Overlay
+      "Action": "EditImage",
+      "PatchMode": "Overlay",
+      "Target": "Maps/Mines/mine_slime_dangerous",
+      "FromFile": "assets/mine_slime_dangerous.png"
+    } // Overlay
+
+  ] //"Changes":
+}

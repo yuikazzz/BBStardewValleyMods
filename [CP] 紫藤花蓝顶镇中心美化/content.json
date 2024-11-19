@@ -1,0 +1,16 @@
+{
+	"Format": "1.15.0",
+
+	"Changes": [
+
+		
+//Town
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_town, Maps/{{season}}_town.ko-KR",
+		"FromFile": "assets/{{season}}_town.png",
+        },
+		
+	]
+}

@@ -1,0 +1,313 @@
+{
+	"Format": "1.30.4",
+	"ConfigSchema": {
+		"Column color" : {
+			"AllowValues" : "light, dark",
+            "Default": "light"
+		},
+		"Coop" : {
+			"AllowValues" : "true, false",
+            "Default": "true"
+		},
+		"Bathhouse" : {
+			"AllowValues" : "true, false",
+            "Default": "true"
+		}
+	},
+
+	"Changes": [
+
+
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/bathhouse_tiles, Maps/bathhouse_tiles.{{language}}",
+			"FromFile": "asset/bathhouse_tiles.png",
+			"When": {
+				"Bathhouse": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/CarolineGreenhouseTiles, CarolineGreenhouseTiles_rainy",
+			"FromFile": "asset/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Tilesheets/ChairTiles",
+			"FromFile": "asset/ChairTiles.png",
+				"FromArea": { "X": 128, "Y": 0, "Width": 112, "Height": 32},
+				"ToArea": { "X": 128, "Y": 0, "Width": 112, "Height": 32}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Tilesheets/ChairTiles",
+			"FromFile": "asset/ChairTiles.png",
+				"FromArea": { "X": 0, "Y": 32, "Width": 32, "Height": 32},
+				"ToArea": { "X": 0, "Y": 32, "Width": 32, "Height": 32}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Tilesheets/ChairTiles",
+			"FromFile": "asset/ChairTiles.png",
+				"FromArea": { "X": 0, "Y": 96, "Width": 32, "Height": 32},
+				"ToArea": { "X": 0, "Y": 96, "Width": 32, "Height": 32}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/coopTiles, Maps/coopTiles.{{language}}",
+			"FromFile": "asset/coopTiles.png",
+			"When": {
+				"Coop": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "asset/Cursors.png",
+			"FromArea": {"X":512, "Y":144, "Width":192, "Height":48},
+			"ToArea": {"X":512, "Y":144, "Width":192, "Height":48}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "LooseSprites/Cursors, LooseSprites/Cursors.{{language}}",
+			"FromFile": "asset/Cursors.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/ElliottHouseTiles",
+			"FromFile": "asset/ElliottHouseTiles.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "asset/farmhouse_tiles.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "asset/farmhouse_tiles_darkbrown.png",
+			"When": {
+				"Column color": "dark"
+				}
+		},
+		{
+			"Action": "EditMap",
+			"PatchMode": "Replace",
+			"Target": "Maps/HaleyHouse",
+			"FromFile": "asset/mapfix/HaleyHousefix.tbin",
+			"ToArea": { "X": 0, "Y": 0, "Width": 11, "Height": 5 },
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/JojaRuins_TileSheet.png",
+			"FromFile": "asset/JojaRuins_TileSheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/LeoTreeHouse_Tilesheet.png",
+			"FromFile": "asset/LeoTreeHouse_Tilesheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/MovieTheater_TileSheet",
+			"FromFile": "asset/MovieTheater_TileSheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "asset/MovieTheaterJoja_TileSheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/MovieTheaterScreen_TileSheet",
+			"FromFile": "asset/MovieTheaterScreen_TileSheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/SewerTiles",
+			"FromFile": "asset/SewerTiles.png"
+			},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/submarine_tilesheet",
+			"FromFile": "asset/submarine_tilesheet.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/townInterior, Maps/townInterior.{{language}}",
+			"FromFile": "asset/townInterior.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/townInterior, Maps/townInterior.{{language}}",
+			"FromFile": "asset/townInterior_darkbrown.png",
+			"When": {
+				"Column color": "dark"
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/townInterior_2",
+			"FromFile": "asset/townInterior_2.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/townInterior_2",
+			"FromFile": "asset/townInterior_2_darkbrown.png",
+			"When": {
+				"Column color": "dark"
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/WitchHutTiles",
+			"FromFile": "asset/WitchHutTiles.png"
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "TileSheets/furniture_2",
+			"FromFile": "asset/furniture_2.png",
+			"FromArea": {"X":0, "Y":256, "Width":192, "Height":48},
+			"ToArea": {"X":0, "Y":256, "Width":192, "Height":48}
+		},
+
+
+//SVE		
+		
+
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras",
+			"FromFile": "asset/SVE/spring_z_extras.png",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras",
+			"FromFile": "asset/SVE/spring_z_extras.png",
+			"FromArea": {"X":128, "Y":400, "Width":48, "Height":64},
+			"ToArea": {"X":128, "Y":400, "Width":48, "Height":64},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras",
+			"FromFile": "asset/SVE/spring_z_extras.png",
+			"FromArea": {"X":176, "Y":416, "Width":32, "Height":48},
+			"ToArea": {"X":176, "Y":416, "Width":32, "Height":48},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras",
+			"FromFile": "asset/SVE/spring_z_extras.png",
+			"FromArea": {"X":112, "Y":1088, "Width":128, "Height":48},
+			"ToArea": {"X":112, "Y":1088, "Width":128, "Height":48},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras",
+			"FromFile": "asset/SVE/spring_z_extras.png",
+			"FromArea": {"X":128, "Y":3280, "Width":48, "Height":32},
+			"ToArea": {"X":128, "Y":3280, "Width":48, "Height":32},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/spring_z_extras,Maps/summer_z_extras,Maps/fall_z_extras,Maps/winter_z_extras",
+			"FromFile": "asset/SVE/spring_z_extras.png",
+			"FromArea": {"X":128, "Y":3312, "Width":96, "Height":48},
+			"ToArea": {"X":128, "Y":3312, "Width":96, "Height":48},
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditMap",
+			"PatchMode": "Replace",
+			"Target": "Maps/HaleyHouse",
+			"FromFile": "asset/SVE/HaleyHouse_new.tbin",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "Maps/FirstSlashGuildBuilding, Maps/spring_GrampletonSuburbsTilesheet, Maps/ZCCC_MainHall_Tilesheet",
+			"FromFile": "asset/SVE/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/VanillaCraftables, Maps/VanillaFurniture, Maps/VanillaWallsAndFloors, Maps/Arcade_Couch, Maps/BathroomTilesheet, Maps/HanksGarage_Tilesheet, Maps/JojaPetStore, Maps/SakuraVineyardDiningRoomTilesheet, Maps/ZCCC_FoodCourt_Tilesheet, Maps/ZCCC_Stage_Tilesheet",
+			"FromFile": "asset/SVE/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+				}
+		},
+
+
+//RSV         
+
+		{
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "Maps/FreddieShedItems, Maps/sproomsts, Maps/z_rsvinterior, Maps/zridgesideCraftables, Maps/zridgesidefurniture, Maps/zrsvspouses, Maps/zrsv3brosInterior, Maps/zFreddieShedItems, Maps/zrsvwallsfloorcopy",
+			"FromFile": "asset/RSV/{{TargetWithoutPath}}.png",
+			"When": {
+				"HasMod |contains=Rafseazz.RSVCP": true
+				}
+		}
+
+		
+
+	]
+}

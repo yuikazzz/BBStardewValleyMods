@@ -1,0 +1,15 @@
+{
+    "Name": "[CP] Fountain Swing Float",   
+    "Author": "",   
+    "Version": "1.0.0",
+    "Description": "Add Fountain Swing Float", 
+    "UniqueID": "285066",
+    "UpdateKeys": ["Nexus: "],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    }
+}
+
+
+

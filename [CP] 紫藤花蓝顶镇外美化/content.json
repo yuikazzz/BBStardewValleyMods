@@ -1,0 +1,35 @@
+{
+	"Format": "1.15.0",
+
+	"Changes": [
+
+//Cursors
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "LooseSprites/Cursors, LooseSprites/Cursors.ko-KR",
+		"FromFile": "assets/Cursors.png",
+		},
+		
+//Outdoors Tilesheets
+		{
+		"Action": "EditImage",
+		"PatchMode": "Overlay",
+		"Target": "Maps/{{season}}_outdoorsTilesheet, Maps/{{season}}_outdoorsTilesheet.ko-KR",
+		"FromFile": "assets/{{season}}_outdoorsTilesheet.png",
+                         },
+
+//Summer_OutdoorsTilesheet Fix
+                        {
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/summer_outdoorsTilesheet, Maps/summer_outdoorsTilesheet.ko-KR",
+		"FromFile": "assets/summer_outdoorsTilesheet.png",
+                         "FromArea": { "X": 336, "Y": 464, "Width": 16, "Height": 32 },
+                         "ToArea": { "X": 336, "Y": 464, "Width": 16, "Height": 32 }
+
+                        }
+
+		
+	]
+}
