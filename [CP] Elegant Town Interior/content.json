@@ -16,7 +16,21 @@
 	},
 
 	"Changes": [
-
+		{
+			"Action":"EditMap",
+			"Target":"Maps/AdventureGuild, Maps/AnimalShop, Maps/ArchaeologyHouse, Maps/Blacksmith, Maps/CommunityCenter_Joja, Maps/CommunityCenter_Refurbished, Maps/ElliottHouse, Maps/FishShop, Maps/HaleyHouse, Maps/HarveyRoom, Maps/Hospital, Maps/JojaMart, Maps/JoshHouse, Maps/LeahHouse, Maps/MovieTheater, Maps/SamHouse, Maps/SandyHouse, Maps/ScienceHouse, Maps/SebastianRoom, Maps/SeedShop, Maps/Trailer, Maps/Trailer_Big, Maps/Coop, Maps/Coop2, Maps/Coop3, Maps/Barn, Maps/Barn2, Maps/Barn3, Maps/Tent",
+			"MapProperties":{"AmbientLight":"80 80 80"},
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Saloon",
+			"MapProperties":{"AmbientLight":"55 85 132"},
+		},		
+		{
+			"Action":"EditMap",
+			"Target":"Maps/BathHouse_Entry, BathHouse_Pool, BathHouse_MensLocker, BathHouse_WomensLocker",
+			"MapProperties":{"AmbientLight":"255 255 255"},
+		},
 
 		{
 			"Action": "EditImage",
@@ -197,11 +211,7 @@
 			"FromArea": {"X":0, "Y":256, "Width":192, "Height":48},
 			"ToArea": {"X":0, "Y":256, "Width":192, "Height":48}
 		},
-
-
-//SVE		
-		
-
+//sve
 		{
 			"Action": "EditImage",
 			"PatchMode": "Overlay",
@@ -295,7 +305,7 @@
 		},
 
 
-//RSV         
+//RSV
 
 		{
 			"Action": "EditImage",
