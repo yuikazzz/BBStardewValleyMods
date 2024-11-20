@@ -280,7 +280,8 @@
         "FromFile": "assets/Cursors.png",
         "FromArea": { "X":405, "Y": 1916, "Width": 84, "Height": 8 },
         "ToArea": { "X":405, "Y": 1916, "Width": 84, "Height": 8 }
-    }
+    },
+    
     {
         "Action": "EditImage",
         "Patchmode": "replace",
@@ -305,7 +306,7 @@
         "FromFile": "assets/Cursors.png",
         "FromArea": { "X": 384, "Y": 1962, "Width": 32, "Height": 35 },
         "ToArea": { "X": 384, "Y": 1962, "Width": 32, "Height": 35 }
-    }
+    },
     //morris
     {
         "Action": "EditImage",
