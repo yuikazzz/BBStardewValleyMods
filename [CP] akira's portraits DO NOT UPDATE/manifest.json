@@ -1,0 +1,11 @@
+{
+   "Name": "akira's portraits",
+   "Author": "akira",
+   "Version": "1.0",
+   "Description": "Replaces residents portraits, with nyapu's",
+   "UniqueID": "akira.Portraits",
+   "UpdateKeys": [ "Nexus:11491" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	   }
+}

@@ -1,0 +1,49 @@
+{
+    "Format": "2.3.0",
+    "ConfigSchema": {
+     "Premium Barn":{
+             "AllowValues": "true, false",
+             "Default": true,
+             "Description": "Untick box to disable" 
+         },
+    "Premium Coop":{
+             "AllowValues": "Off, Default, Darker",
+             "Default": "Default"
+         },
+    "Winery":{
+            "AllowValues": "true, false",
+            "Default": true,
+            "Description": "Untick box to disable" 
+        }
+     },
+     "Changes": [
+ {
+         "LogName": "Premium Barn Retexture",
+         "Action": "EditImage",
+         "Target": "Buildings/SVE_PremiumBarn",
+         "FromFile": "assets/PremiumBarn.png",
+         "When": {"Premium Barn": true}
+         },
+    {
+         "LogName": "Premium Coop Retexture Default",
+         "Action": "EditImage",
+         "Target": "Buildings/SVE_PremiumCoop",
+          "FromFile": "assets/PremiumCoop1.png",
+         "When": {"Premium Coop": "Default"}
+        },
+    {
+        "LogName": "Premium Coop Retexture Darker",
+         "Action": "EditImage",
+         "Target": "Buildings/SVE_PremiumCoop",
+         "FromFile": "assets/PremiumCoop2.png",
+         "When": {"Premium Coop": "Darker"}
+           },
+    {
+         "LogName": "Winery Retexture",
+         "Action": "EditImage",
+         "Target": "Buildings/SVE_Winery",
+         "FromFile": "assets/Winery.png",
+        "When": {"Winery": true}
+        }
+ ]
+ }
