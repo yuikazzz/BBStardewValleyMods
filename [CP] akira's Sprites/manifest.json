@@ -1,0 +1,9 @@
+{
+    "Name": "Prettier Sprites",
+    "Author": "Akira",
+    "Version": "1.3.0",
+    "Description": "Replaces sprites.",
+    "UniqueID": "Akira.PrettierSprites",
+    "UpdateKeys": ["Nexus:23085"],
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

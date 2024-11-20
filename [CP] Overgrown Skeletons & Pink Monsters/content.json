@@ -1,0 +1,613 @@
+{
+    "Format": "2.0.0",
+	  "ConfigSchema": {
+
+    "Armored Bug": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+    "Armored Bug_dangerous": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Assassin Bug": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Bat": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Bat_dangerous": {
+         "AllowValues": "true, false",
+         "Default": "true"
+      },
+	"Bug": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	"Bug_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	"Carbon Ghost": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Duggy": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Duggy_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Dust Spirit": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Dust Spirit_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Dwarvish Sentry": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Fly": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Fly_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Frost Bat": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Frost Bat_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Ghost": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Grub": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Grub_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Haunted Skull": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Haunted Skull_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Hot Head": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Iridium Bat": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Iridium Golem":{
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Lava Bat": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	   "Lava Lurk": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Magma Duggy": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Magma Sparker": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Magma Sprite": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Metal Head": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Metal Head_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Mummy": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Mummy_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Pepper Rex": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Putrid Ghost": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Royal Serpent": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Serpent": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	   "Shadow Brute": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Shadow Brute_dangerous": {
+		"AllowValues": "old, new, false",
+		"Default": "new"
+	  },
+	  "Shadow Girl": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Shadow Shaman": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Shadow Shaman_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Shadow Sniper": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Skeleton Mage": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Skeleton Mage_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Skeleton": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Skeleton_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Spider": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	   "Spiker": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Squid Kid": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Squid Kid_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Stick Bug": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Stone Golem": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Stone Golem_dangerous": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  },
+	  "Wilderness Golem": {
+		"AllowValues": "true, false",
+		"Default": "true"
+	  }
+  },
+    "Changes": [
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Armored Bug",
+          "FromFile": "assets/Armored Bug.png",
+				"When": { "Armored Bug": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Armored Bug_dangerous",
+          "FromFile": "assets/Armored Bug_dangerous.png",
+				"When": { "Armored Bug_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Assassin Bug",
+          "FromFile": "assets/Assassin Bug.png",
+				"When": { "Assassin Bug": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Bat",
+          "FromFile": "assets/Bat.png",
+				"When": { "Bat": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Bat_dangerous",
+          "FromFile": "assets/Bat_dangerous.png",
+				"When": { "Bat_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Bug",
+          "FromFile": "assets/Bug.png",
+				"When": { "Bug": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Bug_dangerous",
+          "FromFile": "assets/Bug_dangerous.png",
+				"When": { "Bug_dangerous": "true" }
+    },
+		{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Carbon Ghost",
+          "FromFile": "assets/Carbon Ghost.png",
+				"When": { "Carbon Ghost": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Duggy",
+          "FromFile": "assets/Duggy.png",
+		    	"When": { "Duggy": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Duggy_dangerous",
+          "FromFile": "assets/Duggy_dangerous.png",
+		    	"When": { "Duggy_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Dust Spirit",
+          "FromFile": "assets/Dust Spirit.png",
+				"When": { "Dust Spirit": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Dust Spirit_dangerous",
+          "FromFile": "assets/Dust Spirit_dangerous.png",
+				"When": { "Dust Spirit_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Dwarvish Sentry",
+          "FromFile": "assets/Dwarvish Sentry.png",
+				"When": { "Dwarvish Sentry": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Fly",
+          "FromFile": "assets/Fly.png",
+				"When": { "Fly": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Fly_dangerous",
+          "FromFile": "assets/Fly_dangerous.png",
+				"When": { "Fly_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Frost Bat",
+          "FromFile": "assets/Frost Bat.png",
+		  		"When": { "Frost Bat": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Frost Bat_dangerous",
+          "FromFile": "assets/Frost Bat_dangerous.png",
+		   		"When": { "Frost Bat_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Ghost",
+          "FromFile": "assets/Ghost.png",
+		  		"When": { "Ghost": "true" }
+    },
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Green Slime",
+		"FromFile": "assets/Green Slime.png"
+  	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Green Slime_dangerous",
+		"FromFile": "assets/Green Slime_dangerous.png"
+  	},
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Grub",
+          "FromFile": "assets/Grub.png",
+		  		"When": { "Grub": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Grub_dangerous",
+          "FromFile": "assets/Grub_dangerous.png",
+		  		"When": { "Grub_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Haunted Skull",
+          "FromFile": "assets/Haunted Skull.png",
+				"When": { "Haunted Skull": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Haunted Skull_dangerous",
+          "FromFile": "assets/Haunted Skull_dangerous.png",
+				"When": { "Haunted Skull_dangerous": "true" }
+		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Hot Head",
+          "FromFile": "assets/Hot Head.png",
+				"When": { "Hot Head": "true" }
+		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Iridium Bat",
+          "FromFile": "assets/Iridium Bat.png",
+				"When": { "Iridium Bat": "true" }
+		  
+    },
+		{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Iridium Golem",
+          "FromFile": "assets/Iridium Golem.png",
+				"When": { "Iridium Golem": "true" }
+		  
+    },
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Iridium Crab",
+		"FromFile": "assets/Iridium Crab.png"
+  	},
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Lava Bat",
+          "FromFile": "assets/Lava Bat.png",
+		    	"When": { "Lava Bat": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Lava Lurk",
+          "FromFile": "assets/Lava Lurk.png",
+		    	"When": { "Lava Lurk": "true" }
+    },
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Lava Crab",
+		"FromFile": "assets/Lava Crab.png"
+  	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Lava Crab_dangerous",
+		"FromFile": "assets/Lava Crab_dangerous.png"
+  	},
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Magma Duggy",
+          "FromFile": "assets/Magma Duggy.png",
+		    	"When": { "Magma Duggy": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Magma Sparker",
+          "FromFile": "assets/Magma Sparker.png",
+				"When": { "Magma Sparker": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Magma Sprite",
+          "FromFile": "assets/Magma Sprite.png",
+				"When": { "Magma Sprite": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Metal Head",
+          "FromFile": "assets/Metal Head.png",
+				"When": { "Metal Head": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Metal Head_dangerous",
+          "FromFile": "assets/Metal Head_dangerous.png",
+		  		"When": { "Metal Head_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Mummy",
+          "FromFile": "assets/Mummy.png",
+				"When": { "Mummy": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Mummy_dangerous",
+          "FromFile": "assets/Mummy_dangerous.png",
+				"When": { "Mummy_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Pepper Rex",
+          "FromFile": "assets/Pepper Rex.png",
+				"When": { "Pepper Rex": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Putrid Ghost",
+          "FromFile": "assets/Putrid Ghost.png",
+				"When": { "Putrid Ghost": "true" }
+    },
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Rock Crab",
+		"FromFile": "assets/Rock Crab.png"
+  	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Rock Crab_dangerous",
+		"FromFile": "assets/Rock Crab_dangerous.png"
+  	},
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Royal Serpent",
+          "FromFile": "assets/Royal Serpent.png",
+				"When": { "Royal Serpent": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Serpent",
+          "FromFile": "assets/Serpent.png",
+				"When": { "Serpent": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Brute",
+          "FromFile": "assets/Shadow Brute.png", 
+				"When": { "Shadow Brute": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Brute_dangerous",
+          "FromFile": "assets/Shadow Brute_dangerous.png", 
+				"When": { "Shadow Brute_dangerous": "new" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Brute_dangerous",
+          "FromFile": "assets/Shadow Brute_dangerous_Old.png", 
+				"When": { "Shadow Brute_dangerous": "old" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Girl",
+          "FromFile": "assets/Shadow Girl.png", 
+				"When": { "Shadow Girl": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Shaman",
+          "FromFile": "assets/Shadow Shaman.png", 
+		  		"When": { "Shadow Shaman": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Shaman_dangerous",
+          "FromFile": "assets/Shadow Shaman_dangerous.png", 
+				"When": { "Shadow Shaman_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Shadow Sniper",
+          "FromFile": "assets/Shadow Sniper.png",
+				"When": { "Shadow Sniper": "true" }		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Skeleton Mage",
+          "FromFile": "assets/Skeleton Mage.png",
+				"When": { "Skeleton Mage": "true" }		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Skeleton Mage_dangerous",
+          "FromFile": "assets/Skeleton Mage_dangerous.png",	
+				"When": { "Skeleton Mage_dangerous": "true" }			  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Skeleton",
+          "FromFile": "assets/Skeleton.png",	
+				"When": { "Skeleton": "true" }		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Skeleton_dangerous",
+          "FromFile": "assets/Skeleton_dangerous.png",
+				"When": { "Skeleton_dangerous": "true" }			  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Spider",
+          "FromFile": "assets/Spider.png",
+				"When": { "Spider": "true" }		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Spiker",
+          "FromFile": "assets/Spiker.png",
+				"When": { "Spiker": "true" }		  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Squid Kid",
+          "FromFile": "assets/Squid Kid.png",	
+				"When": { "Squid Kid": "true" }			  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Squid Kid_dangerous",
+          "FromFile": "assets/Squid Kid_dangerous.png",	
+				"When": { "Squid Kid_dangerous": "true" }			  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Stick Bug",
+          "FromFile": "assets/Stick Bug.png",	
+				"When": { "Stick Bug": "true" }			  
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Stone Golem",
+          "FromFile": "assets/Stone Golem.png", 
+		  		"When": { "Stone Golem": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Stone Golem_dangerous",
+          "FromFile": "assets/Stone Golem_dangerous.png", 
+				"When": { "Stone Golem_dangerous": "true" }
+    },
+	{
+          "Action": "EditImage",
+          "Target": "Characters/Monsters/Wilderness Golem",
+          "FromFile": "assets/Wilderness Golem.png", 
+				"When": { "Wilderness Golem": "true" }
+    }
+    ]
+}
