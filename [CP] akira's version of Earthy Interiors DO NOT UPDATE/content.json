@@ -39,7 +39,7 @@
 			"Action":"EditImage",
 			"Target":"Maps/walls_and_floors",
 			"FromFile":"assets/walls_and_floors.png"
-		}
+		},
 		//1.6 wallpapers
 		{
 			"Action":"EditImage",
