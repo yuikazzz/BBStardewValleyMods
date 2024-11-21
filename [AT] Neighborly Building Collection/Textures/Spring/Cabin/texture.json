@@ -1,0 +1,8 @@
+{
+  "ItemName": "Neighbor Cabin",
+  "Type": "Building",
+  "Seasons": ["Spring"],
+  "TextureWidth": 240,
+  "TextureHeight": 112,
+  "Variations": 1
+}

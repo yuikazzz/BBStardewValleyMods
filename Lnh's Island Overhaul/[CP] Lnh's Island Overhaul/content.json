@@ -1,0 +1,493 @@
+{
+    "Format": "2.0",
+
+    "ConfigSchema": {
+        "EnableIslandFarmCave": {
+			"AllowValues": "true, false",
+			"Default": true,
+            "Description": "Enable or disable the Island Farm Cave."
+		},
+        "EnableIslandShed": {
+			"AllowValues": "true, false",
+			"Default": true,
+            "Description": "Enable or disable the Island Shed."
+		}
+	},
+
+    "CustomLocations": [
+        {
+            "Name": "Custom_IslandFarmCave",
+            "FromMapFile": "assets/IslandFarmCave.tmx"
+        },
+        {
+            "Name": "Custom_Birdie_House",
+            "FromMapFile": "assets/Birdie_House.tmx"
+        },
+        {
+            "Name": "Custom_Island_NW",
+            "FromMapFile": "assets/Island_NW.tmx"
+        },
+        {
+            "Name": "Custom_Island_Shed",
+            "FromMapFile": "assets/Island_Shed.tmx"
+        }
+    ],
+
+    "Changes": [
+        //加载地图
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_E",
+            "FromFile": "assets/Island_E.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_Shrine",
+            "FromFile": "assets/Island_Shrine.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_S",
+            "FromFile": "assets/Island_S.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_Resort",
+            "FromFile": "assets/Island_Resort.tmx",
+            "When":{
+                "HasMod |contains=VoidWitchCult.CP.TheFishmongerNPC": false
+			}
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_Resort",
+            "FromFile": "assets/Island_Resort1.tmx",
+            "When":{
+                "HasMod |contains=VoidWitchCult.CP.TheFishmongerNPC": true
+			}
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_SE",
+            "FromFile": "assets/Island_SE.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/IslandSouthEastCave",
+            "FromFile": "assets/IslandSouthEastCave.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/IslandSouthEastCave_pirates",
+            "FromFile": "assets/IslandSouthEastCave_pirates.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_N",
+            "FromFile": "assets/Island_N.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_N_Trader",
+            "FromFile": "assets/Island_N_Trader.tmx"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/Island_W",
+            "FromFile": "assets/Island_W.tmx"
+        },
+        //姜岛农场洞穴
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "Assets/Road/IslandFarmCave_Road.tmx",
+            "ToArea": {
+                "X": 25,
+                "Y": 7,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "EnableIslandFarmCave": true
+            }
+        },
+        //姜岛农场小屋
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "Assets/Road/Island_Shed_Road.tmx",
+            "ToArea": {
+                "X": 45,
+                "Y": 6,
+                "Width": 8,
+                "Height": 8
+            },
+            "When": {
+                "EnableIslandShed": true
+            }
+        },
+        //东南部和圣地的路
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_Shrine",
+            "FromFile": "Assets/Road/Island_Shrine_Road.tmx",
+            "ToArea": {
+                "X": 33,
+                "Y": 46,
+                "Width": 2,
+                "Height": 2
+            },
+            "AddWarps": [
+                "33 48 IslandSouthEast 12 7",
+                "34 48 IslandSouthEast 13 7"
+                ],
+            "When": {
+                "HasFlag": "Island_Resort"
+            },
+            "PatchMode": "Overlay"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_SE",
+            "FromFile": "Assets/Road/Island_SE_Road.tmx",
+            "ToArea": {
+                "X": 12,
+                "Y": 7,
+                "Width": 2,
+                "Height": 2
+            },
+            "AddWarps": [
+                "12 5 IslandShrine 33 47",
+                "13 5 IslandShrine 34 47"
+                ],
+            "When": {
+                "HasFlag": "Island_Resort"
+            }
+        },
+        //矿区的桥
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_N",
+            "FromFile": "Assets/Road/Island_N_Road.tmx",
+            "ToArea": {
+                "X": 23,
+                "Y": 65,
+                "Width": 3,
+                "Height": 4
+            },
+            "When": {
+                "HasFlag": "Island_UpgradeBridge"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_N",
+            "AddWarps": [
+                "-1 60 Custom_Island_NW 49 39",
+                "-1 61 Custom_Island_NW 49 39"
+                ],
+            "When": {
+                "HasFlag": "Island_UpgradeBridge"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Island_NW",
+            "AddWarps": [
+                "50 39 IslandNorth 0 60",
+                "50 40 IslandNorth 0 60"
+                ],
+            "When": {
+                "HasFlag": "Island_UpgradeBridge"
+            },
+            "Update": "OnLocationChange"
+        },
+        //农场和南部的路
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_S",
+            "FromFile": "Assets/Road/Island_S_Road.tmx",
+            "ToArea": {
+                "X": 0,
+                "Y": 52,
+                "Width": 2,
+                "Height": 2
+            },
+            "AddWarps": [
+                "-1 52 IslandWest 109 88",
+                "-1 53 IslandWest 109 88",
+                "-1 54 IslandWest 109 88"
+                ],
+            "When": {
+                "HasFlag": "Island_Turtle"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "Assets/Road/Island_W_Road.tmx",
+            "ToArea": {
+                "X": 108,
+                "Y": 87,
+                "Width": 2,
+                "Height": 2
+            },
+            "AddWarps": [
+                "110 87 IslandSouth 0 52",
+                "110 88 IslandSouth 0 52",
+                "110 89 IslandSouth 0 52"
+                ],
+            "When": {
+                "HasFlag": "Island_Turtle"
+            },
+            "Update": "OnLocationChange"
+        },
+        //农场和西北部的路
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Island_NW",
+            "FromFile": "Assets/Road/Island_NW_Road.tmx",
+            "ToArea": {
+                "X": 13,
+                "Y": 49,
+                "Width": 2,
+                "Height": 1
+            },
+            "AddWarps": [
+                "13 50 IslandWest 71 2",
+                "14 50 IslandWest 71 2"
+                ],
+            "When": {
+                "HasFlag": "Island_Turtle"
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "Assets/Road/Island_W_NW_Road.tmx",
+            "ToArea": {
+                "X": 71,
+                "Y": 0,
+                "Width": 2,
+                "Height": 4
+            },
+            "When": {
+                "HasFlag": "Island_Turtle"
+            },
+            "Update": "OnLocationChange"
+        },
+        //农场和丛林岛的路
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Island_W",
+            "FromFile": "Assets/Road/Island_W_JungleIsland.tmx",
+            "ToArea": {
+                "X": 19,
+                "Y": 0,
+                "Width": 2,
+                "Height": 5
+            },
+            "When": {
+                "HasFlag": "Island_Turtle",
+                "HasMod |contains=Lnh.CustomMpas": true
+            },
+            "Update": "OnLocationChange"
+        },
+        //SVE兼容
+        {
+			"Action":"EditMap",
+			"Target":"Maps/Island_W",
+			"FromFile":"assets/SVECompatibleFiles/IslandWestLanceSecretWarpPath.tmx",
+			"When":{
+				"HasSeenEvent":"65360194",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"ToArea":{
+				"X":71,
+				"Y":0,
+				"Width":8,
+				"Height":8
+			},
+			"Update":"OnLocationChange"
+		},
+        {
+			"Action":"EditMap",
+			"Target":"Maps/Island_W",
+			"FromFile":"assets/SVECompatibleFiles/Island_W_MoveFlower.tbin",
+			"ToArea":{
+				"X":88,
+				"Y":91,
+				"Width":7,
+				"Height":5
+			},
+            "When":{
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+        {
+			"Action":"EditMap",
+			"Target":"Maps/Island_S",
+			"FromFile":"assets/SVECompatibleFiles/Island_S_CoralReefs.tbin",
+			"ToArea":{
+				"X":0,
+				"Y":0,
+				"Width":43,
+				"Height":60
+			},
+            "When":{
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Island_W",
+			"FromFile":"assets/SVECompatibleFiles/Island_W_CoralReefs.tbin",
+			"ToArea":{
+				"X":0,
+				"Y":0,
+				"Width":110,
+				"Height":110
+			},
+            "When":{
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+		{
+			"Action":"EditMap",
+			"Target":"Maps/Island_SE",
+			"FromFile":"assets/SVECompatibleFiles/Island_SE_CoralReefs.tbin",
+			"ToArea":{
+				"X":0,
+				"Y":0,
+				"Width":43,
+				"Height":65
+			},
+            "When":{
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+			}
+		},
+        //鱼贩兼容
+        {
+			"Action":"EditMap",
+			"Target":"Maps/Island_S",
+			"FromFile":"assets/Island_S1.tmx",
+			"ToArea":{
+				"X":24,
+				"Y":30,
+				"Width":19,
+				"Height":30
+			},
+            "When":{
+                "HasMod |contains=VoidWitchCult.CP.TheFishmongerNPC": true
+			}
+		},
+        {
+            "Action": "Load",
+            "Target": "Maps/Fishmonger_GingerIsland_Tilesheet",
+            "FromFile": "assets/Fishmonger_GingerIsland_Tilesheet.png",
+            "When":{
+                "HasMod |contains=VoidWitchCult.CP.TheFishmongerNPC": true
+			}
+        },
+        //加载图块集
+        {
+            "Action": "Load",
+            "Target": "Maps/IslandCave_Leaf",
+            "FromFile": "assets/IslandCave_Leaf.png"
+        },
+        {
+            "Action": "Load",
+            "Target": "Maps/z_Waterfalls_1",
+            "FromFile": "assets/z_Waterfalls_1.png"
+        },
+        //鱼类
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_Island_NW": {
+                    "DisplayName": "Custom_Island_NW",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_Island_NW"
+                    },
+                    "Fish": [
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)701",
+                            "ItemId": "(O)153",
+                            "Condition": "LOCATION_Season Here Summer Fall"
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)838",
+                            "ItemId": "(O)838",
+                            "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)269",
+                            "ItemId": "(O)269",
+                            "Condition": "LOCATION_Season Here Fall Winter"
+                        }
+                    ],
+                    "ArtifactSpots": [
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)791",
+                            "ItemID": "(O)791",
+                            "Chance": 0.1
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)292",
+                            "ItemID": "(O)292",
+                            "Chance": 0.1
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)774",
+                            "ItemID": "(O)774",
+                            "Chance": 0.1
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)749",
+                            "ItemID": "(O)749",
+                            "Chance": 1
+                        }
+                    ]
+                },
+                "Custom_IslandFarmCave": {
+                    "DisplayName": "Custom_IslandFarmCave",
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_IslandFarmCave"
+                    },
+                    "Fish": [
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)155",
+                            "ItemId": "(O)155",
+                            "Condition": "LOCATION_Season Here Summer Fall"
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)130",
+                            "ItemId": "(O)130",
+                            "Condition": "LOCATION_Season Here Summer Winter"
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)128",
+                            "ItemId": "(O)128",
+                            "Condition": "LOCATION_Season Here Summer"
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)267",
+                            "ItemId": "(O)267",
+                            "Condition": "LOCATION_Season Here Spring Summer"
+                        },
+                        {
+                            "Id": "Lnh.IslandOverhaul_(O)836",
+                            "ItemId": "(O)836",
+                            "Condition": "LOCATION_Season Here Spring Summer Fall Winter"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
