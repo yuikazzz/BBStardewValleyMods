@@ -38,8 +38,8 @@
 //beach
         {
             "Action": "EditImage",
-            "Target": "Maps/spring_beach, Maps/summer_beach, Maps/fall_beach, Maps/winter_beach",
-            "FromFile": "assets//{{Target}}.png"
+            "Target": "Maps/{{season}}__beach",
+            "FromFile": "assets/{{season}}_beach.png"
         }
 
 	]
