@@ -43,8 +43,8 @@
     "-1024872623653877677": {
       "PlayerName": "bb",
       "DisableRecoveryConfigInGameChanges": false,
-      "EnableRecoveryService": false,
-      "RecoverAllItems": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
       "RecoverForFree": false,
       "DisableClearLostItemsOnRandomRecovery": false
     }
