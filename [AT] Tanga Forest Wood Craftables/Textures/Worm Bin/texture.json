@@ -1,0 +1,13 @@
+{
+    "ItemName": "Worm Bin",
+    "Type": "Craftable",
+    "Keywords": [ "Forest" ],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Forest Wood Worm Bin"
+      }
+  ]
+}

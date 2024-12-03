@@ -1,0 +1,13 @@
+{
+    "ItemName": "Oil Maker",
+    "Type": "Craftable",
+    "Keywords": [ "Forest" ],
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Forest Wood Oil Maker"
+      }
+  ]
+}

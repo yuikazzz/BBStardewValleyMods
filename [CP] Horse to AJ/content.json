@@ -1,0 +1,10 @@
+{
+  "Format": "2.4.0",
+  "Changes": [
+       {
+          "Action": "Load",
+          "Target": "Animals/Horse",
+          "FromFile": "assets/MLPAJ.png"
+       }
+    ]
+}

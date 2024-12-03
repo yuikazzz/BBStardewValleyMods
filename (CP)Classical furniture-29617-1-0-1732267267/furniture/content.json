@@ -1,0 +1,600 @@
+{
+    "Format": "2.0.0",
+    "Changes": [
+        {
+            "Action": "EditData",    
+            "Target": "Data/Furniture",   
+            "Entries": {
+
+                 "{{ModID}}_家具ID_0": "{{ModID}}_家具ID_0/couch/2 3/2 1/1/100/2/{{i18n:家具ID_0}}/0/Mods\\{{ModID}}\\家具ID_0",
+                "{{ModID}}_家具ID_1": "{{ModID}}_家具ID_1/decor/1 2/1 1/2/100/2/{{i18n:家具ID_1}}/0/Mods\\{{ModID}}\\家具ID_1",
+                "{{ModID}}_家具ID_2": "{{ModID}}_家具ID_2/decor/1 2/1 1/2/100/2/{{i18n:家具ID_2}}/2/Mods\\{{ModID}}\\家具ID_2",
+                "{{ModID}}_家具ID_3": "{{ModID}}_家具ID_3/decor/1 2/1 1/2/100/2/{{i18n:家具ID_3}}/4/Mods\\{{ModID}}\\家具ID_3",   
+                "{{ModID}}_家具ID_4": "{{ModID}}_家具ID_4/decor/1 2/1 1/2/100/2/{{i18n:家具ID_4}}/6/Mods\\{{ModID}}\\家具ID_4", 
+                "{{ModID}}_家具ID_5": "{{ModID}}_家具ID_5/bed double/3 4/3 3/1/100/2/{{i18n:家具ID_5}}/0/Mods\\{{ModID}}\\家具ID_5",
+                "{{ModID}}_家具ID_6": "{{ModID}}_家具ID_6/bed double/3 4/3 3/1/100/2/{{i18n:家具ID_6}}/6/Mods\\{{ModID}}\\家具ID_6",
+                "{{ModID}}_家具ID_7": "{{ModID}}_家具ID_7/bed double/3 4/3 3/1/100/2/{{i18n:家具ID_7}}/12/Mods\\{{ModID}}\\家具ID_7", 
+                "{{ModID}}_家具ID_8": "{{ModID}}_家具ID_8/bed double/3 4/3 3/1/100/2/{{i18n:家具ID_8}}/18/Mods\\{{ModID}}\\家具ID_8",
+                "{{ModID}}_家具ID_9": "{{ModID}}_家具ID_9/bed/2 4/2 3/1/100/2/{{i18n:家具ID_9}}/24/Mods\\{{ModID}}\\家具ID_9",
+                "{{ModID}}_家具ID_10": "{{ModID}}_家具ID_10/bed/2 4/2 3/1/100/2/{{i18n:家具ID_10}}/28/Mods\\{{ModID}}\\家具ID_10",
+                "{{ModID}}_家具ID_11": "{{ModID}}_家具ID_11/bed/2 4/2 3/1/100/2/{{i18n:家具ID_11}}/128/Mods\\{{ModID}}\\家具ID_11",
+                "{{ModID}}_家具ID_12": "{{ModID}}_家具ID_12/bed/2 4/2 3/1/100/2/{{i18n:家具ID_12}}/132/Mods\\{{ModID}}\\家具ID_12",
+                "{{ModID}}_家具ID_13": "{{ModID}}_家具ID_13/painting/2 3/2 3/1/100/2/{{i18n:家具ID_13}}/5/Mods\\{{ModID}}\\家具ID_13",   
+                "{{ModID}}_家具ID_14": "{{ModID}}_家具ID_14/painting/2 2/2 2/1/100/2/{{i18n:家具ID_14}}/0/Mods\\{{ModID}}\\家具ID_14",
+                "{{ModID}}_家具ID_15": "{{ModID}}_家具ID_15/painting/2 2/2 2/1/100/2/{{i18n:家具ID_15}}/2/Mods\\{{ModID}}\\家具ID_15",
+                "{{ModID}}_家具ID_16": "{{ModID}}_家具ID_16/painting/1 2/1 2/1/100/2/{{i18n:家具ID_16}}/4/Mods\\{{ModID}}\\家具ID_16",
+                "{{ModID}}_家具ID_17": "{{ModID}}_家具ID_17/painting/4 3/4 3/1/100/2/{{i18n:家具ID_17}}/0/Mods\\{{ModID}}\\家具ID_17", 
+                "{{ModID}}_家具ID_18": "{{ModID}}_家具ID_18/painting/2 3/2 3/1/100/2/{{i18n:家具ID_18}}/4/Mods\\{{ModID}}\\家具ID_18",
+                "{{ModID}}_家具ID_19": "{{ModID}}_家具ID_19/painting/2 3/2 3/1/100/2/{{i18n:家具ID_19}}/6/Mods\\{{ModID}}\\家具ID_19",
+                "{{ModID}}_家具ID_20": "{{ModID}}_家具ID_20/painting/2 3/2 3/1/100/2/{{i18n:家具ID_20}}/8/Mods\\{{ModID}}\\家具ID_20",
+                "{{ModID}}_家具ID_21": "{{ModID}}_家具ID_21/table/3 5/3 2/1/100/2/{{i18n:家具ID_21}}/0/Mods\\{{ModID}}\\家具ID_21",
+                "{{ModID}}_家具ID_22": "{{ModID}}_家具ID_22/table/3 4/3 2/2/100/2/{{i18n:家具ID_22}}/3/Mods\\{{ModID}}\\家具ID_22",
+                "{{ModID}}_家具ID_23": "{{ModID}}_家具ID_23/table/3 4/3 2/2/100/2/{{i18n:家具ID_23}}/9/Mods\\{{ModID}}\\家具ID_23",   
+                "{{ModID}}_家具ID_24": "{{ModID}}_家具ID_24/table/3 4/3 2/2/100/2/{{i18n:家具ID_24}}/15/Mods\\{{ModID}}\\家具ID_24",
+                "{{ModID}}_家具ID_25": "{{ModID}}_家具ID_25/lamp/1 3/1 1/1/100/2/{{i18n:家具ID_25}}/0/Mods\\{{ModID}}\\家具ID_25",
+                "{{ModID}}_家具ID_26": "{{ModID}}_家具ID_26/lamp/2 3/1 1/1/100/2/{{i18n:家具ID_26}}/2/Mods\\{{ModID}}\\家具ID_26",
+                "{{ModID}}_家具ID_27": "{{ModID}}_家具ID_27/lamp/2 3/1 1/1/100/2/{{i18n:家具ID_27}}/6/Mods\\{{ModID}}\\家具ID_27", 
+                "{{ModID}}_家具ID_28": "{{ModID}}_家具ID_28/lamp/2 3/1 1/1/100/2/{{i18n:家具ID_28}}/10/Mods\\{{ModID}}\\家具ID_28",
+                "{{ModID}}_家具ID_29": "{{ModID}}_家具ID_29/lamp/1 3/1 1/1/100/2/{{i18n:家具ID_29}}/14/Mods\\{{ModID}}\\家具ID_29",
+                "{{ModID}}_家具ID_30": "{{ModID}}_家具ID_30/lamp/1 3/1 1/1/100/2/{{i18n:家具ID_30}}/16/Mods\\{{ModID}}\\家具ID_30",
+                "{{ModID}}_家具ID_31": "{{ModID}}_家具ID_31/lamp/1 3/1 1/1/100/2/{{i18n:家具ID_31}}/18/Mods\\{{ModID}}\\家具ID_31",
+                "{{ModID}}_家具ID_32": "{{ModID}}_家具ID_32/lamp/1 3/1 1/1/100/2/{{i18n: 家具ID_32}}/20/Mods\\{{ModID}}\\家具ID_32",
+                "{{ModID}}_家具ID_33": "{{ModID}}_家具ID_33/lamp/2 2/1 1/1/100/2/{{i18n:家具ID_33}}/22/Mods\\{{ModID}}\\家具ID_33",
+                "{{ModID}}_家具ID_34": "{{ModID}}_家具ID_34/lamp/1 2/1 1/1/100/2/{{i18n:家具ID_34}}/26/Mods\\{{ModID}}\\家具ID_34",
+                "{{ModID}}_家具ID_35": "{{ModID}}_家具ID_35/bed double/3 5/3 3/1/100/2/{{i18n:家具ID_35}}/0/Mods\\{{ModID}}\\家具ID_35",
+                "{{ModID}}_家具ID_36": "{{ModID}}_家具ID_36/bed double/3 5/3 3/1/100/2/{{i18n:家具ID_36}}/6/Mods\\{{ModID}}\\家具ID_36",
+                "{{ModID}}_家具ID_37": "{{ModID}}_家具ID_37/bed double/3 5/3 3/1/100/2/{{i18n:家具ID_37}}/12/Mods\\{{ModID}}\\家具ID_37",
+                "{{ModID}}_家具ID_38": "{{ModID}}_家具ID_38/bed double/3 5/3 3/1/100/2/{{i18n:家具ID_38}}/18/Mods\\{{ModID}}\\家具ID_38",
+                "{{ModID}}_家具ID_39": "{{ModID}}_家具ID_39/bed double/3 5/3 3/1/100/2/{{i18n:家具ID_39}}/24/Mods\\{{ModID}}\\家具ID_39",
+                "{{ModID}}_家具ID_40": "{{ModID}}_家具ID_40/rug/5 4/5 4/1/100/2/{{i18n:家具ID_40}}/0/Mods\\{{ModID}}\\家具ID_40",
+                "{{ModID}}_家具ID_41": "{{ModID}}_家具ID_41/rug/5 4/5 4/1/100/2/{{i18n:家具ID_41}}/5/Mods\\{{ModID}}\\家具ID_41",
+                "{{ModID}}_家具ID_42": "{{ModID}}_家具ID_42/rug/4 4/4 4/1/100/2/{{i18n:家具ID_42}}/10/Mods\\{{ModID}}\\家具ID_42",
+                "{{ModID}}_家具ID_43": "{{ModID}}_家具ID_43/decor/2 2/2 1/1/100/2/{{i18n:家具ID_43}}/6/Mods\\{{ModID}}\\家具ID_43",
+                "{{ModID}}_家具ID_44": "{{ModID}}_家具ID_44/table/1 2/1 1/1/100/2/{{i18n:家具ID_44}}/8/Mods\\{{ModID}}\\家具ID_44",
+                "{{ModID}}_家具ID_45": "{{ModID}}_家具ID_45/decor/2 2/2 1/1/100/2/{{i18n:家具ID_45}}/9/Mods\\{{ModID}}\\家具ID_45",
+                "{{ModID}}_家具ID_46": "{{ModID}}_家具ID_46/decor/1 2/1 1/1/100/2/{{i18n:家具ID_46}}/11/Mods\\{{ModID}}\\家具ID_46",
+                "{{ModID}}_家具ID_47": "{{ModID}}_家具ID_47/decor/1 2/1 1/3/100/2/{{i18n:家具ID_47}}/12/Mods\\{{ModID}}\\家具ID_47",
+                "{{ModID}}_家具ID_48": "{{ModID}}_家具ID_48/decor/3 4/2 1/1/100/2/{{i18n:家具ID_48}}/0/Mods\\{{ModID}}\\家具ID_48",
+                "{{ModID}}_家具ID_49": "{{ModID}}_家具ID_49/decor/3 4/2 1/1/100/2/{{i18n:家具ID_49}}/3/Mods\\{{ModID}}\\家具ID_49",
+                "{{ModID}}_家具ID_50": "{{ModID}}_家具ID_50/decor/3 4/2 1/1/100/2/{{i18n:家具ID_50}}/6/Mods\\{{ModID}}\\家具ID_50",
+                "{{ModID}}_家具ID_51": "{{ModID}}_家具ID_51/decor/3 3/3 1/1/100/2/{{i18n:家具ID_51}}/0/Mods\\{{ModID}}\\家具ID_51",
+                "{{ModID}}_家具ID_52": "{{ModID}}_家具ID_52/decor/3 3/3 1/1/100/2/{{i18n:家具ID_52}}/3/Mods\\{{ModID}}\\家具ID_52",
+                "{{ModID}}_家具ID_53": "{{ModID}}_家具ID_53/decor/3 3/3 1/1/100/2/{{i18n:家具ID_53}}/6/Mods\\{{ModID}}\\家具ID_53",
+                "{{ModID}}_家具ID_54": "{{ModID}}_家具ID_54/decor/3 3/3 1/1/100/2/{{i18n:家具ID_54}}/9/Mods\\{{ModID}}\\家具ID_54",
+                "{{ModID}}_家具ID_55": "{{ModID}}_家具ID_55/decor/3 3/3 1/1/100/2/{{i18n:家具ID_55}}/12/Mods\\{{ModID}}\\家具ID_55",
+                "{{ModID}}_家具ID_56": "{{ModID}}_家具ID_56/decor/3 3/3 1/1/100/2/{{i18n:家具ID_56}}/15/Mods\\{{ModID}}\\家具ID_56",
+                "{{ModID}}_家具ID_57": "{{ModID}}_家具ID_57/decor/4 3/4 1/1/100/2/{{i18n:家具ID_57}}/0/Mods\\{{ModID}}\\家具ID_57",
+                "{{ModID}}_家具ID_58": "{{ModID}}_家具ID_58/decor/4 3/4 1/1/100/2/{{i18n:家具ID_58}}/4/Mods\\{{ModID}}\\家具ID_58",
+                "{{ModID}}_家具ID_59": "{{ModID}}_家具ID_59/decor/1 3/1 1/1/100/2/{{i18n:家具ID_59}}/8/Mods\\{{ModID}}\\家具ID_59",
+                "{{ModID}}_家具ID_60": "{{ModID}}_家具ID_60/decor/1 3/1 1/1/100/2/{{i18n:家具ID_60}}/9/Mods\\{{ModID}}\\家具ID_60",
+                "{{ModID}}_家具ID_61": "{{ModID}}_家具ID_61/decor/1 2/1 1/1/100/2/{{i18n:家具ID_61}}/10/Mods\\{{ModID}}\\家具ID_61",
+                "{{ModID}}_家具ID_62": "{{ModID}}_家具ID_62/decor/2 4/2 1/1/100/2/{{i18n:家具ID_62}}/11/Mods\\{{ModID}}\\家具ID_62",
+                "{{ModID}}_家具ID_63": "{{ModID}}_家具ID_63/decor/1 3/1 1/1/100/2/{{i18n:家具ID_63}}/13/Mods\\{{ModID}}\\家具ID_63",
+                "{{ModID}}_家具ID_64": "{{ModID}}_家具ID_64/decor/2 3/2 1/1/100/2/{{i18n:家具ID_64}}/14/Mods\\{{ModID}}\\家具ID_64",
+                "{{ModID}}_家具ID_65": "{{ModID}}_家具ID_65/decor/1 3/1 1/1/100/2/{{i18n:家具ID_65}}/16/Mods\\{{ModID}}\\家具ID_65",
+                "{{ModID}}_家具ID_66": "{{ModID}}_家具ID_66/decor/1 2/1 1/1/100/2/{{i18n:家具ID_66}}/17/Mods\\{{ModID}}\\家具ID_66",
+                "{{ModID}}_家具ID_67": "{{ModID}}_家具ID_67/decor/2 2/2 1/1/100/2/{{i18n:家具ID_67}}/18/Mods\\{{ModID}}\\家具ID_67",
+                "{{ModID}}_家具ID_68": "{{ModID}}_家具ID_68/decor/2 2/2 1/1/100/2/{{i18n:家具ID_68}}/20/Mods\\{{ModID}}\\家具ID_68",
+                "{{ModID}}_家具ID_69": "{{ModID}}_家具ID_69/decor/2 2/2 1/1/100/2/{{i18n:家具ID_69}}/22/Mods\\{{ModID}}\\家具ID_69",
+                "{{ModID}}_家具ID_70": "{{ModID}}_家具ID_70/decor/2 2/2 1/1/100/2/{{i18n:家具ID_70}}/24/Mods\\{{ModID}}\\家具ID_70",
+                "{{ModID}}_家具ID_71": "{{ModID}}_家具ID_71/decor/3 4/4 1/1/100/2/{{i18n:家具ID_71}}/0/Mods\\{{ModID}}\\家具ID_71",
+                "{{ModID}}_家具ID_72": "{{ModID}}_家具ID_72/decor/2 4/2 1/1/100/2/{{i18n:家具ID_72}}/3/Mods\\{{ModID}}\\家具ID_72",
+                "{{ModID}}_家具ID_73": "{{ModID}}_家具ID_73/decor/2 2/2 1/1/100/2/{{i18n:家具ID_73}}/5/Mods\\{{ModID}}\\家具ID_73",
+                "{{ModID}}_家具ID_74": "{{ModID}}_家具ID_74/decor/2 3/2 1/1/100/2/{{i18n:家具ID_74}}/7/Mods\\{{ModID}}\\家具ID_74",
+                "{{ModID}}_家具ID_75": "{{ModID}}_家具ID_75/decor/2 3/2 1/1/100/2/{{i18n:家具ID_75}}/9/Mods\\{{ModID}}\\家具ID_75",
+                "{{ModID}}_家具ID_76": "{{ModID}}_家具ID_76/decor/2 3/2 1/1/100/2/{{i18n:家具ID_76}}/11/Mods\\{{ModID}}\\家具ID_76",
+                "{{ModID}}_家具ID_77": "{{ModID}}_家具ID_77/decor/3 3/3 1/1/100/2/{{i18n:家具ID_77}}/13/Mods\\{{ModID}}\\家具ID_77",
+                "{{ModID}}_家具ID_78": "{{ModID}}_家具ID_78/decor/2 4/2 1/1/100/2/{{i18n:家具ID_78}}/16/Mods\\{{ModID}}\\家具ID_78",
+                "{{ModID}}_家具ID_79": "{{ModID}}_家具ID_79/decor/1 1/1 1/1/100/2/{{i18n:家具ID_79}}/18/Mods\\{{ModID}}\\家具ID_79",
+                "{{ModID}}_家具ID_80": "{{ModID}}_家具ID_80/rug/3 1/3 1/1/100/2/{{i18n:家具ID_80}}/19/Mods\\{{ModID}}\\家具ID_80",
+                "{{ModID}}_家具ID_81": "{{ModID}}_家具ID_81/rug/3 2/3 2/1/100/2/{{i18n:家具ID_81}}/22/Mods\\{{ModID}}\\家具ID_81",
+                "{{ModID}}_家具ID_82": "{{ModID}}_家具ID_82/rug/5 3/5 3/1/100/2/{{i18n:家具ID_82}}/25/Mods\\{{ModID}}\\家具ID_82",
+                "{{ModID}}_家具ID_83": "{{ModID}}_家具ID_83/decor/1 3/1 1/1/100/2/{{i18n:家具ID_83}}/0/Mods\\{{ModID}}\\家具ID_83",
+                "{{ModID}}_家具ID_84": "{{ModID}}_家具ID_84/decor/1 3/1 1/3/100/2/{{i18n:家具ID_84}}/1/Mods\\{{ModID}}\\家具ID_84",
+                "{{ModID}}_家具ID_85": "{{ModID}}_家具ID_85/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_85}}/4/Mods\\{{ModID}}\\家具ID_85",
+                "{{ModID}}_家具ID_86": "{{ModID}}_家具ID_86/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_86}}/6/Mods\\{{ModID}}\\家具ID_86",
+                "{{ModID}}_家具ID_87": "{{ModID}}_家具ID_87/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_87}}/8/Mods\\{{ModID}}\\家具ID_87",
+                "{{ModID}}_家具ID_88": "{{ModID}}_家具ID_88/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_88}}/10/Mods\\{{ModID}}\\家具ID_88",
+                "{{ModID}}_家具ID_89": "{{ModID}}_家具ID_89/dresser/1 3/1 1/1/100/2/{{i18n:家具ID_89}}/14/Mods\\{{ModID}}\\家具ID_89",
+                "{{ModID}}_家具ID_90": "{{ModID}}_家具ID_90/decor/1 3/1 1/3/100/2/{{i18n:家具ID_90}}/15/Mods\\{{ModID}}\\家具ID_90",
+                "{{ModID}}_家具ID_91": "{{ModID}}_家具ID_91/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_91}}/18/Mods\\{{ModID}}\\家具ID_91",
+                "{{ModID}}_家具ID_92": "{{ModID}}_家具ID_92/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_92}}/20/Mods\\{{ModID}}\\家具ID_92",
+                "{{ModID}}_家具ID_93": "{{ModID}}_家具ID_93/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_93}}/22/Mods\\{{ModID}}\\家具ID_93",
+                "{{ModID}}_家具ID_94": "{{ModID}}_家具ID_94/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_94}}/24/Mods\\{{ModID}}\\家具ID_94",
+                "{{ModID}}_家具ID_95": "{{ModID}}_家具ID_95/dresser/2 2/2 1/1/100/2/{{i18n:家具ID_95}}/28/Mods\\{{ModID}}\\家具ID_95",
+                "{{ModID}}_家具ID_96": "{{ModID}}_家具ID_96/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_96}}/12/Mods\\{{ModID}}\\家具ID_96",
+                "{{ModID}}_家具ID_97": "{{ModID}}_家具ID_97/dresser/2 3/2 1/1/100/2/{{i18n:家具ID_97}}/26/Mods\\{{ModID}}\\家具ID_97",
+               
+                       }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_0",
+            "FromFile": "吊篮.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_1",
+            "FromFile": "玩偶.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_2",
+            "FromFile": "玩偶.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_3",
+            "FromFile": "玩偶.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_4",
+            "FromFile": "玩偶.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_5",
+            "FromFile": "田园床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_6",
+            "FromFile": "田园床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_7",
+            "FromFile": "田园床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_8",
+            "FromFile": "田园床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_9",
+            "FromFile": "田园床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_10",
+            "FromFile": "田园床.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_11",
+            "FromFile": "田园床.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_12",
+            "FromFile": "田园床.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_13",
+            "FromFile": "挂画.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_14",
+            "FromFile": "挂画.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_15",
+            "FromFile": "挂画.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_16",
+            "FromFile": "挂画.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_17",
+            "FromFile": "窗户.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_18",
+            "FromFile": "窗户.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_19",
+            "FromFile": "窗户.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_20",
+            "FromFile": "窗户.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_21",
+            "FromFile": "钢琴.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_22",
+            "FromFile": "钢琴.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_23",
+            "FromFile": "钢琴.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_24",
+            "FromFile": "钢琴.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_25",
+            "FromFile": "灯具.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_26",
+            "FromFile": "灯具.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_27",
+            "FromFile": "灯具.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_28",
+            "FromFile": "灯具.png"
+         }, 
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_29",
+            "FromFile": "灯具.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_30",
+            "FromFile": "灯具.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_31",
+            "FromFile": "灯具.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_32",
+            "FromFile": "灯具.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_33",
+            "FromFile": "灯具.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_34",
+            "FromFile": "灯具.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_35",
+            "FromFile": "古典床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_36",
+            "FromFile": "古典床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_37",
+            "FromFile": "古典床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_38",
+            "FromFile": "古典床.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_39",
+            "FromFile": "古典床.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_40",
+            "FromFile": "地毯1.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_41",
+            "FromFile": "地毯1.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_42",
+            "FromFile": "地毯1.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_43",
+            "FromFile": "装饰摆件A.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_44",
+            "FromFile": "装饰摆件A.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_45",
+            "FromFile": "装饰摆件A.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_46",
+            "FromFile": "装饰摆件A.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_47",
+            "FromFile": "装饰摆件A.png"
+         }, 
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_48",
+            "FromFile": "竖琴.png"
+         }, 
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_49",
+            "FromFile": "竖琴.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_50",
+            "FromFile": "竖琴.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_51",
+            "FromFile": "餐桌.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_52",
+            "FromFile": "餐桌.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_53",
+            "FromFile": "餐桌.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_54",
+            "FromFile": "餐桌.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_55",
+            "FromFile": "餐桌.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_56",
+            "FromFile": "餐桌.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_57",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_58",
+            "FromFile": "乐器.png"
+         },  {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_59",
+            "FromFile": "乐器.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_60",
+            "FromFile": "乐器.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_61",
+            "FromFile": "乐器.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_62",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_63",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_64",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_65",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_66",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_67",
+            "FromFile": "乐器.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_68",
+            "FromFile": "乐器.png"
+         },  {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_69",
+            "FromFile": "乐器.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_70",
+            "FromFile": "乐器.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_71",
+            "FromFile": "衣柜.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_72",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_73",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_74",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_75",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_76",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_77",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_78",
+            "FromFile": "衣柜.png"
+         },  {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_79",
+            "FromFile": "衣柜.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_80",
+            "FromFile": "衣柜.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_81",
+            "FromFile": "衣柜.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_82",
+            "FromFile": "衣柜.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_83",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_84",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_85",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_86",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_87",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_88",
+            "FromFile": "首饰.png"
+         },  {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_89",
+            "FromFile": "首饰.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_90",
+            "FromFile": "首饰.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_91",
+            "FromFile": "首饰.png"
+         },
+        {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_92",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_93",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_94",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_95",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_96",
+            "FromFile": "首饰.png"
+         },
+         {
+            "Action": "Load",
+            "Target": "Mods/{{ModID}}/家具ID_97",
+            "FromFile": "首饰.png"
+         },
+       
+    ]
+}
+
+

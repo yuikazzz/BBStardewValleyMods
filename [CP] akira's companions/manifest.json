@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] akira's companions",
+   "Author": "akira",
+   "Version": "1.0.0",
+   "Description": "replaces fairies and parrots",
+   "UniqueID": "akira.cutercompanion",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

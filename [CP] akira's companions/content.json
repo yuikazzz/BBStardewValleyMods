@@ -1,0 +1,37 @@
+{
+"Format": "2.4.0",
+"Changes": [
+
+{
+	"LogName": "Crow Replaces Parrot Companion",
+	"Action": "EditImage",
+	"Target": "TileSheets/companions",
+	"FromFile": "assets/crow.png",
+	"ToArea":{"X": 0, "Y": 160, "Width": 176, "Height": 16}
+},
+{
+	"Action": "EditImage",
+	"Target": "TileSheets/companions",
+	"FromFile": "assets/fairy.png",
+	"ToArea": { "X": 0, "Y": 0, "Width": 256, "Height": 16 }
+},
+{
+	"Action": "EditImage",
+	"Target": "TileSheets/companions",
+	"FromFile": "assets/fairy.png",
+	"ToArea": { "X": 0, "Y": 176, "Width": 256, "Height": 16 }
+},
+{
+	"Action": "EditImage",
+	"Target": "Tilesheets/Objects_2",
+	"FromFile": "assets/fairychest.png",
+	"ToArea": { "X": 32, "Y": 144, "Width": 16, "Height": 16 }
+},
+{
+	"Action": "EditImage",
+	"Target": "Tilesheets/Objects_2",
+	"FromFile": "assets/parrotegg.png",
+	"ToArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 }
+}
+]
+}

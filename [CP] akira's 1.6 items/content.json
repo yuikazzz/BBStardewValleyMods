@@ -1,0 +1,92 @@
+{
+	"Format": "2.4.0",
+    "Changes": 
+    [
+
+
+        {
+			"LogName": "moss",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/moss.png",
+			"ToArea": { "X": 96, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "driedfruits",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/driedfruits.png",
+			"ToArea": { "X": 0, "Y": 128, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "fruit",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/fruit.png",
+			"ToArea": { "X": 16, "Y": 128, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "driedmushroom",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/driedmushroom.png",
+			"ToArea": { "X": 32, "Y": 128, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "mushroom",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/mushroom.png",
+			"ToArea": { "X": 48, "Y": 128, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "raisin",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/raisin.png",
+			"ToArea": { "X": 112, "Y": 112, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "goldencow",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/goldencow.png",
+			"ToArea": { "X": 16, "Y": 240, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "thetea",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/thetea.png",
+			"ToArea": { "X": 64, "Y": 128, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "bluejelly",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/bluejelly.png",
+			"ToArea": { "X": 96, "Y": 256, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "greenjelly",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/greenjelly.png",
+			"ToArea": { "X": 64, "Y": 256, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "redjelly",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/redjelly.png",
+			"ToArea": { "X": 80, "Y": 256, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "ticket",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/ticket.png",
+			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 16 }
+		}
+	]
+}

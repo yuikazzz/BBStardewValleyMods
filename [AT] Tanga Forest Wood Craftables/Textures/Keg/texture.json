@@ -1,0 +1,12 @@
+{
+    "ItemName": "Keg",
+    "Type": "Craftable",
+    "TextureWidth": 16,
+    "TextureHeight": 29,
+    "ManualVariations": [
+      {
+        "Id": 0,
+        "Name": "Forest Wood Keg"
+      }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] akira's 6 Hairstyles by sralinka",
+  "Author": "sralinka",
+  "Version": "1.0.0",
+  "Description": "Add 4 Hairstyles, assets from sralinka naver 444667",
+  "UniqueID": "akira.4Hairstyles",
+  "UpdateKeys": [""],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "6.3.0"
+  }
+}

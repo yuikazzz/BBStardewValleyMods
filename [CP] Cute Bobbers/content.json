@@ -1,0 +1,10 @@
+{
+    "Format": "2.4.0",
+   "Changes": [
+      {
+         "Action": "EditImage",
+         "Target": "TileSheets/bobbers",
+         "FromFile": "assets/bobbers.png"
+      }
+   ]
+}

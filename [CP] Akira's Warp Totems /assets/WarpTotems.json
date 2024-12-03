@@ -1,0 +1,68 @@
+{
+  "Changes": [
+    // Warp Totem - Farm
+    {
+      "LogName": "Farm Totem Sprite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spritesheets/spells.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 256, "Y": 448, "Width": 16, "Height": 16 }
+    },
+
+    // Warp Totem - Mountains
+    {
+      "LogName": "Mountain Totem Sprite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spritesheets/spells.png",
+      "FromArea": { "X": 16, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 272, "Y": 448, "Width": 16, "Height": 16 }
+    },
+
+    // Warp Totem - Beach
+    {
+      "LogName": "Beach Totem Sprite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spritesheets/spells.png",
+      "FromArea": { "X": 32, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 288, "Y": 448, "Width": 16, "Height": 16 }
+    },
+
+    // Warp Totem - Desert
+    {
+      "LogName": "Desert Totem Sprite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spritesheets/spells.png",
+      "FromArea": { "X": 48, "Y": 0, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 336, "Y": 160, "Width": 16, "Height": 16 }
+    },
+
+    // Warp Totem - Island
+    {
+      "LogName": "Island Totem Sprite",
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/Spritesheets/spells.png",
+      "FromArea": { "X": 0, "Y": 16, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 352, "Y": 576, "Width": 16, "Height": 16 }
+    },
+
+    // Object Info Changes
+    {
+      "LogName": "Warp Totem Item Descriptions",
+      "Action": "EditData",
+      "Target": "Strings/Objects",
+      "Entries":
+      {
+        "WarpTotemBeach_Name": "Warp Spell: Beach",
+        "WarpTotemDesert_Name": "Warp Spell: Desert",
+        "WarpTotemFarm_Name": "Warp Spell: Farm",
+        "WarpTotemIsland_Name": "Warp Spell: Island",
+        "WarpTotemMountains_Name": "Warp Spell: Mountains"
+      }
+    }
+  ]
+}
