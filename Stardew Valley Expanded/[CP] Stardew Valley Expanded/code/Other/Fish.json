@@ -2364,13 +2364,14 @@
                "ProducedItems": [
                   {
                      "RequiredPopulation": 0,
-                     "Chance": 0.8,
+                     "Chance": 0.45,
                      "ItemID": 812,
                      "MinQuantity": 1,
                      "MaxQuantity": 1
                   }
                ],
-               "PopulationGates": null
+               "PopulationGates": null,
+			   "MaxPopulation": 1
             },
          },
       },
@@ -2387,13 +2388,14 @@
                "ProducedItems": [
                   {
                      "RequiredPopulation": 0,
-                     "Chance": 0.6,
+                     "Chance": 0.25,
                      "ItemID": 812,
                      "MinQuantity": 1,
                      "MaxQuantity": 1
                   }
                ],
-               "PopulationGates": null
+               "PopulationGates": null,
+			   "MaxPopulation": 1
             },
          },
       },

@@ -6196,7 +6196,7 @@
    <property name="Draw" value="Back"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJzt3LEJgDAQhtEjE2QBwVaw1QGc39Z9LCVxgITkPfj7D66/CAAAgLncRznm9JzfAABgJLl1AF3YWgfQhat1AAAAAAAAAMPIezkAAAAAAAAAmFn9x8ovqzm5P7UlRaypdQUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPy985kQ2g==
+   eJzt3LEJgEAQBMDHCmxAMBVMtQBjO7IUWzK1HzESNTEQXv9nYKNLFu7iCwEAACAvS3cOeVr7IwAAkJIydgE+oYldgE8YYhcAAAAAAAAgGWV7DgAAAAAAAADk7PrHyi+rPNk/V1URQl3EbgEAAAAAAAC8bRrveTIjLfN4z5MZaXEH7NwBO3cAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAfbXflPLg=
   </data>
  </layer>
  <objectgroup id="8" name="Back7"/>
@@ -7214,11 +7214,6 @@
   <object id="400" name="TileData" x="1760" y="416" width="16" height="16">
    <properties>
     <property name="Action" value="Bookseller"/>
-   </properties>
-  </object>
-  <object id="404" name="TileData" x="1008" y="240" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;PelicanTown.55&quot;"/>
    </properties>
   </object>
   <object id="405" name="TileData" x="256" y="832" width="16" height="16">

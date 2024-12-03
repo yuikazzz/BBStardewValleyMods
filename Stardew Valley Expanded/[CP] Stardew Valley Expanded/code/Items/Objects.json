@@ -462,7 +462,7 @@
                     ],
                     "Buffs": [
                         {
-                            "Duration": 1600,
+                            "Duration": 5143,
                             "CustomAttributes": {
                                 "FarmingLevel": 0,
                                 "FishingLevel": 0,
@@ -816,7 +816,7 @@
                     "ExcludeFromRandomSale": true,
                     "Buffs": [
                         {
-                            "Duration": 1600,
+                            "Duration": 5143,
                             "CustomAttributes": {
                                 "FarmingLevel": 0,
                                 "FishingLevel": 0,
@@ -824,7 +824,7 @@
                                 "LuckLevel": 0,
                                 "ForagingLevel": 0,
                                 "MaxStamina": 0,
-                                "MagneticRadius": 800,
+                                "MagneticRadius": 999,
                                 "Speed": 0,
                                 "Defense": 0,
                                 "Attack": 0
@@ -2705,7 +2705,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
 					"ContextTags": [
-					    "color_grey",
+					    "color_gray",
                         "dye_strong",
 						"statue_item"
                     ]
@@ -3409,7 +3409,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
-                        "color_grey_white",
+                        "color_gray_white",
                         "fish_ocean",
                         "fish_shark",
 						"fish_carnivorous",
@@ -3473,7 +3473,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
-                        "color_grey",
+                        "color_gray",
                         "fish_lake",
                         "fish_tadpole",
 						"season_spring"
@@ -3579,7 +3579,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
-                        "color_grey",
+                        "color_gray",
                         "fish_ocean",
                         "fish_arrowhead_shark",
 						"fish_carnivorous",
@@ -3977,7 +3977,7 @@
                     "ExcludeFromShippingCollection": false,
                     "ExcludeFromRandomSale": true,
                     "ContextTags": [
-                        "color_grey",
+                        "color_gray",
                         "fish_ocean",
                         "fish_turretfish",
 						"fish_semi_rare",
@@ -4047,7 +4047,7 @@
                     "Name": "Galdoran Gem",
                     "DisplayName": "{{i18n:object.galdoran-gem.name}}",
                     "Description": "{{i18n:object.galdoran-gem.description}}",
-                    "Type": "None",
+                    "Type": "Minerals",
                     "Category": -2,
                     "Price": 600,
                     "Texture": "Mods\\FlashShifter.StardewValleyExpandedCP\\Galdoran Gem",

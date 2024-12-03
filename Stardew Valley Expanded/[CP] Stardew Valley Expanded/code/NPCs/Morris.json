@@ -82,7 +82,7 @@
       "Action": "EditData",
       "Target": "Data/NPCGiftTastes",
       "Entries": {
-        "MorrisTod": "{{i18n:Morris.Gift.Loved}}/730 727 432 578 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Money_Bag FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Morris.Gift.Liked}}/72 348 430 428 FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola/{{i18n:Morris.Gift.Disliked}}/346 459 303 -81 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Morris.Gift.Hated}}/167 -74/{{i18n:Morris.Gift.Neutral}}/-75 -79 -80 FlashShifter.StardewValleyExpandedCP_Green_Mushroom/"
+        "MorrisTod": "{{i18n:Morris.Gift.Loved}}/730 727 432 578 FlashShifter.StardewValleyExpandedCP_Golden_Goose_Egg FlashShifter.StardewValleyExpandedCP_Prismatic_Pop FlashShifter.StardewValleyExpandedCP_Money_Bag FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine/{{i18n:Morris.Gift.Liked}}/72 336 348 430 428 FlashShifter.StardewValleyExpandedCP_Gold_Carrot FlashShifter.StardewValleyExpandedCP_Super_Joja_Cola/{{i18n:Morris.Gift.Disliked}}/346 459 303 -81 FlashShifter.StardewValleyExpandedCP_Dulse_Seaweed/{{i18n:Morris.Gift.Hated}}/167 -74/{{i18n:Morris.Gift.Neutral}}/-75 -79 -80 FlashShifter.StardewValleyExpandedCP_Green_Mushroom/"
       }
     },
     {

@@ -1,9 +1,12 @@
 {
-   "Name": "[CP] Magical Valley (ToolsnWeapons)",
-   "Author": "H+Reenna",
-   "Version": "1.1.0",
-   "Description": "Magical Valley Theme's Tools & Weapons",
-   "UniqueID": "HReenna.MagicalValleyTools",
-   "UpdateKeys": [ "Nexus:25905" ],
-   "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+     "Name": "[CP] Magical Valley (ToolsnWeapons)",
+     "Author": "H+Reenna",
+     "Version": "1.1.1",
+     "Description": "Magical Valley Theme's Tools & Weapons",
+     "UniqueID": "HReenna.MagicalValleyTools",
+     "UpdateKeys": [ "Nexus:25905" ],
+     "ContentPackFor":
+          {
+           "UniqueID": "Pathoschild.ContentPatcher",
+          },
 }

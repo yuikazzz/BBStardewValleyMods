@@ -1,0 +1,16 @@
+{
+    "Format": "2.3.0",
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "3ndnsiz931.frogToHamster/companions",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/companions",
+            "FromFile": "assets/companions.png"
+        }
+    ]
+}

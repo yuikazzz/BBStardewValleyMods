@@ -59,7 +59,7 @@
                 "Crafts Room/15": "Fall Foraging/O 497 50/404 3 0 406 3 0 408 3 0 410 3 0 FlashShifter.StardewValleyExpandedCP_Mushroom_Colony 5 0/2///{{i18n:fall.foraging.bundle}}",
                 "Crafts Room/16": "Winter Foraging/O 498 50/412 3 0 414 3 0 416 3 0 418 3 0 FlashShifter.StardewValleyExpandedCP_Bearberrys 3 0/6///{{i18n:winter.foraging.bundle}}",
                 "Crafts Room/17": "Construction/BO 114 10/388 999 0 330 20 0 390 499 0 709 99 0/4///{{i18n:construction.bundle}}",
-                "Crafts Room/19": "Exotic Foraging/O 235 10/88 3 0 90 3 0 78 3 0 420 3 0 422 3 0 FlashShifter.StardewValleyExpandedCP_Fir_Wax 3 0 FlashShifter.StardewValleyExpandedCP_Birch_Water 3 0 726 1 0 FlashShifter.StardewValleyExpandedCP_Poison_Mushroom 3 0/1/8//{{i18n:exotic.foraging.bundle}}",
+                "Crafts Room/19": "Exotic Foraging/O 235 10/88 3 0 90 3 0 78 3 0 420 3 0 422 3 0 FlashShifter.StardewValleyExpandedCP_Fir_Wax 3 0 FlashShifter.StardewValleyExpandedCP_Birch_Water 3 0 726 3 0 FlashShifter.StardewValleyExpandedCP_Poison_Mushroom 3 0/1/8//{{i18n:exotic.foraging.bundle}}",
                 "Fish Tank/6": "River Fish/O DeluxeBait 99/145 3 0 143 3 0 706 3 0 699 3 0 FlashShifter.StardewValleyExpandedCP_Minnow 3 0 FlashShifter.StardewValleyExpandedCP_Goldfish 3 0/6/6//{{i18n:river.fish.bundle}}",
                 "Fish Tank/7": "Lake Fish/O 687 3/136 3 0 142 3 0 700 3 0 698 3 0 FlashShifter.StardewValleyExpandedCP_Tadpole 3 0/0///{{i18n:lake.fish.bundle}}",
                 "Fish Tank/8": "Ocean Fish/O 690 10/131 3 0 130 3 0 150 3 0 701 3 0 FlashShifter.StardewValleyExpandedCP_Starfish 3 0/5///{{i18n:ocean.fish.bundle}}",

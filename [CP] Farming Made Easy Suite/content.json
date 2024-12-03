@@ -4,8 +4,8 @@
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Farming! =",
-			"AllowValues": "Version 6.0.14",
-			"Default": "Version 6.0.14"
+			"AllowValues": "Version 6.0.15",
+			"Default": "Version 6.0.15"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -1383,7 +1383,7 @@
 				"497": {"DaysInPhase": [ 2, 3 ]}, //Fall Seeds
 				"498": {"DaysInPhase": [ 2, 3 ]}, //Winter Seeds
 				"499": {"DaysInPhase": [ 2, 4, 5, 5, 5 ], "RegrowDays": 5}, //Ancient Fruit
-				"745": {"DaysInPhase": [ 1, 1, 1, 1, 2 ], "RegrowDays": 6}, //Strawberry
+				"745": {"DaysInPhase": [ 1, 1, 1, 1, 2 ], "RegrowDays": 3}, //Strawberry
 				"802": {"DaysInPhase": [ 1, 2, 2, 2, 2 ]}, //Cactus Fruit
 				"831": {"DaysInPhase": [ 1, 2, 2, 2 ]}, //Taro Root
 				"833": {"DaysInPhase": [ 1, 2, 2, 2, 3 ], "RegrowDays": 5}, //Pineapple

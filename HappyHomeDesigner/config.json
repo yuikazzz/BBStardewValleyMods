@@ -19,5 +19,7 @@
   "Magnify": false,
   "MagnifyScale": 2.0,
   "GMCMButton": true,
-  "QuickDelete": "Delete"
+  "QuickDelete": "Delete",
+  "PickupCraftables": true,
+  "ExpandSearch": true
 }

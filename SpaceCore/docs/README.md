@@ -225,6 +225,7 @@ Provided functionality for content pack authors:
             * `spacechase0.SpaceCore_DungeonLadderEntrance x y` - Where the palyer is placed when entering the location via ladder or entering the dungeon.
             * `spacechase0.SpaceCore_DungeonElevatorEntrance x y` - Where the player is placed when entering the location via an elevator.
     * The dungeon data itself lives in `spacechase0.SpaceCore/Dungeons`, which is a dictionary with the dungeon ID being the key, and a model containing the following values:
+        * `ViewportFollowsPlayer` - Default true. If true, the viewport will follow the player no matter where they are in the level (lines the mines). If false, the viewport will be clamped to the edges of the map.
         * `LadderExitLocation` - The location name of the place to be taken to when exiting through `spacechase0.SpaceCore_DungeonLadderExit`.
         * `LadderExitTile` - The position in the location above to to be taken to.
         * `ElevatorExitLocation` - The location name of the place to be taken to when exiting through floor 0 of `spacechase0.SpaceCore_DungeonElevatorMenu dungeonId`.
@@ -250,6 +251,7 @@ Provided functionality for content pack authors:
     * `SourceTexture` - The texture and frames you want to pull from for the animation, in the old DGA format. (The texture name followed by a colon, followed by a comma separated list of frame indices. Frame indices can optionally include a frame duration with @.)
         * Example (for Content Patcher): `"{{InternalAssetKey: assets/prismatic.png}}:0@5,1@5,2@5,3@5,4@5,5@5`
         * Another way of doing the above is using `..` to specify a sequence of frames that all get the same duration: `{{InternalAssetKey: assets/prismatic.png}}:0..5@5`
+    * `SourceSizeOverride` - A Vector2 size. If specified, the sprite size to use for frames in `SourceTexture` (normally the size is the same as the size in `TargetRect`). This allows you to fit a larger image in place of a smaller vanilla image. (For example, fitting a 256x256 portrait into the default 64x64 spaces.)
 * NPC Questions - Previously part of [Backstory Questions Framework](https://www.nexusmods.com/stardewvalley/mods/14451):
     * To edit the questions you can ask someone, edit the `spacechase0.SpaceCore/Questions` asset, which is a dictionary with the NPC name for the key, and the value being a list of objects with the following values:
         * `ID` - Required, must be unique, doesn't show to end users
