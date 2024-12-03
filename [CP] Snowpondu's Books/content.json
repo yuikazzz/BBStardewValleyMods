@@ -8,7 +8,7 @@
           "Priority": "Late",
           "Target": "TileSheets/Objects_2",
           "FromFile": "assets/objects_2.png",
-		  "PatchMode": "overlay",
-       },
-],
+		  "PatchMode": "overlay"
+       }
+]
 }

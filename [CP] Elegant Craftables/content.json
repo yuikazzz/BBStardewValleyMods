@@ -512,7 +512,7 @@
 				{
 				"AllowValues": "true, false",
 				"Default": "true"
-				},
+				}
 			},
 			
 	"Changes": [
@@ -2163,7 +2163,7 @@
 			{
 			"Dehydrator": "animated"
 			}
-		}, 
+		}
 		
 ]
 }
