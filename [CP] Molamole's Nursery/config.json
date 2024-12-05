@@ -1,10 +1,10 @@
 {
-  "Crib": "Style01",
-  "Material": "Classic",
-  "Color": "Non",
+  "Crib": "Style02",
+  "Material": "WhiteWood",
+  "Color": "Mole",
   "Bedding": "Light",
-  "Shelf": "Non",
-  "Items": "Non",
-  "Blanket": "Non",
-  "Carpet": "Basic"
+  "Shelf": "WhiteShelf",
+  "Items": "LavandaItems",
+  "Blanket": "MoleChestBlanket",
+  "Carpet": "TasselsWhite"
 }

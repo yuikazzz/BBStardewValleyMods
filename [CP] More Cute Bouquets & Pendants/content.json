@@ -1,0 +1,50 @@
+{
+  "Format": "2.4.0",
+   "ConfigSchema": {
+      "Pendant": {
+         "AllowValues": "Key, Various",
+         "Default": "Key"
+      }
+   },   
+  "Changes": [
+  //Bouquet
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/{{season}}/springobjects.png",
+      "FromArea": { "X": 32, "Y": 304, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 32, "Y": 304, "Width": 16, "Height": 16 }
+	},
+	{
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/{{season}}/springobjects.png",
+      "FromArea": { "X": 208, "Y": 176, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 208, "Y": 176, "Width": 16, "Height": 16 }
+	},
+	//Pendant
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/{{season}}/springobjects.png",
+      "FromArea": { "X": 64, "Y": 304, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 64, "Y": 304, "Width": 16, "Height": 16 },
+	  "When": { "Pendant": "Key" }
+	},
+	{
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/{{season}}/springobjects2.png",
+      "FromArea": { "X": 64, "Y": 304, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 64, "Y": 304, "Width": 16, "Height": 16 },
+	  "When": { "Pendant": "Various" }
+	},
+	{
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/VoidGhostPendant/springobjects.png",
+      "FromArea": { "X": 256, "Y": 528, "Width": 16, "Height": 16 },
+      "ToArea": { "X": 256, "Y": 528, "Width": 16, "Height": 16 }
+	}
+	]
+}

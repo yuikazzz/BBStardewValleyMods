@@ -1,0 +1,10 @@
+{
+	"Name": "[CP] Moonlight Jellyfish Retech",
+	"Author": "Han Ga-eul-pa-ran",
+	"Description": "Moonlight Jellyfish Retech",
+	"Version": "1.0.0",
+	"UniqueID": "HBlue.Jellyfish.CP",
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+					}
+}

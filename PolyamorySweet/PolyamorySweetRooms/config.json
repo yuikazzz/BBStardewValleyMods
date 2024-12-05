@@ -1,5 +1,5 @@
 {
-  "EnableMod": true,
+  "EnableMod": false,
   "SpouseRoomOrder": "",
-  "DecorateHallsIndividually": true
+  "DecorateHallsIndividually": false
 }

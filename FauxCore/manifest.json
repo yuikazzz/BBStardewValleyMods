@@ -9,15 +9,15 @@
   "UniqueID": "furyx639.FauxCore",
   "Name": "FauxCore",
   "Author": "LeFauxMatt",
-  "Version": "1.2.0",
+  "Version": "1.2.1",
   "Description": "Framework that provides shared functionality for all of my mods.",
   "MinimumApiVersion": "4.1",
-  "MinimumGameVersion": "1.6.10",
+  "MinimumGameVersion": "1.6.14",
   "EntryDll": "FauxCore.dll",
   "Dependencies": [
     {
       "UniqueID": "spacechase0.GenericModConfigMenu",
-      "MinimumVersion": "1.14.0",
+      "MinimumVersion": "1.14.1",
       "IsRequired": false
     }
   ],

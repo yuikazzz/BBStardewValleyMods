@@ -1,0 +1,54 @@
+{
+	"Format": "2.4.0",
+	"ConfigSchema": {
+		"Reflections": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		}
+	},
+	
+	"Changes": [
+
+	   {
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/Festivals",
+		"FromFile": "assets/Reflections.png",
+		"When": {
+			"Reflections": "true"
+			},
+		"FromArea": { "X": 256, "Y": 16, "Width": 96, "Height": 32 },
+		"ToArea": { "X": 256, "Y": 16, "Width": 96, "Height": 32 }
+	   },
+	   
+   	   {
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/Festivals",
+		"FromFile": "assets/Vanilla.png",
+		"When": {
+			"Reflections": "false"
+			},
+		"FromArea": { "X": 256, "Y": 16, "Width": 96, "Height": 32 },
+		"ToArea": { "X": 256, "Y": 16, "Width": 96, "Height": 32 }
+	   },
+	   
+   	   {
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/Festivals",
+		"FromFile": "assets/Reflections.png",
+		"FromArea": { "X": 240, "Y": 112, "Width": 32, "Height": 32 },
+		"ToArea": { "X": 240, "Y": 112, "Width": 32, "Height": 32 }
+	   },
+	   
+   	   {
+		"Action": "EditImage",
+		"PatchMode": "Replace",
+		"Target": "Maps/Festivals",
+		"FromFile": "assets/Reflections.png",
+		"FromArea": { "X": 160, "Y": 143, "Width": 32, "Height": 17 },
+		"ToArea": { "X": 160, "Y": 143, "Width": 32, "Height": 17 }
+	   }
+	]
+}

@@ -1,5 +1,5 @@
 {
-    "Format": "2.3.0",
+    "Format": "2.4.0",
 
     "Changes": [
 
@@ -116,7 +116,158 @@
         "FromArea": { "X": 552, "Y": 1957, "Width": 21, "Height": 34 },
         "ToArea": { "X": 552, "Y": 1957, "Width": 21, "Height": 34 }
     }, 
+    {
+        "Action": "EditImage",
+        "Target": "LooseSprites/Cursors2",
+        "FromFile": "assets/Cursors2.png",
+        "FromArea": { "X": 168, "Y": 265, "Width": 24, "Height": 34 },
+        "ToArea": { "X": 168, "Y": 265, "Width": 24, "Height": 34 }
+    },
 
+    {     
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.png",
+            "FromArea": { "X": 368, "Y": 1008, "Width": 48, "Height": 32 },
+            "ToArea":  { "X": 368, "Y": 1008, "Width": 48, "Height": 32 }
+    }, 
+    {     
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.png",
+            "FromArea": { "X": 176, "Y": 624, "Width": 32, "Height": 64 },
+            "ToArea":  { "X": 176, "Y": 624, "Width": 32, "Height": 64 }
+    }, 
+        
+    {     
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.png",
+            "FromArea": { "X": 208, "Y": 656, "Width": 32, "Height": 32 },
+            "ToArea":  { "X": 208, "Y": 656, "Width": 32, "Height": 32 }
+    },              
+    {
+            "Action": "EditImage",
+            "Target": "Maps/townInterior",
+            "FromFile": "assets/townInterior.png",
+            "FromArea": { "X": 352, "Y": 944, "Width": 32, "Height": 32 },
+            "ToArea":  { "X": 352, "Y": 944, "Width": 32, "Height": 32 }
+    },    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheater_TileSheet",
+        "FromFile": "assets/MovieTheater_TileSheet.png",
+        "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 16, "Y": 224, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheater_TileSheet",
+        "FromFile": "assets/MovieTheater_TileSheet.png",
+        "FromArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet_international.png",
+        "FromArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheater_TileSheet",
+        "FromFile": "assets/MovieTheater_TileSheet.png",
+        "FromArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 }
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+        "ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 }
+    },
+   
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheater_TileSheet",
+        "FromFile": "assets/MovieTheater_TileSheet.png",
+        "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+        "PatchMode": "Overlay"
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+        "PatchMode": "Overlay"
+    },
+    
+    {
+        "Action": "EditImage",
+        "Target": "Maps/MovieTheaterJoja_TileSheet_international",
+        "FromFile": "assets/MovieTheaterJoja_TileSheet.png",
+        "FromArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+        "ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+        "PatchMode": "Overlay"
+    },
+                                  
 	//main (NPCs)
         {
             "Action": "Load",
@@ -387,13 +538,13 @@
         {
             "Action": "Load",
             "Target": "Characters/ClothesTherapyCharacters",
-            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
         },
 
         {
             "Action": "Load",
             "Target": "Characters/KrobusRaven",
-            "FromFile": "assets/{{TargetWithoutPath}}.png",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
         }
 
     ]

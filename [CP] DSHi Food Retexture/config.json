@@ -82,7 +82,7 @@
   "Squid Ink Ravioli": "true",
   "Moss Soup": "true",
   "Field Snack": "true",
-  "Oil of Garlic": "true",
-  "Life Elixir": "true",
+  "Oil of Garlic": "false",
+  "Life Elixir": "false",
   "Bug Steak": "true"
 }

@@ -28,12 +28,6 @@
 			"FromFile":"assets/{{TargetWithoutPath}}.png",
 			"PatchMode":"Overlay"
 		},
-		{
-			"Action":"EditImage",
-			"Target":"Maps/farmhouse_tiles",
-			"FromFile":"assets/farmhouse_tiles_withoutFurniture.png",
-			"PatchMode":"Overlay"
-		},
 		//walls and floors
 		{
 			"Action":"EditImage",
