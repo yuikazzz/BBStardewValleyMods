@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[FS] GuoRen's Sea of Stars",
+  "Author": "luoli",
+  "Version": "1.0.0",
+  "Description": "GuoRen Sea of Stars",
+  "UniqueID": "LuoLi.GuoRen",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "3.0.1"
+  }
+}

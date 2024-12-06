@@ -1,0 +1,27 @@
+{
+  //This is for translators to change the mail text. however anything in between % should stay the same, will refactor to eclude item refs.
+  "DE_Adv_Winter1": "圣诞倒数-23天^冬季开始啦，也意味着可以开始倒数圣诞节咯。让我们开始欢度节日吧，领取您的第一份礼物！",
+  "DE_Adv_Winter2": "圣诞倒数-22天^",
+  "DE_Adv_Winter3": "圣诞倒数-21天^",
+  "DE_Adv_Winter4": "圣诞倒数-20天^",
+  "DE_Adv_Winter5": "圣诞倒数-19天^",
+  "DE_Adv_Winter6": "圣诞倒数-18天^",
+  "DE_Adv_Winter7": "圣诞倒数-17天^",
+  "DE_Adv_Winter8": "圣诞倒数-16天^",
+  "DE_Adv_Winter9": "圣诞倒数-15天^",
+  "DE_Adv_Winter10": "圣诞倒数-14天^",
+  "DE_Adv_Winter11": "圣诞倒数-13天^",
+  "DE_Adv_Winter12": "圣诞倒数-12天^",
+  "DE_Adv_Winter13": "圣诞倒数-11天^",
+  "DE_Adv_Winter14": "圣诞倒数-10天",
+  "DE_Adv_Winter15": "圣诞倒数-9天^",
+  "DE_Adv_Winter16": "圣诞倒数-8天^",
+  "DE_Adv_Winter18": "圣诞倒数-7天^",
+  "DE_Adv_Winter19": "圣诞倒数-6天^",
+  "DE_Adv_Winter17": "圣诞倒数-5天^",
+  "DE_Adv_Winter20": "圣诞倒数-4天^",
+  "DE_Adv_Winter21": "圣诞倒数-3天^",
+  "DE_Adv_Winter22": "圣诞倒数-2天^",
+  "DE_Adv_Winter23": "圣诞倒数-1天^",
+  "DE_Adv_Winter24": "圣诞倒数-0天!^就在今晚！你准备好了吗？不要忘记今晚会有一位特殊的访客哦！一定要把牛奶和饼干留在桌子上招待他！!"
+}
