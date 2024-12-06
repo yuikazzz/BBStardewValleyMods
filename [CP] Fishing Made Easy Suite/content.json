@@ -4,8 +4,8 @@
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Fishing! =",
-			"AllowValues": "Version 6.0.23",
-			"Default": "Version 6.0.23"
+			"AllowValues": "Version 6.0.24",
+			"Default": "Version 6.0.24"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -20183,6 +20183,16 @@
 		       "When": {"Fishable Prismatic Shards (REQ)": true},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 5% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.05)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "5% Easier"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 10% Easier",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20191,6 +20201,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "10% Easier"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 15% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.15)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "15% Easier"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 20% Easier",
@@ -20203,6 +20223,16 @@
 				         "Fishing Difficulty": "20% Easier"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 25% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.25)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "25% Easier"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 30% Easier",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20211,6 +20241,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "30% Easier"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 35% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.35)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "35% Easier"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 40% Easier",
@@ -20223,6 +20263,16 @@
 				         "Fishing Difficulty": "40% Easier"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 45% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.45)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "45% Easier"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 50% Easier",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20231,6 +20281,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "50% Easier"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 55% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.55)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "55% Easier"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 60% Easier",
@@ -20243,6 +20303,16 @@
 				         "Fishing Difficulty": "60% Easier"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 65% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.65)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "65% Easier"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 70% Easier",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20251,6 +20321,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "70% Easier"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 75% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.75)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "75% Easier"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 80% Easier",
@@ -20263,6 +20343,16 @@
 				         "Fishing Difficulty": "80% Easier"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 85% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.85)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "85% Easier"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 90% Easier",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20271,6 +20361,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "90% Easier"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 95% Easier",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.95)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "95% Easier"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 100% Easier",
@@ -20316,6 +20416,38 @@
 						 "DayOfWeek": "Sunday"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 40% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.40)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "40% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 50% Easy Sunday",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 - (85 * 0.50)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "50% Easy Sunday",
+						 "DayOfWeek": "Sunday"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 5% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.05)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "5% Harder"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 10% Harder",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20324,6 +20456,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "10% Harder"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 15% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.15)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "15% Harder"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 20% Harder",
@@ -20336,6 +20478,16 @@
 				         "Fishing Difficulty": "20% Harder"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 25% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.25)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "25% Harder"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 30% Harder",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20344,6 +20496,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "30% Harder"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 35% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.35)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "35% Harder"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 40% Harder",
@@ -20356,6 +20518,16 @@
 				         "Fishing Difficulty": "40% Harder"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 45% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.45)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "45% Harder"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 50% Harder",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20364,6 +20536,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "50% Harder"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 55% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.55)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "55% Harder"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 60% Harder",
@@ -20376,6 +20558,16 @@
 				         "Fishing Difficulty": "60% Harder"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 65% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.65)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "65% Harder"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 70% Harder",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20384,6 +20576,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "70% Harder"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 75% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.75)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "75% Harder"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 80% Harder",
@@ -20396,6 +20598,16 @@
 				         "Fishing Difficulty": "80% Harder"},
 		},
 		{
+			"LogName": "Prismatic Shards Fishing Difficulty 85% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.85)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "85% Harder"},
+		},
+		{
 			"LogName": "Prismatic Shards Fishing Difficulty 90% Harder",
 			"Action": "EditData",
 			"Target": "Data/Fish",
@@ -20404,6 +20616,16 @@
 			       },
 				"When": {"Fishable Prismatic Shards (REQ)": true, 
 				         "Fishing Difficulty": "90% Harder"},
+		},
+		{
+			"LogName": "Prismatic Shards Fishing Difficulty 95% Harder",
+			"Action": "EditData",
+			"Target": "Data/Fish",
+			"Fields": {
+			    "74": {1: "{{Round: {{Query: (85 + (85 * 0.95)) }} }}"},
+			       },
+				"When": {"Fishable Prismatic Shards (REQ)": true, 
+				         "Fishing Difficulty": "95% Harder"},
 		},
 		{
 			"LogName": "Prismatic Shards Fishing Difficulty 100% Harder",

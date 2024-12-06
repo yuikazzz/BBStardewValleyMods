@@ -9,7 +9,7 @@
   "UniqueID": "furyx639.FauxCore",
   "Name": "FauxCore",
   "Author": "LeFauxMatt",
-  "Version": "1.2.1",
+  "Version": "1.2.2",
   "Description": "Framework that provides shared functionality for all of my mods.",
   "MinimumApiVersion": "4.1",
   "MinimumGameVersion": "1.6.14",

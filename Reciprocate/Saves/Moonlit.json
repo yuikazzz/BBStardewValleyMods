@@ -3,22 +3,27 @@
     {
       "farmer": "bb",
       "npc": "Gus",
-      "point": 38.0
+      "point": 34.0
     },
     {
       "farmer": "bb",
       "npc": "Robin",
-      "point": 13.0
+      "point": 9.0
     },
     {
       "farmer": "bb",
       "npc": "Jodi",
-      "point": 18.0
+      "point": 14.0
     },
     {
       "farmer": "bb",
       "npc": "Emily",
-      "point": 18.0
+      "point": 14.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Maru",
+      "point": 50.0
     }
   ]
 }
