@@ -1,6 +1,6 @@
 {
   "White Chicken Default": "BrahmaWhite",
-  "White Chicken Skins": "BrahmaWhite, SilkieBlonde, BantamCream",
+  "White Chicken Skins": "BrahmaWhite, SilkieBlonde, BantamCream, BrahmaCream, BantamWhite",
   "Brown Chicken Default": "SilkieBrown",
   "Brown Chicken Skins": "BrahmaBrown, SilkieRed, BantamFawn",
   "Void Chicken Default": "Grey",
@@ -12,10 +12,10 @@
   "Duck Default": "MallardMale",
   "Duck Skins": "MallardMale, MallardFemale",
   "Rabbit Default": "SolidBlonde",
-  "Rabbit Skins": "SolidBlonde, DutchFawn, LopPointedBrown, LopBeltedRed",
+  "Rabbit Skins": "SolidBlonde, DutchFawn, LopPointedBrown, LopBeltedRed, PointedBlonde, PointedFawn, PointedBrown, PointedBlack, PointedGrey, PointedSilver",
   "Dinosaur Default": "Green",
-  "Dinosaur Skins": "Green",
-  "Duck Feather Recolor": "MallardMale",
-  "Rabbit Foot Recolor": "Blonde",
-  "Dinosaur Egg Recolor": "Green"
+  "Dinosaur Skins": "Green, Void",
+  "Duck Feather Recolor": "false",
+  "Rabbit Foot Recolor": "false",
+  "Dinosaur Egg Recolor": "false"
 }
