@@ -1,0 +1,63 @@
+{
+	"Format": "2.4.0",
+	"ConfigSchema": {
+        "Small Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Modern Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Large Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Deluxe Fish Tank": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        },
+        "Aquatic Sanctuary": {
+            "AllowValues": "true, false",
+            "Default": "true"
+        }
+    },
+	"Changes": [
+	
+	{
+		"Action": "Include",
+		"FromFile": "assets/Small Fish Tank.json",
+		"When": {
+			"Small Fish Tank": true
+			}
+	},
+	{
+		"Action": "Include",
+		"FromFile": "assets/Modern Fish Tank.json",
+		"When": {
+			"Modern Fish Tank": true
+			}
+	},
+	{
+		"Action": "Include",
+		"FromFile": "assets/Large Fish Tank.json",
+		"When": {
+			"Large Fish Tank": true
+			}
+	},
+	{
+		"Action": "Include",
+		"FromFile": "assets/Deluxe Fish Tank.json",
+		"When": {
+			"Deluxe Fish Tank": true
+			}
+	},
+	{
+		"Action": "Include",
+		"FromFile": "assets/Aquatic Sanctuary.json",
+		"When": {
+			"Aquatic Sanctuary": true
+			}
+	}
+	]
+}

@@ -82,11 +82,66 @@
 			"ToArea": { "X": 80, "Y": 256, "Width": 16, "Height": 16 }
 		},
 		{
+			"LogName": "Enricher1",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Enricher1.png",
+			"ToArea": { "X": 16, "Y": 608, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Enricher2",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/Enricher2.png",
+			"ToArea": { "X": 32, "Y": 608, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "PressureNozzle1",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/PressureNozzle1.png",
+			"ToArea": { "X": 48, "Y": 608, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "PressureNozzle2",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/PressureNozzle2.png",
+			"ToArea": { "X": 64, "Y": 608, "Width": 16, "Height": 16 }
+		},
+		{
 			"LogName": "ticket",
 			"Action": "EditImage",
 			"Target": "Tilesheets/Objects_2",
 			"FromFile": "assets/ticket.png",
 			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 16 }
-		}
+		},
+		{
+			"LogName": "flute",
+			"Action": "Editimage",
+			"Target": "Maps/springobjects",
+			"FromFile": "Assets/flute.png",
+			"ToArea": { "X": 368, "Y": 592, "Width": 16, "Height": 16 },
+			"PatchMode": "Replace"
+			},
+			{
+			"LogName": "action",
+			  "Action": "EditImage",
+		  "PatchMode": "Overlay",
+			"Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+			"FromFile": "Assets/sleeve.png",
+			"FromArea": {
+			"X": 224,
+			"Y": 512,
+			"Width": 48,
+			"Height": 32
+			 },
+			 "ToArea": {
+			"X": 224,
+			"Y": 512,
+			"Width": 48,
+			"Height": 32
+			}	
+			}
 	]
 }

@@ -6,5 +6,5 @@
   "UniqueID": "Mochitail.Flowercrabpot",
   "MinimumApiVersion": "3.5.0",
   "UpdateKeys": ["Nexus:6806"],
-  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
 }

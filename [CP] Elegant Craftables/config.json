@@ -1,7 +1,7 @@
 {
   "Crab Pod": "animated",
   "Sprinkler": "animated",
-  "Enricher": "animated",
+  "Enricher": "false",
   "Nozzle": "true",
   "Chest": "true",
   "Stone Chest": "true",

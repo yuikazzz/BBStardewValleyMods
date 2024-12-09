@@ -75,7 +75,7 @@
     },
     "Scythe": {
       "HarvestCrops": true,
-      "HarvestFlowers": true,
+      "HarvestFlowers": false,
       "HarvestForage": true,
       "HarvestFruitTrees": true,
       "HarvestGreenRainBushes": true,
@@ -83,7 +83,7 @@
       "HarvestTreeSeeds": true,
       "HarvestMachines": true,
       "HarvestNonBlueGrass": true,
-      "HarvestBlueGrass": true,
+      "HarvestBlueGrass": false,
       "ClearDeadCrops": true,
       "ClearWeeds": true
     },
@@ -109,5 +109,5 @@
     "HoldToActivate": "None"
   },
   "CustomAttachments": [],
-  "InvincibleOnTractor": true
+  "InvincibleOnTractor": false
 }

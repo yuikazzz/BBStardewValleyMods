@@ -3,27 +3,57 @@
     {
       "farmer": "bb",
       "npc": "Gus",
-      "point": 34.0
+      "point": 14.0
     },
     {
       "farmer": "bb",
       "npc": "Robin",
-      "point": 9.0
+      "point": 10.0
     },
     {
       "farmer": "bb",
       "npc": "Jodi",
-      "point": 14.0
+      "point": 0.0
     },
     {
       "farmer": "bb",
       "npc": "Emily",
-      "point": 14.0
+      "point": 0.0
     },
     {
       "farmer": "bb",
       "npc": "Maru",
-      "point": 50.0
+      "point": 66.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Martin",
+      "point": 10.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Demetrius",
+      "point": 35.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Sebastian",
+      "point": 0.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Harvey",
+      "point": 14.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Sandy",
+      "point": 21.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Sam",
+      "point": 14.0
     }
   ]
 }
