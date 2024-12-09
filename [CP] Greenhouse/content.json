@@ -1,0 +1,17 @@
+﻿{
+  "Format": "1.20.0",
+  "Changes": [
+ 	{
+		"LogName":"Load extra tiles",
+		"Action":"Load",
+		"Target":"maps/greenhouse_{{season}}",
+		"FromFile":"assets/greenhouse_tiles1.png, assets/hotspringcave.png"
+	},
+	{     
+        		"Action": "Load",
+        		"Target": "maps/Greenhouse",
+      		"FromFile": "assets/Greenhouse_{{season}}.tbin"
+       },
+
+    ]
+}

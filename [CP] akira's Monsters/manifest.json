@@ -1,0 +1,11 @@
+{
+	"Name": "Overgrown Skeletons and Pink Monsters",
+	"Description": "Monsters UwUfication.",
+	"Version": "1.2.2",
+	"Author": "boringvlln",
+	"UniqueID": "boringvlln.pinkmonsters",
+	"UpdateKeys": [ "Nexus:12966" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher"
+	}
+}

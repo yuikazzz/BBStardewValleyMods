@@ -1,0 +1,17 @@
+﻿{
+	"Name": "[AT] H&W Fairy Fountains Recolor",
+	"Author": "Himetarts and Wildflourmods, recolored by KawaiiMuski",
+	"Version": "1.0.0",
+	"Description": "A recolor of Hime and Wildflour's Fairy Fountains converted to Alternative Textures!",
+	"UniqueID": "KawaiiMuski.HxWFaiyFountainRecolor",
+	"UpdateKeys": ["Nexus:26752"],
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures"
+	},
+	"Dependencies": [
+		{
+		"UniqueID": "HXW.FairyFountains",
+		"IsRequired": true
+	 }
+	 ]
+}

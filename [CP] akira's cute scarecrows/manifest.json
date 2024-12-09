@@ -1,0 +1,10 @@
+{
+   "Name": "(CP) akira's cute scarecrows",
+   "Author": "akira",
+   "Version": "1.0.0",
+   "Description": "Replaces the vanilla scarecrows and rarecrows, assets from naver 469410",
+   "UniqueID": "akira.cutescarecrows",
+   "ContentPackFor": {
+   "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

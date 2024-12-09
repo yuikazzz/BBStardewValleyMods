@@ -1,0 +1,11 @@
+{
+    "Name": "Cute Bobbers",
+    "Author": "akira",
+    "Version": "1.0",
+    "Description": "Some recolors of base game bobbers as well as new ones!",
+    "UniqueID": "akira.CuteBobbers",
+    "UpdateKeys": [ "" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

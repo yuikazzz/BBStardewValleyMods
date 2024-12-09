@@ -1,0 +1,363 @@
+{
+  "CollectiveNames":
+[
+"Chest",
+"Stone Chest",
+"Junimo Chest",
+"Big Chest",
+"Big Stone Chest"
+],
+  "Type": "Craftable",
+  "TextureWidth": 16,
+  "TextureHeight": 32,
+  "ManualVariations": [
+	{
+      "Id": 0,
+      "ChanceWeight": 0.1,
+	  "Name": "Animal product bamboo basket 2",
+	  "Keywords": [ "Animal product bamboo basket 2" ]
+    },
+	{
+      "Id": 1,
+      "ChanceWeight": 0.1,
+	  "Name": "Animal product bamboo basket 4",
+	  "Keywords": [ "Animal product bamboo basket 4" ]
+    },
+	{
+      "Id": 2,
+      "ChanceWeight": 0.1,
+	  "Name": "Antiques Bamboo Basket 2",
+	  "Keywords": [ "Antiques Bamboo Basket 2" ]
+    },
+	{
+      "Id": 3,
+      "ChanceWeight": 0.1,
+      "Name": "Aqua Bamboo Basket 4",
+	  "Keywords": [ "Aqua Bamboo Basket 4" ]
+    },
+    {
+      "Id": 4,
+      "ChanceWeight": 0.1,
+	  "Name": "Artifacts Bamboo Basket VT",
+	  "Keywords": [ "Artifacts Bamboo Basket VT" ]
+    },
+	{
+      "Id": 5,
+      "ChanceWeight": 0.1,
+      "Name": "Artisan bamboo basket 2",
+	  "Keywords": [ "Artisan bamboo basket 2" ]
+    },
+    {
+      "Id": 6,
+      "ChanceWeight": 0.1,
+	  "Name": "Artisan bamboo basket 4",
+	  "Keywords": [ "Artisan bamboo basket 4" ]
+    },
+	{
+      "Id": 7,
+      "ChanceWeight": 0.1,
+      "Name": "Bamboo Basket 2",
+	  "Keywords": [ "Bamboo Basket 2" ]
+    },
+    {
+      "Id": 8,
+      "ChanceWeight": 0.1,
+	  "Name": "Blue Bamboo Basket 4",
+	  "Keywords": [ "Blue Bamboo Basket 4" ]
+    },
+	{
+      "Id": 9,
+      "ChanceWeight": 0.1,
+      "Name": "Bones Bamboo Basket VT",
+	  "Keywords": [ "Bones Bamboo Basket VT" ]
+    },
+    {
+      "Id": 10,
+      "ChanceWeight": 0.1,
+	  "Name": "Bones Bamboo Basket 2",
+	  "Keywords": [ "Bones Bamboo Basket 2" ]
+    },
+	{
+      "Id": 11,
+      "ChanceWeight": 0.1,
+	  "Name": "Boots Bamboo Basket VT",
+	  "Keywords": [ "Boots Bamboo Basket VT" ]
+    },
+	{
+      "Id": 12,
+      "ChanceWeight": 0.1,
+	  "Name": "Brown Bamboo Basket 4",
+	  "Keywords": [ "Brown Bamboo Basket 4" ]
+    },
+	{
+      "Id": 13,
+      "ChanceWeight": 0.1,
+	  "Name": "Brown Boots Bamboo Basket VT",
+	  "Keywords": [ "Brown Boots Bamboo Basket VT" ]
+    },
+	{
+      "Id": 14,
+      "ChanceWeight": 0.1,
+	  "Name": "Chicken Bamboo Basket 4",
+	  "Keywords": [ "Chicken Bamboo Basket 4" ]
+    },
+	{
+      "Id": 15,
+      "ChanceWeight": 0.1,
+	  "Name": "Coal Bamboo Basket 2",
+	  "Keywords": [ "Coal Bamboo Basket 2" ]
+    },
+	{
+      "Id": 16,
+      "ChanceWeight": 0.1,
+	  "Name": "Collectible Minerals Bamboo Basket VT",
+	  "Keywords": [ "Collectible Minerals Bamboo Basket VT" ]
+    },
+	{
+      "Id": 17,
+      "ChanceWeight": 0.1,
+	  "Name": "CP Bamboo Basket 2",
+	  "Keywords": [ "CP Bamboo Basket 2" ]
+    },
+	{
+      "Id": 18,
+      "ChanceWeight": 0.1,
+	  "Name": "CP Bamboo Basket 4",
+	  "Keywords": [ "CP Bamboo Basket 4" ]
+    },
+	{
+      "Id": 19,
+      "ChanceWeight": 0.1,
+	  "Name": "Crops Fall Bamboo Basket VT",
+	  "Keywords": [ "Crops Fall Bamboo Basket VT" ]
+    },
+	{
+      "Id": 20,
+      "ChanceWeight": 0.1,
+	  "Name": "Crops Island Bamboo Basket VT",
+	  "Keywords": [ "Crops Island Bamboo Basket VT" ]
+    },
+	{
+      "Id": 21,
+      "ChanceWeight": 0.1,
+	  "Name": "Crops Spring Bamboo Basket VT",
+	  "Keywords": [ "Crops Spring Bamboo Basket VT" ]
+    },
+	{
+      "Id": 22,
+      "ChanceWeight": 0.1,
+	  "Name": "Festival Fish Bamboo Basket 2",
+	  "Keywords": [ "Festival Fish Bamboo Basket 2" ]
+    },
+	{
+      "Id": 23,
+      "ChanceWeight": 0.1,
+	  "Name": "Fish Bamboo Basket VT",
+	  "Keywords": [ "Fish Bamboo Basket VT" ]
+    },
+	{
+      "Id": 24,
+      "ChanceWeight": 0.1,
+	  "Name": "Fish bamboo basket 2",
+	  "Keywords": [ "Fish bamboo basket 2" ]
+    },
+	{
+      "Id": 25,
+      "ChanceWeight": 0.1,
+	  "Name": "Fish bamboo basket 4",
+	  "Keywords": [ "Fish bamboo basket 4" ]
+    },
+	{
+      "Id": 26,
+      "ChanceWeight": 0.1,
+	  "Name": "Flowers Bamboo Basket VT",
+	  "Keywords": [ "Flowers Bamboo Basket VT" ]
+    },
+	{
+      "Id": 27,
+      "ChanceWeight": 0.1,
+	  "Name": "Flowers Bamboo Basket 2",
+	  "Keywords": [ "Flowers Bamboo Basket 2" ]
+    },
+	{
+      "Id": 28,
+      "ChanceWeight": 0.1,
+	  "Name": "Food Bamboo Basket 2",
+	  "Keywords": [ "Food Bamboo Basket 2" ]
+    },
+	{
+      "Id": 29,
+      "ChanceWeight": 0.1,
+	  "Name": "Foraging bamboo basket 2",
+	  "Keywords": [ "Foraging bamboo basket 2" ]
+    },
+	{
+      "Id": 30,
+      "ChanceWeight": 0.1,
+	  "Name": "Foraging bamboo basket 4",
+	  "Keywords": [ "Foraging bamboo basket 4" ]
+    },
+	{
+      "Id": 31,
+      "ChanceWeight": 0.1,
+	  "Name": "Fruit bamboo basket 2",
+	  "Keywords": [ "Fruit bamboo basket 2" ]
+    },
+	{
+      "Id": 32,
+      "ChanceWeight": 0.1,
+	  "Name": "Fruit bamboo basket 4",
+	  "Keywords": [ "Fruit bamboo basket 4" ]
+    },
+	{
+      "Id": 33,
+      "ChanceWeight": 0.1,
+	  "Name": "Fruits Bamboo Basket VT",
+	  "Keywords": [ "Fruits Bamboo Basket VT" ]
+    },
+	{
+      "Id": 34,
+      "ChanceWeight": 0.1,
+	  "Name": "Gems Bamboo Basket VT",
+	  "Keywords": [ "Gems Bamboo Basket VT" ]
+    },
+	{
+      "Id": 35,
+      "ChanceWeight": 0.1,
+	  "Name": "Geodes Bamboo Basket VT",
+	  "Keywords": [ "Geodes Bamboo Basket VT" ]
+    },
+	{
+      "Id": 36,
+      "ChanceWeight": 0.1,
+	  "Name": "Gifts Bamboo Basket 2",
+	  "Keywords": [ "Gifts Bamboo Basket 2" ]
+    },
+	{
+      "Id": 37,
+      "ChanceWeight": 0.1,
+	  "Name": "Green Bamboo Basket 4",
+	  "Keywords": [ "Green Bamboo Basket 4" ]
+    },
+	{
+      "Id": 38,
+      "ChanceWeight": 0.1,
+	  "Name": "Junk Bamboo Basket 2",
+	  "Keywords": [ "Junk Bamboo Basket 2" ]
+    },
+	{
+      "Id": 39,
+      "ChanceWeight": 0.1,
+	  "Name": "Lime Bamboo Basket 4",
+	  "Keywords": [ "Lime Bamboo Basket 4" ]
+    },
+	{
+      "Id": 40,
+      "ChanceWeight": 0.1,
+	  "Name": "Minerals Bamboo Basket 2",
+	  "Keywords": [ "Minerals Bamboo Basket 2" ]
+    },
+	{
+      "Id": 41,
+      "ChanceWeight": 0.1,
+	  "Name": "Mushroom Basket Bamboo Basket VT",
+	  "Keywords": [ "Mushroom Basket Bamboo Basket VT" ]
+    },
+	{
+      "Id": 42,
+      "ChanceWeight": 0.1,
+	  "Name": "Mushroom Basket But Smol Bamboo Basket VT",
+	  "Keywords": [ "Mushroom Basket But Smol Bamboo Basket VT" ]
+    },
+	{
+      "Id": 43,
+      "ChanceWeight": 0.1,
+	  "Name": "Orange Bamboo Basket 4",
+	  "Keywords": [ "Orange Bamboo Basket 4" ]
+    },
+	{
+      "Id": 44,
+      "ChanceWeight": 0.1,
+	  "Name": "Ores Bamboo Basket VT",
+	  "Keywords": [ "Ores Bamboo Basket VT" ]
+    },
+	{
+      "Id": 45,
+      "ChanceWeight": 0.1,
+	  "Name": "Ores2 Bamboo Basket VT",
+	  "Keywords": [ "Ores2 Bamboo Basket VT" ]
+    },
+	{
+      "Id": 46,
+      "ChanceWeight": 0.1,
+	  "Name": "Pasted Layer",
+	  "Keywords": [ "Pasted Layer" ]
+    },
+	{
+      "Id": 47,
+      "ChanceWeight": 0.1,
+	  "Name": "Pink Bamboo Basket 4",
+	  "Keywords": [ "Pink Bamboo Basket 4" ]
+    },
+	{
+      "Id": 48,
+      "ChanceWeight": 0.1,
+	  "Name": "Purple Bamboo Basket 4",
+	  "Keywords": [ "Purple Bamboo Basket 4" ]
+    },
+	{
+      "Id": 49,
+      "ChanceWeight": 0.1,
+	  "Name": "Red Bamboo Basket 4",
+	  "Keywords": [ "Red Bamboo Basket 4" ]
+    },
+	{
+      "Id": 50,
+      "ChanceWeight": 0.1,
+	  "Name": "Seeds Bamboo Basket VT",
+	  "Keywords": [ "Seeds Bamboo Basket VT" ]
+    },
+	{
+      "Id": 51,
+      "ChanceWeight": 0.1,
+	  "Name": "Seeds Bamboo Basket 2",
+	  "Keywords": [ "Seeds Bamboo Basket 2" ]
+    },
+	{
+      "Id": 52,
+      "ChanceWeight": 0.1,
+	  "Name": "Teal Bamboo Basket 4",
+	  "Keywords": [ "Teal Bamboo Basket 4" ]
+    },
+	{
+      "Id": 53,
+      "ChanceWeight": 0.1,
+	  "Name": "Tools Bamboo Basket 2",
+	  "Keywords": [ "Tools Bamboo Basket 2" ]
+    },
+	{
+      "Id": 54,
+      "ChanceWeight": 0.1,
+      "Name": "Vegetable bamboo basket 2",
+	  "Keywords": [ "Vegetable bamboo basket 2" ]
+    },
+    {
+      "Id": 55,
+      "ChanceWeight": 0.1,
+	  "Name": "Vegetable bamboo basket 4",
+	  "Keywords": [ "Vegetable bamboo basket 4" ]
+    },
+	{
+      "Id": 56,
+      "ChanceWeight": 0.1,
+	  "Name": "Wine Bamboo Basket 4",
+	  "Keywords": [ "Wine Bamboo Basket 4" ]
+    },
+	{
+      "Id": 57,
+      "ChanceWeight": 0.1,
+      "Name": "Yellow Bamboo Basket 4",
+	  "Keywords": [ "Yellow Bamboo Basket 4" ]
+    }
+  ]
+}

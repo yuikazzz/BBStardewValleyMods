@@ -1,0 +1,12 @@
+{
+  "Name": "[CP] Molamole's Nursery ",
+  "Author": "Molamole",
+  "Version": "1.0.0",
+  "Description": "Some Crib Retextures!",
+  "UniqueID": "Molamole.NurseryRetexture.CP",
+  "UpdateKeys": [ "Nexus: 28380"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

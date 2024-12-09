@@ -1,0 +1,103 @@
+{
+	"Format": "1.29.0",
+	"ConfigSchema": {
+
+		"테두리 사용 여부": {
+			"AllowValues": "true, false",
+			 "Default": "true"
+		},
+		"테두리 컬러": {
+			"AllowValues": "white, natural, dark",
+			 "Default": "natural"
+		}
+	},
+
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Patchmode": "Overlay",
+			"Target": "Maps/towninterior, Maps/townInterior.{{language}}",
+			"FromFile": "assets/towninterior_{{테두리 컬러}}.png",
+			"When" : { 
+				"테두리 사용 여부" : "true",
+				"locationName" : "FarmHouse, Shed"
+			 },
+			 "update":"OnLocationChange"
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "Overlay",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/farmhouse_tiles_{{테두리 컬러}}.png",
+			"When" : { 
+				"테두리 사용 여부" : "true",
+				"locationName" : "FarmHouse, Shed"
+			 },
+			 "update":"OnLocationChange"
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"Target": "Maps/walls_and_floors",
+			"FromFile": "assets/walls_and_floors.png"
+		},
+
+
+
+		// 주방
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/kitchen.png",
+			"ToArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"FromArea": { "X": 16, "Y": 192, "Width": 80, "Height": 48 },
+			"When" : { "HasFile:{{FromFile}}": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/kitchen.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 48 },
+			"FromArea": { "X": 176, "Y": 192, "Width": 16, "Height": 48 },
+			"When" : { "HasFile:{{FromFile}}": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/kitchen.png",
+			"ToArea": { "X": 176, "Y": 240, "Width": 16, "Height": 80 },
+			"FromArea": { "X": 176, "Y": 240, "Width": 16, "Height": 80 },
+			"When" : { "HasFile:{{FromFile}}": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/kitchen.png",
+			"ToArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"FromArea": { "X": 0, "Y": 304, "Width": 16, "Height": 16 },
+			"When" : { "HasFile:{{FromFile}}": "true" }
+		},
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"Target": "Maps/farmhouse_tiles",
+			"FromFile": "assets/kitchen.png",
+			"ToArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },
+			"FromArea": { "X": 64, "Y": 304, "Width": 48, "Height": 48 },
+			"When" : { "HasFile:{{FromFile}}": "true" }
+		},
+		// 냉장고
+		{
+			"Action": "EditImage",
+			"Patchmode": "Replace",
+			"FromFile": "assets/fridge.png",
+            "Target": "LooseSprites/Cursors2",
+            "ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			"When" : { "HasFile:{{FromFile}}": "true" }
+		}
+	]
+}

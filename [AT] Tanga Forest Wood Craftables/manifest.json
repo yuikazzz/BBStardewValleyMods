@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Tanga Forest Wood Craftables",
+  "Author": "Tanga",
+  "Version": "1.1.0",
+  "Description": "Forest Wood Craftables.",
+  "UniqueID": "Tanga.ForestWoodCraftables",
+  "UpdateKeys": [ "Nexus:16854" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "6.9.0"
+  }
+}

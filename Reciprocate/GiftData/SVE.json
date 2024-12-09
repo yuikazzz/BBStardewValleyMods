@@ -1,0 +1,911 @@
+{
+  "npcList": [
+    {
+      "npc": "Claire",
+      "gifts": [
+        {
+          "item": "350",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "815",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 3,
+          "stackMax": 3
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "395",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 2,
+          "stackMax": 2
+        }
+      ]
+    },
+    {
+      "npc": "Lance",
+      "gifts": [
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Bonefish",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "244",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "773",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Frog_Legs",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Olivia",
+      "gifts": [
+        {
+          "item": "336",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "907",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "224",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "231",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Sophia",
+      "gifts": [
+        {
+          "item": "340",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Butterfish",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Big_Bark_Burger",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "348",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Victor",
+      "gifts": [
+        {
+          "item": "348",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Puppyfish",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "220",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "392",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Magnus",
+      "gifts": [
+        {
+          "item": "349",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "351",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "243",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "197",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Andy",
+      "gifts": [
+        {
+          "item": "167",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 5,
+          "stackMax": 5
+        },
+        {
+          "item": "727",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "205",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "230",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "466",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 5,
+          "stackMax": 5
+        }
+      ]
+    },
+    {
+      "npc": "Apples",
+      "gifts": [
+        {
+          "item": "276",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "634",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 2,
+          "stackMax": 2
+        },
+        {
+          "item": "638",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "636",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "637",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "635",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "GuntherSilvian",
+      "gifts": [
+        {
+          "item": "649",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "200",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "459",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Butterfish",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Martin",
+      "gifts": [
+        {
+          "item": "618",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "349",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "634",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 2,
+          "stackMax": 2
+        }
+      ]
+    },
+    {
+      "npc": "MarlonFay",
+      "gifts": [
+        {
+          "item": "422",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "308",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "335",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 2,
+          "stackMax": 2
+        },
+        {
+          "item": "78",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 4,
+          "stackMax": 4
+        }
+      ]
+    },
+    {
+      "npc": "MorrisTod",
+      "gifts": [
+        {
+          "item": "167",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 5,
+          "stackMax": 5
+        },
+        {
+          "item": "459",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "303",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "240",
+          "quality": 1,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "430",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Morgan",
+      "gifts": [
+        {
+          "item": "Frog Legs",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "604",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "612",
+          "quality": 2,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "422",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Scarlett",
+      "gifts": [
+        {
+          "item": "595",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "577",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "430",
+          "quality": 0,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        }
+      ]
+    },
+    {
+      "npc": "Susan",
+      "gifts": [
+        {
+          "item": "240",
+          "quality": 1,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "200",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "224",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 1,
+          "stackMax": 1
+        },
+        {
+          "item": "270",
+          "quality": 4,
+          "seasons": [
+            "Spring",
+            "Summer",
+            "Fall",
+            "Winter"
+          ],
+          "requireHeart": 0,
+          "stackMin": 2,
+          "stackMax": 3
+        }
+      ]
+    }
+  ]
+}

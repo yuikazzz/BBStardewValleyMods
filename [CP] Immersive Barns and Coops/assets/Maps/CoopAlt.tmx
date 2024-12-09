@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="13" height="11" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="45">
+ <properties>
+  <property name="AmbientLight" value="110 110 110"/>
+  <property name="DayTiles_Asdf" value="Back 2 4 12 Back 6 4 46 Back 10 4 46 Buildings 2 1 24 Buildings 6 1 24 Buildings 10 1 24"/>
+  <property name="Light_asdf" value="2 2 6 6 2 6 10 2 6 2 9 6 7 6 4"/>
+  <property name="NightTiles_asdf" value="Back 2 4 25 Back 6 4 53 Back 10 4 53 Buildings 2 1 26 Buildings 6 1 26 Buildings 10 1 26"/>
+  <property name="ProduceArea" value="2 4 8 4"/>
+  <property name="Warp" value="2 10 Farm 21 11"/>
+ </properties>
+ <tileset firstgid="1" name="Coop" tilewidth="16" tileheight="16" tilecount="84" columns="4">
+  <image source="coopTiles.png" width="64" height="336"/>
+  <tile id="12">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Passable" type="int" value="0"/>
+    <property name="Trough" value="T"/>
+   </properties>
+  </tile>
+  <tile id="53">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+  <tile id="54">
+   <properties>
+    <property name="Type" value="Wood"/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="85" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="149" name="z_nesting_box_dark" tilewidth="16" tileheight="16" tilecount="24" columns="6">
+  <image source="z_nesting_box_dark.png" width="100" height="64"/>
+ </tileset>
+ <layer id="1" name="Back" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJwTZGBg4CUSCyJhUvWIkqBHFIrNSMQw/QJArATFIL4UEjZHYiPbKYGkB6SGD4j5kbAAVJ05DjeDxIWAWBgJi+BRS0gPPnvEgFgcCUtgUSeAZgaMDfOXABIfRBui6TdEws5QbIiGARSaDbU=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="22" name="TileData" x="16" y="48" width="48" height="112">
+   <properties>
+    <property name="NPCBarrier" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="36" name="TileData" x="32" y="160" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="38" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="NPCBarrier" type="bool" value="true"/>
+   </properties>
+  </object>
+  <object id="40" name="TileData" x="96" y="112" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="41" name="TileData" x="96" y="80" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="43" name="TileData" x="128" y="112" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+  <object id="44" name="TileData" x="128" y="80" width="16" height="16">
+   <properties>
+    <property name="mushymato.MMAP_AnimalSpot" value="T"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="10" name="Back2" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYBh+YC4QzwPi+UC8ACo2G41GB4uBeAkQLwXiZVCxhWg0OlgJxKuAeDUQryHSHmyAkD2DFQAACTYMpw==
+  </data>
+ </layer>
+ <objectgroup id="9" name="Back2"/>
+ <layer id="3" name="Buildings" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYCIBMwMxKxALArEkFCOz0fkgNjtUjygJGKaHWGBFhh6GYaqHkww9hlB9XEDMDeXDsDYQ66CJgQAAnuwEaw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Front" width="13" height="11">
+  <data encoding="base64" compression="zlib">
+   eJxjYCAdsNJRz3QgngHEM4F4Fg3tGax6yAUsUJoDiLkIYG4kfVwk2AEAG0QC9w==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="8" name="Paths" width="13" height="11" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBieIBaKkdno/FFAGQAAYwUCjA==
+  </data>
+ </layer>
+ <objectgroup id="7" name="Paths"/>
+</map>

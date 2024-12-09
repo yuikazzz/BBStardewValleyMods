@@ -1,0 +1,14 @@
+{
+   "Format": "2.0.0",
+
+    "Changes": [
+
+  {	  	
+    "Action": "EditData",
+    "Target": "Data/Furniture",
+	"Fields": {
+	"1226": { 3: "2 1" }
+        },
+	},
+   ]
+}

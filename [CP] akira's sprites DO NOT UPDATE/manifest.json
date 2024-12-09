@@ -1,0 +1,9 @@
+{
+    "Name": "akira's prettier sprites DO NOT UPDATE",
+    "Author": "Akira",
+    "Version": "2.0",
+    "Description": "Replaces sprites.",
+    "UniqueID": "Akira.PrettierSprites",
+    "UpdateKeys": ["Nexus:23085"],
+    "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

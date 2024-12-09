@@ -1,0 +1,13 @@
+﻿{
+  "Name": "akira's NPC Scarecrows",
+  "Author": "akira",
+  "Version": "1.0.0",
+  "Description": "",
+  "UniqueID": "akira.scarecrows",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.0.0"
+  }
+}

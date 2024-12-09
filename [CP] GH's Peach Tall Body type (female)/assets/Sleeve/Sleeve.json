@@ -1,0 +1,146 @@
+{
+	"Changes": [
+
+	/*일반 체형 소매*/
+  {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+    "FromFile": "assets/Sleeve/{{Non-Seasonal Sleeve Type}}.png",
+    "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "When": {
+      "Seasonal Sleeves" : false,
+      "Horse Wings Sleeve": false
+    },
+    "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+  },
+  {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+    "FromFile": "assets/Sleeve/{{Spring Sleeve}}.png",
+    "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "When": {
+        "Horse Wings Sleeve": false, 
+        "Seasonal Sleeves" : true,
+        "Season": "Spring"
+      },
+      "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+  },
+	{
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+    "FromFile": "assets/Sleeve/{{Summer Sleeve}}.png",
+    "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "When": {
+      "Horse Wings Sleeve": false, 
+      "Seasonal Sleeves" : true,
+      "Season": "Summer"
+    },
+    "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+  },
+  {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+    "FromFile": "assets/Sleeve/{{Fall Sleeve}}.png",
+    "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "When": {
+      "Horse Wings Sleeve": false,
+      "Seasonal Sleeves" : true,
+      "Season": "Fall"
+    },
+    "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+  },
+  {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+    "FromFile": "assets/Sleeve/{{Winter Sleeve}}.png",
+    "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "When": {
+      "Horse Wings Sleeve": false, 
+      "Seasonal Sleeves" : true,
+      "Season": "Winter"
+    },
+    "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+  },
+
+	/*말 날개 체형 소매*/
+  {
+    "Action": "EditImage",
+    "PatchMode": "Replace",
+    "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+    "FromFile": "assets/Sleeve/HW_{{Non-Seasonal Horse Wings Sleeve Type}}.png",
+    "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    "When": {
+      "Horse Wings Sleeve": true,
+      "Seasonal Horse Wings Sleeves" : false
+    },
+    "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+  },
+	  {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/Sleeve/HW_{{Spring Sleeve}}.png",
+      "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+      "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+      "When": {
+        "Horse Wings Sleeve": true,
+        "Seasonal Horse Wings Sleeves" : true,
+        "Season": "Spring"
+      },
+      "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/Sleeve/HW_{{Summer Sleeve}}.png",
+		  "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+    	"ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+      "When": {
+        "Horse Wings Sleeve": true,
+        "Seasonal Horse Wings Sleeves" : true,
+        "Season": "Summer"
+    },
+    "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/Sleeve/HW_{{Fall Sleeve}}.png",
+      "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+      "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+      "When": {
+        "Horse Wings Sleeve": true,
+        "Seasonal Horse Wings Sleeves" : true,
+        "Season": "Fall"
+      },
+      "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Farmer/farmer_girl_base, Characters/Farmer/farmer_girl_base_bald",
+      "FromFile": "assets/Sleeve/HW_{{Winter Sleeve}}.png",
+		  "FromArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+		  "ToArea": {"X": 96, "Y": 0, "Width": 192, "Height": 672},
+      "When": {
+        "Horse Wings Sleeve": true,
+        "Seasonal Horse Wings Sleeves" : true,
+        "Season": "Winter"
+      },
+      "Update": "OnDayStart, OnLocationChange, OnTimeChange"
+    }
+  ]
+}

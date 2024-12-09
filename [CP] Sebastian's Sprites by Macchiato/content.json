@@ -1,0 +1,29 @@
+{
+   "Format": "2.0.0",
+   "Changes": [
+   {
+      "Action": "EditImage",
+      "Target": "Characters/Sebastian",
+      "FromFile": "Assets/Sebastian.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sebastian_Beach",
+      "FromFile": "Assets/Sebastian_Beach.png"
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Characters/Sebastian_Winter",
+      "FromFile": "Assets/Sebastian_Winter.png"
+    },
+   {
+      "Action": "EditImage",
+      "Priority": "Late",
+      "Target": "TileSheets/junimo_furniture",
+      "FromFile": "Assets/SebastianPortrait.png",
+      "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+      "ToArea": { "X": 96, "Y": 304, "Width": 32, "Height": 32 },
+      "PatchMode": "replace",
+       },
+	]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Neighborly Building Collection",
+  "Author": "cajcbell",
+  "Version": "2.0",
+  "Description": "seasonal building texture set",
+  "UniqueID": "cajcbell.Foundations",
+  "UpdateKeys": ["Nexus:29080"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "8.0.0"
+  }
+}

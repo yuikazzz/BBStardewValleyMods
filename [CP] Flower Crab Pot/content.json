@@ -1,0 +1,107 @@
+{
+	"Format": "1.17.0",
+	"ConfigSchema": {
+	"Flower spring": {"AllowValues": "Aqua, Black, Blue, Orange, Pink, Red, Red_D, Violet, White, Yellow, BluePetal, PinkPetal, VioletPetal, WhitePetal, RedLeaf, OrangeLeaf, YellowLeaf, Ghost, WitchHat, Pumpkin",
+                            "Default": "Pink"},
+
+	"Flower summer": {"AllowValues": "Aqua, Black, Blue, Orange, Pink, Red, Red_D, Violet, White, Yellow, BluePetal, PinkPetal, VioletPetal, WhitePetal, RedLeaf, OrangeLeaf, YellowLeaf, Ghost, WitchHat, Pumpkin",
+                            "Default": "White"},
+
+	"Flower fall": {"AllowValues": "Aqua, Black, Blue, Orange, Pink, Red, Red_D, Violet, White, Yellow, BluePetal, PinkPetal, VioletPetal, WhitePetal, RedLeaf, OrangeLeaf, YellowLeaf, Ghost, WitchHat, Pumpkin",
+                            "Default": "Yellow"},
+
+	"Flower winter": {"AllowValues": "Aqua, Black, Blue, Orange, Pink, Red, Red_D, Violet, White, Yellow, BluePetal, PinkPetal, VioletPetal, WhitePetal, RedLeaf, OrangeLeaf, YellowLeaf, Ghost, WitchHat, Pumpkin",
+                            "Default": "Violet"},	
+
+							
+	"Butterfly spring": {"AllowValues": "Aqua, Beige, Blue, Blue_P, Orange, Pink, Red, Violet, White, Yellow, Bat, Bat2",
+                            "Default": "White"},
+
+	"Butterfly summer": {"AllowValues": "Aqua, Beige, Blue, Blue_P, Orange, Pink, Red, Violet, White, Yellow, Bat, Bat2",
+                            "Default": "Blue"},
+
+	"Butterfly fall": {"AllowValues": "Aqua, Beige, Blue, Blue_P, Orange, Pink, Red, Violet, White, Yellow, Bat, Bat2",
+                            "Default": "Orange"},
+
+	"Butterfly winter": {"AllowValues": "Aqua, Beige, Blue, Blue_P, Orange, Pink, Red, Violet, White, Yellow, Bat, Bat2",
+                            "Default": "Aqua"},		
+	},
+
+	"Changes": [
+
+
+//seasonal
+		{
+		"LogName": "Crab Pot Flower",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/flower/{{Flower spring}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Replace",
+		"When":{ "season": "spring" }
+		},		
+		{
+		"LogName": "Crab Pot Butterfly",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/butterfly/{{Butterfly spring}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Overlay",
+		"When":{ "season": "spring" }
+		},
+		{
+		"LogName": "Crab Pot Flower",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/flower/{{Flower summer}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Replace",
+		"When":{ "season": "summer" }
+		},		
+		{
+		"LogName": "Crab Pot Butterfly",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/butterfly/{{Butterfly summer}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Overlay",
+		"When":{ "season": "summer" }
+		},
+		{
+		"LogName": "Crab Pot Flower",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/flower/{{Flower fall}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Replace",
+		"When":{ "season": "fall" }
+		},		
+		{
+		"LogName": "Crab Pot Butterfly",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/butterfly/{{Butterfly fall}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Overlay",
+		"When":{ "season": "fall" }
+		},
+		{
+		"LogName": "Crab Pot Flower",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/flower/{{Flower winter}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Replace",
+		"When":{ "season": "winter" }
+		},		
+		{
+		"LogName": "Crab Pot Butterfly",
+		"Action": "EditImage",
+		"Target": "Maps/springobjects",
+		"FromFile": "assets/butterfly/{{Butterfly winter}}.png",
+		"ToArea": { "X": 224, "Y": 464, "Width": 80, "Height": 16 },
+		"PatchMode": "Overlay",
+		"When":{ "season": "winter" }
+		},
+     ]
+}

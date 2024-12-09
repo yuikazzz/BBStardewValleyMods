@@ -1,0 +1,12 @@
+﻿{
+   "Name": "[AT] Mediterranean Wizard Structures ",
+   "Author": "Latteholn",
+   "Version": "1.0.0",
+   "Description": "Alternative Textures version for MWZ",
+   "UniqueID": "Latteholn.AT_Mediterranean_Wizard_Structures",
+   "UpdateKeys": ["Nexus:28866"],
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "5.0.0"
+	},
+}

@@ -1,0 +1,8 @@
+{
+	"ItemName": "Mailbox",
+	"Type": "Building",
+		"Seasons": ["Fall"],
+	"TextureWidth": 16,
+	"TextureHeight": 32,
+	"Variations": 1,
+}

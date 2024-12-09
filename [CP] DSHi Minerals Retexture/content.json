@@ -1,0 +1,1554 @@
+{
+  "Format": "2.0.1",
+  "ConfigSchema": {
+    "Emerald": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Aquamarine": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Ruby": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Amethyst": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Topaz": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Jade": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Diamond": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Prismatic Shard": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Quartz": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Fire Quartz": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Frozen Tear": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Earth Crystal": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Alamite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Bixite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Baryte": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Aerinite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Calcite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Dolomite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Esperite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Fluorapatite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Geminite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Helvite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Jamborite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Jagoite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Kyanite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Lunarite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Malachite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Neptunite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Lemon Stone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Nekoite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Orpiment": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Petrified Slime": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Thunder Egg": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Pyrite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Ocean Stone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Ghost Crystal": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Tigerseye": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Jasper": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Opal": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Fire Opal": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Celestine": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Marble": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Sandstone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Granite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Basalt": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Limestone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Soapstone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Hematite": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Mudstone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Obsidian": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Slate": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Fairy Stone": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Star Shards": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Geode": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Frozen Geode": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Magma Geode": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    },
+    "Omni Geode": {
+      "AllowValues": "true, false",
+      "Default": "true"
+    }
+  },
+  "Changes": [
+    // Emerald
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Emerald": "true"
+      }
+    },
+
+    // Aquamarine
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 224,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Aquamarine": "true"
+      }
+    },
+
+    // Ruby
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 256,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ruby": "true"
+      }
+    },
+
+    // Amethyst
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Amethyst": "true"
+      }
+    },
+
+    // Topaz
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 320,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Topaz": "true"
+      }
+    },
+
+    // Jade
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 352,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 32,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jade": "true"
+      }
+    },
+
+    // Diamond
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Diamond": "true"
+      }
+    },
+
+    // Prismatic Shard
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 32,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Prismatic Shard": "true"
+      }
+    },
+
+    // Quartz
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Quartz": "true"
+      }
+    },
+
+    // Fire Quartz
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fire Quartz": "true"
+      }
+    },
+
+    // Frozen Tear
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Frozen Tear": "true"
+      }
+    },
+
+    // Earth Crystal
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 224,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Earth Crystal": "true"
+      }
+    },
+
+    // Alamite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Alamite": "true"
+      }
+    },
+
+    // Bixite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 176,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Bixite": "true"
+      }
+    },
+
+    // Baryte
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Baryte": "true"
+      }
+    },
+
+    // Aerinite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 208,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Aerinite": "true"
+      }
+    },
+
+    // Calcite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 224,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Calcite": "true"
+      }
+    },
+
+    // Dolomite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 240,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 240,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Dolomite": "true"
+      }
+    },
+
+    // Esperite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 256,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Esperite": "true"
+      }
+    },
+
+    // Fluorapatite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 272,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fluorapatite": "true"
+      }
+    },
+
+    // Geminite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Geminite": "true"
+      }
+    },
+
+    // Helvite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 304,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Helvite": "true"
+      }
+    },
+
+    // Jamborite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 320,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jamborite": "true"
+      }
+    },
+
+    // Jagoite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 336,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jagoite": "true"
+      }
+    },
+
+    // Kyanite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 352,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Kyanite": "true"
+      }
+    },
+
+    // Lunarite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 368,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lunarite": "true"
+      }
+    },
+
+    // Malachite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Malachite": "true"
+      }
+    },
+
+    // Neptunite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Neptunite": "true"
+      }
+    },
+
+    // Lemon Stone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 32,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Lemon Stone": "true"
+      }
+    },
+
+    // Nekoite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 48,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Nekoite": "true"
+      }
+    },
+
+    // Orpiment
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Orpiment": "true"
+      }
+    },
+
+    // Petrified Slime
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Petrified Slime": "true"
+      }
+    },
+
+    // Thunder Egg
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 96,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 96,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Thunder Egg": "true"
+      }
+    },
+
+    // Pyrite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 112,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Pyrite": "true"
+      }
+    },
+
+    // Ocean Stone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ocean Stone": "true"
+      }
+    },
+
+    // Ghost Crystal
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Ghost Crystal": "true"
+      }
+    },
+
+    // Tigerseye
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 160,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 160,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Tigerseye": "true"
+      }
+    },
+
+    // Jasper
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 176,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 176,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Jasper": "true"
+      }
+    },
+
+    // Opal
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 192,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 192,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Opal": "true"
+      }
+    },
+
+    // Fire Opal
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 208,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 208,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fire Opal": "true"
+      }
+    },
+
+    // Celestine
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 224,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 224,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Celestine": "true"
+      }
+    },
+
+    // Marble
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 240,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 240,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Marble": "true"
+      }
+    },
+
+    // Sandstone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 256,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 256,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Sandstone": "true"
+      }
+    },
+
+    // Granite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 272,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 272,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Granite": "true"
+      }
+    },
+
+    // Basalt
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 288,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 288,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Basalt": "true"
+      }
+    },
+
+    // Limestone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 304,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 304,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Limestone": "true"
+      }
+    },
+
+    // Soapstone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 320,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 320,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Soapstone": "true"
+      }
+    },
+
+    // Hematite
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 336,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 336,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Hematite": "true"
+      }
+    },
+
+    // Mudstone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 352,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 352,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Mudstone": "true"
+      }
+    },
+
+    // Obsidian
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 368,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 368,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Obsidian": "true"
+      }
+    },
+
+    // Slate
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Slate": "true"
+      }
+    },
+
+    // Fairy Stone
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 16,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 16,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Fairy Stone": "true"
+      }
+    },
+
+    // Star Shards
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 32,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 32,
+        "Y": 384,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Star Shards": "true"
+      }
+    },
+
+    // Geode (rock)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 48,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Geode": "true"
+      }
+    },
+
+    // Geode
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 112,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 112,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Geode": "true"
+      }
+    },
+
+    // Frozen Geode (rock)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 64,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 64,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Frozen Geode": "true"
+      }
+    },
+
+    // Frozen Geode
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 128,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 128,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Frozen Geode": "true"
+      }
+    },
+
+    // Magma Geode (rock)
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 48,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Magma Geode": "true"
+      }
+    },
+
+    // Magma Geode
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 144,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 352,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Magma Geode": "true"
+      }
+    },
+
+    // Omni Geode
+    {
+      "Action": "EditImage",
+      "Target": "Maps/springobjects",
+      "FromFile": "assets/springobjects.png",
+      "FromArea": {
+        "X": 80,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+      },
+      "ToArea": {
+        "X": 80,
+        "Y": 496,
+        "Width": 16,
+        "Height": 16
+      },
+      "When": {
+        "Omni Geode": "true"
+      }
+    }
+  ]
+  }

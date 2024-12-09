@@ -1,0 +1,13 @@
+{
+	"Changes": [
+	{
+		"LogName" : "Infinite Large Fish Tank",
+         "Action": "EditImage",
+         "Target": "TileSheets/furniture",
+         "FromFile": "assets/Large Fish Tank.png",
+         "FromArea": { "X": 0, "Y": 0, "Width": 128, "Height": 48 },
+         "ToArea": { "X": 0, "Y": 1152, "Width": 128, "Height": 48 },
+		"PatchMode": "Replace"
+	}
+	]
+}

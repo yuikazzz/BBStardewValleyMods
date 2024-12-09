@@ -1,0 +1,20 @@
+{
+   "Name": "[CP] Wallet Items Retexture",
+   "Author": "Mangrang",
+   "Version": "1.0.0",
+   "Description": "retexture of wallet items, naver 447944",
+   "UniqueID": "Mangrang.WalletItemsRetexture",
+   "UpdateKeys": [ "" ],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+	  },
+	  
+	"Dependencies":[
+	{
+		"UniqueID":"Maraluna.OvergrownFloweryInterface",
+		"IsRequired":false
+	}
+	]
+}
+
+

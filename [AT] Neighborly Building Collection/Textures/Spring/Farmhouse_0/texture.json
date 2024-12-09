@@ -1,0 +1,13 @@
+{
+  "ItemName": "Farmhouse_0",
+  "Type": "Building",
+  "Seasons": ["Spring"],
+  "TextureWidth": 320,
+  "TextureHeight": 144,
+  "ManualVariations": [
+    {
+      "Id": 0,
+      "Name": "Farmhouse",
+    },
+  ]
+}

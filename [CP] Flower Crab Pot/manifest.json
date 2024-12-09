@@ -1,0 +1,10 @@
+{
+  "Name": "[CP] Flower Crab Pot",
+  "Author": "Mochitail",
+  "Version": "1.2.0",
+  "Description": "Flower Crab Pot",
+  "UniqueID": "Mochitail.Flowercrabpot",
+  "MinimumApiVersion": "3.5.0",
+  "UpdateKeys": ["Nexus:6806"],
+  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
+}

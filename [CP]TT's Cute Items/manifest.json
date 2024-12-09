@@ -1,0 +1,10 @@
+{
+    "Name": "[CP]TT's Cute Items",
+    "Author": "Tforly",
+    "Version": "1.0",
+    "UniqueID": "CP.Cute.Items",
+    "MinimumApiVersion": "2.2.0",
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

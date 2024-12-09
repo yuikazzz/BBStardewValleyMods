@@ -1,0 +1,168 @@
+{
+	"Format": "2.0.0",
+    "Changes": 
+    [
+
+// Hearty Beans Dishes
+
+        {
+			"LogName": "Earthy Mousse",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/EarthyMousse.png",
+			"ToArea": { "X": 0, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Sweet Bean Cake",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/BeanCake.png",
+			"ToArea": { "X": 16, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Skull Cave Casserole",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/CaveCasserole.png",
+			"ToArea": { "X": 32, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Spicy Tacos",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/SpicyTacos.png",
+			"ToArea": { "X": 48, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		
+//Cave Loaf Dishes
+
+		{
+			"LogName": "Mountain Chili",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/MountainChili.png",
+			"ToArea": { "X": 64, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Crystal Cake",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/CrystalCake.png",
+			"ToArea": { "X": 80, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Cave Kebab",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/CaveKebab.png",
+			"ToArea": { "X": 96, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Hot Log",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/HotLog.png",
+			"ToArea": { "X": 112, "Y": 32, "Width": 16, "Height": 16 }
+		},
+		
+//Rare Fruit Dishes
+
+		{
+			"LogName": "Sour Salad",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/SourSalad.png",
+			"ToArea": { "X": 0, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Superfood Cake",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/SuperCake.png",
+			"ToArea": { "X": 16, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Warrior Smoothie",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/WarriorSmoothie.png",
+			"ToArea": { "X": 32, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Rumpled Fruit Skin",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/RumpledFruit.png",
+			"ToArea": { "X": 48, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		
+//Extremely Sharp Cheddar Dishes
+
+		{
+			"LogName": "Calico Pizza",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/CalicoPizza.png",
+			"ToArea": { "X": 64, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Stuffed Mushrooms",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/StuffedMushrooms.png",
+			"ToArea": { "X": 80, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Elf Quesadilla",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/ElfQuesadilla.png",
+			"ToArea": { "X": 96, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Nachos of the Desert",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/DesertNachos.png",
+			"ToArea": { "X": 112, "Y": 48, "Width": 16, "Height": 16 }
+		},
+		
+//Shrimp Dishes
+
+		{
+			"LogName": "Ciopinno",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/Ciopinno.png",
+			"ToArea": { "X": 0, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Rainforest Shrimp",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/ForestShrimp.png",
+			"ToArea": { "X": 16, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Shrimp Donut",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/ShrimpDonut.png",
+			"ToArea": { "X": 32, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Smell of the Sea",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/SmellSea.png",
+			"ToArea": { "X": 48, "Y": 64, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "Desert Gumbo",
+			"Action": "EditImage",
+			"Target": "Tilesheets/Objects_2",
+			"FromFile": "assets/DesertGumbo.png",
+			"ToArea": { "X": 64, "Y": 64, "Width": 16, "Height": 16 }
+		}
+	]
+}

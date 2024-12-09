@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] Arhen.BeigeToneWalls",
+   "Author": "Arhen",
+   "Version": "1.1.1",
+   "Description": "기존 벽지와 바닥을 를 베이지톤 세트로 대체합니다. ",
+   "UniqueID": "Arhen.BeigeToneWalls",
+   "MinimumApiVersion": "",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

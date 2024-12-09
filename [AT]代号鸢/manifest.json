@@ -1,0 +1,12 @@
+﻿{
+	"Name": "[AT]绣衣楼稻草人",
+	"Author": "JiLin",
+	"Version": "1.0.0",
+	"Description": "qq2579430092.",
+	"UniqueID": "JiLin05.09.26",
+	"MinimumApiVersion": "2.5",
+	"ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "4.5.3"
+	  }
+}

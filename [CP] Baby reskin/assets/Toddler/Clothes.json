@@ -1,0 +1,126 @@
+{
+	"Changes": [
+	// Wear ===============================================
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/{{BoyWear}}.png",
+		"PatchMode": "Overlay",
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/{{GirlWear}}.png",
+		"PatchMode": "Overlay",
+	},
+	// NeckCollar ===============================================
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/NeckCollar/{{BoyWearColor}}.png",
+		"PatchMode": "Overlay",
+	},	
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/NeckCollar/{{GirlWearColor}}.png",
+		"PatchMode": "Overlay",
+	},
+	// Overall ===============================================
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/Overall/{{BoyWear}}/{{BoyWearColor}}.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"BoyWearOverall": "true",
+		  }
+	},	
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/Overall/{{GirlWear}}/{{GirlWearColor}}.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"GirlWearOverall": "true",
+		  }
+	},
+	// Sleeve ===============================================
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Half.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"BoySleeve": "Weather",
+			"WeatherStyle": "Dry, Hot",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Long.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"BoySleeve": "Weather",
+			"WeatherStyle": "Wet, Cold",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Half.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"BoySleeve": "Half",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler, Characters/Toddler_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Long.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"BoySleeve": "Long",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Half.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"GirlSleeve": "Weather",
+			"WeatherStyle": "Dry, Hot",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Long.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"GirlSleeve": "Weather",
+			"WeatherStyle": "Wet, Cold",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Half.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"GirlSleeve": "Half",
+		  }
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Toddler_girl, Characters/Toddler_girl_dark",
+		"FromFile": "assets/Toddler/Clothes/Sleeve/Long.png",
+		"PatchMode": "Overlay",
+		  "When": {
+			"GirlSleeve": "Long",
+		  }
+	},
+  ]
+}

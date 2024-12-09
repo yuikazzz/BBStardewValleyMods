@@ -1,0 +1,12 @@
+{
+  "Fox": "FoxRed, FoxArctic",
+  "Fennec": "FennecSand, FennecCream",
+  "MiniPig": "MiniPigPink",
+  "Ferret": "FerretBrown, FerretBlack, FerretCream, FerretGray, FerretLightBrown",
+  "Hedgehog": "HedgehogBrown, HedgehogBlack, HedgehogGray, HedgehogBlue, HedgehogPinto",
+  "Capybara": "Capybara",
+  "RedPanda": "RedPanda",
+  "BeardedDragon": "BeardedSand",
+  "Gecko": "GeckoYellow",
+  "Bear": "BearBrown, BearBlack, BearPanda, BearPolar"
+}

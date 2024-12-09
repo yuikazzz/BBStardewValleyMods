@@ -1,0 +1,33 @@
+{
+    "Format": "1.26.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "gedian.SOMENAMEHERE.swing0": "gedian.SOMENAMEHERE.swing0/couch/3 3/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing0.name}}/0/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing1": "gedian.SOMENAMEHERE.swing1/couch/3 3/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing1.name}}/3/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing2": "gedian.SOMENAMEHERE.swing2/couch/3 3/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing2.name}}/6/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing3": "gedian.SOMENAMEHERE.swing3/couch/3 3/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing3.name}}/9/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing4": "gedian.SOMENAMEHERE.swing4/couch/3 3/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing4.name}}/12/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing5": "gedian.SOMENAMEHERE.swing5/couch/3 3/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing5.name}}/15/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing6": "gedian.SOMENAMEHERE.swing6/bench/5 3/5 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing6.name}}/18/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing7": "gedian.SOMENAMEHERE.swing7/bench/5 3/5 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing7.name}}/23/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing8": "gedian.SOMENAMEHERE.swing8/bench/5 3/5 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing8.name}}/96/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing9": "gedian.SOMENAMEHERE.swing9/bench/7 3/7 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing9.name}}/101/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing10": "gedian.SOMENAMEHERE.swing10/bench/7 3/7 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing10.name}}/108/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing11": "gedian.SOMENAMEHERE.swing11/bench/7 3/7 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing11.name}}/115/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing12": "gedian.SOMENAMEHERE.swing12/bench/4 6/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing12.name}}/192/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing13": "gedian.SOMENAMEHERE.swing13/bench/4 6/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing13.name}}/196/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing14": "gedian.SOMENAMEHERE.swing14/bench/4 6/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing14.name}}/200/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing15": "gedian.SOMENAMEHERE.swing15/couch/4 6/4 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing15.name}}/204/Mods\\gedian.SOMENAMEHERE\\qiuqian",
+                "gedian.SOMENAMEHERE.swing16": "gedian.SOMENAMEHERE.swing16/bench/4 6/3 1/1/100/-1/{{i18n:gedian.SOMENAMEHERE.swing16.name}}/212/Mods\\gedian.SOMENAMEHERE\\qiuqian"
+            }
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/gedian.SOMENAMEHERE/qiuqian",
+            "FromFile": "qiuqian.png"
+        }
+    ]
+}

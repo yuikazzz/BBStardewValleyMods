@@ -1,0 +1,46 @@
+{
+	"Format": "1.20.0",
+
+    "ConfigSchema": {
+    	"Type": { "AllowValues": "default brightness_chubby leg, default brightness_slim leg, low brightness_chubby leg, low brightness_slim leg, none", "Default": "default brightness_chubby leg" },
+    	},
+
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/default_chubby.png",
+			"When": {
+				"Type": "default brightness_chubby leg"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/default_slim.png",
+			"When": {
+				"Type": "default brightness_slim leg"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/low_chubby.png",
+			"When": {
+				"Type": "low brightness_chubby leg"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+		{
+			"Action": "Load",
+			"Target": "Characters/Farmer/hairstyles",
+			"FromFile": "assets/low_slim.png",
+			"When": {
+				"Type": "low brightness_slim leg"
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		}
+	]
+}

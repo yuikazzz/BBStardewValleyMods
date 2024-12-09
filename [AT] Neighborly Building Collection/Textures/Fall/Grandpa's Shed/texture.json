@@ -1,0 +1,8 @@
+{
+  "ItemName": "Flashshifter.StardewValleyExpandedCP_fall_z_extras",
+  "Type": "Building",
+  "Seasons": ["Fall"],
+  "TextureWidth": 160,
+  "TextureHeight": 350,
+  "Variations": 1
+}

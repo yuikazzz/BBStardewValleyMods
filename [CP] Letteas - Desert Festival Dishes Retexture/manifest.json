@@ -1,0 +1,11 @@
+{
+   "Name": "Letteas Desert Festival Dishes Retexture",
+   "Author": "Letteas",
+   "Version": "1.0.0",
+   "Description": "A resprite of the desert festival dishes you can get at the chef's booth.",
+   "UniqueID": "Letteas.chefdishes",
+  "UpdateKeys": ["Nexus:21396"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}

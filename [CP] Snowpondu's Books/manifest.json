@@ -1,0 +1,11 @@
+{
+   "Name": "Snowpondu's cute Books",
+   "Author": "Snowpondu",
+   "Version": "1.0",
+   "Description": "from naver 444039",
+   "UniqueID": "Snowpondu.books",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

@@ -1,0 +1,12 @@
+{
+    "Name": "(cp)classical-furniture",   
+    "Author": "Jiaojiao",   
+    "Version": "1.0.1",
+    "Description": "Decorative furniture",   
+    "UniqueID": "jiaojiao-classical-furniture1122",    
+    "UpdateKeys": ["Nexus: "], 
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.0.0"
+    }
+}

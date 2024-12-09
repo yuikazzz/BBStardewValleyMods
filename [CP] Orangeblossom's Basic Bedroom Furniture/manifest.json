@@ -1,0 +1,10 @@
+{
+"Name": "[CP] Orangeblossom's Basic Bedroom Furniture",
+"Author": "orangeblossom",
+"Version": "1.0.5",
+"Description": "Bedroom furniture.",
+"UniqueID": "OB7.BedFurni",
+"Dependencies": [{"UniqueID": "OB7.FurniCatalogue","IsRequired": true}],
+"UpdateKeys":["Nexus:23194"],
+"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
+}

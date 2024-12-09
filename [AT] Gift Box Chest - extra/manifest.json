@@ -1,0 +1,11 @@
+{
+   "Name": "[AT] Orangeblossom's Gift Box Chests",
+   "Author": "orangeblossom",
+   "Version": "1.0",
+   "Description": "Gift retexture for the chest and stone chest.",
+   "UniqueID": "ob7.chest.giftEXTRA",
+   "ContentPackFor": {
+		"UniqueID": "PeacefulEnd.AlternativeTextures",
+		"MinimumVersion": "3.3.2"
+	},
+}

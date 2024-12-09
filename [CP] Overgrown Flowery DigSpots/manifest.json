@@ -1,0 +1,13 @@
+{
+	"Name": "[CP] Overgrown Flowery DigSpots",
+	"Author": "Maraluna",
+	"Version": "1.1",
+	"Description": "Cute flowery dig spots in multiple colors.",
+	"UniqueID": "Maraluna.OvergrownFloweryDigSpots",
+	"MinimumApiVersion": "4.0.0",
+	"ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"},
+	"UpdateKeys": ["Nexus:6166@OFIDigSpots"],
+	"Dependencies": [
+		{"UniqueID": "poohnhi.VPRTempFix", "IsRequired": false,},
+	]
+}
