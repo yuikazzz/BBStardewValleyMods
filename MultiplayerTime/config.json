@@ -1,7 +1,7 @@
 {
   "ActivationKey": "F3",
   "Active": true,
-  "UiInfoSuite": false,
-  "InvisibleUI": false,
+  "UiInfoSuite": true,
+  "InvisibleUI": true,
   "HourFormat": "Default"
 }
