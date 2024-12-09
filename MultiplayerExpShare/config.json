@@ -1,5 +1,5 @@
 {
-  "ExpShareType": "Tile",
+  "ExpShareType": "Global",
   "OverlayButton": "K",
   "OverlayOpacity": 0.5,
   "ShareAllExpAtMaxLevel": true,
