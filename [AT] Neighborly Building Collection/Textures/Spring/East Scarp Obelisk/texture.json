@@ -1,8 +1,0 @@
-{
-  "ItemName": "Scarp Obelisk",
-  "Type": "Building",
-  "Seasons": ["Spring"],
-  "TextureWidth": 48,
-  "TextureHeight": 128,
-  "Variations": 2
-}

@@ -1,9 +1,0 @@
-{
-    "Name": "Elegant Furniture",
-    "Author": "orangeblossom",
-    "Version": "1.1",
-    "Description": "CP version of TMS2. For SDV 1.6+ only.",
-    "UniqueID": "ob7.TMS2CP.green",
-    "Dependencies": [{"UniqueID": "sophie.Calcifer","IsRequired": true}],
-    "ContentPackFor": {"UniqueID": "Pathoschild.ContentPatcher"}
-}
