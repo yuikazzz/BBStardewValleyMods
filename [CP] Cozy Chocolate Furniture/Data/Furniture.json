@@ -260,7 +260,7 @@
                 "skellady.CCF_WhiteChocolateWindowWinter3": "skellady.CCF_WhiteChocolateWindowWinter3/painting/1 3/1 3/1/200/0/{{i18n:skellady.CCF.WhiteChocolateWindowWinter3}}/2202/Mods\\skellady.CCF\\Furniture/false/collection_cozychocolatefurni",
                 "skellady.CCF_WhiteChocolateWindowWinter4": "skellady.CCF_WhiteChocolateWindowWinter4/painting/1 3/1 3/1/200/0/{{i18n:skellady.CCF.WhiteChocolateWindowWinter4}}/2203/Mods\\skellady.CCF\\Furniture/false/collection_cozychocolatefurni",
 */
-                "skellady.CCF_ChocolateFireplace": "skellady.CCF_ChocolateFireplace/fireplace/2 4/2 2/1/200/0/{{i18n:skellady.CCF.ChocolateFireplace}}/2272/Mods\\skellady.CCF\\Furniture/false/collection_cozychocolatefurni",
+                "skellady.CCF_ChocolateFireplace": "skellady.CCF_ChocolateFireplace/fireplace/2 4/2 1/1/200/0/{{i18n:skellady.CCF.ChocolateFireplace}}/2272/Mods\\skellady.CCF\\Furniture/false/collection_cozychocolatefurni",
 
                 "skellady.CCF_CozyRedBed": "skellady.CCF_CozyRedBed/bed double/3 4/3 3/1/200/-1/{{i18n:skellady.CCF.CozyRedBed}}/2306/Mods\\skellady.CCF\\Furniture/false/collection_cozychocolatefurni",
                 "skellady.CCF_CozyPurpleBed": "skellady.CCF_CozyPurpleBed/bed double/3 4/3 3/1/200/-1/{{i18n:skellady.CCF.CozyPurpleBed}}/2312/Mods\\skellady.CCF\\Furniture/false/collection_cozychocolatefurni",

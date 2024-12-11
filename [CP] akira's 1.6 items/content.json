@@ -117,6 +117,20 @@
 			"ToArea": { "X": 80, "Y": 128, "Width": 16, "Height": 16 }
 		},
 		{
+			"LogName": "drumblock",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/drumblock.png",
+			"ToArea": { "X": 112, "Y": 304, "Width": 16, "Height": 16 }
+		},
+		{
+			"LogName": "fluteblock",
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"FromFile": "assets/fluteblock.png",
+			"ToArea": { "X": 128, "Y": 304, "Width": 16, "Height": 16 }
+		},
+		{
 			"LogName": "flute",
 			"Action": "Editimage",
 			"Target": "Maps/springobjects",
