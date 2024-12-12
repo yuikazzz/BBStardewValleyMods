@@ -1,0 +1,12 @@
+﻿{
+  "Name": "[FS] cherry's hair",
+  "Author": "cherry",
+  "Version": "3.0.0",
+  "Description": "It's cherry.HairHats naver 444855",
+  "UniqueID": "cherry.FS",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense"
+  }
+}

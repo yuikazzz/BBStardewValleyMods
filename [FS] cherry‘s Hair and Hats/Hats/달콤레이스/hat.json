@@ -1,0 +1,63 @@
+{
+    "Name": "달콤레이스",
+    "FrontHat": {
+        "DisableGrayscale": "true",
+        "StartingPosition": {
+            "X": 0,
+            "Y": 0,
+        },
+        "HeadPosition":{
+            "X": 13,
+            "Y": 14,
+        },
+        "HatSize": {
+            "Width": 48,
+            "Length": 48
+          },
+    },
+    "RightHat": {
+        "DisableGrayscale": "true",
+        "StartingPosition": {
+            "X": 0,
+            "Y": 48,
+        },
+        "HeadPosition": {
+            "X": 15,
+            "Y": 13,
+        },
+        "HatSize":{
+            "Width": 48,
+            "Length": 48
+          },
+    },
+    "LeftHat": {
+        "DisableGrayscale": "true",
+        "StartingPosition": {
+            "X": 0,
+            "Y": 96,
+        },
+        "HeadPosition": {
+            "X": 15,
+            "Y": 13,
+        },
+        "HatSize": {
+            "Width": 48,
+            "Length": 48
+          },
+    },
+    "BackHat": {
+        "DisableGrayscale": "true",
+        "StartingPosition": {
+            "X": 0,
+            "Y": 144,
+        },
+        "HeadPosition":{
+            "X": 13,
+            "Y": 14,
+        },
+        "HatSize": {
+            "Width": 48,
+            "Length": 48
+          },
+    }
+}
