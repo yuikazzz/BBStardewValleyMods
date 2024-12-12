@@ -1,4 +1,4 @@
 {
-  "EnableIslandFarmCave": "true",
-  "EnableIslandShed": "true"
+  "EnableIslandFarmCave": "false",
+  "EnableIslandShed": "false"
 }

@@ -1,0 +1,15 @@
+{
+    "Name": "[CP] More Bar Transmutations",
+    "Author": "Pancham138",
+    "Version": "1.2.0",
+    "Description": "More transmutations for bars.",
+    "UniqueID": "Pancham138.CP.MoreBarTransmutations",
+    "MinimumApiVersion": "3.8.0",
+    "UpdateKeys": [
+        "Nexus:5996"
+    ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "1.19.0"
+    }
+}

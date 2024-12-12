@@ -1,0 +1,34 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Transmute Back (Cu)": "335 1/Home/334 3/false/Mining 4/Transmutation inverse (Cu)",
+                "Transmute Back (Fe)": "336 1/Home/335 2/false/Mining 7/Transmutation inverse (Fe)"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Transmute Back (Au)": "337 1/Home/336 {{GoldBarRequiredForIridium}}/false/Mining 9/Transmutation inverse (Au)",
+                "Transmute (Ir)": "336 {{GoldBarRequiredForIridium}}/Home/337 1/false/Mining 9/Transmutation (Ir)"
+            },
+            "When": {
+                "EnableIridiumTransmutations": "true"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Transmute Back (Ir)": "910 1/Home/337 {{IridiumBarRequiredForRadioactive}}/false/Mining 9/Transmutation inverse (Ir)",
+                "Transmute (Rad)": "337 {{IridiumBarRequiredForRadioactive}}/Home/910 1/false/Mining 9/Transmutation (Rad)"
+            },
+            "When": {
+                "EnableRadioactiveTransmutations": "true"
+            }
+        }
+    ]
+}

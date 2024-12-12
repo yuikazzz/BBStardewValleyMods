@@ -3,7 +3,7 @@
     {
       "farmer": "bb",
       "npc": "Gus",
-      "point": 2.0
+      "point": 0.0
     },
     {
       "farmer": "bb",
@@ -23,7 +23,7 @@
     {
       "farmer": "bb",
       "npc": "Maru",
-      "point": 54.0
+      "point": 30.0
     },
     {
       "farmer": "bb",
@@ -33,7 +33,7 @@
     {
       "farmer": "bb",
       "npc": "Demetrius",
-      "point": 23.0
+      "point": 0.0
     },
     {
       "farmer": "bb",
@@ -43,26 +43,66 @@
     {
       "farmer": "bb",
       "npc": "Harvey",
-      "point": 2.0
+      "point": 5.0
     },
     {
       "farmer": "bb",
       "npc": "Sandy",
-      "point": 9.0
+      "point": 0.0
     },
     {
       "farmer": "bb",
       "npc": "Sam",
-      "point": 52.0
+      "point": 28.0
     },
     {
       "farmer": "bb",
       "npc": "Penny",
-      "point": 14.0
+      "point": 0.0
     },
     {
       "farmer": "bb",
       "npc": "Haley",
+      "point": 14.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Caroline",
+      "point": 0.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Evelyn",
+      "point": 0.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Clint",
+      "point": 0.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Leah",
+      "point": 5.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Willy",
+      "point": 0.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Alex",
+      "point": 4.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Dwarf",
+      "point": 0.0
+    },
+    {
+      "farmer": "bb",
+      "npc": "Wizard",
       "point": 14.0
     }
   ]
