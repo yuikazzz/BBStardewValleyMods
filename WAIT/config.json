@@ -1,12 +1,12 @@
 {
   "ShowPauseIcon": true,
-  "AnyCutscenePauses": false,
-  "EnableVotePause": true,
+  "AnyCutscenePauses": true,
+  "EnableVotePause": false,
   "VotePauseHotkey": "Home",
   "EnablePauseOverride": true,
   "ForcePauseHotkey": "End",
   "DisplayMessages": true,
-  "PauseAllWhenAnyPlayerPaused": false,
+  "PauseAllWhenAnyPlayerPaused": true,
   "AnyoneCanForcePause": false,
   "PauseMonstersForIndividualPlayers": true
 }
