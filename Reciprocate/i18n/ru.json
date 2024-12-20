@@ -66,6 +66,8 @@
     "Reciprocate.Bubble.NoReciprocate.Dislike:7": "{p} осмеливается дарить мне {i}!",
     "Reciprocate.Bubble.NoReciprocate.Dislike:8": "{i} следует уничтожить...",
     "Reciprocate.Bubble.NoReciprocate.Dislike:9": "Шутки {p} меня удивляют.",
+    "Reciprocate.Dialogue.CantSpeak.Happy": "({n} выглядит очень счастливым.)",
+    "Reciprocate.Dialogue.CantSpeak.Sad": "({n} выглядит довольно обеспокоенным.)",
     "Reciprocate.Bubble.Reciprocate:0": "Надеюсь, {p} оценит...",
     "Reciprocate.Bubble.Reciprocate:1": "Может быть, тебе понравится {i}.",
     "Reciprocate.Bubble.Reciprocate:2": "Надеюсь, {p} сможет принять {i}.",

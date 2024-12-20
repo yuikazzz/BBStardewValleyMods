@@ -1,0 +1,10 @@
+{
+   "Name": "akira's Junimo Furniture recolor",
+   "Author": "akira",
+   "Version": "1.0.0",
+   "Description": "A simple recolouring of the Junimo Furniture. https://cafe.naver.com/starvall/471769",
+   "UniqueID": "akira.JunimoFurnitureRecolor",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

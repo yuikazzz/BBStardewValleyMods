@@ -85,6 +85,8 @@
     "Reciprocate.Bubble.NoReciprocate.Dislike:7": "{p} eu não gosto de {i}",
     "Reciprocate.Bubble.NoReciprocate.Dislike:8": "Não sou fã de {i}...",
     "Reciprocate.Bubble.NoReciprocate.Dislike:9": "Ótima piada",
+    "Reciprocate.Dialogue.CantSpeak.Happy": "({n} parece muito feliz.)",
+    "Reciprocate.Dialogue.CantSpeak.Sad": "({n} parece bastante preocupado.)",
     "Reciprocate.Bubble.Reciprocate:0": "Espero que {p} goste",
     "Reciprocate.Bubble.Reciprocate:1": "Talvez você goste {i}",
     "Reciprocate.Bubble.Reciprocate:2": "Espero {p} que aceite {i}",

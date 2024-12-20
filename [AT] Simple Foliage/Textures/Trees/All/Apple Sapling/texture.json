@@ -1,0 +1,12 @@
+{
+    "ItemName": "Apple Sapling",
+    "Type": "FruitTree",
+    "TextureWidth": 432,
+    "TextureHeight": 80,
+    "Keywords": [
+        "Anette",
+        "Simple Foliage",
+        "dugongkebalik"
+    ],
+    "Variations": 6
+}

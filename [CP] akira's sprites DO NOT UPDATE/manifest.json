@@ -4,6 +4,6 @@
     "Version": "2.0",
     "Description": "Replaces sprites.",
     "UniqueID": "Akira.PrettierSprites",
-    "UpdateKeys": ["Nexus:23085"],
+    "UpdateKeys": ["Nexus:30139"],
     "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" }
 }

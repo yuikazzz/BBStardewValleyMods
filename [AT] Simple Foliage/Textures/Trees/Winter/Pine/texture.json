@@ -1,0 +1,15 @@
+{
+    "ItemName": "Pine",
+    "Type": "Tree",
+    "Seasons": [
+        "Winter"
+    ],
+    "TextureWidth": 48,
+    "TextureHeight": 160,
+    "Keywords": [
+        "Anette",
+        "Simple Foliage",
+        "dugongkebalik"
+    ],
+    "Variations": 6
+}

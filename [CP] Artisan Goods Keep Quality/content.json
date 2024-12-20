@@ -43,6 +43,18 @@
 			"Section": "Compatibility",
 			"Description": "Enable for compatibility with Large Void Egg 2 by strobel1ght",
 		},
+		"Honey Extend": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Section": "Compatibility",
+			"Description": "Enable for compatibility with Honey Extend by SkeletonOwO",
+		},
+		"Milkable Sheep": {
+			"AllowValues": "true, false",
+			"Default": "false",
+			"Section": "Compatibility",
+			"Description": "Enable for compatibility with Milkable Sheep by radmaninoff",
+		},
 		"Wildflour Floral": {
 			"AllowValues": "true, false",
 			"Default": "false",

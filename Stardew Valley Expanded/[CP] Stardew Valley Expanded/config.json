@@ -27,7 +27,7 @@
   "OlderSophiaPortraits": "false",
   "VanillaSandyPortraits": "false",
   "MatureEvents": "false",
-  "ShorterPathToBlueMoonVineyard": "false",
+  "ShorterPathToBlueMoonVineyard": "true",
   "GaldoranGemMuseumMoveable": "false",
   "UseGaldoranThemeAllTimes": "false",
   "DisableGaldoranTheme": "false"

@@ -66,6 +66,8 @@
     "Reciprocate.Bubble.NoReciprocate.Dislike:7": "{p} наважився дати мені {i}!",
     "Reciprocate.Bubble.NoReciprocate.Dislike:8": "{i} має бути знищено...",
     "Reciprocate.Bubble.NoReciprocate.Dislike:9": "Жарти {p} дивують.",
+    "Reciprocate.Dialogue.CantSpeak.Happy": "({n} виглядає дуже щасливим.)",
+    "Reciprocate.Dialogue.CantSpeak.Sad": "({n} виглядає досить стурбованим.)",
     "Reciprocate.Bubble.Reciprocate:0": "Сподіваюсь, {p} сподобається...",
     "Reciprocate.Bubble.Reciprocate:1": "Можливо, вам сподобається {i}.",
     "Reciprocate.Bubble.Reciprocate:2": "Сподіваюся, {p} може прийняти {i}.",

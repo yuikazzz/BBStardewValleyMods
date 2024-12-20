@@ -62,13 +62,6 @@
     "Reciprocate.Dialogue.Giving.Penny.731:0": "$hNo le digas a los niños que te di esto.",
     "Reciprocate.Dialogue.Giving.Penny:0": "$hCorrecto! Creo que también debería darte algo.",
     "Reciprocate.Dialogue.Giving.Penny:1": "$lEntonces... Te gustará este regalo de regreso?",
-    "Reciprocate.Dialogue.Receiving.Alex.174:0": "$hMis músculos están ansiosos por más consumo de {i}, y {p} ha sido de gran ayuda.",
-    "Reciprocate.Dialogue.Receiving.Alex.176:0": "$hMis músculos están ansiosos por más consumo de {i}, y {p} ha sido de gran ayuda.",
-    "Reciprocate.Dialogue.Receiving.Alex.180:0": "$hMis músculos están ansiosos por más consumo de {i}, y {p} ha sido de gran ayuda.",
-    "Reciprocate.Dialogue.Receiving.Alex.182:0": "$hMis músculos están ansiosos por más consumo de {i}, y {p} ha sido de gran ayuda.",
-    "Reciprocate.Dialogue.Receiving.Sophia.FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken:0": "$h¡Y {i} es lo más delicioso! ¡{p}, eres tan amable! * No puedo evitar abrazarte *",
-    "Reciprocate.Dialogue.Receiving.Harvey.395:0": "$hY el aroma de {i} siempre levanta mis ánimos, gracias, {p}!",
-    "Reciprocate.Dialogue.Receiving.Harvey.253:0": "$hPero esto es realmente {i}? Estaría aún más feliz con algo sencillo la próxima vez, gracias, {p}.",
     "Reciprocate.Bubble.NoReciprocate.Like:0": "Gran regalo...",
     "Reciprocate.Bubble.NoReciprocate.Like:1": "Tal vez también debería darte un regalo...",
     "Reciprocate.Bubble.NoReciprocate.Like:2": "Estoy realmente feliz...",
@@ -100,4 +93,6 @@
     "Reciprocate.Bubble.Reciprocate:8": "Espero que {p} esté feliz.",
     "Reciprocate.Bubble.Reciprocate:9": "También puedes apreciar la belleza de {i}.",
     "Reciprocate.Bubble.Reciprocate:10": "{i} merece ser apreciado.",
+    "Reciprocate.Dialogue.CantSpeak.Happy": "({n} parece muy feliz.)",
+    "Reciprocate.Dialogue.CantSpeak.Sad": "({n} parece bastante preocupado.)"
 }
