@@ -1,369 +1,17 @@
 {
-  "WeatherForYesterday": "Festival",
+  "WeatherForYesterday": "Wind",
   "LNOSCounter": {},
   "ExistingObjectLocations": {
     "Lnh's New Island Stump": []
   },
   "SavedObjects": [
     {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "30, 39",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "35, 40",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "41, 35",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "31, 41",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "31, 42",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "30, 38",
-      "Type": "Ore",
-      "ID": 817,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "40, 37",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "33, 41",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "43, 36",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "42, 38",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "28, 41",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "41, 36",
-      "Type": "Ore",
-      "ID": 816,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "37, 37",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "36, 39",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "29, 38",
-      "Type": "Ore",
-      "ID": 816,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "41, 37",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "43, 34",
-      "Type": "Ore",
-      "ID": 816,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "28, 39",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "38, 37",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "40, 35",
-      "Type": "Ore",
-      "ID": 668,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "33, 40",
-      "Type": "Ore",
-      "ID": 816,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "44, 35",
-      "Type": "Ore",
-      "ID": 817,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "36, 37",
-      "Type": "Ore",
-      "ID": 816,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "33, 39",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "29, 40",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Stone",
-      "Tile": "32, 39",
-      "Type": "Ore",
-      "ID": 670,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "39, 38",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "29, 42",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Clay",
-      "Tile": "32, 41",
-      "Type": "Ore",
-      "ID": 818,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": "Fossil",
-      "Tile": "36, 40",
-      "Type": "Ore",
-      "ID": 816,
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": null,
-      "Tile": "12, 27",
-      "Type": "ResourceClump",
-      "ID": "600",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
-      "MapName": "Custom_Island_NW",
-      "Name": null,
-      "Tile": "15, 27",
-      "Type": "ResourceClump",
-      "ID": "600",
-      "DaysUntilExpire": 1,
-      "SpawnTime": 600,
-      "ConfigItem": null,
-      "MonType": null
-    },
-    {
       "MapName": "Custom_IslandFarmCave",
       "Name": null,
       "Tile": "11, 12",
       "Type": "Container",
       "ID": null,
-      "DaysUntilExpire": 26,
+      "DaysUntilExpire": 23,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "chest",
@@ -377,12 +25,383 @@
       "Tile": "12, 7",
       "Type": "Container",
       "ID": null,
-      "DaysUntilExpire": 26,
+      "DaysUntilExpire": 23,
       "SpawnTime": 600,
       "ConfigItem": {
         "Category": "chest",
         "Contents": []
       },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_IslandFarmCave",
+      "Name": null,
+      "Tile": "13, 17",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 24,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": []
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_IslandFarmCave",
+      "Name": null,
+      "Tile": "13, 20",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 24,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "chest",
+        "Contents": [
+          {
+            "category": "object",
+            "name": 909,
+            "Stack": "5",
+            "PercentChanceToSpawn": "10"
+          },
+          {
+            "category": "object",
+            "name": 858,
+            "Stack": "5",
+            "PercentChanceToSpawn": "10"
+          }
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "40, 34",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "37, 36",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "39, 32",
+      "Type": "Ore",
+      "ID": 817,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "30, 41",
+      "Type": "Ore",
+      "ID": 816,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "37, 37",
+      "Type": "Ore",
+      "ID": 817,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "34, 42",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "27, 39",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "29, 41",
+      "Type": "Ore",
+      "ID": 817,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "32, 42",
+      "Type": "Ore",
+      "ID": 817,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "44, 33",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "38, 37",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "42, 36",
+      "Type": "Ore",
+      "ID": 817,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "41, 34",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "39, 33",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "40, 35",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "35, 40",
+      "Type": "Ore",
+      "ID": 816,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "38, 36",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "38, 35",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "29, 42",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "38, 38",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "30, 39",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "33, 38",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "34, 39",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "45, 35",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "42, 32",
+      "Type": "Ore",
+      "ID": 668,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Stone",
+      "Tile": "43, 35",
+      "Type": "Ore",
+      "ID": 670,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Clay",
+      "Tile": "31, 37",
+      "Type": "Ore",
+      "ID": 818,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "38, 39",
+      "Type": "Ore",
+      "ID": 817,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "39, 36",
+      "Type": "Ore",
+      "ID": 816,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
+      "MonType": null
+    },
+    {
+      "MapName": "Custom_Island_NW",
+      "Name": "Fossil",
+      "Tile": "41, 37",
+      "Type": "Ore",
+      "ID": 816,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": null,
       "MonType": null
     }
   ]
