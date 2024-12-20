@@ -2,7 +2,7 @@
   "ExpShareType": "Global",
   "OverlayButton": "K",
   "OverlayOpacity": 0.5,
-  "ShareAllExpAtMaxLevel": true,
+  "ShareAllExpAtMaxLevel": false,
   "NearbyPlayerTileRange": 25,
   "ExpPercentageToActor": 0.75,
   "VanillaSkillEnabled": [
@@ -13,5 +13,5 @@
     true
   ],
   "SpaceCoreSkillEnabled": {},
-  "ExpPerParticle": 3
+  "ExpPerParticle": 10
 }
