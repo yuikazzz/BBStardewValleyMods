@@ -1,7 +1,7 @@
 {
   "Name": "AdventCalendar",
   "Author": "DEssenceDev",
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "Description": "Enjoy an advent calendar in winter, where you receive a gift everyday until the 25th.",
   "UniqueID": "DEDev.AdventCalendar",
   "UpdateKeys": ["Nexus:29868"],

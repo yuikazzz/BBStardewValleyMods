@@ -47,6 +47,22 @@
       "RecoverAllItems": true,
       "RecoverForFree": false,
       "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "3770897730618584343": {
+      "PlayerName": "1",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "7397729949137367696": {
+      "PlayerName": "1",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
     }
   },
   "DisableRecoveryConfigInGameChanges": false,

@@ -2,7 +2,7 @@
   "FallColor": "Orange",
   "RecolorMode": "Pastel",
   "DarkerPaths": "true",
-  "StaticFoliage": "true",
+  "StaticFoliage": "false",
   "TreesandBushes": "true",
   "Grass": "true",
   "Desert": "true",
