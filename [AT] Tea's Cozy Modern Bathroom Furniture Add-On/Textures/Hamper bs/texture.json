@@ -1,0 +1,14 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_hamper_01",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_hamper_02",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_hamper_03",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_hamper_04",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_hamper_05",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_hamper_06"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "Variations": 12
+}

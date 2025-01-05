@@ -1,0 +1,14 @@
+{
+   "Name": "Interiors of Pelican Town - Witch Hut",
+   "Author": "QueenAcademe",
+   "Version": "1.0.0",
+   "UniqueID": "Iopt.Witch",
+   "Description": "Redesigns of the Witch Hut.",
+   "UpdateKeys": ["Nexus:17449"],
+   "MinimumApiVersion": "4.0.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "2.0.0"
+	},
+	
+}

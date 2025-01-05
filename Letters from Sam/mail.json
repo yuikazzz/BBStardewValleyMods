@@ -1,0 +1,213 @@
+[
+	{
+		"Id": "J4ZMIN.MailSam01",
+		"Text": "J4ZMIN.MailSam01",
+		"Repeatable": false,
+		"Title": "J4ZMIN.TitleSam01",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Clam",
+				"Stack": 2
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 1,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam02",
+		"Text": "J4ZMIN.MailSam02",
+		"Repeatable": false,
+		"Title": "J4ZMIN.TitleSam02",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Joja Cola",
+				"Stack": 3
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 2,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam03",
+		"Text": "J4ZMIN.MailSam03",
+		"Title": "J4ZMIN.TitleSam03",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Pickles",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 3,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam04",
+		"Text": "J4ZMIN.MailSam04",
+		"Title": "J4ZMIN.TitleSam04",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Ancient Drum",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 4,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam05",
+		"Text": "J4ZMIN.MailSam05",
+		"Title": "J4ZMIN.TitleSam05",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Tomato Seeds",
+				"Stack": 5
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 5,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam06",
+		"Text": "J4ZMIN.MailSam06",
+		"Title": "J4ZMIN.TitleSam06",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Snail",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 6,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam07",
+		"Text": "J4ZMIN.MailSam07",
+		"Title": "J4ZMIN.TitleSam07",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "BigCraftable",
+				"Name": "Cheese Press",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 7,
+				"FriendshipStatus":["Friendly"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam08",
+		"Text": "J4ZMIN.MailSam08",
+		"Title": "J4ZMIN.TitleSam08",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Pancakes",
+				"Stack": 2
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 8,
+				"FriendshipStatus":["Friendly","Dating"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam09",
+		"Text": "J4ZMIN.MailSam09",
+		"Title": "J4ZMIN.TitleSam09",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Repeatable": false,
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Pizza",
+				"Stack": 1
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 9,
+				"FriendshipStatus": ["Dating"]
+			}
+		]
+	},
+	{
+		"Id": "J4ZMIN.MailSam10",
+		"Text": "J4ZMIN.MailSam10",
+		"Title": "J4ZMIN.TitleSam10",
+		"GroupId": "J4ZMIN.SamGifts",
+		"Attachments": [
+			{
+				"Type": "Object",
+				"Name": "Warp Totem: Beach",
+				"Index": 690,
+				"Stack": 2
+			}
+		],
+		"FriendshipConditions": [
+			{
+				"NpcName": "Sam",
+				"FriendshipLevel": 10,
+				"FriendshipStatus": ["Dating"]
+			}
+		],
+		"Repeatable": false,
+	},
+]

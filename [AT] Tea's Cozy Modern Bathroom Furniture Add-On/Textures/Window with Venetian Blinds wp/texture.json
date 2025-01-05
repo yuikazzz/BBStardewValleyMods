@@ -1,0 +1,13 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.p_win_window_blue_01",
+        "Teaiscoldagain.CP.CMBathroom.p_win_window_brown_01",
+        "Teaiscoldagain.CP.CMBathroom.p_win_window_green_01",
+        "Teaiscoldagain.CP.CMBathroom.p_win_window_pink_01",
+        "Teaiscoldagain.CP.CMBathroom.p_win_window_white_01"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 13
+}

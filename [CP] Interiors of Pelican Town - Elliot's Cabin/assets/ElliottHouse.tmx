@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="20" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="24">
+ <properties>
+  <property name="AmbientLight" value="110 110 110"/>
+  <property name="Warp" value="3 10 Beach 49 11"/>
+ </properties>
+ <tileset firstgid="1" name="path" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths.png" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="z_ElliotHouse" tilewidth="16" tileheight="16" tilecount="832" columns="32">
+  <image source="z_ElliotHouse.png" width="512" height="416"/>
+ </tileset>
+ <tileset firstgid="869" name="z_architecture" tilewidth="16" tileheight="16" tilecount="832" columns="32">
+  <image source="z_architecture.png" width="512" height="416"/>
+ </tileset>
+ <layer id="1" name="Back" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJytkksKwzAMRI0EOUJzjHaZniJdtufsCdL2BjlBP8vuAvG2A/FAojgQhQ4MHmyQnrBC+L+ukncD3+A7/Eh3lYZw1CEvqZW8n/ALfsOfdHdGrYsO2fJQneRt1Uk+sz+1R7+D+k9y2f413k4b6pGrh6NMa9U6zWtOcu2QS53P6uFjjiO+r84Z157MrEU++yee/ylGs0azD+zn4S3SrHb/rLx8dv+sPHylLu//Fr7e7N8PSzBYMw==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="16" name="Back2" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJzdzklOAkEUgOHX1YQz2XARWjYtsAPdoxsFZCNwAGaBHeIBZFDQHeoBZBCHg/Avm8RuOhVWvuRLKqlXf0rk/8+RKWKZ+/eK5i6viXFnu+6rhkgNdTTQRAsOTpBAEilYSiSCqPLuP7A3xAhjTPCIS1whhzwKsOkcI+7T+2BvgSVWWOPT+Hs3S+ccF67eNeeiTz/ohA/Q0O31DHFe8IuQEifN2wxOcabxry6dZ/zApHdDo4QyKhq9Dp0ZvqHo9WncYYB7jd4tnSm+YNCb03jFG941em06T9hA6AV9twVutzZo
+  </data>
+ </layer>
+ <layer id="17" name="Back3" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj8II0ZgtGBHFBMHogVgFgRizwu0MYMwejADihmD8QOQOxIgnm4QBzQjHggTgDiRCqYNwpGwVADALgQBQM=
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJydkstOAjEUhpt2tspO9ybgSpa4x3hnY4KyADaQkIH4EK6MPoT78TG8bOQtQBT0GYzyNUOTTpk24Em+THva889/TjpQQlz/k4GHLynEN9jRJ/9E7hle4BVilb3j0+vlcA8jNMbwDhO4c+6Yele/Avtwa/HoeNGROHd8elfQMPkcHRMfeLzgvAoHKu1fz2UrEmI7yurPpF/HjQ41XZX2r+fyS+2fXPa7biTOXHx6RXIl2A3865SzHzw9WH0ZPZ0/sWoPWR/BMQyluHmDVfy67ybk2Ve/jl6Tbwvai/2nXK7XEat8PZsN2IQdx0Od/aU+YwZGz7zzkN4elAN9ly09885DeoUoZUqPZ+zPoWblC1H+/OYIpE/j
+  </data>
+ </layer>
+ <layer id="19" name="Buildings2" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBi6QI6ZgUEeiBWAWJGZeH0pJKgdBQjgx8TQMNBuGIqgg5GBoZORMjMMkdLsCqBZK4FYlUrxcQJo1kkgdsVjni/Qfj8g5mdBYGQAShupTEB/AvELoFkvgRjIbwAAzboMsw==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0">
+  <object id="3" name="TileData" x="16" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;ElliottHouse.2&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ElliottPiano 1"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ElliottPiano 2"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="144" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ElliottPiano 3"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="160" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="ElliottPiano 4"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="224" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="ElliottBook"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJydUjFOwzAU/XKyACVV58IOJGOZSo/SAyB1SxlBOQkbAxlygggmChMnQLR7Tc7A+8VWnV8nCnnSk+Vvv+fnb6cB0aIn70CJXNS2ikirw30+FNCm4NKQ/dnvCDw2vicYB55zGU/inCKo55FzxqYl25tYi0OiBHxB/VXV/T463tGHb2jXyp/vPygVZXMnh/Ure2S7hO4LfvfQPqi6H+p00ZAzh+YZbPN+dPx0QNkQPT0N/zQDjOAOY6yfgecNZ32aOmvYQzv7bB/dnk4x3oAzM1+JvlSmjjfO5P+2ObXx+4G28vR1grVrcBTs/SyKpp51ePMIPe3j946MV5jHYCL2s9+t+C8+2LtLcM1lJObcq1/V00Ie
+  </data>
+ </layer>
+ <layer id="18" name="Front2" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjALCgJ+FdD0ACDgAFA==
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Paths" width="20" height="14" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA+4IRibOLobFxq6eEeWgKOAdBLbz8SC8jxDz3SBDXtpCS+aQmI9ROtwhsApr8Anw==
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="20" height="14">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDFfgwjyw9gMAJ90ASA==
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

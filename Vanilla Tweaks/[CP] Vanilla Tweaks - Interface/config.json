@@ -1,0 +1,14 @@
+{
+  "SaturationToggle": "Saturated",
+  "UIStyle": "OvergrownFlowery",
+  "ProfessionsSpritesEnabled": "true",
+  "SkillsSpritesEnabled": "true",
+  "WalletSpritesEnabled": "true",
+  "MenuSpritesEnabled": "true",
+  "Professions": "Rancher, Tiller, Coopmaster, Shepherd, Artisan, Agriculturalist, Fisher, Trapper, Angler, Pirate, Mariner, Luremaster, Forester, Gatherer, Lumberjack, Tapper, Botanist, Tracker, Miner, Geologist, Blacksmith, Prospector, Excavator, Gemologist, Fighter, Scout, Brute, Defender, Acrobat, Desperado",
+  "Skills": "Farming, Mining, Foraging, Fishing, Combat, Luck",
+  "Wallet": "",
+  "CollectionsTabsEnabled": "true",
+  "MenuTabsEnabled": "true",
+  "Misc": "Item Quality Stars, Recipe Scroll"
+}

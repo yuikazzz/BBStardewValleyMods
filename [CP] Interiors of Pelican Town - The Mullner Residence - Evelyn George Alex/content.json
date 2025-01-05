@@ -1,0 +1,14 @@
+{
+		"Format": "1.19.0",
+		"Changes": [
+
+		//Interiors of Pelican Town - The Mullner Residence - Evelyn George Alex
+
+		{
+		  	"LogName": "Interiors of Pelican Town - Evelyn George Alex",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/JoshHouse",
+      	  	"FromFile": "assets/JoshHouse.tmx"
+		},
+	]
+}

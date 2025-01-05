@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT]Nano's Countryside Farm Buildings",
+  "Author": "Nano_NotRobot",
+  "Version": "1.0.0",
+  "Description": "Farm buildings seasonal retexures",
+  "UniqueID": "AT.Countryside.Buildings.Nano",
+  "UpdateKeys": [ "Nexus:30553" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "5.0.0"
+  }
+}

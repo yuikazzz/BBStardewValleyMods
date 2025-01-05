@@ -1,0 +1,14 @@
+{
+		"Format": "2.0.0",
+		"Changes": [
+
+		//Interiors of Pelican Town - The Trailer - Pam Penny
+
+		{
+		  	"LogName": "Interiors of Pelican Town - The Trailer - Pam Penny",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/Trailer",
+      	  	"FromFile": "assets/Trailer.tmx"
+		},
+	]
+}

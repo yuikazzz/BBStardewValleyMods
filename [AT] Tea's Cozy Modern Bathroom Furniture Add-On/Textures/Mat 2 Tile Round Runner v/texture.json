@@ -1,0 +1,12 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.v_rug_bath_green_08",
+        "Teaiscoldagain.CP.CMBathroom.v_rug_bath_blue_08",
+        "Teaiscoldagain.CP.CMBathroom.v_rug_bath_pink_08",
+        "Teaiscoldagain.CP.CMBathroom.v_rug_bath_brown_08"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 48,
+    "TextureHeight": 32,
+    "Variations": 12
+}

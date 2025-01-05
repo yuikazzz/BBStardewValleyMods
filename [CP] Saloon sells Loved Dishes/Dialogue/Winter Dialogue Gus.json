@@ -1,0 +1,36 @@
+{
+"Changes":
+[
+	{
+	"LogName": "Dialogue changes for Gus; loved dishes.", //Tue Wed Sat Sun
+		"Action": "EditData",		
+		"Target": "Characters/Dialogue/Gus", 
+	
+		
+			"Entries": {
+			"Saloon": null,
+			"Saloon_Tue": null,
+			//Saloon_Thu
+			//Saloon_Fri
+			"Saloon4": null,
+			//Saloon8
+		
+			"winter_14": "{{i18n: Gus.Dialogue.winter_14}}",
+			"winter_14_2": "{{i18n: Gus.Dialogue.winter_14_2}}",
+			"winter_10": "{{i18n: Gus.Dialogue.winter_10}}",
+			"winter_10_2": "{{i18n: Gus.Dialogue.winter_10_2}}",
+			"winter_7": "{{i18n: Gus.Dialogue.winter_7}}",
+			"winter_7_2": "{{i18n: Gus.Dialogue.winter_7_2}}",
+			"winter_3": "{{i18n: Gus.Dialogue.winter_3}}",
+			"winter_3_2": "{{i18n: Gus.Dialogue.winter_3_2}}",
+			"winter_20": "{{i18n: Gus.Dialogue.winter_20}}",
+			"winter_20_2": "{{i18n: Gus.Dialogue.winter_20}}",
+			"winter_16": "{{i18n: Gus.Dialogue.winter_16}}",
+			"winter_16_2": "{{i18n: Gus.Dialogue.winter_16_2}}",
+			"winter_23": "{{i18n: Gus.Dialogue.winter_23}}",
+			"winter_23_2": "{{i18n: Gus.Dialogue.winter_23_2}}",
+			
+			}
+	}
+	]
+}

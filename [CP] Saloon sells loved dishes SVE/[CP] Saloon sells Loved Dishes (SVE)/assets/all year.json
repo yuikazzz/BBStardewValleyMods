@@ -1,0 +1,71 @@
+ {
+	
+
+	"Changes": 
+	 [
+	 {
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Saloon","Items"],
+ 		
+		"Entries": {
+		"{{ModID}}_FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": { //Claire & Andy 1
+                    "Id": "{{i18n: {{ModID}}_FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish}}",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish",
+                    "Price": "700",
+					"AvailableStock" : "-1",
+			},
+		"{{ModID}}_TropicalCurry": { //Lance 2
+                    "Id": "{{i18n: {{ModID}}_TropicalCurry}}",
+                    "ItemId": "907",
+                    "Price": "500",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_FlashShifter.StardewValleyExpandedCP_Frog_Legs": { //Magnus 3
+                    "Id": "{{i18n: {{ModID}}_FlashShifter.StardewValleyExpandedCP_Frog_Legs}}",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Frog_Legs",
+                    "Price": "400",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_GlazedYams": { //Scarlett 4
+                    "Id": "{{i18n: {{ModID}}_GlazedYams}}",
+                    "ItemId": "208",
+                    "Price": "200",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken": { //Sophia 5
+                    "Id": "{{i18n: {{ModID}}_FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken}}",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken",
+                    "Price": "650",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_BeanHotpot": { //Gunther 6
+                    "Id": "{{i18n: {{ModID}}_BeanHotpot}}",
+                    "ItemId": "207",
+                    "Price": "100",
+					"AvailableStock" : "-1"
+			},
+		" {{ModID}}_IceCream": { //Martin 7
+                    "Id": "{{i18n: {{ModID}}_IceCream}}",
+                    "ItemId": "233",
+                    "Price": "240",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_RootsPlatter": { //Marlon 8
+                    "Id": "{{i18n: {{ModID}}_RootsPlatter}}",
+                    "ItemId": "244",
+                    "Price": "200",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_Chowder": { //Morris 9
+                    "Id": "{{i18n: {{ModID}}_Chowder}}",
+                    "ItemId": "727",
+                    "Price": "135",
+					"AvailableStock" : "-1"	
+		},
+
+
+		}
+		}
+	  ]
+}

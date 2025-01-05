@@ -1,5 +1,15 @@
 {
     "Changes": [
+        
+        {
+            "LogName": "Add Catalogue to Furniture Data",
+            "Action": "EditData",
+            "Target": "Data/Furniture",
+            "Entries": {
+                "{{CatalogueItemName}}": "CatalogueItemName/other/1 2/1 1/0/100/2/{{i18n:TICA.CMB.TeasCozyModernBathroomFurnitureCatalogue}}/0/Mods\\{{ModId}}\\furniture_bathsuite/false/cmb_bathroom"
+            }
+        },
+        
         {
             "LogName": "Add Catalogue Shop",
             "Action": "EditData",

@@ -1,0 +1,17 @@
+{
+   "Name": "SVE Claire Sprites by KTXXFF",
+   "Author": "KTXXFF",
+   "Version": "1.0.2",
+   "Description": "A sprite for Claire in SVE.",
+   "UniqueID": "KTXXFF.Claire.Sprites",
+   "UpdateKeys": ["Nexus:18149"],
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   },
+    "Dependencies": [
+   {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": true,
+   },
+   ]
+}

@@ -1,0 +1,12 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.do_wall_shelf_10",
+        "Teaiscoldagain.CP.CMBathroom.do_wall_shelf_11",
+        "Teaiscoldagain.CP.CMBathroom.do_wall_shelf_12",
+        "Teaiscoldagain.CP.CMBathroom.do_wall_shelf_13"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 12
+}

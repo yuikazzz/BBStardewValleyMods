@@ -1,0 +1,36 @@
+{
+"Changes":
+[
+	{
+	"LogName": "Dialogue changes for Gus; loved dishes.", //Mon Tue Thu Fri Sat Sun
+		"Action": "EditData",		
+		"Target": "Characters/Dialogue/Gus", 
+	
+		
+			"Entries": {
+		"Saloon": null,
+			"Saloon_Tue": null,
+			"Saloon_Thu": null,
+			"Saloon_Fri": null,
+			//Saloon4
+			//Saloon8
+			
+			"fall_2": "{{i18n: Gus.Dialogue.fall_2}}",
+			"fall_2_2": "{{i18n: Gus.Dialogue.fall_2_2}}",
+			"fall_5": "{{i18n: Gus.Dialogue.fall_5}}",
+			"fall_5_2": "{{i18n: Gus.Dialogue.fall_5_2}}",
+			"fall_13": "{{i18n: Gus.Dialogue.fall_13}}",
+			"fall_13_2": "{{i18n: Gus.Dialogue.fall_13_2}}",
+			"fall_18": "{{i18n: Gus.Dialogue.fall_18}}",
+			"fall_18_2": "{{i18n: Gus.Dialogue.fall_18_2}}",
+			"fall_15_2": "{{i18n: Gus.Dialogue.fall_15_2}}",
+			"fall_24": "{{i18n: Gus.Dialogue.fall_24_2}}",
+			"fall_24_2": "{{i18n: Gus.Dialogue.fall_24_2}}",
+			"fall_11": "{{i18n: Gus.Dialogue.fall_11}}",
+			"fall_11_2": "{{i18n: Gus.Dialogue.fall_11_2}}",
+			"fall_21": "{{i18n: Gus.Dialogue.fall_21}}",
+			"fall_21_2": "{{i18n: Gus.Dialogue.fall_21_2}}",
+			}
+	}
+	]
+}

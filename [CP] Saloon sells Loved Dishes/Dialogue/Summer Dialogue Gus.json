@@ -1,0 +1,33 @@
+{
+"Changes":
+[
+	{
+	"LogName": "Summer Dialogue changes for Gus; loved dishes.",
+		"Action": "EditData",		
+		"Target": "Characters/Dialogue/Gus", //Wed Thu Fri Sat
+	
+		
+			"Entries": {
+			"Saloon": null,
+			//Saloon_Tue
+			"Saloon_Thu": null,
+			"Saloon_Fri": null,
+			"Saloon4": null,
+			//Saloon8
+		
+			"summer_13": "{{i18n: Gus.Dialogue.summer_13}}",
+			"summer_13_2": "{{i18n: Gus.Dialogue.summer_13_2}}",
+			"summer_4": "{{i18n: Gus.Dialogue.summer_4}}",
+			"summer_4_2": "{{i18n: Gus.Dialogue.summer_4_2}}",
+			"summer_10": "{{i18n: Gus.Dialogue.summer_10}}",
+			"summer_10_2": "{{i18n: Gus.Dialogue.summer_10_2}}",
+			"summer_19": "{{i18n: Gus.Dialogue.summer_19}}",
+			"summer_19_2": "{{i18n: Gus.Dialogue.summer_19_2}}",
+			"summer_26_2": "{{i18n: Gus.Dialogue.summer_26_2}}",
+			"summer_17": "{{i18n: Gus.Dialogue.summer_17}}",
+			"summer_17_2": "{{i18n: Gus.Dialogue.summer_17_2}}",
+		
+			}
+	}
+	]
+}

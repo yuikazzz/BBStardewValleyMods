@@ -1,0 +1,39 @@
+{
+"Changes":
+[
+	{
+	"LogName": "Dialogue changes for Gus; loved dishes. SVE", 
+		"Action": "EditData",		
+		"Target": "Characters/Dialogue/Gus", 
+	
+		
+			"Entries": {
+				"fall_8": "{{i18n:snm.SSLD.SVE_fall_8}}",
+				"fall_8_2": "{{i18n:snm.SSLD.SVE_fall_8_2}}",
+				"spring_8_2": "{{i18n:snm.SSLD.SVE_spring_8}}",
+				"winter_17": "{{i18n:snm.SSLD.SVE_winter_17}}",
+				"winter_17_2": "{{i18n:snm.SSLD.SVE_winter_17_2}}",
+				"spring_15": "{{i18n:snm.SSLD.SVE_spring_15}}",
+				"spring_15_2": "{{i18n:snm.SSLD.SVE_spring_15_2}}",
+				"summer_7_2": "{{i18n:snm.SSLD.SVE_summer_7_2}}",
+				"winter_27": "{{i18n:snm.SSLD.SVE_winter_27}}",
+				"winter_27_2": "{{i18n:snm.SSLD.SVE_winter_27_2}}",
+				"summer_23": "{{i18n:snm.SSLD.SVE_summer_23}}",
+				"summer_23_2": "{{i18n:snm.SSLD.SVE_summer_23_2}}",
+				"spring_23": "{{i18n:snm.SSLD.SVE_spring_23}}",
+				"spring_23_2": "{{i18n:snm.SSLD.SVE_spring_23_2}}",
+				"winter_12": "{{i18n:snm.SSLD.SVE_winter_12}}",
+				"winter_12_2": "{{i18n:snm.SSLD.SVE_winter_12_2}}",
+				"summer_6": "{{i18n:snm.SSLD.SVE_summer_6}}",
+				"summer_6_2": "{{i18n:snm.SSLD.SVE_summer_6_2}}",
+				"winter_19": "{{i18n:snm.SSLD.SVE_winter_19}}",
+				"winter_19_2": "{{i18n:snm.SSLD.SVE_winter_19_2}}",
+				"spring_2": "{{i18n:snm.SSLD.SVE_spring_2}}",
+				"spring_2_2": "{{i18n:snm.SSLD.SVE_spring_2_2}}",
+				"fall_7_2": "{{i18n:snm.SSLD.SVE_fall_7_2}}",
+				"fall_28": "{{i18n:snm.SSLD.SVE_fall_28}}",
+				"fall_28_2":"{{i18n:snm.SSLD.SVE_fall_28_2}}",
+			}
+	}
+	]
+}

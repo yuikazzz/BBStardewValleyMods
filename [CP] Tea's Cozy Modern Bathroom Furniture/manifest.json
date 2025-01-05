@@ -2,10 +2,10 @@
 	"Name": "[CP] Tea's Cozy Modern Bathroom Furniture",
 	"Author": "Teaiscoldagain",
 	"Description": "A collection of vanilla friendly cozy modern bathroom furniture for Content Patcher",
-	"Version": "1.0.0",
+	"Version": "1.1.0",
 	"MinimumApiVersion": "4.0.0",
 	"UniqueID": "Teaiscoldagain.CP.CMBathroom",
-	"UpdateKeys": [ "Nexus:29917"	],
+	"UpdateKeys": [ "Nexus:29917@CPCMB"	],
 	"ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher" },
 	"Dependencies": [
 		{

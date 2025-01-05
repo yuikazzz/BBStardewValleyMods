@@ -23,7 +23,7 @@
           "SocialTab": "AlwaysShown",
           "CanSocialize": true,
           "CanVisitIsland": false,
-          "ExcludeFromIntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": true,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {},

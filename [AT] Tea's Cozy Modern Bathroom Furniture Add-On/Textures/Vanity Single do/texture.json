@@ -1,0 +1,10 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.do_plumb_sink_03",
+        "Teaiscoldagain.CP.CMBathroom.do_plumb_sink_04"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 32,
+    "TextureHeight": 32,
+    "Variations": 6
+}

@@ -1,0 +1,13 @@
+{
+   "Name": "Interiors of Pelican Town - Mayor Lewis' Manor",
+   "Author": "QueenAcademe",
+   "Version": "1.0.1",
+   "UpdateKeys": ["Nexus:17451"],
+   "UniqueID": "IoPT.Lewis",
+   "Description": "Redesign of Mayor Lewis' Manor",
+   "MinimumApiVersion": "2.9.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "MinimumVersion": "1.6.0"
+  	  },
+}

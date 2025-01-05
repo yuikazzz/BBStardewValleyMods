@@ -22,7 +22,7 @@
           "SocialTab": "UnknownUntilMet",
           "CanSocialize": "!PLAYER_HAS_SEEN_EVENT Any 191393",
           "CanVisitIsland": "FALSE",
-          "ExcludeFromIntroductionsQuest": false,
+          "IntroductionsQuest": null,
           "PerfectionScore": false,
           "EndSlideShow": "TrailingGroup",
           "FriendsAndFamily": {},

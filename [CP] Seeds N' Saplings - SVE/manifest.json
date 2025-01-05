@@ -1,0 +1,18 @@
+{
+	"Name": "Seeds N' Saplings - SVE",
+	"Author": "ZoeyHoshi",
+	"Version": "1.0.1",
+	"Description": "Retextures for seedbags and saplings from FlashShifter's Stardew Valley Expanded",
+	"UniqueID": "ZoeyHoshi.SeedsNSaplings_SVE",
+	"UpdateKeys": [ "Nexus:29591" ],
+	"ContentPackFor": {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"MinimumVersion": "2.0"
+	},
+	"Dependencies": [
+		{
+			"UniqueID": "FlashShifter.StardewValleyExpandedCP",
+			"IsRequired": true
+		}
+	]
+}

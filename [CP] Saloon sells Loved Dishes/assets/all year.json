@@ -1,0 +1,127 @@
+ {
+	
+
+	"Changes": 
+	 [
+	 {
+       "Action": "EditData",
+	   "Target": "Data/Shops",
+	   "TargetField": ["Saloon","Items"],
+ 		
+		"Entries": {
+		"{{ModID}}_CompleteBreakfast": { //Alex
+                    "Id": "{{i18n: {{ModID}}_CompleteBreakfast}}",
+                    "ItemId": "201",
+                    "Price": "700",
+					"AvailableStock" : "-1",
+			},
+		"{{ModID}}_TomKhaSoup": { //Elliott & Penny
+                    "Id": "{{i18n: {{ModID}}_TomKhaSoup}}",
+                    "ItemId": "218",
+                    "Price": "500",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_SuperMeal": { //Harvey
+                    "Id": "{{i18n: {{ModID}}_SuperMeal}}",
+                    "ItemId": "237",
+                    "Price": "440",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_Sashimi": { //Sebastian
+                    "Id": "{{i18n: {{ModID}}_Sashimi}}",
+                    "ItemId": "227",
+                    "Price": "150",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_SpicyEel": { //Abigail
+                    "Id": "{{i18n: {{ModID}}_SpicyEel}}",
+                    "ItemId": "226",
+                    "Price": "350",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_SurvivalBurger": { //Emily
+                    "Id": "{{i18n: {{ModID}}_SurvivalBurger}}",
+                    "ItemId": "241",
+                    "Price": "360",
+					"AvailableStock" : "-1"
+			},
+		" {{ModID}}_PinkCake": { //Haley & Jas & Marnie & Vincent
+                    "Id": "{{i18n: {{ModID}}_PinkCake}}",
+                    "ItemId": "221",
+                    "Price": "960",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_CheeseCauliflower": { //Maru
+                    "Id": "{{i18n: {{ModID}}_CheeseCauliflower}}",
+                    "ItemId": "197",
+                    "Price": "600",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_FishTacos": { //Caroline & Gus
+                    "Id": "{{i18n: {{ModID}}_FishTacos}}",
+                    "ItemId": "213",
+                    "Price": "1000",
+					"AvailableStock" : "-1"	
+		},
+		"{{ModID}}_BeanHotPot": { //Demetrius
+                    "Id": "{{i18n: {{ModID}}_BeanHotPot}}",
+                    "ItemId": "207",
+                    "Price": "200",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_GlazedYams": { //Lewis & Pam
+                    "Id": "{{i18n: {{ModID}}_GlazedYams}}",
+                    "ItemId": "208",
+                    "Price": "400",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_BlueberryTart": { //Linus
+                    "Id": "{{i18n: {{ModID}}_BlueberryTart}}",
+                    "ItemId": "234",
+                    "Price": "300",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_FriedCalamari": { //Pierre
+                    "Id": "{{i18n: {{ModID}}_FriedCalamari}}",
+                    "ItemId": "202",
+                    "Price": "300",
+					"AvailableStock" : "-1"
+				
+		
+		},
+		"{{ModID}}_MangoStickyRice": { //Sandy
+                    "Id": "{{i18n: {{ModID}}_MangoStickyRice}}",
+                    "ItemId": "905",
+                    "Price": "500",
+					"AvailableStock" : "-1"	
+		},
+	
+		"{{ModID}}_FriedMushroom": { //George
+                    "Id": "{{i18n: {{ModID}}_FriedMushroom}}",
+                    "ItemId": "205",
+                    "Price": "400",
+					"AvailableStock" : "-1"	
+		},	
+		"{{ModID}}_ChocolateCake": { //Jodi & Evelyn
+                    "Id": "{{i18n: {{ModID}}_ChocolateCake}}",
+                    "ItemId": "220",
+                    "Price": "400",
+					"AvailableStock" : "-1"
+			},
+		"{{ModID}}_FiddleheadRisotto": { //Kent & Clint
+                    "Id": "{{i18n: {{ModID}}_FiddleheadRisotto}}",
+                    "ItemId": "649",
+                    "Price": "700",
+					"AvailableStock" : "-1"	
+		},
+		"{{ModID}}_Poi": { //Leo
+                    "Id": "{{i18n: {{ModID}}_Poi}}",
+                    "ItemId": "906",
+                    "Price": "800",
+					"AvailableStock" : "-1"	
+		}
+
+		}
+		}
+	  ]
+}

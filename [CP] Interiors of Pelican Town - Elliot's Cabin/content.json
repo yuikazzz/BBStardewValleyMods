@@ -1,0 +1,15 @@
+{
+		"Format": "2.0.0",
+		"Changes": [
+
+		//Interiors of Pelican Town - Elliot's Cabin
+
+		{
+		  	"LogName": "Interiors of Pelican Town - Elliot's Cabin",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/ElliottHouse",
+      	  	"FromFile": "assets/ElliottHouse.tmx",
+		"Priority": "High",
+		},
+	]
+}

@@ -1,0 +1,37 @@
+{
+"Changes":
+[
+	{
+	"LogName": "Spring Dialogue changes for Gus; loved dishes.", //Wed Thu Fri Sat Sun
+		"Action": "EditData",		
+		"Target": "Characters/Dialogue/Gus", 
+	
+		
+			"Entries": {
+			"Saloon": null,
+			//Saloon_Tue
+			"Saloon_Thu": null,
+			"Saloon_Fri": null,
+			//Saloon4
+			//Saloon8
+		
+			
+			"spring_27": "{{i18n: Gus.Dialogue.spring_27}}",
+			"spring_27_2": "{{i18n: Gus.Dialogue.spring_27_2}}",
+			"spring_14": "{{i18n: Gus.Dialogue.spring_14}}",
+			"spring_14_2": "{{i18n: Gus.Dialogue.spring_14_2}}",
+			"spring_10":"{{i18n: Gus.Dialogue.spring_10}}",
+			"spring_10_2":"{{i18n: Gus.Dialogue.spring_10_2}}",
+			"spring_7": "{{i18n: Gus.Dialogue.spring_7}}",
+			"spring_7_2": "{{i18n: Gus.Dialogue.spring_7_2}}",
+			"spring_18": "{{i18n: Gus.Dialogue.spring_18}}",
+			"spring_18_2": "{{i18n: Gus.Dialogue.spring_18_2}}",
+			"spring_26":"{{i18n: Gus.Dialogue.spring_26}}",
+			"spring_26_2": "{{i18n: Gus.Dialogue.spring_26_2}}",
+			"spring_4_2": "{{i18n: Gus.Dialogue.spring_4_2}}",
+			"spring_20": "{{i18n: Gus.Dialogue.spring_20}}",
+			"spring_20_2": "{{i18n: Gus.Dialogue.spring_20_2}}",
+			}
+	}
+	]
+}

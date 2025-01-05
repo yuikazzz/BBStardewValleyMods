@@ -1,0 +1,11 @@
+{
+   "Name": "Joja Catalogue Recolor",
+   "Author": "DMAOH",
+   "Version": "1.0.0",
+   "Description": "Recolor of the Joja Catalogue.",
+   "UniqueID": "DMAOH.JojaFurniture",
+   "UpdateKeys": [ "" ],
+     "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

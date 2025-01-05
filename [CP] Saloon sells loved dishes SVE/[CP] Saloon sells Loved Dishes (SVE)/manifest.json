@@ -1,0 +1,27 @@
+{
+  "Name": "Saloon sells Loved Dishes, Stardew Valley Expanded",
+  "Author": "sadnumbme",
+  "Version": "1.0.0",
+  "Description": "Saloon sells Loved dishes of SVE NPCs including optional dialogue for Gus",
+  "UniqueID": "sadnumbme.SaloonSellsLovedDishesSVE",
+
+  "UpdateKeys": ["Nexus:30333"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  "Dependencies": [
+  {
+     "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+     "IsRequired": true
+    },
+   {
+     "UniqueID": "spacechase0.GenericModConfigMenu",
+     "IsRequired": false
+    },
+	{
+     "UniqueID": "sadnumbme.SaloonSellsLovedDishes", 
+     "IsRequired": true
+    }
+ ]
+ 
+}

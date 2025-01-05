@@ -1,0 +1,12 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.b_plumb_toilet_07",
+        "Teaiscoldagain.CP.CMBathroom.b_plumb_toilet_08",
+        "Teaiscoldagain.CP.CMBathroom.b_plumb_toilet_09",
+        "Teaiscoldagain.CP.CMBathroom.b_plumb_toilet_10"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 48,
+    "Variations": 7
+}

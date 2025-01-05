@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.0",
+    "Format": "2.4.0",
 	  "ConfigSchema": {
 
     "Armored Bug": {
@@ -477,6 +477,16 @@
 		"Action": "EditImage",
 		"Target": "Characters/Monsters/Rock Crab",
 		"FromFile": "assets/Rock Crab.png"
+  	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Big Slime",
+		"FromFile": "assets/Big Slime.png"
+  	},
+	{
+		"Action": "EditImage",
+		"Target": "Characters/Monsters/Ghost",
+		"FromFile": "assets/Ghost.png"
   	},
 	{
 		"Action": "EditImage",

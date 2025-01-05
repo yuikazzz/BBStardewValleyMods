@@ -1,0 +1,19 @@
+{
+	"Name": "[AT] Tea's Cozy Modern Bathroom Furniture Add-On",
+	"Author": "Teaiscoldagain",
+	"Description": "An additional set of Alternative Textures recolors for Cozy Modern Bathroom CP Pack",
+	"Version": "1.1.0",
+	"MinimumApiVersion": "4.0.0",
+	"UniqueID": "Teaiscoldagain.AT.CMBAddOn",
+	"UpdateKeys": [ "Nexus:29917@ATADDON" ],
+	"ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "8.0.0"
+  },
+	"Dependencies": [
+		{
+				"UniqueID": "Teaiscoldagain.CP.CMBathroom",
+				"IsRequired": true
+		}
+	]
+}

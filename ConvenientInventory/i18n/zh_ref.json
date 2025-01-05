@@ -1,0 +1,60 @@
+﻿{
+  // UI
+  "QuickStackButton.hoverText": "快速堆叠至附近箱子", // If this is translated, try to keep the string length as close to the original as possible.
+
+  // ModConfigMenu
+  "ModConfigMenu.Label.QuickStackToNearbyChests": "快速堆叠至附近箱子",
+
+  "ModConfigMenu.IsEnableQuickStack.Name": "启用快速堆叠？",
+  "ModConfigMenu.IsEnableQuickStack.Desc": "如果启用，你的背包界面将会添加一个“快速堆叠至附近箱子”的按钮。按下按钮将会将背包中的物品快速堆叠至附近有同类物品的箱子中。",
+
+  "ModConfigMenu.QuickStackRange.Name": "范围",
+  "ModConfigMenu.QuickStackRange.Desc": "玩家距离箱子多远时能够触发快速堆叠。",
+
+  "ModConfigMenu.IsEnableQuickStackHotkey.Name": "启用快捷键？",
+  "ModConfigMenu.IsEnableQuickStackHotkey.Desc": "如果启用，按下下方绑定的快捷键将会快速堆叠你的物品，即使没有开启背包界面。",
+
+  "ModConfigMenu.QuickStackKeyboardHotkey.Name": "按键绑定（键盘）",
+  "ModConfigMenu.QuickStackKeyboardHotkey.Desc": "按下这个按键来快速堆叠你的物品。",
+
+  "ModConfigMenu.QuickStackControllerHotkey.Name": "按键绑定 (手柄)",
+  "ModConfigMenu.QuickStackControllerHotkey.Desc": "按下这个按键来快速堆叠你的物品。",
+
+  "ModConfigMenu.IsQuickStackIntoBuildingsWithInventories.Name": "快速堆叠至建筑？",
+  "ModConfigMenu.IsQuickStackIntoBuildingsWithInventories.Desc": "如果启用，附近具有物品栏的建筑（例如风车或者祝尼魔小屋）也会成为快速堆叠至的对象。",
+
+  "ModConfigMenu.IsQuickStackOverflowItems.Name": "快速堆叠溢出物品？",
+  "ModConfigMenu.IsQuickStackOverflowItems.Desc": "如果启用，快速堆叠将会尽可能地将全部物品放入对应箱子，而不只是一组物品",
+
+  "ModConfigMenu.IsQuickStackIgnoreItemQuality.Name": "快速堆叠忽略品质？",
+  "ModConfigMenu.IsQuickStackIgnoreItemQuality.Desc": "如果启用，快速堆叠将会将物品放入含有任意品质同类物品的箱子。",
+
+  "ModConfigMenu.IsQuickStackTooltipDrawNearbyChests.Name": "预览附近箱子？",
+  "ModConfigMenu.IsQuickStackTooltipDrawNearbyChests.Desc": "如果启用，光标悬浮在快速堆叠按钮上时将会展示附近箱子的预览，按距离排序。",
+
+  "ModConfigMenu.Label.FavoriteItems": "收藏物品",
+
+  "ModConfigMenu.IsEnableFavoriteItems.Name": "启用收藏物品？",
+  "ModConfigMenu.IsEnableFavoriteItems.Desc": "如果启用，你物品栏中的物品将可以被设为收藏。被收藏的物品将不会被快速堆叠至附近箱子，同时也不会被丢出去或者丢入垃圾桶。",
+
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Name": "高亮风格",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc": "选择你中意的收藏物品高亮的材质风格",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-0": "金色条边Gold dashed",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-1": "细金条边Clean gold dashed",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-2": "粗金条边Thick gold border",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-3": "带有材质的金色镶框Textured gold inset border",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-4": "金色镶框TGold inset border",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-5": "黑色条边Dark dashed",
+  "ModConfigMenu.FavoriteItemsHighlightTextureChoice.Desc-6": "粗黑边框Thick dark border",
+
+  "ModConfigMenu.FavoriteItemsKeyboardHotkey.Name": "按键绑定（键盘）",
+  "ModConfigMenu.FavoriteItemsKeyboardHotkey.Desc": "对物品按下这个按键来将其设为收藏。",
+
+  "ModConfigMenu.FavoriteItemsControllerHotkey.Name": "按键绑定 (手柄)",
+  "ModConfigMenu.FavoriteItemsControllerHotkey.Desc": "对物品按下这个按键来将其设为收藏。",
+
+  "ModConfigMenu.Label.Miscellaneous": "杂项",
+
+  "ModConfigMenu.IsEnableInventoryPageSideWarp.Name": "启用背包界面光标跳转？",
+  "ModConfigMenu.IsEnableInventoryPageSideWarp.Desc": "如果启用，在物品栏界面将手柄的光标移出界面的任意一侧，都会使光标跳转至对侧出现。"
+}

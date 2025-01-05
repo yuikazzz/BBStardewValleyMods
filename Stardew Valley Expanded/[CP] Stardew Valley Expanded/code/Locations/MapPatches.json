@@ -402,7 +402,7 @@
           {
                "Action": "Load",  
                "Target": "Maps/Town",
-               "FromFile": "Assets/Maps/MapPatches/Town_Joja.tmx",
+               "FromFile": "Assets/Maps/Locations/Town_Joja.tmx",
                "When": {
                     "HasSeenEvent: hostPlayer|contains=5553210": true
                }
@@ -913,33 +913,13 @@
           },
           {
                "Action": "Load",  
-               "Target": "Maps/HarveyRoom",
-               "FromFile": "Assets/maps/locations/HarveyRoom.tbin"
-          },
-          {
-               "Action": "Load",  
-               "Target": "Maps/Hospital",
-               "FromFile": "Assets/maps/locations/Hospital.tbin"
-          },
-          {
-               "Action": "Load",  
                "Target": "Maps/JojaMart",
                "FromFile": "Assets/maps/locations/JojaMart.tbin"
           },
           {
                "Action": "Load",  
-               "Target": "Maps/JoshHouse",
-               "FromFile": "Assets/maps/locations/JoshHouse.tbin"
-          },
-          {
-               "Action": "Load",  
                "Target": "Maps/LeahHouse",
                "FromFile": "Assets/maps/locations/LeahHouse.tmx"
-          },
-          {
-               "Action": "Load",  
-               "Target": "Maps/ManorHouse",
-               "FromFile": "Assets/maps/locations/ManorHouse.tbin"
           },
           {
                "Action": "Load",  
@@ -980,11 +960,6 @@
                "Action": "Load",  
                "Target": "Maps/SeedShop",
                "FromFile": "Assets/maps/locations/SeedShop.tbin"
-          },
-          {
-               "Action": "Load",  
-               "Target": "Maps/Trailer",
-               "FromFile": "Assets/maps/locations/Trailer.tbin"
           },
           {
                "Action": "Load",  

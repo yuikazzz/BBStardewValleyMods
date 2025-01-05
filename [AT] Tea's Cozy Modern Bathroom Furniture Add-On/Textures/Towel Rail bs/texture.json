@@ -1,0 +1,12 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_towelrail_22",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_towelrail_23",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_towelrail_24",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_towelrail_25"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 48,
+    "Variations": 12
+}

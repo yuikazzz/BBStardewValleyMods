@@ -1,0 +1,245 @@
+{
+  "Changes": [
+
+    {
+      "LogName": "Non Seasonal Ancient Fiber",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Ancient Ferns Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalForageColour}}/Ancient_Fiber.png",
+      "When": {
+        "EnableAncient_Fiber": true,
+        "SeasonalForageBags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Ancient Fiber",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Ancient Ferns Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalForageColour}}/Ancient_Fiber.png",
+      "When": {
+        "EnableAncient_Fiber": true,
+        "SeasonalForageBags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Butternut Squash",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Butternut Squash Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalColour}}/Butternut_Squash.png",
+      "When": {
+        "EnableButternut_Squash": true,
+        "SeasonalSeedbags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Butternut Squash",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Butternut Squash Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalColour}}/Butternut_Squash.png",
+      "When": {
+        "EnableButternut_Squash": true,
+        "SeasonalSeedbags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Cucumber",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Cucumber Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalColour}}/Cucumber.png",
+      "When": {
+        "EnableCucumber": true,
+        "SeasonalSeedbags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Cucumber",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Cucumber Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalColour}}/Cucumber.png",
+      "When": {
+        "EnableCucumber": true,
+        "SeasonalSeedbags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Gold Carrot",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Gold Carrot Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalGoldColour}}/Gold_Carrot_{{Gold_CarrotSparkle}}.png",
+      "When": {
+        "EnableGold_Carrot": true,
+        "SeasonalGoldCarrot": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Gold Carrot",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Gold Carrot Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalGoldColour}}/Gold_Carrot_{{Gold_CarrotSparkle}}.png",
+      "When": {
+        "EnableGold_Carrot": true,
+        "SeasonalGoldCarrot": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Joja Berry",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Berry Starter",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalJojaColour}}/Joja_Berry.png",
+      "When": {
+        "EnableJoja_Berry": true,
+        "SeasonalJojaSeedbags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Joja Berry",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Berry Starter",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalJojaColour}}/Joja_Berry.png",
+      "When": {
+        "EnableJoja_Berry": true,
+        "SeasonalJojaSeedbags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Joja Veggie",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Veggie Seeds",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalJojaColour}}/Joja_Veggie.png",
+      "When": {
+        "EnableJoja_Veggie": true,
+        "SeasonalJojaSeedbags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Joja Veggie",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Joja Veggie Seeds",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalJojaColour}}/Joja_Veggie.png",
+      "When": {
+        "EnableJoja_Veggie": true,
+        "SeasonalJojaSeedbags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Monster Fruit",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Stalk Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalForageColour}}/Monster_Fruit.png",
+      "When": {
+        "EnableMonster_Fruit": true,
+        "SeasonalForageBags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Monster Fruit",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Stalk Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalForageColour}}/Monster_Fruit.png",
+      "When": {
+        "EnableMonster_Fruit": true,
+        "SeasonalForageBags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Monster Mushroom",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Fungus Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalForageColour}}/Monster_Mushroom.png",
+      "When": {
+        "EnableMonster_Mushroom": true,
+        "SeasonalForageBags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Monster Mushroom",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Fungus Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalForageColour}}/Monster_Mushroom.png",
+      "When": {
+        "EnableMonster_Mushroom": true,
+        "SeasonalForageBags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Salal Berry",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Shrub Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalForageColour}}/Salal_Berry.png",
+      "When": {
+        "EnableSalal_Berry": true,
+        "SeasonalForageBags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Salal Berry",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Shrub Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalForageColour}}/Salal_Berry.png",
+      "When": {
+        "EnableSalal_Berry": true,
+        "SeasonalForageBags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Slime Berry",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Slime Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalForageColour}}/Slime_Berry.png",
+      "When": {
+        "EnableSlime_Berry": true,
+        "SeasonalForageBags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Slime Berry",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Slime Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalForageColour}}/Slime_Berry.png",
+      "When": {
+        "EnableSlime_Berry": true,
+        "SeasonalForageBags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Sweet Potato",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Sweet Potato Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalColour}}/Sweet_Potato.png",
+      "When": {
+        "EnableSweet_Potato": true,
+        "SeasonalSeedbags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Sweet Potato",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Sweet Potato Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalColour}}/Sweet_Potato.png",
+      "When": {
+        "EnableSweet_Potato": true,
+        "SeasonalSeedbags": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Void Root",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Void Seed",
+      "FromFile": "Assets/Seeds/Nonseasonal/{{NonseasonalForageColour}}/Void_Root.png",
+      "When": {
+        "EnableVoid_Root": true,
+        "SeasonalForageBags": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Void Root",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Void Seed",
+      "FromFile": "Assets/Seeds/Seasonal/{{SeasonalForageColour}}/Void_Root.png",
+      "When": {
+        "EnableVoid_Root": true,
+        "SeasonalForageBags": "Seasonal"
+      }
+    }
+  ]
+}

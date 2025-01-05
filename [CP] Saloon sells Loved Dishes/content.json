@@ -1,0 +1,51 @@
+{"Format": "2.4.3", 
+
+	"ConfigSchema": {
+	"ModEnabled" : 
+	{"AllowValues": "all year, by season", "Default" : "all year"}, 
+	
+	"Dialogue": 
+	{"AllowValues": "true, false", "Default" : "true"}
+	},
+	
+		"Changes": 
+		[
+		{
+			
+            "Action": "Include",
+			"FromFile": "assets/all year.json",
+			"When":
+			{"ModEnabled": "all year"}
+			},
+			
+			{
+			"Action": "Include",
+			"FromFile": "assets/by season.json",
+		
+			"When":
+			{ "ModEnabled": "by season"}
+			},
+			
+			{
+			"Action": "Include",
+			"FromFile": "Dialogue/Spring Dialogue Gus.json",
+			"When": {"Dialogue": "true", "SEASON": "spring"}
+			},
+			{
+			"Action": "Include",
+			"FromFile": "Dialogue/Summer Dialogue Gus.json",
+			"When": {"Dialogue": "true", "SEASON": "summer"}
+			},
+			{
+			"Action": "Include",
+			"FromFile": "Dialogue/Fall Dialogue Gus.json",
+			"When": {"Dialogue": "true", "SEASON": "fall"}
+			},
+			{
+			"Action": "Include",
+			"FromFile": "Dialogue/Winter Dialogue Gus.json",
+			"When": {"Dialogue": "true", "SEASON": "winter"}
+			}
+			
+		]
+}

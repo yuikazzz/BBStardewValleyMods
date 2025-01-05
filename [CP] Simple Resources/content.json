@@ -1,5 +1,5 @@
 {
-    "Format": "1.23.0",
+    "Format": "2.0.0",
 
 "ConfigSchema": {
         "ManualRecolor": {
@@ -26,7 +26,7 @@
         {
         "Name": "Recolor",
         "Value": "VPR",
-        "When": { "HasMod": "grapeponta.VibrantPastoralRecolor" }
+        "When": { "HasMod": "grapeponta.VibrantPastoralRecolor, poohnhi.VPRTempFix" }
         }, 
         {
         "Name": "Recolor",
@@ -44,6 +44,7 @@
         {   
             "LogName": "Big Rock",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -53,6 +54,7 @@
         {   
             "LogName": "Iridium Rock",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -62,6 +64,7 @@
         {   
             "LogName": "Small Rock 1",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -71,6 +74,7 @@
         {   
             "LogName": "Small Rock 2",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -80,6 +84,7 @@
         {   
             "LogName": "Big Stump",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -89,6 +94,7 @@
         {   
             "LogName": "Big Log",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -98,6 +104,7 @@
         {   
             "LogName": "Small Log 1",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -107,6 +114,7 @@
         {   
             "LogName": "Small Log 2",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -116,6 +124,7 @@
         {   
             "LogName": "Weeds 1 & 2 Spring",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -125,6 +134,7 @@
         {   
             "LogName": "Weeds 3 Spring",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -134,6 +144,7 @@
         {   
             "LogName": "Weeds 4 Spring",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -143,6 +154,7 @@
         {   
             "LogName": "Weeds 1 & 2 Summer",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -152,6 +164,7 @@
         {   
             "LogName": "Weeds 3 Summer",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -161,6 +174,7 @@
         {   
             "LogName": "Weeds 4 Summer",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -170,6 +184,7 @@
         {   
             "LogName": "Weeds 1 & 2 Fall",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -179,6 +194,7 @@
         {   
             "LogName": "Weeds 3 Fall",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",
@@ -188,6 +204,7 @@
         {   
             "LogName": "Weeds 4 Fall",
             "Action": "EditImage",
+            "Priority": "Late",
             "Target": "Maps/springobjects",
             "FromFile": "assets/{{Recolor}}/springobjects.png",
             "PatchMode": "Replace",

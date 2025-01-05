@@ -1,0 +1,34 @@
+{
+	"Format":"2.0",
+	"ConfigSchema":{
+		"Harvey's Room":{
+			"AllowValues":"on,off",
+			"Default":"on"
+		},
+		"Clinic":{
+			"AllowValues":"on,off",
+			"Default":"on"
+		},
+
+	},
+
+		"Changes": [
+
+		{
+		  	"LogName": "Interiors of Pelican Town - Hospital",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/Hospital",
+      	  	"FromFile": "assets/Hospital.tmx",
+		"When":{"Clinic":"on",},
+		"Priority": "High",
+		},
+		{
+		  	"LogName": "Interiors of Pelican Town - Harvey's Room",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/HarveyRoom",
+      	  	"FromFile": "assets/HarveyRoom.tmx",
+		"When":{"Harvey's Room":"on",},
+		"Priority": "High",
+		}
+	]
+}

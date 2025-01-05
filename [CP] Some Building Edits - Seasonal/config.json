@@ -1,4 +1,5 @@
 {
+  "Recolor": "Vanilla",
   "Barn": "true",
   "Coop": "true",
   "Shed": "With_Boxes",
@@ -12,5 +13,8 @@
   "Silo": "Wood",
   "Slime Hutch": "true",
   "Well": "true",
-  "Obelisks": "false"
+  "Obelisks": "false",
+  "SVE Premium Barn": "true",
+  "SVE Premium Coop": "true",
+  "SVE Winery": "true"
 }

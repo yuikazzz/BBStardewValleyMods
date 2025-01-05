@@ -1,0 +1,15 @@
+{
+		"Format": "2.0.0",
+		"Changes": [
+
+		//Interiors of Pelican Town - Mayor Lewis' Manor
+
+		{
+		  	"LogName": "Interiors of Pelican Town - Mayor Lewis' Manor",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/ManorHouse",
+      	  	"FromFile": "assets/ManorHouse.tmx",
+		"Priority": "High",
+		},
+	]
+}

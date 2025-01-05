@@ -1,0 +1,192 @@
+{
+	//************************************
+	//      Config
+	//************************************
+
+	//************************************
+	//      General
+
+	"config.EnableSeedbags.name": "Enable Seedbags",
+	"config.EnableSeedbags.description": "Enable Seeds N' Saplings textures for seedbags",
+
+	"config.EnableSaplings.name": "Enable Saplings",
+	"config.EnableSaplings.description": "Enable Seeds N' Saplings textures for saplings",
+
+	"config.section.Generic.name": "Overall Settings",
+
+	//************************************
+	//      Seedbags
+
+	"config.SeasonalSeedbags.name": "Seasonal Seedbags",
+	"config.SeasonalSeedbags.values.Seasonal": "Seasonal",
+	"config.SeasonalSeedbags.values.Nonseasonal": "Non Seasonal",
+	"config.SeasonalSeedbags.description": "Seasonal seedbags are colour coded to their planting season",
+
+	"config.NonseasonalColour.name": "Non Seasonal Colour",
+	"config.NonseasonalColour.values.Vanilla": "Original Mod Colours",
+	"config.NonseasonalColour.values.Grandpa": "Medieval Brown",
+	"config.NonseasonalColour.values.White": "Muted White",
+	"config.NonseasonalColour.values.Normal": "Seeds N' Saplings Colour",
+	"config.NonseasonalColour.values.WAG": "Wildflour's Atelier Brown",
+	"config.NonseasonalColour.values.Bog": "Witchy Bog",
+	"config.NonseasonalColour.description": "Colour for non seasonal seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Seedbags')",
+
+	"config.SeasonalColour.name": "Seasonal Colour",
+	"config.SeasonalColour.values.Normal": "Seeds N' Saplings Colours",
+	"config.SeasonalColour.values.Faded": "Faded Colours",
+	"config.SeasonalColour.description": "Colours for seasonal seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Seedbags')",
+
+	"config.SeasonalForageBags.name": "Seasonal Foraged Seedbags",
+	"config.SeasonalForageBags.values.Seasonal": "Seasonal",
+	"config.SeasonalForageBags.values.Nonseasonal": "Non Seasonal",
+	"config.SeasonalForageBags.description": "Seasonal seedbags for foraged seeds (Ancient Fiber, Monster Fruit, Salal Berry, Slime Berry and Void Root)",
+
+	"config.NonseasonalForageColour.name": "Non Seasonal Foraged Colour",
+	"config.NonseasonalForageColour.values.Vanilla": "Original Mod Colours",
+	"config.NonseasonalForageColour.values.Grandpa": "Medieval Brown",
+	"config.NonseasonalForageColour.values.White": "Muted White",
+	"config.NonseasonalForageColour.values.Normal": "Seeds N' Saplings Colour",
+	"config.NonseasonalForageColour.values.WAG": "Wildflour's Atelier Brown",
+	"config.NonseasonalForageColour.values.Bog": "Witchy Bog",
+	"config.NonseasonalForageColour.description": "Colour for non seasonal foraged seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Foraged Seedbags')",
+
+	"config.SeasonalForageColour.name": "Seasonal Foraged Colour",
+	"config.SeasonalForageColour.values.Normal": "Seeds N' Saplings Colours",
+	"config.SeasonalForageColour.values.Faded": "Faded Colours",
+	"config.SeasonalForageColour.description": "Colours for seasonal foraged seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Foraged Seedbags')",
+
+	"config.EnableAncient_Fiber.name": "Ancient Fiber Seeds",
+	"config.EnableAncient_Fiber.description": "Enable Seeds N' Saplings textures for Ancient Ferns seedbags",
+
+	"config.EnableButternut_Squash.name": "Butternut Squash Seeds",
+	"config.EnableButternut_Squash.description": "Enable Seeds N' Saplings textures for Butternut Squash seedbags",
+
+	"config.EnableCucumber.name": "Cucumber Seeds",
+	"config.EnableCucumber.description": "Enable Seeds N' Saplings textures for Cucumber seedbags",
+
+	"config.EnableGold_Carrot.name": "Gold Carrot Seeds",
+	"config.EnableGold_Carrot.description": "Enable Seeds N' Saplings textures for Gold Carrot seedbags",
+
+	"config.Gold_CarrotSparkle.name": "Gold Carrot Style",
+	"config.Gold_CarrotSparkle.values.Plain": "Plain",
+	"config.Gold_CarrotSparkle.values.Sparkle": "Sparkle",
+	"config.Gold_CarrotSparkle.description": "Style of seedbag, to include sparkles or have a plain seedbag",
+
+	"config.SeasonalGoldCarrot.name": "Seasonal Gold Carrot Seedbags",
+	"config.SeasonalGoldCarrot.values.Seasonal": "Seasonal",
+	"config.SeasonalGoldCarrot.values.Nonseasonal": "Non Seasonal",
+	"config.SeasonalGoldCarrot.description": "Seasonal seedbags for Gold Carrot seeds",
+
+	"config.NonseasonalGoldColour.name": "Non Seasonal Gold Carrot Colour",
+	"config.NonseasonalGoldColour.values.Vanilla": "Original Mod Colours",
+	"config.NonseasonalGoldColour.values.Grandpa": "Medieval Brown",
+	"config.NonseasonalGoldColour.values.White": "Muted White",
+	"config.NonseasonalGoldColour.values.Normal": "Seeds N' Saplings Colour",
+	"config.NonseasonalGoldColour.values.WAG": "Wildflour's Atelier Brown",
+	"config.NonseasonalGoldColour.values.Bog": "Witchy Bog",
+	"config.NonseasonalGoldColour.description": "Colour for non seasonal Gold Carrot seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Gold Carrot Seedbags')",
+
+	"config.SeasonalGoldColour.name": "Seasonal Gold Carrot Colour",
+	"config.SeasonalGoldColour.values.Normal": "Seeds N' Saplings Colours",
+	"config.SeasonalGoldColour.values.Faded": "Faded Colours",
+	"config.SeasonalGoldColour.description": "Colours for seasonal Gold Carrot seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Gold Carrot Seedbags')",
+
+	"config.EnableJoja_Berry.name": "Joja Berry Starter",
+	"config.EnableJoja_Berry.description": "Enable Seeds N' Saplings textures for Joja Berry seedbags",
+
+	"config.EnableJoja_Veggie.name": "Joja Veggie Seeds",
+	"config.EnableJoja_Veggie.description": "Enable Seeds N' Saplings textures for Joja Veggie seedbags",
+
+	"config.SeasonalJojaSeedbags.name": "Seasonal Joja Seedbags",
+	"config.SeasonalJojaSeedbags.values.Seasonal": "Seasonal",
+	"config.SeasonalJojaSeedbags.values.Nonseasonal": "Non Seasonal",
+	"config.SeasonalJojaSeedbags.description": "Seasonal seedbags for Joja seeds",
+
+	"config.NonseasonalJojaColour.name": "Non Seasonal Joja Colour",
+	"config.NonseasonalJojaColour.values.Vanilla": "Original Mod Colours",
+	"config.NonseasonalJojaColour.values.Grandpa": "Medieval Brown",
+	"config.NonseasonalJojaColour.values.White": "Muted White",
+	"config.NonseasonalJojaColour.values.Normal": "Seeds N' Saplings Colour",
+	"config.NonseasonalJojaColour.values.WAG": "Wildflour's Atelier Brown",
+	"config.NonseasonalJojaColour.values.Bog": "Witchy Bog",
+	"config.NonseasonalJojaColour.description": "Colour for non seasonal Joja seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Joja Seedbags')",
+
+	"config.SeasonalJojaColour.name": "Seasonal Joja Colour",
+	"config.SeasonalJojaColour.values.Normal": "Seeds N' Saplings Colours",
+	"config.SeasonalJojaColour.values.Faded": "Faded Colours",
+	"config.SeasonalJojaColour.description": "Colours for seasonal Joja seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Joja Seedbags')",
+
+	"config.EnableMonster_Fruit.name": "Monster Fruit Seeds",
+	"config.EnableMonster_Fruit.description": "Enable Seeds N' Saplings textures for Stalk Seedbags",
+
+	"config.EnableMonster_Mushroom.name": "Monster Mushroom Seeds",
+	"config.EnableMonster_Mushroom.description": "Enable Seeds N' Saplings textures for Fungus seedbags",
+
+	"config.EnableSalal_Berry.name": "Salal Berry Seeds",
+	"config.EnableSalal_Berry.description": "Enable Seeds N' Saplings textures for Shrub seedbags",
+
+	"config.EnableSlime_Berry.name": "Slime Berry Seeds",
+	"config.EnableSlime_Berry.description": "Enable Seeds N' Saplings textures for Slime seedbags",
+
+	"config.EnableSweet_Potato.name": "Sweet Potato Seeds",
+	"config.EnableSweet_Potato.description": "Enable Seeds N' Saplings textures for Sweet Potato seedbags",
+
+	"config.EnableVoid_Root.name": "Void Root Seeds",
+	"config.EnableVoid_Root.description": "Enable Seeds N' Saplings textures for Void seedbags",
+
+	"config.section.Seedbags.name": "Seedbag Settings",
+
+	//************************************
+	//      Saplings
+
+	"config.SeasonalSaplings.name": "Seasonal Saplings",
+	"config.SeasonalSaplings.values.Seasonal": "Seasonal",
+	"config.SeasonalSaplings.values.Nonseasonal": "Non Seasonal",
+	"config.SeasonalSaplings.description": "Enable saplings to be colour coded to its harvest season",
+
+	"config.SeasonalSaplingLeaves.name": "Seasonally Changing Leaves",
+	"config.SeasonalSaplingLeaves.description": "Enable the saplings leaves to change with the seasons",
+
+	"config.SaplingStyle.name": "Sapling Style",
+	"config.SaplingStyle.values.Pot": "Pot",
+	"config.SaplingStyle.values.Ribbon_Sack": "Sack with Ribbon",
+	"config.SaplingStyle.values.Sack": "Sack",
+	"config.SaplingStyle.description": "Style for saplings, between Pot, Sack with Ribbon or Sack (Sacks are similar to Vanilla Game saplings)",
+
+	"config.NonseasonalSaplingColour.name": "Non Seasonal Saplings Colour",
+	"config.NonseasonalSaplingColour.values.Vanilla": "Original Mod Colours",
+	"config.NonseasonalSaplingColour.values.Grandpa": "Medieval Brown",
+	"config.NonseasonalSaplingColour.values.White": "Muted White",
+	"config.NonseasonalSaplingColour.values.Normal": "Seeds N' Saplings Colour",
+	"config.NonseasonalSaplingColour.values.WAG": "Wildflour's Atelier Brown",
+	"config.NonseasonalSaplingColour.values.Bog": "Witchy Bog",
+	"config.NonseasonalSaplingColour.description": "Colour for non seasonal saplings (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Saplings')",
+
+	"config.SeasonalSaplingColour.name": "Seasonal Saplings Colour",
+	"config.SeasonalSaplingColour.values.Normal": "Seeds N' Saplings",
+	"config.SeasonalSaplingColour.values.Faded": "Faded Colours",
+	"config.SeasonalSaplingColour.description": "Colours for seasonal saplings (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Saplings')",
+
+	"config.EnableNectarine.name": "Nectarine Sapling",
+	"config.EnableNectarine.description": "Enable Seeds N' Saplings textures for Nectarine tree saplings",
+
+	"config.EnablePear.name": "Pear Sapling",
+	"config.EnablePear.description": "Enable Seeds N' Saplings textures for Pear tree saplings",
+
+	"config.EnablePersimmon.name": "Persimmon Sapling",
+	"config.EnablePersimmon.description": "Enable Seeds N' Saplings textures for Persimmon tree saplings",
+
+	"config.EnableTree_Coin.name": "Tree Coin",
+	"config.EnableTree_Coin.description": "Enable Seeds N' Saplings textures for Tree Coin",
+
+	"config.MoneyTreeSapling.name": "Change Tree Coin into sapling",
+	"config.MoneyTreeSapling.description": "Change the Tree Coin into a Money Tree sapling to match other trees",
+
+	"config.section.Sapling.name": "Sapling Settings",
+
+	//************************************
+	//      Money Sapling
+
+	"Tree_CoinSaplingName": "Money Sapling"
+
+}

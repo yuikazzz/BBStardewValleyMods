@@ -1,0 +1,13 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_dryer_13",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_dryer_14",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_dryer_15",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_dryer_16",
+        "Teaiscoldagain.CP.CMBathroom.b_lndry_dryer_17"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 32,
+    "Variations": 12
+}

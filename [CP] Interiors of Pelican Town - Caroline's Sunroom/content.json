@@ -1,0 +1,12 @@
+{
+		"Format": "2.0.0",
+
+		"Changes": [
+		{
+		 	"LogName": "Interiors of Pelican Town - Caroline's Sunroom",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/Sunroom",
+      	  	"FromFile": "assets/SunroomRattan.tmx",
+		},
+	]
+}

@@ -1,0 +1,42 @@
+Saloon sells Loved Dishes (SVE)
+
+Requirements: Content Patcher & Stardew Valley Expanded
+
+Optional: GenericModConfigMenu & Saloon sells Loved Dishes (Required for Dialogue to work)
+
+
+This mod adds Stardew Valley Expanded NPC's favorite dishes to the Saloon menu. You can choose to have the dishes for sale by year (default) or the season of the NPC's birthday.
+
+Claire (Fall 8) Glazed Butterfish //1
+
+Lance (Spring 8) Tropical Curry //2
+
+Magnus (Winter 17) Frog Legs //3
+
+Olivia (Spring 15) Pink cake (Sold with Saloon Loved Dishes)
+
+Scarlett (Summer 7) Glazed Yams //4
+
+Sophia (Winter 27) Grampleton Orange Chicken //5
+
+Victor (Summer 23) Spaghetti (Sold by Saloon already)
+
+Andy (Spring 23) Glazed Butterfish //1
+
+Apples (No BD) No loved dish
+
+Gunther (Winter 12) Bean Hotpot //6
+
+Martin (Summer 6) IceCream //7
+
+Marlon (Winter 19) Roots Platter //8
+
+Morris (Spring 2) Chowder //9
+
+Morgan (Fall 7) No loved dish
+
+Susan (Fall 28) Pink Cake (Sold with Saloon Loved Dishes)
+
+
+
+

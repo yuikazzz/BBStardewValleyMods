@@ -1,6 +1,9 @@
 {
-    "Format": "2.3.0",
+    "Format": "2.4.0",
     "ConfigSchema": {
+
+        "Recolor": { "AllowValues": "Earthy, Starblue, VibrantPastoral, Vanilla",
+            "Default": "Vanilla"},
 
         "Barn": { "AllowValues": "True, False",
             "Default": "True"},
@@ -42,7 +45,16 @@
             "Default": "True"},
 
         "Obelisks": { "AllowValues": "True, False",
-            "Default": "True"}
+            "Default": "True"},
+
+        "SVE Premium Barn": { "AllowValues": "True, False",
+            "Default": "True"},
+
+        "SVE Premium Coop": { "AllowValues": "True, False",
+            "Default": "True"},
+
+        "SVE Winery": { "AllowValues": "True, False",
+            "Default": "True"},
     },
     "Changes": [
         {
@@ -100,41 +112,21 @@
             }
         },
         {
-            "LogName": "Shed",
-            "Action": "EditImage",
-            "Target": "Buildings/Shed",
-            "FromFile": "assets/{{season}}/Shed_{{Shed}}.png",
-                "Enabled": "True",
-                "When": {
-                "Shed": "With_Boxes, No_Boxes,",
-            }
-        },
-        {
-            "LogName": "Big Shed",
-            "Action": "EditImage",
-            "Target": "Buildings/Big Shed",
-            "FromFile": "assets/{{season}}/Shed_{{Shed}}.png",
-                "Enabled": "True",
-                "When": {
-                "Shed": "With_Boxes, No_Boxes,",
-            }
-        },
-        {
-            "LogName": "Stable",
-            "Action": "EditImage",
-            "Target": "Buildings/Stable",
-            "FromFile": "assets/{{season}}/Stable.png",
-            "When": {
-                "Stable": "True"
-            }
-        },
-        {
             "LogName": "Houses",
             "Action": "EditImage",
             "Target": "Buildings/houses",
             "FromFile": "assets/{{season}}/houses.png",
             "When": {
                 "houses": "True"
+            }
+        },
+        {
+            "LogName": "Beach Cabin",
+            "Action": "EditImage",
+            "Target": "Buildings/Beach Cabin",
+            "FromFile": "assets/{{season}}/Beach Cabin.png",
+            "When": {
+                "Cabins": "True"
             }
         },
         {
@@ -183,6 +175,15 @@
             }
         },
         {
+            "LogName": "Trailer Cabin",
+            "Action": "EditImage",
+            "Target": "Buildings/Trailer Cabin",
+            "FromFile": "assets/{{season}}/Trailer Cabin.png",
+            "When": {
+                "Cabins": "True"
+            }
+        },
+        {
             "LogName": "Gold Clock",
             "Action": "EditImage",
             "Target": "Buildings/Gold Clock",
@@ -219,11 +220,29 @@
             }
         },
         {
+            "LogName": "Shed",
+            "Action": "EditImage",
+            "Target": "Buildings/Shed",
+            "FromFile": "assets/{{season}}/Shed_{{Shed}}.png",
+            "When": {
+                "Shed": "With_Boxes, No_Boxes",
+            }
+        },
+        {
+            "LogName": "Big Shed",
+            "Action": "EditImage",
+            "Target": "Buildings/Big Shed",
+            "FromFile": "assets/{{season}}/Big Shed.png",
+            "When": {
+                "Shed": "With_Boxes, No_Boxes",
+            }
+        },
+        {
             "LogName": "Silo",
             "Action": "EditImage",
             "Target": "Buildings/Silo",
             "FromFile": "assets/{{season}}/Silo_{{Silo}}.png",
-                "When": {
+            "When": {
                 "Silo": "Wood, Stone, Castle, Castle_Flat,",
             }
         },
@@ -245,6 +264,15 @@
             "When": {
 		"Slime Hutch": "True",
 		"HasMod |contains=Dolly.SlimeHutchRestored": "true",
+            }
+        },
+        {
+            "LogName": "Stable",
+            "Action": "EditImage",
+            "Target": "Buildings/Stable",
+            "FromFile": "assets/{{season}}/Stable.png",
+            "When": {
+                "Stable": "True"
             }
         },
         {
@@ -290,6 +318,268 @@
             "FromFile": "assets/{{season}}/Island Obelisk.png",
             "When": {
                 "Obelisks": "True"
+            }
+        },
+        {
+            "LogName": "SVE - Premium Barn",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_PremiumBarn",
+            "FromFile": "assets/{{season}}/PremiumBarn.png",
+            "When": {
+                "SVE Premium Barn": "True",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            }
+        },
+        {
+            "LogName": "SVE - Premium Coop",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_PremiumCoop",
+            "FromFile": "assets/{{season}}/PremiumCoop.png",
+            "When": {
+                "SVE Premium Coop": "True",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            }
+        },
+        {
+            "LogName": "SVE - Winery",
+            "Action": "EditImage",
+            "Target": "Buildings/SVE_Winery",
+            "FromFile": "assets/{{season}}/Winery.png",
+            "When": {
+                "SVE Winery": "True",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Cabins",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Beach Cabin, Buildings/Log Cabin, Buildings/Neighbor Cabin, Buildings/Plank Cabin, Buildings/Rustic Cabin, Buildings/Stone Cabin, Buildings/Trailer Cabin",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/{{TargetWithoutPath}}.png",
+            "When": {
+                "Season": "Winter",
+                "Cabins": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Barn",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Barn, Buildings/Big Barn, Buildings/Deluxe Barn",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/{{TargetWithoutPath}}.png",
+            "When": {
+                "Season": "Winter",
+                "Barn": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Coop",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Coop, Buildings/Big Coop, Buildings/Deluxe Coop",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/{{TargetWithoutPath}}.png",
+            "When": {
+                "Season": "Winter",
+                "Coop": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Shed",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Shed",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Shed.png",
+            "When": {
+                "Season": "Winter",
+                "Shed": "With_Boxes, No_Boxes",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Big Shed",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Big Shed",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Big Shed.png",
+            "When": {
+                "Season": "Winter",
+                "Shed": "With_Boxes, No_Boxes",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Silo",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Silo",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Silo_{{Silo}}.png",
+            "When": {
+                "Season": "Winter",
+                "Silo": "Wood, Stone, Castle, Castle_Flat,",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Slime Hutch - New",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Slime Hutch",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Slime Hutch_New.png",
+            "When": {
+                "Season": "Winter",
+		"Slime Hutch": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+		"HasMod |contains=Dolly.SlimeHutchRestored": "false",
+            }
+        },
+        {
+            "LogName": "Winter Overlays _ Slime Hutch - Old",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Slime Hutch",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Slime Hutch_Old.png",
+            "When": {
+                "Season": "Winter",
+		"Slime Hutch": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+		"HasMod |contains=Dolly.SlimeHutchRestored": "true",
+            }
+        },
+        {
+            "LogName": "Winter Overlays _ Gold Clock",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Gold Clock",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Gold Clock.png",
+            "When": {
+                "Season": "Winter",
+                "Gold Clock": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Greenhouse",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Greenhouse",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Greenhouse.png",
+            "When": {
+                "Season": "Winter",
+                "Greenhouse": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Farmhouse",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/houses,",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/houses.png",
+            "When": {
+                "Season": "Winter",
+                "houses": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Junimo Hut",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Junimo Hut,",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Junimo Hut.png",
+            "When": {
+                "Junimo Hut": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Mill",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Mill",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Mill.png",
+            "When": {
+                "Season": "Winter",
+                "Mill": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Obelisk",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Earth Obelisk",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Earth Obelisk.png",
+            "When": {
+                "Season": "Winter",
+                "Obelisks": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Stable",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Stable",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Stable.png",
+            "When": {
+                "Season": "Winter",
+                "Stable": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - Well",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/Well",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Well.png",
+            "When": {
+                "Season": "Winter",
+                "Well": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+            }
+        },
+        {
+            "LogName": "Winter Overlays - SVE - Premium Barn",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/SVE_PremiumBarn",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/PremiumBarn.png",
+            "When": {
+                "Season": "Winter",
+                "SVE Premium Barn": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            }
+        },
+        {
+            "LogName": "Winter Overlays - SVE - Premium Coop",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/SVE_PremiumCoop",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/PremiumCoop.png",
+            "When": {
+                "Season": "Winter",
+                "SVE Premium Coop": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+            }
+        },
+        {
+            "LogName": "Winter Overlays - SVE - Winery",
+            "Action": "EditImage",
+            "PatchMode": "Overlay",
+            "Target": "Buildings/SVE_Winery",
+            "FromFile": "assets/Winter_Overlays/{{Recolor}}/Winery.png",
+            "When": {
+                "Season": "Winter",
+                "SVE Winery": "True",
+                "Recolor": "Earthy, Starblue, VibrantPastoral",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
             }
         }
     ]

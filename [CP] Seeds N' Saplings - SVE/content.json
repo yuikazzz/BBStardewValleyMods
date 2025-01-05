@@ -1,0 +1,312 @@
+{
+  "Format": "2.3.0",
+  "ConfigSchema": {
+    //************************************
+    //         Config
+    //************************************
+
+    //************************************
+    //      Generic
+
+    "EnableSeedbags": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for seedbags",
+      "Section": "Generic"
+    },
+    "EnableSaplings": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for saplings",
+      "Section": "Generic"
+    },
+
+    //************************************
+    //      Seeds
+
+    "SeasonalSeedbags": {
+      "AllowValues": "Seasonal, Nonseasonal",
+      "AllowBlank": true,
+      "Default": "Nonseasonal",
+      "Description": "Seasonal seedbags are colour coded to their planting season",
+      "Section": "Seedbags"
+    },
+
+    "NonseasonalColour": {
+      "AllowValues": "Normal, Vanilla, Grandpa, White, WAG, Bog",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colour for non seasonal seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalColour": {
+      "AllowValues": "Normal, Faded",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colours for seasonal seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalForageBags": {
+      "AllowValues": "Seasonal, Nonseasonal",
+      "AllowBlank": true,
+      "Default": "Nonseasonal",
+      "Description": "Seasonal seedbags for foraged seeds (Ancient Fiber, Monster Fruit, Salal Berry, Slime Berry and Void Root)",
+      "Section": "Seedbags"
+    },
+
+    "NonseasonalForageColour": {
+      "AllowValues": "Normal, Vanilla, Grandpa, White, WAG, Bog",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colour for non seasonal foraged seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Foraged Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalForageColour": {
+      "AllowValues": "Normal, Faded",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colours for seasonal foraged seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Foraged Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "EnableAncient_Fiber": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Ancient Ferns seedbags (Ancient Fiber Seeds)",
+      "Section": "Seedbags"
+    },
+
+    "EnableButternut_Squash": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Butternut Squash seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableCucumber": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Cucumber seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableGold_Carrot": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Gold Carrot seedbags",
+      "Section": "Seedbags"
+    },
+
+    "Gold_CarrotSparkle": {
+      "AllowValues": "Plain, Sparkle",
+      "AllowBlank": true,
+      "Default": "Sparkle",
+      "Description": "Style of seedbag, include sparkles or a plain seedbag",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalGoldCarrot": {
+      "AllowValues": "Seasonal, Nonseasonal",
+      "AllowBlank": true,
+      "Default": "Nonseasonal",
+      "Description": "Seasonal seedbags for Gold Carrot seeds",
+      "Section": "Seedbags"
+    },
+
+    "NonseasonalGoldColour": {
+      "AllowValues": "Normal, Vanilla, Grandpa, White, WAG, Bog",
+      "AllowBlank": true,
+      "Default": "Vanilla",
+      "Description": "Colour for non seasonal Gold Carrot seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Gold Carrot Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalGoldColour": {
+      "AllowValues": "Normal, Faded",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colours for seasonal Gold Carrot seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Gold Carrot Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "EnableJoja_Berry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Joja Berry seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableJoja_Veggie": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Joja Veggie seedbags",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalJojaSeedbags": {
+      "AllowValues": "Seasonal, Nonseasonal",
+      "AllowBlank": true,
+      "Default": "Nonseasonal",
+      "Description": "Seasonal seedbags for Joja seeds (Joja Berry and Joja Veggie)",
+      "Section": "Seedbags"
+    },
+
+    "NonseasonalJojaColour": {
+      "AllowValues": "Normal, Vanilla, Grandpa, White, WAG, Bog",
+      "AllowBlank": true,
+      "Default": "Vanilla",
+      "Description": "Colour for non seasonal Joja seedbags (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Joja Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "SeasonalJojaColour": {
+      "AllowValues": "Normal, Faded",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colours for seasonal Joja seedbags (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Joja Seedbags')",
+      "Section": "Seedbags"
+    },
+
+    "EnableMonster_Fruit": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Stalk Seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableMonster_Mushroom": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Fungus seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableSalal_Berry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Shrub seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableSlime_Berry": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Slime seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableSweet_Potato": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Sweet Potato seedbags",
+      "Section": "Seedbags"
+    },
+
+    "EnableVoid_Root": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Void seedbags",
+      "Section": "Seedbags"
+    },
+
+
+    //************************************
+    //      Sapling
+
+    "SeasonalSaplings": {
+      "AllowValues": "Seasonal, Nonseasonal",
+      "AllowBlank": true,
+      "Default": "Nonseasonal",
+      "Description": "Enable saplings to be colour coded to its harvest season",
+      "Section": "Sapling"
+    },
+
+    "SeasonalSaplingLeaves": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Enable the saplings leaves to change with the seasons",
+      "Section": "Sapling"
+    },
+
+    "SaplingStyle": {
+      "AllowValues": "Pot, Ribbon_Sack, Sack",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Style for saplings, between Pot, Sack with Ribbon or Sack (Sacks are similar to Base Game saplings)",
+      "Section": "Sapling"
+    },
+
+    "NonseasonalSaplingColour": {
+      "AllowValues": "Normal, Vanilla, Grandpa, White, WAG, Bog",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colour for non seasonal saplings (This will only appear in-game if 'Non Seasonal' is selected for 'Seasonal Saplings')",
+      "Section": "Sapling"
+    },
+
+    "SeasonalSaplingColour": {
+      "AllowValues": "Normal, Faded",
+      "AllowBlank": true,
+      "Default": "Normal",
+      "Description": "Colours for seasonal saplings (This will only appear in-game if 'Seasonal' is selected for 'Seasonal Saplings')",
+      "Section": "Sapling"
+    },
+
+    "EnableNectarine": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Nectarine tree saplings",
+      "Section": "Sapling"
+    },
+
+    "EnablePear": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Pear tree saplings",
+      "Section": "Sapling"
+    },
+
+    "EnablePersimmon": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Persimmon tree saplings",
+      "Section": "Sapling"
+    },
+
+    "EnableTree_Coin": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Enable Seeds N' Saplings textures for Tree Coin",
+      "Section": "Sapling"
+    },
+
+    "MoneyTreeSapling": {
+      "AllowValues": "true, false",
+      "Default": "false",
+      "Description": "Change the Tree Coin into a Money Tree sapling to match other trees",
+      "Section": "Sapling"
+    }
+  },
+
+  "Changes": [
+    {
+      "LogName": "Seeds Data",
+      "Action": "Include",
+      "FromFile": "Data/Seedbags.json",
+      "When": {
+        "EnableSeedbags": true
+      }
+    },
+    {
+      "LogName": "Sapling Data",
+      "Action": "Include",
+      "FromFile": "Data/Saplings.json",
+      "When": {
+        "EnableSaplings": true
+      }
+    }
+  ]
+}

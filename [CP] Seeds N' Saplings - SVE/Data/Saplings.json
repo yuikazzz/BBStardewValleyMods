@@ -1,0 +1,203 @@
+{
+  "Changes": [
+    {
+      "LogName": "Non Seasonal Nectarine",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Nectarine.png",
+      "When": {
+        "EnableNectarine": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Nectarine",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Nectarine.png",
+      "When": {
+        "EnableNectarine": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Nectarine Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Nectarine_{{season}}.png",
+      "When": {
+        "EnableNectarine": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Nectarine Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Nectarine_{{season}}.png",
+      "When": {
+        "EnableNectarine": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Pear",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Pear.png",
+      "When": {
+        "EnablePear": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Pear",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Pear.png",
+      "When": {
+        "EnablePear": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Pear Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Pear_{{season}}.png",
+      "When": {
+        "EnablePear": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Pear Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Pear_{{season}}.png",
+      "When": {
+        "EnablePear": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Persimmon",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Persimmon.png",
+      "When": {
+        "EnablePersimmon": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Persimmon",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Persimmon.png",
+      "When": {
+        "EnablePersimmon": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Persimmon Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Persimmon_{{season}}.png",
+      "When": {
+        "EnablePersimmon": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Persimmon Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Persimmon_{{season}}.png",
+      "When": {
+        "EnablePersimmon": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Tree Coin",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
+      "FromFile": "Assets/Unique/Tree_Coin.png",
+      "When": {
+        "EnableTree_Coin": true,
+        "MoneyTreeSapling": false
+      }
+    },
+    {
+      "LogName": "Non Seasonal Money Tree",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree.png",
+      "When": {
+        "MoneyTreeSapling": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Money Tree",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree.png",
+      "When": {
+        "MoneyTreeSapling": true,
+        "SeasonalSaplingLeaves": false,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Non Seasonal Money Tree Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree_{{season}}.png",
+      "When": {
+        "MoneyTreeSapling": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Nonseasonal"
+      }
+    },
+    {
+      "LogName": "Seasonal Money Tree Leaves",
+      "Action": "EditImage",
+      "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree_{{season}}.png",
+      "When": {
+        "MoneyTreeSapling": true,
+        "SeasonalSaplingLeaves": true,
+        "SeasonalSaplings": "Seasonal"
+      }
+    },
+    {
+      "LogName": "Money Tree Name Change",
+      "Action": "EditData",
+      "Target": "Data/Objects",
+      "When": {
+        "MoneyTreeSapling": true
+      },
+      "Fields": {
+        "FlashShifter.StardewValleyExpandedCP_Tree_Coin": {
+          "DisplayName": "{{i18n:Tree_CoinSaplingName}}"
+        }
+      }
+    }
+  ]
+}

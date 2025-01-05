@@ -1,0 +1,8 @@
+{
+  "ItemName": "Shipping Bin",
+  "Type": "Building",
+  "Seasons": ["Summer"],
+  "TextureWidth": 32,
+  "TextureHeight": 32,
+  "Variations": 4
+}

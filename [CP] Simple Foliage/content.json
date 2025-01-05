@@ -214,17 +214,6 @@
 		},
 		//Add 1.6 wild green rain assets & bushes
 		{
-			"LogName": "Moss asset",
-			"Action": "EditImage",
-            "Priority": "Late",
-			"Target": "TileSheets/Objects_2",
-			"FromFile": "assets/{{Recolor}}/{{Target}}.png",
-			"PatchMode": "Replace",
-			"FromArea": {"X":96, "Y":64, "Width":16, "Height":16},
-			"ToArea": {"X":96, "Y":64, "Width":16, "Height":16},
-			"When": {"Bushes": "true"}
-		},
-		{
 			"LogName": "Moss seed asset?",
 			"Action": "EditImage",
             "Priority": "Late",

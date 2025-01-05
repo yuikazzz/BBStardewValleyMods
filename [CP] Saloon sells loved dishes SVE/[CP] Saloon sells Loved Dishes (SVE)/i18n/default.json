@@ -1,0 +1,42 @@
+{
+//dishes
+"{{ModID}}_FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish": "Glazed Butterfish", //1
+"{{ModID}}_TropicalCurry": "Tropical Curry", //2
+"{{ModID}}_FrogLegs": "Frog Legs", //3
+"{{ModID}}_GlazedYams": "Glazed Yams", //4
+"{{ModID}}_Grampleton_Orange_Chicken": "Grampleton Orange Chicken", //5
+"{{ModID}}_BeanHotPot": "Bean HotPot",  //6
+"{{ModID}}_IceCream": "IceCream", //7
+"{{ModID}}_RootsPlatter": "Roots Platter", //8
+"{{ModID}}_Chowder": "Chowder", //9
+
+
+
+//Dialogue for Gus
+"snm.SSLD.SVE_fall_8": "Claire and Andy both loved Glazed Butterfish.", //fall 8, year 1
+"snm.SSLD.SVE_fall_8_2": "Claire and Andy both loved Glazed Butterfish.", //fall 8, year 2 and on
+"snm.SSLD.SVE_spring_8_2": "Lance is a huge fan of Tropical Curry",
+"snm.SSLD.SVE_winter_17": "Magnus needs another order of Frog Legs. He sure does love them.",
+"snm.SSLD.SVE_winter_17_2": "Magnus needs another order of Frog Legs. He sure does love them.",
+"snm.SSLD.SVE_spring_15": "You should get Olivia a piece of Pink Cake.",
+"snm.SSLD.SVE_spring_15_2": "You should get Olivia a piece of Pink Cake.",
+"snm.SSLD.SVE_summer_7_2": "I sent a huge order of Glazed Yams to Scarlett earlier for her birthday.",
+"snm.SSLD.SVE_winter_27": "Sophia has such a nice smile when she gets her favorite Grampleton Orange Chicken.",
+"snm.SSLD.SVE_winter_27_2": "Sophia has such a nice smile when she gets her favorite Grampleton Orange Chicken.",
+"snm.SSLD.SVE_summer_23": "Victor always has Spaghetti on his birthday. Actually that's all he ever orders.",
+"snm.SSLD.SVE_summer_23_2": "Victor always has Spaghetti on his birthday. Actually that's all he ever orders.",
+"snm.SSLD.SVE_spring_23": "Claire and Andy both loved Glazed Butterfish.",
+"snm.SSLD.SVE_spring_23_2": "Claire and Andy both loved Glazed Butterfish.",
+"snm.SSLD.SVE_winter_12": "Gunther is a huge fan of Bean Hotpot.",
+"snm.SSLD.SVE_winter_12_2": "Gunther is a huge fan of Bean Hotpot.",
+"snm.SSLD.SVE_summer_6": "Darn, I only have enough IceCream for Martin.",
+"snm.SSLD.SVE_summer_6_2": "Darn, I only have enough IceCream for Martin.",
+"snm.SSLD.SVE_winter_19": "Today's Marlon birthday. He loves Roots Platter.",
+"snm.SSLD.SVE_winter_19_2": "Today's Marlon birthday. He loves Roots Platter.",
+"snm.SSLD.SVE_spring_2": "I wonder if Morris is having Chowder today.",
+"snm.SSLD.SVE_spring_2_2": "I wonder if Morris is having Chowder today.",
+"snm.SSLD.SVE_fall_7_2": "I never know what yo get Morgan",
+"snm.SSLD.SVE_fall_28": "Seems like lots of people love Pink Cake. I know Susan does.",
+"snm.SSLD.SVE_fall_28_2": "Seems like lots of people love Pink Cake. I know Susan does.",
+}
+

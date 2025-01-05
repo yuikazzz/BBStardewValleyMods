@@ -22,7 +22,7 @@
           "SocialTab": "HiddenUntilMet",
           "CanSocialize": true,
           "CanVisitIsland": "PLAYER_NPC_RELATIONSHIP ANY Lance MARRIED",
-          "ExcludeFromIntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": true,
           "EndSlideShow": "MainGroup",
           "SpouseRoom": {

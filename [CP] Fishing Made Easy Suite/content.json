@@ -4,8 +4,8 @@
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Fishing! =",
-			"AllowValues": "Version 6.0.25",
-			"Default": "Version 6.0.25"
+			"AllowValues": "Version 6.0.26",
+			"Default": "Version 6.0.26"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -38697,6 +38697,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "CrimsonFish",
+						"Color": "230 70 110",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)159"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -38773,6 +38782,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "Angler",
+						"Color": "255 120 0",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)160"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -38849,6 +38867,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "Legend",
+						"Color": "40 150 50",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)163"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -38925,6 +38952,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "MutantCarp",
+						"Color": "50 220 100",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)682"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -39001,6 +39037,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "GlacierFish",
+						"Color": "100 240 220",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)775"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -39077,6 +39122,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "SonofCrimsonFish",
+						"Color": "230 70 110",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)898"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -39153,6 +39207,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "MsAngler",
+						"Color": "255 120 200",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)899"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -39229,6 +39292,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "LegendII",
+						"Color": "40 150 50",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)900"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -39305,6 +39377,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "RadioactiveCarp",
+						"Color": "50 220 100",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)901"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,
@@ -39381,6 +39462,15 @@
 						],
 					"Precedence": 0,
 					"SpawnTime": 7,
+					"WaterColor": [
+					  {
+						"Id": "GlacierfishJr",
+						"Color": "100 240 220",
+						"MinPopulation": 1,
+						"MinUnlockedPopulationGate": 0,
+						"Condition": "ITEM_ID Input (O)902"
+					  },
+					],
 					"ProducedItems": [
 						{
 						"RequiredPopulation": 10,

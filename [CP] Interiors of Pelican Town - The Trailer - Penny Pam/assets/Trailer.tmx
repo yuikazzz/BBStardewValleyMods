@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="28" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="25">
+ <properties>
+  <property name="DayTiles" value="Front 2 1 256 Front 2 2 288 Front 5 1 256 Front 5 2 288 Front 9 4 288 Front 9 3 225 Front 15 1 256 Front 15 2 288 Front 16 1 256 Front 16 2 288 Front 12 3 826 Front 1 1 1344 Front 6 1 1344 Front 13 1 1344 Front 18 1 1344 Front 1 3 1346"/>
+  <property name="Doors" value="6 7 1 120"/>
+  <property name="Light" value="1 9 4 18 3 4 6 10 4"/>
+  <property name="NightTiles" value="Front 2 1 1253 Front 2 2 1285 Front 5 1 1253 Front 5 2 1285 Front 9 4 1285 Front 9 3 1253 Front 15 1 1253 Front 15 2 1285 Front 16 1 1253 Front 16 2 1285 Front 12 3 827 Front 1 1 1345 Front 6 1 1345 Front 13 1 1345 Front 18 1 1345 Front 1 3 1347"/>
+  <property name="Warp" value="12 10 Town 72 69"/>
+  <property name="WindowLight" value="4 1 6 12 3 6 14 1 6 19 1 6 23 1 6"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="z_pampenny" tilewidth="16" tileheight="16" tilecount="832" columns="32">
+  <image source="z_pampenny.png" width="512" height="416"/>
+ </tileset>
+ <tileset firstgid="869" name="z_architecture" tilewidth="16" tileheight="16" tilecount="832" columns="32">
+  <image source="z_architecture.png" width="512" height="416"/>
+ </tileset>
+ <layer id="1" name="Back" width="28" height="12">
+  <data encoding="base64" compression="zlib">
+   eJy9ktEJgDAQQ53IOok6iW6isziKG3k/ByUkjUUwEPJxtZdHHYb/NQkrXcJqjlqFlW5hNmf7nFxf9y1qC+8kU8gxhgvJ7HOEzypxJ87rc6zfHF5I5nnsjfcoPseDmeddb8XneFSy/vX/xN6txeI4Vf/cybhaDI7PqZevvLizpR6+r3oAljJXqg==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="13" name="Back2" width="28" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg4sJMCdcTqRQY3SVSXzEi6XlIAOX7ABpwZGBKSgbgZiBcDMS51KH4A+o0RiJkYMdUxA8VYsIjDgBPQjiQgbgLiRXjsA4FYKK0ANE8RiJWwmKsMFFPBY58j0I5EIG4E4oVQ+zYgyZdB6Rp8DkECzkC7XKD2lWKRdwDaAbQkoQGIF0Dtu4Akvw6I12PRNxWIp2ER/0fAPfZAO+KB+DuQ/YOAWmSwFYi3EXDXVyz67IB2xQGxODAMJPCEOwhswC9NEjAH2mVBwL4L+KXJAtTKZ9gAAKBqJxc=
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="28" height="12">
+  <data encoding="base64" compression="zlib">
+   eJylUjkOwjAQtJX3cHyAj0Cfq4MWcUhIBEpooQIk4A2QF0BFC78A0cJE2IqxvQ4iI40c7052vF7HHiMRO3KUvugfV76sX+SZdbJvnyDl59Kr9aZg4Jl+Y4I2v0jJj7ipV+vtwcTi52MNwJC4H187c4rcCl5rcMM/2gG338VW8Suab+h99yPPrGMBLhV9hjbYUeq4/GRsIvrJ0BW5nqZtoK8D1qOmn4FzlteRc3T57Yh+dFzBG6F/injyg18ZNNF3S8z0xfI5/ut3Bx+WeMryuhT1tyX9KohXwRpY5+Y7c5FClpO9p0q8j/0J61nsL4wNi7suxhv/PE5r
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0">
+  <object id="1" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Trailer.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="48" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Trailer.2&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="64" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Trailer.3&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="160" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox PamKitchen"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="96" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Penny"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="240" y="128" width="16" height="16">
+   <properties>
+    <property name="dfgsdfg" value="Message"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="288" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Trailer.4&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="16" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Trailer.5&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="400" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam10&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="368" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam4&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="176" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam1&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam9&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam8&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam12&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="32" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam3&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="368" y="144" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam7&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="352" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam11&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="384" y="80" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam5&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="336" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Hospital.7&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="400" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam6&quot;"/>
+   </properties>
+  </object>
+  <object id="24" name="TileData" x="336" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Pam2&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="14" name="Buildings2" width="28" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYBhYoAnEWkCsTSf7PIHYC4i9CahLYmRgSAbiFEbK7MsE4iwgziagrgloTzMQt1BoXycQdwFxN5q4NRDbALEtiebdwyOnA8S6OOSigTgGiGNxyNsi+fMuiW4aBaSB/0D8d6AdMUwBAOwIDQc=
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+ <layer id="5" name="Front" width="28" height="12">
+  <data encoding="base64" compression="zlib">
+   eJwrZmZgyMGBS4E4Cw0XE1CPLp+Lpn8VEOMC67DYR0g9SH4XkthUIL8PTb8aVE4Di3509+qwYLfLnhFh3y087oa51x2IPXC4Fx3MxWJfPJJ9P4F8QyA2wmPfTyxmaLPg9g86kGVEqJcEsgOBYkFI5uSi2QdSAwPn0PwURsCe2UB6DgH3wOIROby2A/EOIH6HJ01gA7uBeA8R6pDj5xcQXwfiG0TatxmIt+CRtwL62xoaZvfR7AOlLSmk8ATZ9wZIvwWxgfg9EH9AM+8yEF/BYg8oLfEC44sfiI2B2ASITYFYAIgFWSD2xTOi6gHZxwMU4wViPiDmB2IBRkS8wsxDNxMm9gaaNoKB7BAgDmVBTZ8wv89Fsm8VkF4NxGugYpsYGBqqmFHNw2UmPswFVMeN5k4+POFBjJn4MABK8GAT
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="28" height="12">
+  <data encoding="base64" compression="zlib">
+   eJxjYKA/qGDGjslVT4wZ6iS6MYmRgSEZiFMYSdQIBG6ka2FogtrTQoZ9hIAZmfpMSVRPKA4GEvweaAcMAChmYWAoAeJSFsJq7YhMd6SYiQ/E0SCdIwNs7qSW25EBAD1vEnE=
+  </data>
+ </layer>
+ <layer id="7" name="Paths" width="28" height="12" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgYwImEiVGLrAdZDJ09lMBQdTcMcOAQx+UvDixypMQ/OQCfGwmZi88f2NgDEZ+4/AcCuPIYJe4kJd8iA3R34tJPrTDE5k5y3Y4PAAAIoQFZ
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+</map>

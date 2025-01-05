@@ -430,7 +430,23 @@
         "marriage_Sat": "1000 Town 26 29 0",
       },
     },
-    //**end marriage dialogue
+	
+	{
+      "LogName": "Wizard basement event tagged as seen",
+      "Action": "EditData",
+      "Target": "data/TriggerActions",
+      "Entries": {
+        "{{ModID}}_WizardBasementEvent": {
+          "Id": "{{ModID}}_WizardBasementEvent",
+          "Trigger": "LocationChanged",
+          "Condition": "ANY \"YEAR 2\" \"PLAYER_HAS_SEEN_EVENT Current 418172\"",
+          "Actions": [
+            "MarkEventSeen Current 1000035"
+          ]
+        }
+      }
+    },
+	
     { //WIZARD EVENT - 'The Basement'
       "Action": "EditData",
       "Target": "data/events/Custom_WizardBasement",

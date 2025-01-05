@@ -1,0 +1,179 @@
+{
+  "Format": "1.29.0",
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Claire.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Claire_Joja.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+    "When": {
+        "LocationName": "JojaMart"
+      },
+      "Update": "OnLocationChange"
+    },
+    //From the Expanded code: This changes Claire's Sprite only on the days she works, and when she's not married to the player
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Claire_Theater.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "When": {
+        "Spouse |contains=Claire": false,
+        "DayOfWeek": "Monday, Wednesday, Thursday, Friday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater"
+      },
+      "Update": "OnLocationChange" 
+    },
+
+    //From the Expanded code: This chnages Claire's sprite only on the days she works, and when she IS married to the player
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Claire_Theater.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "When": {
+        "Spouse": "Claire",
+        "DayOfWeek": "Monday, Wednesday, Thursday, Sunday",
+        "HasSeenEvent |contains=502261": false,
+        "LocationName": "MovieTheater"
+      },
+      "Update": "OnLocationChange"
+    },
+    //This is a special case only for Claire's 14-heart event
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Claire",
+      "FromFile": "assets/Claire.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "When": {
+        "Spouse |contains=Claire": true,
+        "LocationName": "MovieTheater",
+        "HasSeenEvent |contains=4269703": true,
+        "HasSeenEvent |contains=4269704": false,
+        "Time": "{{Range: 1600, 2000}}"
+      },
+      "Update": "OnLocationChange"
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/Claire_Beach",
+      "FromFile": "assets/Claire_Beach.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 128
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 128
+      },
+    },
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/ClaireJoja",
+      "FromFile": "assets/Claire_JojaTemp.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+    },  
+    {
+      "Action": "EditImage",
+      "PatchMode": "Replace",
+      "Target": "Characters/ClaireTheater",
+      "FromFile": "assets/Claire_TheaterTemp.png",
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 64,
+        "Height": 480
+      },
+    },
+  ]
+}

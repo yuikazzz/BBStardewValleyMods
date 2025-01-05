@@ -1,0 +1,12 @@
+{
+    "CollectiveIds": [
+        "Teaiscoldagain.CP.CMBathroom.b_deco_clutter_41",
+        "Teaiscoldagain.CP.CMBathroom.b_deco_clutter_42",
+        "Teaiscoldagain.CP.CMBathroom.b_deco_clutter_43",
+        "Teaiscoldagain.CP.CMBathroom.b_deco_clutter_44"
+    ],
+    "Type": "furniture",
+    "TextureWidth": 16,
+    "TextureHeight": 16,
+    "Variations": 12
+}

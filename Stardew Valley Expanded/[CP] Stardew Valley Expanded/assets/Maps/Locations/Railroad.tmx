@@ -1240,7 +1240,7 @@
   </tile>
  </tileset>
  <tileset firstgid="11864" name="v16_Shadows" tilewidth="16" tileheight="16" tilecount="475" columns="19">
-  <image source="Spring_Shadows" width="304" height="400"/>
+  <image source="spring_Shadows" width="304" height="400"/>
  </tileset>
  <tileset firstgid="12339" name="zspring_island_tilesheet_1" tilewidth="16" tileheight="16" tilecount="1280" columns="32">
   <image source="spring_island_tilesheet_1.png" width="512" height="640"/>

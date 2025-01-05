@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="24" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="24">
+ <properties>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="Warp" value="6 13 Hospital 10 2"/>
+  <property name="WindowLight" value="4 1 6 5 1 6 12 1 6 13 1 6 14 1 6 17 1 6 18 1 6 21 1 6 22 1 6"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="37" name="z_Harvey" tilewidth="16" tileheight="16" tilecount="832" columns="32">
+  <image source="z_Harvey.png" width="512" height="416"/>
+ </tileset>
+ <tileset firstgid="869" name="z_architecture" tilewidth="16" tileheight="16" tilecount="832" columns="32">
+  <image source="z_architecture.png" width="512" height="416"/>
+ </tileset>
+ <layer id="1" name="Back" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJy1kdENgCAQQ2EjlUVU/p1BFnAGdWLho4E0HETBJi9N7jgooNT/MhmkNZuOlOYNzVriJlA/dATiWZD2Wbx/6d67x2UckvpwW6gHTs+VcUjq1xx3Gzxj4m/z13z2LIn3ys+52Xvlh09Ea372lWjNj/fm/2R9zcvzjs6XVOtL+QDOCXoAyJ5jaA==
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="13" name="Back2" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJy90WlqwlAYheHoXrR78EfBobqLgsMmHKt1E40ap27CaBy7itZZV9FWoW8wyCXE5FbBAw8E8uXcyxdFuV9CLu8efN7fv/kVRfXLnZVFDnkUkJDo79GtS/arqKGOhtwnrgkjgihi0NHHAIbHt0WU8IIyKnhFVZhJIoU0Mg4dTfbTurAjzXyPFtrooIt3j3t5Jcx5EQx5HmGMCaaY4UOYVZmroY4GNIn/uWJmjaX5jDU22GKHvTCrM9fHAIZ5J6tfZrf2BBkNnMbP+aTvC3MszDtZ/dfsNk73k63/m74f/OKAo9Uvs1sxjy7nOkVmt2Ke/9l/a/4AT9lKjA==
+  </data>
+ </layer>
+ <layer id="3" name="Buildings" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBj6IJWZgSENDWcwI+QzmXHrBQF0vTAMA61Adhsa7kBS14nDfJAbMrHohWEYWIrE/sbEwPAdiFcgqVsJxA5AMUcgdgJiZyB2YYK4AdnuOUwMDSD6HBCfR3KHGRJbGkn9TyD+hSNMwqFuWInFb++A+D0SPwyHGbjAY0YGhnImTHFuoDgPEPMBMT8jQryMRPMpBVJofj4KxMeA+DgQn8CjLwNHOgABULjbA/3kwIgpFwkUuwsMj3tAfB+I7aBqQoA4FEkdcppDTp+RWMzEBx4C08kDaFpBBitwpM8FWOIKHUgD3SADxLJAzMgMNJsZ0/xdQHN2A3E8kJ1AmpPxgmgojgHiWDQ5ALENNU4=
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings" visible="0">
+  <object id="1" name="TileData" x="32" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="48" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.2&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.3&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.4&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.5&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.6&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="256" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.7&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="112" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.8&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="176" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.9&quot;"/>
+   </properties>
+  </object>
+  <object id="19" name="TileData" x="160" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey4&quot;"/>
+   </properties>
+  </object>
+  <object id="18" name="TileData" x="192" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey5&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="352" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.10&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="304" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.11&quot;"/>
+   </properties>
+  </object>
+  <object id="12" name="TileData" x="336" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.12&quot;"/>
+   </properties>
+  </object>
+  <object id="13" name="TileData" x="272" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.13&quot;"/>
+   </properties>
+  </object>
+  <object id="14" name="TileData" x="32" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;HarveyRoom.14&quot;"/>
+   </properties>
+  </object>
+  <object id="15" name="TileData" x="176" y="160" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey6&quot;"/>
+   </properties>
+  </object>
+  <object id="16" name="TileData" x="48" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey3&quot;"/>
+   </properties>
+  </object>
+  <object id="17" name="TileData" x="32" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey2&quot;"/>
+   </properties>
+  </object>
+  <object id="20" name="TileData" x="320" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey7&quot;"/>
+   </properties>
+  </object>
+  <object id="22" name="TileData" x="16" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey1&quot;"/>
+   </properties>
+  </object>
+  <object id="23" name="TileData" x="176" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Renciel.Harvey8&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJydkrlOAzEURT1LxaJASQNJKKEjKSLWEmiBAoqIEgY6REMRTcMiWv4BEEX4ArYfoIdfIOIDCAiOGT/FcZywPOlklLnP13eenURK7cCuwz4khj2PLj3dNNFP4QwqKqtqkDERt/om40x7DpVaRFuCZaijXUWtNcrxEF3XutFqQUZH4R3AFto2JCaD3ttdI/9t/58qj3cBijAedupV610drpXfv2n1PemZ9NgzIGNoctdYN+J891/y+6qAX9HyfIHGP/wP4QiO4aRH30Cs0hznoRmC4bjd/1P/kOfNma/+7nOeF3Dp8X00Hpx16t5P8ddzH8Mn77k7Fd7doN/CHYyanhKU4dV4bDi5ZD6bnvvQqx5Cld7DoJnFQaRSX5/4p7/wb8I7fDjrE+cM52AeFozex/79MAUlKAO5vvNIvpyj2+cn/tP0z8CsZ3/NCr2rsGadeTc9idqRjJJDMjTQvgB4YlID
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="12" name="Front2" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBheYBsTA8N2JsrM6APifhxy14BmX6fQ/FEwCoYaKGZhYCgB4lIW8uTpBdDdAQAtIgh4
+  </data>
+ </layer>
+ <layer id="7" name="Paths" width="24" height="13" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAv4IRiQvKcWMSIMYPW5hMDyNXLQYGdlJqBTR81woES/ehm0dJ8agF86RIGqBHPpACYfbRO04MtLkAAAOH1AUA=
+  </data>
+ </layer>
+ <objectgroup id="8" name="Paths"/>
+ <layer id="9" name="AlwaysFront" width="24" height="13">
+  <data encoding="base64" compression="zlib">
+   eJxjYBg+IAqItzExMGxnwiIJFGMEYiYgZgZiFmxqKAAKQPMUgVgJiJWBWAXJ/Fgq24UOamls/iggDkQB4yGahnFRBTS7mobmzwKaPXuYpSUAP1QGXQ==
+  </data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

@@ -1,0 +1,20 @@
+{
+		"Format": "2.0.0",
+
+"Changes": [
+
+		{
+		  	"LogName": "Forgotten Places of Pelican Town - Witch's Hut Int png",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/WitchHutTiles",
+      	  	"FromFile": "assets/Maps/WitchHutTiles.png",
+		},
+
+		{
+		  	"LogName": "Forgotten Places of Pelican Town - Witch's Hut Int Map",
+      	  	"Action": "Load",
+      	  	"Target": "Maps/WitchHut",
+      	  	"FromFile": "assets/Maps/WitchHut.tmx",
+		},
+		]
+}

@@ -22,7 +22,7 @@
           "SocialTab": "UnknownUntilMet",
           "CanSocialize": true,
           "CanVisitIsland": "FALSE",
-          "ExcludeFromIntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": true,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {},

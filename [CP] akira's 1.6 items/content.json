@@ -156,6 +156,103 @@
 			"Width": 48,
 			"Height": 32
 			}	
+			},
+		{
+				"LogName": "Tent Kit",
+				"Action": "EditImage",
+				"Target": "LooseSprites/Cursors_1_6",
+				"FromFile": "assets/tentkit.png",
+				"ToArea": {
+				  "X": 0,
+				  "Y": 197,
+				  "Width": 48,
+				  "Height": 59
+				}
+		},
+		  {
+			"Name": "M. Box Parachute Anim",
+			"Action": "EditImage",
+			"PatchMode": "Overlay",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "assets/mystery items/mystery box/parachute.png",
+			"ToArea": {
+			  "X": 112,
+			  "Y": 165,
+			  "Width": 140,
+			  "Height": 35
 			}
+		  },
+		  {
+			"Name": "M. Box Break Anim 1",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "assets/mystery items/mystery box/boxopen.png",
+			"ToArea": {
+			  "X": 0,
+			  "Y": 27,
+			  "Width": 192,
+			  "Height": 24
+			}
+		  },
+		  {
+			"Name": "M. Box Break Anim 2",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "assets/mystery items/mystery box/pieces.png",
+			"ToArea": {
+			  "X": 0,
+			  "Y": 52,
+			  "Width": 15,
+			  "Height": 5
+			}
+		  },
+		  {
+			"Name": "Golden M. Box Break Anim 1",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "assets/mystery items/golden mystery box/boxopen.png",
+			"ToArea": {
+			  "X": 256,
+			  "Y": 27,
+			  "Width": 192,
+			  "Height": 24
+			}
+		  },
+		  {
+			"Name": "Golden M. Box Break Anim 2",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors_1_6",
+			"FromFile": "assets/mystery items/golden mystery box/pieces.png",
+			"ToArea": {
+			  "X": 15,
+			  "Y": 52,
+			  "Width": 15,
+			  "Height": 5
+			}
+		  },
+		  {
+			"Name": "Mystery Hat",
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/hats",
+			"FromFile": "assets/mystery items/mysteryhat.png",
+			"ToArea": {
+			  "X": 42,
+			  "Y": 716,
+			  "Width": 16,
+			  "Height": 80
+			}
+		  },
+		  {
+			"Name": "Mystery Shirt",
+			"Action": "EditImage",
+			"Target": "Characters/Farmer/shirts",
+			"FromFile": "assets/mystery items/mysteryshirt.png",
+			"ToArea": {
+			  "X": 96,
+			  "Y": 577,
+			  "Width": 8,
+			  "Height": 31
+			}
+		  }	  
 	]
 }
