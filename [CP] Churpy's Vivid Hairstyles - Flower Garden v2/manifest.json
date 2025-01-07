@@ -1,0 +1,11 @@
+{
+    "Name": "Churpy's Vivid Hairstyles - Flower Garden Set v2",
+    "Author": "Churpix",
+    "Version": "2.0.0",
+    "Description": "20 new feminine Farmer hairstyles some designed by me and some re-pixeled and/or modified versions existing hairstyles by Kkunma/꾼마. Each hairstyle has 4 tint variants: mint, lavender, rose, and lemon, along with un-tinted variants, for a total of 96 hairstyles. Content patcher version.",
+    "UniqueID": "CP.churpix.flowergardenhairstyles",
+    "UpdateKeys": [],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

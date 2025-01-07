@@ -1,0 +1,11 @@
+{
+   "Name": "[CP] delloti's mine",
+   "Author": "delloti",
+   "Version": "2.6",
+   "Description": "blog.naver.com/delloti/221675281220",
+   "UniqueID": "delloti.mine",
+   "MinimumApiVersion": "2.9.0",
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher",
+   }
+}
