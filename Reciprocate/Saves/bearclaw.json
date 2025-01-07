@@ -1,0 +1,19 @@
+{
+  "cordialityList": [
+    {
+      "farmer": "akira",
+      "npc": "Caroline",
+      "point": 0.0
+    },
+    {
+      "farmer": "akira",
+      "npc": "Elliott",
+      "point": 0.0
+    },
+    {
+      "farmer": "akira",
+      "npc": "Penny",
+      "point": 10.0
+    }
+  ]
+}

@@ -6,7 +6,7 @@
   "Harvest With Scythe": "true",
   "Crops Need No Water": "false",
   "Plant Crops Most Locations": "false",
-  "Auto Regrow Crops": "true",
+  "Auto Regrow Crops": "false",
   "Crops Regrowth Speed": "Default",
   "Harvest Extra Crops": "Chance for 2 Extra",
   "Crops Minimum Quality": "Default (No Quality)",

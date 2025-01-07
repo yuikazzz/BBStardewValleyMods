@@ -63,6 +63,30 @@
       "RecoverAllItems": false,
       "RecoverForFree": false,
       "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "7455845907045947344": {
+      "PlayerName": "akira",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-7735979672921331319": {
+      "PlayerName": "akira",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
+    },
+    "-7239520350265453123": {
+      "PlayerName": "Yui",
+      "DisableRecoveryConfigInGameChanges": false,
+      "EnableRecoveryService": false,
+      "RecoverAllItems": false,
+      "RecoverForFree": false,
+      "DisableClearLostItemsOnRandomRecovery": false
     }
   },
   "DisableRecoveryConfigInGameChanges": false,

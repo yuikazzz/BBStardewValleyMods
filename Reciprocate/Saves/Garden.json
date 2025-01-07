@@ -1,0 +1,19 @@
+{
+  "cordialityList": [
+    {
+      "farmer": "Yui",
+      "npc": "Sebastian",
+      "point": 2.0
+    },
+    {
+      "farmer": "Yui",
+      "npc": "Penny",
+      "point": 14.0
+    },
+    {
+      "farmer": "Yui",
+      "npc": "Linus",
+      "point": 14.0
+    }
+  ]
+}

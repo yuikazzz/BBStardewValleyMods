@@ -1,0 +1,208 @@
+{
+  "WeatherForYesterday": "Sun",
+  "LNOSCounter": {},
+  "ExistingObjectLocations": {},
+  "SavedObjects": [
+    {
+      "MapName": "Railroad",
+      "Name": null,
+      "Tile": "9, 47",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "Wildflour.AtelierGoods_Red_Onion"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "BusStop",
+      "Name": null,
+      "Tile": "31, 15",
+      "Type": "Container",
+      "ID": null,
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "Buried",
+        "Contents": [
+          "Wildflour.AtelierGoods_Red_Onion"
+        ]
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "Wildflour.AtelierGoods_Cilantro",
+      "Tile": "51, 52",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Cilantro",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandNorth",
+      "Name": "Wildflour.AtelierGoods_Cilantro",
+      "Tile": "48, 31",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Cilantro",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Mountain",
+      "Name": "Wildflour.AtelierGoods_Lime",
+      "Tile": "88, 3",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Lime",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "Wildflour.AtelierGoods_Lemon",
+      "Tile": "36, 16",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Lemon",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Backwoods",
+      "Name": "Wildflour.AtelierGoods_Wormwood",
+      "Tile": "24, 14",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Wormwood",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Forest",
+      "Name": "Wildflour.AtelierGoods_Almond",
+      "Tile": "13, 68",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Almond",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Olive",
+      "Tile": "25, 48",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Olive",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "IslandWest",
+      "Name": "Wildflour.AtelierGoods_Olive",
+      "Tile": "35, 54",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Olive",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Lavender",
+      "Tile": "9, 63",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Lavender",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Woods",
+      "Name": "Wildflour.AtelierGoods_Wild_Strawberry",
+      "Tile": "65, 11",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Wild_Strawberry",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Desert",
+      "Name": "Wildflour.AtelierGoods_Vanilla",
+      "Tile": "49, 124",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Vanilla",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Wildflour.AtelierGoods_Mint",
+      "Tile": "107, 66",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Mint",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    },
+    {
+      "MapName": "Town",
+      "Name": "Wildflour.AtelierGoods_Wild_Strawberry",
+      "Tile": "63, 25",
+      "Type": "Forage",
+      "ID": "Wildflour.AtelierGoods_Wild_Strawberry",
+      "DaysUntilExpire": 1,
+      "SpawnTime": 600,
+      "ConfigItem": {
+        "Category": "object"
+      },
+      "MonType": null
+    }
+  ]
+}

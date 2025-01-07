@@ -37,7 +37,7 @@
       "Enable": true
     },
     "Hoe": {
-      "TillDirt": false,
+      "TillDirt": true,
       "ClearWeeds": true,
       "DigArtifactSpots": true,
       "DigSeedSpots": true,
