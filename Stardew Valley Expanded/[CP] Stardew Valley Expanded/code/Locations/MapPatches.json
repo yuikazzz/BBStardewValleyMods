@@ -923,11 +923,6 @@
           },
           {
                "Action": "Load",  
-               "Target": "Maps/Mine",
-               "FromFile": "Assets/maps/locations/Mine.tbin"
-          },
-          {
-               "Action": "Load",  
                "Target": "Maps/Saloon",
                "FromFile": "Assets/maps/locations/Saloon.tbin"
           },
