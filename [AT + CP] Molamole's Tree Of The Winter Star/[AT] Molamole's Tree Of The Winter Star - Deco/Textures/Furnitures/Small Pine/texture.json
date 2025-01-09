@@ -1,0 +1,11 @@
+{
+  "CollectiveNames": [
+    "Molamole.TreeOfTheWinterStarRetexture.CP.AT_Small Pine",
+    "Manicured Pine"
+  ],
+  "Type": "Furniture",
+  "Keywords": [ "Molamole", "Winter Star", "Plant" ],
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "Variations": 15
+}

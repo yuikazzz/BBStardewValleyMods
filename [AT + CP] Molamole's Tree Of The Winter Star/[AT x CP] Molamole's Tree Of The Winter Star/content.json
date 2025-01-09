@@ -1,0 +1,174 @@
+{
+  "Format": "2.4.0",
+  "ConfigSchema": {
+    "Town Tree Style": {
+      "AllowValues": "Style00, Style01",
+      "Default": "Style00",
+      "Section": "Town Tree"
+    },
+    "Town Tree Color": {
+      "AllowValues": "Classic, Summer, Spring, Autumn, Winter, Black, Dark, Gold, Green, Lavanda, Red, Pink, Purple, Silver, White",
+      "Default": "Classic",
+      "Section": "Town Tree"
+    },
+      "Town Tree Random": {
+      "AllowValues": "true, false",
+      "Default": false,
+      "Section": "Town Tree"
+    }
+  },
+  "DynamicTokens": [
+    {
+      "Name": "TownTreeColor",
+      "Value": "{{Town Tree Color}}"
+    },
+    {
+      "Name": "TownTreeStyle",
+      "Value": "{{Town Tree Style}}"
+    }
+  ],
+  "Changes": [
+    {
+      "Action": "EditImage",
+      "Target": "Maps/winter_town",
+      "FromFile": "Assets/Town Tree/TownTree_{{TownTreeStyle}}_{{TownTreeColor}}.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 80
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 432,
+        "Width": 48,
+        "Height": 80
+      },
+      "When": {
+        "Town Tree Random": "false"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/winter_town",
+      "FromFile": "Assets/Town Tree/TownTree_{{Random: Style00, Style01 |key=Town Tree Style}}_{{Random: Classic, Summer, Spring, Autumn, Winter, Black, Dark, Gold, Green, Lavanda, Red, Pink, Purple, Silver, White |key=Town Tree Color}}.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 80
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 432,
+        "Width": 48,
+        "Height": 80
+      },
+      "When": {
+        "Town Tree Random": "true"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/Festivals",
+      "FromFile": "Assets/Festival Tree/TownTree_{{TownTreeStyle}}_{{TownTreeColor}}.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 33,
+        "Height": 33
+      },
+      "ToArea": {
+        "X": 144,
+        "Y": 287,
+        "Width": 33,
+        "Height": 33
+      },
+      "When": {
+        "DayEvent": "feast of the winter star"
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/winter_town",
+      "FromFile": "Assets/Town Tree/TownTree_{{TownTreeStyle}}_{{TownTreeColor}}.png",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 48,
+        "Height": 80
+      },
+      "ToArea": {
+        "X": 368,
+        "Y": 432,
+        "Width": 48,
+        "Height": 80
+      },
+      "When": {
+        "Town Tree Random": "true, false",
+        "DayEvent": "feast of the winter star"
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "{{ModId}}_Tree Autumn": "{{ModId}}_Tree Autumn/decor/3 5/3 2/1/4000/2/Tree Autumn/0/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Black": "{{ModId}}_Tree Black/decor/3 5/3 2/1/4000/2/Tree Black/3/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Classic": "{{ModId}}_Tree Classic/decor/3 5/3 2/1/4000/2/Tree Classic/6/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Dark": "{{ModId}}_Tree Dark/decor/3 5/3 2/1/4000/2/Tree Dark/45/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Golden": "{{ModId}}_Tree Golden/decor/3 5/3 2/1/4000/2/Tree Golden/48/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Green": "{{ModId}}_Tree Green/decor/3 5/3 2/1/4000/2/Tree Green/51/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Lavanda": "{{ModId}}_Tree Lavanda/decor/3 5/3 2/1/4000/2/Tree Lavanda/90/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Pink": "{{ModId}}_Tree Pink/decor/3 5/3 2/1/4000/2/Tree Pink/93/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Purple": "{{ModId}}_Tree Purple/decor/3 5/3 2/1/4000/2/Tree Purple/96/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Red": "{{ModId}}_Tree Red/decor/3 5/3 2/1/4000/2/Tree Red/135/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Silver": "{{ModId}}_Tree Silver/decor/3 5/3 2/1/4000/2/Tree Silver/138/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Spring": "{{ModId}}_Tree Spring/decor/3 5/3 2/1/4000/2/Tree Spring/141/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Summer": "{{ModId}}_Tree Summer/decor/3 5/3 2/1/4000/2/Tree Summer/180/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree White": "{{ModId}}_Tree White/decor/3 5/3 2/1/4000/2/Tree White/183/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Tree Winter": "{{ModId}}_Tree Winter/decor/3 5/3 2/1/4000/2/Tree Winter/186/Mods\\{{ModId}}\\MoleWinterFurniture",
+        //Traditional Tree
+        "{{ModId}}_Traditional Tree Autumn": "{{ModId}}_Traditional Tree Autumn/decor/3 5/3 2/1/4000/2/Traditional Tree Autumn/225/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Black": "{{ModId}}_Traditional Tree Black/decor/3 5/3 2/1/4000/2/Traditional Tree Black/228/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Classic": "{{ModId}}_Traditional Tree Classic/decor/3 5/3 2/1/4000/2/Traditional Tree Classic/231/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Dark": "{{ModId}}_Traditional Tree Dark/decor/3 5/3 2/1/4000/2/Traditional Tree Dark/270/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Golden": "{{ModId}}_Traditional Traditional Tree Golden/decor/3 5/3 2/1/4000/2/Traditional Tree Golden/273/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Green": "{{ModId}}_Traditional Tree Green/decor/3 5/3 2/1/4000/2/Traditional Tree Green/276/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Lavanda": "{{ModId}}_Traditional Tree Lavanda/decor/3 5/3 2/1/4000/2/Traditional Tree Lavanda/315/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Pink": "{{ModId}}_Traditional Tree Pink/decor/3 5/3 2/1/4000/2/Traditional Tree Pink/318/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Purple": "{{ModId}}_Traditional Tree Purple/decor/3 5/3 2/1/4000/2/Traditional Tree Purple/321/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Red": "{{ModId}}_Traditional Tree Red/decor/3 5/3 2/1/4000/2/Traditional Tree Red/360/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Silver": "{{ModId}}_Traditional Tree Silver/decor/3 5/3 2/1/4000/2/Traditional Tree Silver/363/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Spring": "{{ModId}}_Traditional Tree Spring/decor/3 5/3 2/1/4000/2/Traditional Tree Spring/366/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Summer": "{{ModId}}_Traditional Tree Summer/decor/3 5/3 2/1/4000/2/Traditional Tree Summer/405/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree White": "{{ModId}}_Traditional Tree White/decor/3 5/3 2/1/4000/2/Traditional Tree White/408/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Traditional Tree Winter": "{{ModId}}_Traditional Tree Winter/decor/3 5/3 2/1/4000/2/Traditional Tree Winter/411/Mods\\{{ModId}}\\MoleWinterFurniture",
+        //Dead Tree
+        "{{ModId}}_Dead Tree Birch": "{{ModId}}_Dead Tree Birch/decor/3 5/3 2/1/300/2/Dead Tree Birch/450/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Black": "{{ModId}}_Dead Tree Black/decor/3 5/3 2/1/300/2/Dead Tree Black/453/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Classic": "{{ModId}}_Dead Tree Classic/decor/3 5/3 2/1/300/2/Dead Tree Classic/456/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Mahogany": "{{ModId}}_Dead Tree Mahogany/decor/3 5/3 2/1/300/2/Dead Tree Mahogany/495/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Oak": "{{ModId}}_Dead Tree Oak/decor/3 5/3 2/1/300/2/Dead Tree Oak/498/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Pine": "{{ModId}}_Dead Tree Pine/decor/3 5/3 2/1/300/2/Dead Tree Pine/501/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Swamp": "{{ModId}}_Dead Tree Swamp/decor/3 5/3 2/1/300/2/Dead Tree Swamp/540/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Vanilla": "{{ModId}}_Dead Tree Vanilla/decor/3 5/3 2/1/300/2/Dead Tree Vanilla/543/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree Walnut": "{{ModId}}_Dead Tree Walnut/decor/3 5/3 2/1/300/2/Dead Tree Walnut/546/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Dead Tree White": "{{ModId}}_Dead Tree White/decor/3 5/3 2/1/300/2/Dead Tree White/585/Mods\\{{ModId}}\\MoleWinterFurniture",
+        //Furnitures
+        "{{ModId}}_Winter Banner Large": "{{ModId}}_Winter Banner Large/painting/1 3/1 3/0/500/0/Winter Banner Large/588/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Winter Banner Small": "{{ModId}}_Winter Banner Small/painting/1 3/1 3/0/500/0/Winter Banner Small/589/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Small Pine": "{{ModId}}_Small Pine/decor/1 3/1 1/1/500/2/Small Pine/590/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Poinsettia Plant": "{{ModId}}_Poinsettia plant/decor/1 2/1 1/1/500/2/Poinsettia plant/591/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Small Tree Decal": "{{ModId}}_Small Tree Decal/painting/1 2/1 2/0/500/0/Small Tree Decal/592/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Garland Strings": "{{ModId}}_Garland Strings/painting/2 1/2 1/0/500/0/Garland Strings/615/Mods\\{{ModId}}\\MoleWinterFurniture",
+        "{{ModId}}_Garland Tinsel": "{{ModId}}_Tinsel/painting/2 1/2 1/0/500/0/Garland Tinsel/617/Mods\\{{ModId}}\\MoleWinterFurniture"
+      }
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/MoleWinterFurniture",
+      "FromFile": "Assets/{{TargetWithoutPath}}.png"
+    }
+  ]
+}

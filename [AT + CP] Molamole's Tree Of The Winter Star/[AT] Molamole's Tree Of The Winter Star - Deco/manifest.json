@@ -1,0 +1,13 @@
+{
+  "Name": "[AT] Molamole's Tree Of The Winter Star - Deco",
+  "Author": "Molamole",
+  "Version": "1.0.1",
+  "Description": "Decoration for Mole's The Winter Star Retextures!",
+  "UniqueID": "Molamole.TreeOfTheWinterStar.Deco.AT",
+  "UpdateKeys": [ "Nexus: 28667" ],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "8.0.0"
+  }
+}

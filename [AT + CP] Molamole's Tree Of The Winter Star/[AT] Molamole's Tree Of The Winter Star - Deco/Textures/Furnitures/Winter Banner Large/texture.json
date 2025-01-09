@@ -1,0 +1,11 @@
+{
+  "CollectiveNames": [
+    "Molamole.TreeOfTheWinterStarRetexture.CP.AT_Winter Banner Large",
+    "Winter Banner"
+  ],
+  "Type": "Furniture",
+  "Keywords": [ "Molamole", "Winter Star", "Banner" ],
+  "TextureWidth": 16,
+  "TextureHeight": 48,
+  "Variations": 25
+}

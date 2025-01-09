@@ -49,6 +49,11 @@
 			"When":{"HasMod":"FlashShifter.StardewValleyExpandedCP"}
 		},
 		{
+			"Action":"EditMap",
+			"Target":"Maps/Custom_SophiaHouse, Maps/Custom_SophiaCellar, Maps/Custom_JenkinsHouse, Maps/Custom_SusanHouse, Maps/Custom_MorrisHouse, Maps/Custom_AndyHouse, Maps/Custom_AuroraVineyard, Maps/Custom_AuroraVineyardRefurbished, Maps/Custom_ScarlettsHouse, Maps/Custom_GrandpasShedGreenhouse, Maps/Custom_WillyRoom",
+			"MapProperties":{"AmbientLight":"80 80 80"}
+		},
+		{
 			"Action":"EditImage",
 			"Target":"Maps/VanillaWallsAndFloors",
 			"FromFile":"assets/SVE_VanillaWallsAndFloors.png",
