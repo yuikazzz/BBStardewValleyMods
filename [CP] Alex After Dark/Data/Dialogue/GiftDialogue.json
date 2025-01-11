@@ -1,0 +1,83 @@
+// Gifting Dialogue 
+{
+    "Changes": [
+        // Unmarried/Not Dating/Not Engaged
+        {
+            "LogName": "Alex's Basic Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "Entries": {
+                // BIRTHDAY   
+                "AcceptBirthdayGift_Positive": "{{i18n:Gift.Alex.GiftReaction.Positive.Birthday}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:Gift.Alex.GiftReaction.Negative.Birthday}}",
+                
+                // UNIVERSALS 
+                "AcceptGift_(O)446": "{{i18n:Gift.Alex.GiftReaction.RabbitsFoot}}",
+                "AcceptGift_(O)74": "{{i18n:Gift.Alex.GiftReaction.PrismaticShard}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Gift.Alex.GiftReaction.StarDropTea}}",
+
+                // SPECIFIC LOVES/LIKES  
+                "AcceptGift_(O)Book_Defense": "{{i18n:Gift.Alex.GiftReaction.DefenseBook.{{Random:{{Range: 0, 1}}}}}}",
+                "AcceptGift_(O)201": "{{i18n:Gift.Alex.GiftReaction.CompleteBreakfast.{{Random:{{Range: 0, 1}}}} |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)609": "{{i18n:Gift.Alex.GiftReaction.RadishSalad}}",
+                "AcceptGift_(O)212": "{{i18n:Gift.Alex.GiftReaction.SalmonDinner.{{Random:{{Range: 0, 1}}}} |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)403": "{{i18n:Gift.Alex.GiftReaction.FieldSnack}}",
+                "AcceptGift_category_cooking": "{{i18n:Gift.Alex.GiftReaction.Cooking.{{Random:{{Range: 0, 1}}}}}}",
+
+                // EGGS 
+                "AcceptGift_(TR)FrogEgg": "{{i18n:Gift.Alex.GiftReaction.FrogEgg}}",
+                "AcceptGift_(TR)ParrotEgg": "{{i18n:Gift.Alex.GiftReaction.ParrotEgg}}",
+                "AcceptGift_(O)928": "{{i18n:Gift.Alex.GiftReaction.GoldenEgg |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)107": "{{i18n:Gift.Alex.GiftReaction.DinoEgg}}",
+                "AcceptGift_(O)289": "{{i18n:Gift.Alex.GiftReaction.OstrichEgg}}",
+                "AcceptGift_(O)442": "{{i18n:Gift.Alex.GiftReaction.DuckEgg}}",
+                "AcceptGift_category_egg": "{{i18n:Gift.Alex.GiftReaction.Category.Egg.{{Random:{{Range: 0, 1}}}}}}",
+                
+                // DISLIKES
+                "AcceptGift_(O)305": "{{i18n:Gift.Alex.GiftReaction.VoidEgg}}",
+                "AcceptGift_book_item": "{{i18n:Gift.Alex.GiftReaction.Category.Books}}"
+                
+            }
+        },
+        // Married/Engaged/Dating
+        {
+            "LogName": "Alex's Engaged & Marriage Gift Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alex",
+            "When": {
+                "Relationship:Alex": "Dating, Engaged, Married"
+            },
+            "Entries": {
+                // BIRTHDAY 
+                "AcceptBirthdayGift_Positive": "{{i18n:Gift.Alex.GiftReaction.Positive.Married.Birthday |LPetName={{LPetName}}}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:Gift.Alex.GiftReaction.Negative.Married.Birthday}}",
+                
+                // UNIVERSALS
+                "AcceptGift_(O)446": "{{i18n:Gift.Alex.GiftReaction.Married.RabbitsFoot |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)74": "{{i18n:Gift.Alex.GiftReaction.Married.PrismaticShard |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)StardropTea": "{{i18n:Gift.Alex.GiftReaction.Married.StarDropTea |LPetName={{LPetName}}}}",
+
+                // SPECIFIC LOVES/LIKES  
+                "AcceptGift_(O)Book_Defense": "{{i18n:Gift.Alex.GiftReaction.Married.DefenseBook.{{Random:{{Range: 0, 1}}}} |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)201": "{{i18n:Gift.Alex.GiftReaction.Married.CompleteBreakfast.{{Random:{{Range: 0, 1}}}}}}",
+                "AcceptGift_(O)212": "{{i18n:Gift.Alex.GiftReaction.Married.SalmonDinner.{{Random:{{Range: 0, 1}}}} |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)403": "{{i18n:Gift.Alex.GiftReaction.Married.FieldSnack}}",
+                "AcceptGift_category_cooking": "{{i18n:Gift.Alex.GiftReaction.Married.Cooking.{{Random:{{Range: 0, 1}}}} |LPetName={{LPetName}}}}",
+
+                // EGGS 
+                "AcceptGift_(TR)FrogEgg": "{{i18n:Gift.Alex.GiftReaction.Married.FrogEgg |LPetName={{LPetName}}}}",
+                "AcceptGift_(TR)ParrotEgg": "{{i18n:Gift.Alex.GiftReaction.Married.ParrotEgg |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)928": "{{i18n:Gift.Alex.GiftReaction.Married.GoldenEgg |LPetName={{LPetName}}}}",
+                "AcceptGift_(O)107": "{{i18n:Gift.Alex.GiftReaction.Married.DinoEgg}}",
+                "AcceptGift_(O)289": "{{i18n:Gift.Alex.GiftReaction.Married.OstrichEgg}}",
+                "AcceptGift_(O)442": "{{i18n:Gift.Alex.GiftReaction.Married.DuckEgg}}",
+                "AcceptGift_category_egg": "{{i18n:Gift.Alex.GiftReaction.Married.Category.Egg.{{Random:{{Range: 0, 1}}}}}}",
+                
+                // DISLIKES 
+                "AcceptGift_(O)305": "{{i18n:Gift.Alex.GiftReaction.Married.VoidEgg |LPetName={{LPetName}}}}",
+                "AcceptGift_book_item": "{{i18n:Gift.Alex.GiftReaction.Married.Category.Books |LPetName={{LPetName}} |LDescript={{LDescript}}}}"
+                
+            }
+        }
+    ]
+}

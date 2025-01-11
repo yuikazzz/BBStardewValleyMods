@@ -176,7 +176,7 @@
   "Auto-Pet/Grab Materials": "Lessened Materials",
   "Auto-Pet/Grab Farming Level 1": "false",
   "Carpenter's Shop Open All Days": "true",
-  "Farm Buildings Build Time": "Build In One Day",
+  "Farm Buildings Build Time": "Default",
   "Greenhouses From Robin": "true",
   "Farm Building Cost (Gold)": "Decrease by 20%",
   "Farm Building Cost (Materials)": "Decrease by 30%",

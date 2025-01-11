@@ -83,8 +83,8 @@
     "-7239520350265453123": {
       "PlayerName": "Yui",
       "DisableRecoveryConfigInGameChanges": false,
-      "EnableRecoveryService": false,
-      "RecoverAllItems": false,
+      "EnableRecoveryService": true,
+      "RecoverAllItems": true,
       "RecoverForFree": false,
       "DisableClearLostItemsOnRandomRecovery": false
     }

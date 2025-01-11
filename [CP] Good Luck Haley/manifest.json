@@ -1,0 +1,10 @@
+{
+  "Name": "Good Luck, Haley!",
+  "Author": "ClairesStoryofSeasons",
+  "Version": "1.0.0",
+  "Description": "This mod enhances and tweaks Haley's dialogue in Stardew Valley by subtly alluding to her sapphic identity. This mod features pre-festival, pre-marriage, and dating dialogue tailored for the female farmer.",
+  "UniqueID": "ClairesStoryofSeasons.GoodLuckHaley",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

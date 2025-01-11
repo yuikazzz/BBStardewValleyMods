@@ -1,10 +1,10 @@
 {
-	"Name": "Overgrown Skeletons and Pink Monsters",
+	"Name": "akira's monsters",
 	"Description": "Monsters UwUfication.",
 	"Version": "1.2.2",
-	"Author": "boringvlln",
-	"UniqueID": "boringvlln.pinkmonsters",
-	"UpdateKeys": [ "Nexus:12966" ],
+	"Author": "akira",
+	"UniqueID": "akira.monsters",
+	"UpdateKeys": [ "" ],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher"
 	}

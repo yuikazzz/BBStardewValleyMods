@@ -4,7 +4,7 @@
   "SoundEffects": "Tractor",
   "ToolUseSoundLimit": "Default",
   "SoundEffectsVolume": 70,
-  "MagneticRadius": 607,
+  "MagneticRadius": 1000,
   "BuildPrice": 5000,
   "RequireBuildMaterials": false,
   "BuildMaterials": {
@@ -37,7 +37,7 @@
       "Enable": true
     },
     "Hoe": {
-      "TillDirt": true,
+      "TillDirt": false,
       "ClearWeeds": true,
       "DigArtifactSpots": true,
       "DigSeedSpots": true,

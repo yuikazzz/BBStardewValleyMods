@@ -1,0 +1,22 @@
+{
+   "Name": "Possessive Sebastian Dialogue Expansion",
+   "Author": "Fae",
+   "Description": "200+ new lines of special yandere dialogue for Sebastian. Includes both pre and post marriage dialogue, festival dialogue, and more!!",
+   "Version": "1.0.41",
+   "UniqueID": "fae.possesivesebastianexpansion",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    },
+
+"UpdateKeys": [ "Nexus:8108" ],
+  "Dependencies": [
+    {
+      "UniqueID": "gizzymo.canonfriendlyexpansion",
+      "IsRequired": false
+    },
+	{
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    }
+			]
+}
