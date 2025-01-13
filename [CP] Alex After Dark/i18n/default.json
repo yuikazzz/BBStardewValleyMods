@@ -615,7 +615,7 @@
     // 1 LDescript
     "Festival.Alex.Desert": "You look hot out here.#$b#Maybe you should take off your shirt to cool down.$1#$e#Well, are you?#$b#If you're worried about others seeing, we can always go to a secluded spot...$4",
     "Festival.Alex.Desert.Married": "Have I ever told you you look really {{LDescript}} when you're all hot and sweaty?#$b#Maybe you and me can come out here again, alone this time...$4",
-    "Festival.Alex.Desert.Shop": "I have a few things in my shop that make me think about you.#$b#Can you guess which ones?$1",
+    "Festival.Alex.Desert.Shop": "I have a few things in my shop that make me think about you. Can you guess which ones?",
 
     // Moonlight Jellies 
     // NO KEYS

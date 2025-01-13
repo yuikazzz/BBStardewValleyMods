@@ -3,32 +3,32 @@
     {
       "farmer": "Yui",
       "npc": "Sebastian",
-      "point": 41.0
+      "point": 104.0
     },
     {
       "farmer": "Yui",
       "npc": "Penny",
-      "point": 88.0
+      "point": 76.0
     },
     {
       "farmer": "Yui",
       "npc": "Linus",
-      "point": 0.0
+      "point": 10.0
     },
     {
       "farmer": "Yui",
       "npc": "Claire",
-      "point": 0.0
+      "point": 10.0
     },
     {
       "farmer": "Yui",
       "npc": "Lewis",
-      "point": 6.0
+      "point": 21.0
     },
     {
       "farmer": "Yui",
       "npc": "Vincent",
-      "point": 45.0
+      "point": 33.0
     },
     {
       "farmer": "Yui",
@@ -38,7 +38,7 @@
     {
       "farmer": "Yui",
       "npc": "Sophia",
-      "point": 0.0
+      "point": 25.0
     },
     {
       "farmer": "Yui",
@@ -48,47 +48,47 @@
     {
       "farmer": "Yui",
       "npc": "Elliott",
-      "point": 13.0
+      "point": 44.0
     },
     {
       "farmer": "Yui",
       "npc": "Demetrius",
-      "point": 0.0
+      "point": 21.0
     },
     {
       "farmer": "Yui",
       "npc": "Leah",
-      "point": 27.0
+      "point": 58.0
     },
     {
       "farmer": "Yui",
       "npc": "Shane",
-      "point": 52.0
+      "point": 65.0
     },
     {
       "farmer": "Yui",
       "npc": "Sam",
-      "point": 66.0
+      "point": 90.0
     },
     {
       "farmer": "Yui",
       "npc": "Caroline",
-      "point": 6.0
+      "point": 0.0
     },
     {
       "farmer": "Yui",
       "npc": "Robin",
-      "point": 0.0
+      "point": 21.0
     },
     {
       "farmer": "Yui",
       "npc": "Olivia",
-      "point": 6.0
+      "point": 0.0
     },
     {
       "farmer": "Yui",
       "npc": "Pierre",
-      "point": 0.0
+      "point": 46.0
     },
     {
       "farmer": "Yui",
@@ -98,12 +98,12 @@
     {
       "farmer": "Yui",
       "npc": "Haley",
-      "point": 35.0
+      "point": 67.0
     },
     {
       "farmer": "Yui",
       "npc": "Victor",
-      "point": 14.0
+      "point": 2.0
     },
     {
       "farmer": "Yui",
@@ -113,47 +113,62 @@
     {
       "farmer": "Yui",
       "npc": "Evelyn",
-      "point": 23.0
+      "point": 11.0
     },
     {
       "farmer": "Yui",
       "npc": "Emily",
-      "point": 9.0
+      "point": 72.0
     },
     {
       "farmer": "Yui",
       "npc": "Harvey",
-      "point": 0.0
+      "point": 18.0
     },
     {
       "farmer": "Yui",
       "npc": "Pam",
-      "point": 50.0
+      "point": 38.0
     },
     {
       "farmer": "Yui",
       "npc": "Gus",
-      "point": 9.0
+      "point": 0.0
     },
     {
       "farmer": "Yui",
       "npc": "Jas",
-      "point": 6.0
+      "point": 0.0
     },
     {
       "farmer": "Yui",
       "npc": "Jodi",
-      "point": 6.0
+      "point": 0.0
     },
     {
       "farmer": "Yui",
       "npc": "Andy",
-      "point": 42.0
+      "point": 30.0
     },
     {
       "farmer": "Yui",
       "npc": "Clint",
-      "point": 13.0
+      "point": 26.0
+    },
+    {
+      "farmer": "Yui",
+      "npc": "Marnie",
+      "point": 10.0
+    },
+    {
+      "farmer": "Yui",
+      "npc": "MorrisTod",
+      "point": 0.0
+    },
+    {
+      "farmer": "Yui",
+      "npc": "Abigail",
+      "point": 21.0
     }
   ]
 }

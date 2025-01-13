@@ -1,7 +1,7 @@
 {
     "Name": "akira's version of Earthy Interiors",
     "Author": "akira",
-    "Version": "1.2.1",
+    "Version": "1.2.2",
     "UniqueID": "akira.EarthyInteriors",
     "MinimumApiVersion": "2.11.2",
     "UpdateKeys": [ "Nexus:14790" ],
