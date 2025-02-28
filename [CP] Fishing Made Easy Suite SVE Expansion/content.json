@@ -1,11 +1,11 @@
 {
-    "Format": "2.4.0",
+    "Format": "2.5.0",
     "ConfigSchema": {
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Fishing! =",
-			"AllowValues": "Version 6.0.16",
-			"Default": "Version 6.0.16"
+			"AllowValues": "Version 6.1.7",
+			"Default": "Version 6.1.7"
         },
 		    "Fishing Difficulty": {
 			"Description": "Select a difficulty setting for the fishing minigame. Easy Settings: Decrease difficulty by 5% to 100%. Easy Sunday Fishing: Decrease difficulty by 10% to 50% on Sundays only. Hard Settings: Increase difficulty by 5% to 100% with a NIGHTMARE option for those seeking the ultimate challenge! For details on the Dynamic Weather settings, highlight the 'Dynamic Weather Info' below for more information. Scroll down for additional options.",

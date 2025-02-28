@@ -1,0 +1,27 @@
+{
+	"Format": "2.0.0",
+    "Changes": 
+    [
+		
+		{
+			"LogName": "Retro Bed",
+			"Action": "EditImage",
+			"Target": "TileSheets/retro_furniture",
+			"FromFile": "assets/RF01.png"
+		},
+		{
+			"LogName": "Retro Bed Front",
+			"Action": "EditImage",
+			"Target": "TileSheets/retro_furnitureFront",
+			"FromFile": "assets/RF02.png"
+		},
+		{
+			"LogName": "Retro TV",
+			"Action": "EditImage",
+			"Patchmode": "replace",
+			"Target": "TileSheets/furniture_2",
+			"FromFile": "assets/retroTV.png",
+			"ToArea": { "X": 16, "Y": 0, "Width": 32, "Height": 48 }
+		},
+	]
+}

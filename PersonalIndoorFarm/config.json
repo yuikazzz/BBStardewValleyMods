@@ -1,6 +1,7 @@
 {
   "OwnerFarmhouse": "Owner",
   "OwnerOutside": "PlacedBy",
+  "SelectionMenuStyle": "Tarot",
   "LockedDoorColor": {
     "B": 0,
     "G": 0,

@@ -1,0 +1,12 @@
+{
+   "Name": "Resculpted",
+   "Author": "taiyou",
+   "Version": "1.0.0",
+   "Description": "Resculpt the existing location statues for a more fancier approach.",
+   "UniqueID": "Tai.Resculpted",
+   "UpdateKeys": ["Nexus:30971"],
+   "MinimumApiVersion": "2.5.0",
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

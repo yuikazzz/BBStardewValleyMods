@@ -1,0 +1,98 @@
+{
+	"Format": "2.5.0",
+	"ConfigSchema":
+	{
+		"FarmStatue":{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Changes the Farm Location Statue."
+		},
+		"BeachStatue":{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Changes the Beach Location Statue."
+		},
+		"MountainStatue":{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Changes the Mountain Location Statue."
+		},
+		"GingerStatue":{
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Changes the Ginger Island Location Statue."
+		}
+	},
+	
+	"Changes":[
+	{
+		"Action": "EditImage",
+		"Target": "Maps/spring_outdoorsTileSheet, Maps/summer_outdoorsTileSheet, Maps/fall_outdoorsTileSheet",
+		"FromFile": "assets/FarmStatue_spring.png",
+		"ToArea": {"X": 160, "Y": 512, "Width": 16, "Height": 32},
+		"When":{
+			"FarmStatue": "true",
+			"Season": "spring, summer, fall",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"FromFile": "assets/FarmStatue_winter.png",
+		"ToArea": {"X": 160, "Y": 512, "Width": 16, "Height": 32},
+		"When":{
+			"FarmStatue": "true",
+			"Season": "winter",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/spring_beach, Maps/summer_beach, Maps/fall_beach",
+		"FromFile": "assets/BeachStatue_spring.png",
+		"ToArea": {"X": 224, "Y": 256, "Width": 16, "Height": 32},
+		"When":{
+			"BeachStatue": "true",
+			"Season": "spring, summer, fall",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_beach",
+		"FromFile": "assets/BeachStatue_winter.png",
+		"ToArea": {"X": 224, "Y": 256, "Width": 16, "Height": 32},
+		"When":{
+			"BeachStatue": "true",
+			"Season": "winter",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/spring_outdoorsTileSheet, Maps/summer_outdoorsTileSheet, Maps/fall_outdoorsTileSheet",
+		"FromFile": "assets/MountainStatue_spring.png",
+		"ToArea": {"X": 336, "Y": 512, "Width": 16, "Height": 32},
+		"When":{
+			"MountainStatue": "true",
+			"Season": "spring, summer, fall",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/winter_outdoorsTileSheet",
+		"FromFile": "assets/MountainStatue_winter.png",
+		"ToArea": {"X": 336, "Y": 512, "Width": 16, "Height": 32},
+		"When":{
+			"MountainStatue": "true",
+			"Season": "winter",
+		}
+	},
+	{
+		"Action": "EditImage",
+		"Target": "Maps/island_tilesheet_1",
+		"FromFile": "assets/GingerStatue.png",
+		"ToArea": {"X": 496, "Y": 864, "Width": 16, "Height": 32},
+		"When":{
+			"GingerStatue": "true",
+			}
+		}
+	]
+}

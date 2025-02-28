@@ -1,11 +1,11 @@
 {
-    "Format": "2.4.0",
+    "Format": "2.5.0",
     "ConfigSchema": {
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Fishing! =",
-			"AllowValues": "Version 6.0.26",
-			"Default": "Version 6.0.26"
+			"AllowValues": "Version 6.2.7",
+			"Default": "Version 6.2.7"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -771,139 +771,121 @@
 		},
 		    "Fish Shop Open All Days": {
 			"Description": "Willy’s Fishing Shop will now remain open every day, except during special event days.",
-			"Section": "Fishing Shop Additions and Prices",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "true, false",
             "Default": "false"
 		},
 		    "Crab Pot Price": {
-			"Description": "Select the price of Crab Pots at Willy’s Fishing Shop. The available range spans from 1g to 3000g. Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+			"Description": "Select the price of Crab Pots at Willy’s Fish Shop. The available range spans from 1g to 3000g. Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default (1500g), 1250g, 1000g, 750g, 500g, 250g, 1g, 1750g, 2000g, 2250g, 1g, 2750g, 3000g",
             "Default": "Default (1500g)"
 		},
-		    "Iridium Fishing Rod Level 1": {
-			"Description": "The Iridium Fishing Rod will now be offered for sale at Fishing Level 1 in Willy’s Fishing Shop.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "All Fishing Rods Immediately": {
+			"Description": "All Fishing Rods will now be offered for sale immediately at Willy's Fish Shop.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Adv. Iridium Fish Rod Level": {
-			"Description": "The Advanced Iridium Fishing Rod will now be offered for sale at Willy's Fishing Shop by fishing level rather than having achieved fishing mastery. You can choose between Fishing Level 9 or 1.",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "Default, Fishing Level 9, Fishing Level 1",
+		    "Adv. Iridium Fish Rod Avail.": {
+			"Description": "The Advanced Iridium Fishing Rod will now be offered for sale at Willy's Fish Shop. You can decide whether to make it available Immediately or at Fishing Level 10 rather than having achieved fishing mastery.",
+			"Section": "Fish Shop Additions and Prices",
+			"AllowValues": "Default, Immediately, Fishing Level 10",
             "Default": "Default"
 		},
 		    "All Fishing Rod Prices": {
-			"Description": "Select the price of the Iridium Fishing Rod at Willy’s Fishing Shop. The available range spans from 25% to 100% cheaper, or from 25% to 100% more expensive. Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+			"Description": "Select the price of the Iridium Fishing Rod at Willy’s Fish Shop. The available range spans from 25% to 100% cheaper, or from 25% to 100% more expensive. Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default, 25% Cheaper, 50% Cheaper, 75% Cheaper, 99% Cheaper, 25% More Expensive, 50% More Expensive, 75% More Expensive, 100% More Expensive",
             "Default": "Default"
 		},
-		    "Fishing Shop Curiosity/Quality": {
-			"Description": "Willy’s Fishing Shop now sells the Curiosity and Quality lures for sale. These lures become available once you reach Fishing Level 9.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Curiosity/Quality": {
+			"Description": "Willy’s Fish Shop now sells the Curiosity and Quality lures for sale. These lures become available once you reach Fishing Level 9. This setting is affected by the All Tackle Immediately setting.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "true, false",
             "Default": "false"
 		},
-		    "All Tackle Fishing Level 1": {
-			"Description": "At Fishing Level 1, all tackle is now available for sale at Willy’s Fishing Shop.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "All Tackle Immediately": {
+			"Description": "All tackle is now available for sale at Willy’s Fish Shop immediately and no longer dependent on fishing level.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Fishing Shop Tackle Prices": {
-			"Description": "Select the sale price of all lures at Willy’s Fishing Shop. This range spans from 25% to 99% cheaper, or from 25% to 100% more expensive. Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Tackle Prices": {
+			"Description": "Select the sale price of all lures at Willy’s Fish Shop. This range spans from 25% to 99% cheaper, or from 25% to 100% more expensive. Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default, 25% Cheaper, 50% Cheaper, 75% Cheaper, 99% Cheaper, 25% More Expensive, 50% More Expensive, 75% More Expensive, 100% More Expensive",
             "Default": "Default"
 		},
-		    "Fishing Shop Seafoam Pudding": {
-			"Description": "Willy’s Fishing Shop now sells the Seafoam Pudding food item. You can decide whether to make it available at Fishing Level 9 or Level 1.",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "Default, Enabled (Fishing Level 9), Enabled (Fishing Level 1)",
+		    "Fish Shop Seafoam Pudding": {
+			"Description": "Willy’s Fish Shop now sells the Seafoam Pudding food item. You can decide whether to make it available Immediately or at Fishing Level 9.",
+			"Section": "Fish Shop Additions and Prices",
+			"AllowValues": "Default, Immediately, Fishing Level 9",
             "Default": "Default"
 		},
-		    "Fishing Shop Seafoam P Price": {
-			"Description": "Select the sale price of the Seafoam Pudding food item at Willy’s Shop. This range spans from 4000g to 1g. Please note that the Fishing Shop Seafoam Pudding setting must be enabled for this to take effect! Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Seafoam P Price": {
+			"Description": "Select the sale price of the Seafoam Pudding food item at Willy’s Fish Shop. This range spans from 4000g to 1g. Please note that the Fish Shop Seafoam Pudding setting must be enabled for this to take effect! Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "5000g (Default), 4000g, 3000g, 2000g, 1000g, 750g, 500g, 250g, 1g",
             "Default": "5000g (Default)"
 		},
-		    "Fishing Shop Worm Bin (REQ)": {
-			"Description": "Willy’s Shop now sells Worm Bins. This setting is essential for configuring the Worm Bin settings below!",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "true, false",
-            "Default": "false"
+		    "Fish Shop Worm Bin": {
+			"Description": "Willy’s Fish Shop now sells Worm Bins. This setting is essential for configuring the Worm Bin Price setting below!",
+			"Section": "Fish Shop Additions and Prices",
+			"AllowValues": "Default, Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1",
+            "Default": "Default"
 		},
-		    "Fishing Shop Worm Bin Price": {
-			"Description": "Select the sale price of the Worm Bin at Willy’s Shop. This range spans from 4000g to 1g. Please note that the Fishing Shop Worm Bin (REQ) setting must be enabled for this to take effect! Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Worm Bin Price": {
+			"Description": "Select the sale price of the Worm Bin at Willy’s Fish Shop. This range spans from 4000g to 1g. Please note that the Fish Shop Worm Bin setting must be enabled for this to take effect! Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default (5000g), 4000g, 3000g, 2000g, 1500g, 1000g, 750g, 500g, 250g, 1g",
             "Default": "Default (5000g)"
 		},
-		    "Fishing Shop Worm Bin Avail.": {
-			"Description": "Select the required fishing level for unlocking the Worm Bin at Willy’s Shop. Please note that the Fishing Shop Worm Bin (REQ) setting must be enabled for this to take effect!",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "Default (Level 4), Fishing Level 3, Fishing Level 2, Fishing Level 1",
-            "Default": "Default (Level 4)"
-		},
-		    "Fish Shop Deluxe Worm Bin (REQ)": {
-			"Description": "Willy’s Shop now sells Deluxe Worm Bins. This setting is essential for configuring the Deluxe Worm Bin settings below!",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "true, false",
-            "Default": "false"
+		    "Fish Shop Deluxe Worm Bin": {
+			"Description": "Willy’s Fish Shop now sells Deluxe Worm Bins. This setting is essential for configuring the Deluxe Worm Bin Price setting below!",
+			"Section": "Fish Shop Additions and Prices",
+			"AllowValues": "Default, Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1",
+            "Default": "Default"
 		},
 		    "Fish Shop Deluxe Worm Bin Price": {
-			"Description": "Select the sale price of the Deluxe Worm Bin at Willy’s Shop. This range spans from 4000g to 1g. Please note that the Fish Shop Deluxe Worm Bin (REQ) setting must be enabled for this to take effect! Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+			"Description": "Select the sale price of the Deluxe Worm Bin at Willy’s Fish Shop. This range spans from 4000g to 1g. Please note that the Fish Shop Deluxe Worm Bin setting must be enabled for this to take effect! Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default (10000g), 7500g, 5000g, 4000g, 3000g, 2000g, 1000g, 750g, 500g, 250g, 1g",
             "Default": "Default (10000g)"
 		},
-		    "Fish Shop Deluxe Worm Bin Avail.": {
-			"Description": "Select the required fishing level for unlocking the Deluxe Worm Bin at Willy’s Shop. Please note that the Fish Shop Deluxe Worm Bin (REQ) setting must be enabled for this to take effect!",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "Default (Level 8), Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1",
-            "Default": "Default (Level 8)"
-		},
-		    "Fishing Shop Bait Maker (REQ)": {
-			"Description": "Willy’s Shop now sells Bait Makers. This setting is essential for configuring the Bait Maker settings below!",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Bait Maker": {
+			"Description": "Willy’s Fish Shop now sells Bait Makers. This setting is essential for configuring the Bait Maker Price setting below!",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "true, false",
             "Default": "false"
 		},
-		    "Fishing Shop Bait Maker Price": {
-			"Description": "Select the sale price of the Bait Maker at Willy’s Shop. This range spans from 4000g to 1g. Please note that the Fish Shop Bait Maker (REQ) setting must be enabled for this to take effect! Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Bait Maker Price": {
+			"Description": "Select the sale price of the Bait Maker at Willy’s Fish Shop. This range spans from 4000g to 1g. Please note that the Fish Shop Bait Maker setting must be enabled for this to take effect! Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default (7500g), 5000g, 4000g, 3000g, 2000g, 1000g, 750g, 500g, 250g, 1g",
             "Default": "Default (7500g)"
 		},
-		    "Fish Shop Recycle Machine (REQ)": {
-			"Description": "Willy’s Shop now sells Recycling Machines. This setting is essential for configuring the Recycling Machine settings below!",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "true, false",
-            "Default": "false"
+		    "Fish Shop Recycle Machine": {
+			"Description": "Willy’s Fish Shop now sells Recycling Machines. This setting is essential for configuring the Recycling Machine Price setting below!",
+			"Section": "Fish Shop Additions and Prices",
+			"AllowValues": "Default, Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1",
+            "Default": "Default"
 		},
 		    "Fish Shop Recycle Machine Price": {
-			"Description": "Select the sale price of the Recycling Machine at Willy’s Shop. This range spans from 3000g to 1g. Please note that the Fish Shop Recycle Machine (REQ) setting must be enabled for this to take effect! Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+			"Description": "Select the sale price of the Recycling Machine at Willy’s Fish Shop. This range spans from 3000g to 1g. Please note that the Fish Shop Recycle Machine setting must be enabled for this to take effect! Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default (3000g), 2500g, 2000g, 1500g, 1000g, 750g, 500g, 250g, 1g",
             "Default": "Default (3000g)"
 		},
-		    "Fish Shop Recycle Machine Avail.": {
-			"Description": "Select the required fishing level for unlocking the Recycling Machine at Willy’s Shop. Please note that the Fish Shop Recycle Machine (REQ) setting must be enabled for this to take effect!",
-			"Section": "Fishing Shop Additions and Prices",
-			"AllowValues": "Default (Level 4), Fishing Level 3, Fishing Level 2, Fishing Level 1",
-            "Default": "Default (Level 4)"
-		},
-		    "Fish Shop Fish Smoker (REQ)": {
-			"Description": "Willy’s Shop now sells Fish Smokers. This setting is essential for configuring the Fish Smoker settings below!",
-			"Section": "Fishing Shop Additions and Prices",
+		    "Fish Shop Fish Smoker": {
+			"Description": "Willy’s Fish Shop now sells Fish Smokers. This setting is essential for configuring the Fish Smoker Price setting below!",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "true, false",
             "Default": "false"
 		},
 		    "Fish Shop Fish Smoker Price": {
-			"Description": "Select the sale price of the Fish Smoker at Willy’s Shop. This range spans from 3000g to 1g. Please note that the Fish Shop Fish Smoker (REQ) setting must be enabled for this to take effect! Scroll down for additional options.",
-			"Section": "Fishing Shop Additions and Prices",
+			"Description": "Select the sale price of the Fish Smoker at Willy’s Fish Shop. This range spans from 3000g to 1g. Please note that the Fish Shop Fish Smoker setting must be enabled for this to take effect! Scroll down for additional options.",
+			"Section": "Fish Shop Additions and Prices",
 			"AllowValues": "Default (20000g), 15000g, 10000g, 7500g, 5000g, 2500g, 2000g, 1500g, 1000g, 750g, 500g, 250g, 1g",
             "Default": "Default (20000g)"
 		},
@@ -2865,7 +2847,7 @@
 				"FishingMadeEasy_BlessingOfFishing0": {
 				"Id": "FishingMadeEasy_BlessingOfFishing0",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 0 0",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 0 0",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing0",
 				"Actions": null,
@@ -2882,7 +2864,7 @@
 				"FishingMadeEasy_BlessingOfFishing1": {
 				"Id": "FishingMadeEasy_BlessingOfFishing1",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 1 1",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 1 1",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing1",
 				"Actions": null,
@@ -2899,7 +2881,7 @@
 				"FishingMadeEasy_BlessingOfFishing2": {
 				"Id": "FishingMadeEasy_BlessingOfFishing2",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 2 2",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 2 2",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing2",
 				"Actions": null,
@@ -2916,7 +2898,7 @@
 				"FishingMadeEasy_BlessingOfFishing3": {
 				"Id": "FishingMadeEasy_BlessingOfFishing3",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 3 3",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 3 3",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing3",
 				"Actions": null,
@@ -2933,7 +2915,7 @@
 				"FishingMadeEasy_BlessingOfFishing4": {
 				"Id": "FishingMadeEasy_BlessingOfFishing4",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 4 4",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 4 4",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing4",
 				"Actions": null,
@@ -2950,7 +2932,7 @@
 				"FishingMadeEasy_BlessingOfFishing5": {
 				"Id": "FishingMadeEasy_BlessingOfFishing5",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 5 5",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 5 5",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing5",
 				"Actions": null,
@@ -2967,7 +2949,7 @@
 				"FishingMadeEasy_BlessingOfFishing6": {
 				"Id": "FishingMadeEasy_BlessingOfFishing6",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 6 6",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 6 6",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing6",
 				"Actions": null,
@@ -2984,7 +2966,7 @@
 				"FishingMadeEasy_BlessingOfFishing7": {
 				"Id": "FishingMadeEasy_BlessingOfFishing7",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 7 7",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 7 7",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing7",
 				"Actions": null,
@@ -3001,7 +2983,7 @@
 				"FishingMadeEasy_BlessingOfFishing8": {
 				"Id": "FishingMadeEasy_BlessingOfFishing8",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 8 8",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 8 8",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing8",
 				"Actions": null,
@@ -3018,7 +3000,7 @@
 				"FishingMadeEasy_BlessingOfFishing9": {
 				"Id": "FishingMadeEasy_BlessingOfFishing9",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 9 9",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 9 9",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing9",
 				"Actions": null,
@@ -3035,7 +3017,7 @@
 				"FishingMadeEasy_BlessingOfFishing10": {
 				"Id": "FishingMadeEasy_BlessingOfFishing10",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 10 10",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 10 10",
 				"HostOnly": false,
 				"Action": "AddBuff FishingMadeEasy_BlessingOfFishing10",
 				"Actions": null,
@@ -51072,84 +51054,60 @@
 			"When": {"Fish Shop Open All Days": true},
 		},
 		{
-			"LogName": "Iridium Fishing Rod Level 1",
+			"LogName": "All Fishing Rods Immediately",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
 			"Fields": {
-			    "(T)IridiumRod": {"Condition": "PLAYER_FISHING_LEVEL Current 1"},
+				"(T)FiberglassRod": {"Condition": null},
+			    "(T)IridiumRod": {"Condition": null},
 		              },
-			"When": {"Iridium Fishing Rod Level 1": true},
+			"When": {"All Fishing Rods Immediately": true},
 		},
 		{
-			"LogName": "Adv. Iridium Fish Rod Level 9",
+			"LogName": "Adv. Iridium Fish Rod Immediately",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
 			"Fields": {
-			    "(T)AdvancedIridiumRod": {"Condition": "PLAYER_FISHING_LEVEL Current 9"},
+			    "(T)AdvancedIridiumRod": {"Condition": null},
 		              },
-			"When": {"Adv. Iridium Fish Rod Level": "Fishing Level 9"},
+			"When": {"Adv. Iridium Fish Rod Avail.": "Immediately"},
 		},
 		{
-			"LogName": "Adv. Iridium Fish Rod Level 9 Mail",
+			"LogName": "Adv. Iridium Fish Rod Level 10",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(T)AdvancedIridiumRod": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 10"},
+		              },
+			"When": {"Adv. Iridium Fish Rod Avail.": "Fishing Level 10"},
+		},
+		{
+			"LogName": "Adv. Iridium Fish Rod Level 10 Mail",
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
 			    "FishingMadeEasy_fishing9": "Hi Lad! Remember that rod I said was the best money can by? I kindly take that back...I have something even greater in store for you. Just need a good investment!^Hope to see you soon! ^   -Willy[#]Willy's New Items #3",
 		              },
-			"When": {"Adv. Iridium Fish Rod Level": "Fishing Level 9"},
+			"When": {"Adv. Iridium Fish Rod Avail.": "Fishing Level 10"},
 		},
 		{
-			"LogName": "Adv. Iridium Fish Rod Level 9 Mail Trigger",
+			"LogName": "Adv. Iridium Fish Rod Level 10 Mail Trigger",
 			"Action": "EditData",
 			"Target": "Data/TriggerActions",
 			"Entries": {
 			    "FishingMadeEasy_fishing9": {
 				"Id": "FishingMadeEasy_fishing9",
 				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 9",
+				"Condition": "PLAYER_BASE_FISHING_LEVEL Current 9",
 				"HostOnly": false,
 				"Action": "AddMail Current FishingMadeEasy_fishing9",
 				"Actions": null,
 					},
 				},
-				"When": {"Adv. Iridium Fish Rod Level": "Fishing Level 9"},
-		},
-		{
-			"LogName": "Adv. Iridium Fish Rod Level 1",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(T)AdvancedIridiumRod": {"Condition": "PLAYER_FISHING_LEVEL Current 1"},
-		              },
-			"When": {"Adv. Iridium Fish Rod Level": "Fishing Level 1"},
-		},
-		{
-			"LogName": "Adv. Iridium Fish Rod Level 1 Mail",
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-			    "FishingMadeEasy_fishing9": "Hi Lad! Remember that rod I said was the best money can by? I kindly take that back...I have something even greater in store for you. Just need a good investment!^Hope to see you soon! ^   -Willy[#]Willy's New Items #3",
-		              },
-			"When": {"Adv. Iridium Fish Rod Level": "Fishing Level 1"},
-		},
-		{
-			"LogName": "Adv. Iridium Fish Rod Level 1 Mail Trigger",
-			"Action": "EditData",
-			"Target": "Data/TriggerActions",
-			"Entries": {
-			    "FishingMadeEasy_fishing9": {
-				"Id": "FishingMadeEasy_fishing9",
-				"Trigger": "DayStarted",
-				"Condition": "PLAYER_FISHING_LEVEL Current 9",
-				"HostOnly": false,
-				"Action": "AddMail Current FishingMadeEasy_fishing9",
-				"Actions": null,
-					},
-				},
-				"When": {"Adv. Iridium Fish Rod Level": "Fishing Level 1"},
+				"When": {"Adv. Iridium Fish Rod Avail.": "Fishing Level 10"},
 		},
 		{
 			"LogName": "All Fishing Rod Prices 25% Cheaper",
@@ -51264,7 +51222,7 @@
 			"When": {"All Fishing Rod Prices": "100% More Expensive"},
 		},
 		{
-			"LogName": "Fishing Shop Curiosity/Quality",
+			"LogName": "Fish Shop Curiosity/Quality",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
@@ -51272,17 +51230,17 @@
 			    "(O)856": {"TradeItemAmount": 1,
                            "Price": 1,
                            "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 9",
+                           "Condition": "PLAYER_BASE_FISHING_LEVEL Current 9",
                            "Id": "(O)856",
                            "ItemId": "(O)856",},
 				"(O)877": {"TradeItemAmount": 1,
                            "Price": 1,
                            "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 9",
+                           "Condition": "PLAYER_BASE_FISHING_LEVEL Current 9",
                            "Id": "(O)877",
                            "ItemId": "(O)877",},
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true},
+			"When": {"Fish Shop Curiosity/Quality": true},
             "MoveEntries": [
                 { "Id": "(O)877", "BeforeId": "(T)BambooPole" }
             ],
@@ -51291,20 +51249,20 @@
             ],
 		},
 		{
-			"LogName": "All Tackle Fishing Level 1",
+			"LogName": "All Tackle Immediately",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
 			"Fields": {
-			    "(O)686": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Spinner
-				"(O)687": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Dressed Spinner
-				"(O)691": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Barbed Hook
-				"(O)692": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Lead Bobber
-				"(O)693": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Treasure Hunter
-				"(O)694": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Trap Bobber
-				"(O)695": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Cork Bobber
+			    "(O)686": {"Condition": null}, //Spinner
+				"(O)687": {"Condition": null}, //Dressed Spinner
+				"(O)691": {"Condition": null}, //Barbed Hook
+				"(O)692": {"Condition": null}, //Lead Bobber
+				"(O)693": {"Condition": null}, //Treasure Hunter
+				"(O)694": {"Condition": null}, //Trap Bobber
+				"(O)695": {"Condition": null}, //Cork Bobber
 					   },
-			"When": {"All Tackle Fishing Level 1": true},
+			"When": {"All Tackle Immediately": true},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality Level 1",
@@ -51312,10 +51270,10 @@
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
 			"Fields": {
-			    "(O)856": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Curiosity Lure
-				"(O)877": {"Condition": "PLAYER_FISHING_LEVEL Current 1"}, //Quality Bobber
+			    "(O)856": {"Condition": null}, //Curiosity Lure
+				"(O)877": {"Condition": null}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "All Tackle Fishing Level 1": true},
+			"When": {"Fish Shop Curiosity/Quality": true, "All Tackle Immediately": true},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 25% Cheaper",
@@ -51332,7 +51290,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 - (750 * 0.25)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 - (500 * 0.25)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "25% Cheaper"},
+			"When": {"Fish Shop Tackle Prices": "25% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 50% Cheaper",
@@ -51349,7 +51307,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 - (750 * 0.50)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 - (500 * 0.50)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "50% Cheaper"},
+			"When": {"Fish Shop Tackle Prices": "50% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 75% Cheaper",
@@ -51366,7 +51324,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 - (750 * 0.75)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 - (500 * 0.75)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "75% Cheaper"},
+			"When": {"Fish Shop Tackle Prices": "75% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 99% Cheaper",
@@ -51383,7 +51341,7 @@
 				"(O)695": {"Price": 1}, //Cork Bobber
 				"(O)SonarBobber": {"Price": 1}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "99% Cheaper"},
+			"When": {"Fish Shop Tackle Prices": "99% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 25% More Expensive",
@@ -51400,7 +51358,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 0.25)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 0.25)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "25% More Expensive"},
+			"When": {"Fish Shop Tackle Prices": "25% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 50% More Expensive",
@@ -51417,7 +51375,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 0.50)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 0.50)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "50% More Expensive"},
+			"When": {"Fish Shop Tackle Prices": "50% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 75% More Expensive",
@@ -51434,7 +51392,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 0.75)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 0.75)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "75% More Expensive"},
+			"When": {"Fish Shop Tackle Prices": "75% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Tackle Prices 100% More Expensive",
@@ -51451,7 +51409,7 @@
 				"(O)695": {"Price": "{{Round: {{Query: (750 + (750 * 1)) }} }}"}, //Cork Bobber
 				"(O)SonarBobber": {"Price": "{{Round: {{Query: (500 + (500 * 1)) }} }}"}, //Sonar Bobber
 					   },
-			"When": {"Fishing Shop Tackle Prices": "100% More Expensive"},
+			"When": {"Fish Shop Tackle Prices": "100% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 25% Cheaper",
@@ -51462,7 +51420,7 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 - (1 * 0.25)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 - (1 * 0.25)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "25% Cheaper"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "25% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 50% Cheaper",
@@ -51473,7 +51431,7 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 - (1 * 0.50)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 - (1 * 0.50)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "50% Cheaper"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "50% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 75% Cheaper",
@@ -51484,7 +51442,7 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 - (1 * 0.75)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 - (1 * 0.75)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "75% Cheaper"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "75% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 99% Cheaper",
@@ -51495,7 +51453,7 @@
 			    "(O)856": {"Price": 1}, //Curiosity Lure
 				"(O)877": {"Price": 1}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "99% Cheaper"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "99% Cheaper"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 25% More Expensive",
@@ -51506,7 +51464,7 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 0.25)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 0.25)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "25% More Expensive"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "25% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 50% More Expensive",
@@ -51517,7 +51475,7 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 0.50)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 0.50)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "50% More Expensive"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "50% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 75% More Expensive",
@@ -51528,7 +51486,7 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 0.75)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 0.75)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "75% More Expensive"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "75% More Expensive"},
 		},
 		{
 			"LogName": "Fishing Shop Curiosity/Quality 100% More Expensive",
@@ -51539,43 +51497,35 @@
 			    "(O)856": {"Price": "{{Round: {{Query: (1 + (1 * 1)) }} }}"}, //Curiosity Lure
 				"(O)877": {"Price": "{{Round: {{Query: (1 + (1 * 1)) }} }}"}, //Quality Bobber
 					   },
-			"When": {"Fishing Shop Curiosity/Quality": true, "Fishing Shop Tackle Prices": "100% More Expensive"},
+			"When": {"Fish Shop Curiosity/Quality": true, "Fish Shop Tackle Prices": "100% More Expensive"},
+		},
+		{
+			"LogName": "Fish Shop Seafoam Pudding",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Entries": {
+			    "(O)265": {"TradeItemAmount": 1,
+                           "Price": 5000,
+                           "AvailableStockLimit": "Global",
+                           "Condition": null,
+                           "Id": "(O)265",
+                           "ItemId": "(O)265",},
+					   },
+			"When": {"Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
+			"MoveEntries": [
+                { "Id": "(O)265", "BeforeId": "(O)685" },
+            ]
 		},
 		{
 			"LogName": "Fishing Shop Seafoam Pudding Fishing Level 9",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
-			"Entries": {
-			    "(O)265": {"TradeItemAmount": 1,
-                           "Price": 5000,
-                           "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 9",
-                           "Id": "(O)265",
-                           "ItemId": "(O)265",},
-					   },
-			"When": {"Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
-			"MoveEntries": [
-                { "Id": "(O)265", "BeforeId": "(O)685" },
-            ]
-		},
-		{
-			"LogName": "Fishing Shop Seafoam Pudding Fishing Level 1",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Entries": {
-			    "(O)265": {"TradeItemAmount": 1,
-                           "Price": 5000,
-                           "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 1",
-                           "Id": "(O)265",
-                           "ItemId": "(O)265",},
-					   },
-			"When": {"Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-			"MoveEntries": [
-                { "Id": "(O)265", "BeforeId": "(O)685" },
-            ]
+			"Fields": {
+			    "(O)265": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 9"},
+					  },
+			"When": {"Fish Shop Seafoam Pudding": "Fishing Level 9"},
 		},
 		{
 			"LogName": "Crab Pot Price 1250g",
@@ -51705,7 +51655,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 4000},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "4000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "4000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
         {
 			"LogName": "Fishing Shop Seafoam P Price Level 9 3000g",
@@ -51715,7 +51665,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 3000},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "3000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "3000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
 			"LogName": "Fishing Shop Seafoam P Price Level 9 2000g",
@@ -51725,7 +51675,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 2000},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "2000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "2000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
 			"LogName": "Fishing Shop Seafoam P Price Level 9 1000g",
@@ -51735,7 +51685,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 1000},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "1000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "1000g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
 			"LogName": "Fishing Shop Seafoam P Price Level 9 750g",
@@ -51745,7 +51695,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 750},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "750g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "750g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
 			"LogName": "Fishing Shop Seafoam P Price Level 9 500g",
@@ -51755,7 +51705,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 500},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "500g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "500g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
 			"LogName": "Fishing Shop Seafoam P Price Level 9 250g",
@@ -51765,7 +51715,7 @@
 			"Fields": {
 			    "(O)265": {"Price": 250},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "250g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "250g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
 			"LogName": "Fishing Shop Seafoam P Price Level 9 1g",
@@ -51775,90 +51725,10 @@
 			"Fields": {
 			    "(O)265": {"Price": 1},
 					   },
-			"When": {"Fishing Shop Seafoam P Price": "1g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 9)"},
+			"When": {"Fish Shop Seafoam P Price": "1g", "Fish Shop Seafoam Pudding": "Immediately, Fishing Level 9"},
 		},
 		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 4000g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 4000},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "4000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-        {
-			"LogName": "Fishing Shop Seafoam P Price Level 1 3000g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 3000},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "3000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 2000g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 2000},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "2000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 1000g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 1000},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "1000g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 750g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 750},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "750g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 500g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 500},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "500g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 250g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 250},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "250g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Seafoam P Price Level 1 1g",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(O)265": {"Price": 1},
-					   },
-			"When": {"Fishing Shop Seafoam P Price": "1g", "Fishing Shop Seafoam Pudding": "Enabled (Fishing Level 1)"},
-		},
-		{
-			"LogName": "Fishing Shop Worm Bin (REQ)",
+			"LogName": "Fish Shop Worm Bin",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
@@ -51866,14 +51736,54 @@
 			    "(BC)154": {"TradeItemAmount": 1,
                            "Price": 5000,
                            "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 4",
+                           "Condition": null,
                            "Id": "(BC)154",
                            "ItemId": "(BC)154",},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1"},
 			"MoveEntries": [
                 { "Id": "(BC)154", "BeforeId": "(O)686" },
             ]
+		},
+		{
+			"LogName": "Fish Shop Worm Bin Fishing Level 4",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 4"},
+					  },
+			"When": {"Fish Shop Worm Bin": "Fishing Level 4"},
+		},
+		{
+			"LogName": "Fish Shop Worm Bin Fishing Level 3",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 3"},
+					  },
+			"When": {"Fish Shop Worm Bin": "Fishing Level 3"},
+		},
+		{
+			"LogName": "Fish Shop Worm Bin Fishing Level 2",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 2"},
+					   },
+			"When": {"Fish Shop Worm Bin": "Fishing Level 2"},
+		},
+		{
+			"LogName": "Fish Shop Worm Bin Fishing Level 1",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)154": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 1"},
+					   },
+			"When": {"Fish Shop Worm Bin": "Fishing Level 1"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 4000g",
@@ -51883,7 +51793,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 4000},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "4000g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "4000g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 3000g",
@@ -51893,7 +51803,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 3000},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "3000g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "3000g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 2000g",
@@ -51903,7 +51813,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 2000},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "2000g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "2000g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 1500g",
@@ -51913,7 +51823,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 1500},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "1500g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "1500g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 1000g",
@@ -51923,7 +51833,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 1000},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "1000g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "1000g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 750g",
@@ -51933,7 +51843,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 750},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "750g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "750g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 500g",
@@ -51943,7 +51853,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 500},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "500g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "500g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 250g",
@@ -51953,7 +51863,7 @@
 			"Fields": {
 			    "(BC)154": {"Price": 250},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "250g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "250g"},
 		},
 		{
 			"LogName": "Fishing Shop Worm Bin Price 1g",
@@ -51963,40 +51873,10 @@
 			"Fields": {
 			    "(BC)154": {"Price": 1},
 					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Price": "1g"},
+			"When": {"Fish Shop Worm Bin": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Worm Bin Price": "1g"},
 		},
 		{
-			"LogName": "Fishing Shop Worm Bin Availability Fishing Level 3",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)154": {"Condition": "PLAYER_FISHING_LEVEL Current 3"},
-					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Avail.": "Fishing Level 3"},
-		},
-		{
-			"LogName": "Fishing Shop Worm Bin Availability Fishing Level 2",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)154": {"Condition": "PLAYER_FISHING_LEVEL Current 2"},
-					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Avail.": "Fishing Level 2"},
-		},
-		{
-			"LogName": "Fishing Shop Worm Bin Availability Fishing Level 1",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)154": {"Condition": "PLAYER_FISHING_LEVEL Current 1"},
-					   },
-			"When": {"Fishing Shop Worm Bin (REQ)": true, "Fishing Shop Worm Bin Avail.": "Fishing Level 1"},
-		},
-		{
-			"LogName": "Fish Shop Deluxe Worm Bin (REQ)",
+			"LogName": "Fish Shop Deluxe Worm Bin",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
@@ -52004,14 +51884,64 @@
 			    "(BC)DeluxeWormBin": {"TradeItemAmount": 1,
                            "Price": 10000,
                            "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 8",
+                           "Condition": null,
                            "Id": "(BC)DeluxeWormBin",
                            "ItemId": "(BC)DeluxeWormBin",},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1"},
 			"MoveEntries": [
                 { "Id": "(BC)DeluxeWormBin", "BeforeId": "(O)686" },
             ]
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Fishing Level 8",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 8"},
+					  },
+			"When": {"Fish Shop Deluxe Worm Bin": "Fishing Level 8"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Fishing Level 6",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 6"},
+					  },
+			"When": {"Fish Shop Deluxe Worm Bin": "Fishing Level 6"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Fishing Level 4",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 4"},
+					  },
+			"When": {"Fish Shop Deluxe Worm Bin": "Fishing Level 4"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Fishing Level 2",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 2"},
+					  },
+			"When": {"Fish Shop Deluxe Worm Bin": "Fishing Level 2"},
+		},
+		{
+			"LogName": "Fish Shop Deluxe Worm Bin Fishing Level 1",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 1"},
+					  },
+			"When": {"Fish Shop Deluxe Worm Bin": "Fishing Level 1"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 7500g",
@@ -52021,7 +51951,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 7500},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "7500g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "7500g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 5000g",
@@ -52031,7 +51961,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 5000},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "5000g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "5000g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 4000g",
@@ -52041,7 +51971,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 4000},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "4000g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "4000g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 3000g",
@@ -52051,7 +51981,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 3000},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "3000g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "3000g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 2000g",
@@ -52061,7 +51991,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 2000},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "2000g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "2000g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 1000g",
@@ -52071,7 +52001,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 1000},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "1000g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "1000g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 750g",
@@ -52081,7 +52011,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 750},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "750g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "750g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 500g",
@@ -52091,7 +52021,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 500},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "500g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "500g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 250g",
@@ -52101,7 +52031,7 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 250},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "250g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "250g"},
 		},
 		{
 			"LogName": "Fish Shop Deluxe Worm Bin Price 1g",
@@ -52111,50 +52041,10 @@
 			"Fields": {
 			    "(BC)DeluxeWormBin": {"Price": 1},
 					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Price": "1g"},
+			"When": {"Fish Shop Deluxe Worm Bin": "Immediately, Fishing Level 8, Fishing Level 6, Fishing Level 4, Fishing Level 2, Fishing Level 1", "Fish Shop Deluxe Worm Bin Price": "1g"},
 		},
 		{
-			"LogName": "Fish Shop Deluxe Worm Bin Availability Fishing Level 6",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_FISHING_LEVEL Current 6"},
-					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Avail.": "Fishing Level 6"},
-		},
-		{
-			"LogName": "Fish Shop Deluxe Worm Bin Availability Fishing Level 4",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_FISHING_LEVEL Current 4"},
-					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Avail.": "Fishing Level 4"},
-		},
-		{
-			"LogName": "Fish Shop Deluxe Worm Bin Availability Fishing Level 2",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_FISHING_LEVEL Current 2"},
-					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Avail.": "Fishing Level 2"},
-		},
-		{
-			"LogName": "Fish Shop Deluxe Worm Bin Availability Fishing Level 1",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)DeluxeWormBin": {"Condition": "PLAYER_FISHING_LEVEL Current 1"},
-					   },
-			"When": {"Fish Shop Deluxe Worm Bin (REQ)": true, "Fish Shop Deluxe Worm Bin Avail.": "Fishing Level 1"},
-		},
-		{
-			"LogName": "Fishing Shop Bait Maker (REQ)",
+			"LogName": "Fish Shop Bait Maker",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
@@ -52166,7 +52056,7 @@
                            "Id": "(BC)BaitMaker",
                            "ItemId": "(BC)BaitMaker",},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true},
+			"When": {"Fish Shop Bait Maker": true},
 			"MoveEntries": [
                 { "Id": "(BC)BaitMaker", "BeforeId": "(O)686" },
             ]
@@ -52179,7 +52069,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 5000},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "5000g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "5000g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 4000g",
@@ -52189,7 +52079,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 4000},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "4000g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "4000g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 3000g",
@@ -52199,7 +52089,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 3000},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "3000g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "3000g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 2000g",
@@ -52209,7 +52099,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 2000},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "2000g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "2000g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 1000g",
@@ -52219,7 +52109,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 1000},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "1000g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "1000g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 750g",
@@ -52229,7 +52119,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 750},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "750g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "750g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 500g",
@@ -52239,7 +52129,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 500},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "500g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "500g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 250g",
@@ -52249,7 +52139,7 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 250},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "250g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "250g"},
 		},
 		{
 			"LogName": "Fish Shop Bait Maker Price 1g",
@@ -52259,10 +52149,10 @@
 			"Fields": {
 			    "(BC)BaitMaker": {"Price": 1},
 					   },
-			"When": {"Fishing Shop Bait Maker (REQ)": true, "Fishing Shop Bait Maker Price": "1g"},
+			"When": {"Fish Shop Bait Maker": true, "Fish Shop Bait Maker Price": "1g"},
 		},
 		{
-			"LogName": "Fish Shop Recycle Machine (REQ)",
+			"LogName": "Fish Shop Recycle Machine",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
@@ -52270,14 +52160,54 @@
 			    "(BC)20": {"TradeItemAmount": 1,
                            "Price": 3000,
                            "AvailableStockLimit": "Global",
-                           "Condition": "PLAYER_FISHING_LEVEL Current 4",
+                           "Condition": null,
                            "Id": "(BC)20",
                            "ItemId": "(BC)20",},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1"},
 			"MoveEntries": [
                 { "Id": "(BC)20", "BeforeId": "(O)686" },
             ]
+		},
+		{
+			"LogName": "Fish Shop Recycle Machine Fishing Level 4",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)20": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 4"},
+					  },
+			"When": {"Fish Shop Recycle Machine": "Fishing Level 4"},
+		},
+		{
+			"LogName": "Fish Shop Recycle Machine Fishing Level 3",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)20": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 3"},
+					  },
+			"When": {"Fish Shop Recycle Machine": "Fishing Level 3"},
+		},
+		{
+			"LogName": "Fish Shop Recycle Machine Fishing Level 2",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)20": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 2"},
+					  },
+			"When": {"Fish Shop Recycle Machine": "Fishing Level 2"},
+		},
+		{
+			"LogName": "Fish Shop Recycle Machine Fishing Level 1",
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "FishShop", "Items" ],
+			"Fields": {
+			    "(BC)20": {"Condition": "PLAYER_BASE_FISHING_LEVEL Current 1"},
+					  },
+			"When": {"Fish Shop Recycle Machine": "Fishing Level 1"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 2500g",
@@ -52287,7 +52217,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 2500},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "2500g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "2500g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 2000g",
@@ -52297,7 +52227,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 2000},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "2000g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "2000g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 1500g",
@@ -52307,7 +52237,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 1500},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "1500g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "1500g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 1000g",
@@ -52317,7 +52247,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 1000},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "1000g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "1000g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 750g",
@@ -52327,7 +52257,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 750},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "750g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "750g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 500g",
@@ -52337,7 +52267,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 500},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "500g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "500g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 250g",
@@ -52347,7 +52277,7 @@
 			"Fields": {
 			    "(BC)20": {"Price": 250},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "250g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "250g"},
 		},
 		{
 			"LogName": "Fish Shop Recycle Machine Price 1g",
@@ -52357,40 +52287,10 @@
 			"Fields": {
 			    "(BC)20": {"Price": 1},
 					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Price": "1g"},
+			"When": {"Fish Shop Recycle Machine": "Immediately, Fishing Level 4, Fishing Level 3, Fishing Level 2, Fishing Level 1", "Fish Shop Recycle Machine Price": "1g"},
 		},
 		{
-			"LogName": "Fish Shop Recycle Machine Availability Fishing Level 3",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)20": {"Condition": "PLAYER_FISHING_LEVEL Current 3"},
-					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Avail.": "Fishing Level 3"},
-		},
-		{
-			"LogName": "Fish Shop Recycle Machine Availability Fishing Level 2",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)20": {"Condition": "PLAYER_FISHING_LEVEL Current 2"},
-					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Avail.": "Fishing Level 2"},
-		},
-		{
-			"LogName": "Fish Shop Recycle Machine Availability Fishing Level 1",
-			"Action": "EditData",
-			"Target": "Data/Shops",
-			"TargetField": [ "FishShop", "Items" ],
-			"Fields": {
-			    "(BC)20": {"Condition": "PLAYER_FISHING_LEVEL Current 1"},
-					   },
-			"When": {"Fish Shop Recycle Machine (REQ)": true, "Fish Shop Recycle Machine Avail.": "Fishing Level 1"},
-		},
-		{
-			"LogName": "Fish Shop Fish Smoker (REQ)",
+			"LogName": "Fish Shop Fish Smoker",
 			"Action": "EditData",
 			"Target": "Data/Shops",
 			"TargetField": [ "FishShop", "Items" ],
@@ -52402,7 +52302,7 @@
                            "Id": "(BC)FishSmoker",
                            "ItemId": "(BC)FishSmoker",},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true},
+			"When": {"Fish Shop Fish Smoker": true},
 			"MoveEntries": [
                 { "Id": "(BC)FishSmoker", "BeforeId": "(O)686" },
             ]
@@ -52415,7 +52315,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 15000},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "15000g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "15000g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 10000g",
@@ -52425,7 +52325,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 10000},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "10000g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "10000g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 7500g",
@@ -52435,7 +52335,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 7500},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "7500g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "7500g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 5000g",
@@ -52445,7 +52345,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 5000},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "5000g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "5000g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 2500g",
@@ -52455,7 +52355,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 2500},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "2500g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "2500g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 2000g",
@@ -52465,7 +52365,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 2000},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "2000g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "2000g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 1500g",
@@ -52475,7 +52375,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 1500},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "1500g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "1500g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 1000g",
@@ -52485,7 +52385,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 1000},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "1000g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "1000g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 750g",
@@ -52495,7 +52395,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 750},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "750g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "750g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 500g",
@@ -52505,7 +52405,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 500},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "500g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "500g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 250g",
@@ -52515,7 +52415,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 250},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "250g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "250g"},
 		},
 		{
 			"LogName": "Fish Shop Fish Smoker Price 1g",
@@ -52525,7 +52425,7 @@
 			"Fields": {
 			    "(BC)FishSmoker": {"Price": 1},
 					   },
-			"When": {"Fish Shop Fish Smoker (REQ)": true, "Fish Shop Fish Smoker Price": "1g"},
+			"When": {"Fish Shop Fish Smoker": true, "Fish Shop Fish Smoker Price": "1g"},
 		},
 		{
 			"LogName": "Pufferfish Exclusion Beach",

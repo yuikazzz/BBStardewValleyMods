@@ -1,7 +1,7 @@
 ﻿{
   "Name": "Realistic Random Names-REDUX",
   "Author": "prism99.aedenthorn",
-  "Version": "0.2.4",
+  "Version": "0.3.0",
   "Description": "Replaces the random name generator entries with real names.",
   "UniqueID": "prism99.aedenthorn.RealNames",
   "EntryDll": "RealNamesREDUX.dll",

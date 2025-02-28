@@ -66,7 +66,7 @@
         "AllowValues": "true, false",
         "Default": "true",
         "Section": "Dialogue",
-        "Description": "Disable to turn off the generic spice. If no other dialogue mods are installed, reverts Spicy Alex back to Vanilla Alex :(."
+        "Description": "Disable to turn off the generic spice. If no other dialogue mods are installed, reverts Spicy Alex back to Vanilla Alex :("
       },
       "Marriage Dialogue": {
         "AllowValues": "true, false",

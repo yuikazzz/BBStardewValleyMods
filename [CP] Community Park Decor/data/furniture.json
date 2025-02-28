@@ -1,0 +1,180 @@
+{
+	"Changes" : [
+		//New furniture items
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {
+				//end tables
+				"FarmerBeans.ParkTableSmRed": "Small Red Plastic Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableSmRed}}/460/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableSmLilac": "Small Lilac Plastic Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableSmLilac}}/462/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableSmBlue": "Small Blue Plastic Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableSmBlue}}/464/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableSmYellow": "Small Yellow Plastic Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableSmYellow}}/466/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableStoneWall": "Stone Wall Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableStoneWall}}/510/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableWoodPillar": "Wood Pillar Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableWoodPillar}}/512/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableBrickPillar": "Brick Pillar Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableBrickPillar}}/514/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableLampPostBase1": "Narrow Lamp Post Base/table/1 2/1 1/2/100/-1/{{i18n: ParkLampPostBase1}}/516/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableLampPostBase2": "Wide Lamp Post Base/table/1 2/1 1/2/100/-1/{{i18n: ParkLampPostBase2}}/518/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableCrate": "Wood Crate Table/table/1 2/1 1/2/100/-1/{{i18n: ParkTableCrate}}/520/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableRedBBQ": "Red BBQ/table/1 2/1 1/2/100/-1/{{i18n: ParkRedBBQ}}/522/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableGreenBBQ": "Green BBQ/table/1 2/1 1/2/100/-1/{{i18n: ParkGreenBBQ}}/524/{{CatalogItemFields}}",
+				
+				//big decor
+				"FarmerBeans.ParkPlanterTree": "Big Tree Planter/decor/3 5/3 1/1/3000/-1/{{i18n: ParkPlanterTree}}/0/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterLight": "Light String Planter/decor/3 4/3 1/1/1000/-1/{{i18n: ParkPlanterLight}}/33/{{CatalogItemFields}}",
+				"FarmerBeans.ParkLightString": "Light String/decor/3 4/3 1/1/1000/-1/{{i18n: ParkLightString}}/36/{{CatalogItemFields}}",
+
+				//stall shops
+				"FarmerBeans.ParkStallBooks": "Bookseller Stall/other/4 4/4 1/1/5000/2/{{i18n: ParkStallBooks}}/18/{{CatalogItemFields}}",
+				"FarmerBeans.ParkStallIceCream": "Ice Cream Cart/other/3 5/3 1/1/1000/2/{{i18n: ParkStallIceCream}}/9/{{CatalogItemFields}}",
+				"FarmerBeans.ParkStallMouse": "Hat Mouse Stall/other/4 4/4 1/1/5000/2/{{i18n: ParkStallMouse}}/14/{{CatalogItemFields}}",
+				"FarmerBeans.ParkStallMerchant": "Traveling Merchant Stall/other/4 4/4 1/1/5000/2/{{i18n: ParkStallMerchant}}/22/{{CatalogItemFields}}",
+				"FarmerBeans.ParkStallFruit": "Farmer's Fruit Stall/other/4 4/4 1/1/5000/2/{{i18n: ParkStallFruit}}/26/{{CatalogItemFields}}",
+				"FarmerBeans.ParkStallMerchantCart": "Traveling Merchant Cart/other/4 4/4 1/1/5000/2/{{i18n: ParkStallMerchantCart}}/134/{{CatalogItemFields}}",
+				"FarmerBeans.ParkStallIslandTrader": "Island Trader Stall/other/4 4/4 1/1/5000/2/{{i18n: ParkStallIslandTrader}}/146/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkStallPopUpShade": "Pop Up Shade/decor/4 4/4 1/1/5000/-1/{{i18n: ParkStallPopUpShade}}/138/{{CatalogItemFields}}",
+				"FarmerBeans.ParkFountain": "Large Fountain/decor/4 4/4 1/1/5000/-1/{{i18n: ParkFountain}}/142/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkShrubLarge1": "Large Shrub 1/decor/3 3/3 1/1/5000/-1/{{i18n: ParkShrubLarge1}}/150/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrubLarge2": "Large Shrub 2/decor/3 3/3 1/1/5000/-1/{{i18n: ParkShrubLarge2}}/153/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrubLarge3": "Large Shrub 3/decor/3 3/3 1/1/5000/-1/{{i18n: ParkShrubLarge3}}/156/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterGiantMelon": "Giant Melon Planter/decor/3 4/3 2/1/5000/-1/{{i18n: ParkPlanterGiantMelon}}/240/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterGiantPumpkin": "Giant Pumpkin Planter/decor/3 4/3 2/1/5000/-1/{{i18n: ParkPlanterGiantPumpkin}}/243/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterGiantCauliflower": "Giant Cauliflower Planter/decor/3 4/3 2/1/5000/-1/{{i18n: ParkPlanterGiantCauliflower}}/246/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterShrub1": "Shrub Planter 1/decor/3 4/3 1/1/5000/-1/{{i18n: ParkPlanterShrub1}}/249/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterShrub2": "Shrub Planter 2/decor/3 4/3 1/1/5000/-1/{{i18n: ParkPlanterShrub2}}/252/{{CatalogItemFields}}",
+				"FarmerBeans.ParkCampTent": "Decorative Tent/decor/3 4/3 1/1/5000/-1/{{i18n: ParkCampTent}}/255/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkPlanterMediumFlower": "Medium Flower Planter/decor/2 3/2 1/1/1000/-1/{{i18n: ParkPlanterMediumFlower}}/360/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBalloonBunch": "Bunch of Balloons/decor/2 3/2 1/1/1000/-1/{{i18n: ParkBalloonBunch}}/362/{{CatalogItemFields}}",
+				"FarmerBeans.ParkHaybale1": "Hay Bale 1/decor/2 3/2 1/1/1000/-1/{{i18n: ParkHaybale1}}/364/{{CatalogItemFields}}",
+				"FarmerBeans.ParkHaybale2": "Hay Bale 2/decor/2 2/2 1/1/1000/-1/{{i18n: ParkHaybale2}}/450/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterMediumTree1": "Medium Tree Planter 1/decor/2 3/2 1/1/1000/-1/{{i18n: ParkPlanterMediumTree1}}/366/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterMediumTree2": "Medium Tree Planter 2/decor/2 3/2 1/1/1000/-1/{{i18n: ParkPlanterMediumTree2}}/368/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterExoticTree": "Exotic Tree Planter/decor/2 3/2 1/1/1000/-1/{{i18n: ParkPlanterExoticTree}}/370/{{CatalogItemFields}}",
+				"FarmerBeans.ParkChairUmbrella": "Umbrella and Chair/decor/2 3/2 1/1/500/-1/{{i18n: ParkChairUmbrella}}/372/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkPlanterSmallFlower": "Small Flower Planter/decor/1 2/1 1/1/300/-1/{{i18n: ParkPlanterSmallFlower}}/588/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterSmallBudding": "Small Budding Planter/decor/1 2/1 1/1/300/-1/{{i18n: ParkPlanterSmallBudding}}/591/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPlanterSmallShrub": "Small Shrub Planter/decor/1 2/1 1/1/300/-1/{{i18n: ParkPlanterSmallShrub}}/592/{{CatalogItemFields}}",
+
+				
+				"FarmerBeans.ParkBoxStack": "Stack of Boxes/decor/1 2/1 1/1/300/-1/{{i18n: ParkBoxStack}}/593/{{CatalogItemFields}}",
+				"FarmerBeans.ParkExoticVase": "Exotic Vase/decor/1 2/1 1/1/300/-1/{{i18n: ParkExoticVase}}/594/{{CatalogItemFields}}",
+
+
+				"FarmerBeans.ParkShrubMed1": "Medium Shrub Planter 1/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrubMed1}}/452/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrubMed2": "Medium Shrub Planter 2/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrubMed2}}/454/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrubMed3": "Medium Shrub Planter 3/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrubMed3}}/474/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrubMed4": "Medium Shrub Planter 4/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrubMed4}}/476/{{CatalogItemFields}}",
+				"FarmerBeans.ParkGrill": "Big Grill/decor/2 2/2 1/1/1000/-1/{{i18n: ParkGrill}}/478/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrubFloweringWall": "Flowering Wall/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrubFloweringWall}}/574/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrub1": "Bush 1/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrub1}}/576/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrub2": "Bush 2/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrub2}}/578/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrub3": "Bush 3/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrub3}}/580/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrub4": "Bush 4/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrub4}}/582/{{CatalogItemFields}}",
+				"FarmerBeans.ParkShrub5": "Bush 5/decor/2 2/2 1/1/1000/-1/{{i18n: ParkShrub5}}/584/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkBoxBlueberries": "Berry Box/decor/2 2/2 1/1/1000/-1/{{i18n: ParkBoxBlueberries}}/456/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBoxBeans": "Bean Box/decor/2 2/2 1/1/1000/-1/{{i18n: ParkBoxBeans}}/458/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBoxCarrots": "Carrot Box/decor/2 2/2 1/1/1000/-1/{{i18n: ParkBoxCarrots}}/532/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBoxSquash": "Squash Box/decor/2 2/2 1/1/1000/-1/{{i18n: ParkBoxSquash}}/534/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBoxMelon": "Melon Box/decor/1 2/1 1/1/300/-1/{{i18n: ParkBoxMelon}}/589/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBoxTomato": "Tomato Box/decor/1 2/1 1/1/300/-1/{{i18n: ParkBoxTomato}}/590/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkTrash1": "Gold Trashcan/decor/1 2/1 1/1/300/-1/{{i18n: ParkTrash1}}/596/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTrash2": "Silver Trashcan/decor/1 2/1 1/1/300/-1/{{i18n: ParkTrash2}}/597/{{CatalogItemFields}}",
+				
+				"FarmerBeans.ParkEasel": "Painter's Easel/decor/1 2/1 1/1/300/-1/{{i18n: ParkEasel}}/598/{{CatalogItemFields}}",
+				"FarmerBeans.ParkEasel2": "Painter's Easel/decor/1 2/1 1/1/300/-1/{{i18n: ParkEasel2}}/599/{{CatalogItemFields}}",
+
+
+				"FarmerBeans.ParkSign": "Park Sign/decor/2 2/2 1/1/500/-1/{{i18n: ParkSign}}/468/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSignFarmers": "Farmer's Market Sign/decor/2 2/2 1/1/500/-1/{{i18n: ParkSignFarmers}}/470/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSignGarden": "Garden Sign/decor/2 2/2 1/1/500/-1/{{i18n: ParkSignGarden}}/472/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSpringyHorse": "Springy Horse/decor/2 2/2 1/1/1000/-1/{{i18n: ParkSpringyHorse}}/526/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSpringyPig": "Springy Pig/decor/2 2/2 1/1/1000/-1/{{i18n: ParkSpringyPig}}/528/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPicnicBasket": "Picnic Basket/decor/2 2/2 1/1/100/-1/{{i18n: ParkPicnicBasket}}/530/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSandCastle": "Sand Castle/decor/2 2/2 1/1/100/-1/{{i18n: ParkSandCastle}}/536/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBeachBall": "Beach Ball/decor/2 2/2 1/1/100/-1/{{i18n: ParkBeachBall}}/538/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTrashDumpster": "Dumpster/decor/2 2/2 1/1/1000/-1/{{i18n: ParkTrashDumpster}}/586/{{CatalogItemFields}}",
+				"FarmerBeans.ParkCampSleepingBag": "Sleeping Bag/decor/2 2/2 1/1/100/-1/{{i18n: ParkCampSleepingBag}}/572/{{CatalogItemFields}}",
+				"FarmerBeans.ParkCampCookware": "Camp Cookware/decor/2 1/2 1/1/100/-1/{{i18n: ParkCampCookware}}/570/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBoombox": "Boombox/decor/2 1/2 1/1/100/-1/{{i18n: ParkBoombox}}/600/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkBalloonRed": "Red Balloon/decor/1 3/1 1/1/100/-1/{{i18n: ParkBalloonRed}}/374/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBalloonBlue": "Blue Balloon/decor/1 3/1 1/1/100/-1/{{i18n: ParkBalloonBlue}}/375/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBalloonYellowBlue": "Yellow and Blue Balloon/decor/1 3/1 1/1/100/-1/{{i18n: ParkBalloonYellowBlue}}/376/{{CatalogItemFields}}",
+				"FarmerBeans.ParkHeadInAHole": "Head in a Hole/decor/1 3/1 1/1/100/-1/{{i18n: ParkHeadInAHole}}/377/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSmPresentPile": "Short Present Pile/decor/1 2/1 1/1/300/-1/{{i18n: ParkSmPresentPile}}/595/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPresentPile": "Tall Present Pile/decor/1 3/1 1/1/100/-1/{{i18n: ParkPresentPile}}/378/{{CatalogItemFields}}",
+				//small decor
+				"FarmerBeans.ParkFootball": "Football/decor/1 1/1 1/1/100/-1/{{i18n: ParkFootball}}/3/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPumpkin": "Pumpkin/decor/1 1/1 1/1/100/-1/{{i18n: ParkPumpkin}}/4/{{CatalogItemFields}}",
+				"FarmerBeans.ParkRedBackpack": "Red Backpack/decor/1 1/1 1/1/100/-1/{{i18n: ParkRedBackpack}}/5/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBlueBackpack": "Blue Backpack/decor/1 1/1 1/1/100/-1/{{i18n: ParkBlueBackpack}}/6/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPetBowl": "Pet Bowl/decor/1 1/1 1/1/100/-1/{{i18n: ParkPetBowl}}/7/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSpringBasket": "Egg Basket/decor/1 1/1 1/1/100/-1/{{i18n: ParkSpringBasket}}/8/{{CatalogItemFields}}",
+
+				"FarmerBeans.ParkPresentGreen": "Green Present/decor/1 1/1 1/1/100/-1/{{i18n: ParkPresentGreen}}/12/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPresentRed": "Red Present/decor/1 1/1 1/1/100/-1/{{i18n: ParkPresentRed}}/13/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPresentBlue": "Blue Present/decor/1 1/1 1/1/100/-1/{{i18n: ParkPresentBlue}}/43/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPresentPurple": "Purple Present/decor/1 1/1 1/1/100/-1/{{i18n: ParkPresentPurple}}/73/{{CatalogItemFields}}",
+				"FarmerBeans.ParkCookies": "Cookie Plate/decor/1 1/1 1/1/100/-1/{{i18n: ParkCookies}}/42/{{CatalogItemFields}}",
+				"FarmerBeans.ParkCamera": "Camera/decor/1 1/1 1/1/100/-1/{{i18n: ParkCamera}}/72/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBook": "Book/decor/1 1/1 1/1/100/-1/{{i18n: ParkBook}}/102/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPaperback": "Paperback/decor/1 1/1 1/1/100/-1/{{i18n: ParkPaperback}}/132/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBurger1": "Burger1/decor/1 1/1 1/1/100/-1/{{i18n: ParkBurger1}}/103/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBurger2": "Burger2/decor/1 1/1 1/1/100/-1/{{i18n: ParkBurger2}}/133/{{CatalogItemFields}}",
+				"FarmerBeans.ParkSteak": "Steak/decor/1 1/1 1/1/100/-1/{{i18n: ParkSteak}}/163/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBaseball": "Baseball/decor/1 1/1 1/1/100/-1/{{i18n: ParkBaseball}}/193/{{CatalogItemFields}}",
+				"FarmerBeans.ParkDuck": "Rubber Duck/decor/1 1/1 1/1/100/-1/{{i18n: ParkDuck}}/223/{{CatalogItemFields}}",
+				"FarmerBeans.ParkRedFirework": "Red Firework/decor/1 1/1 1/1/100/-1/{{i18n: ParkRedFirework}}/447/{{CatalogItemFields}}",
+				"FarmerBeans.ParkPurpleFirework": "Purple Firework/decor/1 1/1 1/1/100/-1/{{i18n: ParkPurpleFirework}}/448/{{CatalogItemFields}}",
+				"FarmerBeans.ParkAquaFirework": "Aqua Firework/decor/1 1/1 1/1/100/-1/{{i18n: ParkAquaFirework}}/449/{{CatalogItemFields}}",
+
+
+				//lamps
+				"FarmerBeans.ParkLamp": "Park Lamp/lamp/-1/-1/1/1000/2/{{i18n: ParkLamp}}/159/{{CatalogItemFields}}",
+				"FarmerBeans.ParkWinterLamp": "Park Winter Lamp/lamp/-1/-1/1/1000/2/{{i18n: ParkWinterLamp}}/161/{{CatalogItemFields}}",
+				
+				
+				
+				//wide bench 
+				"FarmerBeans.ParkBenchWide": "Wide Park Bench/bench/3 2/3 1/4/1500/2/{{i18n: ParkBenchWide}}/690/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBenchWide2": "Wide Bench/bench/3 2/3 1/4/1500/2/{{i18n: ParkBenchWide2}}/697/{{CatalogItemFields}}",
+				
+				//benches
+				"FarmerBeans.ParkBench1": "High-back Park Bench/bench/-1/-1/4/750/-1/{{i18n: ParkBench1}}/648/{{CatalogItemFields}}",
+				"FarmerBeans.ParkBench2": "Low Park Bench/bench/-1/-1/4/750/-1/{{i18n: ParkBench2}}/653/{{CatalogItemFields}}",
+				
+				
+				//chairs
+				"FarmerBeans.ParkChairYellow": "Yellow Plastic Chair/chair/-1/-1/4/500/-1/{{i18n: ParkChairYellow}}/327/{{CatalogItemFields}}",    
+				"FarmerBeans.ParkChairBlue": "Blue Plastic Chair/chair/-1/-1/4/500/-1/{{i18n: ParkChairBlue}}/324/{{CatalogItemFields}}",    
+				"FarmerBeans.ParkChairRed": "Red Plastic Chair/chair/-1/-1/4/500/-1/{{i18n: ParkChairRed}}/267/{{CatalogItemFields}}",    
+				"FarmerBeans.ParkChairLilac": "Lilac Plastic Chair/chair/-1/-1/4/500/-1/{{i18n: ParkChairLilac}}/264/{{CatalogItemFields}}", 
+				"FarmerBeans.ParkChairTan": "Ginger Chair/chair/-1/-1/4/500/-1/{{i18n: ParkChairTan}}/321/{{CatalogItemFields}}",   
+
+
+				//Tables
+
+
+				"FarmerBeans.ParkTableWide": "Wide Picnic Table/decor/3 2/3 1/1/1000/-1/{{i18n: ParkWideTable}}/630/{{CatalogItemFields}}",   
+				"FarmerBeans.ParkTableBurger": "Burger Picnic Table/decor/3 2/3 1/1/1000/-1/{{i18n: ParkBurgerTable}}/633/{{CatalogItemFields}}",   
+				"FarmerBeans.ParkTableFeast": "Feast Picnic Table/decor/3 2/3 1/1/1000/-1/{{i18n: ParkFeastTable}}/636/{{CatalogItemFields}}",   
+				"FarmerBeans.ParkTableJelly": "Jelly Picnic Table/decor/3 2/3 1/1/1000/-1/{{i18n: ParkJellyTable}}/639/{{CatalogItemFields}}",   
+				"FarmerBeans.ParkTableWinter": "Winter Picnic Table/decor/3 2/3 1/1/1000/-1/{{i18n: ParkWinterTable}}/642/{{CatalogItemFields}}",   
+				"FarmerBeans.ParkTableCake": "Cake Picnic Table/decor/3 2/3 1/1/1000/-1/{{i18n: ParkCakeTable}}/645/{{CatalogItemFields}}",   
+				
+				"FarmerBeans.ParkTablePicnic": "Picnic Table/table/-1/-1/1/750/-1/{{i18n: ParkPicnicTable}}/381/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableYellow": "Yellow Draped Table/table/-1/-1/1/750/-1/{{i18n: ParkYellowTable}}/379/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableLilac": "Lilac Draped Table/table/-1/-1/1/750/-1/{{i18n: ParkLilacTable}}/383/{{CatalogItemFields}}",
+				"FarmerBeans.ParkTableRed": "Red Draped Table/table/-1/-1/1/750/-1/{{i18n: ParkRedTable}}/385/{{CatalogItemFields}}"
+
+				
+			}
+		}
+	]
+}

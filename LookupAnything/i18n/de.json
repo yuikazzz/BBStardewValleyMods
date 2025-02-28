@@ -62,8 +62,7 @@
     "friendship-status.kicked-out": "Rausgeschmissen",
 
     // custom content (shows which mod added an item, NPC, etc)
-    // TODO
-    "added-by-mod": "Added by mod",
+    "added-by-mod": "Von Mod hinzugefügt",
     "added-by-mod.summary": "{{modName}}",
 
 
@@ -118,10 +117,10 @@
     "location.forest.island-tip": "Waldfluss (Südspitze der großen Insel)",
     "location.forest.lake": "Waldteich",
     "location.forest.river": "Waldfluss",
-    "location.HarveyRoom": "Harvey's Room", // TODO
-    "location.LeoTreeHouse": "Treehouse", // TODO
-    "location.SandyHouse": "Oasis", // TODO
-    "location.SebastianRoom": "Sebastian's Room", // TODO
+    "location.HarveyRoom": "Harveys Zimmer",
+    "location.LeoTreeHouse": "Baumhaus",
+    "location.SandyHouse": "Oase",
+    "location.SebastianRoom": "Sebastians Zimmer",
     "location.submarine": "Nachtmarkt Tiefsee-U-Boot",
     "location.town.northmost-bridge": "Stadt (Nord-östliche Brücke)",
     "location.undergroundMine": "Mine",
@@ -310,6 +309,8 @@
     "crop.summary.drops-X-to-Y": "Gibt {{min}} bis {{max}} her. ({{percent}}% Chance auf extra Saat)",
     "crop.summary.harvest-once": "Ernte nach {{daysToFirstHarvest}} Tagen.",
     "crop.summary.harvest-multi": "Ernte nach {{daysToFirstHarvest}} Tagen, danach alle {{daysToNextHarvests}} Tage.",
+    "crop.summary.farming-xp": "gibt +{{amount}} Hofarbeit-XP pro Ernte",
+    "crop.summary.foraging-xp": "gibt +{{amount}} Sammeln-XP pro Ernte",
     "crop.summary.seasons": "Wächst im {{seasons}}.",
     "crop.summary.sells-for": "Lässt sich für {{price}} verkaufen.",
     "crop.harvest.too-late": "Zu spät in der Jahrezeit für eine weitere Ernte (wäre am {{date}}).",
@@ -498,7 +499,7 @@
     "npc.neutral-gifts": "Neutrale Geschenke",
     "npc.dislikes-gifts": "Nicht gemochte Geschenke",
     "npc.hates-gifts": "Gehasste Geschenke",
-    "npc.schedule": "Today's schedule", // TODO
+    "npc.schedule": "Heutiger Zeitplan",
 
     // values
     "npc.can-romance.married": "Du bist verheiratet! <", // < turns into a heart
@@ -508,9 +509,9 @@
     "npc.friendship.need-points": "nächstes in {{count}} Punkten",
     "npc.undiscovered-gift-taste": "{{count}} unaufgedeckte Gegenstände",
     "npc.unowned-gift-taste": "{{count}} nicht bessesene Gegenstände",
-    "npc.schedule.current-position": "Currently at {{locationName}} ({{x}}, {{y}}).", // TODO
-    "npc.schedule.no-entries": "No schedule loaded.", // TODO
-    "npc.schedule.entry": "{{time}}: walk to {{locationName}} ({{x}}, {{y}}).", // TODO
+    "npc.schedule.current-position": "Derzeit bei {{locationName}} ({{x}}, {{y}}).",
+    "npc.schedule.no-entries": "Kein Zeitplan geladen.",
+    "npc.schedule.entry": "{{time}}: gehe zu {{locationName}} ({{x}}, {{y}}).",
 
 
     /*********
@@ -762,5 +763,12 @@
     "config.page-down.name": "Seite runter",
     "config.page-down.desc": "Die Tasten, die lange Inhalte um eine ganze Seite nach unten blättern.",
     "config.toggle-debug.name": "Debug umschalten",
-    "config.toggle-debug.desc": "Die Tasten, mit denen die Anzeige der Debug-Informationen umgeschaltet wird."
+    "config.toggle-debug.desc": "Die Tasten, mit denen die Anzeige der Debug-Informationen umgeschaltet wird.",
+
+
+    /*********
+    ** Iconic Framework icon
+    *********/
+    "icon.toggle-search.name": "Alles Nachschlagen",
+    "icon.toggle-search.desc": "Umschalten der Alles Nachschlagen-Suche"
 }

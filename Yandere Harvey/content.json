@@ -1,0 +1,551 @@
+{
+         "Format": "2.4.0",
+           "Changes": [
+           
+           // Yandere Harvey dialouge - UPDATED + MARRIAGE DIALOGUE.
+           {
+           "Action": "EditData",
+           "Target": "Characters/Dialogue/Harvey",
+           "entries": {
+         "Introduction": "It's a pleasure to meet you. The moment I heard of your arrival, I'd been waiting for you to come see me.$1#$e#Let me know if you ever need a.. confidential checkup.$4",
+         "AcceptBirthdayGift_Positive": "Oh! Thank you so, so much, dear!$l#$b#You've made me the happiest man on Earth with this, nothing could be better than my beloved darling gifting me something so amazing, on my special day too!$h",
+         "AcceptBirthdayGift_Negative": "Oh! Why thank you for the gift, dear.$0#$b#It makes me happy that you at least remembered it was my birthday. I must mean something to you, right?$h",
+         "AcceptGift_(O)StardropTea": "You're giving me this? I feel like tearing up.. I'm so happy.$l",
+         "FlowerDance_Accept": "Oh! You... really want to dance with me?$4#$b#...Yes. Yes! I'd love to!$h",
+         "GreenRain": "As much as I'd rather you not go out, I brought some medical supplies, just in case.$0#$b#Promise me you'll be careful, okay?$0",
+         "GreenRain_2": "The first time this happened, we were all worried that the rain might be dangerous.#$b#It could possibly be healthy for the body.. But, I'd rather throw someone else out as a test dummy than have you try out that.$h",
+         "AcceptGift_(O)432": "It's for me? Thank you! You always know exactly how to satisfy me.$h",
+         "AcceptGift_(O)348": "For me? What a gift! This looks fantastic!$h#$b#How about we have a glass together? Or two.. or three. As much as you'd like, really!$0#$e#No matter how much you have, I'll take care of you, okay?$l",
+         "eventSeen_56_memory_fourweeks": "I've observed many species living in the valley, but you've been the most interesting so far.$l",
+         "eventSeen_56_memory_twoweeks": "I tried making my own pickles one time...$s#$e#They, um, had a very awful scent. Don't worry, I'd never subject you to such.$h",
+         "eventSeen_56": "As a small town doctor, you can't help but form a personal connection with your patients. It can be a good or bad thing..$0#$b#Of course, if we're talking about my building relationship with you.. It's a very wonderful thing.$l",
+         "eventSeen_58_memory_oneweek": "Well now that you know my secret, I might as well give you an update...$0#$b#Haha, you're very curious about it aren't you? It feels so nice to have you entranced like this..$h",
+         "eventSeen_58_memory_twoweeks": "I got such a good workout during aerobics class, how about you come over and I'll make us a wonderful meal to share?$h#$b#How about we share pasta like in that movie?$0#$e#..Maybe our lips would even connect at the end of the noodle.$l",
+         "eventSeen_58_memory_fourweeks": "I don't know why I was ashamed about being in dance aerobics class. Thank you for helping me become more confident, I feel so comfortable at your side.$h#$b#I hope I'll be able to stay there forever..$l",
+         "eventSeen_571102_memory": "I've never told anyone about my airplane hobby before... I guess I just feel comfortable talking to you.$h#$b#I just want to tell you everything about myself.. I want you to know me inside and out, @.$l",
+         "eventSeen_571102_memory_oneweek": "As a doctor, you can only do so much to help your patients...#$e#Sometimes, it's better to realize there's little you can do about some situations.$s#$b#it's better to just give in to what'll happen, wouldn't you agree?$0",
+         "dating_Harvey": "I've never felt like this before...$l",
+         "dating_Harvey_memory_oneday": "I've been thinking about you so much, I can hardly do my work.$l",
+         "dating_Maru_memory_oneday": "Maru's been unusually cheerful lately... to know she gets to feel like that because of you, and I don't...$a#$e#It's completely unfair. I worked so hard for your attention and love, why didn't *I* get it?$s",
+         "married_Maru": "Congratulations on your marriage, @... Even if I'm stuck simply admiring you from afar, it'll have to be enough for me.$s#$e#Maybe you'll realize I'm the one who's right for you one day..$s",
+         "married_Harvey": "This is the happiest moment of my life...$l",
+       
+         "Resort_Entering": "I made sure to bring sunscreen!$1#$b#I wouldn't want you getting burnt.$0#$e# Let me get your back for you, @.$4",
+         "Resort_Leaving": "You didn't burn, did you dear?$7#$b#I'm positive I got every place.. but if I need to, I'll make sure to soothe any pains.$4",
+         "Resort_Shore": "I combed the whole beach for glass. I'd feel so guilty if you got hurt..$2#$b#I don't know what I'd do to myself if something happened, @..$1",
+         "Resort_Chair": "Come and relax with me, darling. Nobody will approach if you're in my arms.$4",
+         "Resort_Bar": "Make sure you stay hydrated!$0#$e#Ah, a little bit of water dribbled from your mouth..$1#$b#Don't worry, let me lick it up for you.$l",
+         "Resort": "I'll let you in on a little secret... I've been watching you swim this whole time. You look so very lovely in a swimsuit.$l",
+       
+         "FlowerDance_Accept_Spouse": "I've been looking forward to it all afternoon! You look radiant in the fresh spring air, my love.$l",
+         "FlowerDance_Decline": "Oh my...$7#$e#I'd love to say yes..$4#$b#..but I'll have to decline this time.$2",
+         "divorced": "You... You aren't serious, are you?$2#$b#No.. this can't be real. Everything has been so perfect.$5#$e#Please, *please* don't leave me. I hate the thought of having to hurt you.$2",
+         "breakUp": "...Y...You...?$s#$b#*gulp*... I... I think I'm going to be sick...$s",
+         "dumped_Guys": "%Tears bloom behind Harvey's glasses. He's hiding something behind his back.",
+         "secondChance_Guys": "I've been thinking about you ever since you made that silly mistake.$0#b#I need you in my life, too.$4#$b#Just.. don't think about leaving me ever again.$5",
+       
+         "Mon2": "It's great to see you again!$1#$e#I'm always waiting until I see the newest, most handsome face in town.$4^I'm always waiting until I see the newest, most pretty face, @.$4",
+         "Mon4": "You've been taking of yourself, haven't you?$0#$b#Not that I'm doubting your capabilites!$3#$bI just can't but worry about you every second.$4",
+         "Mon6":  "You'll never have to worry about your safety with me around, @.$4",
+         "Mon8": "..You've been feeling a bit sick lately, you say?$0#$b#Don't hesitate to ever stop in, I promise I'll watch over you until your health improves.$4",
+         "Mon10": "Oh! Hi, @.$l#$e#Do you... have any medical questions? Perhaps anatomical ones?$l",
+         
+         "Tue2": "%Harvey's fiddling with some kind of bottle, you think you can make out that it says 'sedatives'. You wonder what he might need those for.",
+         "Tue4": "Oh! I didn't expect to see you in the clinic today.$0#$e#If only I didn't have a patient today.. Maybe I should leave them to care for themself and come with you.$h",
+         "Tue6": "I hope we spend a *lot* more time together, @. I have so many things I'd like to do with you!$h#$e#Things that will be better kept as a surprise, too. So don't ask too many questions, for your own good.$l",
+         "Tue8": "Maybe I should just abandon my responsibilites as as Doctor and spend all my time with you.$h#$e#I mean, who really cares if the townsfolk get sick? It's only *your* health and wellness I care about.$l",
+         "Tue10": "%Harvey seems to be deep in thought while twirling a syringe. You can't help but feel scared when smile crosses his face, and his grip tightens around it.",
+         
+         "Wed2": "You've truly got such a beautiful, healthy glow.$l#$b#U-Um.. I mean, it's very good that you're so health-inclined! I hope others take to your example.$h#$e#Without watching you, that is..$a",
+         "Wed4": "Have you been taking what I prescribed?$0#$e#Don't mind if there's some.. side effects. You're just not used to it yet!$4",
+         "Wed6": "It's always so great to get fresh air.$1#$b#*mumble* I just wish there wasn't anyone else around.. I can't stand the way they look at what's mine.$5",
+         "Wed8": "I don't mean to gossip, but..$0#$b#Well, I just can't help but to notice Sebastian's unhealthy habits.$0$e#Could you imagine dating someone who damages their lungs like that? I'd rather be with someone who knows a lot about health..$l",
+         "Wed10": "Everytime I see you, my heart pounds against my chest.$l#$b#Though I know it's impossible, I feel as if it may burst out from it's cavity to land right in your hands.$l",
+
+         "Thu2": "Home-cooked meals are the best. Do you cook?$0#$b#If you do, bring some over to me! I'll be your designated taste-tester.$h#$e#You could even feed me, if you'd like..$l",
+         "Thu4": "Being a doctor is hard work.$0#$b#There's so many dangerous items that surround you, so many life-threatening things in your disposal..$h#$e#Be a shame if they accidentally found their way into someone's prescription, don't you think?$0",
+         "Thu6": "It's always sad when someone loses the person most important to them, isn't it?$s#$e#I'm sure a lot of these guys are gonna feel that way when a certain *someone* belongs to me.. Haha.$h",
+         "Thu8": "You've got such a handsome face, @^You've got such a beautiful face, @.$l#$b#How lucky am I to see it everyday when you come to speak with me? I hope you'll allow me to see it even more. To the point where I get to see it everytime I wake, and everytime I lie down.$h#$e#Though, even if you don't, I'll find a way to make such happen.$l",
+         "Thu10": "You're always inspiring me to be my best self, @.$h#$b#I mean, I used to always focus on everyone in town, and I was working myself to death.$s#$e#But now? All I think about is you, and how you're doing.. My mind feels so refreshed with only you on it.$l",
+         
+         "Fri2": "%You're drawn to Harvey's direction, his muttering just loud enough for you to make out.$b#I wonder what would cover the taste best..$0",
+         "Fri4": "I truly do approve of your eating habits.$h#$b#I always see you eating fresh-picked fruit while doing farmwork. You're so cute with a stuffed mouth..$4",
+         "Fri6": "Before you'd come to our small town, I thought I'd fallen for someone else here.$0#$b#But, now that you *are* here, I can see that it was nothing more than a little crush!$h#$e#After experiencing this feeling you give me, there's not a chance that could've been love. Maybe it wasn't even a crush.$0#$b# The weight of my love for you is soul-crushing, @. Not another feeling in this world could begin to compare.$l",
+         "Fri8": "If you ever need a more.. confidental checkup, do stop by. I'll make sure to explore any concered areas *thoroughly*.$l",
+         "Fri10": "Make sure you incorporate healthy foods too, @!$1#$e#I could take care of you, if you wanted. I'd love to cook for you everyday.. sharing meals.$4#$b#Maybe you should move in with me, then I could monitor you everyday.$4",
+         
+         "Sat2": "People used to kill for their love.$0#$b#While death should be something like a nightmare for a doctor such as myself.. It's a tempting idea for expressing devotion, don't you think?$l",
+         "Sat4": "Some people's dreams are very.. outlandish, to say the least.$h#$e#There's just some romance daydreams that can't come true. Happily ever after only exists for people like me and you..$h#$b#..together.$l",
+         "Sat6": "Certain erotica novels have great descriptions of anatomy, and intercourse.$0#$e#If you'd like.. I could recommend you a few to read. I'm *positive* you'll like them.$l#$b#I only read such literature that's got similarities to you, after all.$l", 
+         "Sat8": "Have you any interest in medical books?$0#$b#If not.. then I'm sure I could make a good teacher. Actions *are* better than words.$4",
+         "Sat10": "If you were to die, I'd preserve you like a fossil.$4#$e#That wouldn't be so bad, though. I promise I'd keep you polished.$4", 
+         
+         "Sun2": "Imagine having a patients life in your hands.. and failing to keep them alive.$s#$b#It's quite a haunting thought, isn't it?$0#$e#Ah, but don't you worry! I'd do everything within my knowledge to keep you safe.$h",
+         "Sun4": "Let's set aside this patient-doctor relationship of ours for now. There's *so* much we need to learn about each other.$h#$b#I.. want to take care of you as moe than just your doctor. I want to care for you in every aspect possible.$l",
+         "Sun6": "I'm very happy you're making friends, @. It's good for your mental state to not be alone.$h#$e#But, you don't *really* need anyone except me, you know. I'll make sure you never feel loneliness again.$l",
+         "Sun8": "Young people like Sam make such rash decisions.. It worries me to see you associating with that kind of crowd.$s#$e#Be careful around guys like him, okay? Really, it's for the greater good that you ignore him in general.$h",
+         "Sun10": "Who knows the kinds of danger you'd be in without me around!$1#$b#Keeping you safe is all that matters. Even if others have to be hurt for that.$4",
+         
+         "event_george1": "I can always count on your support, @.$h#$b#You see, George, I'm just trying to help you. @ wouldn't stray you wrong.",
+         "event_george2": "*Sigh*$s#$b#Look, George. If you want to behave like this I'm going to have to tell your wife. I don't think she'll be happy.",
+         "event_aerobics1": "Thanks, @. I appreciate that.$h",
+         "event_aerobics2": "*Sigh*... your rude manners will have to be trained.$s",
+         "event_heart1": "Oh! Hospitals make you nervous, huh?#$b#You don't have anything to worry about, if you get scared, just hold on to me, okay?$h#$b#You're always safe here with me.",
+         "event_heart2": "Is that so? Just make sure you're not working *too* hard.$s#$b#It'd be a.. shame if you were to be here more often.",
+         "event_heart3": "Um. Okay... If you say so.$s",
+         "event_grave1": "...You're right.#$b#...Thanks.",
+         "event_grave2": "*sigh*$s",
+         
+         "summer_Mon2": "Try not to go out too much, @. I'd hate for you to get heatstroke, especially with how hard you work.$0#$e#If that happens, though, I'll make sure you're nursed back to health.$l",
+         "summer_Mon4": "@, were you hanging around Sebastian earlier? I can smell the smoke on your clothes.$s#$b#Just be careful, alright? While I trust *you're* not smoking, smoke inhalation isn't good for your lungs either..$s",
+         "summer_Mon6": "It's so nice having a 'friend' in town. Especially one as amazing as you.$h#$e#Though, I can't say my heart nor brain feels content with the thought of being just a friend of yours forever..$s",
+         "summer_Mon8": "You... You aren't going into the mines, are you, @?$8#$b#Please, don't go anymore. I can't stand the thought of losing you.$5",
+         "summer_Mon10": "If you're feeling too hot, you can always strip off a few layers.$4#$b#I wouldn't mind at all. I've seen my fair share of nude bodies.$4#$e#Not that any of them would match the beauty of yours.$1",
+         
+         "summer_Tue2": "If you ever need a place to keep out the heat, you can stay upstairs as long as you need.$4",
+         "summer_Tue4": "I'd never mind pushing back someone else's appointment if you needed some.. special care.$4",
+         "summer_Tue6": "You're feeling a bit hot, @. Are you sure you haven't been working too hard?$s#$b#Right, right.. sorry. I just can't help but worry about you, you know.. My heart breaks at the thought of you in pain.$s",
+         "summer_Tue8": "If it ever makes you uncomfortable that Maru works here, I'll arrange letting her go.$2#$b#I wouldn't want you to *ever* think I have my eyes on another.$4",
+         "summer_Tue10": "Wouldn't it be tragic if everyone just.. got *really* sick, and wouldn't be cured?$0#$e#Not including you, of course! I'd spend all my time making sure you were cured.$l#$b#Even if I could be spending that time helping others, I'd make sure that you were in perfect condition first.$l",
+         
+         "summer_Wed2": "There's less business for me during this season, so I'd appreciate every second you came to see me.$h#$b#Hm? Have I asked others to do the same? Well, I know everyone else decently well, it's only you that I don't.$0#$e#And I can't say that I *don't* want to know you on a more personal level.$l",
+         "summer_Wed4": "It's always great to take a walk now and again.$0#$e#I wouldn't mind you coming with me. We could hold hands too$4$b#!$8$e#J-Just you're not bothered! It'll let everyone know you're busy with someone else.$4",
+         "summer_Wed6": "I always try to wish for the safety and well-being of others.. but I hope all these girls choke when they try to talk with you.$5",
+         "summer_Wed8": "I'm getting older.. It can be so exhausting.$s#$b#With you around, though, I feel younger. There's so much more life within me when you're by my side.$h#$e#I think I'd get overwhelmed if you suddenly left my life.. so don't go doing that, okay?$s#$b#Or else I might have to drag you right back in it.$l",
+         "summer_Wed10": "Would you like to go swimming today? I'll make sure nobody else is around.$0#$e#..Incase you want to pull our swimsuits to the side and get a better 'workout' in.$4",
+         
+         "summer_Thu2": "Another day, another patient taking my time away from @...$2#$e#Oh! @!$7#$b#I-I was just thinking about you.$4",
+         "summer_Thu4": "Yoba... you're so bad for my health, @.$h#$b#The way you make my heart race constantly can't be good.$4",
+         "summer_Thu6": "@, I hope you can say that you trust me with your life.$l#$b#That's what everyone in town says to me, but the words don't mean anything unless they'd be from you.$l#$e#..Plus, your the only life I care about protecting.$l",
+         "summer_Thu8": "I hope you always stay this close with me.$h#$b#You're just so fragile, you know? Everyone in this town could be out to get you..$s#$e#Not me, of course! I just want you to know that I'll *always* be here to protect you.$l",
+         "summer_Thu10": "I wish I had more personal time. I'd spend it all on you.$h#$b#Sitting on the beach with you, relaxing to the sounds of the waves, and the feeling of you in my arms..$l#$e#The only problem would be those who try to peep on you. I don't think I'd be able to fully let my guard down given that..$a",
+
+         "summer_Fri2": "I've been thinking about you a lot lately..$4#$b#W-Why you ask?!$7#$u#Well, um, it's a doctor's job to worry about his patients!$1",
+         "summer_Fri4": "If you want to hang out in my apartment, that's okay with me.$1#$b#..I can't promise that you'll leave, though.$l",
+         "summer_Fri6": "People don't get sick much during this season. It's nice, in a way.$0#$e#I can't say with complete certainty that it *is* nice because it means everyone is avaliable and capable of being near you, and speaking with you, and..$s#$b#%Harvey begins trailing off, and talking on and on about all the 'terrible' things that are capable of happening. You never thought a doctor would want bad for their patients.",
+         "summer_Fri8": "I'm not scared of a little bloodshed for you, @. I'm used to it all by now.$l",
+         "summer_Fri10": "Just a moderate amount of sunlight is okay, but getting sunburnt is a serious deal.$0#$b#You getting hurt is my worst nightmare. It'd be better if you weren't allowed to step outside again.$s#$e#That's the only way to make sure such couldn't happen.$s",
+         
+         "summer_Sat2": "Has your day been as slow as mine?$0#$b#..No?$5#$b#You.. haven't been spending time with anyone else, have you?$s",
+         "summer_Sat4": "If anyone were to try and steal your love from me.. I'd have to make sure their heart could never beat for you again.$5",
+         "summer_Sat6": "Don't go overworking yourself! It's an order from the doctor.$0#$b#I know what's best for you, so don't go refusing me!$4",
+         "summer_Sat8": "Life would be much less stressful if I didn't live alone..$s#$e#Tell me, @, don't you ever get lonely? Wouldn't you like to be kept company? Just say the word, and I'll keep you company for as long as you want.$h#$b#Though, if you were to allow me the pleasure of being in your home, I can't say I would leave. Not without you, at least.$l",
+         "summer_Sat10": "People like Shane would be better of dead, don't you think? No life goals, nothing to live for.$0#$e#I hate how he's trying to steal you away from me. Trying to drag you down into his miserable life.$5",
+         
+         "summer_Sun2": "Make sure you're putting on enough sunscreen!$0#$b#I can always help you.. if needed.$4",
+         "summer_Sun4": "Thinking about all the awful, dangerous people in this world makes me worry. I wish you would never stray from my side.$2",
+         "summer_Sun6": "If you keep going to the mines, you could end up in a similar situation to George.$5#$b#..But maybe that'd make taking care of you easier. No more of that fussing..$4",
+         "summer_Sun8": "Nothing is too far for you.$l#$b# There isn't a pain that'd compare to losing you because of somebody else.$2",
+         "summer_Sun10": "Being high in the air doesn't sound *that* bad anymore.$0#$b# Up there, nobody would ever be able to reach you.$4",
+         
+         "fall_Mon2": "Fall is here, and it's time to begin putting away your summer clothes.$0#$b#You won't be hearing a complaint from me, though! There's a certain *someone* I'd rather not have showing all that skin to just anyone in town.$h",
+         "fall_Mon4": "Sorry for being so red... I just can't help the way my body reacts to your presence.$4",
+         "fall_Mon6": "Sometimes I feel like I should perform a drug test after I'm with you.$h#$b# You just give me such a natural high.$l#$e#I doubt it'll *ever* go away.$4",
+         "fall_Mon8": "I used to think that I was just the doctor of the town.. but now I know my life just needed you in it. Nothing else matters.$4",
+         "fall_Mon10": "My worries simply vanish whenever you come and talk to me.$1#$b#After knowing this feeling.. I don't think I can ever let you go. You're my happiness.$4",
+         
+         "fall_Tue2": "As the colder seasons roll around, people are more likely to contract an illness.$0#$b#It can be stressful knowing that the health of the townspeople is in my hands.. I wish I had someone to help me relax.$s#$e#I'm sure farming is rather stressful, too, you have the health of your crops relying on you.$0#$b#Do you.. ever wish you had someone as well?$l",
+         "fall_Tue4": "I've come to only love and care for one thing in the world.$0#$b#What is it, you ask?.. Maybe I'll tell you soon.$4",
+         "fall_Tue6": "Make sure you keep a good diet, your performance may change based on what you put into your system!$h#$b#Of course, I can give you many recommendations. I'm sure you'll love what I choose.$h#$e#I've taken into account your personal tastes, so these specific meals should not only be delicious to you, but remind you of me with each bite.$l",
+         "fall_Tue8": "I apologize if I ever come across as.. too much.$2#$b#You'll understand when you start loving me how I love you.$4",
+         "fall_Tue10": "There's a certain charm to the colors of fall, isn't there?$h#$b#The beautiful red.. A certain liquid of the same color is also quite lovely.$h#$e#I've seen it often in my line of work, so it doesn't bother me. Though, if it's unpleasent to you, I'll make sure to come *home* clean from any.. clients.$l",
+         
+         "fall_Wed2": "I've said this to some others here, but I strongly recommend against going into the mines.$0#$b#It's an incredibly dangerous place, and as our newest resident here, I don't want anything bad to happen to you.$s#$e#There's so much more time for us to spend together, and get to know each other. If I missed out on the opportunity to do so with you, I wouldn't forgive myself.$0",
+         "fall_Wed4": "Maybe my heart beats only for you.$4#$e#Even at the end of time, my love for you would still be there.$4",
+         "fall_Wed6": "I've begun imagining you within my arms while you sleep.$4#$b#Of course, I could never be asleep beside you. I don't ever want to take my eyes off of you.$4",
+         "fall_Wed8": "I'll never leave you desiring anything, @. I promise to fufill your ever want.$4",
+         "fall_Wed10": "The only thing that should matter in your life is me.$0#$b#I could be your protector and provider.$l#$e# You have no need for anything or anyone else, don't you understand that?$l",
+         
+         "fall_Thu2": "You might not know me too well yet, but I've come to know quite a bit about you.$4#$b#Of course, I'd be happy to tell you anything you wish to know about myself.$h#$e# It's important for lov- *ahem*, for friends to know each other well.$l",
+         "fall_Thu4": "Don't hesitate to let me know if I ever do anything wrong. I'd conform my whole being to fit your ideal.$4",
+         "fall_Thu6": "The only way you could ever get away from me would be death..$l#$b#And even that would be caused by me.$0#$b# For loving you too much, that is.$h",
+         "fall_Thu8": "I'm happy I won't have to rely on my last resort to have you in my life forever.$4",
+         "fall_Thu10": "It's been so hard restraining myself every day.$0#$b#All I want is to have you solely to myself. Is that too much to ask?$s",
+         
+         "fall_Fri2": "Did you recieve my gift?$0#$b#You didn't..?$2#$b#*mumble*I bet it was that damned Alex.$5#$e#Don't worry about it. I'll bring it in person next time.$1",
+         "fall_Fri4": "It's so hard pretending to be fine with the way everyone stares at you.$5#$b#I just wish you'd tell them off already.. Unless you'd like me to step in.$0",
+         "fall_Fri6": "Are you a fan of fall, @?$0#$e#I don't mind it myself, as the leading season tends to be the time where most people become sick.$h#$b#Less competition for me to deal with is what that means.$l#$e#Though it also means I have my hands fuller, which leads to less time to wat-- be around you.$s#$b#Come and visit me a lot, okay? I worry whenever I don't get to see you.$h",
+         "fall_Fri8": "I'd love to fly away with you. Hopefully into an entirely new place where only we exist.$4",
+         "fall_Fri10": "If I were to ever pass before you, I'd make sure to come back as a ghost.$4#$b# I'd hate to leave you alone. I wouldn't want anyone to think you'd be 'on the market'.$l",
+         
+         "fall_Sat2": "I saw Sebastian near your farm last night.. I hope he didn't get too close to you.$s#$e#If you ever think I need to step in, just let me know, and I will, okay?$0#$b#I'll ensure your safety.$l",
+         "fall_Sat4": "Would you like to come over for some wine tonight? I can tell you've been a bit more tense than usual.$0#$e#Someone has been following you? T-That's awful!$3#$b# Who would do such a thing?$4",
+         "fall_Sat6": "I keep imagining myself living a peaceful life on a farm..$4#$b#Nobody else around to bother, just a peaceful and private place for me and my beloved.$4",
+         "fall_Sat8": "You couldn't begin to know the things I'd do to have you all to myself.$4#$b#The health of our townspeople is a very fragile thing.$0",
+         "fall_Sat10": "If you're every angry at me, hit me all you'd like. You can kick and scream at me until you feel better.$4#$b#I don't mind if you want to hurt me. I happily wear your bruises.$4",
+         
+         "fall_Sun2": "Sometimes when I think of you being this kind to somebody else, my hands end up clenched$5#$b#I don't even notice the blood or broken shards until I was able to push away those silly thoughts!$1",
+         "fall_Sun4": "I can't help but fall into a world of daydreams whenever you cross my mind, @.$4#$b#The only bad part is that ends up happening all the time!$0#$e#You're always on my mind.$4",
+         "fall_Sun6": "I'm not sure if you noticed.. but last time you were out, I saw Haley creeping on you, taking pictures whenever you'd happen to bend over.$5#$b#I thought you should know about it. I didn't know she had such a disgusting side to her.$0#$b#I'll tell her off if I catch her again, don't worry.$4",
+         "fall_Sun8": "It's starting to get a bit colder out$0#$b#I'll give you a spare coat of mine, if you'd like.$h#$b#I'm sure it'd look just as good as I imagine it would on you.$l",
+         "fall_Sun10": "I'm sorry if I ever make rash decisions..$0#$b#Usually, I always think things over, but my mind gets scattered when it comes to you and your affairs.$0",
+         
+         "winter_Mon2": "Even if I'm not the one who you give your heart to, I'll have it in the end.$l#$b#Whether it's still pumping oxygen is irrelevant.$1",
+         "winter_Mon4": "You're shivering, @! Stay here in the clinic for a while, okay?$0#$e#Though, you do look cute like this. Like a helpless, shaking animal. I want nothing more than to warm you up, and keep you safe.$l",
+         "winter_Mon6": "No matter how old I get, I'll never forget all the memories of us getting there together.$4#$b#You'll be with me until the end, right?$2",
+         "winter_Mon8": "Nothing warms me up quite like seeing you on a cold day.$1#$b#Would you like to come over for some hot tea?$0#$e#It's imported so it may have a.. different taste. Nothing to worry over, though.$4",
+         "winter_Mon10": "You've got the warmest glow. I wish I could just capture you and keep your sunshine with me in this frigid weather.$4",
+         
+         "winter_Tue2": "Even when I've got my eyes closed, I still see your face. You've started to plague my dreams, too.$1#$b",
+         "winter_Tue4": "Another day with the ground covered in a sheet of pure white snow. It's so cold out.$s#$e#Are you cold, @? If you are, perhaps we could warm each other up.$l",
+         "winter_Tue6": "It's kind of you to visit despite the harsh weather conditions.$0#$e#You're free to stay as long as you'd like. I'd even prefer for you to stay until all the snow has melted. I don't want you catching a cold.$l",
+         "winter_Tue8": "Would you like me to lend you a sweater? It must be cold in your farm clothes.$0#$b#Plus, everyone would see and smell me on you.. Wouldn't that make us seem like a couple?$4",
+         "winter_Tue10": "*Yawn* This kind of weather makes me so tired. I wish I could have you lying beside me at night.$h#$e#Though I'm not sure how much sleeping I would be doing. Watching you rest would be better than any dream, in my opinion.$h",
+         
+         "winter_Wed2": "Stay with me, I hate knowing how the cold must be biting you.$2",
+         "winter_Wed4": "The weather outside feels as cold as my heart has been kept.$s#$b#You've been slowly warming it up for me, though. And while I *do* appreciate that, I wish you'd speed up this process.$0#$e#By becoming mine, that is.$l",
+         "winter_Wed6": "Wouldn't you prefer to be with someone who knew how to keep you safe and healthy, @?$h#$b#I'm not necessarily bragging, but it's true that I'm the only one with such qualifications here!$l",
+         "winter_Wed8": "If you were just a limp body, it'd be easier to keep you by my side.$4#$b#..but, I hope I won't have to resort to that.$5",
+         "winter_Wed10": "Truly, the only one for me is you, @. I'd have to *steal* your heart if it were to belong to someone else.$4.",
+         
+         "winter_Thu2": "The best way to monitor a patients' health is to have them check-up frequently.$0#$b#It'd just be easier if you stayed with me, don't you agree? I hate having to worry about you.$4",
+         "winter_Thu4": "I promise I wouldn't do anything that'd intentionally hurt someone, accidents just tend to happen!$0#$b#It can happen to anyone... Including those who talk and stare at you.$5",
+         "winter_Thu6": "The last season of this year, and I'm still awaiting for the one I adore most to reciprocate this feeling of longing.$s#$e#Who, you ask? I'm sure if you look inside yourself, you'll *definitely* find the answer.$h",
+         "winter_Thu8": "Everything would just be so much easier if you distanced yourself from everyone else.$0#$b#A doctor should never hurt his patients, but you're forcing my hand.$5",
+         "winter_Thu10": "I like to imagine all the guys who talk to you lying in one of the clinics' beds$0#$b#All of their lives completely dependent on whether or not I choose to save them..$h",
+         
+         "winter_Fri_2": "It'd be a shame if someone who's taking a liking to you ended up in a comatose..$5",
+         "winter_Fri4": "It must be fate that you're drawn to me.$4#$b#I'm glad you choose to come to me instead of anyone else.$4",
+         "winter_Fri6": "I don't mind others getting sick, even if it puts more work on my plate.$0#$b#Less people to bother you, and more money for me to spoil you.$1#$b#It's lovely, isn't it?$4",
+         "winter_Fri8": "Sometimes I have to do little practices to keep my patience when it comes to you, @.$0#$e#It's already nearing the end of the year, yet you still aren't mine.$a#$b#While I may grit my teeth and bear with it for now, I won't stay this nice forever.$a#$e#You tempt me more and more everyday, darling.$l",
+         "winter_Fri10": "I don't understand why you keep trying to go off with everyone else.$5#$b#I'm protecting you from them all. They wouldn't be as lenient as me.$0",
+         
+         "winter_Sat2": "You haven't taken interest in anyone else, have you @?$s#$b#I'd hate to think you're just stringing me along.$s#$b#Then I really would have to remove everyone else!$1",
+         "winter_Sat4": "Do you believe in wishing upon stars?$0#$b#I used to not, but it seems mine is on it's way to coming true.$4",
+         "winter_Sat6": "%Harvey doesn't seem to notice your presence, but you can hear his murmuring.#$b#My lovely darling @.. So wonderful and perfect. There's not a thing I wouldn't do for them..$l",
+         "winter_Sat8": "Sometimes I think about removing your vocal cords, @, even though I know I shouldn't harm you like that..$s#$b#I hate how everyone else gets to hear my sweet angel's voice. I want it to be reserved only for me.$0",
+         "winter_Sat10": "No matter how many times I say it, I want it engraved into your brain that I'd do *anything* for you.$4#$b#It doesn't matter who I need to get rid of, who needs to be left with a broken heart. Nothing is too much for you.$4",
+         
+         "winter_Sun2": "It'd be quite a shame if Alex were to end up in some freak accident, wouldn't it be?$0#$b#Especially if it left him like his own grandpa..$h",
+         "winter_Sun4": "You confuse me sometimes, @.$0#$b#You're always getting so close with everyone else, I feel left in the background once again.$2#$b#Do I have to make them all disappear in order to get your attention?$4",
+         "winter_Sun6": "With how cold it's been, you haven't gotten sick, have you?$s#$b#I'd *assume* not, since you haven't came to see me for any treatment.$h#$e#..But you could just be keeping from me. Don't be scared to let me help, alright? I promise I want nothing more than the best for you.$l",
+         "winter_Sun8": "If I'm willing to do these things to you, who knows how much others would hurt you.$5#$b#I'm keeping you safe, don't you realize that?$4",
+         "winter_Sun10": "I promise that if you become mine forever, @, nobody will need to get hurt.$0#$b#Things could get much messier than how they already are.$4",
+         
+         "winter_13": "I'm sure you already know it's my birthday tomorrow.$4#$b#I hope you've come to know me as well as I know you.$4#$b# I'd hate to think your thoughts have others in them.$s",
+         "winter_14": "Would you like to come over tonight and have a glass of wine in celebration?$0#$b# If you have too many, don't fret. You can stay over.$4",
+         "fall_23": "Maybe you should just stay in tomorrow. Spirits Eve is a perfect time for someone to act rash.$0#$b# I'll come over, just incase something does.$4",
+         "fall_28": "Winter is just around the corner..$0#$b#I can help make sure you're always kept warm.$4",
+         
+         "Saloon": "It's always so nice to see you, @.$h#$e#Sit down and have a drink, we can even share if you'd like.$l"
+       }
+       },
+       
+       {
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/MarriageDialogueHarvey",
+       "entries": {
+       
+      "Rainy_Day_0": "It's a myth that rainy weather causes the flu. However, the mud isn't a completely awful thing.#$e#Anyone who tries to come out to us might slip and land on their neck.$h",
+       "Rainy_Day_1": "It was so incredibly lonely living above the clinic by myself...$s#$b#But no longer do I have to simply settle with the thoughts of being by your side, and living with you. My perfect life is all mine now.$l",
+       "Rainy_Day_2": "I woke up early, but I made sure not to wake you. You looked so peaceful.$l",
+       "Rainy_Day_3": "I don't mind the rain. Sure, I can't watch the planes go by, but I can still watch you from the windows.#$e#It feels like I've gone back to before you were *mine*.$h" ,
+       "Rainy_Day_4": "I found some muddy footprints out back.. I've got a bit of 'research' to do on the culprit.$u",
+       "Rainy_Night_0": "How was your day, honey? I was going to do the dishes but I got absorbed in my thoughts of what you were doing.$l",
+       
+       "patio_Harvey": "You know, I found this 'secret diary' of yours earlier.$l#$b#I love reading all your thoughts out here.$l",
+       
+       "Rainy_Night_1": "If you're enjoying life, who cares if it's a little repetitive? All I need is you, after all.$l",
+       "Rainy_Night_2": "You look a little soggy, dear. Why don't you come let me warm you up?$l",
+       "Rainy_Night_3": "The sound of rain gives our minds something to focus on, so we're not distracted by random thoughts.#$e#Not that anything could take my mind off of you...$l",
+       "Rainy_Night_4": "I made us a nice healthy dinner. Only fresh, wholesome ingredients from the valley! [212 214 225 209 200]$h#$e#Eat as much as you'd like. I promise there's nothing in it, there's no reason for me to do such anymore.$h#$b#You're mine now.$l",
+       
+       "Indoor_Day_0": "I think we're all striving to reach some kind of balance in life. An equilibrium of complexity.#$e#For me, meeting you has created that balance.$l",
+       "Indoor_Day_1": "Good morning, @! I made you a nutritious breakfast.[201]#$e#I made it *specially* just for you, so eat up.$l",
+       "Indoor_Day_2": "I'm going to study the medical literature today. It's important for me to keep up-to-date so I can have back-up plans ready!$0#$b# Just in case anyone tries to ruin our perfect future.$u",
+       "Indoor_Day_3": "I'm going to listen to some jazz music and finalize my medical reports today.$0#$e#Don't worry about telling me your plans, I already know them.$l",
+       "Indoor_Day_4": "I was tortured with thoughts of having to sedate you to make you mine.. It's funny to think about now that we've come so far.$h",
+       
+       "Indoor_Night_0": "You look exhausted, dear. Let me give you a massage tonight.$l#$b#..I promise it's only to reduce the inflammation!$l",
+       "Indoor_Night_1": "I took it easy today... I only *thought* about how I could take care of everyone else.$h#$e#It's important to still keep these things on my mind. Homewreckers *do* exist, after all.$u",
+       "Indoor_Night_2": "Good evening... did you finish everything you needed to do today?#$e#Don't worry about me. Just watching you work is enough for me.$l",
+       "Indoor_Night_3": "It was so stressful to think if I'd be able to have you in this future.$s#$b#It's really great to be wed now.$l",
+       "Indoor_Night_4": "I can't help but worry that you could leave me..$s#$b#If only everyone else's respiratory systems would shut down.$u",
+       
+       "Outdoor_0": "I'll keep you safe if anyone tries to bother you. You go on ahead and take care of business, don't worry about any intruders to our perfect life.$l",
+       "Outdoor_1": "Wouldn't this be such a lovely place to raise children?$h#$e#..Not to mention how it would truly be cementation of how our love will last forever, @.$l",
+       "Outdoor_2": "I'm sure you may think at times that I'm not the most exciting guy, but you cannot deny my loyalty.$0#$b#No matter what happens, or what you could do, I will love you forever, and evermore. Never will I leave you, even if I were to die.$l",
+       "Outdoor_3": "@... you... you mean the *world* to me.$l",
+       "Outdoor_4": "As a scientist I'm fascinated by the delicate interplay of poison found inside of plants.#$b#Can you believe that these little things could kill others if they just happened to be slipped inside a meal?$h",
+       
+       "OneKid_0": "You and %kid1 are the most important parts of my life.$l#$b#I'd die without either of you.$l",
+       "OneKid_1": "Little %kid1 is going to have the perfect childhood here. I won't let anyone interfere with our happiness.$l",
+       "OneKid_3": "I always knew being a father would be perfect if it were *our* children!$h",
+       
+       "TwoKids_0": "I've been talking to %kid1 and %kid2 about you. It's important to teach them how *deep* our love truly is.$l",
+       "TwoKids_1": "It's important for children to explore and play to their hearts' content.$h#$b#After all, they may just find their true love early on. I don't want them to have to chase for as long as *I* did!$h",
+       "TwoKids_2": "I wonder if %kid2 will have a love revelation such as I did?$h#$b#Wouldn't that be wonderful? I want nothing more than for our children to find their true love, such as we did.$l",
+       "TwoKids_3": "My life is devoted to you and the children now, and I'm very happy about it. I always dreamed of having a wonderful family with you.$l#$e#There could never be anything better than right here by your side, the proof of our eternal devotion to one another here with us as well. I will forever love you more than anything this world could offer me, @.$l",
+       
+       "Good_0": "@...I still can't believe we're married...$l#$b#Ever since I laid my eyes on you, this was the future I dreamed of.$l",
+       "Good_1": "You rescued me from a life of loneliness, and filled the emptiness in my heart. Thank you.$l",
+       "Good_2": "I knew you were the one for me from the moment you moved here... $l",
+       "Good_3": "How do you *always* look so perfect?$l",
+       "Good_6": "Be careful out there! I have nightmares about your limp body being wheeled into the emergency room.$7",
+       
+       "funLeave_Harvey": "I think I'll take a little walk today. I need to 'visit' some rather.. troublesome villagers.$u",
+       "funReturn_Harvey": "I had a nice day. It's refreshing to spend some time alone with my thoughts. Did you happen run into anyone today, honey?$0#$b# If so, I hope they didn't think to stop or bother you.$5",
+       
+       "spring_1": "It's wonderful to see all the plants return to life.$h#$b#Though, there are a few unfortunate 'things' that are still alive.$5",
+       "spring_12": "Oh, it's a festival tomorrow, isn't it? Why not just stay in with me?$0#$b#I mean, do you *truly* want all those eyes on you? Why do you need attention from another when *I'm* here.$l",
+       "spring_23": "I approve of us going to this festival.$0#$b#I'll keep you in my arms, have you close and hold you tightly as we dance. I'll show everyone that you're mine now, and forever.$l",
+       
+       "summer_1": "Make sure you're careful when you're out in the sun, okay? I wouldn't want you getting burnt!$s#$e#You think I shouldn't worry so much, and should trust you'll be okay..?$8#$b#..I *do* trust you, don't get me wrong. But I worry about you for every second you're not within my reach. Don't you understand how scary it is for you to be away?$s",
+       "summer_10": "I doubt any of the food, or even the soup, will be worthwhile tomorrow. But I'm sure Lewis would be upset if we didn't attend.$3#$b#It's troubling, isn't it? Why does it matter if you are able to impress someone else? Nobody deserves the taste of what's reserved for me.$5",
+       "summer_27": "As summer draws to a close, and the colder season begins, my workload tends to increase.$s#$e#Don't you agree that I should just leave everyone to care for themselves? Who do we really need around but the two of us?$h#$b#Hm? You think it's fine if I have a less time for you? Hah, you can be so funny sometimes, darling..$0#$b#You can trust me when I say that not a single thing in this world could leave me neglecting you. Even if everyone in town got deathly ill, I'd still spend all my time keeping you right by my side.$l",
+       
+       "fall_1": "Make sure and diversify your harvests this fall, my dear.#$e#Or just spend all your time with me... It's really up to you. Though I'm sure being with me would be best.$l",
+       "fall_15": "The fair is quite lively, isn't it? My stomach twists with anxiety just thinking about it.$s#$b#Your lovely face being stared at by everyone, trying to win over your very much taken heart with kiddie prizes.. Truly, it's the worst for me.$s#$e#But, if you'd like to go, I'll make sure to impress you the most, alright? Don't take your eyes off me for anyone else.$l",
+       "fall_26": "No matter the circumstance, I'll always be brave for you.$0#$b#After all, if I'm not protecting you, and keeping you safe, who will be?$0#$e#That being said, make sure you stick right by my side. Even hold onto my arm so I know you're being safe.$l",
+       
+       "winter_1": "The air is very dry during winter. That's why our skin tends to become irritated.#$e#Don't worry, I'll rub a little truffle oil onto your back every night.$l",
+       "winter_7": "Are we going to stop by the ice festival tomorrow? I do enjoy cuddling in front of everyone...$l",
+       "winter_28": "Well, here's to a fantastic year. I have complete confidence that next year will be even better, especially with you by my side!$h"
+       
+      }
+       },
+       
+       // BOUQUET AND PENDANT DIALOGUE
+       {
+       "Action": "EditData",
+       "Target": "Characters/Dialogue/Harvey",
+       "Entries": {
+          "give_flowersA": "!$4#$b#I've been waiting for this day since we met. I've always known you're the one for me.$4",
+          "give_flowersB": "I'm so happy you've finally gifted me these.$4#$b#I was trying to work up the courage. I almost came to the conclusion kidnapping would be easier.$h",
+          "give_pendant": "My secret little wish has finally come true.. 'Happy' can't even begin to describe this feeling that's flowing through me.$h#$b#I promise I'll keep you safe forever. Never will I let another lay their hands on you.$l"
+       }
+       },
+             // SPRING EGG FESTIVAL
+             
+             {
+               "Action": "EditData",
+               "Target": "Data/Festivals/spring13",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "Be careful when you're looking for eggs!$0#$b#I'd hate for you to trip on something I've set for the others.$2"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/spring13",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "I know you enjoy the competition so I held myself back from making sure none of the other participants could compete.$h"
+               }
+            },
+           
+           
+           // SPRING FLOWER DANCE
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/spring24",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "You look incredible.$4#$b# I couldn't imagine being everyone else.. only able to stare. I don't know what I'd do if somebody else got to take your hand.$4"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/spring24",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "Let's dance, shall we?$0#$b#I can't help but want to show off the most magnificant partner in the world. Especially when you're all *mine*.$4"
+               }
+            },
+           
+           // SUMMER LUAU
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/summer11",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "How suspicious would it be if everyone suddenly got ill after eating the soup?$0#$b#..I'd treat *most* of them, of course.$0"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/summer11",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "How about we avoid eating any of this food today? I have a bad feeling about it..$s#$b#What kind of 'bad feeling'? I would rather not say, I don't want you to worry.$0#$b#Just know you're safe by my side.$l"
+               }
+            },
+           
+           // SUMMER MOONLIGHT JELLIES
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/summer28",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "It'd be a shame if everyone were to fall in these deep waters..$0#$b#With all these jellyfish, I don't think I'd be able to treat them in time.$0"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/summer28",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "Make sure you don't get too close to the water!$8#$b#Just stay here within my arms, and watch the jellyfish float along from them. I don't want to risk your health.$0"
+               }
+            },
+           
+           // FALL STARDEW VALLEY FAIR
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/fall16",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "I decided to go to the fortune teller earlier..$0#$b#She said you may make me end up hurting people in the future.$0#$b#But, even as a doctor, I'm fine with that possibility. If it means I'll get to be with you, I'd hurt everyone in the world. If it meant protecting you, I'd *kill* everyone.$l"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/fall16",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "Have as much fun as you want, @!$1#$b#I won't let anyone get in your way. I'll make sure you get everything you want.$4"
+               }
+            },
+           
+           // FALL SPIRIT'S EVE
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/fall27",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "Are you scared too, @?$0#$b#You don't have to worry, we can hide right here in this corner together. You'll be safe here right by my side.. now, and forever.$4"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/fall27",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "Are you scared of the ghosts?$0#$b#To me, that's the least scary thing now. I just keep reminding myself how much more terrifying it'd be to lose you!$h"
+               }
+            },
+          
+           // WINTER ICE FESTIVAL
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/winter8",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "Yoba! It's so cold out here, are you sure you're warm enough, @?$0#$b#I wouldn't mind if you needed to cuddle up to me. I don't want you getting sick.$4"
+               }
+            },
+           
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/winter8",
+               "When": {
+                 "Language": "en",
+                 "Relationship:Harvey": "Dating"
+                 },
+               "Entries": {
+                  "Harvey": "Are you going to participate in the fishing competition, darling?$0#$b#I'll be cheering you on, and my arms will be here to warm you up as soon as you're done.$l"
+               }
+            },
+           
+          // WINTER FEAST OF THE WINTER STAR
+       
+            {
+               "Action": "EditData",
+               "Target": "Data/Festivals/winter25",
+               "When": {
+                 "Language": "en",
+                 "Hearts:Harvey": "0, 1, 2, 3, 4, 5, 6, 7, 8"
+                 },
+               "Entries": {
+                  "Harvey": "If you don't mind me asking, who'd you end up with this year?$0#$b#Ah, it's a secret? I suppose that *is* the rule..$s#$e#It's nice that you're so obedient though. Even if it makes me a bit upset you won't tell me your recipient, I'm glad you follow rules well.$l"
+               }
+            },
+       
+            {
+                "Action": "EditData",
+                "Target": "Data/Festivals/winter25",
+                "When": {
+                  "Language": "en",
+                  "Relationship:Harvey": "Dating"
+                  },
+                "Entries": {
+                   "Harvey": "I've spent my entire year thinking of you. No gift could beat you simply being in my life.$4#$b# Don't ever think about leaving me.$4"
+                 
+                }
+             },
+
+         //less creepy harvey and no harvey maru
+         {
+            "Action": "EditData",
+            "Target": "characters/dialogue/Maru",
+            "Entries": {
+               "Wed8": "I'm glad to have a job at the clinic... Harvey was so nice for offering me a job.$h"
+            }
+         },
+         {
+            "Action": "EditData",
+            "Target": "Data/Festivals/summer11",
+            "Entries": {
+               "Maru_Spouse": "Harvey keeps trying to talk about work but I think today is a good day for us to just relax."
+            }
+         },
+         {
+            "Action": "EditData",
+            "Target": "characters/dialogue/MarriageDialoguePenny/Rainy_Day_1",
+            "Entries": {
+               "Harvey": "I wonder how Maru is doing working with Dr. Harvey at the clinic? #$b# I hope she's having fun!$h"
+            }
+         }
+            ]
+         }

@@ -1,0 +1,9 @@
+{
+  "enableGrass": "true",
+  "enableDigSpot": "true",
+  "enableFruitTrees": "false",
+  "enableMiniMap": "true",
+  "enableTownBuildings": "false",
+  "treesVersion": "vanilla",
+  "winterTilledSoil": "brown"
+}

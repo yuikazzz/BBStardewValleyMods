@@ -1,0 +1,17 @@
+{
+   "Name": "Community Park Decorations",
+   "Author": "FarmerBeans",
+   "Version": "1.1.2",
+   "Description": "Adds Park furniture and decor with its own catalog you can buy from Robin's shop",
+   "UniqueID": "FarmerBeans.ParkDecorCP",
+   "UpdateKeys": ["Nexus:31367"],
+    "Dependencies": [
+        {
+            "UniqueID": "sophie.Calcifer",
+            "IsRequired": true
+        }
+    ], 
+   "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+   }
+}

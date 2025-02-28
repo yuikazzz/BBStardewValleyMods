@@ -1,0 +1,117 @@
+{
+	"Changes" : [ 
+		{
+		//add ice cream sandwich food
+		"Action": "EditData",
+		"Target": "Data/Objects",
+		"Entries": {
+			"FarmerBeans.ParkIceCreamSandwich": {
+				"Name": "Ice Cream Sandwich",
+				"DisplayName": "{{i18n: ParkIceCreamSandwich}}",
+				"Description": "{{i18n: ParkIceCreamSandwichDesc}}",
+				"Type": "Basic",
+				"Category": -17,
+				"Price": 100,
+				"Texture": "Mods/{{ModId}}/{{ImageAssetId}}",
+				"SpriteIndex": 387,
+				"Edibility": 40,
+				"IsDrink": false,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"CanBeGivenAsGift": true,
+				"CanBeTrashed": true,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": true,
+				"ExcludeFromRandomSale": false,
+				"ContextTags": [
+					"color_dark_brown",
+					"food_sweet"
+				],
+				"CustomFields": null
+			},
+			"FarmerBeans.ParkSourSlimes": {
+				"Name": "Sour Slimes",
+				"DisplayName": "{{i18n: ParkSourSlimes}}",
+				"Description": "{{i18n: ParkSourSlimesDesc}}",
+				"Type": "Basic",
+				"Category": -17,
+				"Price": 90,
+				"Texture": "Mods/{{ModId}}/{{ImageAssetId}}",
+				"SpriteIndex": 388,
+				"Edibility": 5,
+				"IsDrink": false,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"CanBeGivenAsGift": true,
+				"CanBeTrashed": true,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": true,
+				"ExcludeFromRandomSale": false,
+				"ContextTags": [
+					"color_yellow_green",
+					"food_sweet"
+				],
+				"CustomFields": null
+			},
+			"FarmerBeans.ParkStardropSorbet": {
+				"Name": "Stardrop Sorbet",
+				"DisplayName": "{{i18n: ParkStardropSorbet}}",
+				"Description": "{{i18n: ParkStardropSorbetDesc}}",
+				"Type": "Basic",
+				"Category": -17,
+				"Price": 120,
+				"Texture": "Mods/{{ModId}}/{{ImageAssetId}}",
+				"SpriteIndex": 389,
+				"Edibility": 45,
+				"IsDrink": false,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"CanBeGivenAsGift": true,
+				"CanBeTrashed": true,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": true,
+				"ExcludeFromRandomSale": false,
+				"ContextTags": [
+					"color_pale_violet_red",
+					"food_sweet"
+				],
+				"CustomFields": null
+			},
+			"FarmerBeans.ParkCottonCandy": {
+				"Name": "Ice Cream Sandwich",
+				"DisplayName": "{{i18n: ParkCottonCandy}}",
+				"Description": "{{i18n: ParkCottonCandyDesc}}",
+				"Type": "Basic",
+				"Category": -17,
+				"Price": 80,
+				"Texture": "Mods/{{ModId}}/{{ImageAssetId}}",
+				"SpriteIndex": 417,
+				"Edibility": 5,
+				"IsDrink": false,
+				"Buffs": null,
+				"GeodeDropsDefaultItems": false,
+				"GeodeDrops": null,
+				"ArtifactSpotChances": null,
+				"CanBeGivenAsGift": true,
+				"CanBeTrashed": true,
+				"ExcludeFromFishingCollection": true,
+				"ExcludeFromShippingCollection": true,
+				"ExcludeFromRandomSale": false,
+				"ContextTags": [
+					"color_pink",
+					"food_sweet"
+				],
+				"CustomFields": null
+			}
+
+		}
+	}
+	
+]
+}

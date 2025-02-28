@@ -1,0 +1,11 @@
+{
+    "Name": "YandereHarvey",
+    "Author": "1d1A",
+    "Version": "1.0.4",
+    "Description": "Turns Harvey into a Yandere",
+    "UniqueID": "1d1A.YandereHarvey",
+    "UpdateKeys": [ "Nexus:0" ],
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    }
+  }

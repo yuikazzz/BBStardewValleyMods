@@ -1,0 +1,150 @@
+{
+	"Changes": [
+		//set up the behaviors for the catalogue shop interface
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				"{{CatShopId}}": {
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Items": [
+						{
+							"Price": 0,
+							"AvailableStockLimit": "Global",
+							"AvoidRepeat": false,
+							"UseObjectDataPrice": false,
+							"IgnoreShopPriceModifiers": false,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"AvailableStockModifiers": null,
+							"AvailableStockModifierMode": "Stack",
+							"Condition": null,
+							"Id": "Default",
+							"ItemId": "ALL_ITEMS (F)",
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"PerItemCondition": "ITEM_CONTEXT_TAG Target {{CollectionName}}"
+						},
+						//walls
+			                {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkWalls:0",
+						        "ItemId": "(WP)FarmerBeans.ParkWalls:0"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkWalls:1",
+						        "ItemId": "(WP)FarmerBeans.ParkWalls:1"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkWalls:2",
+						        "ItemId": "(WP)FarmerBeans.ParkWalls:2"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkWalls:3",
+						        "ItemId": "(WP)FarmerBeans.ParkWalls:3"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkWalls:4",
+						        "ItemId": "(WP)FarmerBeans.ParkWalls:4"
+						    },						 
+						  
+						    //floors
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkFloors:0",
+						        "ItemId": "(WP)FarmerBeans.ParkFloors:0"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkFloors:1",
+						        "ItemId": "(WP)FarmerBeans.ParkFloors:1"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkFloors:2",
+						        "ItemId": "(WP)FarmerBeans.ParkFloors:2"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkFloors:3",
+						        "ItemId": "(WP)FarmerBeans.ParkFloors:3"
+						    },
+						    {	
+						        "Price": 0,
+						        "UseObjectDataPrice": false,
+						        "Id": "(WP)FarmerBeans.ParkFloors:4",
+						        "ItemId": "(WP)FarmerBeans.ParkFloors:4"
+						    }
+						    
+					],
+					"CustomFields":{
+						"HappyHomeDesigner/Catalogue":"true"
+					}
+				}
+			},
+			"When": {
+				"Separate Park Catalogue": "true"
+			}
+		},
+		//Add the catalogue furniture item
+		{
+			"Action": "EditData",
+			"Target": "Data/Furniture",
+			"Entries": {    
+				"{{CatItemName}}": "{{CatItemName}}/other/1 2/1 1/1/20000/2/{{i18n:{{CatItemi18n}}}}/688/Mods\\{{ModId}}\\{{ImageAssetId}}/true"
+			},
+			"When": {
+				"Separate Park Catalogue": "true"
+			}
+		},
+		//Add Catalogue Tile Actions (Calcifer)
+		{
+			"Action": "EditData",
+			"Target": "sophie.Calcifer/FurnitureActions",
+			"Entries": {
+				"(F){{CatItemName}}": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop {{CatShopId}}"
+						}
+					]
+				}
+			},
+			"When": {
+				"Separate Park Catalogue": "true"
+			}
+		},
+		
+		// Add  Catalogue to Robin's Shop
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"TargetField": [ "{{CatSeller}}", "Items" ],
+			"Entries": {
+				"{{CatItemName}}": {
+					"Id": "{{CatItemName}}",
+					"ItemId": "(F){{CatItemName}}",
+					"Price": "{{CatPrice}}"
+				}
+			},
+			"When": {
+				"Separate Park Catalogue": "true"
+			}
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"Changes" : [
+		{
+			"Action": "EditData",
+			"Target": "Data/AdditionalWallpaperFlooring",
+			"Entries": {
+				"FarmerBeans.ParkWalls": {
+					"ID": "FarmerBeans.ParkWalls",
+					"Texture": "Mods\\{{ModId}}\\ParkWalls",
+					"IsFlooring": false,
+					"Count": 5
+				}
+			}
+		},{
+			"Action": "EditData",
+			"Target": "Data/AdditionalWallpaperFlooring",
+			"Entries": {
+				"FarmerBeans.ParkFloors": {
+					"ID": "FarmerBeans.ParkFloors",
+					"Texture": "Mods\\{{ModId}}\\ParkFloors",
+					"IsFlooring": true,
+					"Count": 5
+				}
+			}
+		}
+	]
+}

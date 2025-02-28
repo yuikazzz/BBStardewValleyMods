@@ -1,0 +1,154 @@
+{
+	"Format": "2.0.2",
+	"ConfigSchema": {
+		"Separate Park Catalogue": {
+			"AllowValues": "true, false",
+			"Default": "true"
+		},
+		"Park Catalogue Price": {
+			"Default": "100000"
+		},
+		"Rare items from Farmer's Market stalls" : {
+			"AllowValues": "true, false",
+			"Default" : "false"
+		}
+	},
+	"DynamicTokens": [ 
+		{
+			"Name": "CatShopID",
+			"Value": "FarmerBeans.ParkCatalogueShop"
+		},
+		{
+			"Name": "CollectionName",
+			"Value": "FarmerBeans_ParkCatalogueCollection"
+		},
+		{
+			"Name": "CatItemName",
+			"Value": "FarmerBeans.ParkFurnitureCatalogue"
+		},
+		//don't forget to add this value to i18n/default with the Catalogue Name
+		{
+			"Name": "CatItemi18n",
+			"Value": "ParkFurnitureCatalogue"
+		},
+		{
+			"Name": "CatSeller",
+			"Value": "Carpenter"
+		},
+		{
+			"Name": "CatPrice",
+			"Value": "{{Park Catalogue Price}}"
+		},
+		{
+			"Name": "ImageAssetId",
+			"Value": "furniture_park"
+		},
+		{
+			"Name" : "ImageAssetLocation",
+			"Value" : "assets/furniture_park.png"
+		},
+		//conditional if the catalogue is enabled
+		{
+			"Name": "CatalogItemFields",
+			"Value": "Mods\\{{ModId}}\\{{ImageAssetId}}"
+		},
+		{
+			"Name": "CatalogItemFields",
+			"Value": "Mods\\{{ModId}}\\{{ImageAssetId}}/true/{{CollectionName}}",
+			"When": {
+				"Separate Park Catalogue": "true"
+			}
+		},
+		//Conditional Hatmouse normal
+		{
+			"Name": "HatMouseOption",
+			"Value" : "OpenShop HatMouse"
+		},
+
+		//conditional items normal
+		{
+			"Name": "BookSellerBooks",
+			"Value":"SkillBook_0, SkillBook_1, SkillBook_2, SkillBook_3, SkillBook_4"
+		},
+		{
+			"Name" : "BookSellerFurniture",
+			"Value" : "1285,1283,1285,1287,1289"
+		},
+		
+		//conditional items rare
+		{
+			"Name": "BookSellerBooks",
+			"Value": "Book_Mystery, Book_Artifact, Book_WildSeeds, Book_Crabbing, Book_Trash, Book_Bombs, Book_Roe, Book_Woodcutting, Book_Defense, Book_Friendship, Book_Void, Book_Speed, Book_Marlon, Book_PriceCatalogue, Book_QueenOfSauce, Book_Diamonds, Book_AnimalCatalogue, Book_Speed2",
+			"When": {
+				"Rare items from Farmer's Market stalls": "true"
+			}
+		},		
+		{
+			"Name" : "BookSellerFurniture",
+			"Value" : "ShortBookcase,JojaBookcase,GrayJojaBookcase,JunimoBookcase,WizardBookcase,LargeWizardBookcase,ShortWizardBookcase,SmallWizardBookcase,RetroBookcase",
+			"When": {
+				"Rare items from Farmer's Market stalls": "true"
+			}
+		},
+		{
+			"Name": "HatMouseOption",
+			"Value" : "OpenShop FarmerBeans.ParkStallMouseShop",
+			"When" : {
+				"Rare items from Farmer's Market stalls": "true"
+			}
+		}
+	],
+	"Changes": [
+		//optionally set up the catalogue
+		{
+			"Action": "Include",
+			"FromFile": "data/catalogue.json",
+			"When" :{
+				"Separate Park Catalogue": "true"
+			}
+		},
+		{
+			"Action": "Include",
+			"FromFile": "data/market_stalls.json"
+		},
+		//set up furniture items
+		{
+			"Action": "Include",
+			"FromFile": "data/furniture.json"
+		},
+		//set up Wallpaper and FLooring items
+		{
+			"Action": "Include",
+			"FromFile": "data/wallpaper_flooring.json"
+		},
+		//set up new objects (ice cream vendor items)
+		{
+			"Action": "Include",
+			"FromFile": "data/objects.json"
+		},
+		//load the image for new furniture
+		{
+			"Action" : "Load",
+			"Target": "Mods/{{ModId}}/{{ImageAssetId}}",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		{
+			"Action" : "Load",
+			"Target": "Mods/{{ModId}}/{{ImageAssetId}}Front",
+			"FromFile": "assets/{{TargetWithoutPath}}.png"
+		},
+		
+		//load the image for new walls 
+		{
+			"Action" : "Load",
+			"Target": "Mods/{{ModId}}/ParkWalls",
+			"FromFile": "assets/park_walls.png"
+		},
+		//load the image for new floors 
+		{
+			"Action" : "Load",
+			"Target": "Mods/{{ModId}}/ParkFloors",
+			"FromFile": "assets/park_floors.png"
+		}	
+	]
+}

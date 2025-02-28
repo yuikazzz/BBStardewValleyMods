@@ -1,0 +1,27 @@
+Changelog
+=====
+
+-----
+1.0.0
+-----
+Initial Release
+
+-----
+1.0.1
+-----
+Wallpapers and flooring added to the park catalogue
+
+-----
+1.1.0
+-----
+Market stalls are interactive shops with optional rare items
+
+-----
+1.1.1
+-----
+Compatibility update for other mods that affect shops
+
+-----
+1.1.2
+-----
+Fixed missing sprites for tan chair, wide benches and ice cream cart items

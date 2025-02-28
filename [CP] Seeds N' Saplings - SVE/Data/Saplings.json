@@ -1,10 +1,13 @@
 {
   "Changes": [
+
+    //************************************
+    //      Nectarine Sapling
     {
       "LogName": "Non Seasonal Nectarine",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Nectarine.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/Nectarine.png",
       "When": {
         "EnableNectarine": true,
         "SeasonalSaplingLeaves": false,
@@ -15,7 +18,7 @@
       "LogName": "Seasonal Nectarine",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Nectarine.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/Nectarine.png",
       "When": {
         "EnableNectarine": true,
         "SeasonalSaplingLeaves": false,
@@ -26,7 +29,7 @@
       "LogName": "Non Seasonal Nectarine Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Nectarine_{{season}}.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/Nectarine_{{season}}.png",
       "When": {
         "EnableNectarine": true,
         "SeasonalSaplingLeaves": true,
@@ -37,18 +40,21 @@
       "LogName": "Seasonal Nectarine Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Nectarine Sapling",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Nectarine_{{season}}.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/Nectarine_{{season}}.png",
       "When": {
         "EnableNectarine": true,
         "SeasonalSaplingLeaves": true,
         "SeasonalSaplings": "Seasonal"
       }
     },
+
+    //************************************
+    //      Pear Sapling
     {
       "LogName": "Non Seasonal Pear",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Pear.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/Pear.png",
       "When": {
         "EnablePear": true,
         "SeasonalSaplingLeaves": false,
@@ -59,7 +65,7 @@
       "LogName": "Seasonal Pear",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Pear.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/Pear.png",
       "When": {
         "EnablePear": true,
         "SeasonalSaplingLeaves": false,
@@ -70,7 +76,7 @@
       "LogName": "Non Seasonal Pear Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Pear_{{season}}.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/Pear_{{season}}.png",
       "When": {
         "EnablePear": true,
         "SeasonalSaplingLeaves": true,
@@ -81,18 +87,21 @@
       "LogName": "Seasonal Pear Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Pear Sapling",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Pear_{{season}}.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/Pear_{{season}}.png",
       "When": {
         "EnablePear": true,
         "SeasonalSaplingLeaves": true,
         "SeasonalSaplings": "Seasonal"
       }
     },
+
+    //************************************
+    //      Persimmon Sapling
     {
       "LogName": "Non Seasonal Persimmon",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Persimmon.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/Persimmon.png",
       "When": {
         "EnablePersimmon": true,
         "SeasonalSaplingLeaves": false,
@@ -103,7 +112,7 @@
       "LogName": "Seasonal Persimmon",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Persimmon.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/Persimmon.png",
       "When": {
         "EnablePersimmon": true,
         "SeasonalSaplingLeaves": false,
@@ -114,7 +123,7 @@
       "LogName": "Non Seasonal Persimmon Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Persimmon_{{season}}.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/Persimmon_{{season}}.png",
       "When": {
         "EnablePersimmon": true,
         "SeasonalSaplingLeaves": true,
@@ -125,28 +134,34 @@
       "LogName": "Seasonal Persimmon Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Persimmon Sapling",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Persimmon_{{season}}.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/Persimmon_{{season}}.png",
       "When": {
         "EnablePersimmon": true,
         "SeasonalSaplingLeaves": true,
         "SeasonalSaplings": "Seasonal"
       }
     },
+
+    //************************************
+    //      Tree Coin
     {
       "LogName": "Tree Coin",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
-      "FromFile": "Assets/Unique/Tree_Coin.png",
+      "FromFile": "Assets/Unique/TreeCoin.png",
       "When": {
-        "EnableTree_Coin": true,
+        "EnableTreeCoin": true,
         "MoneyTreeSapling": false
       }
     },
+
+    //************************************
+    //      Money Sapling
     {
       "LogName": "Non Seasonal Money Tree",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/MoneyTree.png",
       "When": {
         "MoneyTreeSapling": true,
         "SeasonalSaplingLeaves": false,
@@ -157,7 +172,7 @@
       "LogName": "Seasonal Money Tree",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/MoneyTree.png",
       "When": {
         "MoneyTreeSapling": true,
         "SeasonalSaplingLeaves": false,
@@ -168,7 +183,7 @@
       "LogName": "Non Seasonal Money Tree Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
-      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree_{{season}}.png",
+      "FromFile": "Assets/Saplings/Nonseasonal/{{NonseasonalSaplingColour}}/{{SaplingTexture}}/MoneyTree_{{season}}.png",
       "When": {
         "MoneyTreeSapling": true,
         "SeasonalSaplingLeaves": true,
@@ -179,7 +194,7 @@
       "LogName": "Seasonal Money Tree Leaves",
       "Action": "EditImage",
       "Target": "Mods\\FlashShifter.StardewValleyExpandedCP\\Tree Coin",
-      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingStyle}}/Money_Tree_{{season}}.png",
+      "FromFile": "Assets/Saplings/Seasonal/{{SeasonalSaplingColour}}/{{SaplingTexture}}/MoneyTree_{{season}}.png",
       "When": {
         "MoneyTreeSapling": true,
         "SeasonalSaplingLeaves": true,
@@ -195,7 +210,7 @@
       },
       "Fields": {
         "FlashShifter.StardewValleyExpandedCP_Tree_Coin": {
-          "DisplayName": "{{i18n:Tree_CoinSaplingName}}"
+          "DisplayName": "{{i18n:TreeCoin_SaplingName}}"
         }
       }
     }

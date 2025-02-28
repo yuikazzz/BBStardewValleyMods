@@ -1,0 +1,348 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Shops",
+			"Entries": {
+				//bookseller stall
+				"FarmerBeans.ParkStallBooksShop": {
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Items": [
+						{
+							"ActionsOnPurchase": null,
+							"CustomFields": null,
+							"TradeItemId": null,
+							"TradeItemAmount": 1,
+							"Price": 10000,
+							"ApplyProfitMargins": null,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"AvoidRepeat": false,
+							"UseObjectDataPrice": false,
+							"IgnoreShopPriceModifiers": false,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"AvailableStockModifiers": null,
+							"AvailableStockModifierMode": "Stack",
+							"Id": "RandomSkillBook1",
+							"ItemId": "{{Random: {{BookSellerBooks}} }}",
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						},
+						{
+							"ActionsOnPurchase": null,
+							"CustomFields": null,
+							"TradeItemId": null,
+							"TradeItemAmount": 1,
+							"Price": 10000,
+							"ApplyProfitMargins": null,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"AvoidRepeat": false,
+							"UseObjectDataPrice": false,
+							"IgnoreShopPriceModifiers": false,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"AvailableStockModifiers": null,
+							"AvailableStockModifierMode": "Stack",
+							"Id": "RandomSkillBook2",
+							"ItemId": "{{Random: {{BookSellerBooks}} }}",
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						},
+						{
+							"ActionsOnPurchase": null,
+							"CustomFields": null,
+							"TradeItemId": null,
+							"TradeItemAmount": 1,
+							"Price": 10000,
+							"ApplyProfitMargins": null,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"AvoidRepeat": false,
+							"UseObjectDataPrice": false,
+							"IgnoreShopPriceModifiers": false,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"AvailableStockModifiers": null,
+							"AvailableStockModifierMode": "Stack",
+							"Id": "RandomSkillBook3",
+							"ItemId": "{{Random: {{BookSellerBooks}} }}",
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						},
+						//Random Bookcase
+						{
+							"ActionsOnPurchase": null,
+							"CustomFields": null,
+							"TradeItemId": null,
+							"TradeItemAmount": 1,
+							"Price": 1500,
+							"ApplyProfitMargins": null,
+							"AvailableStock": 1,
+							"AvailableStockLimit": "Player",
+							"AvoidRepeat": false,
+							"UseObjectDataPrice": false,
+							"IgnoreShopPriceModifiers": false,
+							"PriceModifiers": null,
+							"PriceModifierMode": "Stack",
+							"AvailableStockModifiers": null,
+							"AvailableStockModifierMode": "Stack",
+							"Id": "RandomBookcase",
+							"ItemId": "{{Random: {{BookSellerFurniture}} }}",
+							"MaxItems": null,
+							"MinStack": -1,
+							"MaxStack": -1,
+							"Quality": -1,
+							"ObjectInternalName": null,
+							"ObjectDisplayName": null,
+							"ToolUpgradeLevel": -1,
+							"IsRecipe": false,
+							"StackModifiers": null,
+							"StackModifierMode": "Stack",
+							"QualityModifiers": null,
+							"QualityModifierMode": "Stack",
+							"ModData": null,
+							"PerItemCondition": null
+						}							
+					]
+				},
+				//Fruit stall
+				"FarmerBeans.ParkMarketFruitShop": {
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Items": [
+						//banana
+						{
+							"Id": "91",
+							"ItemId": "91",
+							"AvailableStock": 30
+						},
+						//strawberry
+						{
+							"Id": "400",
+							"ItemId": "400",
+							"AvailableStock": 60
+						},
+						//Grape
+						{
+							"Id": "398",
+							"ItemId": "398",
+							"AvailableStock": 20
+						},
+						//Ancient Fruit
+						{
+							"Id": "454",
+							"ItemId": "454",
+							"AvailableStock": 5,
+							"Condition":"{{Rare items from Farmer's Market stalls}}"
+						},
+						//Sweet Gem Berry
+						{
+							"Id": "417",
+							"ItemId": "417",
+							"AvailableStock": 1,
+							"Condition":"{{Rare items from Farmer's Market stalls}}"
+						}
+					]//end items
+				},
+				//Rare Items for Hat Mouse
+				"FarmerBeans.ParkStallMouseShop": {
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Items": [
+						//Panda
+						{
+							"Id": "(H)36",
+							"ItemId": "(H)36"
+						},
+						//living
+						{
+							"Id": "(H)40",
+							"ItemId": "(H)40"
+						},
+						//Emily's
+						{
+							"Id": "(H)41",
+							"ItemId": "(H)41"
+						},
+						//mushroom
+						{
+							"Id": "(H)42",
+							"ItemId": "(H)42"
+						},
+						//garbage
+						{
+							"Id": "(H)66",
+							"ItemId": "(H)66"
+						},
+						//Deluxe Pirate
+						{
+							"Id": "(H)76",
+							"ItemId": "(H)76"
+						}
+					]//end items
+				},
+				//ice cream stand
+				"FarmerBeans.ParkStallIceCreamShop": {
+					"PriceModifiers": null,
+					"PriceModifierMode": "Stack",
+					"Items": [
+						//ice cream
+						{
+							"Id": "233",
+							"ItemId": "233"
+
+						},
+						{
+							"Id": "FarmerBeans.ParkIceCreamSandwich",
+							"ItemId": "FarmerBeans.ParkIceCreamSandwich",
+							"Condition":"{{Rare items from Farmer's Market stalls}}"
+
+						},
+						{
+							"Id": "FarmerBeans.ParkSourSlimes",
+							"ItemId": "FarmerBeans.ParkSourSlimes",
+							"Condition":"{{Rare items from Farmer's Market stalls}}"
+
+						},
+						{
+							"Id": "FarmerBeans.ParkStardropSorbet",
+							"ItemId": "FarmerBeans.ParkStardropSorbet",
+							"Condition":"{{Rare items from Farmer's Market stalls}}"
+
+						},
+						{
+							"Id": "FarmerBeans.ParkCottonCandy",
+							"ItemId": "FarmerBeans.ParkCottonCandy",
+							"Condition":"{{Rare items from Farmer's Market stalls}}"
+							
+						}
+					
+					]//end items
+				}
+				
+			}
+		},
+		
+		//Add Catalogue Tile Actions (Calcifer)
+		{
+			"Action": "EditData",
+			"Target": "sophie.Calcifer/FurnitureActions",
+			"Entries": {
+				"(F)FarmerBeans.ParkStallBooks": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop FarmerBeans.ParkStallBooksShop"
+						}
+					]
+				},
+				"(F)FarmerBeans.ParkStallIceCream": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop FarmerBeans.ParkStallIceCreamShop"
+						}
+					]
+				},								
+				"(F)FarmerBeans.ParkStallMerchant": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop Traveler"
+						}
+					]
+				},
+				"(F)FarmerBeans.ParkStallMerchantCart": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop Traveler"
+						}
+					]
+				},
+				"(F)FarmerBeans.ParkStallIslandTrader": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop IslandTrade"
+						}
+					]
+				},
+				"(F)FarmerBeans.ParkStallFruit": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop FarmerBeans.ParkMarketFruitShop"
+						}
+					]
+				}
+			}
+		},
+		//hat mouse conditional shop action
+		{
+			"Action" : "EditData",
+			"Target": "sophie.Calcifer/FurnitureActions",
+			"When": {
+				"Rare items from Farmer's Market stalls": "false"
+			},
+			"Entries": {
+				"(F)FarmerBeans.ParkStallMouse": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop HatMouse"
+						}
+					]
+				}
+			}
+		},
+		{
+			"Action" : "EditData",
+			"Target": "sophie.Calcifer/FurnitureActions",
+			"When": {
+				"Rare items from Farmer's Market stalls": "true"
+			},
+			"Entries": {
+				"(F)FarmerBeans.ParkStallMouse": {
+					"TileActions": [
+						{
+							"TileAction": "OpenShop FarmerBeans.ParkStallMouseShop"
+						}
+					]
+				}
+			}
+		}
+	]
+}

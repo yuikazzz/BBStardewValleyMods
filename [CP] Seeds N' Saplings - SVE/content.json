@@ -72,14 +72,22 @@
       "Section": "Seedbags"
     },
 
-    "EnableAncient_Fiber": {
+    "EnableAncientFiber": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Ancient Ferns seedbags (Ancient Fiber Seeds)",
       "Section": "Seedbags"
     },
 
-    "EnableButternut_Squash": {
+    "AncientFiberTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, digspot sack or seedbag",
+      "Section": "Seedbags"
+    },
+
+    "EnableButternutSquash": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Butternut Squash seedbags",
@@ -93,18 +101,18 @@
       "Section": "Seedbags"
     },
 
-    "EnableGold_Carrot": {
+    "EnableGoldCarrot": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Gold Carrot seedbags",
       "Section": "Seedbags"
     },
 
-    "Gold_CarrotSparkle": {
+    "GoldCarrotSparkle": {
       "AllowValues": "Plain, Sparkle",
       "AllowBlank": true,
       "Default": "Sparkle",
-      "Description": "Style of seedbag, include sparkles or a plain seedbag",
+      "Description": "Choose the texture of seedbag, include sparkles or a plain seedbag",
       "Section": "Seedbags"
     },
 
@@ -116,7 +124,7 @@
       "Section": "Seedbags"
     },
 
-    "NonseasonalGoldColour": {
+    "NonseasonalGoldCarrotColour": {
       "AllowValues": "Normal, Vanilla, Grandpa, White, WAG, Bog",
       "AllowBlank": true,
       "Default": "Vanilla",
@@ -124,7 +132,7 @@
       "Section": "Seedbags"
     },
 
-    "SeasonalGoldColour": {
+    "SeasonalGoldCarrotColour": {
       "AllowValues": "Normal, Faded",
       "AllowBlank": true,
       "Default": "Normal",
@@ -132,17 +140,33 @@
       "Section": "Seedbags"
     },
 
-    "EnableJoja_Berry": {
+    "EnableJojaBerry": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Joja Berry seedbags",
       "Section": "Seedbags"
     },
 
-    "EnableJoja_Veggie": {
+    "JojaBerryTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, trellis seedsack or trellis seedbag",
+      "Section": "Seedbags"
+    },
+
+    "EnableJojaVeggie": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Joja Veggie seedbags",
+      "Section": "Seedbags"
+    },
+
+    "JojaVeggieTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Bag",
+      "Description": "Choose the texture of seedbag, trellis seedsack or trellis seedbag",
       "Section": "Seedbags"
     },
 
@@ -170,45 +194,85 @@
       "Section": "Seedbags"
     },
 
-    "EnableMonster_Fruit": {
+    "EnableMonsterFruit": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Stalk Seedbags",
       "Section": "Seedbags"
     },
 
-    "EnableMonster_Mushroom": {
+    "MonsterFruitTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, digspot sack or seedbag",
+      "Section": "Seedbags"
+    },
+
+    "EnableMonsterMushroom": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Fungus seedbags",
       "Section": "Seedbags"
     },
 
-    "EnableSalal_Berry": {
+    "MonsterMushroomTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, digspot sack or seedbag",
+      "Section": "Seedbags"
+    },
+
+    "EnableSalalBerry": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Shrub seedbags",
       "Section": "Seedbags"
     },
 
-    "EnableSlime_Berry": {
+    "SalalBerryTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, digspot sack or seedbag",
+      "Section": "Seedbags"
+    },
+
+    "EnableSlimeBerry": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Slime seedbags",
       "Section": "Seedbags"
     },
 
-    "EnableSweet_Potato": {
+    "SlimeBerryTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, digspot sack or seedbag",
+      "Section": "Seedbags"
+    },
+
+    "EnableSweetPotato": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Sweet Potato seedbags",
       "Section": "Seedbags"
     },
 
-    "EnableVoid_Root": {
+    "EnableVoidRoot": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Void seedbags",
+      "Section": "Seedbags"
+    },
+
+    "VoidRootTexture": {
+      "AllowValues": "Sack, Bag",
+      "AllowBlank": true,
+      "Default": "Sack",
+      "Description": "Choose the texture of seedbag, digspot sack or seedbag",
       "Section": "Seedbags"
     },
 
@@ -231,11 +295,11 @@
       "Section": "Sapling"
     },
 
-    "SaplingStyle": {
+    "SaplingTexture": {
       "AllowValues": "Pot, Ribbon_Sack, Sack",
       "AllowBlank": true,
       "Default": "Sack",
-      "Description": "Style for saplings, between Pot, Sack with Ribbon or Sack (Sacks are similar to Base Game saplings)",
+      "Description": "Texture for saplings, between Pot, Sack with Ribbon or Sack (Sacks are similar to Base Game saplings)",
       "Section": "Sapling"
     },
 
@@ -276,7 +340,7 @@
       "Section": "Sapling"
     },
 
-    "EnableTree_Coin": {
+    "EnableTreeCoin": {
       "AllowValues": "true, false",
       "Default": "true",
       "Description": "Enable Seeds N' Saplings textures for Tree Coin",
