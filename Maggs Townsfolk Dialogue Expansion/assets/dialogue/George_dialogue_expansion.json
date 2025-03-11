@@ -1,0 +1,17 @@
+{
+"Changes": [
+//GEORGE DIALOGUE
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/George",
+	"Entries": {
+		"dating_Sam": "{{i18n: george.reaction.dating_Sam}}",
+		"married_Sam": "{{i18n: george.reaction.married_Sam}}",
+		"dating_Sebastian": "{{i18n: george.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: george.reaction.married_Sebastian}}",
+		"dating_Alex": "{{i18n: george.reaction.dating_Alex}}",
+		"married_Alex": "{{i18n: george.reaction.married_Alex}}",
+		}
+    },
+]
+}

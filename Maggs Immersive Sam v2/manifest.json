@@ -2,7 +2,7 @@
    "Name": "z2 Maggs Immersive Sam (X)Spicy or Sweet",
    "Author": "MaggPlays",
    "Description": "Adds immersive dialogue and events for Sam",
-   "Version": "2.1.0",
+   "Version": "2.1.1",
    "UniqueID": "maggplays.immersivesam",
    "UpdateKeys": [ "Nexus:28035" ],
    "ContentPackFor": {

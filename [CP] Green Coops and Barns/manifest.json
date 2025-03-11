@@ -1,8 +1,8 @@
 {
     "Name": "Green Coops and Barns",
     "Author": "vikich3rry",
-    "Version": "1.0.3",
-    "Description": "Turns the coops and barns into green spaces that stay in a permanent spring.",
+    "Version": "1.0.4",
+    "Description": "Turns coops and barns into green spaces that stay in a permanent spring!",
     "UniqueID": "vikich3rry.GreenCoopsBarns",
     "UpdateKeys": [
         "Nexus:28530"

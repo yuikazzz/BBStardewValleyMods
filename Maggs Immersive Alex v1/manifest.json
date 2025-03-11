@@ -1,0 +1,22 @@
+{
+   "Name": "z1 Maggs Immersive Alex (X)Spicy or Sweet",
+   "Author": "MaggPlays",
+   "Description": "Adds immersive dialogue and events for Alex",
+   "Version": "1.0.5",
+   "UniqueID": "maggplays.immersivealex",
+   "UpdateKeys": [ "Nexus:31506" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.4.0"
+        },
+   "Dependencies": [
+		{
+			"UniqueID": "Pathoschild.ContentPatcher",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "TheMightyAmondee.CustomTokens",
+			"IsRequired": true
+		}
+	]
+}

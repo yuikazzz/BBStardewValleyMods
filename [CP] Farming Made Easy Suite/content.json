@@ -4,8 +4,8 @@
 		    "Highlight Texts For More Info!": {
 			"Section": "= WELCOME! =",
 			"Description": "= Have A Fantastic Day & Happy Farming! =",
-			"AllowValues": "Version 6.1.8",
-			"Default": "Version 6.1.8"
+			"AllowValues": "Version 6.1.9",
+			"Default": "Version 6.1.9"
         },
 		    "Disable Yearly Developer Gifts": {
 			"Description": "This setting will disable the mod developer gifts you will receive yearly. By default, you will receive a yearly randomized gift from myself :-)",
@@ -19125,7 +19125,7 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Grass Starter": {0: "771 15 Moss 5"},
+				"Blue Grass Starter": {0: "771 15 Moss 5"},
                     },		
 			"When": {"Blue Grass Starter Materials": "Lessened Materials"},
 		},
@@ -19134,7 +19134,7 @@
 			"Action": "EditData",
 			"Target": "Data/CraftingRecipes",
 			"Fields": {
-				"Grass Starter": {0: "771 10"},
+				"Blue Grass Starter": {0: "771 10"},
                     },		
 			"When": {"Blue Grass Starter Materials": "10 Fiber"},
 		},

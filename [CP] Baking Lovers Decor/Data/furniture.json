@@ -1,0 +1,385 @@
+{
+  "Changes": [
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Furniture",
+      "Entries": {
+        "KatyDTK.BakingLoversDecor_WoodCounter_a": "BakingLoversDecor_WoodCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCounter_a}}/0/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCounter_b": "BakingLoversDecor_WoodCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCounter_b}}/1/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCounter_c": "BakingLoversDecor_WoodCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCounter_c}}/2/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodLaceCounter_a": "BakingLoversDecor_WoodLaceCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodLaceCounter_a}}/3/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodLaceCounter_b": "BakingLoversDecor_WoodLaceCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodLaceCounter_b}}/4/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodLaceCounter_c": "BakingLoversDecor_WoodLaceCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodLaceCounter_c}}/5/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodRibbonCounter": "BakingLoversDecor_WoodRibbonCounter/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodRibbonCounter}}/6/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCashier": "BakingLoversDecor_WoodCashier/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCashier}}/7/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCounterDoor": "BakingLoversDecor_WoodCounterDoor/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCounterDoor}}/8/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodCreamCounter_a": "BakingLoversDecor_WoodCreamCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamCounter_a}}/114/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCreamCounter_b": "BakingLoversDecor_WoodCreamCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamCounter_b}}/115/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCreamCounter_c": "BakingLoversDecor_WoodCreamCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamCounter_c}}/116/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodCreamLaceCounter_a": "BakingLoversDecor_WoodCreamLaceCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamLaceCounter_a}}/117/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCreamLaceCounter_b": "BakingLoversDecor_WoodCreamLaceCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamLaceCounter_b}}/118/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCreamLaceCounter_c": "BakingLoversDecor_WoodCreamLaceCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamLaceCounter_c}}/119/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodCreamRibbonCounter": "BakingLoversDecor_WoodCreamRibbonCounter/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamRibbonCounter}}/120/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCreamCashier": "BakingLoversDecor_WoodCreamCashier/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamCashier}}/121/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodCreamCounterDoor": "BakingLoversDecor_WoodCreamCounterDoor/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodCreamCounterDoor}}/122/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodBlueCounter_a": "BakingLoversDecor_WoodBlueCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodBlueCounter_a}}/228/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodBlueCounter_b": "BakingLoversDecor_WoodBlueCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodBlueCounter_b}}/229/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodBlueCounter_c": "BakingLoversDecor_WoodBlueCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodBlueCounter_c}}/230/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodPinkCounter_a": "BakingLoversDecor_WoodPinkCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodPinkCounter_a}}/231/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodPinkCounter_b": "BakingLoversDecor_WoodPinkCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodPinkCounter_b}}/232/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodPinkCounter_c": "BakingLoversDecor_WoodPinkCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodPinkCounter_c}}/233/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_WoodYellowCounter_a": "BakingLoversDecor_WoodYellowCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodYellowCounter_a}}/234/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodYellowCounter_b": "BakingLoversDecor_WoodYellowCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodYellowCounter_b}}/235/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_WoodYellowCounter_c": "BakingLoversDecor_WoodYellowCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_WoodYellowCounter_c}}/235/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamWoodCounter_a": "BakingLoversDecor_CreamWoodCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodCounter_a}}/342/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamWoodCounter_b": "BakingLoversDecor_CreamWoodCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodCounter_b}}/343/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamWoodCounter_c": "BakingLoversDecor_CreamWoodCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodCounter_c}}/344/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamWoodLaceCounter_a": "BakingLoversDecor_CreamWoodLaceCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodLaceCounter_a}}/345/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamWoodLaceCounter_b": "BakingLoversDecor_CreamWoodLaceCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodLaceCounter_b}}/346/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamWoodLaceCounter_c": "BakingLoversDecor_CreamWoodLaceCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodLaceCounter_c}}/347/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamWoodRibbonCounter": "BakingLoversDecor_CreamWoodRibbonCounter/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodRibbonCounter}}/348/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamWoodCashier": "BakingLoversDecor_CreamWoodCashier/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodCashier}}/349/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamWoodCounterDoor": "BakingLoversDecor_CreamWoodCounterDoor/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamWoodCounterDoor}}/350/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamBlushCounter_a": "BakingLoversDecor_CreamBlushCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushCounter_a}}/456/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlushCounter_b": "BakingLoversDecor_CreamBlushCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushCounter_b}}/457/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlushCounter_c": "BakingLoversDecor_CreamBlushCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushCounter_c}}/458/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamBlushLaceCounter_a": "BakingLoversDecor_CreamBlushLaceCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushLaceCounter_a}}/459/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlushLaceCounter_b": "BakingLoversDecor_CreamBlushLaceCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushLaceCounter_b}}/460/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlushLaceCounter_c": "BakingLoversDecor_CreamBlushLaceCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushLaceCounter_c}}/461/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamBlushRibbonCounter": "BakingLoversDecor_CreamBlushRibbonCounter/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushRibbonCounter}}/462/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlushCashier": "BakingLoversDecor_CreamBlushCashier/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushCashier}}/463/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlushCounterDoor": "BakingLoversDecor_CreamBlushCounterDoor/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlushCounterDoor}}/464/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamBlueCounter_a": "BakingLoversDecor_CreamBlueCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlueCounter_a}}/570/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlueCounter_b": "BakingLoversDecor_CreamBlueCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlueCounter_b}}/571/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamBlueCounter_c": "BakingLoversDecor_CreamBlueCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamBlueCounter_c}}/572/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamPinkCounter_a": "BakingLoversDecor_CreamPinkCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamPinkCounter_a}}/573/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamPinkCounter_b": "BakingLoversDecor_CreamPinkCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamPinkCounter_b}}/574/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamPinkCounter_c": "BakingLoversDecor_CreamPinkCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamPinkCounter_c}}/575/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CreamYellowCounter_a": "BakingLoversDecor_CreamYellowCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamYellowCounter_a}}/576/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamYellowCounter_b": "BakingLoversDecor_CreamYellowCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamYellowCounter_b}}/577/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamYellowCounter_c": "BakingLoversDecor_CreamYellowCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamYellowCounter_c}}/578/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_BrickCounter_a": "BakingLoversDecor_BrickCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickCounter_a}}/684/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickCounter_b": "BakingLoversDecor_BrickCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickCounter_b}}/685/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickCounter_c": "BakingLoversDecor_BrickCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickCounter_c}}/686/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_BrickLaceCounter_a": "BakingLoversDecor_BrickLaceCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickLaceCounter_a}}/687/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickLaceCounter_b": "BakingLoversDecor_BrickLaceCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickLaceCounter_b}}/688/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickLaceCounter_c": "BakingLoversDecor_BrickLaceCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickLaceCounter_c}}/689/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_BrickRibbonCounter": "BakingLoversDecor_BrickRibbonCounter/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickRibbonCounter}}/690/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickCashier": "BakingLoversDecor_BrickCashier/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickCashier}}/691/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickCounterDoor": "BakingLoversDecor_BrickCounterDoor/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickCounterDoor}}/692/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_BrickBlueCounter_a": "BakingLoversDecor_BrickBlueCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickBlueCounter_a}}/798/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickBlueCounter_b": "BakingLoversDecor_BrickBlueCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickBlueCounter_b}}/799/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickBlueCounter_c": "BakingLoversDecor_BrickBlueCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickBlueCounter_c}}/800/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_BrickPinkCounter_a": "BakingLoversDecor_BrickPinkCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickPinkCounter_a}}/801/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickPinkCounter_b": "BakingLoversDecor_BrickPinkCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickPinkCounter_b}}/802/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickPinkCounter_c": "BakingLoversDecor_BrickPinkCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickPinkCounter_c}}/803/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_BrickYellowCounter_a": "BakingLoversDecor_BrickYellowCounter_a/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickYellowCounter_a}}/804/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickYellowCounter_b": "BakingLoversDecor_BrickYellowCounter_b/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickYellowCounter_b}}/805/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BrickYellowCounter_c": "BakingLoversDecor_BrickYellowCounter_c/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BrickYellowCounter_c}}/806/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_CuttingBoardCounter": "BakingLoversDecor_CuttingBoardCounter/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CuttingBoardCounter}}/912/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Sink": "BakingLoversDecor_Sink/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Sink}}/913/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Oven": "BakingLoversDecor_Oven/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Oven}}/914/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Fridge": "BakingLoversDecor_Fridge/table/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Fridge}}/915/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_Shelf_a": "BakingLoversDecor_Shelf_a/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_a}}/10/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_b": "BakingLoversDecor_Shelf_b/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_b}}/181/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_c": "BakingLoversDecor_Shelf_c/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_c}}/352/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_d": "BakingLoversDecor_Shelf_d/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_d}}/523/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_e": "BakingLoversDecor_Shelf_e/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_e}}/693/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_f": "BakingLoversDecor_Shelf_f/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_f}}/13/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_g": "BakingLoversDecor_Shelf_g/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_g}}/184/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_h": "BakingLoversDecor_Shelf_h/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_h}}/355/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Shelf_i": "BakingLoversDecor_Shelf_i/painting/3 3/3 3/1/1000/-1/{{i18n:BakingLoversDecor_Shelf_i}}/526/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_SmallShelf_a": "BakingLoversDecor_SmallShelf_a/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_a}}/16/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_b": "BakingLoversDecor_SmallShelf_b/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_b}}/187/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_c": "BakingLoversDecor_SmallShelf_c/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_c}}/358/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_d": "BakingLoversDecor_SmallShelf_d/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_d}}/529/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_e": "BakingLoversDecor_SmallShelf_e/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_e}}/18/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_f": "BakingLoversDecor_SmallShelf_f/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_f}}/189/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_g": "BakingLoversDecor_SmallShelf_g/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_g}}/360/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallShelf_h": "BakingLoversDecor_SmallShelf_h/painting/2 3/2 3/1/1000/-1/{{i18n:BakingLoversDecor_SmallShelf_h}}/531/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_Display_a": "BakingLoversDecor_Display_a/bookcase/3 3/3 1/1/1000/-1/{{i18n:BakingLoversDecor_Display_a}}/697/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Display_b": "BakingLoversDecor_Display_b/bookcase/3 3/3 1/1/1000/-1/{{i18n:BakingLoversDecor_Display_b}}/700/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Display_c": "BakingLoversDecor_Display_c/bookcase/3 3/3 1/1/1000/-1/{{i18n:BakingLoversDecor_Display_c}}/865/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Display_d": "BakingLoversDecor_Display_d/bookcase/3 3/3 1/1/1000/-1/{{i18n:BakingLoversDecor_Display_d}}/868/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Display_e": "BakingLoversDecor_Display_e/bookcase/3 3/3 1/1/1000/-1/{{i18n:BakingLoversDecor_Display_e}}/871/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_SmallDisplay_a": "BakingLoversDecor_SmallDisplay_a/bookcase/2 3/2 1/1/1000/-1/{{i18n:BakingLoversDecor_SmallDisplay_a}}/703/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallDisplay_b": "BakingLoversDecor_SmallDisplay_b/bookcase/2 3/2 1/1/1000/-1/{{i18n:BakingLoversDecor_SmallDisplay_b}}/874/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_PistachioBerryCake": "BakingLoversDecor_PistachioBerryCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PistachioBerryCake}}/21/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MushroomBun": "BakingLoversDecor_MushroomBun/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MushroomBun}}/22/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberryDonut": "BakingLoversDecor_StrawberryDonut/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberryDonut}}/23/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_KumquatDonut": "BakingLoversDecor_KumquatDonut/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_KumquatDonut}}/24/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ForestCakeSlice": "BakingLoversDecor_ForestCakeSlice/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ForestCakeSlice}}/25/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MatchaBerrySlice": "BakingLoversDecor_MatchaBerrySlice/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MatchaBerrySlice}}/26/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BerrySlice": "BakingLoversDecor_BerrySlice/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BerrySlice}}/27/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_LemonPie": "BakingLoversDecor_LemonPie/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_LemonPie}}/28/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PecanPie": "BakingLoversDecor_PecanPie/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PecanPie}}/29/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberryPie": "BakingLoversDecor_StrawberryPie/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberryPie}}/135/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_RoseCake": "BakingLoversDecor_RoseCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_RoseCake}}/136/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CitrusOrangeCake": "BakingLoversDecor_CitrusOrangeCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CitrusOrangeCake}}/137/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_VanillaBerryCake": "BakingLoversDecor_VanillaBerryCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_VanillaBerryCake}}/138/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BerryCheeseCake": "BakingLoversDecor_BerryCheeseCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BerryCheeseCake}}/139/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_VanillaKittyCake": "BakingLoversDecor_VanillaKittyCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_VanillaKittyCake}}/140/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_TangyQuackCake": "BakingLoversDecor_TangyQuackCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_TangyQuackCake}}/141/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ChocoBearCake": "BakingLoversDecor_ChocoBearCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ChocoBearCake}}/142/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BloobBunnyCake": "BakingLoversDecor_BloobBunnyCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BloobBunnyCake}}/143/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PawCake": "BakingLoversDecor_PawCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PawCake}}/249/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StarfruitCake": "BakingLoversDecor_StarfruitCake/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StarfruitCake}}/250/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_PackagedPinkMacaroons": "BakingLoversDecor_PackagedPinkMacaroons/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PackagedPinkMacaroons}}/363/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PackagedMacaroons": "BakingLoversDecor_PackagedMacaroons/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PackagedMacaroons}}/364/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberrySwissRoll": "BakingLoversDecor_StrawberrySwissRoll/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberrySwissRoll}}/365/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MatchaSwissRoll": "BakingLoversDecor_MatchaSwissRoll/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MatchaSwissRoll}}/366/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BlueberrySwissRoll": "BakingLoversDecor_BlueberrySwissRoll/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BlueberrySwissRoll}}/367/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_RedVelvetSquare": "BakingLoversDecor_RedVelvetSquare/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_RedVelvetSquare}}/368/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PassionfruitSquare": "BakingLoversDecor_PassionfruitSquare/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PassionfruitSquare}}/369/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BlueberrySquare": "BakingLoversDecor_BlueberrySquare/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BlueberrySquare}}/370/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_TrayOfCupcakes": "BakingLoversDecor_TrayOfCupcakes/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_TrayOfCupcakes}}/371/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ChocolateGlazedDonut": "BakingLoversDecor_ChocolateGlazedDonut/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ChocolateGlazedDonut}}/420/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CaramelDrizzleBun": "BakingLoversDecor_CaramelDrizzleBun/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CaramelDrizzleBun}}/421/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberryCreamBun": "BakingLoversDecor_StrawberryCreamBun/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberryCreamBun}}/422/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MatchaDonut": "BakingLoversDecor_MatchaDonut/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MatchaDonut}}/423/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Flan": "BakingLoversDecor_Flan/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Flan}}/424/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberryShortcakeSlice": "BakingLoversDecor_StrawberryShortcakeSlice/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberryShortcakeSlice}}/425/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ChocolateCreamCake": "BakingLoversDecor_ChocolateCreamCake/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ChocolateCreamCake}}/426/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CreamScone": "BakingLoversDecor_CreamScone/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CreamScone}}/427/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ChocolateBerrySquare": "BakingLoversDecor_ChocolateBerrySquare/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ChocolateBerrySquare}}/428/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PackagedCaramelDrizzle": "BakingLoversDecor_PackagedCaramelDrizzle/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PackagedCaramelDrizzle}}/477/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PackagedStrawberryCream": "BakingLoversDecor_PackagedStrawberryCream/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PackagedStrawberryCream}}/478/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PackagedMatchaDonut": "BakingLoversDecor_PackagedMatchaDonut/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PackagedMatchaDonut}}/479/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PackagedRoseCake": "BakingLoversDecor_PackagedRoseCake/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PackagedRoseCake}}/480/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_PlateOfCookies": "BakingLoversDecor_PlateOfCookies/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_PlateOfCookies}}/481/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ChocolateEclair": "BakingLoversDecor_ChocolateEclair/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ChocolateEclair}}/482/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MatchaEclair": "BakingLoversDecor_MatchaEclair/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MatchaEclair}}/483/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberryEclair": "BakingLoversDecor_StrawberryEclair/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberryEclair}}/484/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BlueberryLoaf": "BakingLoversDecor_BlueberryLoaf/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BlueberryLoaf}}/485/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CheeseballTray": "BakingLoversDecor_CheeseballTray/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CheeseballTray}}/534/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_TrayOfBiscuits": "BakingLoversDecor_TrayOfBiscuits/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_TrayOfBiscuits}}/535/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_TrayOfSpongeCake": "BakingLoversDecor_TrayOfSpongeCake/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_TrayOfSpongeCake}}/536/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BreadBun": "BakingLoversDecor_BreadBun/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BreadBun}}/537/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_TrayOfMiniBuns": "BakingLoversDecor_TrayOfMiniBuns/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_TrayOfMiniBuns}}/538/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BreadBuns": "BakingLoversDecor_BreadBuns/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BreadBuns}}/539/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_AlmondCroissants": "BakingLoversDecor_AlmondCroissants/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_AlmondCroissants}}/540/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Biscuits": "BakingLoversDecor_Biscuits/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Biscuits}}/541/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SpongeCakes": "BakingLoversDecor_SpongeCakes/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_SpongeCakes}}/542/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MiniBuns": "BakingLoversDecor_MiniBuns/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MiniBuns}}/591/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_DoubleLayerBiscuits": "BakingLoversDecor_DoubleLayerBiscuits/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_DoubleLayerBiscuits}}/592/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Cookies": "BakingLoversDecor_Cookies/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Cookies}}/593/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CobLoafs": "BakingLoversDecor_CobLoafs/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CobLoafs}}/594/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_GarlicBreads": "BakingLoversDecor_GarlicBreads/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_GarlicBreads}}/595/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MelonBreads": "BakingLoversDecor_MelonBreads/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_MelonBreads}}/596/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BasketOfBaguettes": "BakingLoversDecor_BasketOfBaguettes/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BasketOfBaguettes}}/597/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BasketOfBiscuits": "BakingLoversDecor_BasketOfBiscuits/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BasketOfBiscuits}}/598/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BasketOfCoburg": "BakingLoversDecor_BasketOfCoburg/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BasketOfCoburg}}/599/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SandwichBasket": "BakingLoversDecor_SandwichBasket/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_SandwichBasket}}/648/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BreadBoard": "BakingLoversDecor_BreadBoard/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BreadBoard}}/649/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CircleBakingTray": "BakingLoversDecor_CircleBakingTray/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CircleBakingTray}}/650/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BakingTray": "BakingLoversDecor_BakingTray/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BakingTray}}/651/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_DoughTray": "BakingLoversDecor_DoughTray/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_DoughTray}}/652/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CartonOfEggs": "BakingLoversDecor_CartonOfEggs/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CartonOfEggs}}/653/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CuttingBoard": "BakingLoversDecor_CuttingBoard/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CuttingBoard}}/654/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_HandMixer": "BakingLoversDecor_HandMixer/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_HandMixer}}/655/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BakingIngredients": "BakingLoversDecor_BakingIngredients/decor/1 2/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BakingIngredients}}/656/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_ServiceTray": "BakingLoversDecor_ServiceTray/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_ServiceTray}}/705/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BreadTongs": "BakingLoversDecor_BreadTongs/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BreadTongs}}/706/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SugarJar": "BakingLoversDecor_SugarJar/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_SugarJar}}/707/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_IngredientTins": "BakingLoversDecor_IngredientTins/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_IngredientTins}}/708/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_BagsOfFlour": "BakingLoversDecor_BagsOfFlour/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_BagsOfFlour}}/709/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_CartonOfMilk": "BakingLoversDecor_CartonOfMilk/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_CartonOfMilk}}/710/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Toaster": "BakingLoversDecor_Toaster/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Toaster}}/711/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_JamJars": "BakingLoversDecor_JamJars/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_JamJars}}/762/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_StrawberryJam": "BakingLoversDecor_StrawberryJam/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_StrawberryJam}}/763/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_HoneyAndMatchaJars": "BakingLoversDecor_HoneyAndMatchaJars/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_HoneyAndMatchaJars}}/764/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_DrinkCans": "BakingLoversDecor_DrinkCans/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_DrinkCans}}/765/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Blender": "BakingLoversDecor_Blender/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_Blender}}/766/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_DustBin": "BakingLoversDecor_DustBin/decor/1 1/1 1/1/1000/-1/{{i18n:BakingLoversDecor_DustBin}}/767/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_LongMenu": "BakingLoversDecor_LongMenu/painting/3 2/3 2/1/1000/-1/{{i18n:BakingLoversDecor_LongMenu}}/819/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SquareMenu": "BakingLoversDecor_SquareMenu/painting/2 2/2 2/1/1000/-1/{{i18n:BakingLoversDecor_SquareMenu}}/822/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_MiniMenu": "BakingLoversDecor_MiniMenu/painting/1 2/1 2/1/1000/-1/{{i18n:BakingLoversDecor_MiniMenu}}/824/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_TablewareCabinet": "BakingLoversDecor_TablewareCabinet/painting/2 2/2 2/1/1000/-1/{{i18n:BakingLoversDecor_TablewareCabinet}}/825/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_Cabinet_a": "BakingLoversDecor_Cabinet_a/bookcase/3 4/3 1/2/1000/-1/{{i18n:BakingLoversDecor_Cabinet_a}}/31/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Cabinet_b": "BakingLoversDecor_Cabinet_b/bookcase/3 4/3 1/2/1000/-1/{{i18n:BakingLoversDecor_Cabinet_b}}/40/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Cabinet_c": "BakingLoversDecor_Cabinet_c/bookcase/3 4/3 1/2/1000/-1/{{i18n:BakingLoversDecor_Cabinet_c}}/259/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_Cabinet_d": "BakingLoversDecor_Cabinet_d/bookcase/3 4/3 1/2/1000/-1/{{i18n:BakingLoversDecor_Cabinet_d}}/268/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_SmallCabinet_a": "BakingLoversDecor_SmallCabinet_a/bookcase/2 4/2 1/2/1000/-1/{{i18n:BakingLoversDecor_SmallCabinet_a}}/487/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallCabinet_b": "BakingLoversDecor_SmallCabinet_b/bookcase/2 4/2 1/2/1000/-1/{{i18n:BakingLoversDecor_SmallCabinet_b}}/494/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallCabinet_c": "BakingLoversDecor_SmallCabinet_c/bookcase/2 4/2 1/2/1000/-1/{{i18n:BakingLoversDecor_SmallCabinet_c}}/772/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallCabinet_d": "BakingLoversDecor_SmallCabinet_d/bookcase/2 4/2 1/2/1000/-1/{{i18n:BakingLoversDecor_SmallCabinet_d}}/779/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_LargeSideCabinetLeft_a": "BakingLoversDecor_LargeSideCabinetLeft_a/bookcase/1 6/1 3/1/1000/-1/{{i18n:BakingLoversDecor_LargeSideCabinetLeft_a}}/50/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_LargeSideCabinetRight_a": "BakingLoversDecor_LargeSideCabinetRight_a/bookcase/1 6/1 3/1/1000/-1/{{i18n:BakingLoversDecor_LargeSideCabinetRight_a}}/51/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_LargeSideCabinetLeft_b": "BakingLoversDecor_LargeSideCabinetLeft_b/bookcase/1 6/1 3/1/1000/-1/{{i18n:BakingLoversDecor_LargeSideCabinetLeft_b}}/392/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_LargeSideCabinetRight_b": "BakingLoversDecor_LargeSideCabinetRight_b/bookcase/1 6/1 3/1/1000/-1/{{i18n:BakingLoversDecor_LargeSideCabinetRight_b}}/393/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_SmallSideCabinetLeft_a": "BakingLoversDecor_SmallSideCabinetLeft_a/bookcase/1 5/1 2/1/1000/-1/{{i18n:BakingLoversDecor_SmallSideCabinetLeft_a}}/110/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallSideCabinetRight_a": "BakingLoversDecor_SmallSideCabinetRight_a/bookcase/1 5/1 2/1/1000/-1/{{i18n:BakingLoversDecor_SmallSideCabinetRight_a}}/111/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallSideCabinetLeft_b": "BakingLoversDecor_SmallSideCabinetLeft_b/bookcase/1 5/1 2/1/1000/-1/{{i18n:BakingLoversDecor_SmallSideCabinetLeft_b}}/452/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+        "KatyDTK.BakingLoversDecor_SmallSideCabinetRight_b": "BakingLoversDecor_SmallSideCabinetRight_b/bookcase/1 5/1 2/1/1000/-1/{{i18n:BakingLoversDecor_SmallSideCabinetRight_b}}/453/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor",
+
+        "KatyDTK.BakingLoversDecor_Catalogue": "BakingLoversDecor_Catalogue/decor/1 2/1 1/4/1000/-1/{{i18n:BakingLoversDecor_Catalogue}}/916/Mods\\KatyDTK.BakingLoversDecor\\Furniture/false/collection_BakingLoversDecor"
+      }
+    },
+
+    {
+      "LogName": "Baking Lovers Decor Furniture Offsets",
+      "Action": "EditData",
+      "Target": "sophie.Calcifer/FurnitureOffsets",
+      "Entries": {
+        "(F)KatyDTK.BakingLoversDecor_WoodCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodLaceCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodLaceCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodLaceCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodRibbonCounter": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCashier": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCounterDoor": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamLaceCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamLaceCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamLaceCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamRibbonCounter": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamCashier": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodCreamCounterDoor": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodBlueCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodBlueCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodBlueCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodPinkCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodPinkCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodPinkCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_WoodYellowCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodYellowCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_WoodYellowCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodLaceCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodLaceCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodLaceCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodRibbonCounter": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodCashier": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamWoodCounterDoor": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushLaceCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushLaceCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushLaceCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushRibbonCounter": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushCashier": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBlushCounterDoor": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamBlueCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBluehCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamBluehCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamPinkCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamPinkCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamPinkCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_CreamYellowCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamYellowCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_CreamYellowCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickLaceCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickLaceCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickLaceCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickRibbonCounter": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickCashier": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickCounterDoor": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickBlushRibbonCounter": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickBlushCashier": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickBlushCounterDoor": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickBlueCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickBluehCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickBluehCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickPinkCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickPinkCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickPinkCounter_c": "0, -15",
+
+        "(F)KatyDTK.BakingLoversDecor_BrickYellowCounter_a": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickYellowCounter_b": "0, -15",
+        "(F)KatyDTK.BakingLoversDecor_BrickYellowCounter_c": "0, -15"
+      }
+    },
+
+      {
+        "LogName": "Add Tile Actions for Oven",
+        "Action": "EditData",
+        "Target": "sophie.Calcifer/FurnitureActions",
+        "Entries": {
+          "(F)KatyDTK.BakingLoversDecor_Oven": {
+            "TileActions": [
+              {
+                "TileAction": "Kitchen"
+              }
+            ]
+          }
+        }
+      }
+  ]
+
+
+
+      
+}
+
+
+    
+  

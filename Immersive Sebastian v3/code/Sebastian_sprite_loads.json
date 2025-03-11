@@ -1,0 +1,786 @@
+{
+    "Changes": [
+    {
+	"LogName": "Saltwater Taffy",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggSebRoomEdit.tmx",
+	"FromArea": { "X": 8, "Y": 4, "Width": 1, "Height": 1 },
+	"ToArea": { "X": 8, "Y": 4, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"Relationship:Sebastian |contains=Married": false,
+		}
+	},
+{
+	"LogName": "Seb's slippers",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggSebRoomEdit.tmx",
+	"FromArea": { "X": 9, "Y": 8, "Width": 1, "Height": 1 },
+	"ToArea": { "X": 9, "Y": 8, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"Relationship:Sebastian |contains=Married": false,
+		}
+	},
+{
+	"LogName": "Radio return SVE",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggSebRoomEdit.tmx",
+	"FromArea": { "X": 3, "Y": 3, "Width": 1, "Height": 1 },
+	"ToArea": { "X": 3, "Y": 3, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	},
+{
+	"LogName": "Blu Tadpole Aquarium",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggSebRoomEdit.tmx",
+	"FromArea": { "X": 4, "Y": 7, "Width": 1, "Height": 2 },
+	"ToArea": { "X": 4, "Y": 7, "Width": 1, "Height": 2 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggfrogsofblue210162024": true,
+		"HasSeenEvent |contains=maggfrogsofblue410162024": false,
+		}
+	},
+{
+	"LogName": "Blu Frog Aquarium",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggSebRoomEdit2.tmx",
+	"FromArea": { "X": 11, "Y": 3, "Width": 1, "Height": 3 },
+	"ToArea": { "X": 11, "Y": 3, "Width": 1, "Height": 3 },
+	"PatchMode": "Replace",
+	"When": {
+		"Query: ('{{HasSeenEvent |contains=maggfrogsofblue410162024}}' = 'true' AND '{{HasSeenEvent |contains=maggfrogsofblue610162024}}' = 'false') OR ('{{HasSeenEvent |contains=maggfrogsofblue610162024}}' = 'true' AND '{{BluFroggies}}' = 'yes')": true,
+		"Relationship:Sebastian |contains=Married": false,
+		}
+	},
+{
+	"LogName": "Blu Frog Porthos",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggSebRoomEdit2.tmx",
+	"FromArea": { "X": 7, "Y": 3, "Width": 1, "Height": 1 },
+	"ToArea": { "X": 7, "Y": 3, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"Query: ('{{HasSeenEvent |contains=maggfrogsofblue410162024}}' = 'true' AND '{{HasSeenEvent |contains=maggfrogsofblue610162024}}' = 'false') OR ('{{HasSeenEvent |contains=maggfrogsofblue610162024}}' = 'true' AND '{{BluFroggies}}' = 'yes')": true,
+		"Relationship:Sebastian |contains=Married": false,
+		}
+	},
+{
+	"LogName": "Seb's spouse room",
+	"Action": "EditMap",
+	"Target": "Maps/spouseRooms",
+	"FromFile": "assets/maps/MaggSpouseRooms.tmx",
+	"FromArea": { "X": 0, "Y": 9, "Width": 6, "Height": 9 },
+	"ToArea": { "X": 0, "Y": 9, "Width": 6, "Height": 9 },
+	"PatchMode": "Replace",
+	"When": {
+		"SpouseRoomEdit": "yes",
+		"Relationship:Sebastian |contains=Married": true,
+		}
+	},
+{
+	"LogName": "Kid Sebby picture",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/sprites/SebbyFrog.png",
+	"ToArea": { "X": 240, "Y": 80, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"LocationName": "ScienceHouse",
+		},
+	"Update": "OnLocationChange",
+	},
+{
+	"LogName": "Seb room pics",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/sprites/SebRoomPics.png",
+	"ToArea": { "X": 288, "Y": 160, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"LocationName": "SebastianRoom",
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		"Relationship:Sebastian |contains=Married": false,
+		},
+	"Update": "OnLocationChange",
+	},
+{
+	"LogName": "Frog picture",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior_2",
+	"FromFile": "assets/sprites/SebRoomFrogPic.png",
+	"ToArea": { "X": 224, "Y": 583, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"LocationName": "SebastianRoom",
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		},
+	"Update": "OnLocationChange",
+	},
+{
+	"LogName": "Frog picture",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/sprites/SebRoomFrogPic.png",
+	"ToArea": { "X": 352, "Y": 160, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"LocationName": "SebastianRoom",
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		},
+	"Update": "OnLocationChange",
+	},
+{
+	"LogName": "Friends picture",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior_2",
+	"FromFile": "assets/sprites/SebRoomFriendsPic.png",
+	"ToArea": { "X": 192, "Y": 581, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"LocationName": "SebastianRoom",
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		"Relationship:Sebastian |contains=Married": false,
+		},
+	"Update": "OnLocationChange",
+	},
+{
+	"LogName": "Robin's workroom",
+	"Action": "EditMap",
+	"Target": "Maps/SebastianRoom",
+	"FromFile": "assets/maps/MaggRobinWorkroom.tmx",
+	"PatchMode": "Replace",
+	"When": {
+		"Relationship:Sebastian |contains=Married": true,
+		}
+	},
+//Easter Egg frogs
+{
+	"LogName": "Frog face front",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFace.png",
+	"ToArea": { "X": 496, "Y": 168, "Width": 9, "Height": 8 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "stardew valley fair",
+		},
+	},
+{
+	"LogName": "Frog blu face",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogBluFace.png",
+	"ToArea": { "X": 384, "Y": 81, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "stardew valley fair",
+		},
+	},
+{
+	"LogName": "Frog red side",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogSideRed.png",
+	"ToArea": { "X": 407, "Y": 39, "Width": 8, "Height": 6 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "stardew valley fair",
+		},
+	},
+{
+	"LogName": "Frog face lil",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceLil.png",
+	"ToArea": { "X": 244, "Y": 125, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "dance of the moonlight jellies",
+		},
+	},
+{
+	"LogName": "Frog face lil",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceLil.png",
+	"ToArea": { "X": 260, "Y": 126, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "dance of the moonlight jellies",
+		},
+	},
+{
+	"LogName": "Frog red jump",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogRedJump.png",
+	"ToArea": { "X": 435, "Y": 326, "Width": 10, "Height": 10 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "spirit's eve",
+		},
+	},
+{
+	"LogName": "Frog red eye",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceRedEye.png",
+	"ToArea": { "X": 292, "Y": 360, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "spirit's eve",
+		},
+	},
+{
+	"LogName": "Frog red eye",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceRedEye.png",
+	"ToArea": { "X": 324, "Y": 360, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "spirit's eve",
+		},
+	},
+{
+	"LogName": "Frog red eye",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceRedEye.png",
+	"ToArea": { "X": 356, "Y": 360, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "spirit's eve",
+		},
+	},
+{
+	"LogName": "Frog red eye",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceRedEye.png",
+	"ToArea": { "X": 324, "Y": 344, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "spirit's eve",
+		},
+	},
+{
+	"LogName": "Frog red eye",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceRedEye.png",
+	"ToArea": { "X": 356, "Y": 344, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "spirit's eve",
+		},
+	},
+{
+	"LogName": "Frog blu face",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogBluFace.png",
+	"ToArea": { "X": 360, "Y": 440, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "feast of the winter star",
+		},
+	},
+{
+	"LogName": "Frog red side",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogSideRed.png",
+	"ToArea": { "X": 404, "Y": 361, "Width": 8, "Height": 6 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "feast of the winter star",
+		},
+	},
+{
+	"LogName": "Frog blu jump",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogBluJump.png",
+	"ToArea": { "X": 130, "Y": 385, "Width": 10, "Height": 10 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "festival of ice",
+		},
+	},
+{
+	"LogName": "Frog white",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogWhite.png",
+	"ToArea": { "X": 28, "Y": 405, "Width": 10, "Height": 8 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "festival of ice",
+		"Year": "1",
+		},
+	},
+{
+	"LogName": "Snowgoons",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/SnowgoonFam.png",
+	"ToArea": { "X": 2, "Y": 385, "Width": 61, "Height": 31 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "festival of ice",
+		"Year |contains=1": false,
+		},
+	},
+{
+	"LogName": "Frog red side",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogSideRed.png",
+	"ToArea": { "X": 2, "Y": 119, "Width": 8, "Height": 6 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "luau",
+		},
+	},
+{
+	"LogName": "Frog face red",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceRed.png",
+	"ToArea": { "X": 132, "Y": 136, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "luau",
+		},
+	},
+{
+	"LogName": "Frog red side",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogSideRed.png",
+	"ToArea": { "X": 32, "Y": 74, "Width": 8, "Height": 6 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "egg festival",
+		},
+	},
+{
+	"LogName": "Frog face lil egg",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceEgg.png",
+	"ToArea": { "X": 56, "Y": 34, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "egg festival",
+		},
+	},
+{
+	"LogName": "Frog face lil",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceLil.png",
+	"ToArea": { "X": 12, "Y": 45, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "egg festival",
+		},
+	},
+{
+	"LogName": "Frog face lil",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogFaceLil.png",
+	"ToArea": { "X": 191, "Y": 117, "Width": 8, "Height": 7 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "flower dance",
+		},
+	},
+{
+	"LogName": "Frog jump lil",
+	"Action": "EditImage",
+	"Target": "Maps/Festivals",
+	"FromFile": "assets/sprites/FrogJumpLil.png",
+	"ToArea": { "X": 205, "Y": 70, "Width": 10, "Height": 10 },
+	"PatchMode": "Overlay",
+	"When": {
+		"DayEvent": "flower dance",
+		},
+	},
+//CHARACTER SPRITES
+{
+"Action": "EditImage",
+	"Target": "Characters/Sebastian",
+	"FromFile": "assets/sprites/Sebastian_patch.png",
+	"ToArea": { "X": 0, "Y": 480, "Width": 64, "Height": 512 },
+	"PatchMode": "Replace",
+	"When": {
+		"SebCustomSprites": "yes",
+		}
+	},
+{
+	"Action": "EditImage",
+	"Target": "Characters/Sebastian_Winter",
+	"FromFile": "assets/sprites/Sebastian_Winter_patch.png",
+	"ToArea": { "X": 0, "Y": 480, "Width": 64, "Height": 512 },
+	"PatchMode": "Replace",
+	"When": {
+		"SebCustomSprites": "yes",
+		}
+	},
+{
+	"Action": "EditImage",
+	"Target": "Characters/Sam",
+	"FromFile": "assets/sprites/Sam_patch.png",
+	"ToArea": { "X": 0, "Y": 448, "Width": 64, "Height": 480 },
+	"PatchMode": "Replace",
+	"When": {
+		"SebCustomSprites": "yes",
+		}
+	},
+{
+	"Action": "EditImage",
+	"Target": "Characters/Sam_Winter",
+	"FromFile": "assets/sprites/Sam_winter_patch.png",
+	"ToArea": { "X": 0, "Y": 448, "Width": 64, "Height": 480 },
+	"PatchMode": "Replace",
+	"When": {
+		"SebCustomSprites": "yes",
+		}
+	},
+{
+	"Action": "EditImage",
+	"Target": "Characters/Baby, Characters/Baby_dark",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}_edit.png",
+	"PatchMode": "Replace",
+	"When": {
+		"BabySpriteEdit": "yes",
+		}
+	},
+//Sebastian stops smoking at the fair after married one year quit or nonsmoking options
+{
+	"Action": "EditImage",
+	"Target": "Characters/Sebastian",
+	"FromFile": "assets/sprites/Seb_NS_lollipop.png",
+	"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+	"PatchMode": "Replace",
+	"When": {
+		"Smoking": "quitsmoking, nonsmoking",
+		"SebCustomSprites": "yes",
+		"Relationship:Sebastian |contains=Married": true,
+		"TheMightyAmondee.CustomTokens/YearsMarried |contains=0": false
+		},
+	},
+{
+	"Action": "EditImage",
+	"Target": "Characters/Sebastian_Winter",
+	"FromFile": "assets/sprites/Seb_NS_lollipop_winter.png",
+	"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 64 },
+	"PatchMode": "Replace",
+	"When": {
+		"Smoking": "quitsmoking, nonsmoking",
+		"SebCustomSprites": "yes",
+		"Relationship:Sebastian |contains=Married": true,
+		"TheMightyAmondee.CustomTokens/YearsMarried |contains=0": false
+		},
+	},
+//TEMPORARY ACTORS
+{
+	"Action": "Load",
+	"Target": "Characters/ShadowDance",
+	"FromFile": "assets/sprites/ShadowDance_female.png",
+	"When": {
+		"PlayerGender": "female",
+		}
+    },
+{
+	"Action": "Load",
+	"Target": "Characters/ShadowDance",
+	"FromFile": "assets/sprites/ShadowDance_male.png",
+	"When": {
+		"PlayerGender": "male",
+		}
+    },
+{
+	"Action": "Load",
+	"Target": "Characters/Froggy, Characters/LilFroggy, Characters/FroggyToo, Characters/LilFroggyBlu, Characters/LilFroggyRed, Characters/MaruBot, Characters/DredgeNetPile, Characters/DredgeNetFlat, Characters/SnowgoonFamily, Characters/SebBike, Characters/JackFamily, Characters/TallJack, Characters/CuteJack, Characters/EmoJack, Characters/HappyJack, Characters/FrogBlanket, Characters/FrogBlanket2, Characters/CatchNet, Characters/CatchNet2, Characters/OrangeTent, Characters/Campfire, Characters/Clothes, Characters/ChickenThief",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
+    },
+//FLOWER DANCE SUITS
+{//only edits vanilla sprite sheet filenames not seasonal
+	"Action": "EditImage",
+	"Target": "Characters/Alex, Characters/Elliott, Characters/Harvey, Characters/Sam, Characters/Sebastian, Characters/Shane",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}_suit.png",
+	"ToArea": { "X": 0, "Y": 352, "Width": 64, "Height": 32 },
+	"PatchMode": "Replace",
+	"When": {
+		"FlowerSuit": "yes",
+		"Relationship:Sebastian |contains=Married": true,
+		"Query: '{{TheMightyAmondee.CustomTokens/YearsMarried}}' >= 2": true,
+   		}
+	},
+//WEDDING SPRITES
+{//only edits vanilla sprite sheet filenames not seasonal
+	"Action": "EditImage",
+	"Target": "Characters/Sebastian, Characters/Sebastian_Winter",
+	"FromFile": "assets/sprites/Sebastian_Wedding_Suit.png",
+	"When": {
+		"DayEvent": "wedding",
+		"SebWeddingSuit": "yes",
+   		}
+	},
+{
+"LogName": "Wedding Flowers",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/maps/Wedding_flowers.png",
+	"ToArea": { "X": 526, "Y": 1183, "Width": 13, "Height": 92 },
+	"PatchMode": "Replace",
+	"When": {
+		"DayEvent": "wedding",
+		"WeddingDecor": "yes",
+        }
+	},
+{
+	"LogName": "Wedding Arch",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/maps/Wedding_arch.png",
+	"ToArea": { "X": 539, "Y": 1183, "Width": 100, "Height": 92 },
+	"PatchMode": "Replace",
+	"When": {
+		"DayEvent": "wedding",
+		"WeddingDecor": "yes",
+        }
+	},
+{
+	"LogName": "Wedding Table",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_table.png",
+	"ToArea": { "X": 432, "Y": 512, "Width": 48, "Height": 48 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 16, "Y": 144, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Lightpost",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_lightpost_{{season}}.png",
+	"ToArea": { "X": 176, "Y": 448, "Width": 16, "Height": 64 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_outdoorsTileSheet",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 369, "Y": 688, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Top",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tabletop.png",
+	"ToArea": { "X": 272, "Y": 640, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Top",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tabletop.png",
+	"ToArea": { "X": 368, "Y": 416, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Base",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tablebase.png",
+	"ToArea": { "X": 368, "Y": 432, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table cup",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tablecup.png",
+	"ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggSebWedding": true,
+		"WeddingDecor": "yes",
+		}
+	},
+{
+"LogName": "Wedding Flowers",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/maps/Wedding_flowers.png",
+	"ToArea": { "X": 526, "Y": 1183, "Width": 13, "Height": 92 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+        }
+	},
+{
+	"LogName": "Wedding Arch",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/maps/Wedding_arch.png",
+	"ToArea": { "X": 539, "Y": 1183, "Width": 100, "Height": 92 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+        }
+	},
+{
+	"LogName": "Wedding Table",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_table.png",
+	"ToArea": { "X": 432, "Y": 512, "Width": 48, "Height": 48 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 16, "Y": 144, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Lightpost",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_lightpost_{{season}}.png",
+	"ToArea": { "X": 176, "Y": 448, "Width": 16, "Height": 64 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_outdoorsTileSheet",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 369, "Y": 688, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Top",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tabletop.png",
+	"ToArea": { "X": 272, "Y": 640, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Top",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tabletop.png",
+	"ToArea": { "X": 368, "Y": 416, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Base",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tablebase.png",
+	"ToArea": { "X": 368, "Y": 432, "Width": 32, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table cup",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tablecup.png",
+	"ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggweddingreception10042024": true,
+		"SebDecor": "yes",
+		}
+	},
+]
+}

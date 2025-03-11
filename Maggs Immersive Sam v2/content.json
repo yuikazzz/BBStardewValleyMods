@@ -20,7 +20,7 @@
 	"SamCustomSprites": {
 		"AllowValues": "yes, no",
 		"Default": "yes",
-		"Description": "Enables custom sprites for certain events. Selecting 'No' will show alternate visuals in some events and remove some non-essential events that require custom sprites. If you are using Seasonal Outfits, download the compatible patch for the custom sprites. Fully compatible with Maggs Emo Sebastian sprites.",
+		"Description": "Enables custom sprites for certain events. Selecting 'No' will show alternate visuals in some events and remove some non-essential events that require custom sprites. If you are using Seasonal Outfits, download the compatible patch for the custom sprites.",
 		"Section": "CustomSprites",
 			},
 	"DanceSprites": {

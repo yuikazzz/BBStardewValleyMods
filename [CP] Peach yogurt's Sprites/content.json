@@ -1,0 +1,461 @@
+{
+    "Format": "2.3.0",
+    "ConfigSchema":  {
+       
+            "Abigail": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Alex": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Elliott": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Harvey": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Sam": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Sebastian": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Shane": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Haley": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Leah": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Maru": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Penny": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            },
+            "Emily": {
+                "AllowValues": "true, false",
+                "Default": "true"
+            }
+        },
+    "Changes": [
+        // 单身男性
+        {
+            "Action": "Load",
+            "Target": "Characters/Alex",
+            "FromFile": "assets/Characters/Alex.png",
+            "When": {"Alex": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Alex_Beach",
+            "FromFile": "assets/Characters/Alex_Beach.png",
+            "When": {"Alex": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Alex_Winter",
+            "FromFile": "assets/Characters/Alex_Winter.png",
+            "When": {"Alex": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Elliott",
+            "FromFile": "assets/Characters/Elliott.png",
+            "When": {"Elliott": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Elliott_Beach",
+            "FromFile": "assets/Characters/Elliott_Beach.png",
+            "When": {"Elliott": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Elliott_Winter",
+            "FromFile": "assets/Characters/Elliott_Winter.png",
+            "When": {"Elliott": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Harvey",
+            "FromFile": "assets/Characters/Harvey.png",
+            "When": {"Harvey": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Harvey_Beach",
+            "FromFile": "assets/Characters/Harvey_Beach.png",
+            "When": {"Harvey": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Harvey_Winter",
+            "FromFile": "assets/Characters/Harvey_Winter.png",
+            "When": {"Harvey": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sam",
+            "FromFile": "assets/Characters/Sam.png",
+            "When": {"Sam": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sam_Beach",
+            "FromFile": "assets/Characters/Sam_Beach.png",
+            "When": {"Sam": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sam_Winter",
+            "FromFile": "assets/Characters/Sam_Winter.png",
+            "When": {"Sam": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sam_JojaMart",
+            "FromFile": "assets/Characters/Sam_JojaMart.png",
+            "When": {"Sam": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sebastian",
+            "FromFile": "assets/Characters/Sebastian.png",
+            "When": {"Sebastian": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sebastian_Beach",
+            "FromFile": "assets/Characters/Sebastian_Beach.png",
+            "When": {"Sebastian": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Sebastian_Winter",
+            "FromFile": "assets/Characters/Sebastian_Winter.png",
+            "When": {"Sebastian": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.png",
+            "FromArea": { "X": 276, "Y": 1843, "Width": 48, "Height": 42 },
+            "ToArea": { "X": 276, "Y": 1843, "Width": 48, "Height": 42 },
+            "When": {"Sebastian": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.png",
+            "FromArea": { "X": 324, "Y": 1843, "Width": 81, "Height": 21 },
+            "ToArea": { "X": 324, "Y": 1843, "Width": 81, "Height": 21 },
+            "When": {"Sebastian": true}
+        }, 
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.png",
+            "FromArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 }, 
+            "ToArea": { "X": 405, "Y": 1854, "Width": 47, "Height": 33 },
+            "When": {"Sebastian": true}
+        }, 
+        //384的车。。
+        {
+            "Action": "EditImage",
+            "Patchmode": "Overlay",
+            "Target": "Maps/{{season}}_outdoorsTileSheet",
+            "FromFile": "assets/motor.png",
+            "FromArea": { "X":0, "Y": 0, "Width": 47, "Height": 24 },
+            "ToArea": { "X":33, "Y": 1223, "Width": 47, "Height": 24 },
+            "When": {"Sebastian": true}
+        },
+        {
+            "Action": "EditImage",
+            "Patchmode": "Overlay",
+            "Target": "Maps/sebastianMountainTiles",
+            "FromFile": "assets/motor.png",
+            "FromArea": { "X":0, "Y": 0, "Width": 47, "Height": 24 },
+            "ToArea": { "X":273, "Y": 288, "Width": 47, "Height": 24 }
+        },	
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane",
+            "FromFile": "assets/Characters/Shane.png",
+            "When": {"Shane": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane_Beach",
+            "FromFile": "assets/Characters/Shane_Beach.png",
+            "When": {"Shane": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane_Winter",
+            "FromFile": "assets/Characters/Shane_Winter.png",
+            "When": {"Shane": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Shane_JojaMart",
+            "FromFile": "assets/Characters/Shane_JojaMart.png",
+            "When": {"Shane": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Characters/ClothesTherapyCharacters",
+            "FromFile": "assets/Characters/ClothesTherapyCharacters",
+            "FromArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 }, 
+            "ToArea": { "X": 0, "Y": 0, "Width": 64, "Height": 32 },
+            "When": {"Shane": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "LooseSprites/Cursors",
+            "FromFile": "assets/Cursors.png",
+            "FromArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+            "ToArea": { "X": 533, "Y": 1864, "Width": 19, "Height": 27 },
+            "When": {"Shane": true}
+        },
+        
+    
+        // 单身女性
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail",
+            "FromFile": "assets/Characters/Abigail.png",
+            "When": {"Abigail": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail_Beach",
+            "FromFile": "assets/Characters/Abigail_Beach.png",
+            "When": {"Abigail": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Abigail_Winter",
+            "FromFile": "assets/Characters/Abigail_Winter.png",
+            "When": {"Abigail": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Haley",
+            "FromFile": "assets/Characters/Haley.png",
+            "When": {"Haley": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Haley_Beach",
+            "FromFile": "assets/Characters/Haley_Beach.png",
+            "When": {"Haley": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Haley_Winter",
+            "FromFile": "assets/Characters/Haley_Winter.png",
+            "When": {"Haley": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/cowPhotos",
+            "FromFile": "assets/cowPhotos.png",
+            "When": {"Haley": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "LooseSprites/cowPhotosWinter",
+            "FromFile": "assets/cowPhotosWinter.png",
+            "When": {"Haley": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah",
+            "FromFile": "assets/Characters/Leah.png",
+            "When": {"Leah": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah_Beach",
+            "FromFile": "assets/Characters/Leah_Beach.png",
+            "When": {"Leah": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Leah_Winter",
+            "FromFile": "assets/Characters/Leah_Winter.png",
+            "When": {"Leah": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru",
+            "FromFile": "assets/Characters/Maru.png",
+            "When": {"Maru": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Beach",
+            "FromFile": "assets/Characters/Maru_Beach.png",
+            "When": {"Maru": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Winter",
+            "FromFile": "assets/Characters/Maru_Winter.png",
+            "When": {"Maru": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Maru_Hospital",
+            "FromFile": "assets/Characters/Maru_Hospital.png",
+            "When": {"Maru": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny",
+            "FromFile": "assets/Characters/Penny.png",
+            "When": {"Penny": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny_Beach",
+            "FromFile": "assets/Characters/Penny_Beach.png",
+            "When": {"Penny": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Penny_Winter",
+            "FromFile": "assets/Characters/Penny_Winter.png",
+            "When": {"Penny": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily",
+            "FromFile": "assets/Characters/Emily.png",
+            "When": {"Emily": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily_Beach",
+            "FromFile": "assets/Characters/Emily_Beach.png",
+            "When": {"Emily": true}
+        },
+        {
+            "Action": "Load",
+            "Target": "Characters/Emily_Winter",
+            "FromFile": "assets/Characters/Emily_Winter.png",
+            "When": {"Emily": true}
+        },
+        //肖像
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 0, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 272, "Width": 32, "Height": 32 },
+            "When": {"Abigail": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 32, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 32, "Y": 272, "Width": 32, "Height": 32 },
+            "When": {"Haley": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 64, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 64, "Y": 272, "Width": 32, "Height": 32 },
+            "When": {"Emily": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 96, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 272, "Width": 32, "Height": 32 },
+            "When": {"Maru": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 128, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 128, "Y": 272, "Width": 32, "Height": 32 },
+            "When": {"Penny": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 160, "Y": 0, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 48, "Y": 368, "Width": 32, "Height": 32 },
+            "When": {"Leah": true}
+         },
+         {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 0, "Y": 32, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 0, "Y": 304, "Width": 32, "Height": 32 },
+            "When": {"Harvey": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 32, "Y": 32, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 32, "Y": 304, "Width": 32, "Height": 32 },
+            "When": {"Alex": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 64, "Y": 32, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 64, "Y": 304, "Width": 32, "Height": 32 },
+            "When": {"Shane": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 96, "Y": 32, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 96, "Y": 304, "Width": 32, "Height": 32 },
+            "When": {"Sebastian": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 128, "Y": 32, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 128, "Y": 304, "Width": 32, "Height": 32 },
+            "When": {"Elliott": true}
+        },
+        {
+            "Action": "EditImage",
+            "Target": "TileSheets/junimo_furniture",
+            "FromFile": "assets/Portrait.png",
+            "FromArea": { "X": 160, "Y": 32, "Width": 32, "Height": 32 },
+            "ToArea": { "X": 80, "Y": 368, "Width": 32, "Height": 32 },
+            "When": {"Sam": true}
+         }
+    ]
+}

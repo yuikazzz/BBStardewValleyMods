@@ -1,0 +1,24 @@
+{
+    "Format": "2.3.0",
+    
+    "Changes": [
+
+        {
+        "LogName": "Baking Lovers Decor Furniture",
+        "Action": "Include",
+        "FromFile": "Data/furniture.json"
+        },
+	
+	{
+        "LogName": "Baking Lovers Decor Furniture Catalogue",
+        "Action": "Include",
+        "FromFile": "Data/shops.json"
+        },
+
+        {
+        "LogName": "Baking Lovers Decor Furniture Textures",
+        "Action": "Include",
+        "FromFile": "Data/textures.json"
+        }
+    ]
+}

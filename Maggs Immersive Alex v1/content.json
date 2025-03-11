@@ -1,0 +1,1860 @@
+{
+//WARNING!! Do NOT make edits to any file in this mod unless you know what you're doing, you can easily break things by accidentally deleting a symbol. I am not responsible for breaks caused by editing and I don't provide coding instruction. There is a Wiki for that.
+
+//IF YOU CHOOSE TO EDIT THE DIALOGUE - You may edit your personal copy only. You do not have permission to make edits and re-post or share this mod. The dialogue is my own writing and I worked very hard on this. Contact MaggPlays directly if you have any questions.
+
+    "Format": "2.4.0",
+	"ConfigSchema": {
+		"SpiceLevel": {
+			"AllowValues": "sweet, spicy, extraspicy",
+			"Default": "extraspicy",
+			"Description": "SWEET is all romance and no swearing. SPICY includes innuendo and mild swearing. EXTRA SPICY adds some additional sexual content to Spicy. All content is positive, romantic, and light, NO violent/dark or crass content.",
+			"Section": "DialogueType",
+            },
+		"FarmerPronouns": {
+			"AllowValues": "yes, no",
+			"Default": "no",
+			"Description": "Select 'Yes' to use gender neutral pronouns for farmer.",
+			"Section": "DialogueType",
+			},
+		"GrandmaName": {
+			"AllowValues": "Grandma, Grams, Nana, Memaw, Grammy, Mimi, Naenae, Gigi, Gran, Bubbe, Tina, Abuela",
+			"Default": "Grandma",
+			"Description": "Select Alex's name for Evelyn.",
+			"Section": "DialogueType",
+            },
+        "GrandpaName": {
+			"AllowValues": "Grandpa, Gramps, Papa, Papaw, Grampy, Poppy, Papi, Grandad, Pops, Zayde, Tama, Abuelo",
+			"Default": "Grandpa",
+			"Description": "Select Alex's name for George.",
+			"Section": "DialogueType",
+            },
+		"Endearment": {
+			"AllowValues": "none, Love, Sweetheart, Sweetie, Heart, Darling, Honey, Hun, Baby, Babe, Dear, Princess, Prince, Angel, Cutie, Beautiful, Handsome, Bubbela, Tau, Miamor",
+			"Default": "Love",
+			"Description": "Select the pet name Alex should call you after dating.",
+			"Section": "DialogueType",
+			},
+		"AlexWalkRepeat": {
+			"AllowValues": "saturday, threedays, daily, none",
+			"Default": "threedays",
+			"Description": "Choose whether you take a walk with Alex in the mornings in winter, a repeating mini-event with randomized conversation customized for single, dating, or married.",
+			"Section": "EventOptions",
+			},
+        "SleepoverRepeat": {
+			"AllowValues": "friday, threedays, daily, none",
+			"Default": "threedays",
+			"Description": "Choose whether Alex sleeps over at the farmhouse while dating after seeing Goal Line (Extra Spicy only), enables a mini event conversation in the evening and the following morning with randomized dialogue. The morning event is replaced by a morning walk in winter. Recommended to set to None (Off) if using Polyamory Sweet or a similar polygamy mod and farmer is already married to avoid immersion issues.",
+			"Section": "EventOptions",
+			},
+		"PillowtalkRepeat": {
+			"AllowValues": "friday, threedays, daily, none",
+			"Default": "threedays",
+			"Description": "Choose whether Alex talks to you at night after marriage (Extra Spicy only), enables a mini event conversation in the evening with randomized dialogue. Recommended to set to None (Off) if using Polyamory Sweet or a similar polygamy mod to avoid immersion issues and possible dialogue conflicts.",
+			"Section": "EventOptions",
+			},
+		"MorningRepeat": {
+			"AllowValues": "saturday, threedays, daily, none",
+			"Default": "daily",
+			"Description": "Choose whether Alex chats with farmer in the mornings after marriage, enables a mini event conversation in the morning with randomized dialogue. Recommended to set to None (Off) if using Polyamory Sweet or a similar polygamy mod to avoid immersion issues and possible dialogue conflicts.",
+			"Section": "EventOptions",
+			},
+		"EndDayOption": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Sleepover, Pillowtalk, and Goal Line events end the day. Choose 'No' to keep any event from ending the day.",
+			"Section": "EventOptions",
+			},
+		"BirthSeason": {
+			"AllowValues": "spring, summer, fall, winter",
+			"Default": "spring",
+			"Description": "Select the season for your farmer's birthday, this is used for custom events. Avoid festival days, and if you are using the Happy Birthday mod, select the same day.",
+			"Section": "EventOptions",
+			},
+		"BirthDay": {
+			"AllowValues": "1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21 , 22 , 23 , 24 , 25 , 26 , 27 , 28",
+			"Default": "1",
+			"Description": "Select the day for your farmer's birthday, this is used for custom events. Avoid festival days, and if you are using the Happy Birthday mod, select the same day.",
+			"Section": "EventOptions",
+			},
+		"AlexPortraits": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Enable a minor change in Alex's vanilla portraits related to the story. Select 'No' if you have a portrait mod installed.",
+			"Section": "CustomSprites",
+			},
+		"AlexFluffySprites": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Enable slightly modified vanilla sprites for Alex with hair that better matches his portrait. Select 'No' if you have another sprite mod installed.",
+			"Section": "CustomSprites",
+			},
+		"AlexCustomSprites": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Enable custom event sprites for Alex, for Seasonal Outfits Slightly Cuter mod, download the sprite patch linked in the Nexus mod description. Selecting 'No' will show alternate visuals which are less immersive for compatibility with other sprite mods.",
+			"Section": "CustomSprites",
+			},
+		"AlexWeddingSuit": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Select 'Yes' to enable a custom wedding suit for Alex. Select 'no' if you don't want to change the suit or have a different sprite mod installed.",
+			"Section": "CustomSprites",
+			},
+		"AlexWeddingDecor": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Select 'Yes' to enable custom wedding decor, the decorations stay up a couple of days after the wedding. Select 'No' if you have an alternate decor mod installed.",
+			"Section": "CustomSprites",
+			},
+		"BabySprite": {
+			"AllowValues": "light, dark",
+			"Default": "light",
+			"Description": "Select the baby sprite color you'd like for the birth event, the event can't automatically select this option.",
+			"Section": "CustomSprites",
+			},
+		"BabySpriteEdit": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Enables a minor edit to the baby sprite, recoloring the blanket to a mint green and making the infant slightly smaller.",
+			"Section": "CustomSprites",
+			},
+		"LivingRoomEdit": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Make edits to Alex's house living room, adding decor from the story. Compatible with SVE. Set to 'no' if you're using another texture mod and the edits conflict.",
+			"Section": "OtherOptions",
+			},
+		"AlexSpouseRoomEdit": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Make edits to Alex's spouse room, adding decor from the story. Set to 'no' if you're using a different spouse room mod and the edits conflict.",
+			"Section": "OtherOptions",
+			},
+		"EvelynSunroom": {
+			"AllowValues": "yes, no",
+			"Default": "yes",
+			"Description": "Switches Alex's old bedroom to a sunroom for Evelyn after he moves out.",
+			"Section": "OtherOptions",
+			},
+		"AlexAdoptChild": {
+			"AllowValues": "yes, no",
+			"Default": "no",
+			"Description": "Select Yes to enable adoption events, natural birth events are default. This selection allows compatibity with mods that give adoption options to hetero couples.",
+			"Section": "OtherOptions",
+			}
+		},
+"DynamicTokens": [
+//Grandma name
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Grandma}}",
+	"When": {
+		"GrandmaName": "Grandma",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Grams}}",
+	"When": {
+		"GrandmaName": "Grams",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Nana}}",
+	"When": {
+		"GrandmaName": "Nana",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Memaw}}",
+	"When": {
+		"GrandmaName": "Memaw",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Grammy}}",
+	"When": {
+		"GrandmaName": "Grammy",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Mimi}}",
+	"When": {
+		"GrandmaName": "Mimi",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Naenae}}",
+	"When": {
+		"GrandmaName": "Naenae",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Gigi}}",
+	"When": {
+		"GrandmaName": "Gigi",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Gran}}",
+	"When": {
+		"GrandmaName": "Gran",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Bubbe}}",
+	"When": {
+		"GrandmaName": "Bubbe",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Tina}}",
+	"When": {
+		"GrandmaName": "Tina",
+		}
+	},
+{
+	"Name": "AlexGmaName",
+	"Value": "{{i18n: alex.config.Abuela}}",
+	"When": {
+		"GrandmaName": "Abuela",
+		}
+	},
+//Grandpa name
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Grandpa}}",
+	"When": {
+		"GrandpaName": "Grandpa",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Gramps}}",
+	"When": {
+		"GrandpaName": "Gramps",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Papa}}",
+	"When": {
+		"GrandpaName": "Papa",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Papaw}}",
+	"When": {
+		"GrandpaName": "Papaw",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Grampy}}",
+	"When": {
+		"GrandpaName": "Grampy",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Poppy}}",
+	"When": {
+		"GrandpaName": "Poppy",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Papi}}",
+	"When": {
+		"GrandpaName": "Papi",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Grandad}}",
+	"When": {
+		"GrandpaName": "Grandad",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Pops}}",
+	"When": {
+		"GrandpaName": "Pops",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Zayde}}",
+	"When": {
+		"GrandpaName": "Zayde",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Tama}}",
+	"When": {
+		"GrandpaName": "Tama",
+		}
+	},
+{
+	"Name": "AlexGpaName",
+	"Value": "{{i18n: alex.config.Abuelo}}",
+	"When": {
+		"GrandpaName": "Abuelo",
+		}
+	},
+//Endearment name
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Love}}",
+	"When": {
+		"Endearment": "Love",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Sweetheart}}",
+	"When": {
+		"Endearment": "Sweetheart",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Sweetie}}",
+	"When": {
+		"Endearment": "Sweetie",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Heart}}",
+	"When": {
+		"Endearment": "Heart",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Darling}}",
+	"When": {
+		"Endearment": "Darling",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Honey}}",
+	"When": {
+		"Endearment": "Honey",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Hun}}",
+	"When": {
+		"Endearment": "Hun",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Baby}}",
+	"When": {
+		"Endearment": "Baby",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Babe}}",
+	"When": {
+		"Endearment": "Babe",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Dear}}",
+	"When": {
+		"Endearment": "Dear",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Princess}}",
+	"When": {
+		"Endearment": "Princess",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Prince}}",
+	"When": {
+		"Endearment": "Prince",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Angel}}",
+	"When": {
+		"Endearment": "Angel",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Cutie}}",
+	"When": {
+		"Endearment": "Cutie",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Beautiful}}",
+	"When": {
+		"Endearment": "Beautiful",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Handsome}}",
+	"When": {
+		"Endearment": "Handsome",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Bubbela}}",
+	"When": {
+		"Endearment": "Bubbela",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Tau}}",
+	"When": {
+		"Endearment": "Tau",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.Miamor}}",
+	"When": {
+		"Endearment": "Miamor",
+		}
+	},
+{
+	"Name": "AlexEndearment",
+	"Value": "{{i18n: alex.config.none}}",
+	"When": {
+		"Endearment": "none",
+		}
+	},
+//Config
+{
+	"Name": "FarmerGender",
+	"Value": "female",
+	"When": {
+		"PlayerGender": "female",
+		"FarmerPronouns": "no",
+		}
+	},
+{
+	"Name": "FarmerGender",
+	"Value": "male",
+	"When": {
+		"PlayerGender": "male",
+		"FarmerPronouns": "no",
+		}
+	},
+{
+	"Name": "FarmerGender",
+	"Value": "neu",
+	"When": {
+		"FarmerPronouns": "yes",
+		}
+	},
+{
+	"Name": "AlexAdoption",
+	"Value": "birth",
+	},
+{
+	"Name": "AlexAdoption",
+	"Value": "adopt",
+	"When": {
+		"AlexAdoptChild": "yes"
+        }
+    },
+//Relationship Tokens
+{
+	"Name": "AlexHearts",
+	"Value": "lowhearts",
+	"When": {
+		"Hearts:Alex": "0, 1, 2, 3"
+		}
+	},
+{
+	"Name": "AlexHearts",
+	"Value": "medhearts",
+	"When": {
+		"Hearts:Alex": "4, 5"
+		}
+	},
+{
+	"Name": "AlexHearts",
+	"Value": "highhearts",
+	"When": {
+		"Hearts:Alex": "6, 7, 8, 9, 10"
+		}
+	},
+{
+	"Name": "AlexHearts",
+	"Value": "committed",
+	"When": {
+		"Relationship:Alex |contains=Dating, Engaged, Married": true,
+		}
+	},
+{
+	"Name": "AlexRelationship",
+	"Value": "single",
+	"When": {
+		"Relationship:Alex |contains=Dating, Engaged, Married": false,
+   		}
+	},
+{
+	"Name": "AlexRelationship",
+	"Value": "dating",
+	"When": {
+		"Relationship:Alex |contains=Dating, Engaged, Married": true,
+   		}
+	},
+{
+	"Name": "FarmerBDay",
+	"Value": false,
+	},
+{
+	"Name": "FarmerBDay",
+	"Value": true,
+	"When": {
+		"Season": "{{BirthSeason}}",
+		"Day": "{{BirthDay}}",
+		"Relationship:Alex |contains=Dating, Engaged, Married": true,
+		}
+	},
+{
+	"Name": "AlexAnniversary",
+	"Value": false,
+	},
+{
+	"Name": "AlexAnniversary",
+	"Value": true,
+	"When": {
+		"Day": "{{TheMightyAmondee.CustomTokens/AnniversaryDay}}",
+		"Season": "{{TheMightyAmondee.CustomTokens/AnniversarySeason}}",
+		"Spouse": "Alex"
+		}
+	},
+//Pre-Marriage Event Tokens
+//Marriage Dialogue Tokens
+{
+	"Name": "AlexMarriageYear",
+	"Value": "ongoing",
+	},
+{
+	"Name": "AlexMarriageYear",
+	"Value": "year1",
+	"When": {
+		"TheMightyAmondee.CustomTokens/YearsMarried": "0",
+		"Spouse": "Alex"
+		}
+	},
+{
+	"Name": "AlexMarriageYear",
+	"Value": "year2",
+	"When": {
+		"TheMightyAmondee.CustomTokens/YearsMarried": "1",
+		"Spouse": "Alex"
+		}
+	},
+{
+	"Name": "AlexMarriageYear",
+	"Value": "year3",
+	"When": {
+		"TheMightyAmondee.CustomTokens/YearsMarried": "2",
+		"Spouse": "Alex"
+		}
+	},
+//EVENT tokens
+	//Winter walk event
+{
+	"Name": "FirstWinterWalk",
+	"Value": "message \"{{i18n: alex.date.firstwinterwalk.6}}\"/positionOffset Alex -2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset Alex -2 0/pause 50/positionOffset farmer 2 0/pause 50/animate Alex true true 100 42/showFrame farmer 101/pause 500/specificTemporarySprite heart 70 46/pause 2000/positionOffset Alex 2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame farmer 0 true/faceDirection farmer 1/stopAnimation Alex/faceDirection Alex 3/positionOffset Alex 2 -2/pause 50/positionOffset farmer -2 0/pause 50",
+	"When": {
+		"Relationship:Alex |contains=Dating": true,
+		}
+	},
+{
+	"Name": "FirstWinterWalk",
+	"Value": "pause 50",
+	"When": {
+		"Relationship:Alex |contains=Dating": false,
+		}
+	},
+{
+	"Name": "MorningWalkWinter",
+	"Value": "message \"{{i18n: alex.date.winterwalk.{{Random: 21, 22, 23, 24, 25, 26, 27, 28, 29, 30}}}}\"/positionOffset Alex -2 0/pause 50/positionOffset farmer 2 0/pause 50/positionOffset Alex -2 0/pause 50/positionOffset farmer 2 0/pause 50/animate Alex true true 100 42/showFrame farmer 101/pause 500/specificTemporarySprite heart 70 46/pause 2000/positionOffset Alex 2 0/pause 50/positionOffset farmer -2 0/pause 50/showFrame farmer 0 true/faceDirection farmer 1/stopAnimation Alex/faceDirection Alex 3/positionOffset Alex 2 -2/pause 50/positionOffset farmer -2 0/pause 50",
+	"When": {
+		"Relationship:Alex |contains=Dating": true,
+		}
+	},
+{
+	"Name": "MorningWalkWinter",
+	"Value": "pause 50",
+	"When": {
+		"Relationship:Alex |contains=Dating": false,
+		}
+	},
+{
+	"Name": "AlexWalkDays",
+	"Value": "t 600 605",
+	"When": {
+		"AlexWalkRepeat": "daily"
+		}
+	},
+{
+	"Name": "AlexWalkDays",
+	"Value": "d Mon Wed Fri Sat/t 600 615",
+	"When": {
+		"AlexWalkRepeat": "threedays"
+		}
+	},
+{
+	"Name": "AlexWalkDays",
+	"Value": "DayOfWeek Sat/t 600 615",
+	"When": {
+		"AlexWalkRepeat": "saturday"
+		}
+	},
+	//Dating and Marriage repeatable events
+{
+	"Name": "AlexSleepoverPosition",
+	"Value": "makeInvisible 23 24/warp Alex 23 24/faceDirection Alex 3/warp farmer 22 24/faceDirection farmer 1/positionOffset farmer 0 15",
+	},
+{
+	"Name": "AlexSleepoverPosition",
+	"Value": "makeInvisible 5 5/warp Alex 5 5/faceDirection Alex 3/warp farmer 4 5/faceDirection farmer 1/positionOffset farmer 0 15",
+	"When": {
+		"FarmhouseUpgrade": "1"
+		}
+	},
+{
+	"Name": "AlexSleepoverHeart",
+	"Value": "specificTemporarySprite heart 23 23",
+	},
+{
+	"Name": "AlexSleepoverHeart",
+	"Value": "specificTemporarySprite heart 5 4",
+	"When": {
+		"FarmhouseUpgrade": "1"
+		}
+	},
+{
+	"Name": "AlexSleepoverDays",
+	"Value": "t 600 605",
+	"When": {
+		"SleepoverRepeat": "daily"
+		}
+	},
+{
+	"Name": "AlexSleepoverDays",
+	"Value": "d Tue Thu Fri Sun/t 600 605",
+	"When": {
+		"SleepoverRepeat": "threedays"
+		}
+	},
+{
+	"Name": "AlexSleepoverDays",
+	"Value": "DayOfWeek Sat/t 600 605",
+	"When": {
+		"SleepoverRepeat": "friday"
+		}
+	},
+{
+	"Name": "AlexSleepoverNights",
+	"Value": "t 2100 2400",
+	"When": {
+		"SleepoverRepeat": "daily"
+		}
+	},
+{
+	"Name": "AlexSleepoverNights",
+	"Value": "d Mon Wed Thu Sat/t 2100 2400",
+	"When": {
+		"SleepoverRepeat": "threedays"
+		}
+	},
+{
+	"Name": "AlexSleepoverNights",
+	"Value": "DayOfWeek Fri/t 2100 2400",
+	"When": {
+		"SleepoverRepeat": "friday"
+		}
+	},
+{
+	"Name": "AlexPillowtalkNights",
+	"Value": "t 2100 2400",
+	"When": {
+		"PillowtalkRepeat": "daily"
+		}
+	},
+{
+	"Name": "AlexPillowtalkNights",
+	"Value": "d Tue Thu Fri Sun/t 2100 2400",
+	"When": {
+		"PillowtalkRepeat": "threedays"
+		}
+	},
+{
+	"Name": "AlexPillowtalkNights",
+	"Value": "DayOfWeek Fri/t 2100 2400",
+	"When": {
+		"PillowtalkRepeat": "friday"
+		}
+	},
+{
+	"Name": "AlexMorningDays",
+	"Value": "t 600 605",
+	"When": {
+		"MorningRepeat": "daily"
+		}
+	},
+{
+	"Name": "AlexMorningDays",
+	"Value": "d Mon Wed Fri Sat/t 600 605",
+	"When": {
+		"MorningRepeat": "threedays"
+		}
+	},
+{
+	"Name": "AlexMorningDays",
+	"Value": "DayOfWeek Sat/t 600 605",
+	"When": {
+		"MorningRepeat": "saturday"
+		}
+	},
+{
+	"Name": "EndDay",
+	"Value": "end",
+	"When": {
+		"EndDayOption": "no"
+		}
+	},
+{
+	"Name": "EndDay",
+	"Value": "end newDay",
+	"When": {
+		"EndDayOption": "yes"
+		}
+	},
+	//Other events
+{
+	"Name": "Vanilla4Map",
+	"Value": "MaggAlexTown4",
+	},
+{
+	"Name": "Vanilla4Map",
+	"Value": "MaggAlexTown2",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		}
+	},
+{
+	"Name": "UpgradeConditions",
+	"Value": "e maggoffleash12222024",
+	"When": {
+		"SpiceLevel": "spicy, sweet"
+		}
+	},
+{
+	"Name": "UpgradeConditions",
+	"Value": "e magggoalline01092025",
+	"When": {
+		"SpiceLevel": "extraspicy"
+		}
+	},
+{
+	"Name": "HeatConditions",
+	"Value": "e maggoffleash12222024/A maggheatingupsweet",
+	"When": {
+		"SpiceLevel": "spicy, sweet"
+		}
+	},
+{
+	"Name": "HeatConditions",
+	"Value": "e magggoalline01092025/A maggheatingupspicy",
+	"When": {
+		"SpiceLevel": "extraspicy"
+		}
+	},
+{
+	"Name": "BabySpriteColor",
+	"Value": "Baby",
+	"When": {
+		"BabySprite": "light"
+		}
+	},
+{
+	"Name": "BabySpriteColor",
+	"Value": "Baby_dark",
+	"When": {
+		"BabySprite": "dark"
+		}
+	},
+{
+	"Name": "SaloonReceptionYear",
+	"Value": "Jodi 18 20 3 Kent 17 20 1 ",
+	},
+{
+	"Name": "SaloonReceptionYear",
+	"Value": "Jodi 18 20 0 ",
+	"When": {
+		"Year": "1"
+		}
+	},
+{
+	"Name": "BeachReceptionYear",
+	"Value": "Jodi 33 11 3 Kent 32 11 1 ",
+	},
+{
+	"Name": "BeachReceptionYear",
+	"Value": "Jodi 33 11 0 ",
+	"When": {
+		"Year": "1"
+		}
+	},
+{
+	"Name": "LewisWeddingLine",
+	"Value": "{{i18n: alex.event.weddinglewis.3.{{Season}}}}",
+	},
+{
+	"Name": "LewisWeddingLine",
+	"Value": "{{i18n: alex.event.weddinglewis.3.spring}}",
+	"When": {
+		"Season": "winter",
+		"Day": "27,28",
+		}
+	},
+	//No custom sprite event compat
+{
+	"Name": "BetterTogetherSprite",
+	"Value": "faceDirection Alex 1",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "BetterTogetherSprite",
+	"Value": "showFrame Alex 65",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "BetterTogetherSpriteSam",
+	"Value": "SamWorkout",
+	},
+{
+	"Name": "BetterTogetherSpriteSam",
+	"Value": "SamWorkoutSO",
+	"When": {
+		"HasMod |contains=Poltergeister.SeasonalCuteCharacters": true,
+		}
+	},
+{
+	"Name": "BetterTogetherSpriteSeb",
+	"Value": "SebastianWorkout",
+	},
+{
+	"Name": "BetterTogetherSpriteSeb",
+	"Value": "SebastianWorkoutSO",
+	"When": {
+		"HasMod |contains=Poltergeister.SeasonalCuteCharacters": true,
+		}
+	},
+{
+	"Name": "Vanilla4Sprite",
+	"Value": "showFrame Alex 26",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "Vanilla4Sprite",
+	"Value": "showFrame Alex 69",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "CarriedAwaySprite",
+	"Value": "faceDirection Alex 2",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "CarriedAwaySprite",
+	"Value": "showFrame Alex 54",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "PuppyLoveSprite",
+	"Value": "faceDirection Alex 1",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "PuppyLoveSprite",
+	"Value": "showFrame Alex 64",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "LongshotSprite",
+	"Value": "playSound doorClose/move farmer 0 -5 3/move farmer -3 0 3/speak Alex \"{{i18n: alex.event.longshot.1}}\"/pause 1000/textAboveHead Alex \"{{i18n: alex.event.longshot.2}}\"/pause 100/playSound slimedead/hideShadow deadegg true/warp deadegg 4 17/faceDirection Alex 1",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "LongshotSprite",
+	"Value": "showFrame Alex 58/playSound doorClose/move farmer 0 -5 3/move farmer -3 0 3/speak Alex \"{{i18n: alex.event.longshot.1}}\"/animate Alex false false 100 58 59 60 61 58 59 60 61 58 59 60 61 58 59 60 61 62 63/pause 1800/textAboveHead Alex \"{{i18n: alex.event.longshot.2}}\"/stopAnimation Alex 63/playSound slimedead/hideShadow deadegg true/warp deadegg 4 17/pause 2000/showFrame Alex 64",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "OffLeashSprite",
+	"Value": "faceDirection farmer 2/faceDirection Alex 2/pause 500/playMusic musicboxsong/faceDirection Alex 3/speak Alex \"{{i18n: alex.event.offleash.9}}\"/pause 100/emote farmer 32/message \"{{i18n: alex.event.offleash.10}}\"/playSound leafrustle/pause 500/faceDirection Alex 2/faceDirection farmer 1/emote Alex 40/pause 100/speak Alex \"{{i18n: alex.event.offleash.11}}\"/pause 500/message \"{{i18n: alex.event.offleash.12}}\"/pause 100/faceDirection Alex 3",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "OffLeashSprite",
+	"Value": "move farmer 0 -1 2/showFrame farmer 68 true/positionOffset farmer 0 15/move Alex 0 -1 2/showFrame Alex 52 true/positionOffset Alex 0 15/pause 500/playMusic musicboxsong/showFrame Alex 55/speak Alex \"{{i18n: alex.event.offleash.9}}\"/pause 100/emote farmer 32/message \"{{i18n: alex.event.offleash.10}}\"/playSound leafrustle/pause 500/showFrame Alex 68/emote Alex 40/pause 100/speak Alex \"{{i18n: alex.event.offleash.11}}\"/pause 500/message \"{{i18n: alex.event.offleash.12}}\"/pause 100/showFrame Alex 67",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "GaolLineSprite",
+	"Value": "faceDirection Alex 1/showFrame farmer 0 true/faceDirection farmer 3/message \"{{i18n: alex.event.goalline.7}}\"/pause 500/faceDirection Alex 2/faceDirection farmer 2/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 3000/faceDirection farmer 3/animate farmer true true 100 101/positionOffset farmer 4 6/message \"{{i18n: alex.event.goalline.8}}\"/showFrame Alex 42",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "GaolLineSprite",
+	"Value": "showFrame Alex 65/showFrame farmer 0 true/faceDirection farmer 3/message \"{{i18n: alex.event.goalline.7}}\"/pause 500/showFrame Alex 66/faceDirection farmer 2/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 3000/faceDirection farmer 3/animate farmer true true 100 101/positionOffset farmer 4 6/message \"{{i18n: alex.event.goalline.8}}\"/showFrame Alex 70",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "HeatingUpSprite1",
+	"Value": "farmer 2 5 1 Alex 3 5 3/skippable/changeToTemporaryMap BathHouse_MensLocker false/changeSprite Alex Beach",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "HeatingUpSprite1",
+	"Value": "farmer 3 5 1 Alex 4 5 3/skippable/changeToTemporaryMap BathHouse_MensLocker false/showFrame Alex 74/positionOffset Alex -20 0",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "HeatingUpSprite2",
+	"Value": "showFrame Alex 12",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "HeatingUpSprite2",
+	"Value": "showFrame Alex 75",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "HeatingUpSprite3",
+	"Value": "stopAnimation Alex 0",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "HeatingUpSprite3",
+	"Value": "showFrame Alex 0 true",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "TeamUpSprite",
+	"Value": "faceDirection Alex 3",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "TeamUpSprite",
+	"Value": "showFrame Alex 73",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+{
+	"Name": "BubbleBathSprite",
+	"Value": "showFrame Alex 42",
+	"When": {
+		"AlexCustomSprites": "no",
+		}
+	},
+{
+	"Name": "BubbleBathSprite",
+	"Value": "showFrame Alex 70",
+	"When": {
+		"Query: '{{HasMod |contains=maggplays.samsprites,maggplays.SOspritespatchSeb}}' = 'true' OR '{{AlexCustomSprites}}' = 'yes'": true,
+		}
+	},
+],
+"Changes": [
+//MAPS
+{
+	"Action": "Load",
+	"Target": "Maps/MaggAlexHouse, Maps/MaggAlexHouseWorkout, Maps/MaggSaloonMeetAlex, Maps/MaggAlexTown, Maps/MaggAlexTown2, Maps/MaggAlexTown3, Maps/MaggAlexTown4, Maps/MaggHaleyRoom, Maps/MaggAlexProposal, Maps/MaggSaloonReceptionAlex, Maps/MaggBeachReceptionAlex, Maps/MaggBathroomAlex, Maps/MaggEvelynSunroom, Maps/MaggAlexHouseLivingRoom, Maps/MaggHospitalBirthAlex",
+	"FromFile": "assets/maps/{{TargetWithoutPath}}.tmx",
+	},
+{
+	"Action": "Load",
+	"Target": "Maps/MaggsSpriteTiles, Maps/MaggTilesAlex",
+	"FromFile": "assets/maps/{{TargetWithoutPath}}.png",
+	},
+{
+	"LogName": "Living Room Edit couch",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoom.tmx",
+	"FromArea": { "X": 20, "Y": 16, "Width": 2, "Height": 4 },
+	"ToArea": { "X": 20, "Y": 16, "Width": 2, "Height": 4 },
+	"PatchMode": "Replace",
+	"When": {
+		"LivingRoomEdit": "yes",
+		}
+	},
+{
+	"LogName": "Living Room Edit rug",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoom.tmx",
+	"FromArea": { "X": 17, "Y": 17, "Width": 3, "Height": 2 },
+	"ToArea": { "X": 17, "Y": 17, "Width": 3, "Height": 2 },
+	"PatchMode": "Replace",
+	"When": {
+		"LivingRoomEdit": "yes",
+		}
+	},
+{
+	"LogName": "Living Room Edit TV",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoom.tmx",
+	"FromArea": { "X": 15, "Y": 18, "Width": 2, "Height": 4 },
+	"ToArea": { "X": 15, "Y": 18, "Width": 2, "Height": 4 },
+	"PatchMode": "Replace",
+	"When": {
+		"LivingRoomEdit": "yes",
+		}
+	},
+{
+	"LogName": "Living Room Edit TV green rain day",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoomGR.tmx",
+	"FromArea": { "X": 15, "Y": 18, "Width": 2, "Height": 4 },
+	"ToArea": { "X": 15, "Y": 18, "Width": 2, "Height": 4 },
+	"PatchMode": "Replace",
+	"When": {
+		"LivingRoomEdit": "yes",
+		"Weather": "GreenRain",
+		}
+	},
+{
+	"LogName": "Living Room Edit SVE phone delete",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoom.tmx",
+	"FromArea": { "X": 20, "Y": 15, "Width": 1, "Height": 1 },
+	"ToArea":{ "X": 20, "Y": 15, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"LivingRoomEdit": "yes",
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		}
+	},
+{
+	"LogName": "Wooden walkway",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexTown3.tmx",
+	"FromArea": { "X": 45, "Y": 62, "Width": 2, "Height": 2 },
+	"ToArea": { "X": 45, "Y": 62, "Width": 2, "Height": 2 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggsmoothoperator12262024": true,
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"LogName": "Wooden walkway",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexTown3.tmx",
+	"FromArea": { "X": 45, "Y": 64, "Width": 14, "Height": 2 },
+	"ToArea": { "X": 45, "Y": 64, "Width": 14, "Height": 2 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggsmoothoperator12262024": true,
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"LogName": "Dusty fence fix",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexTown3.tmx",
+	"FromArea": { "X": 53, "Y": 69, "Width": 2, "Height": 3 },
+	"ToArea": { "X": 53, "Y": 69, "Width": 2, "Height": 3 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"LogName": "Wooden walkway SVE",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexWalkwaySVE.tmx",
+	"FromArea": { "X": 0, "Y": 0, "Width": 2, "Height": 1 },
+	"ToArea": { "X": 48, "Y": 63, "Width": 2, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggsmoothoperator12262024": true,
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		}
+	},
+{
+	"LogName": "Wooden walkway SVE",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexWalkwaySVE.tmx",
+	"FromArea": { "X": 0, "Y": 1, "Width": 11, "Height": 2 },
+	"ToArea": { "X": 48, "Y": 64, "Width": 11, "Height": 2 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggsmoothoperator12262024": true,
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+		}
+	},
+{
+	"LogName": "Wooden walkway SVE",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexWalkwaySVE-DO.tmx",
+	"FromArea": { "X": 0, "Y": 0, "Width": 2, "Height": 1 },
+	"ToArea": { "X": 48, "Y": 63, "Width": 2, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggsmoothoperator12262024": true,
+		"HasMod |contains=CF.CP.DustyOverhaulSVE": true,
+		}
+	},
+{
+	"LogName": "Wooden walkway SVE-DO",
+	"Action": "EditMap",
+	"Target": "Maps/Town",
+	"FromFile": "assets/maps/MaggAlexWalkwaySVE-DO.tmx",
+	"FromArea": { "X": 0, "Y": 1, "Width": 11, "Height": 2 },
+	"ToArea": { "X": 48, "Y": 64, "Width": 11, "Height": 2 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=maggsmoothoperator12262024": true,
+		"HasMod |contains=CF.CP.DustyOverhaulSVE": true,
+		}
+	},
+{
+	"LogName": "Clara's music box",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouse.tmx",
+	"FromArea": { "X": 18, "Y": 3, "Width": 1, "Height": 1 },
+	"ToArea": { "X": 18, "Y": 3, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	},
+{
+	"LogName": "Dusty's bed",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouse.tmx",
+	"FromArea": { "X": 14, "Y": 5, "Width": 5, "Height": 4 },
+	"ToArea": { "X": 14, "Y": 5, "Width": 5, "Height": 4 },
+	"PatchMode": "Replace",
+	},
+{
+	"LogName": "Alex computer",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouse.tmx",
+	"FromArea": { "X": 18, "Y": 6, "Width": 3, "Height": 2 },
+	"ToArea": { "X": 18, "Y": 6, "Width": 3, "Height": 2 },
+	"PatchMode": "Replace",
+	},
+{
+	"LogName": "Alex spouse room replace",
+	"Action": "EditMap",
+	"Target": "Maps/spouseRooms",
+	"FromFile": "assets/maps/MaggSpouseRooms.tmx",
+	"FromArea": { "X": 6, "Y": 9, "Width": 6, "Height": 9 },
+	"ToArea": { "X": 6, "Y": 9, "Width": 6, "Height": 9 },
+	"PatchMode": "Replace",
+	"When": {
+		"AlexSpouseRoomEdit": "yes",
+		"Spouse": "Alex",
+		"PlayerGender": "female",
+		}
+	},
+{
+	"LogName": "Alex spouse room replace",
+	"Action": "EditMap",
+	"Target": "Maps/spouseRooms",
+	"FromFile": "assets/maps/MaggSpouseRoomsM.tmx",
+	"FromArea": { "X": 6, "Y": 9, "Width": 6, "Height": 9 },
+	"ToArea": { "X": 6, "Y": 9, "Width": 6, "Height": 9 },
+	"PatchMode": "Replace",
+	"When": {
+		"AlexSpouseRoomEdit": "yes",
+		"Spouse": "Alex",
+		"PlayerGender": "male",
+		}
+	},
+{
+	"LogName": "Night photo",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoomGR.tmx",
+	"FromArea": { "X": 14, "Y": 1, "Width": 1, "Height": 1 },
+	"ToArea":{ "X": 14, "Y": 1, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=magggamedayfall12162024": true,
+		"Hearts:Alex": "6, 7, 8, 9, 10",
+		"Relationship:Alex |contains=Married": false,
+		"PlayerGender": "female",
+		},
+	},
+{
+	"LogName": "Night photo",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggAlexHouseLivingRoom.tmx",
+	"FromArea": { "X": 14, "Y": 1, "Width": 1, "Height": 1 },
+	"ToArea":{ "X": 14, "Y": 1, "Width": 1, "Height": 1 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasSeenEvent |contains=magggamedayfall12162024": true,
+		"Hearts:Alex": "6, 7, 8, 9, 10",
+		"Relationship:Alex |contains=Married": false,
+		"PlayerGender": "male",
+		},
+	},
+//CHARACTER SPRITES
+{
+	"LogName": "Alex fluffy hair sprites",
+	"Action": "EditImage",
+	"Target": "Characters/Alex, Characters/Alex_Winter, Characters/Alex_Beach",
+	"FromFile": "assets/sprites/Fluffy{{TargetWithoutPath}}.png",
+	"PatchMode": "Replace",
+	"When": {
+		"AlexFluffySprites": "yes",
+		}
+	},
+{
+	"LogName": "Alex custom event sprites",
+	"Action": "EditImage",
+	"Target": "Characters/Alex, Characters/Alex_Winter",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}_custom_sprites.png",
+	"ToArea": { "X": 0, "Y": 416, "Width": 64, "Height": 192 },
+	"PatchMode": "Replace",
+	"When": {
+		"AlexCustomSprites": "yes",
+		"AlexFluffySprites": "no",
+		}
+	},
+{
+	"LogName": "Alex 5+ heart portraits",
+	"Action": "EditImage",
+	"Target": "Portraits/Alex, Portraits/Alex_Winter, Portraits/Alex_Beach",
+	"FromFile": "assets/sprites/Relaxed{{TargetWithoutPath}}.png",
+	"PatchMode": "Replace",
+	"When": {
+		"AlexPortraits": "yes",
+		"HasSeenEvent |contains=21": true,
+		}
+	},
+{
+	"LogName": "Dusty small doghouse replace",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/sprites/Dusty_little_house_{{season}}.png",
+	"ToArea": { "X": 208, "Y": 0, "Width": 16, "Height": 32 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"LogName": "Dusty small doghouse eyes replace",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/sprites/Dusty_little_house_door.png",
+	"ToArea": { "X": 192, "Y": 0, "Width": 16, "Height": 16 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"LogName": "Dusty event animation replace",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/sprites/Dusty_animation_replace.png",
+	"ToArea": { "X": 324, "Y": 1916, "Width": 72, "Height": 40 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"LogName": "Dusty sleeping in doghouse replace",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/sprites/Dusty_inhouse_replace.png",
+	"ToArea": { "X": 358, "Y": 1024, "Width": 48, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+		}
+	},
+{
+	"Action": "EditImage",
+	"Target": "Characters/Baby, Characters/Baby_dark",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}_edit.png",
+	"PatchMode": "Replace",
+	"When": {
+		"BabySpriteEdit": "yes",
+		}
+	},
+//TEMPORARY ACTORS
+{
+	"Action": "Load",
+	"Target": "Characters/deadegg, Characters/gridball, Characters/Dusty, Characters/volleyball, Characters/VolleyballNet, Characters/woodpile, Characters/CouchBlanket, Characters/SilhouetteSpin, Characters/WetSuit, Characters/SamWorkout, Characters/SebastianWorkout, Characters/SamWorkoutSO, Characters/SebastianWorkoutSO",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
+    },
+//WEDDING SPRITES
+{
+	"Action": "EditImage",
+	"Target": "Characters/Alex, Characters/Alex_Winter",
+	"FromFile": "assets/sprites/Alex_Wedding_Suit.png",
+	"When": {
+		"DayEvent": "wedding",
+		"AlexWeddingSuit": "yes",
+   		}
+	},
+{
+	"Action": "EditImage",
+	"Target": "Portraits/Alex, Portraits/Alex_Winter",
+	"FromFile": "assets/sprites/WeddingAlexPortrait.png",
+	"When": {
+		"DayEvent": "wedding",
+		"AlexPortraits": "yes",
+   		}
+	},
+{
+"LogName": "Wedding Tall Flowers",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/maps/Wedding_flowers.png",
+	"ToArea": { "X": 526, "Y": 1183, "Width": 13, "Height": 92 },
+	"PatchMode": "Replace",
+	"When": {
+		"DayEvent": "wedding",
+		"AlexWeddingDecor": "yes",
+        }
+	},
+{
+	"LogName": "Wedding Arch",
+	"Action": "EditImage",
+	"Target": "LooseSprites/Cursors",
+	"FromFile": "assets/maps/Wedding_arch.png",
+	"ToArea": { "X": 539, "Y": 1183, "Width": 100, "Height": 92 },
+	"PatchMode": "Replace",
+	"When": {
+		"DayEvent": "wedding",
+		"AlexWeddingDecor": "yes",
+        }
+	},
+{
+	"LogName": "Wedding Table",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_table.png",
+	"ToArea": { "X": 432, "Y": 512, "Width": 48, "Height": 48 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 16, "Y": 144, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 368, "Y": 32, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Lamppost",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_lamppost_overlay.png",
+	"ToArea": { "X": 176, "Y": 448, "Width": 16, "Height": 64 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Lamppost Light",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_town",
+	"FromFile": "assets/maps/Wedding_lamppost_light_overlay.png",
+	"ToArea": { "X": 192, "Y": 448, "Width": 16, "Height": 16 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Small Flowers",
+	"Action": "EditImage",
+	"Target": "Maps/{{season}}_outdoorsTileSheet",
+	"FromFile": "assets/maps/Wedding_small_flowers.png",
+	"ToArea": { "X": 369, "Y": 688, "Width": 16, "Height": 16 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Top",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tabletop.png",
+	"ToArea": { "X": 272, "Y": 640, "Width": 32, "Height": 16 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Top",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tabletop.png",
+	"ToArea": { "X": 368, "Y": 416, "Width": 32, "Height": 16 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table Base",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tablebase.png",
+	"ToArea": { "X": 368, "Y": 432, "Width": 32, "Height": 16 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Wedding Saloon Table cup",
+	"Action": "EditImage",
+	"Target": "Maps/townInterior",
+	"FromFile": "assets/maps/Wedding_saloon_tablecup.png",
+	"ToArea": { "X": 336, "Y": 416, "Width": 16, "Height": 16 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		"AlexWeddingDecor": "yes",
+		}
+	},
+{
+	"LogName": "Museum Haley photos",
+	"Action": "EditMap",
+	"Target": "Maps/ArchaeologyHouse",
+	"FromFile": "assets/maps/MaggMuseumHaleyPicsCrop.tmx",
+	"FromArea": { "X": 0, "Y": 0, "Width": 4, "Height": 4 },
+	"ToArea": { "X": 39, "Y": 1, "Width": 4, "Height": 4 },
+	"PatchMode": "Replace",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		}
+	},
+{
+	"LogName": "Saloon Haley meetup",
+	"Action": "EditMap",
+	"Target": "Maps/Saloon",
+	"FromFile": "assets/maps/MaggSaloonMeetHaleyCrop.tmx",
+	"FromArea": { "X": 0, "Y": 0, "Width": 3, "Height": 2 },
+	"ToArea": { "X": 22, "Y": 20, "Width": 3, "Height": 2 },
+	"PatchMode": "Overlay",
+	"When": {
+		"HasConversationTopic |contains= MaggAlexWedding": true,
+		}
+	},
+//ALEX ROOM MAP CHANGES
+{
+	"LogName": "Evelyn's Sunroom",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"FromFile": "assets/maps/MaggEvelynSunroomCrop.tmx",
+	"FromArea": { "X": 0, "Y": 0, "Width": 14, "Height": 8 },
+	"ToArea": { "X": 10, "Y": 1, "Width": 14, "Height": 8 },
+	"PatchMode": "Replace",
+	"When": {
+		"Relationship:Alex |contains=Married": true,
+		"EvelynSunroom": "yes",
+		}
+	},
+{
+	"LogName": "Remove Alex's room tile actions after marriage",
+	"Action": "EditMap",
+	"Target": "Maps/JoshHouse",
+	"When": {
+		"Relationship:Alex": "Married"
+		},
+	"MapTiles": [
+		{
+			"Position": { "X": 23, "Y": 6 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 23, "Y": 5 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 18, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 17, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 16, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 13, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 14, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 11, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		{
+			"Position": { "X": 12, "Y": 4 },
+			"Layer": "Buildings",
+			"SetProperties": { "Action": null }
+			},
+		]
+	},
+//CONTENT LOADS
+{
+	"LogName": "Alex code",
+	"Action": "Include",
+	"FromFile": "assets/Alex_dialogue.json, assets/NPC_dialogue.json, assets/Alex_events.json"
+	},
+//SHOP ITEMS
+{
+	"LogName":"Alex Decor",
+	"Action": "Load",
+	"Target": "Mods/{{ModId}}/Alex_Decor_small, Mods/{{ModId}}/Alex_Decor_large, Mods/{{ModId}}/Alex_Decor_med",
+	"FromFile": "assets/sprites/{{TargetWithoutPath}}.png"
+	},
+{
+	"LogName":"Alex Decor data",
+	"Action": "EditData",
+	"Target": "Data/Furniture",
+	"Entries":
+	{
+		"{{ModId}}_AlexSlippers": "{{ModId}}_AlexSlippers/decor/1 1/1 1/4/750/0/{{i18n:AlexSlippers_name}}/1/Mods\\maggplays.immersivealex\\Alex_Decor_small/true/Alex_decor",
+		"{{ModId}}_EggBowl": "{{ModId}}_EggBowl/decor/1 1/1 1/1/500/0/{{i18n:EggBowl_name}}/0/Mods\\maggplays.immersivealex\\Alex_Decor_small/true/Alex_decor",
+		"{{ModId}}_LilyCandle": "{{ModId}}_LilyCandle/decor/1 1/1 1/2/1000/2/{{i18n:LilyCandle_name}}/2/Mods\\maggplays.immersivealex\\Alex_Decor_small/true/Alex_decor",
+		"{{ModId}}_TallLilyVase": "{{ModId}}_TallLilyVase/lamp/1 3/1 3/1/1200/2/{{i18n:TallLilyVase_name}}/0/Mods\\maggplays.immersivealex\\Alex_Decor_med/true/Alex_decor",
+		"{{ModId}}_LilyTable": "{{ModId}}_LilyTable/table/2 2/2 2/2/1500/2/{{i18n:LilyTable_name}}/0/Mods\\maggplays.immersivealex\\Alex_Decor_large/true/Alex_decor",
+		}
+	},
+{
+	"LogName":"Alex Decor descriptions",
+	"Action": "EditData",
+	"Target": "spacechase0.SpaceCore/FurnitureExtensionData",
+	"Entries":
+	{
+		"{{ModId}}_AlexSlippers": {"DescriptionOverride": "{{i18n:AlexSlippers_description}}"},
+		"{{ModId}}_EggBowl": {"DescriptionOverride": "{{i18n:EggBowl_description}}"},
+		"{{ModId}}_LilyCandle": {"DescriptionOverride": "{{i18n:LilyCandle_description}}"},
+		"{{ModId}}_TallLilyVase": {"DescriptionOverride": "{{i18n:TallLilyVase_description}}"},
+		"{{ModId}}_LilyTable": {"DescriptionOverride": "{{i18n:LilyTable_description}}"},
+		}
+	},
+//Tall Lily Vase not working atm so excluded from shop
+{
+	"LogName": "Alex Decor Shop Edit",
+	"Action": "EditData",
+	"Target": "Data/Shops",
+	"When": {
+		"Relationship:Alex |contains=Married": true, },
+	"TargetField":
+		[
+		"Traveler",
+		"Items"
+			],
+	"Entries":
+		{
+		"{{ModID}}_Alex_decor":
+		{
+		"Id": "{{ModID}}_Alex_decor",
+		"RandomItemId":
+			[
+			"(F){{ModID}}_AlexSlippers",
+			"(F){{ModID}}_EggBowl",
+			"(F){{ModID}}_LilyCandle",
+			"(F){{ModID}}_LilyTable",
+				]
+			}
+		}
+	},
+//EVENT CLEARS daily clear
+{
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"{{ModId}}_AlexSleepoverMorningRepeat": {
+			"Id": "{{ModId}}_AlexSleepoverMorningRepeat",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggalexsleepover12232024",
+			"Actions": [
+				"MarkEventSeen Current maggalexsleepover12232024 false",
+				"MarkActionApplied Current {{ModId}}_AlexDailyClear false",
+                    ]
+                },
+		"{{ModId}}_AlexSleepoverNightRepeat": {
+			"Id": "{{ModId}}_AlexSleepoverNightRepeat",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggalexsleepovernight21042025",
+			"Actions": [
+				"MarkEventSeen Current maggalexsleepovernight21042025 false",
+				"MarkActionApplied Current {{ModId}}_AlexDailyClear false",
+                    ]
+				},
+		"{{ModId}}_PillowtalkRepeat": {
+			"Id": "{{ModId}}_PillowtalkRepeat",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggalexpillowtalk12232024",
+			"Actions": [
+				"MarkEventSeen Current maggalexpillowtalk12232024 false",
+				"MarkActionApplied Current {{ModId}}_AlexDailyClear false",
+                    ]
+				},
+		"{{ModId}}_AlexWinterWalkRepeat": {
+			"Id": "{{ModId}}_AlexWinterWalkRepeat",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggwinterwalk01012025",
+			"Actions": [
+				"MarkEventSeen Current maggwinterwalk01012025 false",
+				"MarkActionApplied Current {{ModId}}_AlexDailyClear false",
+                    ]
+                },
+        "{{ModId}}_AlexMorningWalkRepeat": {
+			"Id": "{{ModId}}_AlexMorningWalkRepeat",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggmorningwalk01012025",
+			"Actions": [
+				"MarkEventSeen Current maggmorningwalk01012025 false",
+				"MarkActionApplied Current {{ModId}}_AlexDailyClear false",
+                    ]
+                },
+		"{{ModId}}_AlexDailyClear": {
+			"Id": "{{ModId}}_AlexDailyClear",
+			"Trigger": "DayEnding",
+			"Actions": [
+				"MarkActionApplied Current {{ModId}}_AlexSleepoverMorningRepeat false",
+				"MarkActionApplied Current {{ModId}}_AlexSleepoverNightRepeat false",
+				"MarkActionApplied Current {{ModId}}_PillowtalkRepeat false",
+				"MarkActionApplied Current {{ModId}}_AlexWinterWalkRepeat false",
+				"MarkActionApplied Current {{ModId}}_AlexMorningWalkRepeat false",
+                    ]
+			}
+		}
+	},
+//MAIL
+{
+	"Action": "EditData",
+	"Target": "Data/TriggerActions",
+	"Entries": {
+		"{{ModId}}_MaggAlexMail1": {
+			"Id": "{{ModId}}_MaggAlexMail1",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggsmoothoperator12262024, !PLAYER_NPC_RELATIONSHIP Current Alex Married",
+			"Actions": [
+				"AddMail Current MaggAlexMail1 tomorrow"
+                    ]
+                },
+		"{{ModId}}_MaggAlexMail2": {
+			"Id": "{{ModId}}_MaggAlexMail2",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggwritersblock12172024, !PLAYER_NPC_RELATIONSHIP Current Alex Married",
+			"Actions": [
+				"AddMail Current MaggAlexMail2 tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexMail3": {
+			"Id": "{{ModId}}_MaggAlexMail3",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggcarriedaway12182024, !PLAYER_NPC_RELATIONSHIP Current Alex Married",
+			"Actions": [
+				"AddMail Current MaggAlexMail3 tomorrow"
+                    ]
+                },
+        "{{ModId}}_MaggAlexMail4": {
+			"Id": "{{ModId}}_MaggAlexMail4",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggsweettooth12182024, !PLAYER_NPC_RELATIONSHIP Current Alex Married",
+			"Actions": [
+				"AddMail Current MaggAlexMail4 tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexMail5": {
+			"Id": "{{ModId}}_MaggAlexMail5",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggstones12182024, !PLAYER_NPC_RELATIONSHIP Current Alex Married",
+			"Actions": [
+				"AddMail Current MaggAlexMail5 tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexMail6": {
+			"Id": "{{ModId}}_MaggAlexMail6",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggaceserve12202024, !PLAYER_NPC_RELATIONSHIP Current Alex Married",
+			"Actions": [
+				"AddMail Current MaggAlexMail6 tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexMail7": {
+			"Id": "{{ModId}}_MaggAlexMail7",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_FRIENDSHIP_POINTS Current Alex 2250, PLAYER_NPC_RELATIONSHIP Current Alex Dating",
+			"Actions": [
+				"AddMail Current MaggAlexMail7 tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexMail8": {
+			"Id": "{{ModId}}_MaggAlexMail8",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggheatingup01112025, PLAYER_NPC_RELATIONSHIP Current Alex Dating",
+			"Actions": [
+				"AddMail Current MaggAlexMail8 tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexProposalMail": {
+			"Id": "{{ModId}}_MaggAlexProposalMail",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_HAS_SEEN_EVENT Current maggmovingforward01112025, PLAYER_NPC_RELATIONSHIP Current Alex Dating",
+			"Actions": [
+				"AddMail Current MaggAlexProposalMail tomorrow"
+                    ]
+				},
+		"{{ModId}}_MaggAlexEngagedMail": {
+			"Id": "{{ModId}}_MaggAlexEngagedMail",
+			"Trigger": "DayEnding",
+			"Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Engaged",
+			"Actions": [
+				"AddMail Current MaggAlexEngagedMail tomorrow"
+                    ]
+                }
+            }
+        }
+]
+}

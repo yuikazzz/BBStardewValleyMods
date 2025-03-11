@@ -1,11 +1,11 @@
 {
 	"Name": "Letteas Retro Furniture Retexture",
 	"Author": "Letteas",
-	"Version": "1.0",
+	"Version": "1.0.1",
 	"Description": "Replaces default retro furniture items with my custom sprites.",
 	"UniqueID": "Letteas.RF_Sprites",
 	"UpdateKeys": [ "Nexus:31508" ],
 	"ContentPackFor": {
-      "UniqueID": "Pathoschild.ContentPatcher",
+      "UniqueID": "Pathoschild.ContentPatcher"
    }
 }

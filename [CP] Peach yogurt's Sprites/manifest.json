@@ -1,0 +1,11 @@
+{
+    "Name": "[CP]Peach yogurt's Sprites",
+    "Author": "Peach yogurt",
+    "Version": "1.1",
+    "Description": "此mod仅在Nexus免费下载，禁止二传倒卖",
+    "UniqueID": "CP.Peachyogurt.Sprites",
+    "UpdateKeys": ["Nexus:30139"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

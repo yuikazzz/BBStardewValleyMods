@@ -1,0 +1,288 @@
+{
+    "Format": "2.3.0",
+
+    "ConfigSchema": {
+        "InteriorStyle": {
+            "Description": "Choose if you would like the interior to be furnished or clean. Furnished REQUIRES Winery Furniture mod to be installed. Defaults to Furnished.",
+            "AllowValues": "Furnished, Clean",
+            "Default": "Furnished",
+            "AllowBlank": false,
+            "AllowMultiple": false
+          }
+    },
+
+    "Changes": [
+      
+        {
+            "LogName": "Load Interior Map",
+            "Action": "Load",
+            "Target": "Maps/HXW.Buildings_Winery_WineryInterior",
+            "FromFile": "Assets/Maps/WineryInterior.tmx"
+        },
+
+        {
+            "LogName": "Add Winery to Buildings Data",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "Entries": {
+                "HXW.Buildings_Winery_WineryBuilding": {
+                    "ID": "HXW.Buildings_Winery_WineryBuilding",
+                    "Name": "{{i18n: WineryBuilding.name}}",
+                    "Description": "{{i18n: WineryBuilding.description}}",
+                    "Texture": "Mods/HXW.Buildings_Winery/WineryExterior",
+                    "Skins": [
+                    ],
+                    "DrawShadow": false,
+                    "Size": {
+                        "X": 11,
+                        "Y": 4
+                    },
+                    "FadeWhenBehind": true,
+                    "SourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 176,
+                        "Height": 144
+                    },
+                    "SeasonOffset": {
+                        "X": 176,
+                        "Y": 0
+                    },
+                    "DrawOffset": "0, 0",
+                    "SortTileOffset": 0.0,
+                    "AdditionalPlacementTiles": null,
+                    "BuildingType": null,
+                    "Builder": "Robin",
+                    "BuildCondition": null,
+                    "BuildDays": 1,
+                    "BuildCost": 75000,
+                    "BuildingToUpgrade": null,
+                    "BuildMaterials": [
+                    ],
+                    "MagicalConstruction": false,
+                    "BuildMenuDrawOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "HumanDoor": {
+                        "X": 1,
+                        "Y": 4
+                    },
+                    "NonInstancedIndoorLocation": null,
+                    "IndoorMap": "HXW.Buildings_Winery_WineryInterior",
+                    "IndoorMapType": "StardewValley.Shed",
+                    "IndoorItemMoves": null,
+                    "IndoorItems": [],
+                    "AddMailOnBuild": null,
+                    "Metadata": {},
+                    "ModData": {},
+                    "HayCapacity": 0,
+                    "Chests": null,
+                    "DefaultAction": null,
+                    "AdditionalTilePropertyRadius": 0,
+                    "AllowsFlooringUnderneath": true,
+                    "ActionTiles": [],
+                    "TileProperties": [],
+                    "ItemConversions": null,
+                    "DrawLayers": [],
+                    "CustomFields": null
+                    }
+            }
+        },
+
+        {
+            "LogName": "Add Winery Exterior Textures",
+            "Action": "Load",
+            "Target": "Mods/HXW.Buildings_Winery/WineryExterior",
+            "FromFile": "assets/{{TargetWithoutPath}}.png"
+        },
+
+        {
+            "LogName": "Add Optional Indoor Winery Furniture Items",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField":["HXW.Buildings_Winery_WineryBuilding", "IndoorItems"],
+            "When": { "InteriorStyle": "Furnished", "HasMod: |contains=HXW.WineryFurni": true },
+            "Priority":"Late",
+            "Entries": {
+                "HXW.Buildings_Winery_Catalogue":  {
+                    "Id": "Winery_Catalogue",
+                    "ItemId": "(F)HXW.WineryFurni_Catalogue",
+                    "Tile": {
+                      "X": 14,
+                      "Y": 10
+                    },
+                    "Indestructible": false
+                  },
+                  "HXW.Buildings_Winery_AngledWineryPanelL":  {
+                    "Id": "Winery_AngledWineryPanelL",
+                    "ItemId": "(F)HXW.WineryFurni_AngledWineryPanelL",
+                    "Tile": {
+                      "X": 2,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_HorizontalWineWallDisplay":  {
+                    "Id": "Winery_HorizontalWineWallDisplay",
+                    "ItemId": "(F)HXW.WineryFurni_HorizontalWineWallDisplay",
+                    "Tile": {
+                      "X": 22,
+                      "Y": 17
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_AngledWineryPanelR":  {
+                    "Id": "Winery_AngledWineryPanelR",
+                    "ItemId": "(F)HXW.WineryFurni_AngledWineryPanelR",
+                    "Tile": {
+                      "X": 13,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBottleWallStorage1":  {
+                    "Id": "Winery_WineBottleWallStorage1",
+                    "ItemId": "(F)HXW.WineryFurni_WineBottleWallStorage",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBottleWallStorage2":  {
+                    "Id": "Winery_WineBottleWallStorage2",
+                    "ItemId": "(F)HXW.WineryFurni_WineBottleWallStorage",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 3
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineryBarTableL":  {
+                    "Id": "Winery_WineryBarTableL",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableL",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineryBarTableC1":  {
+                    "Id": "Winery_WineryBarTableC1",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC1",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineryBarTableC2":  {
+                    "Id": "Winery_WineryBarTableC2",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC2",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineryBarTableC3":  {
+                    "Id": "Winery_WineryBarTableC3",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC3",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineryBarTableC4":  {
+                    "Id": "Winery_WineryBarTableC4",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableC4",
+                    "Tile": {
+                      "X": 9,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineryBarTableR":  {
+                    "Id": "Winery_WineryBarTableR",
+                    "ItemId": "(F)HXW.WineryFurni_WineryBarTableR",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 7
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBarStool1":  {
+                    "Id": "Winery_WineBarStool1",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 5,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBarStool2":  {
+                    "Id": "Winery_WineBarStool2",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 6,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBarStool3":  {
+                    "Id": "Winery_WineBarStool3",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 7,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBarStool4":  {
+                    "Id": "Winery_WineBarStool4",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 8,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBarStool5":  {
+                    "Id": "Winery_WineBarStool5",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 9,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  },
+                "HXW.Buildings_Winery_WineBarStool6":  {
+                    "Id": "Winery_WineBarStool6",
+                    "ItemId": "(F)HXW.WineryFurni_WineBarStool",
+                    "Tile": {
+                      "X": 10,
+                      "Y": 8
+                    },
+                    "Indestructible": false
+                  }
+            }
+        },
+
+        {
+          "LogName": "Add Winery Buffs",
+          "Action": "EditData",
+          "Target": "Data/Machines",
+          "TargetField": ["(BC)12","ReadyTimeModifiers"],
+			    "Entries": {
+              "HXW.Buildings_Winery_SpeedyBuff": {
+                "Id": "HXW.Buildings_Winery_SpeedyBuff",
+                "Condition": "LOCATION_CONTEXT Target HXW.Buildings_Winery_WineryInterior",
+                "Modification": "Multiply",
+                "Amount": 0.85
+              }
+          }
+        }
+    ]
+}

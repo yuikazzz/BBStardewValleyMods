@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="11" height="13" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="11">
+ <properties>
+  <property name="Warp" value="6 -1 BathHouse_WomensLocker 2 27 21 -1 BathHouse_MensLocker 15 27"/>
+ </properties>
+ <tileset firstgid="1" name="p" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="65" name="untitled tile sheet" tilewidth="16" tileheight="16" tilecount="240" columns="15">
+  <image source="bathhouse_tiles" width="240" height="256"/>
+  <tile id="78">
+   <animation>
+    <frame tileid="78" duration="1000"/>
+    <frame tileid="65" duration="1000"/>
+    <frame tileid="65" duration="1000"/>
+    <frame tileid="78" duration="1000"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="305" name="zMaggsSpriteTiles" tilewidth="16" tileheight="16" tilecount="612" columns="18">
+  <image source="MaggsSpriteTiles.png" width="300" height="544"/>
+ </tileset>
+ <tileset firstgid="917" name="zMaggTilesAlex" tilewidth="16" tileheight="16" tilecount="400" columns="20">
+  <image source="MaggTilesAlex.png" width="320" height="320"/>
+ </tileset>
+ <layer id="1" name="Back" width="11" height="13">
+  <data encoding="csv">
+221,221,221,221,221,221,221,221,221,221,221,
+221,65,66,71,72,73,74,75,78,79,221,
+221,80,81,88,88,88,88,88,93,94,221,
+221,95,96,103,103,103,103,103,108,109,221,
+221,110,997,1017,997,1017,997,1017,997,124,221,
+221,141,1017,997,1017,140,1017,997,1017,140,221,
+221,141,997,1017,140,155,140,920,921,173,221,
+221,141,1017,997,155,140,155,940,941,173,221,
+221,141,997,1017,997,192,997,960,961,173,221,
+221,141,1017,997,917,918,919,997,1017,173,221,
+221,141,997,1017,937,938,939,1017,997,173,221,
+221,132,1017,997,1017,997,1017,997,1017,138,221,
+221,221,221,221,221,221,221,221,221,221,221
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="11" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,962,0,0,0,0,0,0,0,0,
+0,0,982,983,0,0,0,0,0,0,0,
+0,0,1002,1003,922,923,0,0,0,0,0,
+0,0,1022,1023,942,943,0,963,998,0,0,
+0,80,0,0,127,128,129,0,0,94,0,
+0,95,0,0,142,143,144,0,0,109,0,
+0,110,0,0,157,158,159,0,0,124,0,
+0,80,0,0,192,192,192,0,0,94,0,
+0,95,0,0,0,0,0,0,0,109,0,
+0,110,0,0,0,0,0,0,0,124,0,
+0,132,133,135,135,135,135,135,137,138,0,
+221,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="11" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,958,959,0,957,0,0,0,
+0,0,0,0,978,979,0,977,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1039,0,0,0,0,0,0,0,
+0,0,0,999,0,0,0,1038,0,0,0,
+0,0,0,999,0,0,0,1038,0,0,0,
+0,0,0,999,0,0,0,1038,0,0,0,
+0,0,0,1018,1019,1019,1019,1020,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+221,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="11" height="13" visible="0">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,9,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,9,0,0,0,9,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="5" name="AlwaysFront" width="11" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,980,0,0,0,
+0,0,0,0,0,0,0,1000,0,0,0,
+0,0,0,0,0,0,1097,1040,0,0,0,
+0,0,0,0,1059,1037,1079,0,0,0,0,
+0,0,0,0,1078,1058,1077,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Back">
+  <object id="9" name="TileData" x="80" y="96" width="16" height="16">
+   <properties>
+    <property name="TouchAction" value="PoolEntrance"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="8" name="Front"/>
+ <objectgroup id="9" name="Paths"/>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>

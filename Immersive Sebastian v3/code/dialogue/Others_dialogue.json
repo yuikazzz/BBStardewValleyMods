@@ -1,0 +1,177 @@
+{
+"Changes": [
+//TOWNSFOLK RELATIONSHIP REACTIONS
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Caroline",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: caroline.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: caroline.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Clint",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: clint.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: clint.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Elliott",
+	"Entries": {
+		"married_Sebastian": "{{i18n: elliott.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Emily",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: emily.reaction.dating_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Evelyn",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: evelyn.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: evelyn.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/George",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: george.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: george.reaction.married_Sebastian}}",
+		"MaggSebBaby": "{{i18n: george.special.MaggSebBaby}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Gus",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: gus.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: gus.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Haley",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: haley.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: haley.reaction.married_Sebastian.{{SVE}}}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Harvey",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: harvey.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: harvey.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Jodi",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: jodi.special.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: jodi.special.married_Sebastian}}",
+		"Sat": "{{i18n: jodi.daily.Sat}}",
+		"Sat2": "{{i18n: jodi.daily.Sat2}}",
+		"fall_Mon6": "{{i18n: jodi.daily.fall_Mon6}}",
+		"fall_Mon8": "{{i18n: jodi.daily.fall_Mon8}}",
+		"winter_Mon6": "{{i18n: jodi.daily.winter_Mon6}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Kent",
+	"Entries": {
+			"fall_Mon6": "{{i18n: kent.daily.fall_Mon6}}",
+			"fall_Mon8": "{{i18n: kent.daily.fall_Mon8}}",
+			"fall_Sat8": "{{i18n: kent.daily.fall_Sat8}}",
+        }
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Lewis",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: lewis.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: lewis.reaction.married_Sebastian}}",
+		"eventSeen_maggfrogsofblue510162024": "{{i18n: lewis.event.maggfrogsofblue510162024.{{FarmerTense}}}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Marnie",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: marnie.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: marnie.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Penny",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: penny.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: penny.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Pierre",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: pierre.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: pierre.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Shane",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: shane.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: shane.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Sophia",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: sophia.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: sophia.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Victor",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: victor.reaction.dating_Sebastian}}",
+		"married_Sebastian": "{{i18n: victor.reaction.married_Sebastian}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Vincent",
+	"Entries": {
+            "dating_Sebastian": "{{i18n: vincent.reaction.dating_Sebastian}}",
+            "married_Sebastian": "{{i18n: vincent.reaction.married_Sebastian}}",
+            "Tue8": "{{i18n: vincent.daily.Tue8}}",
+            "Wed6": "{{i18n: vincent.daily.Wed6}}",
+            "Thu2": "{{i18n: vincent.daily.Thu2}}",
+            "Sat6": "$d kent#{{i18n: vincent.daily.Sat6.1}}|{{i18n: vincent.daily.Sat6.2}}",
+            "eventSeen_maggbeards10282024": "{{i18n: vincent.event.maggbeards10282024}}",
+            "eventSeen_maggfrogsofblue610162024": "{{i18n: vincent.event.maggfrogsofblue610162024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Willy",
+	"Entries": {
+		"dating_Sebastian": "{{i18n: willy.reaction.dating_Sebastian.{{FarmerGender}}}}",
+		"married_Sebastian": "{{i18n: willy.reaction.married_Sebastian}}",
+		}
+    },
+]
+}

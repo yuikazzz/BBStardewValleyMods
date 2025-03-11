@@ -1,0 +1,392 @@
+{
+   "Format": "2.1.0",
+   "ConfigSchema":
+   {
+	   "No Harvey X Maru": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings or discomfort between Harvey and Maru."
+        },
+		"No Abigail X Sebastian": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings or discomfort between Sebastian and Abigail."
+        },
+		"No Leah X Elliot": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings between Leah and Elliot."
+        },
+		"No Penny X Sam": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings or discomfort between Sam and Penny. UNFINISHED"
+        },
+		"No Alex X Haley": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings or discomfort between Alex and Haley."
+        },
+		"No Shane X Emily": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings between Shane and Emily."
+        },
+		"No Vincent Crush": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue talking about Vincent having a crush on Penny."
+        },
+		"No Marlon X Marnie": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits dialogue that implies any romantic feelings between Marlon and Marnie."
+        },
+		"Clint isn't an incel": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits uncomfortable dialogue with clint, making him socially awkward instead of creepy with Emily and other women. UNFINISHED"
+        },
+		"Caroline didn't cheat": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "Edits the dialogue that potentially alludes to Caroline having an affair"
+        },
+   },
+   "Changes": [
+	
+		///Harvey and Maru Stuff
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Harvey": "It's part of the festival tradition to always have a few sets of dancers. #$b# Maru and I will sometimes volunteer if Lewis asks, though I'm not much of a dancer if I'm being honest.$s",
+			},"When":{"No Harvey X Maru": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Harvey",
+			"Entries": {
+				"FlowerDance_Decline": "Oh! I'm sorry... I, er... would rather not...$s",
+			},"When":{"No Harvey X Maru": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Harvey": "Please be sure to wear some sunscreen farmer, it's hot out today.",
+			},"When":{"No Harvey X Maru": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Maru",
+			"Entries": {
+				"Wed8": "I'm glad to have a job at the clinic... Harvey was so nice for offering me a job.$h",
+			},"When":{"No Harvey X Maru": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"Maru_Spouse": "Harvey keeps trying to talk about work but I think today is a good day for us to just relax.",
+			},"When":{"No Harvey X Maru": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/MarriageDialoguePenny",
+			"Entries": {
+				"Rainy_Day_1": "I wonder how Maru is doing working with Dr. Harvey at the clinic? #$b# I hope she's having fun!$h",
+			},"When":{"No Harvey X Maru": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/MarriageDialoguePenny",
+			"Entries": {
+				"Rainy_Day_1": "I wonder how Maru is doing working with Dr. Harvey at the clinic? #$b# I hope she's having fun!$h",
+			},"When":{"No Harvey X Maru": true}
+		},
+		
+		///Abi and Sebastian Stuff
+		
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/MarriageDialogueAbigail",
+			"Entries": {
+				"Bad_9": "I wonder if I could've done better... Maybe I should have explored other options before rushing into this relationship...$s",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Abigail",
+			"Entries": {
+				"FlowerDance_Accept_Spouse": "Oh I was going to skip out this year... $s#$b#Just kidding! Of course I'm dancing with you. I love you.$h",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Sebastian",
+			"Entries": {
+				"FlowerDance_Decline": "No... I'm not interested in dancing with you.",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Sebastian",
+			"Entries": {
+				"Wed2": "Sam is probably my only friend in this town.#$e#Well, Abby is nice too, but I don't know her that well...",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Abigail",
+			"Entries": {
+				"dating_Sebastian_memory_oneday": "I heard you and Sebastian started dating!#$b#I didn't realize you guys had a thing, you two will be so cute together!$h",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Sebastian",
+			"Entries": {
+				"Wed2_inlaw_Abigail": "Hope you don't mind Abby still drumming for us.",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/MarriageDialogueSam",
+			"Entries": {
+				"Rainy_Day_1": "I think I'll hit up Sebastian and Abigail and see if they want to practice again soon.#$e#",
+			},"When":{"No Abigail X Sebastian": true}
+		},
+		
+		///Leah and Elliot
+		
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Leah",
+			"Entries": {
+				"married_Elliott": "Elliott's a real great writer... I'm sure your days will be filled with poetry!$h",
+			},"When":{"No Leah X Elliot": true}
+		},
+		
+		///Penny and Sam
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+				"choseFarming": "pause 500/question fork0 \"#The valley's soil is ideal for growing delicious vegetables.#The valley's air and grass are perfect for raising animals.\"/fork choseAnimals/animate Vincent false true 50 16 17/playSound dwop/pause 300/faceDirection Penny 2/pause 500/stopAnimation Vincent/speak Penny \"Yes, Vincent?\"/speak Vincent \"Um, Farmer @? If I eat your veggies will I grow up strong like my big brother Sam?#$b#He's so strong, I saw him carry @ to doctor Harvey's clinic one night!$h\"/showFrame Penny 27/jump Penny/pause 800/showFrame Penny 0/faceDirection farmer 3 true/emote Penny 12/speak Penny \"Vincent! It's not good to gossip!$a\"/switchEvent fieldTripEnd/",
+			},"When":{"No Penny X Sam": true}
+		},
+		  
+		
+		///Alex and Haley
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Alex": "Hmm... Do you think dancing counts as cardio?",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Alex",
+			"Entries": {
+				"married_Haley": "You got Haley to marry you, huh? I always figured she was out of our league!",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Alex",
+			"Entries": {
+				"winter_Tue": "You think Haley might know where I could get a new jacket?",
+			},"When":{"No Alex X Haley": true}
+		},
+		///May need an edit later
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Alex",
+			"Entries": {
+				"winter_Tue4_inlaw_Haley": "I'll admit... I wasn't expecting any of us to get married anytime soon. But, hey... We're growing up!.$9",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Alex",
+			"Entries": {
+				"winter_Tue4": "Haley and I were gonna head to Zuzu together to go shopping today but I think I'm busy$s",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Haley",
+			"Entries": {
+				"Event_room1": "Him? No!#$b#...Well, I guess I used to like his one guy. But not anymore! He's immature.",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Haley",
+			"Entries": {
+				"summer_Fri": "I wonder what Alex is doing today...#$b#Maybe I could get some people together for a beach day!$h",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Haley",
+			"Entries": {
+				"winter_Sun": "Winter is fun! People always ask me where to get the best winter clothes!$h",
+			},"When":{"No Alex X Haley": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Haley",
+			"Entries": {
+				"winter_Sun6": "Alex and I were going to hang out but I'm busy today.",
+			},"When":{"No Alex X Haley": true}
+		},
+		///May need an edit later
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Haley",
+			"Entries": {
+				"Event_room1": "Him? No!#$b#...Well, I guess I used to like this one guy. But not anymore! He's immature.",
+			},"When":{"No Alex X Haley": true}
+		},
+		///No Shane and Emily
+		
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Emily",
+			"Entries": {
+				"FlowerDance_Decline": "I'm very sorry... but no$s",
+			},"When":{"No Shane X Emily": true}
+		},
+		
+		///No Vincent Crush
+		
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Vincent",
+			"Entries": {
+				"Tue6": "Miss Penny gave Jas and I a book to read today. It was really long.$u",
+			},"When":{"No Vincent Crush": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Penny_y2": "Jas and Vincent asked me to teach them to dance...#$b# It was sort of embarassing for me but they loved it!$h",
+			},"When":{"No Vincent Crush": true}
+		},
+		
+		///Clint and Emily UNFINISHED
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Clint": "I wonder if anyone would dance with me...",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Gus",
+			"Entries": {
+				"Thu6": "Clint comes into the saloon almost every night. It's nice having regulars.",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"dating_Emily": "I... um... heard that you and Emily are together. Congratulations!$h",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"married_Emily": "Emily seems happier now that you two are married!$h",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"divorced_Emily": "You better not have hurt Emily's feelings, she's a gem in the rough.$a",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"Thu8": "I heard Emily has a friend who lives in the desert. Do you know anything about her?",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"Fri8": "I should save up and buy a computer...#$e#Maybe I can find some friends on the 'internet'...$s#$e#What? Don't judge me! Not everyone is a cool and socially-adept farmer, you know!$u#$e#What's a guy like me supposed to do? *Groan*$s",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"eventSeen_101_memory_oneweek": "Did Emily say anything about our hangout the other day? It was fun getting out with someone! $h",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Clint",
+			"Entries": {
+				"fall_Thu8": "I wonder how Clint's doing today?#$e#I want to show him a cool rock I found!$h",
+			},"When":{"Clint isn't an incel": true}
+		},
+		
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/saloon",
+			"Entries": {
+				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": "none/4 18/farmer 14 24 0 Clint 4 19 2 Emily 10 11 0 Gus 15 18 1 Shane 7 18 1/skippable/move farmer 0 -3 3/emote Clint 28/pause 500/move Clint 0 -1 3/move Clint -3 0 0/pause 500/playSound openBox/pause 150/playSound shiny4/pause 400/playMusic desolate/move Clint 3 0 2/move Clint 0 1 2/move farmer -3 0 0/move farmer 0 -1 3/faceDirection Shane 2 true/move farmer -3 0 3/faceDirection Shane 1 true/move farmer -3 0 3/faceDirection Clint 1/speak Clint \"Hello, @... care to join me?\"/pause 400/faceDirection farmer 0/pause 800/faceDirection farmer 3/faceDirection Clint 2/speak Clint \"Let me just go ahead and tell you what's on my mind.$u#$b#I really have trouble making friends, @...*sigh*$s#$b#I'm a nice guy if you get to know me, I swear!$u\"/pause 500/faceDirection farmer 0/emote farmer 28/pause 500/faceDirection farmer 3/speak Clint \"Everyone seems to like you, @...Got any tips?#$r 211 25 event_advice1#Impress people with your strength and charm#$r 211 25 event_advice1#Act crazy, to keep people guessing#$r 211 0 event_advice2#Just act natural... be yourself#$r 211 25 event_advice1#Treat people how you'd want to be treated\"/speed Emily 4/move Emily -6 0 2/speed Emily 2/move Emily 0 4 2/doAction 4 16/playSound openBox/stopMusic/move Emily 0 3 1/move Emily 1 0 2/move Emily 0 1 3/pause 400/pause 700/speak Emily \"Hi Clint, what can I get for you tonight?$h\"/pause 600/faceDirection Clint 1/pause 200/speak Clint \"Yes!\"/pause 300/speak Clint \"Er.. I mean, I'll have the Big n' Cheesy. With extra sauce, please.$s#$b#...$u\"/faceDirection Clint 3/faceDirection Emily 2/pause 300/faceDirection Clint 2/speak Emily \"Hi @.\"/pause 300/faceDirection farmer 0/faceDirection Clint 1/speak Clint \"Er... *ahem* Th...Thanks, Emily. For... taking my order.#$b#Um, Emily? I was...*gulp*... I was wondering...$h\"/pause 300/faceDirection Emily 3/emote Emily 8/pause 400/speak Emily \"Yes, Clint?$u\"/pause 500/emote Clint 28/pause 1200/speak Clint \"... never mind.$s\"/faceDirection Clint 0/playMusic sadpiano/pause 300/faceDirection Emily 2/pause 300/faceDirection Emily 3/pause 500/move Emily 0 -1 1/move Emily 1 0 1/faceDirection Shane 3/speak Emily \"Hi, Shane! Here's your beverage.$h\"/pause 300/faceDirection Shane 1/pause 400/addObject 8 17 346 1/playSound woodyStep/pause 400/faceDirection Shane 3/pause 300/faceDirection Clint 1/speak Shane \"Thanks, Emily!$h#$b#So... How's your shift coming along?\"/speak Emily \"It's fine! Thanks for asking, Shane!$h#$b#Do you have any new chicken stories for me?\"/pause 600/emote Clint 28/pause 500/faceDirection Clint 2/pause 800/speak Clint \"*sigh*$s#$b#I'm doomed...$s\"/end warpOut",
+			},"When":{"Clint isn't an incel": true}
+		},
+		
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Forest",
+			"Entries": {
+				"fall_Thu8": "I wonder how Clint's doing today?#$e#I want to show him a cool rock I found!$h",
+			},"When":{"Clint isn't an incel": true}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"101/f Clint 1500/e 97/k 2123243/k 2123343/o Emily/t 900 1830/a 0 90/!D Emily": "jaunty/11 90/farmer 5 90 1 Clint 6 92 1 Emily 15 90 1 Caroline 16 90 3/move farmer 1 0 2/skippable/emote farmer 16/faceDirection Clint 0 true/emote Clint 16/speak Clint \"@!$4#$b#...You caught me.$s\"/pause 500/move farmer 0 1 2/faceDirection Clint 1/emote Clint 28/pause 500/faceDirection farmer 1/pause 200/faceDirection farmer 2/pause 800/speak Clint \"I was planning to ask Emily on a if she wanted to spend some time together... make friends you know? Just like you said in the saloon.$s#$b# I was at her doorstep and everything... but then I heard her coming and I dove into this bush.$s#$b#Now I'm waiting until she's done talking with Caroline so I can sneak back into my house.$s\"/pause 800/emote farmer 12/pause 800/pause 500/faceDirection Clint 0/speak Clint \"What did you just say? You'll never upgrade your tools again if I don't ask her?$s\"/faceDirection Clint 1/pause 1500/speak Clint \"You're a villain, @.#$b#*sigh* ...alright, I'll do it.$s\"/pause 600/move farmer 1 0 1/move Clint 0 -2 1/speak Clint \"I gotta remember that advice @ gave me in the saloon.\"/move Clint 8 0 1/stopMusic/pause 500/speak Clint \"Um... Emily?\"/pause 800/faceDirection Emily 3/pause 800/faceDirection Emily 1/speak Emily \"Sorry, Caroline. Could you excuse me for a minute?\"/pause 500/move Caroline 7 0 0/faceDirection Emily 3/pause 400/speak Emily \"Yes, Clint?\"/pause 500/faceDirection Clint 2/pause 400/faceDirection Clint 1/speak Clint \"I was wondering if you'd go w... with... tomorrow, me... *gulp*$4\"/pause 200/faceDirection Clint 3/pause 300/emote Emily 8/pause 300/faceDirection Clint 1/pause 500/jump Clint/pause 800/speak Clint \"I've got two tickets for the Grampleton Carnival tomorrow. W... Would you go with me? $4\"/jump Emily/pause 800/emote Emily 16/pause 400/playMusic musicboxsong/speak Emily \"Sure, Clint! That sounds fun!$h\"/pause 800/speak Clint \"Really? Okay! I'll pick you up at five.$h\"/speak Emily \"Okay! See you tomorrow!\"/move Emily 7 0 1/faceDirection Caroline 3/speed Clint 4/move Clint -7 0 2/faceDirection farmer 0/speak Clint \"Did you see that?! I've got a someone to hang out with tomorrow night!$h\"/pause 500/jump farmer/pause 1000/faceDirection Clint 1/pause 400/faceDirection Clint 2/speak Clint \"Oh man...I'm so nervous.$s\"/end dialogue Clint \"Thanks for forcing me to do that, earlier. I'm scared, but also very pleased.$h\"",
+			},"When":{"Clint isn't an incel": true}
+		},
+		
+		
+		///Marlon and Marnie
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"Marlon": "These old bones ain't much for dancing.",
+			},"When":{"No Marlon X Marnie": true}
+		},
+		
+		///Caroline
+		{
+			"Action": "EditData",
+			"Target": "characters/dialogue/Caroline",
+			"Entries": {
+				"Mon8": "Abigail sometimes takes walks to the Wizard, I'm just glad she doesn't stay out too late.",
+			},"When":{"Caroline didn't cheat": true}
+		},
+   ]
+}

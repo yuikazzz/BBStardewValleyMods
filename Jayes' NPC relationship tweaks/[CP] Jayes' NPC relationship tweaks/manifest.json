@@ -1,0 +1,11 @@
+{
+    "Name": "Jayes' NPC relationship tweaks",
+    "Author": "Jayes",
+    "Version": "1.0.0",
+    "Description": "Various toggle-able dialogue edits to remove NPC ship dialogue",
+    "UniqueID": "Jayes.NoNPCShips",
+    "UpdateKeys": [ "Nexus:30863" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

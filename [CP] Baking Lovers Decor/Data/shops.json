@@ -1,0 +1,78 @@
+{
+  "Changes": [
+
+    {
+        "LogName": "Add Baking Lovers Decor Catalogue Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "Entries": {
+            "KatyDTK.BakingLoversDecorSet": {
+            "PriceModifiers": null,
+            "PriceModifierMode": "Stack",
+            "Items": [
+                {
+                "Price": 0,
+                "AvailableStockLimit": "Global",
+                "AvoidRepeat": false,
+                "UseObjectDataPrice": false,
+                "IgnoreShopPriceModifiers": false,
+                "PriceModifiers": null,
+                "PriceModifierMode": "Stack",
+                "AvailableStockModifiers": null,
+                "AvailableStockModifierMode": "Stack",
+                "Condition": null,
+                "Id": "Default",
+                "ItemId": "ALL_ITEMS (F)",
+                "MinStack": -1,
+                "MaxStack": -1,
+                "Quality": -1,
+                "PerItemCondition": "ITEM_CONTEXT_TAG Target collection_bakingloversdecor"
+                }
+            ],
+            "CustomFields":{
+                "HappyHomeDesigner/Catalogue":"true"
+            }
+            }
+        }
+    },
+  
+    {
+        "LogName": "Add Baking Lovers Decor Furniture Catalogue Tile Actions",
+        "Action": "EditData",
+        "Target": "sophie.Calcifer/FurnitureActions",
+        "Entries": {
+            "(F)KatyDTK.BakingLoversDecor_Catalogue": {
+                "TileActions": [
+                    {
+                        "TileAction": "OpenShop KatyDTK.BakingLoversDecorSet"
+                    }
+                ]
+            }
+        }
+    },
+
+    {
+        "LogName": "Add Baking Lovers Decor Furniture Catalogue to Robin's Shop",
+        "Action": "EditData",
+        "Target": "Data/Shops",
+        "TargetField": [ "Carpenter", "Items" ],
+        "Entries": {
+            "KatyDTK.BakingLoversDecor_Catalogue": {
+                "Id": "KatyDTK.BakingLoversDecor_Catalogue",
+                "ItemId": "(F)KatyDTK.BakingLoversDecor_Catalogue",
+                "Price": 80000
+            }
+        }
+    }
+   
+  ]
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  

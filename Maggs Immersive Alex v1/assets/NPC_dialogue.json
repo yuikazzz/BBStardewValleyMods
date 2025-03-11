@@ -1,0 +1,410 @@
+{
+"Changes": [
+//EVELYN SCHEDULE EDITS
+{
+	"Action": "EditData",
+	"Target": "characters/schedules/Evelyn",
+	"Entries": {
+		"rain": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+		"DesertFestival_3": "610 JoshHouse 3 17 0 square_3_1_0/a1000 Desert 27 31 0 \"Strings\\1_6_Strings:DesertFestival_Evelyn\"/2250 bed",
+		"2": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1030 Hospital 15 15 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:2.000\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Evelyn:2.001\"/1600 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+		"23": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 Hospital 10 16 0 \"Strings\\schedules\\Evelyn:23.000\"/1330 Hospital 4 7 0 \"Strings\\schedules\\Evelyn:23.001\"/1610 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+		"winter_17": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 JoshHouse 20 20 3 evelyn_sit_left/1630 Beach 12 39 2 \"Strings\\schedules\\Evelyn:winter_17.000\"/2340 JoshHouse 2 5 1",
+		"winter": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 JoshHouse 20 20 3 evelyn_sit_left/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+		"Thu": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 JoshHouse 17 22 3/1210 CommunityCenter 18 25 3 evelyn_sit_left \"Strings\\schedules\\Evelyn:Thu.000\"/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+		"spring": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 Town 36 78 3/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1",
+		"summer": "800 JoshHouse 3 17 0 square_3_1_0/910 JoshHouse 15 5 0/1040 JoshHouse 17 22 3/1210 JoshHouse 3 19 2/1300 Town 20 62 3 evelyn_garden/1630 JoshHouse 4 17 0 square_3_1_0/1900 JoshHouse 17 17 0/2130 JoshHouse 2 5 1"
+		},
+	"When": {
+		"Relationship:Alex |contains= Married": true,
+        }
+	},
+//CONDITIONAL DIALOGUE
+{
+	"LogName": "Convo topic Total Makeover",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Abigail",
+	"Entries": {
+			"eventSeen_maggtotalmakeover12182024": "{{i18n: abigail.event.maggtotalmakeover12182024}}",
+		},
+		"When": {
+				"HasConversationTopic |contains= maggtotalmakeover": true,
+        }
+	},
+{
+	"LogName": "Convo topic Total Makeover",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Sam",
+	"Entries": {
+			"eventSeen_maggtotalmakeover12182024": "{{i18n: sam.event.maggtotalmakeover12182024}}",
+		},
+		"When": {
+				"HasConversationTopic |contains= maggtotalmakeover": true,
+        }
+	},
+{
+	"LogName": "Convo topic Total Makeover",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Evelyn",
+	"Entries": {
+			"eventSeen_maggtotalmakeover12182024": "{{i18n: evelyn.event.maggtotalmakeover12182024}}",
+		},
+		"When": {
+				"HasConversationTopic |contains= maggtotalmakeover": true,
+        }
+	},
+{
+	"LogName": "Convo topic Total Makeover",
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Emily",
+	"Entries": {
+			"eventSeen_maggtotalmakeover12182024": "{{i18n: emily.event.maggtotalmakeover12182024}}",
+		},
+		"When": {
+				"HasConversationTopic |contains= maggtotalmakeover": true,
+        }
+	},
+//STANDARD DIALOGUE
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Abigail",
+	"Entries": {
+			"dating_Alex": "{{i18n: abigail.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: abigail.reaction.married_Alex}}",
+			"MaggAlexBaby": "{{i18n: abigail.reaction.MaggAlexBaby}}",
+			"eventSeen_magglevelup12172024": "{{i18n: abigail.event.magglevelup12172024}}",
+			"eventSeen_maggbettertogether12172024": "{{i18n: abigail.event.maggbettertogether12172024.{{FarmerGender}}}}",
+			"eventSeen_maggavoidance12172024": "{{i18n: abigail.event.maggavoidance12172024}}",
+			"eventSeen_maggaboutface12182024": "{{i18n: abigail.event.maggaboutface12182024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Caroline",
+	"Entries": {
+			"married_Alex": "{{i18n: caroline.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Clint",
+	"Entries": {
+			"dating_Alex": "{{i18n: clint.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: clint.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Demetrius",
+	"Entries": {
+			"married_Alex": "{{i18n: demetrius.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Elliott",
+	"Entries": {
+			"married_Alex": "{{i18n: elliott.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Emily",
+	"Entries": {
+			"dating_Alex": "{{i18n: emily.reaction.dating_Alex}}",
+			"eventSeen_maggaboutface12182024": "{{i18n: emily.event.maggaboutface12182024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Evelyn",
+	"Entries": {
+			"summer_Mon_inlaw_Alex": "{{i18n: evelyn.special.summer_Mon_inlaw_Alex}}",
+			"fall_Sat_inlaw_Alex": "{{i18n: evelyn.special.fall_Sat_inlaw_Alex.{{FarmerGender}}}}",
+			"dating_Alex": "{{i18n: evelyn.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: evelyn.reaction.married_Alex}}",
+			"MaggAlexBaby": "{{i18n: evelyn.reaction.MaggAlexBaby}}",
+			"eventSeen_maggsmoothoperator12262024": "{{i18n: evelyn.event.maggsmoothoperator12262024}}",
+			"eventSeen_maggsouschef12162024": "{{i18n: evelyn.event.maggsouschef12162024}}",
+			"eventSeen_maggallstarchef12162024": "{{i18n: evelyn.event.maggallstarchef12162024}}",
+			"eventSeen_maggaboutface12182024": "{{i18n: evelyn.event.maggaboutface12182024}}",
+			"eventSeen_maggbrightfuture02032025": "{{i18n: evelyn.event.maggbrightfuture02032025}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/George",
+	"Entries": {
+			"Wed_inlaw_Alex": "{{i18n: george.special.Wed_inlaw_Alex.{{FarmerGender}}}}",
+			"Wed10_inlaw_Alex": "{{i18n: george.special.Wed10_inlaw_Alex.{{FarmerGender}}}}",
+			"dating_Alex": "{{i18n: george.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: george.reaction.married_Alex}}",
+			"MaggAlexBaby": "{{i18n: george.reaction.MaggAlexBaby}}",
+			"eventSeen_magglongshot212172024": "{{i18n: george.event.magglongshot212172024}}",
+			"eventSeen_maggsmoothoperator12262024": "{{i18n: george.event.maggsmoothoperator12262024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Gus",
+	"Entries": {
+			"dating_Alex": "{{i18n: gus.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: gus.reaction.married_Alex}}",
+			"eventSeen_maggwritersblock12172024": "{{i18n: shane.event.maggwritersblock12172024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Haley",
+	"Entries": {
+			"spring_8": "{{i18n: haley.daily.spring_8}}",
+			"spring_16": "{{i18n: haley.daily.spring_16.{{AlexHearts}}}}",
+			"spring_23": "{{i18n: haley.daily.spring_23.{{AlexHearts}}}}",
+			"spring_25": "{{i18n: haley.daily.spring_25.{{AlexHearts}}}}",
+			"spring_25": "{{i18n: haley.daily.spring_25.{{AlexHearts}}}}",
+			"summer_5": "{{i18n: haley.daily.summer_5}}",
+			"summer_14": "{{i18n: haley.daily.summer_14.{{AlexHearts}}}}",
+			"summer_22": "{{i18n: haley.daily.summer_22}}",
+			"summer_27": "{{i18n: haley.daily.summer_27.{{AlexHearts}}}}",
+			"fall_4": "{{i18n: haley.daily.fall_4.{{AlexHearts}}}}",
+			"fall_12": "{{i18n: haley.daily.fall_12}}",
+			"fall_20": "{{i18n: haley.daily.fall_20.{{AlexHearts}}}}",
+			"fall_27": "{{i18n: haley.daily.fall_27.{{AlexHearts}}}}",
+			"winter_3": "{{i18n: haley.daily.winter_3.{{AlexHearts}}}}",
+			"winter_10": "{{i18n: haley.daily.winter_10.{{AlexHearts}}}}",
+			"winter_24": "{{i18n: haley.daily.winter_24.{{AlexHearts}}}}",
+			"dating_Alex": "{{i18n: haley.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: haley.reaction.married_Alex}}",
+			"MaggAlexBaby": "{{i18n: haley.reaction.MaggAlexBaby}}",
+			"eventSeen_20": "{{i18n: haley.event.20}}",
+			"eventSeen_maggsmoothoperator12262024": "{{i18n: haley.event.maggsmoothoperator12262024}}",
+			"eventSeen_maggsouschef12162024": "{{i18n: haley.event.maggsouschef12162024}}",
+			"eventSeen_maggstarsfate12172024": "{{i18n: haley.event.maggstarsfate12172024}}",
+			"eventSeen_maggcarriedaway12182024": "{{i18n: haley.event.maggcarriedaway12182024}}",
+			"eventSeen_maggstones12182024": "{{i18n: haley.event.maggstones12182024}}",
+			"eventSeen_maggfallingleaves12172024": "{{i18n: haley.event.maggfallingleaves12172024}}",
+			"eventSeen_maggavoidance12172024": "{{i18n: haley.event.maggavoidance12172024}}",
+			"eventSeen_maggaboutface12182024": "{{i18n: haley.event.maggaboutface12182024}}",
+			"eventSeen_maggtotalmakeover12182024": "{{i18n: haley.event.maggtotalmakeover12182024}}",
+			"eventSeen_maggaceserve12202024": "{{i18n: haley.event.maggaceserve12202024}}",
+			"eventSeen_maggoffleash12222024": "{{i18n: haley.event.maggoffleash12222024}}",
+			"eventSeen_magghaleydayout01132025": "{{i18n: haley.event.magghaleydayout01132025}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Harvey",
+	"Entries": {
+			"dating_Alex": "{{i18n: harvey.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: harvey.reaction.married_Alex}}",
+			"eventSeen_magglongshot212172024": "{{i18n: harvey.event.magglongshot212172024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Jodi",
+	"Entries": {
+			"dating_Alex": "{{i18n: jodi.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: jodi.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Lewis",
+	"Entries": {
+			"dating_Alex": "{{i18n: lewis.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: lewis.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Marnie",
+	"Entries": {
+			"dating_Alex": "{{i18n: marnie.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: marnie.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Maru",
+	"Entries": {
+			"dating_Alex": "{{i18n: maru.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: maru.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Penny",
+	"Entries": {
+			"dating_Alex": "{{i18n: penny.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: penny.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Pierre",
+	"Entries": {
+			"dating_Alex": "{{i18n: pierre.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: pierre.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Robin",
+	"Entries": {
+			"dating_Alex": "{{i18n: robin.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: robin.reaction.married_Alex}}",
+			"eventSeen_maggsmoothoperator12262024": "{{i18n: robin.event.maggsmoothoperator12262024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Sam",
+	"Entries": {
+			"dating_Alex": "{{i18n: sam.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: sam.reaction.married_Alex}}",
+			"MaggAlexBaby": "{{i18n: sam.reaction.MaggAlexBaby}}",
+			"eventSeen_20": "{{i18n: sam.event.20}}",
+			"eventSeen_maggsouschef12162024": "{{i18n: sam.event.maggsouschef12162024}}",
+			"eventSeen_magglevelup12172024": "{{i18n: sam.event.magglevelup12172024}}",
+			"eventSeen_maggbettertogether12172024": "{{i18n: sam.event.maggbettertogether12172024}}",
+			"eventSeen_maggavoidance12172024": "{{i18n: sam.event.maggavoidance12172024}}",
+			"eventSeen_maggsticks12182024": "{{i18n: sam.event.maggsticks12182024}}",
+			"eventSeen_maggaboutface12182024": "{{i18n: sam.event.maggaboutface12182024}}",
+			"eventSeen_maggaceserve12202024": "{{i18n: sam.event.maggaceserve12202024}}",
+			"eventSeen_maggoffleash12222024": "{{i18n: sam.event.maggoffleash12222024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Sebastian",
+	"Entries": {
+			"dating_Alex": "{{i18n: sebastian.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: sebastian.reaction.married_Alex}}",
+			"MaggAlexBaby": "{{i18n: sebastian.reaction.MaggAlexBaby}}",
+			"eventSeen_magglevelup12172024": "{{i18n: sebastian.event.magglevelup12172024}}",
+			"eventSeen_maggbettertogether12172024": "{{i18n: sebastian.event.maggbettertogether12172024}}",
+			"eventSeen_maggavoidance12172024": "{{i18n: sebastian.event.maggavoidance12172024}}",
+			"eventSeen_maggnewteam12222024": "{{i18n: sebastian.event.maggnewteam12222024}}",
+			"eventSeen_maggoffleash12222024": "{{i18n: sebastian.event.maggoffleash12222024}}",
+			"eventSeen_maggupgrade01122025": "{{i18n: sebastian.event.maggupgrade01122025}}",
+			"eventSeen_maggbestman01132025": "{{i18n: sebastian.event.maggbestman01132025}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Shane",
+	"Entries": {
+			"dating_Alex": "{{i18n: shane.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: shane.reaction.married_Alex}}",
+			"eventSeen_maggwritersblock12172024": "{{i18n: shane.event.maggwritersblock12172024}}",
+			"eventSeen_maggaceserve12202024": "{{i18n: shane.event.maggaceserve12202024}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Victor",
+	"Entries": {
+			"dating_Alex": "{{i18n: victor.reaction.dating_Alex}}",
+			"married_Alex": "{{i18n: victor.reaction.married_Alex}}",
+		}
+    },
+{
+	"Action": "EditData",
+	"Target": "Characters/Dialogue/Willy",
+	"Entries": {
+			"dating_Alex": "{{i18n: willy.reaction.dating_Alex.{{FarmerGender}}}}",
+			"married_Alex": "{{i18n: willy.reaction.married_Alex}}",
+		}
+    },
+//FESTIVAL DIALOGUE
+{
+	"LogName":"Egg Festival spring13",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring13",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.eggfestival.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.eggfestival.Evelyn_y2}}",
+			"George": "{{i18n: george.eggfestival.George}}",
+			"George_y2": "{{i18n: george.eggfestival.George_y2}}",
+		}
+	},
+{
+	"LogName":"Flower Dance spring24",
+	"Action": "EditData",
+	"Target": "Data/Festivals/spring24",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.flowerdance.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.flowerdance.Evelyn_y2}}",
+			"George": "{{i18n: george.flowerdance.George}}",
+			"George_y2": "{{i18n: george.flowerdance.George_y2}}",
+		}
+    },
+{
+	"LogName":"Luau summer11",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer11",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.luau.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.luau.Evelyn_y2}}",
+			"George": "{{i18n: george.luau.George}}",
+			"George_y2": "{{i18n: george.luau.George_y2}}",
+		}
+	},
+{
+	"LogName":"Moonlight Jellies summer28",
+	"Action": "EditData",
+	"Target": "Data/Festivals/summer28",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.moonlightjellies.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.moonlightjellies.Evelyn_y2}}",
+			"George": "{{i18n: george.moonlightjellies.George}}",
+			"George_y2": "{{i18n: george.moonlightjellies.George_y2}}",
+		}
+	},
+{
+	"LogName":"SDV Fair fall16",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall16",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.fair.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.fair.Evelyn_y2}}",
+			"George": "{{i18n: george.fair.George}}",
+			"George_y2": "{{i18n: george.fair.George_y2}}",
+		}
+    },
+{
+	"LogName":"Spirits Eve fall27",
+	"Action": "EditData",
+	"Target": "Data/Festivals/fall27",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.spiritseve.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.spiritseve.Evelyn_y2}}",
+			"George": "{{i18n: george.spiritseve.George}}",
+			"George_y2": "{{i18n: george.spiritseve.George_y2.1}}#$b#$y '{{i18n: george.spiritseve.George_y2.2}}_{{i18n: george.spiritseve.George_y2.3}}_{{i18n: george.spiritseve.George_y2.4}}_{{i18n: george.spiritseve.George_y2.5}}_{{i18n: george.spiritseve.George_y2.6}}'",
+		}
+	},
+{
+	"LogName":"Ice Festival winter8",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter8",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.icefestival.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.icefestival.Evelyn_y2}}",
+			"George": "{{i18n: george.icefestival.George}}",
+			"George_y2": "{{i18n: george.icefestival.George_y2}}",
+		}
+	},
+{
+	"LogName":"Winter Star winter25",
+	"Action": "EditData",
+	"Target": "Data/Festivals/winter25",
+	"Entries": {
+			"Evelyn": "{{i18n: evelyn.winterstar.Evelyn}}",
+			"Evelyn_y2": "{{i18n: evelyn.winterstar.Evelyn_y2}}",
+			"George": "{{i18n: george.winterstar.George}}",
+			"George_y2": "{{i18n: george.winterstar.George_y2}}",
+		}
+    },
+]
+}

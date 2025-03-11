@@ -1,0 +1,17 @@
+{
+    "Name": "[CP] Baking Lovers Decor",
+    "Author": "KatyDTK",
+    "Version": "1.1",
+    "Description": "Furniture and decor designed for Baking Lovers.",
+    "UniqueID": "KatyDTK.BakingLoversDecor",
+    "UpdateKeys": ["Nexus:32094"], 
+    "Dependencies":[
+        { 
+         "UniqueID":"sophie.Calcifer",
+         "IsRequired": true
+        }
+     ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

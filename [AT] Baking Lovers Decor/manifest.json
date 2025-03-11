@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] Baking Lovers Decor",
+  "Author": "KatyDTK",
+  "Version": "1.1",
+  "Description": "Furniture and decor designed for Baking Lovers with Alternative Texture!",
+  "UniqueID": "KatyDTK.AT.BakingLoversDecor",
+  "UpdateKeys": ["nexus:32094"],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "3.6.0"
+  }
+}

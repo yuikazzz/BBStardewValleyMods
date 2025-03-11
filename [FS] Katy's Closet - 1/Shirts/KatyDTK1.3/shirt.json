@@ -1,0 +1,83 @@
+ {
+    "Name": "KatyDTK1.3",
+    "FrontShirt": {
+  "SleeveColors": [
+      [ 254,218,172 ],
+      [ 251,229,198 ],
+      [ 252,238,210 ]
+    ],
+               "DisableGrayscale": true,
+        "StartingPosition": {
+            "X": 0,
+            "Y": 0
+        },
+        "BodyPosition": {
+            "X": 0,
+            "Y": 0
+        },
+        "ShirtSize": {
+            "Width": 8,
+            "Length": 7
+        }
+    },
+    "RightShirt": {
+  "SleeveColors": [
+      [ 254,218,172 ],
+      [ 251,229,198 ],
+      [ 252,238,210 ]
+    ],
+               "DisableGrayscale": true,
+        "StartingPosition": {
+            "X": 0,
+            "Y": 7
+        },
+        "BodyPosition": {
+            "X": 0,
+            "Y": 0
+        },
+        "ShirtSize": {
+            "Width": 8,
+            "Length": 7
+        }
+    },
+    "LeftShirt": {
+  "SleeveColors": [
+      [ 254,218,172 ],
+      [ 251,229,198 ],
+      [ 252,238,210 ]
+    ],
+               "DisableGrayscale": true,
+        "StartingPosition": {
+            "X": 0,
+            "Y": 14
+        },
+        "BodyPosition": {
+            "X": 0,
+            "Y": 0
+        },
+        "ShirtSize": {
+            "Width": 8,
+            "Length": 7
+        }
+    },
+    "BackShirt": {
+  "SleeveColors": [
+      [ 254,218,172 ],
+      [ 251,229,198 ],
+      [ 252,238,210 ]
+    ],
+              "DisableGrayscale": true,
+        "StartingPosition": {
+            "X": 0,
+            "Y": 21
+        },
+        "BodyPosition": {
+            "X": 0,
+            "Y": 0
+        },
+        "ShirtSize": {
+            "Width": 8,
+            "Length": 8
+        }
+    }
+}

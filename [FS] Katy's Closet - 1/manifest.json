@@ -1,0 +1,13 @@
+{
+  "Name": "[FS] Katy's Closet No.1",
+  "Author": "KatyDTK",
+  "Version": "1.0.0",
+  "Description": "clothing mod",
+  "UniqueID": "KatyDTK.FS.KatysClosetno1",
+  "UpdateKeys": [32180],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.FashionSense",
+    "MinimumVersion": "7.0.0"
+  }
+}

@@ -1,0 +1,22 @@
+{
+   "Name": "z3 Maggs Immersive Sebastian (X)Spicy or Sweet",
+   "Author": "MaggPlays",
+   "Description": "Adds immersive dialogue and events for Sebastian",
+   "Version": "3.2.5",
+   "UniqueID": "maggplays.immersivesebastian",
+   "UpdateKeys": [ "Nexus:25841" ],
+   "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher",
+        "MinimumVersion": "2.4.0"
+        },
+   "Dependencies": [
+		{
+			"UniqueID": "Pathoschild.ContentPatcher",
+			"IsRequired": true
+		},
+		{
+			"UniqueID": "TheMightyAmondee.CustomTokens",
+			"IsRequired": true
+		}
+	]
+}
