@@ -1,7 +1,7 @@
 {
   "Name": "Letters from Sam",
   "Author": "J4ZMIN",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Adds custom mail and gifts from Sam as your friendship grows.",
   "UniqueID": "J4ZMIN.LettersFromSam",
   "UpdateKeys": ["Nexus:30259"],

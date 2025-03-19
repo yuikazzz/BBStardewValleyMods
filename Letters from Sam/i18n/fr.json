@@ -1,0 +1,25 @@
+{
+    //GIFTS
+      "J4ZMIN.MailSam01": "@,^J’ai trouvé ça sur la plage, puis j'ai réalisé que je n'avais pas de place pour les garder.^^Quoi qu’il en soit, tu pourras peut-être leur trouver une utilité.^^-Sam",
+      "J4ZMIN.MailSam02": "@,^J'en ai récupéré ça du travail... euh, légalement, bien sûr.^^Ils trainaient. J'ai pensé que tu pourrais les apprécier.^^-Sam",
+      "J4ZMIN.MailSam03": "@,^Ugh, maman a encore fait des cornichons. Pourquoi continue-t-elle à penser que j'aimerai ces trucs gluants ?^^Pas question que je mange ÇA. Mais peut-être qu’à toi ça te plait ?.^^-Sam",
+      "J4ZMIN.MailSam04": "Hé @,^J'ai trouvé ce vieux tambour dans mon placard. Je ne sais pas d'où il vient, mais il semble qu'il ait une certaine histoire.^^Je pensais que c'était peut-être plus ton truc que le mien, alors voilà pour toi !^^-Sam",
+      "J4ZMIN.MailSam05": "Hé @,^J'ai pensé que tu pourrais aimer ces graines de tomates.^^Ma mère ne jure que par eux et dit que les tomates fraîches font les meilleurs sandwichs. Je suppose que cela signifie que tu auras aussi besoin de pain. Désolé, je n'avais pas réfléchi jusqu’aussi loin.^^Bonne plantation !^-Sam",
+      "J4ZMIN.MailSam06": "@!^J'ai donc trouvé cet escargot qui traînait près de l'eau l'autre jour. C'est le petit mec le plus cool de tous les temps. J'ai pensé que tu aimerais peut-être le rencontrer. Ne le mange pas, d'accord ?^^À bientôt !^-Sam",
+      "J4ZMIN.MailSam07": "Hé, @!^J'ai acheté cette presse à fromage pour toi. Tu peux l'utiliser pour faire ton propre fromage frais. Honnêtement, le fromage fait maison est bien meilleur que celui que tu trouves en magasin. Penses-y... Du fromage à la demande !^^On se retrouve plus tard !^-Sam",
+      "J4ZMIN.MailSam08": "@,^D'accord, écoute-moi, j'ai décidé d'essayer la cuisine. Ouais, je sais, gros choc. Il s'avère que je peux faire des crêpes qui n'ont pas le goût du carton.^^Mais j’en ai fait une tonne et je ne peux pas tous les manger. Alors voilà pour toi !^^Conseil de pro : nois-les dans du sirop d’érable. Cela rend tout meilleur. J’espère que tu aimeras !^-Sam",
+      "J4ZMIN.MailSam09": "Yo, @!^Tu sais que je devais t'envoyer de la pizza, notre préférée, n'est-ce pas ?^^La prochaine fois que tu seras libre, faisons une soirée pizza/cinéma. Je te laisse choisir le film : tout me convient, du moment que ce n'est pas un documentaire ennuyeux.^^À bientôt !^-Sam",
+      "J4ZMIN.MailSam10": "Hé, @!^Alors, j'ai ces totems de téléportation... trop pratiques, non ? On peut désormais se rendre à la plage à tout moment.^^Imagine ça : toi , moi, le bruit des vagues, et peut-être de la pizza (évidemment). Cela ne semble-t-il pas être la journée parfaite ?^^On essaye de faire ça ?^^A bientôt ! ;)^-Sam",
+    
+    //TITLES
+    "J4ZMIN.TitleSam01": "Sam - Palourde trouvée",
+    "J4ZMIN.TitleSam02": "Sam - Joja Cola",
+    "J4ZMIN.TitleSam03": "Sam - Beurk, des cornichons",
+    "J4ZMIN.TitleSam04": "Sam - Tambour ancien",
+    "J4ZMIN.TitleSam05": "Sam - Graines de tomates",
+    "J4ZMIN.TitleSam06": "Sam - Escargot",
+    "J4ZMIN.TitleSam07": "Sam - Presse à fromage",
+    "J4ZMIN.TitleSam08": "Sam - Crêpes",
+    "J4ZMIN.TitleSam09": "Sam - Soirée Pizza",
+    "J4ZMIN.TitleSam10": "Sam - Totems de téléportation"
+}
